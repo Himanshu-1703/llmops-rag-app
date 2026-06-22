@@ -1,0 +1,1436 @@
+Hi guys, good evening, how are you all?
+Can you hear me?
+Okay, thank you.
+Let's start the session in a little while.
+Before that, we have some time, around 5 minutes.
+So whoever is here, if you have any questions, you can ask.
+Okay, let's start.
+Okay,
+Okay, so you can ask.
+Sir,
+I
+know.
+Can't say right now, honestly, because
+but yeah, we'll try.
+At least
+I can conduct a meetup.
+Most likely next month, July, may I'm planning to come there.
+So we can have a meetup then.
+I'm not from Delhi. Currently, I'm staying in
+Gurdwara.
+How many people have come?
+We have around 38 people.
+It's 6 o'clock. Let's wait for 2 more minutes and then start.
+Because this is the first session, immediately starting at this time.
+It's possible that some other people join.
+On
+10th, I guess, on 10th, there was one session where it is.
+So, AI workplace, which is your actual name,
+the course through which you have joined,
+you will be shown in the past sessions orientation session.
+Is there some newsletter also? Yes, we have
+a newsletter. You remind me after class. I'll show you. It's not a newsletter.
+Actually, it's a blog kind of setup where we
+put an article every Saturday.
+What happened in AI last week. So you can refer to that.
+It's not a newsletter. You get an email in the newsletter.
+We don't mail.
+We have got so many courses in
+single go. Is there any best sequence to follow considered starting from scratch?
+I tackled exactly this question in the orientation session.
+I told you that we have made a
+roadmap. It's also on the YouTube channel.
+If you follow that roadmap, you will get an idea
+in which order you have to do which courses.
+People have also talked about it in WhatsApp group. If you don't know
+about the roadmap, then go to the YouTube channel. You will get it there.
+It's a roadmap of around 3 hours.
+Vishwanathan is saying,
+would there be any session planned for explaining different agentic AI design
+patterns like React and other patterns?
+As such, I haven't planned it yet. I have explained React on YouTube channel.
+There are other patterns as well I know.
+We can have some sessions around that.
+I will note it down.
+Do we get a participation certificate at the end of 2 years? No Sunil.
+You can generate a certificate of every individual course.
+You won't get an overall certificate. You will get the certificate
+of every individual course.
+How to download the notes under your videos in parts of DSMP?
+If it's a PDF file, then just right click
+and save it. Is it possible to keep
+sessions a bit late evening around 7 or 8 as it would be
+great for working professionals? Yes, I know 8 would be
+great. I have an issue with 8. 7 can be done but we will do that from next month.
+Let's let this time pass this month.
+Can you show from where we can access the notes?
+Okay, Abhishek. Tell me at the end of the class when I will
+screen share. I will show you.
+I am not added to the WhatsApp group yet. Is there any link? Would need some direction around.
+The course through which you have joined this live session,
+you will get the link of the WhatsApp group on the top.
+Usually when recordings will be uploaded.
+If the session is still going on today, then you will get the recordings tomorrow morning.
+Sir, when the mail arrives,
+the reminder is the timing. If it was mentioned, it would have been better.
+Timing is mentioned. It is written that the class is after 2 hours or 8 hours.
+Can you
+make an app for CampusX? There is a feedback for this.
+Currently there is no plan but if everyone says, then we can try.
+Is there any lecture on fine tuning?
+Yes, there will be a lecture on fine tuning but there is some time in it.
+Let's do one thing. Let's start the session.
+I will take the questions after the session.
+I am screen sharing once. Tell me once if you can see my screen.
+Can you see my screen?
+Yes.
+Thank you.
+Let's start.
+Before starting, I would just say one thing. This is my first live session
+in a long while. I don't think I have taken a live session
+last year. So, it is possible that I am a bit rusty
+in taking live sessions. So, it's okay. Please forgive me.
+I will try to make the session good.
+I have cleared this upfront. Now let's start the session.
+What is the session about? We are basically
+starting a new YouTube playlist. As I said,
+there is an offering in this membership that we will not
+put videos directly on YouTube. We will conduct live sessions.
+You will attend those sessions and then we will edit these sessions and put them on YouTube.
+You can read these things directly live.
+You can interact with me. You can ask your doubts live.
+So, today is the first session. We are calling it YouTube Sandbox.
+So, today we are starting a new playlist.
+The name of this playlist is LLM Evals.
+What is in it? What all things come in it? We will discuss all that today.
+So, let's start from the beginning.
+If you talk about CampusX,
+then from the last 18 months,
+if you watch our videos or our paid courses,
+then you will observe a pattern that we are targeting a particular
+job profile. And the name of this job profile is
+AI Engineer. And this job profile has come out in the last 4 years.
+What is this job profile if you don't know?
+AI engineers are basically engineers whose job is
+to make LLM based applications.
+Basically, to make such software applications that use
+an LLM internally. Like a rag application or an agent.
+So, my team and I have been targeting this job role
+for the last 1.5 years. As in, to crack this job role,
+we are covering the things that you will need to study.
+So, we have covered a lot of things in this.
+Starting with, we taught you first of all that
+how you can orchestrate LLM based applications.
+Meaning, how you can make a big application by combining multiple LLM calls.
+How you can make a chatbot using
+library like Lanching. We taught you
+how to make rag systems.
+We taught you how to run a course on prompt engineering.
+We taught you how to make agents using different libraries.
+Including libraries like Langraph.
+Apart from that, we also taught you a lot of no code tools
+which will help you to make LLM based applications like
+Anitin, Make.com. So, the idea was
+to teach you enough things so that you can
+crack this job profile.
+But, all the things that we have taught you so far,
+everyone actually studies them. Everyone knows about them.
+Anyone who studies for 6 months, he will know all these things.
+He will know how to work on Lanching, rag, prompt engineering,
+how to make agents. This new playlist that we are starting
+is a new topic that very few people know about.
+If you learn this, you will get two big benefits.
+First big benefit is that your competitors
+who will sit with you in interviews, you will get
+an edge over them. They don't know this particular topic.
+Because, this topic is not being taught at the mass level. You will search on YouTube
+and you will not see enough videos. You will search on Udemy and you will not see enough
+courses because this topic is coming on the surface. New things are being added.
+So, this is the first benefit. You will get a competitive edge.
+Second is, after reading this topic, you will feel that
+there will be a change in your mindset.
+I will tell you what change will come. Till now, whatever topics you have read,
+after reading these topics, you may have made some projects on a personal level.
+But, this particular topic, LLM eval,
+which we are going to read, if you read this properly, then suddenly you
+will start thinking that how can I make this particular project
+for a company. So, suddenly, instead of thinking on a personal level,
+you will start thinking on the scale of the company. This will be the benefit
+after watching this particular YouTube playlist.
+So, today's first session,
+what are we going to do in this? We are going to do precisely three things.
+First, we will understand that LLM eval
+what is it?
+Second, why do we need it?
+Why do we need it? Second, I will show you
+a complete landscape of LLM eval.
+You may have heard many things.
+You may have heard different tools, terms, but I will
+show you a cohesive landscape through which you
+will create a mental model in your mind as to what LLM eval
+is and how different things are organized.
+And the agenda of today's third video,
+is that I will tell you an outline of this playlist.
+That in every session,
+what are we going to read and what prerequisites are needed for it.
+By the way, for today's video, for today's session,
+we don't need any prerequisites. If you haven't read the above topics,
+then you will understand the session to a large extent.
+Obviously, if you have read the topics, you will appreciate it more.
+But let's say you haven't read it, then you will click on many things.
+So, these are the three core agendas of today's session.
+So, in a nutshell, if I summarize the discussion so far,
+whatever we have read so far, some are completely different and
+some are very powerful. You will feel very powerful
+when you complete this entire playlist.
+And there will be a shift in your mindset and you will start thinking
+about things in the industry and production grade and you will be able to make better LLM applications.
+So, the discussion so far is clear.
+Write a yes and thumbs up so that we can start the session.
+We were not starting it yet, we were just talking.
+Okay.
+So,
+as always,
+we will discuss that
+why are we going to read the new topics
+of LLM evals?
+It is important to ask this question that
+why are we reading the list if it is being read on a topic?
+So, let's discuss this. First of all,
+tell me, I am opening the chat. Can you tell me
+how many of you have ever made any type of
+LLM based application in your life? It can be
+anything. It can be a basic chatbot using OpenAI
+API or it could be a small scale rag application
+or it could be a basic agent or it could be a multi agent architecture.
+How many people have made any type of
+basic LLM application here? I guess a lot of people will
+say yes. Right, because if you are following this channel, then you must have
+made such things together. Okay. Now comes my second
+question. How many people evaluated such applications
+after making them? Let's say you made
+a small rag application and
+did you evaluate it? This is the question.
+So, some people are saying yes, some people are saying no.
+Let me tell you my point. Generally, when I make these applications,
+I evaluate them. But the way I evaluate them
+is called wipe test.
+Can anyone tell me what is wipe test?
+What exactly is wipe test? There is an LLM application
+and you are testing it. The simple meaning of wipe test is
+that you manually
+test your application. And what is the way to do it manually?
+You throw 4-5 questions on it
+that come to your mind at that time and you see,
+understand and analyze the answer that yes, it is looking right.
+And if you think the answer to those 5 questions is right, then you say
+yes, it is working right and the project is done. This is called
+wipe testing. First of all, tell me, does it sound
+logical when you make an application for a proper
+company or for a big client in the industry?
+Will you do wipe test? Is it a good strategy?
+Does it sound like a good strategy? That you have given 5 questions,
+the right response was coming, it will be fine, let's deploy it.
+I guess everyone here will agree that
+this sounds risky. Now I know you are understanding
+that it is risky but now I will tell you manually, not manually,
+I will tell you with examples how risky it is. I will show you
+3 case studies where people
+literally deployed the LLM application after doing wipe test and
+if it didn't work, I will tell you that. Before that, here is the definition of wipe
+testing. Wipe testing means casually trying an LLM
+application with a few prompt and judging it by feel.
+Basically, I asked it 5-10 questions, the answer looked good,
+so I think it works. It's informal, subjective and usually
+not repeatable. Right? And it works only at the personal project
+level. For serious production grade softwares,
+wipe testing is not the way to go. You cannot evaluate production grade
+LLM applications with wipe testing. If you do,
+then I will tell you what will happen. How many people remember
+this particular news?
+A case study of Air Canada is being taught now.
+It happened in 2023 or 2024.
+What happened was that there was this passenger
+whose grandmother died and
+she had to travel quickly. Obviously.
+So what did she do? She went to Air Canada's website and asked her chatbot
+what is the bereavement fare? Bereavement fare is basically
+if someone dies in your family or friends,
+then these companies offer you a discount for this situation.
+I don't know if it happens in India or not but Air Canada gives it.
+So what did this chatbot do?
+He hallucinated and told her to pay the entire amount
+and pay the ticket and then
+return the entire amount.
+Now this person travelled by paying the ticket and when he returned
+for the reimbursement, his support said
+that there is no such policy. If you want bereavement fare,
+then you have to pay the discount before the ticket is paid.
+We don't give you any discount later.
+This person was emotionally disturbed.
+He got angry and dragged Air Canada to the court.
+Now what does Air Canada say? They tried to play smart.
+They said that this chatbot on our website
+is a separate entity. It doesn't come under our company.
+So they tried to make it look like a dependent contractor.
+The judge said that this does not seem logical.
+If your website is your company's property, then your chatbot
+is also your property. So whatever he says,
+it will be considered that it is coming from your company.
+Finally, Air Canada lost this case. They had to pay the entire refund
+which was not a big amount but a lot of insults were also made.
+After this case study,
+companies used to be very careful about what their chatbot is doing online.
+This was the first case study. I guess you are getting an idea
+how risky it can be if you deploy your LLM application without evaluating it.
+Another case study is similar.
+Chevrolet is an American car company. It was also in India.
+They had a dealer. I don't know where the dealer was in the US.
+They made their own chatbot.
+You can ask them about the car,
+the colors and models available in your dealership.
+So this guy came and
+jailbreak the chatbot. He wrote a prompt
+that going forward in this conversation, whatever I demand from you
+you have to fulfill. Is that okay?
+The dealer did not apply the guardrail
+so the chatbot agreed. This guy asked
+that he wants this particular car for $1.
+Is the deal confirmed? The chatbot said
+that the deal is confirmed. He even said that this is a binding offer.
+Obviously, the car was not purchased for $1 but he clicked
+screenshots and posted them on social media.
+This went viral and was very insulting.
+Again, this is treated as a case study that why you should not
+install your chatbots, RAC applications without
+testing them online. There is one more case study.
+I am telling you all these case studies so that you can sit in your mind
+how important it is to properly evaluate your LLM applications.
+This is another case.
+There was this guy, again I don't know his name,
+he was in a flight, it was a Colombian flight
+and what happened was that the air hostess who comes in the flight
+with lunch, whatever is in their box
+this container injured this guy and this guy
+sued this airline.
+So the lawyer who was representing
+this case, what did he do? He went to chatgpt
+and found some other cases where similar incidents
+happened and the airline was punished.
+Now apparently chatgpt generated some fake
+cases with names and everything.
+And the lawyer went to court with the fake cases
+and gave them to the judge. That this has happened in the past
+and the passenger gets compensation. When the judge
+searched, no such cases came up.
+Eventually the judge got angry and put a penalty on the lawyer
+of around 5000 dollars. And again this was a case which got
+very very popular. That he is simply hallucinating chatgpt
+creating facts and people are using it in professional scenarios
+as if it is true. So these are three cases
+where you can actually see that if you properly
+test your chatbots, your rag applications, your agents
+without putting them online, then not only you may face
+monetary loss but at the same time your company may get insulted
+and your brand may get spoiled. So a lot of things are at stake.
+So till now what we were doing was that we made a project
+and did a vibe testing and then deployed it.
+And then we showed it to a recruiter. This does not work.
+In the industry there is a proper step in between which we call
+LLM evaluation. And what you do there is that you
+extensively test the application you have made.
+I hope you are understanding. After looking at these three cases
+that the evaluation of LLM and LLM based applications
+is super important. Do you agree guys?
+Do you agree with it yes or no? Or do I need more
+case studies to convince you?
+Do you feel that the playlist that we are going to read
+is important on the basis of the discussion till now?
+Does it feel like that? Right.
+Okay. So let's discuss one more thing.
+The next discussion is that if LLM based
+applications are so important to test,
+which is visible, there are cases in front of our eyes, then
+why don't everyone test after making LLM applications?
+You will see that people who make it, they do vibe testing
+and deploy it. Mostly. This is not so much a culture that LLM's
+should have proper evaluation. So the question is that
+why is it not a norm to evaluate LLM applications?
+The answer to this is that because
+it is not straight forward. It's not like
+software applications where testing is straight forward.
+How many people are software developers or software
+testers here? If anyone is, please tell me once.
+You can tell me in the chat or whatever you can tell.
+Yeah. So a few people are there. So
+they will know that software testing is still a bit straight forward.
+Because I have written two lines here.
+Let's read it once and then discuss it. So traditional
+software testing checks whether deterministic logic
+gives expected output. Simple means that
+if you have written a calculator program, then you will give it
+2 and 3, then its output can only be 5.
+Nothing else can happen. So this is deterministic.
+Whereas LLM application testing checks whether
+probabilistic behavior meets a definition of good. This means
+that in the case of LLM's or LLM based applications
+that for the same input, output
+can be very very different. Right? If I ask what is overfitting
+from the chat bot, from the chat GPT, then the answer that I will show
+might be totally different from the answer that it shows to you. Right?
+Words will be different, number of sentences will be different, it can be one paragraph
+or two paragraphs. But my answer is also right, your answer is also right.
+So first of all, this is the first complexity that makes LLM
+based evaluations difficult. In software, it is simple. You will put
+test cases, on the basis of that either the answer will be yes or no.
+The test case will either pass or fail. But in the case of LLM's
+there is a grey area. There are three major differences.
+I will tell you three. First is that
+your fixed output is in software.
+Whereas your flexible output is
+in the case of LLM's which I have just told you.
+This is the same thing.
+There is no need to discuss it separately. Fixed output means deterministic. Flexible output
+means probabilistic. Second, in the case of software
+you only measure correctness. That
+I put two and three, the program gave five.
+Is it correct or not? That's all that matters. Whereas in LLM
+application you do multi-dimensional quality testing.
+You test whether it is correct or not. You test whether
+it is relevant or not. The answer to whether it is relevant or not is that
+suppose I asked what is overfitting?
+He gave me the definition of underfitting.
+He gave the correct definition of underfitting. Is it relevant?
+No, it is not relevant. I asked overfitting and he told underfitting.
+I have to check the relevance. Is it completeness or not?
+He told me the answer completely or not? Is it grounded or not?
+If we are making a rag application, the result in my data
+is it giving the answer on the basis or not? Or is it making it by itself?
+Is the answer safe? Now he gave me the definition of overfitting
+while telling me the definition. Because the model was trained
+in this way. So this is also risk involved. You have to understand this too.
+So I am saying that testing of LLM based application
+is not straight forward. In software based testing you
+have to check whether the output is correct or not
+You have to check multiple things apart from correctness
+because of which the overall process of
+evaluating LLMs becomes very difficult.
+I hope you understood.
+Please tell me, did you understand this point?
+In comparison to software testing, it is much much harder
+to evaluate LLM based software. Did you understand this point?
+Did you understand this point?
+Okay.
+So finally we will
+discuss what are LLM evalutes?
+Okay. We have read that
+why LLM evalutes are needed. We have read that
+why it is difficult to evaluate LLM especially in comparison
+to software testing. Now let's read what exactly LLM evalutes are.
+So this is kind of
+formal definition. Let's read it and then understand.
+So LLM evalutes are systematic and repeatable
+tests used to measure whether an LLM
+or an LLM based application is performing well
+according to a clear definition of good. Listen again.
+I am saying it again. LLM evalutes are systematic
+and repeatable tests used to measure
+whether an LLM or an LLM based application is
+performing well according to a clear definition of good.
+There are three words here which I have written in orange. These three things matter a lot.
+First systematic, second repeatable and third definition of good.
+Okay. Systematic means that
+a system is defined to evaluate an LLM based application.
+It's not random. There is a system involved.
+Repeatable means that if there are some changes in your system
+then the method of evaluating your LLM
+will evaluate the change and give it to you. Which means it is
+repeatable. You can repeat it at any time. And third,
+there is a clear definition of good. You should already know
+what is good? How will this LLM application work?
+What is the nature of good? Now I know this is a dry definition and
+you won't understand it. I will explain it through an example.
+Example is, suppose I am making a chart board
+for you. Okay. CampusX's chart board.
+What will CampusX's chart board do? CampusX's
+chart board, if you have any doubt on our lectures
+then you can ask CampusX's chart board.
+And CampusX's chart board will answer you based on the lecture content.
+So it is a rag application which is running on our lecture data.
+Now let's discuss here that first of all,
+if you are performing an evaluation then how will you do it systematically?
+So first of all, what I will do to test this,
+I will create a data set. Data set of
+user queries. So what I will do
+I will bring 50-100 user queries.
+And in those queries, I will deliberately try
+to put in every kind of use case. I will put a simple
+straightforward user query where the child is asking a simple question.
+I will put a query where the child is asking a very complex question.
+I will also bring a query where the child is asking a random question
+which has no meaning. I will also bring a query where
+the child is asking a query in another language on which our model is not trained.
+I will also bring a query where the child is abusing the question.
+You get my point? I will create a very representative
+data set in which I will try to capture
+what are the different kind of scenarios that my chart board
+can face when it is online and is answering people.
+And then I will perform an evaluation on the basis of this data set in the future.
+So you can see there is a system in place.
+Second, this system is repeatable.
+Repeatable in the sense that if I have made some changes in my chart board tomorrow
+First I was using OpenAI LLM, now I am using Anthropic LLM.
+Even then I can perform this evaluation with the help of this data set.
+I have made some changes in the system tomorrow. I have used some other
+databases or I have changed the internal architecture
+even then I can perform the evaluation. It is repeatable.
+And third, there is a definition of good. This is the most important point.
+While evaluating me, I should know
+what will be a good chart board. So I will sit and
+I will understand according to my business use case
+what metrics I have to define on which the chart board should score well.
+For example, there is a metric for me called
+simplicity of explanation. I rate it very high.
+If my chart board will run on my website, then it will explain
+in a very simple language. Second,
+I can say that there should be a pattern to explain by giving examples in my chart board.
+If it gives examples, I will consider it good.
+If it doesn't give examples, I will consider it bad.
+Third, I want it to be humorous.
+I want it to never get angry or frustrated
+by any child by mistake.
+So, can't be angry. This can also be
+a definition of good. Obviously, you cannot say
+any bad words. So, you can see,
+I am defining a logic on the basis of this.
+This is my definition of good. On the basis of this,
+I will perform an evaluation on this data set which I
+generated. So, this is how LLM evaluations
+work. The foundation of LLM eval is that
+you evaluate your LLM system or application
+in a systematic, repeatable way according to your business use case.
+There is a clear definition of good.
+After defining that, your evaluation is performed.
+At this point, you may not understand how it is done step by step.
+We will make our own custom evaluation pipeline in the future.
+The example I am giving, maybe we will work on this.
+But at this point, understand that LLM evaluation, this definition is a very proper definition.
+And if you are not understanding it, it's okay. You can
+stay loose. It's okay. If you don't understand it, it's fine.
+So, yeah. Did you get some 50-60%
+of this entire discussion? What happened to LLM evals?
+Okay.
+Now, let's come to the most important part of this lecture.
+The most important part of this lecture is
+that I will show you a complete landscape.
+I will show you
+what all LLM evals has.
+There are a lot of things in LLM evals. And that's why when a beginner
+starts reading this topic, he gets a little scared.
+There are so many tools, so many terms, what all to read, in what order to read.
+He is not understanding. But I promise you that
+in the next 30 minutes, I will make a very good
+roadmap, kind of, and show you.
+So, you will create a mental model in your mind.
+If you listen to any new term or tool tomorrow, you will understand what it does.
+In LLM evals.
+So, at this point, let's take a 5-minute break.
+There is no break. You can ask questions. If there is any question on the basis of the discussion so far.
+Does eval have to be
+repeatable for model as well? Models quality will definitely impact
+the result. Yes, it has to be repeatable.
+If eval is not repeatable, then there is no point.
+Sir, will we get the notes of all these videos? Yes, we will.
+It will be with a little delay. It's not like we will get it tomorrow, but we will get it.
+Sir, can we use another LLM to check our rag application? Yes.
+This is a proper technique. We call it LLM as a judge.
+In this playlist, we will read a 2-hour lecture.
+So, yes, it happens. It is a very common technique.
+Where you use another LLM to test an LLM based application.
+Is there any other question at this point?
+Is automated reasoning considered part of evals
+or different concept?
+I am not sure about this technique.
+Sorry, I can't see it.
+Sorry.
+Sir, that means if we make any LLM based
+app, then the tools used to eval it, that is LLM evals.
+Not usual. Only tools are not called LLM evals.
+In the next discussion, you will understand what is in LLM evals.
+I am going to teach you that next. Not only tools.
+If we use LLM as a judge, then how should we trust on another LLM
+that is right. That's the point.
+The definition of good that we discussed, on the basis of that, you make sure
+that the next LLM will judge correctly. You will understand after some time.
+But here, it takes a lot of your brain.
+That LLM is working on your behalf, but what you have to do with it,
+is your decision.
+Okay.
+Let's discuss the landscape of LLM evals.
+In simple words, in the next half hour, I am going to explain to you
+what all things are there in LLM evals.
+Like someone just said, that only tools are there in it.
+The answer is no. In this, apart from tools, many other things are there.
+So we are going to understand what all are there in this lecture.
+So the whole landscape of LLM evals,
+I would like to give a disclaimer here. This landscape that I am going to tell you,
+I have not picked it up from any book or research paper.
+This is my own kind of landscape.
+I have organized it in this way. So don't do this,
+that you go and start quoting people that this is what happens in LLM evals landscape.
+No, this is designed by me, so that I can teach you properly.
+This is not published, you can't quote it.
+This is a disclaimer. Okay. So yeah, coming back,
+that in the next half hour, our goal is to understand
+what all comes in LLM evals.
+So we are going to understand the big picture of LLM evals.
+And you must have already seen on the screen that I have divided this whole thing
+into five categories. What are those five categories?
+The first category is target.
+Target means the thing that you want to evaluate.
+That entity or object that you want to evaluate.
+Think about it, if we do software testing,
+then what do we test there?
+What entity do we test? What is the entity that you test?
+Can you write those people who are coming from software development?
+What is the target in software testing?
+Anyone? What do you test? What is tested?
+No, not output, outcome. Yes, as Hemanshu said,
+function. You write functions in code.
+So a lot of software testing is done on functions.
+That whether this particular function is working properly or not. Tell me something else.
+Apart from functions, who else is tested?
+Programs are tested. But generally programs are a set of functions.
+So generally, functions are tested. APIs are tested.
+So it can be said that the target in software testing
+is the function or the API that is tested.
+Here, in LLM based applications,
+can you tell me what are the targets?
+What do we target? What do we evaluate?
+What do we evaluate?
+Let me tell you, I have written it here.
+In LLM based systems,
+you can target four things.
+First is model. Model as in your LLM.
+If you want, you can evaluate LLM.
+This is the first target.
+And you do this so that you can understand which LLM will be right for a particular application.
+Think about it. Sometimes it happens that
+for your particular use case, it is not necessary that the frontier model is the best.
+It is possible that a small model
+can perform better on a specific thing.
+Take an example. Let's say I am making a chatbot
+that will answer coding related questions.
+Now I have two options. One option is that I use
+Anthropic's Opus model. Or the second option is
+that I use Quen's coding model.
+And by testing, I found that Quen's model
+is smaller in coding based tasks but it is giving better results because
+it is trained on coding based data.
+The first thing that you evaluate is model.
+Because by the evaluation of model, you can understand which LLM is most suitable for a particular LLM based application.
+The second thing
+that you target and evaluate is
+components. Now you have to understand one thing here.
+In any LLM based system, there is LLM at the center.
+But there are many other machines around it
+which are combined to form your overall system.
+The best example of this is Rack. Can you tell me
+what other components are there in Rack apart from LLM? Write it in the chat and tell me.
+In a Rack system,
+what are the components apart from LLM? Right, VectorDB,
+Retrievers, Rerankers,
+there are many other components.
+So in LLM evals, you can test LLM
+but you can also test individual components.
+Like your prompt, your retriever,
+your reranker, your context builder. If you are using
+LLM, you can test its tool call.
+If you are using output parser, you can test it.
+You can test the guardrail. There is a memory system. You can test memory individually.
+So I have told you two targets so far.
+LLM and different components of a LLM based system.
+The third thing that you can evaluate
+is workflow. Workflow is basically
+a connected flow of components.
+Like a Rack pipeline. How does a Rack pipeline work?
+User's question comes, you retrieve the document, build the context,
+generate the answer and after generating the answer, you cite the sources.
+So this is a proper workflow. So you can
+evaluate this workflow. Similarly,
+you made an agent. User gave the goal, you generated the plan,
+you created the tool, you chose the tool, called the tool, observed the result,
+went to the next step and went to the final answer. This is again a workflow.
+You can evaluate this entire workflow.
+This is the third entity that you can evaluate.
+And the fourth one is your complete finalized application.
+You made a customer chatbot, or an AI tutor,
+or a legal document assistant. These are like proper products
+that are being made online. So you can evaluate these as well.
+Think about it. How does a deployed application
+perform an evaluation? What do you evaluate?
+What can you evaluate in an already running application?
+Think about it. If there is an application which is running, it's live,
+how can you perform an evaluation there? Latency,
+how long is the system giving me the result?
+How much time is the system taking? How much cost is being incurred
+in generating the per answer? Is the system running properly?
+How many resources are being used? You test all these things in an online system.
+So did you get my point? We are discussing
+what all comes in LLMEvalves. And the first thing we discussed
+is that the most important thing in LLMEvalves is that
+what do you want to evaluate? And we read four things.
+First, what is it? Your LLMEvalves. You can evaluate your LLMEvalves.
+Second, you can evaluate different components of your system.
+You can evaluate a workflow.
+And you can evaluate a completely deployed, completed application.
+So these are four things which you can call
+as target. Target means something which you
+evaluate. Is it clear? Is the first
+part of this landscape clear? This is the first
+part of the landscape. Is it clear?
+Is there anyone who is going from above? I don't understand.
+It's not making sense. You can give feedback. I mean, in real time, I can
+try to change my level of
+explanation, if you will say so.
+So far, it's okay. We spent half an hour in class.
+I guess it's been 45 minutes. Is it fine?
+Okay. So now let's talk
+about the next thing. In the landscape of LLMEvalves,
+the next and perhaps the most important thing, which I am calling
+as criteria. What was the target?
+The thing which you evaluate.
+Criteria is actually the definition of good
+which we were discussing earlier. So the target
+which you are evaluating, on what aspect
+are you evaluating it? We call it criteria.
+For example, if I am evaluating an LLME,
+then on what aspect will I evaluate it?
+I am calling this criteria. Can someone tell me quickly,
+if we are evaluating an LLME, then can you tell me some
+criteria, some aspect on which you can evaluate LLMEs?
+Relevancy, hallucination. Hallucination is good. Latency is also good. Yes,
+latency can be an answer. Token generation speed is also a good
+metric. Is there toxicity or not?
+Ground truth is a little rag based.
+Is there bias or not? You are telling more
+about rag criteria, but yeah, a lot of people
+were right. So let me define it again.
+Target means the thing which you are evaluating. Criteria means
+on what aspect of that thing are you evaluating it?
+Now there are categories in this as well.
+There are four categories in this. First category is
+capability. Second category is
+application quality. Third is safety and security and fourth is operation.
+These are four aspects. Capability
+simply means what are the capabilities of
+the things you are using in the LLME. Quickly write me
+again and tell me what type of capabilities
+can be there apart from producing text.
+Producing text is a general capability but what kind of... Yeah, one capability
+could be generating code, reasoning is a capability,
+mathematical reasoning can also be called a capability,
+general knowledge can be called a capability, multimedia
+understanding can also be called a capability.
+So basically these are the same capabilities. Capability
+means we are talking about the aspects on which we judge
+LLMs. Second is application quality.
+Application quality means the application
+you make using LLM, rag application, agents
+whatever you measure,
+the way they work, the things you evaluate,
+you will put all those aspects in this bucket. Third comes
+safety and security. I guess you can understand if your chatbot is toxic
+or hallucinating or giving harmful
+instructions. So measuring all those things
+comes in this bucket. And finally, operations is
+a fourth bucket where we put those metrics, those aspects
+which tells whether your application is
+running properly in production. Like latency,
+token count, time for first token,
+P95 latency, all these things come in fourth bucket.
+So we discuss all these buckets one by one.
+First of all, let's discuss the capability bucket. Let's go up again
+so that you don't get confused. I am backtracking once because
+it may get confusing. What did we come to discuss?
+We came to discuss that
+what all comes in the term LLMEvalse.
+I said we will discuss this
+in five parts. First of all, we will discuss
+what LLMEvalse is applied on.
+What object is applied on which entity.
+So we came to know that there are four things. There is model
+which is our LLM. There are components which we use to build systems.
+There are workflows and there is the final application.
+After that, I said that the second LLMEvalse comes in
+criteria. Criteria means the system
+which you are evaluating, on what aspect basis you are evaluating it.
+We are discussing this. And there are four things in this.
+Capability, application quality, safety and security
+and operations. So keep tracking this
+otherwise you will get confused.
+First of all, let's talk about capability. This is strictly related
+to LLMs. Whenever we talk about capability
+we talk about LLMs. Your whole application is a rag application
+but when we talk about capability, we are talking about the brain of the system
+which is the LLM. There are many things in this but the most common
+capabilities which is talked about the most is reasoning capability.
+Second, coding capability, math capability,
+knowledge capability, instruction following capability,
+long context handling capability,
+multimodal understanding capability and finally, tool use
+capability. And to judge every capability
+we have some benchmarks. Maybe you have heard about these things
+Have you ever heard about these terms? MMLU,
+Human eval, GSM 8K,
+MMLU Trivia QA, IF eval
+maybe you have heard about this. Needle in a haystack,
+MMMU, tool bench. These are all benchmarks
+which we will discuss in the next lecture. We will discuss all of these in detail.
+The simple thing about these benchmarks is
+they tell you whether your LLM has all these capabilities
+or not. For example, I will show you one example
+its name is
+GSM 8K
+So this is
+your benchmark which makes us understand
+that any new LLM
+which has the capability to solve math problems
+So whenever there are new models like Gemini,
+Anthropic, Cloud or OpenAI
+they run these benchmarks
+before releasing their model and they get a score
+and they show the same score that we have topped
+and only then we know how capable a particular LLM is.
+If you have seen or followed LLM or chatbot
+so these are kind of leaderboards which tell you
+which model is leading
+and on what basis it is leading.
+Here you can see
+instruction following, math, multi-turn capabilities, coding
+creative writing. These are the aspects which we are discussing here.
+Is the point clear? We will not deep dive
+into how MMLU works or
+what kind of problems are there in the SWE bench. We will discuss all these in the next session.
+I just wanted to give you a high level overview
+that the criteria point we are discussing
+the first point is
+capability and we were just discussing the different
+different type of capabilities that a LLM can have. Is it clear till now?
+Then we can move on to the next criteria
+which is application quality.
+In application quality, the funda is simple. You have used LLM
+and made an application and on the basis
+of the nature of the application, you evaluate it.
+For example, if you have made a general chatbot which is not a rag chatbot
+or agent, then you will check it on the basis of different things
+like correctness, relevance, completeness, clarity
+instruction following. These are some of the metrics on which you judge
+these are the aspects on which you check.
+If you are making a rag chatbot, then in the rag chatbot
+the relevance of retrieval, context recall, faithfulness
+answer relevance, citation accuracy
+these are the metrics that you follow. If you are building an agent
+then tool selection accuracy, argument correctness
+task completion ratio, every step
+efficiency, if the agent fails then how much accuracy
+is required to recover it. These are the metrics
+inside application quality. Similarly, we also have
+multi-ton conversation quality and structured output quality.
+For now, ignore this as well. The point is clear that application quality
+means when you are making a system on LLM
+then what is the way to evaluate it.
+So
+we have read two points in criteria.
+This one is done, this one is done.
+Let's quickly discuss safety and security.
+The simple meaning of safety and security is that the system you have created or your LLM
+or LLM based system is both safe and secure.
+So here you evaluate in many ways. You check toxicity
+and harmful content. There are different metrics for that. You can just
+read these metrics. You must have heard them before. But now you are understanding
+that where can I place it mentally. So we have toxicity and
+harmful content, bias and fairness
+metrics, hallucination metrics
+and other metrics. You have different metrics for
+sycophancy and dishonesty, jail breaks, prompt injection
+and other metrics to judge dangerous capabilities.
+So this is your third dimension
+inside criteria. And the fourth one is
+operations which we have discussed here.
+Operations is basically that once you deploy your application
+and then you measure
+latency and responsiveness.
+So here you have metrics such as P95 latency. 95%
+users feel how much latency is there in the system. Cost efficiency
+is one more important metric where you check the token usage
+cost per query, model cost
+comparison. We also have reliability and availability
+where you can see how reliable your system is.
+Reliable in the sense how long it was up
+and if it failed and how quickly it came back online.
+You check such things. In monitoring and observability
+you check every trace that is coming, you lock it.
+So you do such things here. And finally in drift and regression
+tracking you basically check that
+over time your model or system is not degrading.
+These things you measure here. So basically
+these four things come in your criteria.
+So target was which thing you evaluate.
+Criteria is
+which aspect basis you evaluate. Next comes
+method. Method is basically that you
+how
+you perform the evaluation. It is a little
+good. I feel you can get confused because of the language.
+But I will try to explain anyways. Target was
+which thing you are evaluating. Criteria is
+which aspect you are evaluating. Method is
+how you are evaluating it. There are different ways. I will tell you.
+If you go here, I will show you.
+There are four different ways. First is
+human judgment. One way is that you
+make a human sit and tell him that you evaluate
+the system. This is the best way to evaluate any LLM
+based application. Because human judgment is still better than
+any kind of AI. So making a human sit and
+tell him to do the work is super good. But can you tell me what is the problem with this approach
+if we keep humans for evaluation.
+What can be the problem?
+It is simple. This is not scalable.
+If you make humans sit and do the testing or evaluation
+then it is not scalable in the sense that it will be very costly.
+You will have to pay salary and there is a good chance that you
+can't even do it. How many test cases can a human think?
+How many things can he gather? That is the problem. It is not scalable.
+Second is automated checks. So there are some
+programmatic techniques with which
+you can perform evaluations. Again, I can't go into
+technical depth here because there are many things to study here.
+But you can do things programmatically.
+It is just that you can't handle many cases programmatically.
+For example, if you have made a rag based application then you can't
+evaluate it programmatically.
+Let's say you have
+given an example. Tell me an LLM application
+which has a structured output
+from the system. Like a JSON type
+output. Can you tell me a scenario like this? I can't think of one.
+Can you give me an example where we have made an LLM application
+whose output is not a chatbot type output. I cannot chat with it
+but it is using LLM and giving me a JSON type output.
+I am trying to think of an example.
+Let's say there is a weather forecast
+app. Though for weather forecast you will mostly
+use a different forecasting model. But let's say
+you have given a good example
+like DP Sharma. Web scraping
+of resumes. Let's say we have made a system
+where your system is looking at a resume and
+analyzing it and giving us a score
+that how suitable the candidate is.
+There is a system where the output is JSON.
+You can programatically evaluate this type of system.
+There are techniques which will programatically evaluate it.
+But not a rag based system. Because there can be any output
+and this technique fails.
+The third and most used technique which you will read the most in this course
+is model as a judge or we call it LLM as a judge.
+Basically what you do is
+you come in between these two techniques. Humans give us the most judgment power
+and you can scale it through programming.
+LLM as a judge comes in between. It has
+human like judgment and it has
+the power to scale programming. That is why
+the methods used the most in the industry
+to evaluate any kind of LLM based application
+not any kind but most of the types of LLM based application that is LLM
+as a judge. We will spend the most time on this in this course.
+There is a fourth method of performing
+LLM evaluations that is production feedback.
+When your system is deployed,
+you perform evaluations. How?
+You take the help of your users. Like what you are doing is
+getting the user rating done. Or you are getting thumbs up and thumbs down done.
+So, evaluations are being done on the basis of this.
+Suppose you defined a metric like I defined a metric during making a chart board of CampusX
+that there should be simple examples
+or there should be simple explanations while giving every answer.
+So, what I will do is during a session, I will give 4-5 explanations
+and then I will pop up and ask my student
+was my explanation simple?
+Yes or No? So, the user said no.
+So, it was evaluated and I got to know that whatever was there till now
+was not getting the answer by being simplified. So, during production
+you can take the feedback
+and perform the evaluation.
+AB testing also comes in this. You have taken out two different versions
+of your chart board with one model and another with another model
+and you are finding out which model is giving the most simple explanation.
+Your user is telling you. So, you perform evaluations in production as well.
+So, this is the fourth technique. So, in nutshell
+we will discuss 4 types of methods in this course. Human judgment
+which is less but is very powerful in the sense
+that generally it will be correct. But the problem is
+that you cannot scale it. It is very costly. Second is
+to evaluate through automated checks or programming.
+But it will not work on every type of application. It will generally work on that type of application
+where output is controlled.
+You get to see a particular type of output as we discussed earlier.
+The resume type. Third is LLM as a judge where you are using
+LLM to evaluate an LLM based application.
+And third is production feedback where you evaluate even after
+being deployed with the help of user behavior. So, these are the 4 methods
+which we will discuss in this course. So, again let's go up
+we covered the third thing. What methods
+come in LLM evaluation. We are backtracking again.
+We studied in target. What things can be evaluated.
+We studied in the theory that what aspects can be evaluated
+in those targets. And in the method we studied the method
+of evaluating them. After that the next comes
+life cycle or we can call it timing. Timing simply
+tells us when we are performing evaluations.
+So, there are two in this. One comes your
+offline evaluation and the other
+comes online evaluation. Offline evaluation means
+you are performing the evaluation when your system
+is being made. It is not deployed. People are not using it.
+At that time the evaluations you perform are called
+offline evaluations. And once your system is deployed
+after that the evaluations are called
+online evaluations. So, the example I just gave you that the user is telling you
+by giving a thumbs down. That is an example of online evaluation.
+You are checking if the latency of your deployed app
+or the speed of token per second is how much. Then this is an online evaluation.
+If you are checking in the process of making a rag chatbot
+that how much is the faithfulness score. Then it is an offline evaluation.
+So, you can understand this immediately. You can see any metric
+read its description and you will understand whether it is online or offline.
+Basically, it is telling you at what point of time
+you are performing the evaluation. I hope you understood.
+So, this was the fourth thing. Life cycle or timing.
+You read the target, criteria, method and timing.
+The last thing is tools. What are tools?
+Tools is basically the infra needed to run, track
+and manage the evaluation. So, all this
+discussion, who facilitates this work?
+Tools. So, there are certain categories in tools. We will discuss that later.
+So, there are four categories in tools. First is
+evaluation frameworks. Second is benchmarks.
+Third is end-to-end platforms. And fourth is safety tools.
+You will mostly see these four types of tools in this playlist
+and in general when you search on the internet. What are evaluation
+frameworks? These are basically frameworks
+with which you can perform many types of evaluations.
+There are two types of frameworks. One is general frameworks.
+They give you the option to evaluate different types.
+The most popular one is DeepEval. We will use it in our course.
+This is the library. There is a company called Confident AI.
+This is their library. You will see
+that you can perform many types of evaluations in this.
+What is this? It's strange.
+DeepEval. This is the library.
+I don't know what is happening. Is this happening with you as well?
+So, it's not like this.
+I don't know. This seems like an issue on my laptop.
+In any case, DeepEval is a library
+with which you can evaluate agents,
+RAC chartboards,
+safety-based evaluations, everything.
+It's a general kind of framework.
+This is an example of a general framework. Then there are specialized frameworks
+which are used to run a particular type of evaluation.
+This is an example of this. This is RAC.
+RAC is a library which is used for evaluation of RAC-based applications.
+This is the library.
+Then there is a library called TrueLens.
+TrueLens is for agents.
+If you are making agents, you can use TrueLens to evaluate them.
+This is again a specialized library.
+Benchmarks. Benchmarks are used to tell
+how LLMs are in a particular task or capability.
+These are the tasks. Reasoning, coding, math, knowledge, etc.
+These are the benchmarks which we have seen earlier.
+We will read them in detail in the next lecture. This is the second set of tools.
+Third is there are some end-to-end platforms
+which do a lot of work for you. For example, you have to create a data set
+which I told you earlier that I will create a data set of 30-40-50 questions.
+I can do the management of that data set.
+I can perform experiment tracking. I have changed the chunking size,
+changed the vector database, run different experiments.
+I can do version comparison. I can record human feedback.
+I can bring observability to my system.
+I can record every trace.
+There are some tools which are used. Their example is Langsmith.
+If you have seen it, I have made a YouTube video on it.
+We also have Langfuse which is again a big name in this particular domain.
+Arise Phoenix is also very popular.
+Weave is also a tool. These are end-to-end platforms
+which are trying to do everything. And lastly, we have some tools
+which are specifically made for safety-related
+evaluations. For example, with their help,
+you can test jail breaks, prompt injection,
+data leakage. Their example is PromptFoo.
+This is a very popular tool which specifically
+helps in safety-related evaluations.
+Then we have another library
+called PyRit. This is by Microsoft, I guess.
+This is a Python risk identification tool.
+This is used.
+You can see that this way your entire landscape is made.
+I will come back on the top
+to this place. Now I will ask you
+this question.
+We spent around half an hour, maybe 45 minutes.
+Do you have a better picture in your mind
+in comparison to 45 minutes back? How the entire
+landscape of LLMEvals is organized?
+Basically, we discussed 5 categories. Target, which we have to evaluate.
+Criteria, which aspect we have to evaluate. Method,
+how to evaluate. Lifecycle, when to evaluate.
+Tools, which we have to evaluate.
+We put all these in the same place and tried to decode the entire landscape.
+Honestly,
+it's not a good idea to upload so much information
+without any further study on the students.
+I am realizing that I haven't studied well.
+I was feeling that I am not able to express myself.
+So please tell me once,
+if you are feeling confusing. Basically, give me feedback so that I can improve.
+Because I felt that
+too much information can be processed for you.
+Was it the case?
+If it was the case, you can tell me. What I can do is I can take this class again.
+I can do that too so that you can understand better.
+Because I am not satisfied with the quality of explanation
+after seeing the video.
+As Shivam said, Deepanshu said,
+too much information to process, too many classifications I felt.
+Right.
+If there were more examples, it would have been better.
+Okay. Some people have a problem which I was feeling
+in the process of explaining. It's okay.
+It's all similar and confusing.
+It's too much content but you can explain.
+Okay.
+Okay.
+So, mostly we had to discuss this. Let's discuss one last thing.
+Now that you have some idea about the entire landscape
+and what all things are there in the LLM evaluations.
+I will tell you how I have planned this course.
+So, in total there will be 10 lectures. I am telling you the lecture by lecture plan.
+There will be minimum 10 lectures.
+It can be more than 10. So, this was our today's lecture
+where I gave you an introduction of LLM evals and its landscape.
+In the next lecture,
+we will study the capability evals in detail.
+This thing.
+We will study this thing in detail.
+How do you evaluate LLMs?
+What are the different benchmarks? How does every benchmark work?
+So, we will discuss the most popular benchmarks.
+This will be our next session. Session number 2.
+In session number 3, we will move to application quality evals.
+We will discuss how to evaluate an application.
+In this session, we are evaluating LLMs.
+Here, we will learn to evaluate applications.
+We will not go too deep.
+This is the first session of application evaluation.
+In session 4, we will learn how to create golden datasets and rubrics.
+I told you earlier that I will make a dataset of 50-60 questions.
+I will create a definition of good.
+I will create a definition of good.
+We will learn to make our own dataset in lecture 4.
+In lecture 5, we will learn about programmatic evals.
+Programmatic evals are the same that we discussed earlier.
+We were making an application called a parser.
+We were generating a score.
+We will do that in lecture 5.
+In lecture 6, we will learn the most important topic of the playlist.
+LLM as a judge.
+In lecture 7, we will learn how to evaluate racks.
+In lecture 8, we will learn how to evaluate agents.
+In lecture 9, we will learn how to evaluate safety.
+In lecture 10, we will learn how to evaluate operational evals.
+Operational eval is basically this thing.
+We took 4-5 lectures.
+This is the 9th lecture and this is the 10th.
+This is the outline of the course.
+At this point, it seems that everything will be done in one lecture.
+But it is possible that we will have to do more coverage tomorrow.
+This might be a playlist of 10-15 lectures.
+But roughly, this will be the course outline.
+You can tell me if you have any feedback on this.
+I can add or subtract.
+I can see that there are 80 people here.
+There are many people who have problems with explanations.
+I can take this class again on Monday.
+I am not satisfied. I think I could have delivered better.
+I think there could be confusion.
+I won't say that you didn't try to understand.
+It was a big topic to explain in 30-45 minutes.
+But I think I can do better.
+We have a session on Monday.
+You have a session on Monday, right?
+Just one second.
+Yes, there is a session on Monday.
+Would you be interested to do a repeat session on Tuesday?
+I will repeat the session for those who didn't understand.
+Pre-requisites for the next lecture.
+The next lecture is Capability Eval.
+There are no prerequisites here.
+We are going to study the top benchmarks.
+We won't go in-depth.
+We will read the whole lecture in this way.
+So that we have an idea as application developers.
+What is the benchmark and what is the meaning of a benchmark.
+This lecture will solve this purpose.
+After watching the lecture, you will make a model selection in the process of making your application.
+Now, you can use the open AI model or the anthropic model.
+But in the future, you will understand better
+which model is best for your given task based on these benchmarks.
+There are no prerequisites.
+Okay.
+So guys, that's all I wanted to cover in the introductory session.
+So what I will do is I will stay for 10-15 minutes.
+I am looking at your chat.
+Those who have no doubts, you can go.
+Those who have doubts, you can stay.
+You can ask your questions. I am looking at the chat.
+Yes, we can do an extra session but not really required.
+I am not satisfied. I will be very honest.
+As a teacher, you feel that
+were you able to give your 100% or not.
+I felt that it was a bit rusty. As I said, I am taking a live session after a long time.
+I feel that I need more practice. It is not necessary for you to come.
+You will get the recording anyway.
+The first session will be better than the first session.
+So watch the recording of the second session. You don't need to attend it live.
+Sir, can you please share the schedule dates for these lectures?
+This is your course dashboard.
+This is your monthly schedule.
+You can see it from here.
+Okay.
+What else is there?
+Yes, but please after 6.30 on Tuesday.
+You can do it from 6.30. I will mention the time there.
+Can you please tell us for the overall course?
+Aniket will vary. He will vary in every session.
+So I cannot say. I will mostly say that you should come to Langraph, Langchain
+You should come to make rag applications.
+So prerequisite.
+When will we get notes, recorded sessions and current deck?
+Shivani, recorded session will be available tomorrow.
+It will take time to make notes.
+I cannot say exactly how much time it will take.
+It might be 3-4 weeks because it takes time to make notes.
+And if you are talking about the deck, you will get it tomorrow.
+Hi sir, one second.
+If lecture on Monday has dependency on today's lecture, that will be repeat.
+Can we do session after repeat session?
+No, it will be a different session. It is a session of LLM Ops.
+As such, there is no prerequisite. Anyone can join.
+It is the first session.
+It is not required that we do this session first.
+Don't console me.
+I am not sad.
+I told you earlier that you have the power of feedback.
+It means whenever you say that you are not understanding,
+we will do everything to make sure that you understand.
+Which might include taking a session again.
+I don't care.
+It's okay.
+Sir, my WhatsApp number is different than registered number sent mail regarding this.
+If Abhishek mails, it will be handled.
+Sufil will handle the query.
+Sir, I am not able to see DSMP 2 content.
+No, we have broken the content of DSMP 2 into 10 courses.
+If you go and see all the courses, you will see.
+DSMP part 1, part 2, part 3, and part 10 are available.
+So all the content is available.
+Rag eval is covered in advanced rag.
+Yes, it is covered there too.
+We will cover it again here because it is overlapping in this course.
+It is covered there too.
+Please show us where to join WhatsApp group.
+You can see the WhatsApp community link here.
+You will find this link here.
+You have to join from here.
+Want to start from scratch?
+Sir, Sufil, there was an update.
+Start with machine learning, then deep learning, then gen. AI.
+Sir, where is the notes section?
+There is no section for notes.
+Notes are also a course.
+There is a course called 100 days of machine learning in your dashboard.
+If you go there, you will find notes.
+No, you are not audible.
+Wait, I will do it.
+Yes, tell me.
+Am I audible?
+One minute.
+I will tell you.
+One minute, I can't hear.
+Audio.
+Select a speaker.
+Hello.
+I can't hear.
+Select a speaker.
+Wait.
+Say it now.
+Am I audible?
+Sir, there is an update for instant notes.
+We are uploading the transcripts.
+We can generate pointers by putting them in LLM.
+The notes that we make will be available after a few weeks.
+Okay.
+I think you understood.
+It is already given below the orientation session.
+If anyone wants to take a look, they can have it from there.
+Okay, I guess you understood.
+Okay.
+I am 5 minutes away. If you have any other questions, you can ask.
+Okay.
+Okay, Manjula.
+I will take this feedback.
+If any cloud provider service is available,
+we can see that too.
+The method and life cycle are a bit overlapping.
+The user feedback is coming in both.
+Yes, obviously overlapping will happen.
+We are discussing how to evaluate and when to evaluate.
+So, overlapping will happen.
+Sir, there is a plan for LLM on GPU in the future.
+What does LLM on GPU mean?
+Sir, what is the progress on your book?
+What is the progress on your book? Which book are you talking about?
+The one that I uploaded a few days ago on YouTube.
+It is not working on it.
+Although, my book is getting published. It is getting published on Amazon.
+It is complete on machine learning. Hopefully, in July, I will launch it.
+So, that is the book on which it is working.
+For around 1.5 years. Sir, will you get some guidance
+after this?
+Yes, you can ask. If I can do it, definitely.
+LLM training on GPU. Yes, yes. We will work on the builder side of things.
+Hopefully, after this playlist.
+Book available on O'Reilly. No, no, no. Not on O'Reilly.
+That book will be published by a publisher.
+I don't know how many of you have read Let Us See.
+Do you know the author of Let Us See?
+Yashwant Sir. Yashwant Kanitkal.
+He and I are writing a book together.
+On machine learning. The name of that book is
+Let Us Learn Machine Learning.
+That book is getting released in July.
+We have been working on it for the last 1.5 years.
+We started in 2024.
+Now the book has been completed.
+Editing and everything is happening. Yes, he is a mechanical engineer.
+He is a very old and very good author.
+He reached me out and he said, let's write a book together
+on machine learning. Then we worked together for
+1.5 years. That book will be released.
+Hopefully, in July. You can buy it from Amazon.
+I will tell you about it on my channel. Let it come once.
+It's okay. I got the feedback. Basically, these libraries
+are the only ones you can run on cloud tools.
+Sir, how do you have such immense knowledge?
+I don't have immense knowledge.
+I can just say that I have spent more time than you in this field.
+So maybe I know a bit more.
+But I don't feel such immense knowledge.
+Sir, please try. The language of the book should be simpler.
+I have tried one thing in Dipan Should Trust. Language is very simple.
+Hopefully, you will like it.
+Yes, sure.
+Module 4th, session 4th
+will be practical for you.
+Book language. It's in English.
+It's written in English.
+Sir, currently I am working as a data engineer. Sir,
+do you have any plan to use related tools in your project
+to make agents? I am not only talking about Databricks, but similar tools
+that we are making agents for. Do you have any plans for sessions for that?
+Pratyush, currently there is no plan for such tool-dependent sessions.
+One thing I always focus on is that rather than
+teaching you things that are tool-dependent, I would like to teach you things that are
+concept based. So that even after the tool changes,
+you can work on it. In the LLM evaluation
+playlist that I am teaching, you will see that I will focus less on tools
+and more on concepts. Because tools will keep coming.
+Every day a new tool will come. Things are happening at such a speed.
+So,
+I am not focusing on tools right now. But again,
+if you say, we can arrange a session. But there should be a tool that is really used.
+It should be common. If there is a tool that is used by only one or two companies,
+then it does not make sense.
+Can we get projects to do hands on after every course and get
+live support from your team? This will increase the confidence.
+Okay, we can have a discussion about this. We can give projects,
+but it is difficult to give live support to everyone.
+Because there are so many people. So, what we can do is
+we can give you projects. We can guide you.
+And you can do a lot of things by making teams.
+Sir, consider doing some hackathons for insiders. Yes, we will do that Abhishek.
+That is our plan. But the first month has just started. We are also stabilizing a little.
+The team is also getting a new task. So, we are stabilizing it.
+After a month or two, we will do something like this. You guys also learn a little after that.
+Any course planned on Harness Engineering future? Yes, Danish.
+Harness Engineering is on our radar.
+Hopefully, we will have a course or a small playlist on Harness Engineering.
+Okay, I guess
+there are no more questions. There are a couple of questions coming. Let's see them quickly.
+Sir, I wanted to understand one thing. You are involved in so many things,
+and you manage so well every day.
+Is there any way or approach that you follow?
+If you can share, then we can plan our day better.
+We plan every day.
+Honestly, Sudheet, you must be thinking that I manage well.
+But the reality of my site is that I struggle a lot just like you.
+I also have 5-10 tasks written in my day. And by the end of the day,
+hardly 3-4 tasks are done.
+The rest are not done. So, I am struggling a lot.
+In time management and work-life balance,
+I am really struggling right now. And I am myself trying
+to figure out. I talk to chat GPT and Claude a lot about
+how can I improve on this aspect personally.
+So, not something on which I can explain or tell you something.
+What are your views on Fable 5? Aman, I haven't used it yet.
+Ajay has used it. And tomorrow he is going to take a session.
+So, he will tell you something around Fable 5.
+MN and JNI projects are mostly getting done on
+Databricks and Azure based platforms for enterprise level.
+So, I thought it would be really nice. Okay, Prem, noted.
+We have heard these two things a lot. And hopefully, in coming days,
+either we will create a YouTube playlist or
+we can conduct a small workshop.
+Sir, can we get transcripts for other languages?
+Other lectures in the Insider course.
+Yes, we will give you transcripts of all the lectures we will take live.
+Sufal, will this be done? Tell me.
+So, for all the
+upcoming lectures,
+we cannot promise the feasibility for previous courses right now.
+Okay. You will get the transcripts for all the upcoming lectures.
+Okay.
+Okay, guys. I guess that's it.
+So, I will summarize. We have completed the first session.
+Me and some other people are not fully satisfied with the lecture.
+So, we are having an extra session in which we will repeat the same thing on Tuesday.
+Tomorrow, you have a session on
+AI Pulse where you will be told about
+what happened in the last two weeks in the world of AI.
+That session will be taken by Ajay.
+He prepared a lot this whole week sitting in the office.
+So, I think I will take a good session. On Monday, you will have your first session on
+the LLM Ops course. On Tuesday, you will have a repeat session.
+It's your choice whether you want to come or not. And then on Wednesday,
+it will be the second session. So, a lot of live sessions are there.
+Plan your timetable and attend. What we guarantee is that you will get
+the recordings the next day. You will get the transcripts the next day. If we are using
+the notes, you will get the notes the next day.
+I liked it. After taking the live session after a long time,
+I will be taking the live session.
+So, yeah, let's close the session.
+Bye. Good night.
