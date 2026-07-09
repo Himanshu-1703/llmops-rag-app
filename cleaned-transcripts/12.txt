@@ -1,0 +1,1967 @@
+Hi guys, good evening.
+Today I am not expecting too many people to come because it's a
+repeat session.
+Although it would have been more fun if they had come because they will teach a lot of new things.
+How many of you have done my last session?
+Basically, the session 1 of LLME VALS.
+This is the repeat session.
+So the original session.
+Just Aman.
+Good evening.
+Deepi sir, how are you?
+Vineet, Avinash, you guys did it too.
+Okay, fine.
+Okay, it's okay.
+The good thing is that you will almost feel like the session is new.
+I have kind of reframed the whole session.
+As in the last session, my explanation was that you will see a little different from that
+And hopefully, it will be understood better.
+So let's wait for a minute or two more.
+Then we can start the session.
+Okay, around 20 people are there.
+Good.
+More than sufficient.
+Good evening.
+How can we know the upcoming live session schedule?
+Currently, we are receiving email notification one hour prior to the class.
+Shubham, there is a course in your dashboard called Insiders Live Sessions.
+I will show you there.
+I will share my screen.
+Can you see my screen?
+This is the course.
+You will see the monthly schedule here.
+From there, you will know which class is going to be held on which day.
+So we have made a whole June schedule and put it here.
+So today is the 17th class.
+After that, your class is also for the next three days.
+So this is the schedule for June.
+We will do this every month.
+So you will get the full schedule.
+Guys, please write in the chat and tell me, can you see the screen?
+Okay.
+So guys start the session.
+One suggestion.
+Better if we can do it in the morning.
+So we have started the session.
+So we will start the session.
+So we have started the session.
+So we have started the session.
+So we have started the session.
+One suggestion.
+Better if we can group the recordings of the live session as per similar logical group.
+Okay.
+Feedback taken.
+We will make three categories there.
+YouTube sessions will come to one place.
+LLM ops sessions will come to one place.
+And AI pulse sessions will come to one place.
+So it will be easier for you to navigate.
+We were going to do that.
+Now there are only three or four sessions, so we did not do it.
+So guys, let's start today's session.
+First of all, I would like to clarify.
+If someone is watching the recording in the future, then he may have doubts.
+This session is being re-recorded.
+This session was originally held last week.
+I took it.
+But the problem was that the explanation I gave in the live class, I personally did not like it.
+So I decided that whatever has to be done, has to be done well.
+So I thought that let's take this live session again.
+Where I will prepare a little better and hopefully I will be able to teach you a little better.
+So today's session is essentially a repeat session.
+But those who have done both the sessions will realize that today's session will look very different from the previous session.
+Okay.
+So let's start.
+Again, a disclaimer is that the first half hour may seem identical to you.
+But I am assuming that you are attending this session for the first time.
+So I will say it as it is.
+Okay.
+So please bear with it.
+But after half an hour, you will feel the session new.
+Okay.
+So everything is clear.
+Start.
+Guys, let me know once.
+We are all done or clear.
+Okay.
+Let's go.
+So, on campusX, we have been targeting a job profile for the past one and a half years.
+By calling it AI engineer.
+The reason for targeting this job profile is that I personally feel that
+this job profile is going to be very popular in the future.
+Why?
+Because who is an AI engineer?
+AI engineer is a person whose job is to make LLM based applications.
+Right?
+Now after 2022, there is a wave of LLM in the world of AI.
+And that is why there is a lot of demand for LLM based applications.
+And that is why you will see that around you, you will see a lot of LLM based applications.
+And companies are also facing this thing.
+They are feeling that their competitors are making LLM based applications and serving better products.
+And that is why each and every company today wants that they should have more and more LLM based applications.
+But making LLM based applications is not a very simple job.
+It needs a lot of specialization and that is why this job role exists.
+So already in this job profile you will see a lot of jobs.
+And going forward I feel that this job role will grow even more.
+There can be a point in the future where even software engineers will be faced with this job role.
+In terms of the number of job postings.
+So that is why we here at CampusX are investing our focus, time, energy on this job role.
+So what we are trying to do is to crack this job role.
+We are trying to teach you all the things that you need to do in the last 1-1.5 years.
+What have we covered so far?
+We have taught you Lang chain in the beginning.
+With the help of which you can make basic LLM applications.
+You can orchestrate.
+Then we taught you how to make rag based applications.
+Which is again a very important categorization of LLM based applications.
+Then we taught you how to work with agents.
+In this also we taught you multiple libraries.
+We covered Langraph on YouTube.
+Whereas through our paid courses we covered libraries and frameworks like CRIO AI and Agno.
+After that we have recently taught you a course on prompt engineering.
+Then we have also touched on LLM Ops which is again a very important aspect of making LLM based applications.
+By creating videos around tools like Langsmith.
+And your course is already going on on LLM Ops.
+And lastly we have also touched on some no code tools.
+Such as NA10.
+With the help of which you can make LLM based applications without writing any code.
+So all this we have done in the last 1.5 years.
+But still there are some topics left which are very important to learn if you want to become an AI engineer.
+One of them is LLM evals which we are going to start today.
+LLM evals is basically a study of evaluating LLM based applications.
+How do you know if it is doing a good job, if it is doing a good job, if you can launch it, if users can use it.
+This is the study of LLM evals.
+And this is what we are going to cover in this course.
+Now if you see this course from end to end then you will get two advantages.
+The first advantage is that you will get some edge over your competition.
+Today's students are mostly studying these topics.
+Land chain, land graph, rag, agents, they are learning to make these.
+But still there are very few people who are focusing on LLM evals which is actually quite important from the point of view of industry.
+One of the main reasons for this is that there is not much awareness about LLM evals and there are not that many resources on the internet.
+But over time people would realize that it is a very important topic and everyone should read it.
+So if you read this topic in advance then there is a better chance that you can perform better in the interview in comparison to your competitors.
+I had said this in the YouTube video that when I ask any person what questions were asked in your GenAI interview,
+then I always get to hear one question that how will you evaluate a rag application?
+How will you evaluate an agent?
+And most of the times students don't have answers to these questions.
+You will be able to answer these questions properly if you follow this playlist and this course.
+So this is the first advantage that you will get edge over your peers.
+Second advantage is that your mindset will change.
+So far you mostly make any project based on LLM or any application or project.
+So you make it with this goal or purpose that you want to add it to your portfolio and show it to the interviewer.
+So basically you make personal projects and that is why you don't think like a product developer.
+After completing this course, you will think about any project from the point of view of the company.
+You will start thinking that this project is working but will it work for crores of people?
+Can I bring it to production?
+You will start thinking like this.
+So your thinking of making such applications will get matured when you will follow this playlist end to end.
+So I hope you understood why we started this course.
+Now let's talk about today's lecture.
+Today's lecture is basically an introduction lecture.
+Where I will explain to you first why do we need LLMEvales?
+Why do we need to evaluate LLMEvales?
+Then I will teach you what exactly LLMEvales are.
+And thirdly, I will explain to you today with a small example that how a typical LLMEval workflow looks like.
+And we will talk a little about what things are there in LLMEvales.
+So after watching this lecture, you will get an overview of what we are going to do in this whole playlist.
+This is the goal of today's lecture.
+So guys, let me know if you have any doubts or questions.
+Especially if you are someone who is watching the lecture for the first time.
+If you have any questions, you can ask right now.
+Then we will move ahead and discuss why do we need LLMEvales.
+So I will open the chat and let me know.
+Okay.
+Prem is asking is this session fully repeat or some new content also sir will teach today.
+Content is the same but we will teach it in a different way.
+So you will feel like you are doing a new session.
+This first half an hour will take a little repeat.
+After half an hour, you will not feel anything new.
+Any other question at this point guys?
+What are the prerequisites for today's session?
+There are no prerequisites for today's session.
+But for this playlist, the prerequisite is that you should come to make some LLME based applications.
+If you have made a rag application, you know how to make small agents.
+These are the prerequisites.
+There are not many prerequisites.
+Will this course be an implementation based or just theory based?
+No, no, we will practically implement things.
+Obviously, I will teach you theory because without it, it will not work.
+But we will write code and put evals on the projects.
+We will cover both but the focus will be more on application based evals.
+This course is more around application based evals.
+But one whole lecture is dedicated to LLM benchmarks.
+I am totally new to the LLM world.
+First lecture for me.
+In that case, Sachin, I would just say that once you see this lecture and tell me the end result.
+I will definitely come to you.
+I will definitely come to you.
+In that case, Sachin, I would just say that once you see this lecture and tell me the end result.
+Roughly 10 sessions of 2-2 hours.
+So 15-20 hours.
+Do we need to buy open router credits?
+You can actually.
+It might be helpful.
+Either do open router or give directly to OpenAI.
+Both will work.
+It would help.
+Sir, will it include token utilization and usage philosophy throughout question answering lifecycle?
+Ansh, I didn't understand your question.
+Okay guys, let's move ahead.
+I will keep taking questions in between.
+Don't worry.
+The whole idea of taking this live session is that you can watch this session on YouTube.
+But you can interact with me here.
+So after every 15 minutes, after covering a topic, I will answer your questions.
+So don't worry.
+You won't miss any question.
+If I don't see any question and miss it, then copy it and paste it next time.
+Okay.
+Resume the session.
+Write Y once.
+Okay.
+Okay.
+Let's go.
+So now the first thing we will discuss is that when we read something, we discuss what is the need to read it.
+Why do we need that particular thing?
+So in this playlist, we will discuss why LLMEval is important.
+Okay.
+So here I would like to ask you this simple question.
+How many of you have ever made an LLME-based application in your life?
+It could be a simple chatbot.
+It could be a basic RAD chatbot.
+Or it could be an agent.
+It could be a multi-agent software.
+Anything.
+If you have made it, then write it in the chat.
+A lot of you know how to build LLME-based applications.
+But if I ask the next question, have you ever evaluated it properly?
+Have you ever made an application or a chatbot?
+Have you ever evaluated it methodologically?
+So what would you say?
+I feel a lot of you will say that sir, I haven't evaluated it properly.
+But I asked him questions and I found the answer to it.
+So I assumed that this application is working properly.
+Right?
+Mostly we do this.
+What we do is we build an LLME-based application.
+Then before checking it, before launching it, before sharing it with someone,
+we ask the 4-5 questions that come to our mind at that point.
+And that's it.
+If the right responses come there, then we accept that our application is working properly.
+Actually, this whole phenomenon, this way of testing,
+this term has been given in the industry.
+It is called vibe testing.
+Just like vibe coding, it is vibe testing.
+What is vibe testing?
+Look, I have written it here.
+Vibe testing means you casually trying an LLME application with a few prompts and judging it by feel.
+You asked 5 questions and read the answers.
+And judge based on the feel whether it is right or not.
+This is called vibe testing.
+So basically what you do is you ask 5-10 questions,
+the answer is right, you feel that it is working.
+It is informal, it is subjective, and it is usually not repeatable.
+Because today you asked 5 questions,
+after 10 days you won't ask the same 5 questions, you will ask something else.
+So it is not even repeatable.
+Now you must be understanding even after listening to vibe testing
+that it works only at the personal project level.
+By doing vibe testing, you don't make production grade software in the industry.
+Obviously. Right?
+Now I will tell you some instances, some case studies
+where teams made a mistake that they deployed a LLME based application by doing vibe testing.
+And I will tell you the results with the help of 3 case studies.
+The first case study is Air Canada's chatbot.
+This was a very popular incident around 2-3 years ago.
+Where there was this guy and his grandmother died.
+And he was searching for bereavement fair on Air Canada's website.
+Bereavement fair is basically when someone in your family dies or your close friend dies
+and you have to travel,
+then airlines give you a discount because you are in a bad situation.
+I am not sure if this happens in India but it happens in Canada.
+So this guy went and on Air Canada's website he chatted with the chatbot
+about the bereavement fair policy.
+Now at this point the chatbot hallucinated
+and instead of telling the correct policy, he said that you book a ticket now,
+pay the full amount and travel.
+And later we will refund your entire amount.
+So this guy booked the ticket and travelled.
+And after travelling when he tried to refund,
+customer support said that such a policy does not exist.
+We have this policy that you can take discounts before travelling.
+We do not refund anything later.
+So this guy got upset and filed a case against Air Canada.
+In the court, Air Canada's executives and lawyers pitched that the chatbot is a separate entity.
+Whatever he is saying, Air Canada does not know about it.
+It is like a separate entity.
+The judge said that this is not allowed.
+If your website is your property, then your chatbot is also your property.
+Which means that whatever your chatbot says, you will have to take its responsibility.
+Which means you will have to refund.
+So around 600 dollars of refund was to be done to Air Canada,
+which is not a big amount but it was a big blow on the name of a big company.
+How can you make such a mistake after being such a big company?
+So this case became very famous.
+And this case came in the picture because the developers here also did vibe testing.
+They did not properly test the chatbot and deployed it.
+So you can see how much loss can be reached on the scale of a big company
+if you launch an LLM based application without testing it.
+Similarly, there is one more incident which became very popular 2-3 years ago.
+There was a car dealership, an American brand called Chevrolet.
+They had a dealer.
+The dealer made a chatbot so that they could deal with customers.
+So a person went and started chatting with the chatbot.
+And he felt that there is a potential that I can do anything with this chatbot.
+So what he did was he prompted the chatbot in such a way that he said
+since I am your customer, you are obliged to follow whatever I say.
+So whatever I say, you have to listen to it.
+So in a way, this person jailbreak the chatbot.
+And he said that I like this particular car.
+You offer me this car for $1.
+And your chatbot agreed.
+Not only did he agree, he also released a binding offer.
+And this person took a screenshot of the entire chat and put it on the internet.
+And this thing got viral that how the chatbot is selling a car for $1.
+And then it was a big sale.
+Obviously, in this case, Chevrolet did not have to pay $1 for the car
+because the codes do not allow this.
+But again, negative publicity.
+All because you put such a chatbot on production that you did not test properly.
+So this is the second incident.
+And then we have one more incident.
+And this is directly the incident of the chat GPT.
+In this case, there was this guy who was flying with some Colombian airline.
+And what happened there, he had an accident in the flight.
+This trolley in which the air hostess gives food to everyone.
+This trolley somehow rolled and hit him on the shoulder.
+Which hurt him a lot.
+So he sued this Colombian airline in anger.
+Cases were filed against him in the court.
+And this guy's lawyer thought that what we can do is
+to take money from the company, we can get information about the incidents that have happened in the past.
+And we can present it in the court.
+So he went to the chat GPT and asked if this has ever happened in the past
+that a passenger has been hurt by an airline and how much crime has been paid by the airline.
+So what did the chat GPT do at this point?
+That he created cases on his own.
+Fabricated the information.
+And gave him some information about the cases.
+Like these cases did not exist in reality.
+All this information was fabricated.
+At that point, the chat GPT created it.
+Hallucinated it.
+And this lawyer thought that if the chat GPT is giving, then he must be giving the right information.
+He did not even verify the cross-check.
+And he kept all these documents in front of the judge.
+When the judge tried to verify it, he found that these cases do not exist.
+These people do not exist.
+And then the judge simply turned this lawyer and his firm.
+He committed a crime of around $5,000.
+This guy lost the case.
+And again, there was a lot of negative publicity.
+Now I am not saying that the chat GPT was tested without the help of OpenAI.
+But again, one incident that you can understand.
+That end to end, properly evaluating an LLM based application is so important.
+Before deploying it in production setup.
+Users start interacting once.
+Which user will ask what questions, what will he say.
+And how will your chatbot respond after turning it.
+You never know.
+And then there can be a lot of problems on the scale of a big company.
+So that is why one thing that you should take from the case studies of these three is that evaluation is super important.
+Without this, you cannot deploy your LLM based applications.
+One more question should come to your mind at this point.
+Because it came to my mind too.
+And that is that if the LLM application's evaluation is so important.
+Then why is this evaluation not so common?
+Why is there no other talk about it?
+Why don't people study?
+So the answer to this is that evaluating LLM based applications is not straightforward.
+It's not like a software application.
+Which you quickly write some test cases and evaluate.
+Evaluating LLM based applications is very very tricky.
+And we will discuss that in the next section.
+What are the key complexities.
+Because of which it becomes difficult to evaluate LLM based applications.
+In comparison to a software system.
+So we will read that next.
+Before that, at this point, if you have any questions.
+Around what we discussed right now.
+So please let me know.
+Then we will move to the next topic.
+I will wait for 3-4 minutes.
+3 minutes.
+Are you convinced that LLM evaluations are very important?
+Are you convinced?
+Do you feel this is an important topic to study?
+You should study this.
+Okay.
+Okay.
+Is there any question at this point?
+Okay.
+Okay.
+So let's move ahead.
+And discuss once.
+What are the key differences in software testing and LLM evaluations.
+Okay.
+There are two major differences.
+I discuss both one by one.
+The first difference is.
+That the software.
+The software you create and use.
+By nature, it is deterministic.
+What is deterministic?
+That if you give the same input.
+Then every time you will get the same output.
+I guess you would agree.
+Let's say you made a calculator.
+Now in that calculator, you will give the input of 2 and 2.
+2 plus 2.
+So the output will always be 4.
+Do this thousands of times.
+Every time you will get the answer 4.
+So software is deterministic.
+If you have put the right email and password, then login will be done.
+If you have put it wrong, then login will not be done.
+Software is always deterministic.
+Whereas LLMs and LLM based applications.
+They are probabilistic.
+This means.
+That by giving the same input again and again.
+It is possible.
+That you will get different outputs.
+It is a very simple example.
+You go to chat.gpt and search.
+Or ask what is overfitting.
+Today you will get some answer.
+After 10 days you will get some other answer.
+Your friend will get some other answer.
+Your father will get some other answer.
+It is not like one answer is right.
+And the other answer is wrong.
+All the answers are correct.
+It is not the same.
+This is the biggest challenge of an LLM based application.
+That only one input might produce different different outputs.
+And all of them are correct.
+So how would you evaluate?
+This is the first challenge.
+Second challenge.
+Second challenge is this.
+That in software you only worry about one thing.
+That your software is running correctly or not.
+2 plus 2 is 4 or not.
+You just have to worry about this.
+Is it 5 or 6?
+This is your tension.
+Whereas in an LLM based system.
+You have a lot of tension.
+For example if you have made a rag chart board.
+Then it will not only matter.
+That your answer is correct or not.
+It will also matter.
+That your answer is from a retrieved document or not.
+That your answer is correct or not.
+That your answer is.
+That's latency.
+Latency is also there in software.
+How much is the cost?
+How much is your LLM taking tokens?
+In the process of answering that question.
+So basically a lot of things matter.
+In LLM based evaluations.
+There is no simple correctness check here.
+You check the answer from multiple aspects.
+Because of which again your evaluation becomes very tricky.
+I will explain this through an example.
+Let's say I am making a chart board for CampusX.
+Which will solve your doubt on our videos.
+So how would I evaluate that this chart board is working properly?
+You can't evaluate only on whether the answer is correct or not.
+You have to think in every way.
+Is it giving unsafe output?
+Is it abusing?
+Is it getting delayed?
+Is it giving the answer from somewhere else?
+Instead of giving the answer from our videos.
+Is the answer coming out simple enough or not?
+Does it match our explanation style or not?
+So there are many things that you have to check before deploying the campusX chart board.
+So the two major problems are.
+First, LLM based systems are probabilistic.
+Same input might give you different different output.
+And second, there is no single definition of correctness.
+You have to look at multiple things.
+And you have to think about what all things matter.
+So you have to evaluate on that.
+That is why I said it is not straight forward.
+And you will see that when we will evaluate the applications properly.
+We will create our own rubrics.
+You will see that how much you have to think about what all things matter.
+So that is why it is always said that software based testing is straight forward.
+Whereas LLM's evaluation is very very tricky.
+So is this point clear?
+Is the discussion going on right?
+Is everything clear?
+Okay.
+Okay.
+So till this point, the class was very similar.
+As you did in the previous session or in the YouTube video.
+Now going forward, the class will feel different.
+We will teach the same thing but you will feel a little different.
+Okay.
+So now that we understand why LLM evaluations are important.
+And how LLM evaluations are different from software testing.
+Now let's move on to the main topic of the day.
+What are LLM evals?
+We have not discussed this yet.
+I mean we have done it from the top but let's read it in detail.
+Okay.
+So here I have written a definition.
+I will first read the definition and then we will discuss the point.
+So we can define LLM evals as.
+That LLM evals are systematic repeatable tests.
+Used to judge an LLM or LLM powered system against a clear criteria.
+Okay.
+Basically LLM evaluations are tests.
+Which we apply on LLM or LLM based applications.
+And there are three main aspects of it.
+First is that these tests are systematic.
+Second, these tests are repeatable.
+And these tests have very clear criteria.
+These three are very important pointers.
+Very important characteristics of LLM evals.
+Let's understand these.
+First of all let's talk about systematic.
+Systematic means that you are not doing vibe testing here.
+You got five questions in your mind.
+You asked and got the answer.
+You thought everything is fine.
+It doesn't happen.
+Here what you do is you create proper data sets.
+And in those data sets you try to cover all kinds of edge cases.
+So that you can properly test your chatbot or LLM based system.
+Okay.
+For example if I am creating a chatbot of campusX.
+Then what I will do is that I will randomly pick up what 100 real users are chatting with my system.
+And I will create a database of that chat.
+I will create a database.
+I will create a data set.
+And I will test on that data set.
+So that I get to see the real world behavior of my chatbot.
+Okay.
+So first it is systematic.
+Second it is repeatable.
+Repeatable means that if you change prompt in your system tomorrow.
+Change model.
+Change retriever.
+Change chunking strategy.
+Change all these things.
+So even after that you can evaluate your system exactly the way you were able to do it before.
+So this is again one important idea that LLM evals should be repeatable.
+You can apply the data set on any version of the software exactly the way you want.
+And extract the results.
+This is very important.
+And you can compare with this whether version 1 is better or version 2 is better.
+Because you have a test data set.
+Version 1 gave performance on that.
+Version 2 gave performance on that.
+With that we can understand whether the system is improving or not.
+Okay.
+So it is repeatable.
+Third most important thing.
+That LLM evaluations depend on the criteria on which you want to evaluate.
+Right.
+For example if I am creating a chatbot of campusX.
+So there will be many criteria on which I want to evaluate.
+First obviously the answer that is coming out should be correct.
+Second answer should be filled with simple explanation.
+Third whatever explanation is coming should come from our course content.
+Fourth should be safe.
+There should not be any such things in it which are unsafe or there are abuses written or tone of scaring.
+All these should not happen.
+So what will you do?
+You will define such criteria to evaluate the chatbot.
+Okay.
+Without criteria you just do wipe testing.
+With criteria you do proper evaluation.
+Okay.
+So in nutshell I have explained you at a theoretical level.
+But don't worry.
+After some time we will understand this whole workflow through a proper example.
+But at this point if I would like to summarize.
+LLM evals are basically tests.
+With the help of which you test LLM or LLM based applications for some given clear criteria.
+And usually these tests are repeatable and very systematic.
+We have read this till now.
+Now here I would like to clarify one more thing.
+Because this is doubtful to many people.
+I also had this doubt when I was hearing about this topic for the first time.
+I used to think that eval means metric.
+Because I had come from machine learning and deep learning.
+So what was the meaning of evaluation there?
+Metric.
+We used to say that how to evaluate machine learning models.
+So what were we talking about?
+We were talking about accuracy.
+We were talking about precision.
+Recall.
+Those were metrics.
+So in my mind it was a perception that LLM evals will also be simply a set of metrics.
+Based on which we perform evaluation.
+But this is not correct.
+Here in the first lecture I would like to tell you one thing.
+That the meaning of evaluation, LLM eval is not just metric.
+It is basically the complete testing setup.
+The complete setup that we create to test LLMs.
+We call that complete testing setup LLM evals.
+Okay.
+So what are we evaluating?
+Suppose you have a rag chatbot.
+We want to evaluate the retriever in it.
+So the retriever component has become a part of our LLM eval.
+Based on which criteria are we evaluating it?
+Based on the accuracy of the retriever.
+We are evaluating it based on that.
+The data set that we have prepared to evaluate comes in LLM eval.
+When are we running these tests?
+Are we running it offline or after being deployed in production?
+That is also a part of this setup.
+After that, what tools are we using?
+Let's say we are using ragas because it is a rag application.
+So this tool is also a part of your LLM eval.
+So in a nutshell, if I simplify this discussion.
+Then just understand that whenever someone tells you what LLM evals are.
+Then you have to say that LLM eval means not just metrics.
+LLM evals means the entire testing setup.
+What are we testing?
+What basis are we testing?
+When are we testing?
+What tool are we using to test?
+We call all these LLM evals.
+Is this point clear?
+It might be a little confusing.
+But is this point clear?
+That LLM evals is not only metric.
+It is basically the entire testing setup.
+Okay.
+And the goal of LLM eval is not to give you a score.
+Its goal is to give you the answer to practical questions.
+What kind of questions?
+See, it is written here.
+Can the model be used for a particular task application?
+You will get the answer to this question when you evaluate LLMs.
+Is this system good enough to ship?
+Are we producing it?
+Is it good enough to ship?
+Is this system good enough to ship?
+Can we put it into production?
+You will get the answer to this question when you evaluate LLMs.
+Did prompt version 2 improve over prompt V1?
+You can get the answer to this question by evaluating prompts.
+Is the rag answer grounded in retrieved context?
+Is the agent completing the task correctly?
+Is the chatbot safe for real users?
+Is the latency under control?
+You will get the answer to these kinds of questions when you evaluate LLMs.
+LLM eval answers these kinds of questions.
+Okay.
+So, in a nutshell, we have read a lot of theory.
+But don't worry.
+Even if you didn't click that much on this point.
+After a while, we will revisit this whole thing through a practical example.
+And everything will make sense.
+Don't worry.
+Okay.
+So, we understood a little bit on this point.
+What is LLM eval on a theoretical level?
+If you have any questions, you can ask.
+I will again take a break.
+So, if you understood the whole chronology of this lecture,
+we started with Y.
+Now we are on Watt.
+In a while, we will go to Wau.
+You will understand things better there.
+Okay.
+If you have any questions, you can ask.
+Sir, can we get these notes for revising these topics?
+Yes, Rhea, you will get it.
+By tomorrow, you will get it.
+I didn't share the last lecture because I knew in my mind that I would be taking this session again.
+But I will share the final version with you.
+Don't worry.
+Any other question at this point?
+Let's resume then.
+Let's go to the next topic.
+Just write yes when you are ready.
+Okay.
+Thanks.
+Now, how exactly do LLM evals work?
+Before discussing this, I want to tell you a very important distinction.
+It is very important for you to have this distinction in your mind.
+This will help you in the future.
+Okay.
+What is the distinction?
+In today's rate, you can divide LLM evals into two parts.
+We call one model evals and the second is application evals.
+Model evals are the evals with which we evaluate LLMs.
+Application evals are the evals with which we evaluate LLM based applications.
+If you go to the last slide, it was written in the definition that LLM evals...
+LLM evals are systematic repeatable tests used to judge an LLM or LLM powered systems.
+Both are written here.
+And that is why we can say that there are two types of LLM evals.
+One is called model evals and the second is application evals.
+Model evals work is very simple.
+Given, evaluating LLM and application evals is to evaluate LLM based applications.
+And if this distinction is clear in your mind in the beginning, then it is very good.
+Here, in fact, I will give you a disclaimer.
+Disclaimer is that the terms written here, model eval and application eval, are not official terms.
+I have created these.
+Why have I created these? Because I want to simplify this topic in your mind.
+So, don't quote me that model eval is a term and application eval is a term.
+Even now, in the industry, both are called LLM evals.
+And then depending on the use case, people automatically understand that it is a model eval or an application eval.
+So, I am giving you this disclaimer from the beginning.
+Now, let's try to understand in detail what both types of evals do.
+First, let's talk about model evals.
+Here, a definition is written, model evals evaluate the model itself.
+It is simple. Their job is to evaluate LLMs.
+The main idea is to test and evaluate the capabilities of a model.
+The goal of these evals is that when a new LLM is released,
+we test and benchmark the capabilities of that LLM and document it.
+You might have seen that when a new LLM is released,
+it is said that this LLM came on top on a particular benchmark or a particular leaderboard.
+It has so much accuracy, it is on such a percentage.
+Have you seen this? Have you ever noticed this?
+Have you ever noticed this?
+Whenever these new releases are released,
+you see that these YouTubers always quote these benchmarks and leaderboards
+that this LLM topped on this particular leaderboard or benchmark.
+So, what is happening there is that some evals are kept.
+As soon as a new LLM comes to the market,
+we test that LLM on the eval to find out the capability level.
+We document it and publish it on the internet to find out how capable a LLM is.
+The question is what type of capabilities can we test?
+So, we test the LLMs of today on 8 major capabilities.
+The first capability is reasoning.
+Can our LLM reason?
+Can it solve a problem step by step?
+The second capability is knowledge.
+Does our LLM have basic world knowledge?
+Does it have general knowledge?
+Right? In which we talk about the cutoff date.
+So, the world's knowledge of the first cutoff date should be with the LLM.
+So, this is the second capability.
+The third capability is basic maths.
+Can our LLM solve maths problems or not?
+Then the fourth capability is coding.
+Can our LLM code or not?
+The fifth capability is instruction following.
+Can our model LLM follow instructions or not?
+If I give it 10 instructions,
+will it follow all the instructions one by one or not?
+Then comes long context handling.
+Can our LLM give us the right answers even in a very big context or not?
+The seventh capability is multimodal understanding.
+Does our LLM have multimodal capabilities or not?
+Can it understand images, text, sound or not?
+Or can it give output or not?
+And lastly, tool use.
+Can our LLM utilize tools or not properly?
+Today, there are 8 main capability categories
+on which every new LLM is evaluated on the basis.
+And then, it is documented and explained.
+And the whole evaluation is done on the basis of benchmarks.
+So, I have written some example benchmarks here.
+We will not discuss all the benchmarks now.
+So, if you want to check general knowledge and reasoning of any model,
+then there is a famous benchmark called MMLU.
+Which asks questions on many subjects from you.
+Science, history, law, medicine.
+It will ask questions on you.
+It will ask questions from your LLM and record it and evaluate it.
+For maths, there is a benchmark called GSM 8.
+Which asks questions of grade school maths and evaluates the answers on basis.
+For coding, SWE bench.
+You might have heard that it is a very famous benchmark.
+There is human eval as well.
+For instruction following, there is IF eval.
+For long context checking, there is a famous benchmark called needle in a haystack.
+For multi-modal capabilities checking, there is a benchmark called MMMU.
+So, if I summarize the discussion till now in nutshell,
+then LLM eval is divided into two parts.
+Model eval and application eval.
+Model eval is used to test the capabilities of LLM.
+And which are the capabilities?
+So far, we have studied about 8 capabilities.
+And how are these capabilities tested?
+With the help of benchmarks.
+Now, this is the topic of our next lecture.
+Where I will teach you about the most popular benchmarks in the entire lecture.
+How they are applied on LLMs.
+How the results are taken out.
+I will teach you the entire workflow.
+So, basically, you will get a very good idea in the next lecture.
+Around model evals.
+But, I would like to clear one thing here.
+That if you are going to become an AI engineer,
+then you will not work on model evals.
+Because, just think, this new LLM came.
+Evaluating it, benchmarking it,
+documenting its evaluations is not your job.
+This is the job of the big frontier labs.
+When they are bringing the new model,
+then they will test on these benchmarks.
+And they will tell you about their new LLM.
+You should know what model evaluation is.
+What are the benchmarks?
+And how to read the benchmarks.
+This will help you when you pick a new project tomorrow.
+Since you have the idea to read the benchmarks,
+and you have the knowledge on which model tops which benchmark.
+So, on the basis of that, you will be able to do better decision making.
+That which LLM should you keep in your LLM based application.
+So, you will feel a little more literate.
+If you know this topic.
+But, it does not mean that you have to do practical evaluations.
+There is a good chance that you should never do model evaluations.
+But, you should know, you should know how to read them.
+You should know about the top benchmark.
+Because, as a project developer,
+one important thing is that when you are starting a project,
+you should decide whether you want LLM of OpenAI,
+or of Anthropic, or any open source LLM will also work for you.
+And this decision making comes from model evals.
+So, is it clear, the discussion till now?
+LLM evals, two types, model evals, application evals.
+We have just discussed model evals.
+So, is it clear, the discussion till now?
+Let me know in the chat.
+At this point, if you have any questions, you can ask.
+Okay.
+So, now let's talk about the second category.
+That is, application evals.
+Before discussing the category, I would like to tell you one thing.
+That this is the category that you have to read well.
+This should be your topic of interest.
+And this is the category that you will practically do.
+Okay.
+Because, your job as an AI engineer is to build LLM based applications.
+So, it is your job to evaluate it.
+So, this application eval is the main topic of this playlist.
+In this course, we will focus more on this.
+There will be only one dedicated lecture on this.
+And that too because I want you to understand how model evaluation works.
+You should understand, you should have literacy.
+Okay.
+So, application evals exist because LLM is just one component in applications.
+If you think about it, we feel that LLM application means LLMs.
+If the main thing is the brain, then everything is about LLMs.
+But it is not like that.
+As you get experience in AI engineering, you make some big applications.
+You would realize that the brain is important.
+But apart from that, you have to put a lot of things in it.
+So that your LLM based application works properly.
+I have made a list of all those things here.
+Your user interface is one thing.
+The prompt that you write, system prompt, that is one thing.
+If you add tools in it, add APIs, that is one thing.
+The code that you have written to orchestrate the whole system, let's say in Langraph.
+That the control will go from here, the branching will happen from here.
+Then the control will go in parallel.
+This is also one thing.
+The guardrails that you put on the application level is also an important thing.
+If you are using output parsers, that is one thing.
+What should I say about memory and context?
+Super important.
+If you are building a rag system, then there is a separate system for retrieval.
+You use a different embedding model.
+Vector databases are there.
+After deploying, there is a complete monitoring setup.
+There is a complete feedback loop.
+So you might understand that when you make a proper LLM based application.
+So there LLM is just one component.
+Apart from that, you have to add a lot of other things.
+And that is why application evals is such an important topic.
+It won't work only with model evaluation.
+With model evaluation, we are finding out how capable the model is.
+But the whole system that you have made around it, should also work properly.
+I will give you a very good analogy of this.
+Analogy, whatever you call it.
+A very good analogy is smartphones.
+What happens in smartphones?
+There is a chip.
+Snapdragon, MediaTek, which also has a chip.
+And you will see that the chip manufacturers,
+they release benchmarks.
+That our new Gen 2 has come, Gen 3 has come.
+So its Antutu score or whatever the scores are, it is so high.
+This shows us how strong our processor is.
+Now tell yourself that being a good processor,
+does it guarantee that your smartphone is good?
+Or other things matter?
+Can you tell me?
+Is it enough that your processor is strong,
+and your smartphone is assumed to be strong?
+Or do you need more things to make a smartphone?
+Obviously, to make a smartphone, you need a lot more things.
+Right?
+Your camera system, your operating system,
+your sound system, your graphics card.
+There are a lot more things.
+And if all of them work well, then only your smartphone is good.
+So since there are so many more things,
+battery is there, battery is also an important thing.
+So all these things work together, then your smartphone works well.
+Nothing happens if the processor is good.
+So all these things that you added,
+you will also evaluate them.
+If you have put a battery, then you will test the battery too.
+If you have put a graphics card, you will test it too.
+If you have put a screen, you will test it too.
+So the same thing applies here too.
+That the evaluation of LLMs is done by Frontier Labs.
+But the whole system that we have built on it,
+the responsibility of the evaluation is ours.
+As an AI engineer, we do that evaluation.
+So I hope I could make you understand.
+Here it is written in theory.
+Application evals assess the behavior and performance of an LLM-powered application,
+whether at the level of the entire system or a specific component within it.
+What do application evals do?
+They evaluate at the component level too.
+And they do it at the level of the whole system too.
+So if you have made a rack chart board,
+then you will evaluate the whole rack chart board too.
+How is its final response, latency, how is the token on the cost.
+And you will evaluate it at the component level too.
+Whether my retriever is working properly or not.
+Whether my embedding model is working properly or not.
+Whether my re-ranker is working properly or not.
+You get my idea?
+So here it is written, in application eval,
+we don't ask can the model do this.
+This is the work of model evaluation.
+Instead, we ask in application eval,
+whether our product will work properly or not.
+For example, if you are making a chart board of CampusX,
+then application evals will give us the answer to these questions.
+Whether the student's question was answered correctly.
+Whether the material was used properly.
+Was the answer faithful?
+Was the answer easy for the beginner?
+Was there any hallucination?
+Did we get the answer quickly or not?
+Is our chart board safe or not?
+I hope you understood.
+What is application eval and what is model eval?
+And why are we going to talk about application eval in this course?
+Is this entire discussion clear guys?
+I wanted to clear this upfront.
+I really hope I could do it.
+Going forward, when you watch a video on YouTube in the future,
+and it is written there, LLM evaluation,
+you can assume that it is teaching you application evaluation.
+Not model evaluation.
+Most likely 99% times.
+You have to read that.
+You can ask any question at this point.
+Okay.
+Fine.
+So, if we summarize the entire flow of this lecture,
+we first discussed why are we studying this topic.
+Then we discussed what LLM evals are and what are their types.
+We studied two types.
+Model evals and application evals.
+So why and what should be clear to you so far.
+Now we move towards how.
+How LLM evaluations are done.
+And here again there is a disclaimer.
+The how I will teach you,
+I will actually teach you from the perspective of application eval.
+I am not teaching from the perspective of model eval.
+Okay.
+Makes sense.
+Obviously because we are going to focus more on this.
+So come on.
+Now we will read a very important thing
+which will give you a lot of perspective.
+And the topic is LLM application eval workflow.
+How do you evaluate a typical LLM based application?
+We are going to read this next.
+Okay.
+Just one second.
+Let me drink some water.
+Now the class looks a little different from the previous class.
+Those who have done both the classes.
+Tell me once.
+Flow seems a little different in comparison to the previous class.
+Is it more clearer than the previous class?
+Actually let me tell you what happened in the last class.
+I will be honest.
+First of all, I was taking a live class after a long time.
+Live class is a bit challenging.
+Because it is difficult to teach for two hours straight.
+And I was doing it after a long time.
+Second mistake I made was that
+If you remember, I had put a lot of AI generated images in the last lecture.
+You must have seen it.
+The problem with AI generated images was that
+there was a lot of text written.
+And generally in my teaching style,
+if I see a lot of content on the screen,
+I can't organize my thoughts.
+I faced this in the last class.
+So because of which I felt that
+what is happening, there is so much text,
+what to teach, what not to teach.
+I lost track of that.
+Because of which,
+I personally felt that the class was not that great.
+So I tried to rectify that.
+First you will notice one thing.
+There is not much clustered information here.
+And I am trying to organize my thoughts on the go.
+And I have improved the flow too.
+That is why you might feel this class is better than the previous class.
+It might look better.
+Okay, let's go.
+Now see, the next 10-15 minutes is very important.
+Because it will set a tone for your entire course.
+So what we are going to learn is that
+you have an LLM based application.
+And you have to evaluate it.
+And we will move forward with the simplest possible example.
+I will tell you what application we have made.
+So we are, let's say, working for a company.
+We are AI engineers.
+And this company is Zomato.
+And their problem is that they get a lot of mails daily.
+Because it's a big company with a lot of customers.
+And what they want is that it is difficult to reply to these mails manually.
+So they want to automate the setup.
+So what they want is that they want a system
+that reads these mails and gives a classification on the basis of content.
+So they want to know if the customer is asking a billing related question in this mail.
+Or let's say, let me check what combinations are there.
+If the customer is asking a billing related question.
+Or if he has a technical problem.
+Or if he has a general query.
+I just want to get this classification done.
+Why do I want it done?
+What is the benefit of this?
+If there is a billing related query.
+Then I will directly route it to my billing team.
+If there is a technical query.
+Then I will send it to the technical team.
+And if there is a general query.
+Then I will send it to my customer support team.
+I don't want a person here who can manually read these mails and tag my team.
+I want to automate this process.
+Is this use case clear?
+Do you feel this is a big use case for companies like Zomato
+where millions of mails can come in a day?
+Does it make sense?
+Okay.
+So what did we do?
+We made a very simple system.
+The system is that we made an LLM sit.
+We made an LLM sit.
+And gave it a prompt.
+So we got an email from the customer agent.
+Who will read the email and decide where to route it.
+So here we are getting the email of the user.
+And from here it is routing.
+It is a very simple LLM application.
+You can make it in 5-10 minutes.
+But now comes the real question.
+Should we deploy it directly?
+No.
+We have discussed this so far.
+We don't want to deploy it.
+Before that we have to evaluate this system.
+We have to evaluate the system.
+Okay.
+How to evaluate?
+I will tell you that flow.
+And the flow that I am going to tell you now.
+You will see this flow in this course again and again.
+This is a very simple application.
+You have to use this workflow for a very complex agent.
+Okay.
+What is the workflow?
+Let's discuss.
+The first thing you have to do in the workflow.
+You have to define the task and target.
+What do you want to evaluate?
+You have to define this first.
+In this case, we have to evaluate this system or this workflow.
+Okay.
+And what is the task of evaluation?
+It is a simple classification task.
+We have to check whether this system is able to classify properly or not.
+So this is our step number one.
+In step number two, you define a success criteria for your evaluation.
+Can you tell me what is the success criteria for this particular use case?
+How would we know that this system is working properly?
+Think about it.
+It is a simple system whose task is to classify.
+So what matrix can define the success of this system?
+Absolutely correct.
+DP sir was absolutely correct.
+The answer is accuracy.
+It is simple.
+If it gets 100 queries, if it routs 90 of these queries to the right place,
+then what would you say?
+That this system is 90% accurate.
+This is what happened.
+So in this particular system, your success criteria is classification.
+And the metric on which we will find out whether the classification is working properly or not is accuracy.
+Is this discussion clear?
+There is no confusion.
+It is simple.
+Now comes the next and most important step.
+Now what you have to do is you have to build a data set.
+So what you do is you prepare a data set like this.
+Where on one side is your message or your mail content.
+And on the other side, you have manually told yourself what type it is.
+For example, if your mail is this, my card was charged twice.
+So this is a billing issue.
+The app crashes on login.
+This is a technical issue.
+What are your hours?
+So this is a general issue.
+So here I have made only three rows of data.
+Generally, you will create a data of 50 to 500 rows.
+How will this data be created?
+The best thing is that you bring your actual data.
+So if this is Zomato, then you bring your past chats and create a data set from it.
+And you also do this labeling manually.
+You make someone sit and get this labeled.
+So this is how you create a data set.
+By the way, this is called golden data set in the language of LLMEvals.
+So what we are doing is in this third step, we are building a data set.
+Which will evaluate for us.
+Okay.
+After that, next you define an evaluation method.
+Basically, you decide who will evaluate.
+There are two or three options.
+Either it will be done in an automated way.
+Or someone will do it humanly.
+Or you can use another LLMEval to perform the evaluation.
+I hope you are understanding.
+What is the simple meaning of performing the evaluation?
+That your system that you made.
+What you will do is you will send this data set to that system.
+Right?
+Now your system will give an answer for every message.
+Let's say for the first one, it said billing.
+For the second one, it said general.
+And for the third one, it said general.
+So now what will you do?
+You will compare these two.
+And what will you calculate?
+What is the accuracy of this system?
+But who is giving you this accuracy by calculating?
+Tell me quickly in the chart.
+Will it be automated?
+Can we do it through code?
+Or we should make a human do this work.
+Or we should make an LLME do this work.
+This is the question.
+Think and tell me.
+This system has given these answers.
+Now our next goal is to evaluate.
+What do we have to evaluate?
+We have to get the accuracy.
+So tell me.
+Will you make it done by a human, an LLME or a Python code?
+It is simple.
+In this case, why will you make a human do it?
+It will have to pay a salary.
+You don't have to get it to an LLME.
+You simply write a Python code.
+Which will check the accuracy score.
+So in this case, your eval method is automated.
+Because this is a simple LLME application.
+Imagine if this was a chatbot.
+So here in expected, there would be a long textual answer.
+And here, LLME would have a long textual answer.
+So now, who do you compare these two texts with?
+Think and tell me.
+Can you compare two paragraphs automatically?
+Is it correct or not?
+Is it possible?
+You have to compare two paragraphs.
+Is it possible that you do it through code?
+It is not possible.
+Right?
+One is correct, the other is wrong.
+It is very difficult to find through code.
+Because the semantic meaning is the same.
+You have to find it.
+You can make a human do it.
+But human would be costly.
+Right?
+If I have to do a lot of testing, then I will have to pay salary to the human.
+Third option is the middle thing.
+LLME.
+You can do this testing through LLME.
+Did you get my point?
+At this point, you should have an evaluation method.
+It can be automated.
+It can be a human.
+Or it can be LLME.
+Is it clear till this point?
+Let's come back down.
+First of all, we defined the task and the target.
+What was the target?
+Our entire system.
+The entire workflow.
+And what was the task?
+We have to evaluate this system whether it is working properly or not.
+What was the success criteria?
+Classification.
+And what was the metric?
+Accuracy score.
+We built the dataset.
+We built the dataset of 50-100 rows.
+And now we have defined that when my system will give the answer,
+then who will calculate the accuracy?
+It will be done automatically.
+Okay?
+Now comes the next step.
+Where you basically run the model.
+What does run the model mean?
+You will send your dataset to the system you have built.
+And your system will generate answers.
+This is the step.
+After that, what do you do in the next step?
+You evaluate the results.
+Basically, you have a Python code
+which is giving you the accuracy score in this step.
+Suppose your accuracy is 80%.
+Let's say you sent 100 rows.
+Out of 100, 80 rows were classified correctly.
+And 20 rows were wrong.
+Now comes the next step.
+Where you analyze the results.
+Which basically means you try to think where the mistake is happening.
+Think and tell me.
+If you are making a system whose work is to read the content of the mail and classify it.
+Whether it is billing, technical or general.
+And if there are mistakes in it.
+Then where is the scope of improvement?
+What can you improve?
+Where can there be mistakes?
+Do you understand my question?
+My question is that if you are building a system
+whose simple work is to read the text and classify it.
+And it is doing the work wrong.
+80% is correct.
+20% is making a mistake.
+So what is the thing that I will change?
+What can I improve?
+You can fix multiple things.
+Let me tell you.
+First of all, you can fix your system prompt.
+Maybe your system prompt is defined in such a way that it is confused between billing and technical.
+That could be one possible option.
+Second possible option is that the model you are using.
+The LLM you are using.
+It is not able to do that.
+You have taken a low parameter model.
+You have taken an open source model.
+And it is not able to do that.
+So there can be any such reasons.
+There is not much scope of improvement here.
+But let's say the system is prompt.
+Changing the model is one more thing.
+Whatever it is.
+What you will do is you will analyze your system.
+You have the result of your evaluation.
+80% accuracy.
+Your manager said improve what you are doing.
+So now you are going and tweaking the prompt.
+Or changing the model.
+And what you do is basically improving your system.
+There should not be a model here.
+There should be a system here.
+You try to improve the system.
+And just after improving the system.
+What is the next step?
+You trigger the evaluation again.
+I hope everyone understood what I said.
+When I said earlier that LLM evals are repeatable.
+So this is what you are doing.
+You have a golden data set.
+What are you doing again and again?
+You are changing your system.
+This time you changed the prompt.
+And ran it on the data set again.
+So you got 90% accuracy.
+Your manager said improve it more.
+Now this time you went and said move it.
+You said move it.
+Don't think too much.
+Change the LLM.
+Let's put a heavy LLM.
+You put a heavy LLM.
+Run the evaluation again on the same data set.
+You got 95% accuracy.
+Now your manager is happy.
+So now you will close it.
+So basically you iterate in this step.
+The data set is ready.
+You took the model.
+Run it on the data set.
+Results came.
+You evaluated it.
+Analyzed it.
+Improved it.
+You kept doing this in the loop.
+Eventually you reach a place where you feel that.
+My system is worth deploying.
+Now you can deploy it.
+So then what you do is.
+You actually go on and deploy.
+Your system online.
+But even after deploying.
+Your work doesn't end.
+What happens there?
+You start monitoring.
+Without monitoring.
+The system can fail online.
+So you consistently monitor it.
+And in monitoring you have to see.
+Are there failures in production or not?
+Your system was 95% accurate.
+It was 95% accurate on your test data set.
+But when it got new data from a customer.
+Then it started making mistakes there.
+So now what you do here.
+An important step is.
+That the failures in your production.
+A particular mail came.
+It should have been called billing.
+But it was called technical.
+My mail.
+My model.
+So what I will do is.
+That particular instance.
+I will pick up the content of that mail.
+And I will go and add it.
+In my data set.
+In my golden data set.
+And then.
+Then.
+I will restart this whole step.
+I will restart this whole step.
+So what happens is.
+The production mistakes.
+The failures in production.
+Where do you put them?
+In your data set.
+So this way your golden data set.
+Gets richer.
+And on the golden data set.
+You keep improving your model.
+And keep deploying.
+So basically this is a.
+Proper big loop.
+In which the whole evaluation.
+Consistently works.
+I have given a very simple example.
+But this same flow.
+You will see.
+It applies on the racks.
+This same flow.
+It applies on the agents.
+Is it clear?
+The whole flow.
+Define task and target.
+Define a success criteria.
+Build a data set.
+Define an evaluation method.
+Run the model.
+Evaluate the results.
+Analyze the results.
+Improve the model.
+Iterate when you are satisfied.
+Deploy.
+Monitor.
+There is a mistake.
+The mistake is on the data set.
+Make it part of the data set.
+Evaluate again.
+And you keep doing it forever.
+Till your system is in deployment.
+You keep doing this work.
+And that is how.
+You build reliable.
+LLM based applications.
+Is this explanation clear to you?
+It got a little clear.
+Whatever we discussed.
+In what.
+Is it making more sense now.
+With how.
+Coming into the picture.
+Interesting.
+Was it fun?
+Fine.
+Better than the last class.
+Who will decide whether the output is wrong.
+During the monitoring phase.
+Good question.
+Actually.
+It will keep on raising.
+If.
+The output is wrong.
+During the monitoring phase.
+Good question.
+Actually.
+It will keep on raising.
+If.
+Suppose I am a customer.
+I.
+I.
+Did an email.
+And.
+Essentially it was a billing issue.
+But I was redirected to the technical team.
+The technical team followed up.
+So I told the technical team.
+I don't care about you.
+I care about billing.
+So here.
+A process will be set up.
+That the technical team will flag this case.
+That we were sent wrong information.
+So that will keep on adding in the data set.
+So that.
+A monitoring system will be in place there.
+And.
+The data will be sent.
+So.
+A monitoring system will be in place there.
+Is it clear?
+Also.
+If we use an LLM to evaluate.
+How are we sure that the LLM is doing a good job in evaluation.
+That is not today's topic.
+Today I just wanted to explain.
+That.
+Different evaluation methods can be there.
+It can be automated.
+It can be LLM.
+It can be human.
+Is LLM reliable or not.
+That.
+Is the next topic.
+We will discuss.
+In fact.
+We have a whole session.
+It is a topic called LLM as a judge.
+Backbone of this course.
+We will discuss in detail there.
+If you have any other questions.
+Ask guys.
+Aman is asking.
+Will the golden data set also change in this.
+Because of the data drift in.
+Long term deployment.
+Or we can keep it same throughout as its classification.
+Assuming no.
+No no.
+Drift always comes in the system.
+You can't assume that forever.
+Your same data set will give you.
+A golden data set.
+And.
+A golden data set.
+And.
+A golden data set.
+And.
+A golden data set.
+And.
+A golden data set.
+And.
+A golden data set.
+And.
+A golden data set.
+Will give you relevant results.
+So.
+Drift is always captured.
+In fact.
+Drift is also evaluated.
+That is also an evaluation part.
+So yeah.
+Its answer is.
+Drift can come in any kind of system.
+Do we have some rules to follow.
+For creating golden data sets.
+Or different use cases.
+Or Rahul.
+This.
+Use case to use case varies.
+What you are making.
+On the basis of that.
+Your golden data set will be created.
+There are no hard and fast rules.
+But there are guidelines.
+So our.
+Our third.
+Fourth session.
+Is on this topic.
+How do you create golden data sets.
+So we will learn that.
+According to some famous applications.
+Like RAG.
+Or Agent.
+We will learn according to that.
+Don't worry.
+Can we use some other classification metric.
+Or accuracy only in this case.
+No pream.
+It depends.
+It can also be.
+If it comes with a balanced or imbalanced thing.
+You never know.
+Precision recall might come into the picture.
+It depends.
+What kind of situation.
+Your data distribution is.
+According to that.
+I took the example.
+That there is accuracy.
+But it might be.
+That there is accuracy.
+But it might be.
+That there is accuracy.
+But it might be.
+That there is accuracy.
+But it might be.
+That there is accuracy.
+But it might be.
+That there is accuracy.
+But it might be something else.
+It depends on your use case.
+Are there any industry specific evaluation metrics.
+For these application evaluations.
+Or do we need to create custom evaluations.
+No no no.
+There are standard metrics.
+We will discuss.
+Today we can't discuss.
+Because I have actually planned a lot of things.
+You can see.
+At least.
+A lot of things are left.
+So I think it will take an hour and a half to teach all this.
+So we don't do it today.
+Because.
+I.
+Don't want to put load on you.
+But yeah.
+Standard metrics are available.
+There are standard metrics of RAD.
+There are standard metrics of agents.
+There are standard metrics of multi turn conversation.
+We will discuss this in the next class.
+Do we usually apply evals on input output collected during monitoring at frequent interval like once a day.
+I have to read this.
+Sohail.
+That we.
+Do it at certain frequency.
+Or track everyone.
+I have to see this once.
+Because.
+Obviously if a system is operating on a very large scale.
+Then tracking everything is not possible.
+So it might be.
+The scene.
+Frequent.
+At some frequency.
+So.
+I have to read this.
+So.
+So.
+So.
+So.
+So.
+Sometimes I.
+Don't understand.
+So what can I do either.
+Browser's.
+Normally this is
+I.
+Can't read it either.
+And of course.
+There is no problem on outputHave any issue with output having problem.
+those deployment evals as well to evaluate during
+yes it happens, in fact that was our topic today
+offline vs online evals
+so it happens, in online some considerations change
+this discussion we did was offline
+before you deploy your application
+you do these kind of things
+online there are different considerations, we will read it
+Sir is this the skill set also required for AI QA engineer
+now you can say that Harry
+I have not seen any AI QA engineer profile
+now the thing is that
+this field is very dense
+condensed in the sense that
+only one person is AI engineer
+he has to do everything
+but there might be a scenario
+that after 5 years this field
+will be very mature
+so the work of LLM applications
+should be done by the developer
+and a different role of QA engineer should be done
+for the evaluation
+currently there is only one guy
+if a company is working in a mature way
+then they might hire two separate people
+one for developing and one for
+testing these applications
+but now I think only one person has all the expectations
+Sir I believe working on project after learning
+topics, techniques or concepts helps us
+understand how they are implemented
+in real world production systems
+could you please guide us on how project ideas
+are practical applications related to
+topics covered in the course
+ok we will do it Rhea don't worry
+we will also work on the projects
+and the evaluation is such that
+the evaluation of complex projects
+increases
+but yes, we will work on the projects
+and the evaluation of complex projects
+but yeah, ok I understood your point
+for SLM evaluation
+yes Akhil, that falls into model eval
+ok here one more thing
+I forgot to tell you an important thing
+read this line guys
+this is a very important line
+one LLM based application
+may have
+or might have
+several LLM evals
+so it is possible that
+you have made one rag application
+but on that one rag application
+you are running multiple evaluations
+like this was one single evaluation
+but it is possible that
+on one single LLM application
+you are running multiple evals
+for example
+in rag you are running one evaluation
+to test the performance
+of the retriever
+you are running one
+different evaluation
+you are running one evaluation
+to check the performance
+of the embedding model
+you are running one eval
+to test the whole rag workflow
+you are running one eval
+to check the latency
+of the system
+so generally
+one LLM based application
+always runs more than one eval
+now I have given you an example
+I have told you about one eval
+but generally
+you will get to see
+that on one single application
+multiple evals are run
+this is an important point
+you have to remember
+rest you will see later
+so guys let's keep it clean
+let's keep it clean
+I just hope
+in today's class
+you can learn better
+than the previous class
+and based on this
+we will do more
+discussions
+so
+can you rate
+the last class on 10
+and this class on 10
+just so that I can understand
+whether this class was beneficial
+by repeating
+those who did both the classes
+last class out of 10, this class out of 10
+last class was a 6
+this is 8
+and in general
+how was your experience
+of insider membership
+tell me that
+so far it is good
+the things you are learning
+ROI
+does it make sense
+does it make sense
+if it is still good
+then don't worry
+our goal is to work hard
+and do this for 2 years
+so that you feel like we got 10x
+that is our goal
+so
+ok
+only waiting for
+fine tuning this is the skill
+that can separate
+fine tuning we will do
+as I told you
+so that you can try to wrap up
+fine tuning
+now going forward
+whatever we will study will be important
+LLM Ops is important
+LLM evals is important
+when we will cover more topics
+they will be mostly important
+I have one general question
+I have done
+guys by the way class is over
+so if you don't want to ask any question
+then I will be there in 5-10 minutes
+I have done 100 days
+of MLM finished CNN
+in DLs I have used LLMs
+a bit at an applied level
+but haven't built a full
+LLM project or learnt the fundamentals
+should I take a basic LLM intro
+and do a simple project or continue this playlist
+Nidhi I would recommend
+you cover my 2 playlists
+one is Lanchain and one is Langraph
+if you see these 2 playlists
+then you will not have any problem
+if you have a complete course
+then you don't need to see anything else
+very important thing is project implementation
+should be there after every topic
+with good industry project
+the only problem
+with this particular course
+is that here
+actually if you go to make a project
+then
+if you are doing a software testing course
+then you don't learn to make software
+what you do is
+you learn the fundamentals of testing
+and you apply it on a software
+here same scene
+I will not teach you to make a very heavy
+rag project because
+it will take 3-4 sessions
+here I will teach you to test
+so I will explain you how to test big projects
+so don't worry
+Sir in road map can we add course links as well
+we have got the feedback
+in road map
+whatever is left
+where we have not connected our resources
+we will do it
+main thing is that new course has started
+so there is lot of work
+new people are enrolling
+so we have to handle them
+new classes have started
+so we have to manage it
+if it will become stable
+then we will do all the things
+from my side
+so the goal is that we are going to improve
+this is what you will see
+so whatever is left we will do
+we are executing it in a prior order
+Sir we are not getting notification
+of YouTube sandbox on whatsapp or for live session
+didn't you get notification
+one notification must have been received
+one hour before
+but other than courses
+courses like
+LLMops course will not be free for live classes
+if I remember you sir
+I didn't understand what is the question
+it is free for you guys
+you have to pay something
+Sir can you change the timing from 6 to 8
+Pritesh let's remove this month
+after that we can have a revision
+for me 8pm class is difficult
+what I can do is
+I might shift to 7pm
+there are lot of courses in insider
+keeping a tab on all topics and creating
+a study timetable is difficult for the topic
+sir you can suggest something on how to complete
+all the courses
+guys I will do one thing
+I will do a separate session
+where we will handle these doubts
+whoever has these doubts
+like road map related
+or how to plan
+let's do a separate session
+next week is next week
+we have shared a road map
+with you
+in your whatsapp group
+there you can
+create a personalized road map
+to create prompts
+use jpt or cloud
+slowly you will understand
+what you need
+you won't be able to create a good one in the first time
+it is simple
+it is very easy
+slowly you can create a few projects
+I also had a command on cloud code in the first time
+I worked for 6 months
+now I feel I can use it for any kind of project
+it will take some time
+don't be impatient
+first it won't be good
+using whatsapp API for reminders
+do you guys know what reminders are
+as I said
+let's take a session on this
+for those who have career related doubts
+let's take a session
+there we will understand these questions in detail
+I will do a session like this
+don't worry
+sir how to set up
+standalone server for setting up
+local LM & companies data center for model inference
+this is a very good topic
+we have a plan to do a workshop on this
+let's say
+in July or August
+we will do a workshop
+on how to create our own LLM server
+I am very eager to teach you
+can you please recent the road
+guys if anyone has the road map
+share it on whatsapp
+out of control
+I am not sure
+if anyone has the road map
+share it on whatsapp
+out of context question
+can we use LLM
+for classification
+prediction problem using static large
+tabular data set
+for example some medical data set to predict
+for example diabetes
+I mean you can use it
+the problem is
+the work you can do
+with XGBoost
+its inference cost will be nothing
+it will be equal to nothing
+why do you want to pay the cost of inference
+that is why you don't use LLMs
+plus there can be a reliability issue
+as good as XGBoost
+will give results on its trained data
+there is a chance
+that LLM will make some mistakes
+that is why machine learning techniques
+still exist
+this company to company varies
+it depends on who is interviewing you
+for me its not a big deal
+if the person doesn't know syntax
+if his logic is clear I hire him
+but again it depends on the person
+so in worst case scenario you have to prepare
+so message me personally
+AI work space
+whatever your name is
+we are planning a course
+on AI system design
+so I guess both topics are same
+I am a working professional
+I am building healthcare
+chatbot for my company so can you suggest
+how to make robust long term memory
+have seen your both playlists for
+Langraaf and Langchain
+go check out this software called
+Supermemory
+its not a software its a library
+Supermemory and Memzero
+this is their work
+so long term add your memory
+in LLM based systems
+ok then
+lets take one last question
+as I said
+I am seeing a lot of questions like this
+so what I will do is plan a dedicated
+session on this
+where those who have doubts
+can come and we will
+sit there for half an hour
+and then this problem will be solved
+LLM ops is running
+yes there is a chance
+otherwise
+it will happen in first 3 months
+is a good book to build LLM
+from scratch or any other resource
+I haven't read
+bookyoli so can't really
+comment right now
+but PDF is available so try reading
+or send it to Claude and ask
+is it a good book
+what is Claude's opinion chatgpt's opinion
+these days its easy
+I haven't read so can't say
+sir for fine tuning I need road map
+so specific to fine tuning
+we don't have road map
+we need to make it
+can you please suggest a book for AI system design
+Chip Hewane's book
+AI engineering is a good book
+I haven't read it completely
+but its a good book
+Chip Hewane is also a good author
+so guys that's it for today
+lets close the session
+was this recording
+don't say like that
+is it recording
+yes its recording
+ok guys
+see you in next session
+Friday
+bye good night

@@ -1,0 +1,3437 @@
+So we'll wait another two minutes and then we'll start.
+Any questions for me?
+You can ask.
+Any questions?
+Questions questions.
+Any questions?
+Questions questions.
+Questions questions.
+Questions questions.
+Soo...
+any questions?
+Which is the first session.
+I will tell the prerequisites
+yes some topics will be overlapping
+of course because LLM Ops is your entire field
+and LLM evals is one of the sub topics
+so some overlapping will be there
+but again in LLM evals you will read evals of all kinds
+whereas here we will read more application specific
+so where does the evaluation come in the entire workflow of LLM Ops
+how do you use it
+you will learn this
+first slide
+today's lecture's prerequisite is Lang chain and Lang graph
+I told you this in the previous session
+so in today's session also the same prerequisite
+I will tell you the flow of today's session
+ok don't worry
+start guys any questions
+ok
+no we will not use Ollama here
+we will use Open AI models here
+and I told you that in the last session why we are doing this
+ok I will give you time guys to ask questions
+let's start the session
+so let's do one thing
+let's have a quick recap
+whatever we read in the first session
+let's recap it once
+so you will remember in the first session
+our discussion started with the definition of LLM Ops
+what is LLM Ops
+ok
+so we understood that LLM Ops is basically a whole field
+where you deploy your LLM based application
+ok you deploy it
+so deployment is the first part
+orchestration is the second part
+third part is monitoring
+so the whole field revolves around deployment
+around orchestration and around monitoring of your LLM
+or LLM based applications
+we also understood that in the previous session
+that you have two branches of LLM Ops
+ok which are these two branches
+these are your two branches
+first is your LLM Ops
+and second is a branch which is around your LLM
+based applications
+and we extensively discussed
+that your LLM branch
+where we deploy LLM Ops on foundation models
+what steps we cover in it
+ok we discussed all these things in a lot of overview
+we didn't go into depth
+because we are not targeting this particular branch in this course
+yes we are sharing screen
+is your screen visible guys?
+one note
+ok so you might have some issues on your side
+the rest of you are visible
+ok so as I told you that we will not target this LLM side
+we will target this LLM based application side
+we will target this branch
+ok now in this branch
+we discussed in detail
+this whole workflow
+if I show you
+we discussed this whole workflow
+ok now let's recap the steps of this workflow
+so what did we discuss here
+we discussed that we are going to target this particular branch
+and in this branch
+which is going to be our flow
+we will build two applications
+so in the LLM based application branch
+we will basically build two applications
+from this one application
+we will build in our course journey
+and use it as the base application
+whereas one application
+when we will build our project
+at the end of the course
+so our base application
+will be there while doing the course
+so during the duration of the course
+our application will be
+our rack based application
+so here we will make a rack chatbot
+and through that
+we will understand the whole flow
+and pipeline of LLM Ops
+and the second application
+which we will use in the project
+that will be our agentic based application
+so here we will make an agent based application
+basically that will also be a chatbot
+and we will connect some tools with that chatbot
+there we will connect those tools
+and give some memory to our agent
+so all these things
+all the agent components
+we will do all that there
+and make an agent based application in the project
+and the whole flow
+which we will understand here
+during our LLM Ops
+we will apply this whole flow again on this project
+so basically in this course
+you will learn very well
+that how to apply the whole pipeline
+of LLM Ops on a rack based application
+and an agentic based application
+I hope this point is clear to you
+we also discussed
+what you do in this whole pipeline
+which is this particular workflow
+so we discussed in detail
+in the previous session
+that whenever our application
+is made
+we don't stop here
+what is our first step
+first step is
+we understand our business problem
+why we have to build the application
+what problem will this application solve
+second step is
+our application building
+and generally
+people stop at this particular step
+at this second step
+they build the application
+and they feel that all the work is over
+they manually test their application
+and run it
+everything is working
+they feel that's it
+but from here
+basically your journey begins
+for the LLM Ops
+build the application on your system
+that's not it
+what you have to do
+is basically
+to reach the user
+so this whole journey
+from making the application in your system
+to reaching the user
+this is your whole LLM Ops
+that your application
+when your user uses it
+then it behaves properly
+there should not be any bugs
+there should not be any issue
+you cover all these things
+in LLM Ops
+so we covered some important points
+that you
+especially for a rack based application
+what all things you do
+so I cover those points with you
+so as I explained earlier
+that you have
+one thing
+that is your prompt
+prompt is your application
+you are making a rack chatbot
+this particular prompt is an input
+how do you talk to LLM
+the way to talk to LLM
+is through prompts
+so you
+will treat this prompt as an input
+and you will version this prompt
+this is not our user prompt
+this is not our query
+because query is changing with every question
+every iteration
+this prompt is basically our system prompt
+and why it is important to version it
+because it defines
+your system
+it defines your application
+whatever you put
+instructions in your system prompt
+whatever you add in your system prompt
+whatever steps you add
+that your LLM
+follows meticulously
+so you design this system prompt
+very carefully
+you design it according to your application
+it has no fixed criteria
+that this particular system prompt
+is the best
+it will work with every
+rack chatbot
+you design it according to your use case
+and
+you don't leave it
+you keep on improving it
+you improve it iteratively
+and this is the
+method to improve in iteration
+that is prompt versioning
+so basically
+in the prompt versioning step
+you are setting the behavior of your application
+and not only you are setting this behavior
+you are improving this behavior
+with time
+next step is
+your evaluation
+as you can understand from the name
+you test your application
+we discussed that
+LLM based applications
+their testing is different
+from your software testing
+what happens in software testing
+basically everything is deterministic
+means
+you will get the same output
+let's say I am making
+a calculator app
+and my input is
+4 and 5
+so I am doing this particular operation
+so always I will not get
+9 as output
+9.5 or 8.9
+always it will be 9
+whereas your LLM based applications
+are probabilistic in nature
+and why are they probabilistic
+these are probabilistic
+because your application
+is built around an LLM
+so its center piece
+is a probabilistic model
+so your application
+is also probabilistic
+means
+if you make a small change
+in your input
+then your output will change
+many times for the same input
+your output changes
+you write your prompt
+as it is
+simply change its order
+by changing the order
+the output will also change
+so the evaluation of LLM based
+applications is a little tricky
+you
+carefully
+prepare your evaluation data sets
+and
+on a different kind of metrics
+you test your applications
+and the good thing is
+if I talk about machine learning
+then in machine learning
+there are different metrics
+regression metrics are different
+classification metrics are different
+recommendation metrics are different
+whereas here
+your application specific metrics are there
+means
+it depends on your application
+that what kind of application you are building
+your metrics keep changing
+and not only this
+you also make your custom metrics
+here
+according to your use case
+you also build custom metrics
+is it clear?
+is there
+any issue guys? am I audible?
+a quick check guys
+am I audible?
+because here
+the audio thing on zoom
+was not moving
+fine
+fine
+thanks
+yeah
+okay thank you
+so
+here
+you also define your custom metrics
+so not only
+you have application specific metrics
+you also have your custom metrics
+we will see how you build custom metrics
+for your application
+then your step comes
+next step is your traceability
+you can call it traceability
+you can call it observation
+observability
+both terms are correct
+fine
+what you do in this
+your application which is like a black box
+you open it
+basically
+you track
+the whole journey of output from your input
+and trace
+trace means
+you follow your input
+through your complete application pipeline
+whatever is the workflow
+of your application
+you follow that workflow
+end to end
+like you have a rag application
+so rag application has a particular workflow
+there are some steps which are in a particular order
+so you send your input
+and following that order
+you see that
+your input went inside every component
+so what output did it give?
+which component did it go into next?
+because the output that goes into next component
+it will act as the input
+for the next component
+so it took that particular input
+what further processing did it do?
+what output did it give?
+so you open everything and see
+and this is your traceability or observability
+next step is
+your guardrails
+what are guardrails?
+basically you can call them
+rules, restrictions
+or boundaries
+but these are not your bad restrictions
+it's not like you restrict
+your application for the users
+you restrict your application
+for bad activity
+malicious behavior
+that no one can hack your application
+your application should not give
+any wrong answer
+should not expose any personal details
+so you prepare your application according to that
+basically you around your application
+if this is your application
+you create a boundary around it
+and this boundary
+this is basically your semi-permeable boundary
+semi-permeable means
+for your correct inputs
+for the right things
+it will let your inputs pass
+without any problem
+you won't even feel
+that there is a guardrail here
+whereas if there is a malicious input
+or a bad input
+then it will completely block
+your bad inputs
+and the good thing about guardrails is
+that here
+your end user
+never knows that
+there are guardrails here
+because if he knows that there are guardrails
+he can break the system
+he can find out
+what kind of guardrails are there
+you have to apply guardrails according to
+that your end user doesn't know
+for that
+it should be transparent
+should not be visible
+clear
+yes in one step
+someone told me
+experiment tracking
+after evaluation
+experiment tracking comes
+thanks for pointing that out
+here experiment tracking comes
+in experiment tracking
+basically what you do
+whatever application you have
+built
+whatever application you have
+you basically track here
+what does track mean
+what components are there in it
+what are their
+parameters what are the values
+which model you have used
+in your application
+if I talk about rag application
+which model is which is your vector store
+which is your
+retriever
+ok so these things
+you track in experiment tracking
+and difference
+if I tell between your experiment tracking
+and your traceability
+so experiment tracking
+you
+whatever components of your application
+whatever moving parts
+whereas traceability
+tracks the journey of your input to output
+ok
+this is like what you are doing
+here
+if I tell you that this particular
+experiment tracking is basically
+tracking your road
+ok this is tracking your road
+your highway
+its pillars are ok
+if there is a toll there it is working
+in experiment tracking
+you are booking
+which is attached
+which material your road is made of
+all that is in experiment tracking
+in traceability you are tracking
+your journey
+you are starting from point A to point B
+in that journey what is happening with you
+is tracking of your journey
+I hope you understood this point
+ok
+next is
+you set your guardrail
+after that
+you move to the
+deployment part
+and in deployment part
+first comes your
+serving of the application
+ok
+here you build your APIs
+you build
+your front end
+basically you try to
+take your application to user
+you try to present
+to user
+so you serve the application
+next part is
+CICD
+what is in CICD
+in CICD basically
+you are doing the deployment part
+till now you were doing all this manually
+you were doing test manually
+you were doing track manually
+you automate this
+so that for the next iteration
+of the application all this
+will be done automatically
+then comes your next step
+that is your cloud deployment
+where you deploy
+your application on cloud
+and after that comes
+a very crucial step generally people
+miss this that is your post deployment
+and you in LLM Ops
+in your application based
+LLM Ops you track
+two things here
+first you track
+your LLMs and the applications
+around it
+through traceability
+this is your observability
+but now this is
+running on cloud
+your users who are interacting with your application
+you are tracking
+their input to output journey
+and second is
+monitoring your infrastructure
+here where your application
+is deployed that is infrastructure
+that is a compute resource
+on cloud you have a server
+you monitor it
+here we monitor our infrastructure
+our application is working properly
+our APIs are working properly
+no errors are returned
+active we track all these things
+is it clear guys?
+so once again I will show you
+the workflow so that you
+understand this whole thing
+we did business understanding
+we built the application
+then we have these three steps
+these three steps basically
+we do it in loop
+now what are we doing in both these things
+prompt versioning
+we are doing our application behavior
+we are doing
+the behavior here
+whereas experiment tracking
+we are doing different combinations
+versioning
+of our application
+which retriever is used
+which vector store is used
+which document loader is used
+which chunking strategy
+you have used, according to all that
+experiment tracking is done
+and what is evaluation
+whatever changes you are doing here
+you are making different prompt versions
+different components versions
+you have to test it
+so evaluation is that step
+then comes your tracing and observability
+where your
+application is made
+you study the flow of input to output
+you open your application
+a little bit
+what are guardrails?
+guardrails are your filters
+which block malicious activity
+when you are asked about guardrails in an interview
+you have to make sure
+that guardrails are always
+applied according to the
+end user's knowledge
+otherwise he will try to break it
+guardrails should be
+that the right user doesn't even know
+and the wrong user gets blocked
+again he should not know
+what is used internally
+is this clear?
+then as soon as you implement guardrails
+you go to your integration site
+your application becomes user facing
+so first of all
+you
+survey using fast API
+then you containerize
+this is all deployment part
+you automate through CI-CD
+you do cloud deployment
+and finally you do post deployment
+monitoring
+is this clear?
+is everything clear?
+is everything clear?
+clear
+is spacing good?
+is spacing good?
+great
+so 5 minutes
+is for you guys
+you can ask
+then we will continue
+the next session
+so this was our recap
+we discussed the same thing
+that we discussed in the previous session
+that we didn't discuss anything new here
+any doubts?
+if you don't have any doubt
+then write clear in the chat
+we will move forward
+clear
+right
+does it look interesting?
+doesn't it look difficult?
+guys
+doesn't it look difficult?
+are you finding these concepts
+complex?
+ok
+we will keep it that way
+all the concepts we will discuss
+in any session
+you should not feel difficult
+at the end of the session
+gain some confidence
+this is my goal
+right
+tracing is a component
+of post deployment
+we have discussed this here
+whoever has not attended the previous session
+you can go and watch
+recordings are available
+here we are not discussing the previous session in detail
+again
+we will discuss guardrails
+when the guardrails section will come in detail
+how to implement guardrails
+we will discuss through code
+as I told you in the previous session
+why we will discuss everything
+how to implement
+internally, how to work
+we will discuss everything
+we will not leave anything
+so you will understand guardrails in and out
+right
+let's move forward
+right yes and we will continue
+ok
+so guys
+now let's discuss
+what we will do in this course
+our whole curriculum
+or journey
+I will give you an overview
+as I told you
+the things we are going to read
+that is our
+LLM Ops on
+LLM based applications
+and again in this course
+our application
+we are going to use
+that will be our rag based application
+ok now we are not
+discussing the project
+we are discussing our course
+so from now
+onwards
+in our mind
+how to implement
+LLM Ops around it
+ok now you don't have to worry
+about the agent applications
+how they are made
+around that
+how we will build the pipeline
+is this clear
+is this clear guys
+I am looking at the chat
+yes ok
+right
+so what we will do
+we will be here
+in every module
+ok I have
+broken down this course
+in every module
+and in every module
+we will understand this particular flow
+ok
+that this particular
+prompt versioning
+let me pick this
+so we will understand
+why
+prompt versioning is used
+what we will understand
+what is prompt versioning
+and how we will understand
+how it is done
+so we will
+from the perspective of why what and how
+we will read all these boxes
+ok
+now I will discuss with you
+the entire flow
+ok
+so you have
+your LLM Ops
+different
+layers ok
+here you can see the names of the layers
+here you can see their purpose
+ok this is like
+why we are doing
+what we are doing in this layer
+and why we are using this layer
+and this is our how
+what tools we are going to use
+now again you can see multiple
+tools here
+but we will work with
+one specific tool for every layer
+and the simple reason
+for this is
+that this whole technique is always
+tool agnostic
+and we have to make sure
+that we make sure that we make
+this whole thing tool agnostic
+we will focus on concepts
+as I told in the first session
+not on tools
+because tools will keep coming
+ok and here
+if you can see multiple
+tools in any section
+like in the evaluation section
+so here we will take one tool
+that will be our main tool
+and around this tool we will learn
+how to code here
+and we will make you comfortable
+with this framework
+whereas the other framework
+we will read in overview
+but not in depth
+so this will be your main tool
+ok now
+order can be different here
+but one will be main tool
+and one will be auxiliary tool
+ok so we will work
+according to that
+so I will work
+the main tool I will mark it with red
+and the auxiliary tool will be
+the subsidiary tool I will mark it with green
+so first of all
+the layer that comes is our model
+access layer
+because what you are doing here
+you are making an LLM based application
+so your LLM based
+application, what is in its center
+in its center
+it will always be LLM
+whenever you make
+any LLM based application
+always remember this
+whenever you make any LLM based application
+then you wrap
+your application
+around your LLM
+your LLM is always in center
+and an application is made
+around it
+ok, whether it is rag application
+it is made around an LLM
+whether it is
+an agent based application
+agentic application
+it is made
+around your LLM
+or any summarization
+application
+so all the applications
+you make
+you make your LLM
+wrapped around
+so you must have seen
+all the new coding agents
+are being launched
+they are not called coding agents
+they are called coding harness
+you must have heard this term many times
+harness is again an application
+that is built around wrapped around an LLM
+ok, so
+all your LLM based applications
+are
+around your LLM
+so first of all
+we have to learn
+how to call this LLM
+how to use this LLM
+because LLM is not available locally
+on our system
+where are these foundation models
+these foundation models are available
+on your servers
+now let's say your
+LLM is available on Azure servers
+so what we have to do
+is
+call it through an API
+so first of all we will
+understand how to call this API
+and this is your
+layer number one
+which is the model access layer
+because from here you start
+using your application
+this is your first point of contact
+so what is its purpose
+its purpose is it connects to foundation
+models via APIs
+you know this
+and for this you have many frameworks
+available, you have open AI
+APIs, Anthropic
+Google are available
+but here we are
+for this particular application
+which is our RAD based application
+we are going to use LAN chain
+ok, we will build
+our application around LAN chain
+means we will contact
+our model through LAN chain
+and why are we using
+LAN chain here
+simple reason is
+LAN chain is basically
+your wrapper
+and it
+can wrap
+your different API calls very efficiently
+what you have to do here is
+change your wrapper
+the rest of the internal code is exactly same
+now let's say
+you are using open AI model
+tomorrow your mind
+changes and you shift to
+Anthropic
+so simply with
+one line code
+you will change and you can switch your models
+you want to work with
+Gemini models tomorrow
+you can do it
+you want to call models
+through Olamas
+you can also do it
+so you will simply change one line code
+and you can switch between your models
+that's why we are using
+LAN chain
+then the second is your
+orchestration layer
+this is basically our application
+coordinate application logic
+and workflows
+in this layer you prepare your workflow
+so what we will do here
+we will make a rag
+workflow in the rag based application
+and for this workflow
+we will use LAN graph
+because you know
+whenever you want to make any
+workflows you can use
+LAN graph
+you can make workflows through LAN graph
+you can't make workflows through LAN chain
+LAN chain only supports your chains
+you can make chains
+but what are workflows?
+you can set conditions in workflows
+you can make iterative loops
+so you can do all these things easily
+through LAN graph
+but LAN graph doesn't work alone
+you have to call a LLM
+so for that again we will use
+LAN chain
+so LAN chain and LAN graph are basically
+you can call them siblings
+they both work together
+in many LAN graph
+you use the components of LAN chain
+in the graph you build
+so our orchestration layer
+where we will build our application
+we will build its graph
+we will be using LAN chain and LAN graph
+next layer is your prompt management
+where you do your prompt version
+and register your prompt
+here you do version, tag
+and compare your prompts
+for this particular layer
+which is your prompt management layer
+we will use LAN fuse
+so LAN fuse is
+an open source framework
+so basically it does
+many things
+if I show you its web page
+so what you have to do simply
+is search for
+LAN fuse
+open source AI engineering platform
+so this is your entire
+AI engineering platform
+here you get many things
+if I show you its doc section
+here you can see
+prompts are visible
+if I show you the
+doc section
+then you can see it here
+here you get metrics
+here you get observability
+and here you get prompt management
+so here we will use
+observability and prompt management
+for both of them
+here we have evaluation
+but for evaluation we will use
+a more mature platform
+is it clear?
+clear guys
+let me switch back to my one node
+this point is clear
+great
+moving forward
+next step which is our
+experimentation tracking
+where we are locking our components
+what parameters
+they are holding
+so we will lock and compare
+our pipeline configurations
+different configurations
+which chunking strategy we are using
+which vector store
+we are using
+retriever
+all those things we can compare
+through experiment tracking
+and for this we will use
+MLflow
+those who have read
+about MLops
+they must have worked with MLflow
+we can use the exact same
+MLflow here
+for basically logging our
+experiments
+next is our evaluation
+what is evaluation?
+we are using output quality systematically
+here we have
+two frameworks available
+which is our deep eval and our ragas
+but here
+we will make deep eval
+our main framework
+this will be our auxiliary
+simple reason for this is
+your deep eval
+deep eval framework
+it supports your
+different metrics
+in this you have
+around metrics
+around application
+single turn, multi turn
+around your
+chatbots
+and here your rag application
+as well as your agentic application
+both have good support
+around both
+because we will build agentic based
+applications during our project
+so we will work with deep eval
+whereas if we were
+working with rag based application
+then we will use ragas
+ragas full form is rag assessment
+so this
+is basically built around
+evaluating your rag pipelines
+agentic evaluation support
+is available in this but not as mature
+as deep eval
+basically it is built around
+evaluating your rag pipelines
+so because we have to work with both
+applications here
+we will take deep eval as our main framework
+but here I will give you the flavor of ragas
+how do you evaluate your rag
+in ragas
+next is your observability
+layer which is your traceability
+in this you trace
+every step of the application
+here you have two options
+langsmith and langfuse
+which I have shown you
+here is the observability section
+so here you can see
+trace includes all LLM and non LLM calls
+including retrieval, embedding
+so you can trace the whole application
+clear
+so here we will use
+the main framework
+that will be our langfuse
+use this
+and what will be our langsmith
+this will be our
+subsidiary
+now why did we make it
+secondary
+the reason is that your
+langsmith is supported in
+the ecosystem of the langchain
+langgraph
+let's say tomorrow you have to put
+tracing on an agentic framework
+like crewai or agno
+you can't use
+langsmith there
+so that's why we are using
+langfuse here because
+it is agnostic to your application
+you can use any framework here
+you can integrate langfuse there
+so this will be our
+main framework
+we will see through langsmith
+how you do
+tracing but not in detail
+because this is already
+covered by netish sir
+on the langgraph
+he has covered
+this traceability part
+so we will touch it a little
+and then leave it and focus on
+langfuse
+next is our guardrails section
+where we will see safety, structure and
+output validation
+and here you have
+two options available
+one is your guardrails ai
+so this will be
+our main and
+nemo guardrails will be our
+secondary option
+now why did I choose
+guardrails ai
+because guardrails ai
+provides you around 70 built-in
+guardrails already
+around different type of applications
+so you already get guardrails
+and it is a very mature platform
+whereas nemo guardrails ai
+although it is also a good platform
+and this one is by
+nvidia
+so you get it through nvidia
+nvidia has designed it
+but the problem is that
+nemo guardrails ai works
+only on your chatbots
+here if you have
+question answer chatbots
+around that you can use it
+but agentic applications
+do not have good support
+so our primary focus
+in guardrails section will be
+guardrails ai
+talking about serving
+we will expose our application
+we will give a front end
+and connect it through api
+here we will use fast api
+you know if you have
+productionized your application
+in machine learning
+then you must have used
+api or you must have heard its name
+so here we will use fast api
+and for front end
+we will use streamlit
+because it is python based
+and making front end here
+becomes easy and interactive
+because our work here
+is not to make front end
+so we will use streamlit
+we will not focus on front end
+rest our front end will look good
+don't worry about it
+containerization which is our docker
+so here we will use
+docker and docker compose
+docker is basically
+your main
+framework main library
+through which you do containerization
+this is also called dockerization
+and what is docker compose
+it has an advanced version
+where you can run multiple containers
+together and link them
+together
+now our issue here is
+our back end application
+which is a rag application
+it is a completely
+different application
+we have built this
+and around this we have built api
+so now this application
+can be connected only through api
+whereas my front end
+application is completely different
+this is made on streamlit
+and what I have to do
+I have to connect them
+together so here
+what I will do using docker compose
+docker compose
+I will run multiple
+containers together
+and connect them together
+I will use docker compose
+to connect my back end and front end
+I hope you understood this
+then comes your
+CI CD
+again we will use
+get up actions
+because we will put our project
+on get up so we will use
+get up actions again if you
+have worked in mlobs before
+then you will know about get up actions
+here for automatic evaluations
+we will use deep eval cli
+so again the reason to use
+deep eval is that
+it provides you feature
+of cli waste evaluations
+and docker hub
+basically
+we will see what docker hub is
+leave it now this is also
+docker component we will use it
+for deployment
+we will use
+that will be on AWS
+so here we will use
+different components of AWS
+AWS EC2
+this will be our instance
+or our machine
+on which we will host our application
+our server
+AWS ALB is our application load balancer
+it basically
+handles our traffic and scaling
+I will not say scaling but you can understand traffic
+although
+although it triggers
+during scaling but again
+it manages your traffic
+so it
+manages your traffic
+AWS secrets manager
+is very required because
+you will have API keys
+to call LLMs
+other than that you can have
+API keys around different components
+so to manage these keys safely
+you will use AWS secrets manager
+you will use
+code deploy to deploy
+your application
+to deploy different versions
+again there are different deployment strategies
+like canary deployment
+blue green deployment
+we will read all these
+but here again we will use AWS code deploy
+and AWS
+auto scaling is understood by name
+it basically
+scale up or scale down
+your application
+was running on one server
+now your traffic
+has increased
+so suddenly you need
+three instances
+so your auto scaling
+will automatically
+start more servers
+and your application will deploy automatically
+and it will
+also serve your user
+means
+traffic will be rerouted
+automatically
+now how will all this happen
+we will see all this
+and finally your
+monitoring, now here is a section missing
+this is my LLM monitoring
+again we will use Langfuse
+because we are using Langfuse for observability
+and post deployment
+when your infrastructure will be monitored
+then you will use two tools here
+for post deployment monitoring
+so here
+you will use two tools here
+first will be Prometheus
+which basically
+tracks your infrastructure
+and here
+returns the values or metrics
+and second is Grafana
+which is used
+to build your dashboards
+so whatever you will get from Prometheus
+you will visualize it
+in Grafana
+so guys
+this will be our full flow
+and all these frameworks
+we will master in our LLM
+off journey
+but
+whatever we will read here
+that will be around our rag based application
+is it clear guys
+is it clear
+clear
+any questions
+if you have questions then you can ask me
+I hope you understood
+the whole curriculum we are going to read
+I am looking at the chat
+we will not cover Kubernetes now
+because if we will cover Kubernetes
+then it will be too big
+maybe we will have to
+give Kubernetes for a month
+because we will have to cover it in full detail
+difference between ALB and AWS
+when we will read AWS
+when the deployment part will come
+then we will understand it
+these are two separate components
+we will read it in detail
+don't worry about it
+clear
+how did you like the curriculum guys
+the choice of frameworks
+worth it
+great
+no advantage
+no advantage
+Azure, AWS, GCP
+no advantage
+just
+AWS market share is a little more
+and I have worked with AWS before
+so I am comfortable
+with it so we are using it
+there is no other reason
+because concepts are generally
+same I told you
+there is a difference in terminology
+AWS secret manager
+will do something else
+but he will do the work
+so we will understand his work
+and then we will see how
+we will use it in our application
+yes AWS is paid
+but initially when you use it
+you can use it with your free tier
+in free tier you have many things available
+again if you
+use it properly
+as I will tell you while deployment
+if you close your instances
+and use it timely
+then you will not get any bill
+last month I
+extensively used AWS
+I think I got 3 or 4 bill
+but my free tier is over
+many things are available
+for a long time
+in the free tier so you can use them
+no no
+you will not get bill
+don't worry about it
+I will tell you ways
+through which you will not get bill
+if you will leave everything
+I can't help you
+and if your bill
+is in lakhs
+then I will tell you the way out
+but I will tell you that only
+when we will cover deployment
+it is a funny way out
+but you can use it
+it is one time
+one time lifeline
+it will not work again and again
+the fast api we will cover
+we will understand
+how you set streaming api
+so we will not cover
+the whole fast api
+again according to our application
+we will cover only
+the required fast api
+so you have to remember
+we will not cover all the frameworks
+because if we will cover
+all the depth
+it will take a lot of time and it is unnecessary
+we will cover only
+through which our application
+will deploy very well
+clear
+rest trust me
+I will tell you the way
+of every layer
+so tomorrow your framework
+tool changes
+so you will have minimal impact
+you will have to
+refer a new documentation
+and that's it
+concepts will remain
+like ragas
+and dpwell both
+evaluate rag based applications
+there is no difference in syntax
+some classes are different
+some functions are different
+so
+I will answer
+this thing
+around the application
+what kind of application
+we will build here
+so guys the rag application
+we will build here
+in this particular course
+this rag application
+will be a basic rag application
+application
+and the simple reason
+is that if we
+build a complex or advanced
+rag application
+so we will
+understand the concepts
+of the application we are building
+so the LLM ops we have to use
+will distract our focus
+so I thought
+it will be better
+to use a basic application
+and learn the techniques
+around it
+if we focus
+more effort and energy
+in building the application
+then other things will be missed out
+if you have very complex
+moving parts
+then the main things you have to learn
+will be yours
+again if you want to work with
+advanced rag applications
+how to make them
+for that already advanced rag course
+you have it on this platform
+you have it in insider
+you are free to watch it
+so you can watch it
+there we have
+advanced rag concepts
+advanced rag applications
+how to make them
+discuss all the applications there
+do you agree with me guys
+that if we build a complex
+application here
+then we will not be able to learn LLM ops properly
+and same will do
+with the agentic application
+I will tell you
+how these agents are made
+through LLM graph
+but we will not make a complex application there
+clear
+guys do you need break
+do you guys need break
+ok
+great
+ok
+so let's move towards the next concept
+that is ML ops vs LLM ops
+and guys this is a very important
+concept
+so for the next 30 minutes
+I need everyone to be focused
+on your screens
+we will understand this concept very well
+because in the future
+you might have confusion in your mind
+that we have read similar things
+if you have read ML ops
+then what is the difference
+between ML ops and LLM ops
+we will cover that in this particular slide
+so let's start
+right clear right yes and we will start
+ok let's start
+a small question
+I want to ask you
+how many of you have not heard about ML ops
+or have heard
+that ML ops has never
+implemented ML ops
+you still do machine learning
+only in notebooks
+and how many students
+have implemented ML ops
+you can write ML ops in the chat
+so that I can differentiate
+1 2
+ok
+so I think
+majority
+audience
+ok it is shifting now
+I think it is 60-40
+so 60% who do not know ML ops
+and 40%
+who know ML ops a little
+or fully
+no problem
+we are going to discuss here
+ML ops vs
+LLM ops
+because
+if you do not know about ML ops
+or LLM ops
+then you have heard
+these terms
+and it is clearly understood
+that this particular
+field
+it is centered around your
+machine learning algorithms
+that is why it is called ML ops
+and this field
+it is centered around your
+LLMs
+that is why it is called LLM ops
+it is very basic
+but here what is this ops part
+what is this ops part
+and where did this ops part come from
+this ops part basically came from
+your DevOps
+so these two fields
+ML ops and LLM ops
+they evolved
+from your
+DevOps
+so if I explain it in hierarchy
+or in lineage
+then you can understand it in this way
+that first it was your DevOps
+from that
+next evolution came
+when your machine learning algorithms came
+then ML ops came
+and when your LLMs
+came in picture
+when LLMs around LLM based applications
+started to be developed
+then your LLM ops came in picture
+so these basically
+are your evolutions
+from DevOps
+ML ops and some concepts
+of ML ops
+but
+why these are different fields
+because they
+cater to different use cases
+it was possible
+that if there were many similarities
+then instead of LLM ops
+we would have read ML ops
+and using ML ops
+we would have worked with LLM based applications
+but
+we are reading about a completely new field
+so it is possible
+that you might have this question
+that why
+a new field was born
+so I
+will explain it to you
+first what is the difference between your
+ML ops and LLM ops
+on a very basic level
+ok
+sorry
+so as I
+discussed with you that what is ML ops
+ML ops is centered
+around machine learning
+ok, now we are not going into
+technical details here, we are only
+talking about machine learning and LLM based applications
+ML ops is centered
+around machine learning
+LLM ops is centered around
+LLM based applications
+again here we
+are not touching the foundation model
+LLM ops
+so
+we can see that
+there are completely different things here
+here in ML ops
+there is my raw model
+my machine learning
+model which I have trained
+using some data set
+whereas
+in LLM ops
+I have a model already available
+model is already available
+what I have to do here
+I have to catch this available model
+and make an application
+around it
+so the first point of difference came here
+what is the first point of difference between ML ops
+and LLM ops
+that in ML ops I did not have this model
+available here
+I trained it
+on a data set
+whereas
+in LLM ops I have a model
+available
+so I don't have to worry about
+training of the model
+or anything around the model
+but what I am doing here
+I am building a sophisticated application
+around ML ops
+you don't have to make
+any sophisticated application
+you have your model
+you provide data to your model
+your model does the prediction
+whereas in LLM ops
+you have many moving parts
+if I talk about
+rag chart bot
+you have an LLM
+that is a moving part
+you have a retriever
+that is a moving part
+you have a vector database
+available
+it is a moving part
+these things are not
+generally present in ML based applications
+your applications are simple
+whereas
+the techniques around the model
+are tricky
+in LLM based applications
+your model
+is available through APIs
+you simply
+don't have to worry about
+where this model is hosted
+how to use it
+you just need to know how to call API
+call API, whatever input you give
+you will get output from input
+or error
+you will get an answer
+you have to build
+an application around it
+that is your main concern
+is this clear?
+is it clear guys?
+the first point of difference?
+clear
+second point of difference is
+if you have worked with ML models
+you know that
+for a given row
+we are not talking about data set
+we are talking about a row
+let's say I have 5 input features
+and I
+give this particular data
+to my ML model
+so my ML model
+will always output
+the same way for this particular data
+let's say this is a regression model
+it gives me a continuous value
+and let's say the output is 10
+so whenever I
+give this particular set of values
+to my ML model, I will always get
+10 in the output
+let's say I get 10.5 here
+or 11 here
+or 9.5 here
+this is never possible
+whereas in an LLM based application
+which is your center piece
+which is your LLM
+it is very dynamic and probabilistic
+in nature
+this is sometimes for the same input
+it gives you different output
+here
+the output is different
+so you have to
+manage the relationship
+between output and input
+because
+nothing is static here
+you can't fix anything
+things are moving
+dynamically
+is this clear?
+third is
+in your ML based system
+your rows
+let's say you have
+100 rows in your dataset
+just a second
+your dataset
+has 100 rows
+and let's say you have
+hosted this model on a server
+let's say AWS
+so this 100 rows
+data will have some compute
+or cost
+let's say it is your cost of 10 rupees
+so you
+when you give your model
+whenever you give 100 rows data
+you will get 10 rupees cost
+whereas in LLM based
+application
+again you can't fix this cost
+it is dynamic
+it is very difficult to judge it
+why is it dynamic?
+because in your LLM based application
+you have input cost
+and output cost
+both are dynamic
+input length and output length
+both are dynamic
+you can't expect
+that it will give you only one size input
+it is possible that user's query
+is small
+let's say we are making a campus chatbot
+so one student's query
+can be explained to me
+what is LLM Ops
+one's query can be
+something big
+AWS or load balancer
+so again input length
+is variable
+output is dynamic
+so output length is also variable
+you can question
+that we can set a limit
+of output
+maximum output length
+but it is not necessary
+that your output will always be of that length
+set your maximum limit
+that it can't be bigger than this
+but it can be smaller than that
+so you have to keep a headroom here
+so again
+the issue here is
+the cost involved with your outputs
+is dynamic
+the usage involved
+is dynamic
+the compute usage is dynamic
+you have given 100 rows of data
+so let's say
+x units of compute
+is spent
+in a machine learning system
+so you will spend x units
+even if you give next 100 rows
+so as LLMs things change
+according to your input
+your output
+your retrieved context
+your compute changes
+is it clear
+that where are the differences
+differences are your core differences
+ok
+next point is
+in a machine learning application
+generally
+generally
+I am not talking about model explainability
+generally you don't have to track
+the entire journey
+of input to output
+because there is no workflow
+there is no workflow
+I am talking about prediction
+you will say there is a workflow
+data is clean, data is clean
+EDA is there, I am not talking about that
+I am talking about the prediction
+as your model has input
+your model immediately gives output
+whereas in your
+LLM based application
+there is a workflow
+and the workflow
+you are building
+it can vary in complexity
+its complexity
+can vary
+the length of this workflow
+its number of steps
+can vary
+according to that
+your application
+your LLM ops criteria
+will change
+is this thing clear
+is it clear guys
+is it clear guys
+I am looking at the chat
+so basically
+we are working
+with a very dynamic system
+when we are talking about
+LLM ops
+ML ops is generally not that dynamic
+complex, yes it is complex
+but dynamic, no
+not that much
+ok
+so let's take a little overview
+and understand
+what is ML ops
+we have read about LLM ops
+in detail
+that this is LLM ops
+for a rack based application
+but let's see what steps
+you have to take in ML ops
+and how you productionize
+machine learning systems
+how you take operations
+steps
+now if you think
+what is a machine learning model
+what is an ML model
+any model you pick
+whether you talk about ML model
+or DL model
+at the end of the day
+they are nothing but your mathematical functions
+some complex functions
+ok
+I can write
+any ML model
+like this
+it is simply a function
+maybe I don't know about this function
+but what this function does
+if I give any input
+to this function
+then it generates an output
+ok
+ok
+and whatever your
+machine learning models are
+in them what you do first
+you first
+take a data set
+ok
+now in this data set
+you have some input features
+these input features
+basically are the input of your model
+and some
+are yours
+I will not say output
+this is called target feature
+why it doesn't move
+I don't understand
+it gets stuck here
+target
+feature
+and this target feature
+governs
+what kind of ML model you will make here
+whether it will be
+regression model
+classification model
+ok, this defines your target
+is it clear
+so you have
+data set
+you have input features
+and your target feature
+right and your target feature
+is telling you what kind of ML
+model you are going to train
+so your ML Ops
+your ML Ops
+its core part is
+your ML model
+its training
+its evaluation
+your evaluation
+you will also do its versioning
+around it
+everything revolves
+and because you need data set to train
+the model
+so here data set is also a key feature
+and you call these two
+artifacts
+ok in ML Ops
+you call data set
+and machine learning model
+artifact means
+you can simply understand your outputs
+ok after a particular step
+the output you got
+in the ML Ops pipeline
+that is your artifact
+so if you are working in data pipeline
+then what will you get in output
+you will get a data set
+on which you will train your model
+it is an artifact
+you are training machine learning model
+and evaluating it
+and after that you will get an ML model
+artifact
+and around this
+training, evaluation, versioning
+we do all these steps inside ML Ops
+is it clear guys
+is it clear what is ML Ops
+is it clear guys
+yes
+ok now lets discuss
+the whole ML Ops workflow
+we will discuss it in overview
+not in detail
+but you have to keep one thing in mind
+because now you have understood
+the whole workflow of LLM Ops
+so you have to draw parallels
+what are the similarities
+what are the differences you have to draw
+ok so what is the first step
+the first step is
+business understanding
+this business understanding
+step was also in our LLM Ops pipeline
+so this is more over
+your common step
+there you have to
+make an application
+according to that you have to
+keep business understanding
+here you have a data set
+which is not available
+so which problem statement you have to solve
+around that what kind of model you have to build
+business understanding is needed
+ok after that
+you have data related steps
+so in data related steps
+the first step is
+your data collection
+you will collect data from somewhere
+because what you have to do is
+train the model
+and this problem was not in our LLM
+applications we already had
+model available there
+so we did not discuss any step
+where we were doing any step around data
+ok because we already
+have a trained model available
+whereas if we have to train here
+then we have data requirement
+so you have data
+this is basically your raw data
+some of these steps
+you can do in notebooks
+already
+so you will feel familiar
+so first of all
+you have your raw data
+you perform your EDA
+EDA is your exploratory
+data analysis
+can you tell me what we do in EDA
+if you can tell me in chat
+what are the steps we perform in EDA
+identify patterns
+yes
+distribution check
+starts feature engineering
+is not part of EDA
+insights from data
+distribution analysis of features
+yes hypothesis testing
+we apply statistical techniques
+here
+basically EDA's main goal
+is missing value computation
+main goal of EDA is
+understanding of data distribution
+how is your data
+we basically open
+data inside the EDA
+but we do not interfere with
+any data in EDA
+we understand the patterns
+of this raw data
+we do not change
+we do not impute
+any missing values
+we do not remove any outliers
+we do that in downstream steps
+after that
+comes your data cleaning and
+wrangling
+in this we fix
+the problems in our data
+we fix cleanliness issues
+we impute missing values
+we treat outliers
+issues
+all that comes
+in data cleaning and wrangling
+next step is
+data versioning
+you must be thinking
+when we work in notebooks
+we directly come to feature engineering
+step from data wrangling
+where is this data versioning step
+so what is data versioning
+we are versioning
+our data
+basically we are
+versioning
+the steps we have done
+this particular step
+we are storing
+the output
+we are persisting
+I will tell you why versioning
+you understand it
+as
+what we had here
+we had raw data
+this was our raw data
+what we did on this
+we did some pre-processing steps
+here
+we did some
+cleaning steps
+we treated data
+we treated
+so where we had missing values
+we imputed them
+where we had outliers
+we dropped them
+we put drop-annals
+so basically
+we made some changes
+with the raw data
+which is not available in original form
+so basically what we do
+in data versioning
+whatever we have done
+we record it
+through a different version
+let's say our raw data
+if it was version 1
+after cleaning
+what was version 2
+and we mark there
+that in version 2
+we have done these particular steps
+and it is different from version 1
+we store it here
+save it
+so that
+if we have some problem in version 2
+let's say we have done one step extra
+we have to go back to version 1
+so if we make changes in our original data
+then how will we revert back
+so to revert back
+here
+to experiment
+we make a raw data version
+and after our experimentation
+after cleanliness
+we store them in different versions
+ok
+and why is this done
+because
+in ml aux you have
+two important artifacts
+first is your data
+and second is your model
+so the series of steps you put on model
+the same series of steps you put on data
+clear
+so here what you are doing
+you are versioning your data
+is it clear now
+is it clear guys
+why we are doing data conversion
+because this is our bread and butter
+we have to train our model on this
+let's say we
+during data versioning
+we removed some features
+we selected features
+and some features
+we removed them
+then we trained our model but the results were not good
+so we want that features back
+so how will we get those features
+we made changes in original data
+we can get those features only
+if we have original data
+and changed data
+both are here
+so that we can draw comparisons
+so that we can get the rewards back
+is it clear
+after that comes the step
+feature engineering
+this is different from data cleaning
+what we do in feature engineering
+we engineer our features
+means
+generally students are confused
+in interviews
+your data
+when we do cleaning on it
+pre-processing
+it is still your data
+whereas after feature engineering
+it becomes
+your model's input
+what are features
+features are your input for your model
+I told you
+what is model's input
+these are your features
+and now we are
+putting our data
+to act as the input of our model
+and in feature engineering
+there are steps like encoding
+you have
+transformations
+log transform
+square, box cost
+you have
+encoded
+and other transformation techniques
+all of them come in feature engineering
+scaling
+all of that comes here
+is it clear
+is it clear
+and as soon as you have
+feature engineering data
+you again version it
+you do versioning on every step
+remember this
+because it is an artifact
+so whenever you do changes in your data
+even a minute change
+you will do it
+so that you can differentiate
+between a previous version
+and the next version
+and you can see what changes
+you did in the next version
+which were not in your previous version
+so you again
+do versioning
+after that
+you have prepared your input
+for the model
+now what you have to do is
+set your training
+you have to train the model
+so your training will start
+where is your feature engineering data
+into the training loop
+after that
+you trained
+what is the next step after training
+you have your model
+after that you will evaluate the model
+after evaluation
+what you will do
+you will make this model
+a training model
+after that you will tune your model
+it is possible
+that your model is not behaving
+as expected
+so what you will do
+you will do hyperparameter tuning
+again this step you do not do in your LLM
+ops because there are no hyperparameters
+and
+whatever training you are doing
+here, you are doing the evaluation
+and you are logging all the results
+so here comes your experimentation tracking
+and after that
+you do versioning your model
+you have trained
+you have a model
+which is your output
+it is an artifact
+you will do versioning
+is it clear
+guys
+is it complex
+is it not looking complex
+I will tell you everything
+fine
+is it not looking complex that's good
+now let's do one thing
+the whole flow I told you above
+now let's understand it through an example
+through an example you will understand it better
+again we will not go into
+terminology here
+we are basically drawing parallels between our
+two branches ML ops
+versus LLM ops
+so basic example is
+let's say I have a data set
+and
+the model
+I have to train here is basically
+a loan prediction model
+this is a classification
+problem
+binary classification problem
+whose output will be 0 or 1
+so what is the data set
+you can think of it as a bank data
+where in each row
+there is a customer data
+and inside that
+it is told that
+how long has he been with the bank
+how many loans he has taken
+how many loans he has defaulted
+what is his credit score
+there are some features which basically
+tell us whether this person should
+give a loan or not
+and finally you have a target
+whether you want to give a loan or not
+and that is 0 or 1
+0 means
+did not give 1 means
+gave and what is the work of our model
+our model
+is to train it on this particular
+data set
+and after that
+whenever a loan request
+comes to your bank
+you have to process that customer's data
+and tell
+whether he should give a loan or not
+so you can see
+that your loan prediction task
+has become
+a real world task
+and the quality
+of your model, the accuracy
+of your model is very important
+because real money is involved
+it is possible that your model
+is not performing that well
+so you give a loan to such a person
+who did not want to give you a loan
+in that case
+your bank
+will bear a lot of loss
+will take that loan and
+will not be able to repay
+will default
+whereas here is another scenario
+if your model
+denies a person who should have given a loan
+by giving a loan
+again the bank is losing a customer
+so this is the case
+is it clear now?
+is it clear?
+guys
+right
+so basically what we want to do
+here is we want to train this model
+now do you think
+as a developer you will train this model
+as a data scientist you have trained this model
+and where is it now?
+it is on your local system
+do you think
+this will benefit something?
+this model staying on your local system
+will it benefit from this?
+will it be able to serve the user?
+who is the user here?
+here the user is your bank
+will the bank be able to use this model?
+the answer is no
+what you have to do is
+you have to take this particular model
+and you have to productionize it
+you have to take it to production
+so
+training your model on the system
+training your model
+on the system and taking to production
+this is your
+whole MLops journey
+what was the journey of LLMops?
+the journey of LLMops is
+if I talk about LLMops
+let's draw a parallel
+building your application on the system
+building application
+which we are doing on our system
+and taking it to production
+this is your LLMops
+ok
+now what is the first step here?
+the first step is your
+around data
+so what we do first is
+we make a data pipeline
+what is the meaning of pipeline?
+whenever I use the word pipeline
+pipeline means
+one workflow
+and what is the speciality of pipeline?
+whenever I start pipeline
+my workflow
+should be run
+end to end automatically
+according to
+the way I have built it
+ok
+let's say I have set step A
+step B, C, D
+so in this particular
+order my pipeline should be run
+so first
+I will make a data pipeline
+in data pipeline
+so what will be my first work in data pipeline?
+first will be collecting my data
+so this will be my collection point
+after that
+what will be after that?
+to perform EDA
+after that
+fixing the issues in my data
+after that what will be next step?
+after that
+next step is to perform feature engineering
+but
+in this data pipeline
+throughout this pipeline
+you are making changes in your data
+data is your artifact
+so whenever you
+make changes in your artifact
+you will always version it
+version means
+you will firstly store
+and second is through versioning
+you can compare
+all the iterations
+you will store them
+so when you collect your data
+version A will come
+which will be your raw data
+you have done EDA
+you have not changed anything
+you have simply explained the patterns in your data
+you have cleaned the data
+so here you will get
+B which will be your
+clean data
+I don't know what is the issue
+it freezes here
+it doesn't come out
+so here you will get
+clean data
+and here after feature engineering step
+you will get C
+which will be your input to your
+ML model
+and now you will version
+all these three
+so that
+in this particular pipeline
+you have to go back to any version
+you can go
+so whenever you
+make changes where
+your original form is changing
+you can store it somewhere
+now for versioning
+you use tools
+we are not reading MLops
+so we will not discuss about tools
+if you have read MLops then you must have heard the name of
+dvc
+it is a very famous tool to
+basically version your data
+its name is data version control
+so here you have made a data pipeline
+along with that you will
+make a model pipeline
+you have two artifacts
+for two artifacts you have made
+two different pipelines
+what will be in model pipeline
+the first step will be
+training your model
+next step will be
+after training you will
+evaluate the model
+and after evaluation
+you will tune your model
+this whole pipeline
+actually this pipeline is not
+it is in loop
+you train, evaluate, tune
+after that
+you train the tuned model
+again, evaluate and tune
+so this
+basically goes in loop
+but this model pipeline or model loop
+after seeing
+you are not remembering anything else
+you are not remembering any other pipeline
+if I talk about LLMops
+here it does not look like
+LLM's training pipeline
+although it is complex
+but it is somewhat similar
+you are pre-training, evaluating
+fine tuning
+then you generally
+do not go back
+but you can understand that this pipeline
+is similar to your LLM pipeline
+and why are they similar
+they are similar because both are your models
+so data pipeline
+and your model pipeline
+is completely separate
+and runs in different ways
+again, all the versions you will get
+you will do everything here
+version
+all the new models
+you will get you will do everything here
+version A, B, C, D
+whatever it is, you will do it
+for that you will use
+model registry
+components
+you will use components
+model versioning and storage
+is also there
+is it clear?
+now what you have to do here
+these series of steps
+whatever changes you are doing here
+you have to lock them too
+what were you doing here till now
+till now you were only
+saving your outputs
+here the intermediary outputs
+of the pipeline
+you were tracking
+which are your artifacts
+but why these changes happened
+it is also important to lock
+you made A from B
+you have tracked both
+you are saying that
+I can use B and go back to A
+but I should also know
+that what you have done internally
+to make A from B
+why it became A from B
+I have to track that too
+so the same tracking, the same logging
+you call experiment tracking
+so
+is it clear guys
+what is experiment tracking
+and in your LLM Ops and ML Ops
+experiment tracking is available
+you may be
+tracking different things
+but concept is same
+what are you tracking in rag based application
+through experiment tracking
+which document
+you used
+what were the parameters
+that you set
+which one you used
+chunking strategy
+what was chunk overlap
+what was chunk size
+which embedding model you used
+which model was
+which provider was
+what were the output dimensions
+so in experiment tracking
+basically what you are doing is
+locking your pipeline
+ok
+basically you are storing
+that if I run this pipeline
+end to end
+and I will get output
+output A, then why that output A is coming
+the internals behind it
+you are locking it
+is it clear
+guys
+is it clear
+yes, now when you have
+made pipeline
+why you made pipeline
+why you made series of steps
+because you want to make this whole thing reproducible
+what I mean by reproducible
+what I mean by reproducible
+is that
+if I start this pipeline
+then it will automatically
+train me
+automatically evaluate me
+automatically tune me
+what I have to do simply
+is provide data set
+as soon as I provide data set, pipeline will get triggered
+so this is the function of pipeline
+to produce reproducibility
+so to provide reproducibility
+you design pipelines
+can you think in your rag based
+application that we are making pipeline
+yes we are making
+we have discussed the orchestration layer
+where we are using
+lang graph
+what are we doing through lang graph
+here we are making a workflow
+pipeline
+so what are we doing
+we are making a workflow
+pipeline
+what is your rag based application
+it is a workflow
+ok
+your user query came
+first retrieval happened
+then augmentation happened
+then generation happened
+this is your workflow, this is your pipeline
+whenever your user query will come
+this whole pipeline will be triggered
+and finally you will get your output
+is it clear now
+can you draw parallels
+mlops, llmobs
+differences
+similarities
+can you understand this
+guys
+a quick feedback
+great
+if someone has a problem in understanding
+then you can tell me
+that it is getting complex
+because we have not
+discussed anything complex
+it is not getting complex
+perfect
+fine
+now we will move forward
+I told you about artifacts
+artifacts are basically your outputs
+ok
+data pipeline output is data
+model pipeline output is model
+ok
+now what we did after that
+once again I will go to the workflow
+which is our mlops workflow
+we did payment tracking, logging, versioning
+after that what we have to do
+testing
+what does testing mean
+we are doing evaluation here also
+but we have to do a final evaluation
+now here comes the difference
+how I told you
+that ml based
+what are the evaluations
+these are your simple evaluations
+why are these simple evaluations
+because basically what you have to do
+you have
+an input
+you have to provide
+what is the input, your data
+row of data
+you will have a prediction
+of ml model
+this is your prediction
+let's say our loan application prediction is 1
+now whenever I have to evaluate
+ml based application
+I have simple matrix
+what is the classification matrix
+I have accuracy score
+what are we doing in accuracy
+it is dead simple
+I am simply comparing
+my prediction with my
+actual y
+that whether it matches or not
+if it matches I count it as 1
+if it doesn't match I count it as 0
+and I am simply
+calculating my total prediction
+and I am seeing
+how much is matching
+very simple
+what do we do in precision
+it is a little complex
+but we are matching
+through a formula
+we are calculating count
+we are doing the same thing in recall
+if we mix these two
+we get F1 score
+these are our classification matrix
+there are more
+but these are some of the famous ones
+so what are we doing here
+basically in ml based systems
+we are doing simple evaluations
+whereas here
+there is a difference in LLM Ops
+the evaluations in LLM Ops
+those are your complex evaluations
+why because
+your output here
+first of all it is not 0 or 1
+it is a complex output
+it is a text
+and that text is also dynamic
+for a given input
+we don't have the same output
+it can be different
+in most of the cases
+it is different
+here it is not like same row
+same output
+so here evaluations are difficult
+so evaluations
+are like a
+heavyweight
+component in your LLM
+Ops pipeline
+so you are reading LLM eval
+it is a very important concept
+in ML based
+evaluations are important
+but not as tricky
+as in LLM Ops
+is it clear
+clear
+next step is
+we have done the evaluation
+after that
+we are tracing in LLM Ops
+why are we tracing
+because again
+we are dealing with a workflow
+so we are
+looking at
+how is the journey
+from input to output
+in LLM Ops
+so tracing is an added step
+which is not in our ML Ops pipeline
+ML Ops has logging
+experiment tracking but no tracing
+we generally don't see
+how the output of every input came
+explainability is a thing
+but generally
+when your model is trained
+it is deployed and then comes
+model explainability
+here
+what are you doing
+here you are tracing
+the entire journey of every input
+next is
+an added step in LLM Ops
+which is not in ML Ops that is
+guardrails
+I hope now you are able to understand
+why guardrails
+are important in LLM Ops
+and why not in ML Ops
+which is basically a simple system
+it is simply a mathematical formula
+you can't break it in any way
+its output is
+just numbers
+neither there can be
+toxicity in that output
+nor there can be personal information
+nor there can be wrong information
+in that output
+so to generally safeguard
+this particular system
+there are techniques but those are
+simple techniques
+model can't be broken
+whereas in LLM based applications
+your whole application can be hijacked
+that's why we use guardrails
+here
+ok
+now let's go back to the flow
+if I show you
+so what we did here
+our data set
+we gave it to our classification model
+we evaluated
+we got the base model
+we tuned it, perfected it
+and finally we got the final model
+we have versioned it and stored it
+ok
+after this step we have
+our loan prediction model
+we have the model
+ready with us
+we have done the final test
+now what is model serving
+again what we were doing there
+we were serving our application
+now we are going from development
+to user side
+our application is facing user
+so here we are taking our model
+to the user side
+through the concept of model serving
+again here you can use
+fast API
+where is the difference
+here is the difference
+what kind of API you are designing
+here
+generally what you do in machine learning models
+either you send single rows
+or batches
+there is no difference
+whereas in your LLM based applications
+your input
+you send it in one shot
+you wrote prompt
+entered the via
+the whole input will go to your model
+but how does LLM output come
+LLM output comes token by token
+it is a streaming output
+so here you have to
+make sure
+while designing API
+API should be such that
+it can take one shot input
+but the output should be one by
+word by word
+streaming fashion
+otherwise for a big output
+the user will have to wait
+and the whole output will flash
+do you think it will increase
+or decrease the user experience
+obviously it will decrease
+so what we need here
+we need a streaming response
+so here we use fast API
+LLM ops but
+we do it according to streaming responses
+after that
+comes the step of containerization
+where we close our application
+here we are not working with the application
+here we are working with our model
+so model is trained on what data
+we pack all that in a box
+CICD concept comes
+again
+we integrate, deploy
+and
+we are deploying
+the model on the cloud
+after that comes
+the post production step
+in post production is your
+infrastructure monitoring and
+your retraining
+it is different from your
+LLM
+based application
+in LLM based application
+retraining is not a step
+generally what you do there
+when you see the tracing
+and calculate the metrics
+so if your application
+is not showing the intended behavior
+then you fix your application
+but you have to apply
+that fix
+whereas in ML ops based systems
+you have a retraining loop
+or retraining pipeline
+because what you have done here
+this is a rigid system
+understand this
+this is a rigid system
+once you make it
+it is intact
+so what we do here
+in post production we test
+whether we are getting any drift
+drift means
+your data distribution
+has started changing
+and you know machine learning models
+are statistical models
+again it is a mathematical function
+so if the
+distribution of input changes
+then this model will not show
+its intended behavior
+so if you are on a certain distribution
+then distribution of data
+matters in machine learning
+likewise in your LLM based systems
+distribution matters
+what distribution comes there
+distribution of your tokens
+distribution of your text
+because it is a model
+your application is built around the model
+so what kind of
+tokens are coming in the input
+what kind of text is coming
+according to that the distribution can change
+so again you have to fix your application
+whereas in machine learning models
+you run the retraining pipeline
+but because this is a rigid system
+so what you simply do
+is you simply rerun your data and model pipeline
+with a new dataset
+and you get
+a whole new model
+I hope this thing is clear to you
+is it clear guys
+is it clear now are you able to draw parallels
+between MLops and LLMops
+if someone asks you
+then you will be able to tell
+so what we did in MLops
+we started
+with a loan prediction app
+we gave it a dataset according to that
+according to that we prepared a classification
+model and finally
+our trained model is ready
+whereas in the second case
+where we are making our
+LLM based system
+so what we did is
+we made an entire application
+and provided it to the user
+through deployment
+clear
+is it clear guys
+clear
+now I will take a 5 minutes break
+and you can ask your questions
+I am looking at the chat
+any question
+or your question
+around MLops, LLMops
+you can ask me
+I will share this flow chart with you
+I will share this flow chart with you
+I will share this flow chart with you
+I have discussed MLops
+in overview mode
+we have not gone into details
+we have not discussed MLops
+in overview mode
+we have not discussed MLops
+in overview mode
+do we do model versioning after
+hyper parameter tuning or after the loop
+of model training and hyper parameter tuning
+this loop
+what is coming to you at the end
+tuned model is coming
+so you do version of it
+it keeps running in the loop
+so
+even after tuning
+you train your tuned model
+then you finalise it
+so all those things happen
+yes
+it was to cover
+but I think time is up
+so basically
+I wanted to make a rag application
+if I can show you
+today's agenda was
+that we have to code this particular workflow
+using Lang graph
+so I had to show you
+and I thought
+it will be better to live code and show you
+but no problem
+we will cover it in next session
+guys again
+according to the plan
+we are not able to hold that pace
+there are initial sessions
+so again I want you to
+understand the concepts
+and then
+we will pick the pace of the code
+MLops and LLMops
+how will we evaluate both
+in production on new data
+we will see
+we will see
+one thing
+if you have paid attention
+so
+if I can show you
+just a second guys
+let me share the entire screen
+screen is visible
+yes
+so
+if I show you
+here
+so if you see in CI CD
+you will see deep eval CLI
+this is basically
+what you are saying
+that we will evaluate
+so this is before deployment
+we don't do this on our system
+we do it on another system
+which is basically a testing environment
+so
+any questions guys
+any more questions
+a quick feedback
+how was today's session
+out of 10
+on the basis of clarity
+first of all on the basis of clarity
+whatever you read is clear
+9
+10
+10 out of 10
+9
+I will tell you
+ok
+10 out of 10
+so it was clear
+we will have to see
+repeat once
+ok no problem
+please see
+repeat if you don't understand any concept
+so we will see in the next session
+here
+there are more concepts
+although they are easy but there are many concepts
+my goal
+was to explain this particular point
+ML Ops vs LLM Ops
+so that you
+don't get confused in this
+and I thought that
+majority of my audience
+has an idea of ML Ops
+so I prepared it here
+but as you said that I don't have an idea
+so
+dynamically I had to change the explanation
+but I think
+you can draw parallels
+ok how was the pacing
+out of 5 if you can rate
+I am taking the feedbacks
+so that in upcoming sessions I can improve
+5 out of 5
+so the pacing was ok
+perfect pacing
+what will we read in next class
+I will discuss with you
+right any questions
+I will tell you
+what we will read in next class
+so in next class
+what we will do
+we will build our rag application
+because
+we had to do this today
+and I wanted to
+build rag application
+how to make project folder
+I will teach you all that
+how to make python environment
+how to start
+an application
+we will build the application in notebook
+and test it
+ok the application
+which we are making
+is the same application
+which I had discussed in last lecture
+in example
+it will be a rag chatbot
+for our campus x
+and in this chatbot
+we are basically giving
+our transcripts
+so till now
+all the life classes
+in your insider
+transcripts are available
+so I have provided this chatbot
+and you can simply
+using this chatbot
+you can answer questions
+around your lectures
+so we have pre-processed the transcripts
+provided it to our chatbot
+made a rag application
+but this rag application
+is only having a backend
+right now
+only your line graph flow is available
+so you cannot interact with it
+you cannot interact with it
+but you can use it in code
+using this line graph flow
+when we will go ahead
+to fast API serving
+we will build a front end
+then it will become an application
+with which you can literally
+chat with chatgbt
+you can interact with it
+and after that
+what we will do in next session
+when we will build it
+after that we will start off with
+evaluations
+we will understand what are evaluations
+why are evaluations done
+and we will cover here
+all the specific metrics
+in detail
+okay
+metric
+description, metric formula
+how it is calculated internally
+how it works
+we will cover all these things in detail
+and maybe
+your evaluation section
+it might take around 3-4 lectures
+I am expecting it to complete in 3 lectures
+but can go to 4 lectures also
+but this will be detailed
+we will open each metric
+and read it
+and how it is used through deep evaluation
+we will see that
+can you please share the data
+for rag
+data is already available
+transcripts of every course
+are available in video description
+I have used the same
+we will not make rag chatbot live
+we will make rag chatbot
+but in next session
+we will start evaluations along with rag chatbot
+we will read
+the important concepts around evaluations
+do you guys have any feedback
+through which I can improve
+in upcoming sections
+any feedback
+I personally felt
+that this part
+of LLMops and MLops
+should not be confusing
+because what I had planned
+I had to change here
+next class will be on monday
+and next class will be on monday
+all classes of LLMops
+are on mondays and thursdays
+this is the schedule for now
+if there are any changes
+then it will be updated
+all good so far
+ok
+we will get structured notes
+I have tried to get it
+I will use the transcripts
+which will be generated
+if you can make it
+I will also use the same tools
+MLops is refreshed
+ok, that's good
+we have not gone into details
+but we have discussed basic concepts and parallels
+design concepts
+again Ayush is that
+it will be more complex
+we can discuss but it will be more complex
+we will discuss
+like we will build the application
+and then we will improve it iteratively
+we will discuss in every step
+why we are doing this improvement
+why's you will get every question
+why we will discuss everything
+and I will make sure that
+no part is pending
+no why is unanswered
+I will be in your room for 2-3 minutes
+you can ask your questions
+suggestions, feedbacks
+anything
+ok, those who didn't read MLops
+they cleared MLops
+it was a little bit
+but it was clear what we do
+ok
+good overview
+thank you
+thanks for the feedback
+right
+what is the meaning of
+doing whole LLMops on cloud
+we are
+all the tools which you told about
+I didn't understand your question
+meaning of doing LLMops on cloud
+means this section
+post production
+can you clarify
+thanks guys
+thanks for the feedback
+you will feel
+content
+up to the mark
+was not delivered
+there is some issue in understanding
+I will make you do that again
+don't worry
+ok, that's why
+I will take feedback from you at the end of every class
+so please guide me towards
+improvement
+if LLMops
+LLMops diagram was side by side
+it would be more helpful
+ok
+I didn't keep that in mind
+because we have already covered this
+we covered it in recap today
+and we have covered it in detail before
+if I had kept it side by side
+you would have started drawing comparisons
+and then
+this thing I was explaining
+you would have compared it box by box
+here is the data
+so I didn't keep it side by side
+earlier I had planned
+to keep it side by side
+I wanted to teach you
+that you should understand the pipeline
+and we should not be too technical
+I wanted to explain
+the why of every box
+why we are doing this
+let's see
+which monitoring tool
+we are using
+Prometheus
+and you can't do it
+through python
+but Prometheus has its own query language
+through that
+you fetch the metrics
+and then
+you build
+that code through Grafana
+starting with model evaluation
+experiment tracking all other things
+there are separate tools
+all these
+on the cloud
+yes yes
+these will work
+Langfuse, MLflow
+all these work on cloud
+that's why we are using this
+because they are all open source
+you can use them
+absolutely
+these are python
+libraries
+you can use it in your code
+run the code on local system
+on cloud
+if your environment is exactly same
+there is same version of python
+there are same libraries installed
+so your code
+will work similar way
+cloud
+generally
+students get scared of cloud
+cloud is nothing but
+separate system
+it is like your laptop only
+but it is connected through the internet
+you are working on
+your own system
+that's it
+whatever you are doing here
+the effect is there
+your code is running on that system
+that is cloud
+Prometheus is hard or similar
+I will explain to you
+how to use
+Prometheus
+I will explain basic
+things of language
+rest you can use
+chartjpt
+nothing is hard in today's day and age
+do chartjpt
+I will show you
+how to test Prometheus
+how to test queries
+you go and paste and test it
+if expected results are not coming
+you can fix it using chartjpt
+again you don't have to be
+expert in that query language
+that is Prometheus's query language
+you will get use of it
+if you know the basics
+then you can
+generate the queries
+and writing is easy
+it is not that difficult
+it is called as promqn
+Prometheus query language
+it is not like sequel
+you will learn in one session
+basic implementation
+that is required
+what to do manually
+I told you that you don't need to do it manually
+you can generate it using chartjpt
+but yes
+you should know
+what is the syntax of that query
+otherwise you will
+blindly copy paste it
+if you know how to write it
+then you can judge
+that the output chartjpt has given
+is it correct or not
+no not required
+not required at all
+we will read
+allelonops from scratch
+you will never feel
+that if you didn't read allelops
+then you should have read it
+you will never feel like that
+let me draw these parallels
+so that if someone has read allelops
+then they can understand
+where is the difference
+if we step in allelops
+then they will not feel
+that it doesn't happen in allelops
+it was dvc in allelops
+we used to do version of data
+why are there guardrails
+why are we tracing
+that's it
+I have taken this whole lecture
+in this course
+we will draw parallels
+again
+or we will discuss
+some concept of allelops
+again whatever is the overlapping concept
+like fast api, containerization, cizd
+so how it is used in allelm based applications
+we will read that
+so if you don't know docker
+then we will understand docker
+but we will understand
+as much as is required for our application
+not that we will do deep dive
+we will understand docker
+that will not happen
+I will give you why behind everything
+every command
+whatever application you will build
+project you will build
+I will give you why of every single thing
+we will do it
+but again we have to restrict ourselves
+we are here
+we can't be loose
+otherwise this course will be too long
+because we have to do full flow with rag application
+then we have to
+repeat the flow with other application
+in project
+we have to read many new things in that
+like in agent based application
+guardrails are different
+in agent based application
+evaluation is different
+in agent based application
+tracing, although the method of applying is same
+but the output results are different
+so many things change
+so we have to do that also
+so that will also take time
+so that will take time
+my goal will always be
+guys
+whether my lecture
+up to the mark or not
+my goal is always
+that you understand why
+again there are
+always some good days
+some bad days
+so that's why you can give me
+feedback
+the day you feel that today it was not fun
+you can straight away
+tell me
+again
+in this insider program
+our goal is that whatever
+we cover you should have your satisfaction
+here
+it is like
+your membership
+your program
+you are in hierarchy
+and we are below you
+we have come to teach you
+and as you say
+this whole thing will pan out
+clear
+it will take some time
+generally
+starting module
+module is a little conceptual
+so you may feel
+that there are more concepts
+more confusing
+but as we move forward
+we will build the application
+we will start applying
+so these things will unravel
+pace will also be faster
+and sessions will be more interesting
+because you will see things moving
+something is happening
+that gives satisfaction
+but I want only one thing
+that whatever we discuss
+whatever we do here
+especially practical part
+you must try it on the app
+and don't worry about small errors
+you have chartgpd
+cloud if you are stuck
+use cloud chartgpd
+and if you are getting an error
+try to debug it
+first try from your end
+don't rush in going to the whatsapp group
+and asking
+solve each other's problems
+your capabilities will not increase
+around debugging
+understand each other's errors
+solve them
+any more questions guys?
+I think that's all guys
+I am closing the session
+good night guys
+we will meet on monday
+monday we will have two tasks
+we will build our rag application
+and in the second half
+we will start with the evaluation part
+and we will cover the evaluation
+bye guys
+thanks

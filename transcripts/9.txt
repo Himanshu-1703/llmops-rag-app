@@ -1,0 +1,9051 @@
+00:00:00.000 --> 00:00:17.000
+So let's begin again. Someone please confirm audio video.
+
+00:00:17.000 --> 00:00:33.000
+Perfect. So let's start. So today's session is going to be a little long.
+
+00:00:33.000 --> 00:00:45.000
+It will be around two and a half hours. Right now. The reason behind it is that I want to complete entire aspect related to Claude with Excel.
+
+00:00:45.000 --> 00:00:55.000
+Means there will be an agenda for this session. I am assuming that you don't know anything about Claude with Excel.
+
+00:00:55.000 --> 00:01:05.000
+And when I will end the session, you will be at that point when you understand the whole landscape of Claude with Excel.
+
+00:01:05.000 --> 00:01:17.000
+You will understand everything. And now you are at that phase that you can modify Claude with Excel according to your job role and task.
+
+00:01:17.000 --> 00:01:25.000
+So this will be my goal for today's lecture. And this will be the agenda.
+
+00:01:25.000 --> 00:01:37.000
+So let's begin. And I have shared a drive link with you in the chat box. And if you are watching the recording, then you will find the description of the video in the description.
+
+00:01:37.000 --> 00:01:49.000
+So let's begin. And I have shared a drive link with you in the chat box. And if you are watching the recording, then you will find the drive link in the description.
+
+00:01:49.000 --> 00:02:00.000
+So in this drive link, the file that we are going to use today is mentioned. Okay. So let me share my screen and let's start today's lecture.
+
+00:02:00.000 --> 00:02:14.000
+Is my screen visible clearly? Someone please confirm. Perfect. Okay.
+
+00:02:14.000 --> 00:02:27.000
+So before starting Claude with Excel, I want to ask you a simple thing. How many of you know what are the skills in the world of AI?
+
+00:02:27.000 --> 00:02:33.000
+Okay. And you can say what is MCP and what are the plugins?
+
+00:02:33.000 --> 00:02:43.000
+You give me the score. If you know all three, then write 3 out of 3. If you know two, then write 2 out of 3. And if you know only one, then write 1 out of 3 else 0 out of 3.
+
+00:02:43.000 --> 00:02:48.000
+I just want to know.
+
+00:02:48.000 --> 00:02:58.000
+3, 2, 3, 2, 3, 3, 3.
+
+00:02:58.000 --> 00:03:04.000
+Okay. No issue. Okay. So we will cover these things also.
+
+00:03:04.000 --> 00:03:15.000
+Second thing. Now I have some more questions. It's a simple question. What are the purposes of using Excel?
+
+00:03:15.000 --> 00:03:20.000
+Now I know. Let's say I want to do data analysis.
+
+00:03:20.000 --> 00:03:26.000
+This is one purpose. Okay. What other purposes can be used to use Excel?
+
+00:03:26.000 --> 00:03:32.000
+Come on, tell me quickly.
+
+00:03:32.000 --> 00:03:36.000
+Data cleaning, data analysis.
+
+00:03:36.000 --> 00:03:46.000
+Okay. Data cleaning is done. Data analysis is done. I'm reporting visualization forecasting. Perfect.
+
+00:03:46.000 --> 00:03:51.000
+Reporting is done.
+
+00:03:51.000 --> 00:03:57.000
+Visualization is done. Forecasting is done.
+
+00:03:57.000 --> 00:04:01.000
+Okay. There are many more purposes to use Excel.
+
+00:04:01.000 --> 00:04:05.000
+Okay. Now, a simple question.
+
+00:04:05.000 --> 00:04:12.000
+That question is that when you are using Excel, what is the most painful point while using Excel?
+
+00:04:12.000 --> 00:04:17.000
+Means you think that if I don't have to do this, then it's the best.
+
+00:04:17.000 --> 00:04:21.000
+Or the one where you spend the most time. What is left?
+
+00:04:21.000 --> 00:04:26.000
+Formulas, data cleaning, and
+
+00:04:26.000 --> 00:04:31.000
+Formulas are done. Data cleaning is done.
+
+00:04:31.000 --> 00:04:38.000
+Data transformation, EDA.
+
+00:04:38.000 --> 00:04:43.000
+Data transformations, EDA is done.
+
+00:04:43.000 --> 00:04:49.000
+And VBA macros formatting.
+
+00:04:49.000 --> 00:04:58.000
+VBA macros formatting. I'm considering it into data cleaning only.
+
+00:04:58.000 --> 00:05:03.000
+Formulas. Okay. So, what will we do?
+
+00:05:03.000 --> 00:05:07.000
+In today's lecture, your pain points.
+
+00:05:07.000 --> 00:05:12.000
+We will solve these pain points using Claude with Excel.
+
+00:05:17.000 --> 00:05:20.000
+Okay. This is our agenda for today.
+
+00:05:20.000 --> 00:05:24.000
+Okay. So, now, a simple thing if I tell you.
+
+00:05:24.000 --> 00:05:29.000
+If I give you some data like this.
+
+00:05:29.000 --> 00:05:33.000
+Something like this.
+
+00:05:33.000 --> 00:05:36.000
+If I give you some data like this. Okay.
+
+00:05:36.000 --> 00:05:40.000
+There are so many tables in this. Right?
+
+00:05:40.000 --> 00:05:46.000
+There are so many tables here. And along with this data, I will give you some problem statement.
+
+00:05:46.000 --> 00:05:50.000
+Right? Soon, there will be a business problem statement that
+
+00:05:50.000 --> 00:05:54.000
+Who is the client and what are the requirements of the client.
+
+00:05:54.000 --> 00:06:00.000
+So, after reading this data, how long will it take you to reach this analysis?
+
+00:06:00.000 --> 00:06:03.000
+Simple question.
+
+00:06:07.000 --> 00:06:09.000
+This is the whole data.
+
+00:06:09.000 --> 00:06:14.000
+This data has to be read 1, 2, 3, 4, 5, 6, 7.
+
+00:06:14.000 --> 00:06:19.000
+There are 7 tables. And to read this 7 tables,
+
+00:06:19.000 --> 00:06:24.000
+Analyze it, process it and then take out the analysis, how much time will it take?
+
+00:06:24.000 --> 00:06:26.000
+Quick answers everyone.
+
+00:06:26.000 --> 00:06:32.000
+2, 2, 3 working days, 1 week, reading data, 10 hours, 10 minutes, 4 to 5 hours.
+
+00:06:32.000 --> 00:06:34.000
+Perfect. Okay.
+
+00:06:34.000 --> 00:06:36.000
+It takes only this much time. Right?
+
+00:06:36.000 --> 00:06:40.000
+So, now, we will do the same work which is my business requirement.
+
+00:06:40.000 --> 00:06:44.000
+Let me do one thing. I will share the whole screen.
+
+00:06:44.000 --> 00:06:48.000
+Right? So, now, what we will do today is
+
+00:06:48.000 --> 00:06:50.000
+Which is my business requirement.
+
+00:06:50.000 --> 00:06:53.000
+We will achieve this business requirement.
+
+00:06:53.000 --> 00:06:57.000
+Using this data, we will do it in an hour.
+
+00:06:57.000 --> 00:07:01.000
+Using Claude with Excel.
+
+00:07:01.000 --> 00:07:03.000
+Claude in Excel. Right?
+
+00:07:03.000 --> 00:07:05.000
+So, let's start.
+
+00:07:05.000 --> 00:07:10.000
+First of all, I want to tell you that Claude in Excel is an add-in.
+
+00:07:10.000 --> 00:07:14.000
+Means, you should have proper Excel.
+
+00:07:14.000 --> 00:07:18.000
+And we add it there as a feature.
+
+00:07:19.000 --> 00:07:22.000
+Okay. Second thing I want to tell you is
+
+00:07:22.000 --> 00:07:27.000
+If you want to use Claude in Excel, you should have a paid plan.
+
+00:07:27.000 --> 00:07:29.000
+You cannot work on a free plan.
+
+00:07:29.000 --> 00:07:31.000
+You need to have a proper paid plan.
+
+00:07:31.000 --> 00:07:36.000
+It can be Pro, Max, Team, Enterprise, anything.
+
+00:07:36.000 --> 00:07:39.000
+But you should have a proper paid plan.
+
+00:07:39.000 --> 00:07:42.000
+You cannot work on a free plan.
+
+00:07:42.000 --> 00:07:46.000
+Okay. So, now, how to set up Claude with Excel?
+
+00:07:46.000 --> 00:07:48.000
+Let's see that. It's very simple.
+
+00:07:48.000 --> 00:07:50.000
+You don't have to do anything. You have to go to Excel.
+
+00:07:50.000 --> 00:07:53.000
+Right? Go to home.
+
+00:07:53.000 --> 00:07:56.000
+When you go to home, you will see an option on the side.
+
+00:07:56.000 --> 00:07:59.000
+Add-ins. Top right corner.
+
+00:07:59.000 --> 00:08:01.000
+Click on that option add-in.
+
+00:08:01.000 --> 00:08:06.000
+And here you have to search for Claude for Excel.
+
+00:08:06.000 --> 00:08:09.000
+Okay. You have to search Claude for Excel.
+
+00:08:09.000 --> 00:08:11.000
+Claude by Excel. You have this option.
+
+00:08:11.000 --> 00:08:14.000
+Just click on add.
+
+00:08:14.000 --> 00:08:21.000
+As soon as you click on add, you will see a Claude icon on the top right corner.
+
+00:08:21.000 --> 00:08:25.000
+Right? What you have to do is just click on that.
+
+00:08:25.000 --> 00:08:29.000
+As soon as you click on that, it will ask you some questions.
+
+00:08:29.000 --> 00:08:37.000
+And after asking those questions, you will have a Claude chatbot in your Excel.
+
+00:08:37.000 --> 00:08:44.000
+And now what you will do is use this chatbot to work in your Excel.
+
+00:08:44.000 --> 00:08:50.000
+Right? This is Claude by Excel.
+
+00:08:50.000 --> 00:09:00.000
+Okay? So, now, in today's session, we will learn how to effectively use Claude in Excel.
+
+00:09:00.000 --> 00:09:02.000
+And how in this whole process.
+
+00:09:02.000 --> 00:09:07.000
+Or you can say, we can utilize Claude to optimize our time.
+
+00:09:07.000 --> 00:09:12.000
+We can quickly complete our tasks.
+
+00:09:12.000 --> 00:09:13.000
+Right?
+
+00:09:13.000 --> 00:09:19.000
+Okay. Now, if I go to the general, if I get any task of data analysis.
+
+00:09:19.000 --> 00:09:25.000
+Okay. If I get any task of data analysis, then what is its general flow?
+
+00:09:25.000 --> 00:09:32.000
+If I talk about simple flow, then what we do first is we load the data in Excel.
+
+00:09:32.000 --> 00:09:43.000
+Then we read it, understand what data is there, how other things are connected, how multiple tables are connected, who is connected or not.
+
+00:09:43.000 --> 00:09:46.000
+Then we understand where the cleaning is going. We understand all these things.
+
+00:09:46.000 --> 00:09:47.000
+Okay?
+
+00:09:47.000 --> 00:09:52.000
+Then after that, as per the requirement of the client, we do calculations.
+
+00:09:52.000 --> 00:09:55.000
+What do you do in calculations?
+
+00:09:55.000 --> 00:09:56.000
+You make columns.
+
+00:09:56.000 --> 00:10:03.000
+Okay. You do data cleaning, you do data transformation, you make tables, you do a lot of things.
+
+00:10:03.000 --> 00:10:04.000
+Right?
+
+00:10:04.000 --> 00:10:07.000
+And then if required, you make dashboards.
+
+00:10:07.000 --> 00:10:10.000
+And finally, what do you do?
+
+00:10:10.000 --> 00:10:12.000
+You do analysis.
+
+00:10:12.000 --> 00:10:13.000
+Right?
+
+00:10:13.000 --> 00:10:19.000
+And this is our whole general flow if we are using Excel.
+
+00:10:19.000 --> 00:10:26.000
+Today, we will cover this whole flow using CLOT.
+
+00:10:26.000 --> 00:10:29.000
+With the help of CLOT, we will cover this whole flow.
+
+00:10:29.000 --> 00:10:31.000
+Okay?
+
+00:10:31.000 --> 00:10:34.000
+So, what will be the whole flow?
+
+00:10:34.000 --> 00:10:40.000
+I have already written prompts for the task because we all know that typing takes time in the class.
+
+00:10:40.000 --> 00:10:42.000
+So, I have written prompts.
+
+00:10:42.000 --> 00:10:45.000
+Simply, I will copy paste that prompt and explain it to you.
+
+00:10:45.000 --> 00:10:46.000
+Okay?
+
+00:10:46.000 --> 00:10:51.000
+So, the first thing we all need to do is to understand the data.
+
+00:10:51.000 --> 00:10:52.000
+Right?
+
+00:10:52.000 --> 00:10:54.000
+So, what have I done here?
+
+00:10:54.000 --> 00:10:55.000
+This is my Excel sheet.
+
+00:10:55.000 --> 00:10:59.000
+In the side of the Excel sheet, I have opened CLOT for Excel.
+
+00:10:59.000 --> 00:11:02.000
+Now, with the help of CLOT, we will understand our data.
+
+00:11:02.000 --> 00:11:03.000
+Okay?
+
+00:11:03.000 --> 00:11:04.000
+So, what do you have to do?
+
+00:11:04.000 --> 00:11:06.000
+I have opened CLOT in the side.
+
+00:11:06.000 --> 00:11:09.000
+I am simply writing the command.
+
+00:11:09.000 --> 00:11:11.000
+Now, what is that command?
+
+00:11:11.000 --> 00:11:13.000
+Just a minute.
+
+00:11:16.000 --> 00:11:17.000
+Okay?
+
+00:11:17.000 --> 00:11:28.000
+So, what have I written in a simple language?
+
+00:11:28.000 --> 00:11:30.000
+Read the whole workbook.
+
+00:11:30.000 --> 00:11:35.000
+Give me a one-liner for each of the seven sheets and how to connect them.
+
+00:11:35.000 --> 00:11:38.000
+Tell me which sheet is the fact table and which are reference table.
+
+00:11:38.000 --> 00:11:39.000
+Actually, there are eight sheets here.
+
+00:11:39.000 --> 00:11:40.000
+So, I will mention eight sheets.
+
+00:11:40.000 --> 00:11:41.000
+Okay?
+
+00:11:41.000 --> 00:11:42.000
+Okay?
+
+00:11:42.000 --> 00:11:46.000
+You simply have to write a prompt in normal English.
+
+00:11:46.000 --> 00:11:47.000
+That's it.
+
+00:11:47.000 --> 00:11:51.000
+Now, before writing this, I want to give you a little overview of this interface.
+
+00:11:51.000 --> 00:11:52.000
+Okay?
+
+00:11:52.000 --> 00:11:54.000
+So, here you will write your prompt.
+
+00:11:54.000 --> 00:11:56.000
+Here you have a lot of add-ins.
+
+00:11:56.000 --> 00:11:58.000
+We will discuss them later.
+
+00:11:58.000 --> 00:11:59.000
+Okay?
+
+00:11:59.000 --> 00:12:01.000
+Here, basically, you can change your thinking.
+
+00:12:01.000 --> 00:12:05.000
+Meaning, if you are using a model, you have to keep its thinking extended and normal.
+
+00:12:05.000 --> 00:12:07.000
+I will keep it normal.
+
+00:12:07.000 --> 00:12:10.000
+You can write your prompt by giving a voice command here.
+
+00:12:10.000 --> 00:12:11.000
+Okay?
+
+00:12:11.000 --> 00:12:13.000
+Here, you have an option of new chat.
+
+00:12:13.000 --> 00:12:15.000
+You can start a new chat from here.
+
+00:12:15.000 --> 00:12:17.000
+You can see chat histories from here.
+
+00:12:17.000 --> 00:12:18.000
+Right?
+
+00:12:18.000 --> 00:12:23.000
+Along with that, if you go to three dots on this side, you get an option of settings.
+
+00:12:23.000 --> 00:12:25.000
+Here, you have a lot of settings.
+
+00:12:25.000 --> 00:12:28.000
+You can increase or decrease the text size.
+
+00:12:28.000 --> 00:12:31.000
+If you want to write a system prompt, you can write it here.
+
+00:12:31.000 --> 00:12:32.000
+We all know system prompt.
+
+00:12:32.000 --> 00:12:33.000
+What is system prompt?
+
+00:12:33.000 --> 00:12:38.000
+It is a kind of constitution that tells our LLM how to do the work.
+
+00:12:38.000 --> 00:12:39.000
+Okay?
+
+00:12:39.000 --> 00:12:42.000
+So, you can write your system prompt here in detail.
+
+00:12:42.000 --> 00:12:44.000
+What will your cloud do?
+
+00:12:44.000 --> 00:12:47.000
+It will take all the actions according to this system prompt.
+
+00:12:47.000 --> 00:12:48.000
+Right?
+
+00:12:48.000 --> 00:12:54.000
+Now, whatever your job role is, job profile is, you can mention all those things in detail here.
+
+00:12:54.000 --> 00:12:55.000
+Okay?
+
+00:12:55.000 --> 00:12:57.000
+Now, what is session logging?
+
+00:12:57.000 --> 00:12:59.000
+I am keeping it on for now.
+
+00:12:59.000 --> 00:13:01.000
+I will explain its benefit to you in the last.
+
+00:13:01.000 --> 00:13:02.000
+Okay?
+
+00:13:02.000 --> 00:13:04.000
+There are some constraints for safety.
+
+00:13:04.000 --> 00:13:07.000
+You want to connect the cloud to multiple applications.
+
+00:13:07.000 --> 00:13:09.000
+You have those options here.
+
+00:13:09.000 --> 00:13:10.000
+Right?
+
+00:13:10.000 --> 00:13:13.000
+So, it is a very basic interface of cloud for Excel.
+
+00:13:13.000 --> 00:13:16.000
+Now, let's move to our first prompt.
+
+00:13:16.000 --> 00:13:18.000
+It is a simple prompt.
+
+00:13:18.000 --> 00:13:20.000
+Read this whole workbook.
+
+00:13:20.000 --> 00:13:25.000
+Give me a one-line summary of each of the eight sheets and how they connect.
+
+00:13:25.000 --> 00:13:26.000
+Right?
+
+00:13:26.000 --> 00:13:28.000
+Tell me which sheet is factable and which are referenceable.
+
+00:13:28.000 --> 00:13:30.000
+Simply, just send the command.
+
+00:13:30.000 --> 00:13:31.000
+Now, see.
+
+00:13:31.000 --> 00:13:32.000
+Now, see the magic.
+
+00:13:32.000 --> 00:13:34.000
+I will explain this.
+
+00:13:34.000 --> 00:13:35.000
+Let me expand it.
+
+00:13:35.000 --> 00:13:37.000
+So, first of all, what is it doing?
+
+00:13:37.000 --> 00:13:38.000
+It is reading the data.
+
+00:13:38.000 --> 00:13:39.000
+You can see here.
+
+00:13:39.000 --> 00:13:41.000
+If I expand it, what did it do?
+
+00:13:41.000 --> 00:13:50.000
+First of all, it read the sales table, its headers and rows, product table, its headers and rows, sales wrap, target sheet, returns.
+
+00:13:50.000 --> 00:13:52.000
+It read all the tables.
+
+00:13:52.000 --> 00:13:53.000
+Right?
+
+00:13:53.000 --> 00:13:55.000
+And after that, it provides me this summary.
+
+00:13:55.000 --> 00:13:56.000
+It is a sales table.
+
+00:13:56.000 --> 00:13:58.000
+It has three rows.
+
+00:13:58.000 --> 00:14:01.000
+And the columns are these.
+
+00:14:01.000 --> 00:14:02.000
+Okay?
+
+00:14:02.000 --> 00:14:04.000
+Along with that, there is a product table.
+
+00:14:04.000 --> 00:14:06.000
+24 products are mentioned in the product table.
+
+00:14:06.000 --> 00:14:12.000
+The names of the columns are SKU, name, category, unit cost, list price, everything is mentioned here.
+
+00:14:12.000 --> 00:14:13.000
+Okay?
+
+00:14:13.000 --> 00:14:16.000
+In the sales wrap, there are 12 rows.
+
+00:14:16.000 --> 00:14:18.000
+And all the columns are mentioned.
+
+00:14:18.000 --> 00:14:20.000
+The detail of the target column is mentioned.
+
+00:14:20.000 --> 00:14:22.000
+The detail of the returns column is mentioned.
+
+00:14:22.000 --> 00:14:24.000
+The detail of the customer column is mentioned.
+
+00:14:24.000 --> 00:14:31.000
+And here, while reading it, when I told it to read the data, it is clearly mentioned that the customer data is messy.
+
+00:14:31.000 --> 00:14:32.000
+Right?
+
+00:14:32.000 --> 00:14:34.000
+It is written to clean it.
+
+00:14:34.000 --> 00:14:35.000
+What are the messes?
+
+00:14:35.000 --> 00:14:36.000
+That is also written.
+
+00:14:36.000 --> 00:14:38.000
+And then the next table was P&L.
+
+00:14:38.000 --> 00:14:39.000
+Its data is here.
+
+00:14:39.000 --> 00:14:41.000
+And there is a data called formula debugging.
+
+00:14:41.000 --> 00:14:42.000
+Okay?
+
+00:14:42.000 --> 00:14:46.000
+And how are all these tables connected?
+
+00:14:46.000 --> 00:14:47.000
+Right?
+
+00:14:47.000 --> 00:14:50.000
+So, here it is written.
+
+00:14:50.000 --> 00:14:51.000
+Okay?
+
+00:14:51.000 --> 00:14:52.000
+Which is the fact table?
+
+00:14:52.000 --> 00:14:53.000
+Which is the reference table?
+
+00:14:53.000 --> 00:14:55.000
+Which is the stand-alone table?
+
+00:14:55.000 --> 00:14:57.000
+Everything is written here.
+
+00:14:57.000 --> 00:14:58.000
+Okay?
+
+00:14:58.000 --> 00:14:59.000
+Right?
+
+00:14:59.000 --> 00:15:04.000
+Now, we will see the cloud log at the end.
+
+00:15:04.000 --> 00:15:05.000
+What it is.
+
+00:15:05.000 --> 00:15:09.000
+And you can see, as soon as I finish this prompt, a new sheet will be made on me.
+
+00:15:09.000 --> 00:15:10.000
+Cloud log.
+
+00:15:10.000 --> 00:15:12.000
+We will discuss this at the end.
+
+00:15:12.000 --> 00:15:13.000
+Okay?
+
+00:15:13.000 --> 00:15:19.000
+So, you can see, by writing a simple line of command, I have generated the summary of all my data.
+
+00:15:19.000 --> 00:15:20.000
+What tables are there?
+
+00:15:20.000 --> 00:15:21.000
+How are they connected?
+
+00:15:21.000 --> 00:15:22.000
+Okay?
+
+00:15:22.000 --> 00:15:23.000
+Right?
+
+00:15:23.000 --> 00:15:24.000
+Perfect.
+
+00:15:24.000 --> 00:15:27.000
+Now, let's know more about data.
+
+00:15:27.000 --> 00:15:31.000
+Let's say I want to see how many data are there in the sales table.
+
+00:15:31.000 --> 00:15:33.000
+How many dates are there?
+
+00:15:33.000 --> 00:15:36.000
+Because I can see here, there are dates in the sales table.
+
+00:15:36.000 --> 00:15:39.000
+Let's see, there are dates in the product tables.
+
+00:15:39.000 --> 00:15:41.000
+Again, there are dates in the sales rep tables.
+
+00:15:41.000 --> 00:15:46.000
+So, I want to know how many data are there in this data?
+
+00:15:46.000 --> 00:15:51.000
+Means, which month and date to which month of date data.
+
+00:15:51.000 --> 00:15:52.000
+Okay?
+
+00:15:52.000 --> 00:15:54.000
+So, simply, you don't have to do anything.
+
+00:15:54.000 --> 00:15:55.000
+You have to understand the data code.
+
+00:15:55.000 --> 00:15:59.000
+Simply write a prompt and send it to your cloud.
+
+00:15:59.000 --> 00:16:00.000
+Okay?
+
+00:16:00.000 --> 00:16:05.000
+I am simply saying, how many data rows are in sales data?
+
+00:16:05.000 --> 00:16:09.000
+What data range do the orders cover?
+
+00:16:09.000 --> 00:16:12.000
+How many SEQU are in products?
+
+00:16:12.000 --> 00:16:14.000
+And how many reps are in sales data?
+
+00:16:14.000 --> 00:16:15.000
+Okay?
+
+00:16:15.000 --> 00:16:17.000
+I asked all the things.
+
+00:16:17.000 --> 00:16:20.000
+Means, based on the data, I can see the data.
+
+00:16:20.000 --> 00:16:26.000
+Basically, what I want to do is, I want to explore my data in depth.
+
+00:16:26.000 --> 00:16:27.000
+Okay?
+
+00:16:27.000 --> 00:16:31.000
+And I also asked, that whatever data you will generate from here,
+
+00:16:31.000 --> 00:16:38.000
+you tell me in actual, what cells you can use to generate this data.
+
+00:16:38.000 --> 00:16:40.000
+Simply send the prompt.
+
+00:16:40.000 --> 00:16:44.000
+You will get an analysis here.
+
+00:16:44.000 --> 00:16:45.000
+Right?
+
+00:16:45.000 --> 00:16:49.000
+All the tables I asked, Claude read them all.
+
+00:16:51.000 --> 00:16:52.000
+See.
+
+00:16:52.000 --> 00:16:53.000
+Okay?
+
+00:16:53.000 --> 00:16:57.000
+Now, it is saying, that there are 303 total rows in sales data.
+
+00:16:57.000 --> 00:17:00.000
+And how he has extracted this data, it is giving me a reference.
+
+00:17:00.000 --> 00:17:05.000
+He has used sales data from A2 column to A304 column.
+
+00:17:05.000 --> 00:17:10.000
+And now, if you click on this reference, you can directly go to the data.
+
+00:17:10.000 --> 00:17:14.000
+You can say, the actual data, you can redirect it there.
+
+00:17:14.000 --> 00:17:17.000
+Similarly, what was the earliest order date?
+
+00:17:17.000 --> 00:17:19.000
+1st Jan 2025.
+
+00:17:19.000 --> 00:17:21.000
+How he got to know this?
+
+00:17:21.000 --> 00:17:22.000
+See.
+
+00:17:23.000 --> 00:17:25.000
+He has also given that reference row.
+
+00:17:25.000 --> 00:17:26.000
+Okay?
+
+00:17:26.000 --> 00:17:28.000
+What is the last order date?
+
+00:17:28.000 --> 00:17:31.000
+Again, he has given reference rows.
+
+00:17:31.000 --> 00:17:32.000
+Okay?
+
+00:17:32.000 --> 00:17:34.000
+He has given data of SKU tables.
+
+00:17:34.000 --> 00:17:38.000
+In that, there are 24 SKU product tables.
+
+00:17:38.000 --> 00:17:39.000
+How he got to know?
+
+00:17:39.000 --> 00:17:40.000
+Here, he has given reference.
+
+00:17:40.000 --> 00:17:42.000
+A2 to A225.
+
+00:17:42.000 --> 00:17:43.000
+See.
+
+00:17:43.000 --> 00:17:44.000
+Okay?
+
+00:17:44.000 --> 00:17:46.000
+Sales representative is 12.
+
+00:17:46.000 --> 00:17:47.000
+How he got to know?
+
+00:17:47.000 --> 00:17:49.000
+Here, you have a reference.
+
+00:17:49.000 --> 00:17:52.000
+A2 to A13 of sales rep table.
+
+00:17:52.000 --> 00:17:57.000
+If you click on this reference, you can redirect to your table.
+
+00:17:57.000 --> 00:18:04.000
+So, Claude not only gives data, he also gives reference cells to verify.
+
+00:18:04.000 --> 00:18:12.000
+He gives reference range, on the basis of which range or cells, he has extracted this conclusion or analysis.
+
+00:18:12.000 --> 00:18:13.000
+Right?
+
+00:18:13.000 --> 00:18:16.000
+And he has given other information as well.
+
+00:18:16.000 --> 00:18:21.000
+So, you can understand your data by asking so many questions.
+
+00:18:21.000 --> 00:18:22.000
+With the help of Claude.
+
+00:18:22.000 --> 00:18:23.000
+Right?
+
+00:18:23.000 --> 00:18:24.000
+Okay?
+
+00:18:24.000 --> 00:18:33.000
+So, 1st thing, for which purpose you can use Claude, that is understanding your data.
+
+00:18:33.000 --> 00:18:35.000
+Understand your data.
+
+00:18:35.000 --> 00:18:38.000
+For this purpose, you can use Claude very well.
+
+00:18:38.000 --> 00:18:39.000
+Okay?
+
+00:18:39.000 --> 00:18:40.000
+2nd purpose.
+
+00:18:40.000 --> 00:18:46.000
+For which you can use Claude for Excel.
+
+00:18:46.000 --> 00:18:49.000
+That is, make changes in data.
+
+00:18:49.000 --> 00:18:50.000
+Okay?
+
+00:18:50.000 --> 00:18:52.000
+You have to make new columns in data.
+
+00:18:52.000 --> 00:18:54.000
+You have to do editing in data.
+
+00:18:54.000 --> 00:18:56.000
+You have to do analysis in data.
+
+00:18:56.000 --> 00:19:00.000
+For all these purposes, what you can do?
+
+00:19:00.000 --> 00:19:02.000
+You can use Claude for Excel.
+
+00:19:02.000 --> 00:19:03.000
+Okay?
+
+00:19:03.000 --> 00:19:07.000
+Now, I will explain you with an example.
+
+00:19:07.000 --> 00:19:08.000
+Okay?
+
+00:19:08.000 --> 00:19:17.000
+My company has told me that they want these key matrices.
+
+00:19:17.000 --> 00:19:24.000
+Total revenue, total cost, gross profit, gross profit margin, unit sold, return rate.
+
+00:19:24.000 --> 00:19:27.000
+All these calculations are required by my company.
+
+00:19:27.000 --> 00:19:28.000
+Okay?
+
+00:19:28.000 --> 00:19:33.000
+Now, to do all these calculations, I am assuming that you have read the data.
+
+00:19:33.000 --> 00:19:35.000
+Because I have shared the data in the group.
+
+00:19:35.000 --> 00:19:36.000
+Okay?
+
+00:19:36.000 --> 00:19:38.000
+Now, I have to do all these calculations.
+
+00:19:38.000 --> 00:19:45.000
+Total revenue calculation, total cost price calculation, profit calculation, all these things I have to calculate.
+
+00:19:45.000 --> 00:19:46.000
+Okay?
+
+00:19:46.000 --> 00:19:48.000
+So, what I am doing for that?
+
+00:19:48.000 --> 00:19:49.000
+Let's do one thing.
+
+00:19:49.000 --> 00:19:55.000
+What I do is, the data data table.
+
+00:19:55.000 --> 00:20:02.000
+In this, I take out the unit price of every product.
+
+00:20:02.000 --> 00:20:07.000
+Because when I will be able to take out the unit price, I will multiply the unit price by quantity.
+
+00:20:07.000 --> 00:20:08.000
+I will get revenue.
+
+00:20:08.000 --> 00:20:09.000
+Okay?
+
+00:20:09.000 --> 00:20:16.000
+Then, if I go to the product table and take out the list price, then I can take out the revenue and the list price.
+
+00:20:16.000 --> 00:20:18.000
+I can also take out the profit.
+
+00:20:18.000 --> 00:20:19.000
+Okay?
+
+00:20:19.000 --> 00:20:22.000
+So, now let's say I have to take out the unit price.
+
+00:20:22.000 --> 00:20:24.000
+Because I have a sales table.
+
+00:20:24.000 --> 00:20:26.000
+I want to put all the data in this table.
+
+00:20:26.000 --> 00:20:27.000
+Okay?
+
+00:20:27.000 --> 00:20:28.000
+Okay?
+
+00:20:28.000 --> 00:20:33.000
+So, what I have to do is, I have to bring the unit price column here.
+
+00:20:33.000 --> 00:20:36.000
+Now, one way is that you make the column here yourself.
+
+00:20:36.000 --> 00:20:37.000
+Okay?
+
+00:20:37.000 --> 00:20:39.000
+Now, where is the unit price stored?
+
+00:20:39.000 --> 00:20:41.000
+The unit price is stored in the product table.
+
+00:20:41.000 --> 00:20:54.000
+So, what you have to do is, go to the sales column, make the column here and use lookup to fetch for the unit price using the SKU column from the product table.
+
+00:20:54.000 --> 00:20:57.000
+There is only one way in which you have to write the formula manually.
+
+00:20:57.000 --> 00:20:58.000
+What is the second way?
+
+00:20:58.000 --> 00:20:59.000
+Claude.
+
+00:20:59.000 --> 00:21:00.000
+Okay?
+
+00:21:00.000 --> 00:21:02.000
+Go to Claude.
+
+00:21:02.000 --> 00:21:06.000
+Simply call Claude this.
+
+00:21:06.000 --> 00:21:09.000
+Okay?
+
+00:21:09.000 --> 00:21:10.000
+What to say?
+
+00:21:10.000 --> 00:21:20.000
+In the sales data table, create a column unit price and fill values for the column based on that.
+
+00:21:20.000 --> 00:21:22.000
+And just set it.
+
+00:21:22.000 --> 00:21:24.000
+Now, see the magic.
+
+00:21:24.000 --> 00:21:25.000
+What Claude will do?
+
+00:21:25.000 --> 00:21:27.000
+I have not written any formula for Claude.
+
+00:21:27.000 --> 00:21:28.000
+Okay?
+
+00:21:28.000 --> 00:21:29.000
+What happened?
+
+00:21:29.000 --> 00:21:33.000
+I had told Claude to read all the data and understand.
+
+00:21:33.000 --> 00:21:39.000
+During that time, Claude actually understood how all the data is connected.
+
+00:21:39.000 --> 00:21:42.000
+See, he has also told a connection here.
+
+00:21:42.000 --> 00:21:43.000
+And now, what Claude is doing?
+
+00:21:43.000 --> 00:21:49.000
+Using that connection, he is making this column and filling its value.
+
+00:21:49.000 --> 00:21:51.000
+You can see here.
+
+00:21:51.000 --> 00:21:52.000
+Okay?
+
+00:21:52.000 --> 00:21:58.000
+So, here he is telling that sales data and product table are connected on the basis of SKU column.
+
+00:21:58.000 --> 00:22:03.000
+So, now it is telling me that what I will do is, I will take SKU column from sales data.
+
+00:22:03.000 --> 00:22:09.000
+I will compare the value of that column with the column A of product table which is SKU column.
+
+00:22:09.000 --> 00:22:12.000
+So, from here, he is taking the value from SKU column.
+
+00:22:12.000 --> 00:22:15.000
+He is comparing it with SKU column of product table.
+
+00:22:15.000 --> 00:22:19.000
+And then from there, he is giving you the unit price.
+
+00:22:19.000 --> 00:22:22.000
+See, he is giving you the unit price.
+
+00:22:22.000 --> 00:22:23.000
+Okay?
+
+00:22:23.000 --> 00:22:27.000
+And see, now I will go to sales data and I am having unit price.
+
+00:22:27.000 --> 00:22:33.000
+Now, if you click here, Claude has written the formula for you automatically for x lookup.
+
+00:22:33.000 --> 00:22:35.000
+Where you had to write it yourself.
+
+00:22:35.000 --> 00:22:37.000
+Claude has understood your data.
+
+00:22:37.000 --> 00:22:40.000
+Claude will write the formulas for you.
+
+00:22:40.000 --> 00:22:41.000
+What is your job?
+
+00:22:41.000 --> 00:22:43.000
+You have to verify it.
+
+00:22:44.000 --> 00:22:48.000
+Like here SKU is my TEC405.
+
+00:22:48.000 --> 00:22:50.000
+Its unit price is 449.
+
+00:22:50.000 --> 00:22:52.000
+Let's go and verify it once.
+
+00:22:52.000 --> 00:22:54.000
+TEC405 is unit price.
+
+00:22:54.000 --> 00:22:57.000
+List price is 449.
+
+00:22:57.000 --> 00:23:00.000
+Now, I will tell you a very crazy thing.
+
+00:23:00.000 --> 00:23:03.000
+There were two prices in product table.
+
+00:23:03.000 --> 00:23:05.000
+Unit price and list price.
+
+00:23:05.000 --> 00:23:09.000
+My Claude has picked up the list price.
+
+00:23:09.000 --> 00:23:10.000
+Right?
+
+00:23:10.000 --> 00:23:13.000
+Now, you might have a question in your mind why he has picked up the list price.
+
+00:23:13.000 --> 00:23:16.000
+It is a very practical thing because this is a sales table.
+
+00:23:16.000 --> 00:23:19.000
+Here I have to tell you the price of every unit.
+
+00:23:19.000 --> 00:23:22.000
+So what happens in actual is that my MRP is the list price.
+
+00:23:22.000 --> 00:23:25.000
+But still let's ask Claude once.
+
+00:23:25.000 --> 00:23:32.000
+Why did you choose unit price?
+
+00:23:32.000 --> 00:23:37.000
+Sorry, why did you choose list price?
+
+00:23:37.000 --> 00:23:46.000
+From product table not unit price.
+
+00:23:46.000 --> 00:23:49.000
+Let's ask Claude. Claude will give you the answer.
+
+00:23:49.000 --> 00:23:53.000
+If you are confused about something, Claude will give you the answer.
+
+00:23:53.000 --> 00:23:56.000
+Okay?
+
+00:24:02.000 --> 00:24:04.000
+Okay? So he has told you.
+
+00:24:07.000 --> 00:24:13.000
+See, for unit price and sales data which represents the price change per unit sold,
+
+00:24:13.000 --> 00:24:16.000
+list price is actually the correct choice.
+
+00:24:16.000 --> 00:24:18.000
+He is telling me.
+
+00:24:18.000 --> 00:24:23.000
+Right? So you can also cross-question with Claude and ask him.
+
+00:24:23.000 --> 00:24:24.000
+Okay?
+
+00:24:24.000 --> 00:24:27.000
+Why did he put a particular formula?
+
+00:24:27.000 --> 00:24:31.000
+Why did he use any particular column?
+
+00:24:31.000 --> 00:24:33.000
+You can ask him everything.
+
+00:24:33.000 --> 00:24:34.000
+Okay?
+
+00:24:34.000 --> 00:24:38.000
+So, as I have made the unit price column, I have two or three more columns.
+
+00:24:38.000 --> 00:24:40.000
+I will make that too.
+
+00:24:40.000 --> 00:24:50.000
+So I am simply asking Claude that please create three new columns in the sales table.
+
+00:24:50.000 --> 00:24:58.000
+What are the columns? Revenue, Cost, Gross Profit and Fill Values for the column based on the data.
+
+00:24:58.000 --> 00:25:02.000
+So I have asked Claude to make three more columns.
+
+00:25:02.000 --> 00:25:04.000
+Okay? Let's see.
+
+00:25:10.000 --> 00:25:13.000
+Claude has made the columns himself.
+
+00:25:13.000 --> 00:25:16.000
+He is confirming the layout himself.
+
+00:25:16.000 --> 00:25:18.000
+He is seeing what the formula will be.
+
+00:25:18.000 --> 00:25:20.000
+Now how is Claude knowing this?
+
+00:25:20.000 --> 00:25:23.000
+Because we have put a very good strategy.
+
+00:25:23.000 --> 00:25:29.000
+Before using Claude, we have told him to read the data and understand it himself.
+
+00:25:29.000 --> 00:25:31.000
+And also explain it to us.
+
+00:25:31.000 --> 00:25:34.000
+So Claude had already understood what the data is.
+
+00:25:34.000 --> 00:25:36.000
+How they are connected and see.
+
+00:25:36.000 --> 00:25:38.000
+I am getting the revenue.
+
+00:25:38.000 --> 00:25:40.000
+I am getting the cost.
+
+00:25:40.000 --> 00:25:42.000
+And I am getting the gross profit.
+
+00:25:42.000 --> 00:25:44.000
+If you want to verify, you can.
+
+00:25:44.000 --> 00:25:46.000
+How will the revenue come basically?
+
+00:25:46.000 --> 00:25:50.000
+Unit price into quantity minus discount.
+
+00:25:50.000 --> 00:25:51.000
+This will be the revenue.
+
+00:25:51.000 --> 00:25:53.000
+And this formula will be given by Claude.
+
+00:25:55.000 --> 00:25:56.000
+Okay?
+
+00:25:56.000 --> 00:25:58.000
+How will the cost come?
+
+00:25:58.000 --> 00:25:59.000
+Again, by looking up.
+
+00:25:59.000 --> 00:26:01.000
+So what it is doing?
+
+00:26:01.000 --> 00:26:04.000
+This G2 column is picking up this column.
+
+00:26:05.000 --> 00:26:06.000
+Let me escape it.
+
+00:26:06.000 --> 00:26:07.000
+What it is doing?
+
+00:26:07.000 --> 00:26:10.000
+It is picking up the G2 column from the product table.
+
+00:26:10.000 --> 00:26:14.000
+And then it is looking up for the values from G column.
+
+00:26:14.000 --> 00:26:15.000
+You can see here.
+
+00:26:15.000 --> 00:26:20.000
+It is looking up values from the G column into the products table.
+
+00:26:20.000 --> 00:26:24.000
+And from there, it extracts the values of the E column.
+
+00:26:25.000 --> 00:26:28.000
+So you can also verify things.
+
+00:26:28.000 --> 00:26:30.000
+And how will the gross profit come?
+
+00:26:30.000 --> 00:26:31.000
+Revenue minus cost.
+
+00:26:31.000 --> 00:26:33.000
+This is my profit.
+
+00:26:34.000 --> 00:26:37.000
+So how simple it becomes by using Claude.
+
+00:26:37.000 --> 00:26:40.000
+And achieve your day to day task.
+
+00:26:41.000 --> 00:26:42.000
+Right?
+
+00:26:42.000 --> 00:26:44.000
+Till here, if anyone has any doubt.
+
+00:26:46.000 --> 00:26:48.000
+Now we will increase the level slowly.
+
+00:26:48.000 --> 00:26:50.000
+Now I am telling you very basic things.
+
+00:26:50.000 --> 00:26:52.000
+Anyone any doubt till now.
+
+00:26:52.000 --> 00:26:58.000
+Quick yes or no please.
+
+00:27:07.000 --> 00:27:09.000
+Claude in Microsoft Office is available.
+
+00:27:09.000 --> 00:27:11.000
+Pro Max will upgrade to Claude in Microsoft Office.
+
+00:27:11.000 --> 00:27:12.000
+Yes?
+
+00:27:12.000 --> 00:27:13.000
+Yes Gagan.
+
+00:27:13.000 --> 00:27:19.000
+That's why I have to upgrade Claude to use.
+
+00:27:19.000 --> 00:27:21.000
+You can also see the schema.
+
+00:27:21.000 --> 00:27:24.000
+You can see the schema and verify things.
+
+00:27:24.000 --> 00:27:26.000
+That Claude is telling the truth or not.
+
+00:27:27.000 --> 00:27:28.000
+Okay?
+
+00:27:28.000 --> 00:27:31.000
+Let's move ahead.
+
+00:27:31.000 --> 00:27:33.000
+Now these were the basic columns.
+
+00:27:33.000 --> 00:27:34.000
+Do all these things.
+
+00:27:34.000 --> 00:27:35.000
+Okay?
+
+00:27:36.000 --> 00:27:37.000
+Now let's do one thing.
+
+00:27:37.000 --> 00:27:39.000
+Let's make one more column.
+
+00:27:39.000 --> 00:27:41.000
+Let's say Gross Profit Percentage.
+
+00:27:41.000 --> 00:27:42.000
+Okay?
+
+00:27:42.000 --> 00:27:43.000
+Let's calculate the percentage also.
+
+00:27:43.000 --> 00:27:44.000
+Right?
+
+00:27:44.000 --> 00:27:46.000
+So I am saying add a new column.
+
+00:27:46.000 --> 00:27:48.000
+Gross Profit Percentage.
+
+00:27:48.000 --> 00:27:51.000
+And in that column add Profit Percentage.
+
+00:27:51.000 --> 00:27:52.000
+Let's see the magic.
+
+00:27:52.000 --> 00:27:54.000
+Claude will do it together.
+
+00:27:54.000 --> 00:27:57.000
+You will see changes on the screen.
+
+00:27:57.000 --> 00:28:00.000
+First of all he wrote the header.
+
+00:28:00.000 --> 00:28:02.000
+After the header he wrote the value of one cell.
+
+00:28:02.000 --> 00:28:04.000
+And after that what did he do?
+
+00:28:04.000 --> 00:28:07.000
+He will populate the value in all the cells.
+
+00:28:07.000 --> 00:28:08.000
+Okay?
+
+00:28:08.000 --> 00:28:10.000
+Now what will he do?
+
+00:28:10.000 --> 00:28:11.000
+He will convert it in percentage.
+
+00:28:11.000 --> 00:28:13.000
+He does that thing step by step.
+
+00:28:13.000 --> 00:28:17.000
+And you can verify every thing here.
+
+00:28:17.000 --> 00:28:19.000
+You can go through it.
+
+00:28:19.000 --> 00:28:20.000
+Okay?
+
+00:28:21.000 --> 00:28:22.000
+Right?
+
+00:28:22.000 --> 00:28:23.000
+Perfect.
+
+00:28:23.000 --> 00:28:26.000
+Now let's do one more complex task.
+
+00:28:26.000 --> 00:28:27.000
+Okay?
+
+00:28:27.000 --> 00:28:28.000
+Let's do one thing.
+
+00:28:28.000 --> 00:28:31.000
+What I want is in sales table.
+
+00:28:31.000 --> 00:28:35.000
+I want that which sales representative did any particular sales.
+
+00:28:35.000 --> 00:28:39.000
+I mean I want to bring the name of the representative in the sales table.
+
+00:28:39.000 --> 00:28:44.000
+And along with that I want to bring the product of which category.
+
+00:28:44.000 --> 00:28:47.000
+This product is of which category?
+
+00:28:47.000 --> 00:28:48.000
+Okay?
+
+00:28:48.000 --> 00:28:50.000
+So category is in my product table.
+
+00:28:50.000 --> 00:28:51.000
+See.
+
+00:28:51.000 --> 00:28:53.000
+So here product table is category.
+
+00:28:53.000 --> 00:28:57.000
+And sales rep table is the name of the representative.
+
+00:28:57.000 --> 00:28:59.000
+I want to bring it in sales data.
+
+00:28:59.000 --> 00:29:00.000
+Very simple.
+
+00:29:00.000 --> 00:29:03.000
+What you have to do simply is to write a command.
+
+00:29:07.000 --> 00:29:10.000
+Create two new columns in the sales data table.
+
+00:29:10.000 --> 00:29:12.000
+Sales rep name is the name of the column.
+
+00:29:12.000 --> 00:29:14.000
+And product category is the name of the column.
+
+00:29:14.000 --> 00:29:16.000
+And retrieve relevant data from column.
+
+00:29:16.000 --> 00:29:20.000
+I haven't even told Claude about the sales rep name.
+
+00:29:20.000 --> 00:29:22.000
+What will be the values in this column?
+
+00:29:22.000 --> 00:29:24.000
+What will be the values in product category column?
+
+00:29:24.000 --> 00:29:29.000
+I am keeping the name of the column in such a way that Claude understands it himself.
+
+00:29:29.000 --> 00:29:33.000
+So this is again a very important strategy to use Claude.
+
+00:29:33.000 --> 00:29:39.000
+That you keep the name of the column in such a way that Claude understands it himself from the annotations.
+
+00:29:39.000 --> 00:29:42.000
+So he understands from which column the data is coming from.
+
+00:29:42.000 --> 00:29:44.000
+And just hit enter.
+
+00:29:47.000 --> 00:29:48.000
+Now see.
+
+00:29:48.000 --> 00:29:51.000
+Claude will read the columns here.
+
+00:29:51.000 --> 00:29:52.000
+Okay?
+
+00:29:52.000 --> 00:29:54.000
+And it is looking for representations.
+
+00:29:54.000 --> 00:29:55.000
+How are they connected?
+
+00:29:55.000 --> 00:29:58.000
+And it is saying I will use xlookup.
+
+00:29:58.000 --> 00:29:59.000
+How will I use it?
+
+00:29:59.000 --> 00:30:00.000
+He has told this.
+
+00:30:00.000 --> 00:30:01.000
+Okay?
+
+00:30:01.000 --> 00:30:02.000
+Now see.
+
+00:30:02.000 --> 00:30:05.000
+Now here you can see very dirty data is coming.
+
+00:30:05.000 --> 00:30:07.000
+Now he will clean it himself.
+
+00:30:07.000 --> 00:30:08.000
+Right?
+
+00:30:08.000 --> 00:30:14.000
+As soon as he wrote the output, after writing the output, he himself saw that header was being copied in row 2.
+
+00:30:14.000 --> 00:30:17.000
+We saw that header was being copied in row 2.
+
+00:30:17.000 --> 00:30:18.000
+So what did he do?
+
+00:30:18.000 --> 00:30:21.000
+He himself identified it and started correcting it.
+
+00:30:21.000 --> 00:30:24.000
+Now it is saying that I have to fill something.
+
+00:30:24.000 --> 00:30:26.000
+Are you giving permission or not?
+
+00:30:26.000 --> 00:30:28.000
+I am saying I am giving you permission.
+
+00:30:28.000 --> 00:30:30.000
+He filled all the data.
+
+00:30:32.000 --> 00:30:33.000
+Right?
+
+00:30:33.000 --> 00:30:35.000
+Now it is again verified.
+
+00:30:36.000 --> 00:30:39.000
+It is also verifying the data.
+
+00:30:40.000 --> 00:30:42.000
+Claude does this every time.
+
+00:30:42.000 --> 00:30:48.000
+First of all, he will do your work and after doing the work, he will also verify that whether the work has been done properly or not.
+
+00:30:48.000 --> 00:30:50.000
+Claude for Excel's property.
+
+00:30:50.000 --> 00:30:52.000
+And you can see.
+
+00:30:52.000 --> 00:30:53.000
+Your data has come here.
+
+00:30:53.000 --> 00:30:55.000
+You have reference cells.
+
+00:30:55.000 --> 00:30:57.000
+What did he do?
+
+00:30:57.000 --> 00:30:59.000
+Basically lookup.
+
+00:30:59.000 --> 00:31:01.000
+And the range used for lookup is this.
+
+00:31:01.000 --> 00:31:05.000
+This is the range for sales rep and product table.
+
+00:31:05.000 --> 00:31:09.000
+You can easily verify things.
+
+00:31:09.000 --> 00:31:11.000
+Right?
+
+00:31:11.000 --> 00:31:13.000
+So these are small things.
+
+00:31:13.000 --> 00:31:16.000
+You can easily do it with the help of Claude.
+
+00:31:16.000 --> 00:31:18.000
+Where you had to write the formula.
+
+00:31:18.000 --> 00:31:21.000
+Where you can say it was taking time.
+
+00:31:21.000 --> 00:31:23.000
+You were debugging the formula.
+
+00:31:23.000 --> 00:31:24.000
+No need.
+
+00:31:24.000 --> 00:31:26.000
+Claude will do small tasks for you.
+
+00:31:26.000 --> 00:31:28.000
+Right?
+
+00:31:28.000 --> 00:31:32.000
+Now let's do a little complex task with Claude.
+
+00:31:32.000 --> 00:31:34.000
+What is the complex task?
+
+00:31:34.000 --> 00:31:36.000
+Let's say my sales data.
+
+00:31:36.000 --> 00:31:40.000
+What I want from this sales data is to do analysis.
+
+00:31:40.000 --> 00:31:44.000
+And what I want is basically channel wise and city wise.
+
+00:31:44.000 --> 00:31:48.000
+Channel wise means this channel is from online retail hole.
+
+00:31:48.000 --> 00:31:50.000
+Channel wise and city wise.
+
+00:31:50.000 --> 00:31:55.000
+On the basis of these two columns, I want to know how much quantity was sold.
+
+00:31:55.000 --> 00:31:57.000
+And how much profit came.
+
+00:31:57.000 --> 00:31:59.000
+Or what is profit margin.
+
+00:31:59.000 --> 00:32:00.000
+Okay?
+
+00:32:00.000 --> 00:32:04.000
+Let's do this with Claude.
+
+00:32:04.000 --> 00:32:08.000
+So I am here in sales data.
+
+00:32:08.000 --> 00:32:10.000
+And here I am writing prompt.
+
+00:32:10.000 --> 00:32:13.000
+Create a separate table in the sales data table.
+
+00:32:13.000 --> 00:32:16.000
+And that table cell should start from R3.
+
+00:32:16.000 --> 00:32:20.000
+I am mentioning that the table from R3 cell should start.
+
+00:32:20.000 --> 00:32:23.000
+You can mention any location according to you.
+
+00:32:23.000 --> 00:32:25.000
+And what to do in that table basically?
+
+00:32:25.000 --> 00:32:28.000
+Calculate channel wise and city wise.
+
+00:32:28.000 --> 00:32:32.000
+Quantity sold and average gross margin profit.
+
+00:32:32.000 --> 00:32:34.000
+Just hit that button.
+
+00:32:34.000 --> 00:32:37.000
+Now I will explain you a very important thing.
+
+00:32:37.000 --> 00:32:39.000
+I have given this complex task.
+
+00:32:39.000 --> 00:32:41.000
+LLM.
+
+00:32:41.000 --> 00:32:43.000
+So what will LLM do?
+
+00:32:43.000 --> 00:32:45.000
+First of all, it will generate a plan.
+
+00:32:45.000 --> 00:32:47.000
+Right?
+
+00:32:47.000 --> 00:32:51.000
+And then it will achieve that plan step by step.
+
+00:32:51.000 --> 00:32:54.000
+You all must have heard about Claude's plan mode.
+
+00:32:54.000 --> 00:33:02.000
+Claude first plans and then achieves things.
+
+00:33:02.000 --> 00:33:03.000
+So you can see.
+
+00:33:03.000 --> 00:33:05.000
+First of all, he made a plan.
+
+00:33:05.000 --> 00:33:07.000
+What did he write in the plan?
+
+00:33:07.000 --> 00:33:08.000
+I have to make two tables.
+
+00:33:08.000 --> 00:33:11.000
+Channel wise summary table and city wise table.
+
+00:33:11.000 --> 00:33:14.000
+So he made channel wise summary table.
+
+00:33:14.000 --> 00:33:16.000
+He completed that task.
+
+00:33:16.000 --> 00:33:18.000
+Now what is he doing?
+
+00:33:18.000 --> 00:33:20.000
+He is making city wise summary table.
+
+00:33:20.000 --> 00:33:23.000
+Here you have city wise summary table.
+
+00:33:23.000 --> 00:33:25.000
+Okay?
+
+00:33:25.000 --> 00:33:26.000
+And you can see.
+
+00:33:26.000 --> 00:33:28.000
+The tables that are made.
+
+00:33:28.000 --> 00:33:31.000
+Those tables are dynamic.
+
+00:33:31.000 --> 00:33:33.000
+There are no stagnant values in it.
+
+00:33:33.000 --> 00:33:35.000
+There are no static values.
+
+00:33:35.000 --> 00:33:38.000
+This is written with your proper formula.
+
+00:33:38.000 --> 00:33:39.000
+Right?
+
+00:33:39.000 --> 00:33:41.000
+Here you have the proper formula of sum.
+
+00:33:41.000 --> 00:33:43.000
+So what is this formula basically doing?
+
+00:33:43.000 --> 00:33:46.000
+This formula is looking for this value.
+
+00:33:46.000 --> 00:33:48.000
+This is the value of the city of Ahmedabad.
+
+00:33:48.000 --> 00:33:50.000
+In the column D.
+
+00:33:50.000 --> 00:33:51.000
+Which is my column D?
+
+00:33:51.000 --> 00:33:52.000
+City.
+
+00:33:52.000 --> 00:33:56.000
+And if the value is matching, then after that
+
+00:33:56.000 --> 00:33:58.000
+the sum of the quantity column is happening.
+
+00:33:58.000 --> 00:34:00.000
+You can see the sum of the edge column.
+
+00:34:00.000 --> 00:34:02.000
+Right?
+
+00:34:02.000 --> 00:34:06.000
+So Claude will write the formula properly and work for you.
+
+00:34:06.000 --> 00:34:07.000
+Okay?
+
+00:34:07.000 --> 00:34:09.000
+And same he did for gross profit.
+
+00:34:09.000 --> 00:34:11.000
+What I did in the case of profit?
+
+00:34:11.000 --> 00:34:13.000
+I asked him to calculate the average profit.
+
+00:34:13.000 --> 00:34:16.000
+So in this case Claude put the average if.
+
+00:34:16.000 --> 00:34:18.000
+He did not put the sum if.
+
+00:34:18.000 --> 00:34:22.000
+So you have to give Claude the task properly.
+
+00:34:22.000 --> 00:34:24.000
+Claude will do everything by himself.
+
+00:34:24.000 --> 00:34:26.000
+Okay?
+
+00:34:26.000 --> 00:34:28.000
+So far everyone is clear?
+
+00:34:28.000 --> 00:34:30.000
+Anyone any doubt?
+
+00:34:30.000 --> 00:34:34.000
+Can we retrieve data from the internet using Claude?
+
+00:34:34.000 --> 00:34:39.000
+For example, we can retrieve state name based on the city name provided by the column D.
+
+00:34:39.000 --> 00:34:45.000
+Can we retrieve state name based on the city name provided by column D?
+
+00:34:45.000 --> 00:34:46.000
+You can do it Harsh.
+
+00:34:46.000 --> 00:34:48.000
+For that you need MCPs.
+
+00:34:48.000 --> 00:34:50.000
+We will read about it later.
+
+00:34:52.000 --> 00:34:54.000
+Claude can do a lot.
+
+00:34:54.000 --> 00:34:56.000
+Either anyone doubts.
+
+00:34:56.000 --> 00:34:58.000
+Quick or listen.
+
+00:35:04.000 --> 00:35:06.000
+Guys am I not audible?
+
+00:35:06.000 --> 00:35:11.000
+Parallel subagent in your sense I am asking.
+
+00:35:11.000 --> 00:35:14.000
+You cannot invoke anything here.
+
+00:35:14.000 --> 00:35:16.000
+You just give a prompt.
+
+00:35:16.000 --> 00:35:19.000
+Claude decides what to invoke.
+
+00:35:19.000 --> 00:35:23.000
+You do not have the control of the granular level.
+
+00:35:23.000 --> 00:35:29.000
+Parallel subagent I am assuming that you wanted to generate both the tables together.
+
+00:35:29.000 --> 00:35:30.000
+Right?
+
+00:35:30.000 --> 00:35:34.000
+You wanted to generate both the tables together. Right?
+
+00:35:34.000 --> 00:35:38.000
+That one agent generates this table and the other one this table.
+
+00:35:38.000 --> 00:35:40.000
+Something like that Imanchu?
+
+00:35:42.000 --> 00:35:44.000
+You cannot decide this.
+
+00:35:44.000 --> 00:35:48.000
+Claude makes his own plan and executes it by himself.
+
+00:35:48.000 --> 00:35:50.000
+Okay?
+
+00:35:50.000 --> 00:35:52.000
+You don't have that authority.
+
+00:35:52.000 --> 00:35:55.000
+Claude for Excel you don't have that authority.
+
+00:35:55.000 --> 00:35:56.000
+Right?
+
+00:35:56.000 --> 00:36:03.000
+Claude did a good analysis of tables and formatting.
+
+00:36:03.000 --> 00:36:05.000
+He did everything well.
+
+00:36:05.000 --> 00:36:07.000
+Okay?
+
+00:36:07.000 --> 00:36:09.000
+Right?
+
+00:36:09.000 --> 00:36:15.000
+Now let's say I want to use these tables to make a chart.
+
+00:36:15.000 --> 00:36:17.000
+Right?
+
+00:36:17.000 --> 00:36:19.000
+I don't want this in tables.
+
+00:36:19.000 --> 00:36:21.000
+I want to make a chart out of them.
+
+00:36:21.000 --> 00:36:22.000
+Okay?
+
+00:36:22.000 --> 00:36:24.000
+So what can I do?
+
+00:36:24.000 --> 00:36:40.000
+I can write a command that convert the table created above into charts for betterization.
+
+00:36:40.000 --> 00:36:42.000
+Simple.
+
+00:36:42.000 --> 00:36:47.000
+Claude will take these tables and make charts on their basis.
+
+00:36:47.000 --> 00:36:49.000
+Right?
+
+00:36:49.000 --> 00:36:51.000
+Now what did he do?
+
+00:36:51.000 --> 00:36:53.000
+Channel wise, the summary table.
+
+00:36:53.000 --> 00:36:55.000
+He is reading the city wise summary table.
+
+00:36:55.000 --> 00:36:57.000
+This is the table.
+
+00:36:57.000 --> 00:36:59.000
+He is reading both of them and now fill their charts.
+
+00:36:59.000 --> 00:37:01.000
+See.
+
+00:37:01.000 --> 00:37:03.000
+You have the first chart.
+
+00:37:03.000 --> 00:37:05.000
+Channel wise.
+
+00:37:05.000 --> 00:37:07.000
+The second chart will come.
+
+00:37:07.000 --> 00:37:09.000
+City wise.
+
+00:37:19.000 --> 00:37:21.000
+See.
+
+00:37:21.000 --> 00:37:23.000
+All of the charts are there in front of you.
+
+00:37:23.000 --> 00:37:25.000
+The most important thing.
+
+00:37:25.000 --> 00:37:27.000
+These charts are editable.
+
+00:37:27.000 --> 00:37:31.000
+Meaning if you want to make any changes in this chart, you can do it.
+
+00:37:31.000 --> 00:37:33.000
+Right?
+
+00:37:33.000 --> 00:37:37.000
+You can assume that whatever Claude is giving you as output.
+
+00:37:37.000 --> 00:37:43.000
+That output is in the form of proper Excel elements.
+
+00:37:43.000 --> 00:37:45.000
+What are Excel elements?
+
+00:37:45.000 --> 00:37:47.000
+Tables, cells, rows.
+
+00:37:47.000 --> 00:37:51.000
+If you want to make any changes in this chart, click on it.
+
+00:37:51.000 --> 00:37:53.000
+All the options will open up.
+
+00:37:53.000 --> 00:37:55.000
+You can use them to make changes.
+
+00:37:55.000 --> 00:37:57.000
+You can do the relevant changes.
+
+00:37:57.000 --> 00:37:59.000
+If you go here.
+
+00:37:59.000 --> 00:38:01.000
+Then.
+
+00:38:01.000 --> 00:38:03.000
+This whole data is written.
+
+00:38:03.000 --> 00:38:05.000
+How they are working.
+
+00:38:05.000 --> 00:38:07.000
+And at the same time, the references are also written here.
+
+00:38:07.000 --> 00:38:09.000
+That this data is used for making the chart.
+
+00:38:09.000 --> 00:38:11.000
+See.
+
+00:38:11.000 --> 00:38:13.000
+Second data used for making another chart.
+
+00:38:13.000 --> 00:38:15.000
+Gross average city.
+
+00:38:15.000 --> 00:38:17.000
+Gross average city.
+
+00:38:17.000 --> 00:38:19.000
+This data is used for profit by city.
+
+00:38:19.000 --> 00:38:21.000
+Right?
+
+00:38:21.000 --> 00:38:23.000
+So you have all the references.
+
+00:38:23.000 --> 00:38:25.000
+Which you can verify yourself.
+
+00:38:25.000 --> 00:38:27.000
+If you want to change the chart from here.
+
+00:38:27.000 --> 00:38:29.000
+You can change it.
+
+00:38:29.000 --> 00:38:31.000
+You want to change the chart elements.
+
+00:38:31.000 --> 00:38:33.000
+You can change it.
+
+00:38:33.000 --> 00:38:35.000
+All.
+
+00:38:35.000 --> 00:38:37.000
+You can say.
+
+00:38:37.000 --> 00:38:39.000
+Accessibility is with you.
+
+00:38:39.000 --> 00:38:41.000
+You can do everything here.
+
+00:38:41.000 --> 00:38:43.000
+Right?
+
+00:38:43.000 --> 00:38:45.000
+You must have understood one thing.
+
+00:38:45.000 --> 00:38:47.000
+Claude is your assistant.
+
+00:38:47.000 --> 00:38:49.000
+The complex task.
+
+00:38:49.000 --> 00:38:51.000
+The pain point task.
+
+00:38:51.000 --> 00:38:53.000
+Which you can say.
+
+00:38:53.000 --> 00:38:55.000
+The task which used to take time.
+
+00:38:55.000 --> 00:38:57.000
+That task is Claude for you.
+
+00:38:57.000 --> 00:38:59.000
+Now what is your job left?
+
+00:38:59.000 --> 00:39:01.000
+As an analyst.
+
+00:39:01.000 --> 00:39:03.000
+Your job is only.
+
+00:39:03.000 --> 00:39:05.000
+What?
+
+00:39:05.000 --> 00:39:07.000
+Analyst.
+
+00:39:07.000 --> 00:39:09.000
+You are telling Claude what he is doing.
+
+00:39:09.000 --> 00:39:11.000
+You interpret this data.
+
+00:39:11.000 --> 00:39:13.000
+As an analyst.
+
+00:39:13.000 --> 00:39:15.000
+Your job is only.
+
+00:39:15.000 --> 00:39:17.000
+Analyst's job.
+
+00:39:17.000 --> 00:39:19.000
+Right?
+
+00:39:19.000 --> 00:39:21.000
+The rest of the work which you can say.
+
+00:39:21.000 --> 00:39:23.000
+Repetitive task.
+
+00:39:23.000 --> 00:39:25.000
+Complex task. Claude is doing for you.
+
+00:39:25.000 --> 00:39:27.000
+Right?
+
+00:39:27.000 --> 00:39:29.000
+So Soheb is asking.
+
+00:39:29.000 --> 00:39:31.000
+Can we put light on data privacy?
+
+00:39:31.000 --> 00:39:33.000
+We will talk about this in the end.
+
+00:39:33.000 --> 00:39:35.000
+You are basically concerned.
+
+00:39:35.000 --> 00:39:37.000
+That your data is going to Claude.
+
+00:39:37.000 --> 00:39:39.000
+Right?
+
+00:39:39.000 --> 00:39:41.000
+Right Soheb?
+
+00:39:47.000 --> 00:39:49.000
+Okay.
+
+00:39:49.000 --> 00:39:51.000
+Let's talk about this in a while.
+
+00:39:51.000 --> 00:39:53.000
+First let's cover the basics.
+
+00:39:53.000 --> 00:39:55.000
+Can we sort chart through the prompt?
+
+00:39:55.000 --> 00:39:57.000
+You can do it.
+
+00:39:57.000 --> 00:39:59.000
+You can do it. Try it from your end.
+
+00:39:59.000 --> 00:40:01.000
+Now.
+
+00:40:01.000 --> 00:40:03.000
+Two important things here.
+
+00:40:03.000 --> 00:40:05.000
+In fact, these queries have also come.
+
+00:40:05.000 --> 00:40:07.000
+What will happen of privacy?
+
+00:40:07.000 --> 00:40:09.000
+What will happen? Will it hallucinate?
+
+00:40:09.000 --> 00:40:11.000
+My LLM.
+
+00:40:11.000 --> 00:40:13.000
+I will clear both the things.
+
+00:40:13.000 --> 00:40:15.000
+Claude for Excel is totally
+
+00:40:15.000 --> 00:40:17.000
+independent.
+
+00:40:17.000 --> 00:40:19.000
+Product of Claude.
+
+00:40:19.000 --> 00:40:21.000
+Your data is only on your local
+
+00:40:21.000 --> 00:40:23.000
+system.
+
+00:40:23.000 --> 00:40:25.000
+Your data is never
+
+00:40:25.000 --> 00:40:27.000
+skipped on your local system.
+
+00:40:27.000 --> 00:40:29.000
+It doesn't go to Claude's enterprise.
+
+00:40:29.000 --> 00:40:31.000
+Means although processing is coming.
+
+00:40:31.000 --> 00:40:33.000
+Commands are going there.
+
+00:40:33.000 --> 00:40:35.000
+But the data is here.
+
+00:40:35.000 --> 00:40:37.000
+What is happening in the backend?
+
+00:40:37.000 --> 00:40:39.000
+I will tell you.
+
+00:40:39.000 --> 00:40:41.000
+Excel's own APIs.
+
+00:40:41.000 --> 00:40:43.000
+The one you are using Excel.
+
+00:40:43.000 --> 00:40:45.000
+Its own APIs.
+
+00:40:45.000 --> 00:40:47.000
+So when you are writing prompt.
+
+00:40:47.000 --> 00:40:49.000
+So what is this prompt basically?
+
+00:40:49.000 --> 00:40:51.000
+Converting
+
+00:40:51.000 --> 00:40:53.000
+Excel's APIs.
+
+00:40:53.000 --> 00:40:55.000
+Right?
+
+00:40:55.000 --> 00:40:57.000
+And that Excel's APIs are running
+
+00:40:57.000 --> 00:40:59.000
+on your local system.
+
+00:40:59.000 --> 00:41:01.000
+Because where is your Excel?
+
+00:41:01.000 --> 00:41:03.000
+So the whole work of backend
+
+00:41:03.000 --> 00:41:05.000
+is happening through API calls.
+
+00:41:05.000 --> 00:41:07.000
+If I show you to verify.
+
+00:41:07.000 --> 00:41:09.000
+So here we saw
+
+00:41:09.000 --> 00:41:11.000
+this looks something like a
+
+00:41:11.000 --> 00:41:13.000
+JSON object which is API call.
+
+00:41:13.000 --> 00:41:15.000
+Right?
+
+00:41:15.000 --> 00:41:17.000
+So your Claude
+
+00:41:17.000 --> 00:41:19.000
+basically is doing your prompt.
+
+00:41:19.000 --> 00:41:21.000
+Whatever you are writing this prompt.
+
+00:41:23.000 --> 00:41:25.000
+Claude converts your prompt
+
+00:41:25.000 --> 00:41:27.000
+into API.
+
+00:41:27.000 --> 00:41:29.000
+Right? And this API
+
+00:41:29.000 --> 00:41:31.000
+is then executed on your local
+
+00:41:31.000 --> 00:41:33.000
+end.
+
+00:41:33.000 --> 00:41:35.000
+Ok?
+
+00:41:35.000 --> 00:41:37.000
+Is this clear? So generally
+
+00:41:37.000 --> 00:41:39.000
+when you use Excel. What do you do
+
+00:41:39.000 --> 00:41:41.000
+basically when you use Excel?
+
+00:41:41.000 --> 00:41:43.000
+You work through clicks.
+
+00:41:43.000 --> 00:41:45.000
+So what happens in backend is
+
+00:41:45.000 --> 00:41:47.000
+that these APIs of Excel
+
+00:41:47.000 --> 00:41:49.000
+get hit and they get worked.
+
+00:41:49.000 --> 00:41:51.000
+Right? They do your whole work.
+
+00:41:51.000 --> 00:41:53.000
+So same thing
+
+00:41:53.000 --> 00:41:55.000
+Claude is doing for you here.
+
+00:41:55.000 --> 00:41:57.000
+Your prompts are being converted
+
+00:41:57.000 --> 00:41:59.000
+into API commands in general
+
+00:41:59.000 --> 00:42:01.000
+and those API commands are running
+
+00:42:01.000 --> 00:42:03.000
+on your local data, local system.
+
+00:42:03.000 --> 00:42:05.000
+So the data privacy
+
+00:42:05.000 --> 00:42:07.000
+is very strict here.
+
+00:42:07.000 --> 00:42:09.000
+Right?
+
+00:42:09.000 --> 00:42:11.000
+Now I am not sure about
+
+00:42:11.000 --> 00:42:13.000
+MCP. How does it work in MCP?
+
+00:42:13.000 --> 00:42:15.000
+We will discuss later.
+
+00:42:15.000 --> 00:42:17.000
+What is the privacy of data in MCP?
+
+00:42:17.000 --> 00:42:19.000
+But if you have data in your system
+
+00:42:19.000 --> 00:42:21.000
+that data should be in your system.
+
+00:42:21.000 --> 00:42:23.000
+Right?
+
+00:42:23.000 --> 00:42:25.000
+Second let's come to hallucination.
+
+00:42:25.000 --> 00:42:27.000
+Can my life hallucinate?
+
+00:42:27.000 --> 00:42:29.000
+The probability is yes.
+
+00:42:29.000 --> 00:42:31.000
+It can.
+
+00:42:31.000 --> 00:42:33.000
+But there are very less chances.
+
+00:42:33.000 --> 00:42:35.000
+Why?
+
+00:42:35.000 --> 00:42:37.000
+Because look, data
+
+00:42:37.000 --> 00:42:39.000
+on which your
+
+00:42:39.000 --> 00:42:41.000
+LLM, you can say
+
+00:42:41.000 --> 00:42:43.000
+is working is your locally present.
+
+00:42:43.000 --> 00:42:45.000
+Ok?
+
+00:42:45.000 --> 00:42:47.000
+Claude is only
+
+00:42:47.000 --> 00:42:49.000
+converting your prompt
+
+00:42:49.000 --> 00:42:51.000
+into API.
+
+00:42:51.000 --> 00:42:53.000
+Now where can you find the problem
+
+00:42:53.000 --> 00:42:55.000
+that API is not properly converted.
+
+00:42:55.000 --> 00:42:57.000
+But if API is properly converted
+
+00:42:57.000 --> 00:42:59.000
+to make a chart,
+
+00:42:59.000 --> 00:43:01.000
+then hallucination
+
+00:43:01.000 --> 00:43:03.000
+will not happen.
+
+00:43:03.000 --> 00:43:05.000
+Because again, API call
+
+00:43:05.000 --> 00:43:07.000
+will be proper. Data is with you.
+
+00:43:07.000 --> 00:43:09.000
+There are no changes in data.
+
+00:43:09.000 --> 00:43:11.000
+So when that API hits on data,
+
+00:43:11.000 --> 00:43:13.000
+hallucination
+
+00:43:13.000 --> 00:43:15.000
+will not happen.
+
+00:43:15.000 --> 00:43:17.000
+But again, there are chances of hallucination.
+
+00:43:17.000 --> 00:43:19.000
+The best way is that you
+
+00:43:19.000 --> 00:43:21.000
+always verify what you are doing
+
+00:43:21.000 --> 00:43:23.000
+from Claude.
+
+00:43:23.000 --> 00:43:25.000
+Let's say Claude
+
+00:43:25.000 --> 00:43:27.000
+changes in 100 rows.
+
+00:43:27.000 --> 00:43:29.000
+So you
+
+00:43:29.000 --> 00:43:31.000
+at least verify it in 2 or 3 rows.
+
+00:43:31.000 --> 00:43:33.000
+Clear?
+
+00:43:35.000 --> 00:43:37.000
+No, it didn't go to Claude's servers.
+
+00:43:37.000 --> 00:43:39.000
+It came here.
+
+00:43:39.000 --> 00:43:41.000
+Claude
+
+00:43:41.000 --> 00:43:43.000
+again hit APIs. Claude
+
+00:43:43.000 --> 00:43:45.000
+read the data. Now you think
+
+00:43:45.000 --> 00:43:47.000
+let's say
+
+00:43:47.000 --> 00:43:49.000
+I wanted to summarize.
+
+00:43:49.000 --> 00:43:51.000
+What did I get in the summary?
+
+00:43:51.000 --> 00:43:53.000
+Okay.
+
+00:43:53.000 --> 00:43:55.000
+I will go to the output of the summarize.
+
+00:43:55.000 --> 00:43:57.000
+In the summary, 303
+
+00:43:57.000 --> 00:43:59.000
+transaction rows. Can't
+
+00:43:59.000 --> 00:44:01.000
+this be done with
+
+00:44:01.000 --> 00:44:03.000
+hitting the API
+
+00:44:03.000 --> 00:44:05.000
+of Excel which is counting only rows?
+
+00:44:07.000 --> 00:44:09.000
+Can't
+
+00:44:09.000 --> 00:44:11.000
+this be this analysis?
+
+00:44:11.000 --> 00:44:13.000
+Can't we get this analysis
+
+00:44:13.000 --> 00:44:15.000
+by hitting the API
+
+00:44:15.000 --> 00:44:17.000
+which is telling only the names of columns?
+
+00:44:17.000 --> 00:44:19.000
+So everything is locally yours.
+
+00:44:19.000 --> 00:44:21.000
+Clear everyone with this?
+
+00:44:25.000 --> 00:44:27.000
+Quick or no?
+
+00:44:27.000 --> 00:44:29.000
+Then move forward.
+
+00:44:29.000 --> 00:44:31.000
+Now increase the complexities slowly.
+
+00:44:35.000 --> 00:44:37.000
+Okay.
+
+00:44:37.000 --> 00:44:39.000
+Right?
+
+00:44:39.000 --> 00:44:41.000
+Now let's say
+
+00:44:41.000 --> 00:44:43.000
+I want to make another visual.
+
+00:44:43.000 --> 00:44:45.000
+Here what we did
+
+00:44:45.000 --> 00:44:47.000
+basically
+
+00:44:47.000 --> 00:44:49.000
+we made a table and visual on the basis of it.
+
+00:44:49.000 --> 00:44:51.000
+Okay. Now directly
+
+00:44:51.000 --> 00:44:53.000
+let's make a visualization. I directly
+
+00:44:53.000 --> 00:44:55.000
+said to Excel, build a visual
+
+00:44:55.000 --> 00:44:57.000
+that shows line revenue by
+
+00:44:57.000 --> 00:44:59.000
+region. And you can say revenue by region.
+
+00:44:59.000 --> 00:45:01.000
+Basically what I want is
+
+00:45:01.000 --> 00:45:03.000
+my revenue, I want to
+
+00:45:03.000 --> 00:45:05.000
+visualize that on the basis of
+
+00:45:05.000 --> 00:45:07.000
+region. Let's
+
+00:45:07.000 --> 00:45:09.000
+build this.
+
+00:45:09.000 --> 00:45:11.000
+Okay.
+
+00:45:11.000 --> 00:45:13.000
+Till this is built
+
+00:45:13.000 --> 00:45:15.000
+I have a query
+
+00:45:15.000 --> 00:45:17.000
+Sir, do Excel API act as a tool
+
+00:45:17.000 --> 00:45:19.000
+for cloud? You can say
+
+00:45:19.000 --> 00:45:21.000
+Harry. Means you can
+
+00:45:21.000 --> 00:45:23.000
+consider it that way.
+
+00:45:25.000 --> 00:45:27.000
+Okay. So see
+
+00:45:27.000 --> 00:45:29.000
+it has told which columns it is considering.
+
+00:45:29.000 --> 00:45:31.000
+Everything here it will tell.
+
+00:45:31.000 --> 00:45:33.000
+And then after that it will make a visualization.
+
+00:45:33.000 --> 00:45:35.000
+Let's just wait.
+
+00:45:37.000 --> 00:45:39.000
+So it has started the chart
+
+00:45:39.000 --> 00:45:41.000
+panel. You can see
+
+00:45:41.000 --> 00:45:43.000
+all the changes in your Excel.
+
+00:45:43.000 --> 00:45:45.000
+This is the best thing.
+
+00:45:45.000 --> 00:45:47.000
+So it has made a table
+
+00:45:47.000 --> 00:45:49.000
+and then on the basis of region
+
+00:45:49.000 --> 00:45:51.000
+it has made a chart.
+
+00:45:51.000 --> 00:45:53.000
+We all know that
+
+00:45:53.000 --> 00:45:55.000
+whenever we make a chart in Excel
+
+00:45:55.000 --> 00:45:57.000
+first we have to convert it in table.
+
+00:45:57.000 --> 00:45:59.000
+Then we can make a chart on the basis of table.
+
+00:45:59.000 --> 00:46:01.000
+So it did this.
+
+00:46:01.000 --> 00:46:03.000
+First of all it has taken data
+
+00:46:03.000 --> 00:46:05.000
+made a table and after table
+
+00:46:05.000 --> 00:46:07.000
+made a chart.
+
+00:46:07.000 --> 00:46:09.000
+Okay. What is mentioned
+
+00:46:09.000 --> 00:46:11.000
+everywhere, for all of that you have
+
+00:46:11.000 --> 00:46:13.000
+references and click on any
+
+00:46:13.000 --> 00:46:15.000
+reference and you will be redirected
+
+00:46:15.000 --> 00:46:17.000
+to that particular cell
+
+00:46:17.000 --> 00:46:19.000
+or that particular feature.
+
+00:46:19.000 --> 00:46:21.000
+Okay.
+
+00:46:21.000 --> 00:46:23.000
+Right.
+
+00:46:23.000 --> 00:46:25.000
+Let's go.
+
+00:46:25.000 --> 00:46:27.000
+Let's move forward.
+
+00:46:27.000 --> 00:46:29.000
+Now
+
+00:46:29.000 --> 00:46:31.000
+Let's do one thing. Let's do some complex
+
+00:46:31.000 --> 00:46:33.000
+task with this. How many are you
+
+00:46:33.000 --> 00:46:35.000
+from finance?
+
+00:46:35.000 --> 00:46:37.000
+Who is from finance?
+
+00:46:37.000 --> 00:46:39.000
+Anyone with little
+
+00:46:39.000 --> 00:46:41.000
+knowledge of finance?
+
+00:46:45.000 --> 00:46:47.000
+Okay.
+
+00:46:47.000 --> 00:46:49.000
+Okay. So you can
+
+00:46:49.000 --> 00:46:51.000
+please tell me
+
+00:46:51.000 --> 00:46:53.000
+what are
+
+00:46:53.000 --> 00:46:55.000
+PNL statements?
+
+00:46:55.000 --> 00:46:57.000
+What are they?
+
+00:46:57.000 --> 00:46:59.000
+Siddharth?
+
+00:47:03.000 --> 00:47:05.000
+Right. Profit and
+
+00:47:05.000 --> 00:47:07.000
+loss statement.
+
+00:47:07.000 --> 00:47:09.000
+So PNL statement is
+
+00:47:09.000 --> 00:47:11.000
+like a forecast for a company.
+
+00:47:11.000 --> 00:47:13.000
+Okay.
+
+00:47:13.000 --> 00:47:15.000
+This basically tells the company
+
+00:47:15.000 --> 00:47:17.000
+that its
+
+00:47:17.000 --> 00:47:19.000
+this month's data is going to be
+
+00:47:19.000 --> 00:47:21.000
+or how much sales are going to be done
+
+00:47:21.000 --> 00:47:23.000
+and then what they do is
+
+00:47:23.000 --> 00:47:25.000
+compare it with their actual target.
+
+00:47:25.000 --> 00:47:27.000
+So here I will make PNL statement
+
+00:47:27.000 --> 00:47:29.000
+with my AI.
+
+00:47:29.000 --> 00:47:31.000
+And it is very complex to make.
+
+00:47:31.000 --> 00:47:33.000
+If anyone actually knows
+
+00:47:33.000 --> 00:47:35.000
+that you are forecasting
+
+00:47:35.000 --> 00:47:37.000
+your financial health, then it is very complex
+
+00:47:37.000 --> 00:47:39.000
+to make.
+
+00:47:39.000 --> 00:47:41.000
+I do the whole work
+
+00:47:41.000 --> 00:47:43.000
+with clots.
+
+00:47:43.000 --> 00:47:45.000
+So basically what happens in TL
+
+00:47:45.000 --> 00:47:47.000
+PNL statement is that you
+
+00:47:47.000 --> 00:47:49.000
+decide on the basis of your previous sales
+
+00:47:49.000 --> 00:47:51.000
+that your new financial
+
+00:47:51.000 --> 00:47:53.000
+year
+
+00:47:53.000 --> 00:47:55.000
+or new year, how much is
+
+00:47:55.000 --> 00:47:57.000
+its first month's sale?
+
+00:47:57.000 --> 00:47:59.000
+So let's say I am saying that its first month's
+
+00:47:59.000 --> 00:48:01.000
+sale is 39 lakhs.
+
+00:48:01.000 --> 00:48:03.000
+And every month my
+
+00:48:03.000 --> 00:48:05.000
+revenue is growing by 3%.
+
+00:48:05.000 --> 00:48:07.000
+Okay. Every month
+
+00:48:07.000 --> 00:48:09.000
+and average discount is 8%.
+
+00:48:09.000 --> 00:48:11.000
+And every month
+
+00:48:11.000 --> 00:48:13.000
+what is happening with me, the revenue
+
+00:48:13.000 --> 00:48:15.000
+is 58% of my production
+
+00:48:15.000 --> 00:48:17.000
+okay.
+
+00:48:17.000 --> 00:48:19.000
+The cost that I am getting is 58%.
+
+00:48:19.000 --> 00:48:21.000
+Okay. After that
+
+00:48:21.000 --> 00:48:23.000
+every month my
+
+00:48:23.000 --> 00:48:25.000
+fixed cost is 4.50 lakhs.
+
+00:48:25.000 --> 00:48:27.000
+Now what is the fixed cost?
+
+00:48:27.000 --> 00:48:29.000
+Let's say your
+
+00:48:29.000 --> 00:48:31.000
+showroom rent is going, your
+
+00:48:31.000 --> 00:48:33.000
+employee's benefit is going,
+
+00:48:33.000 --> 00:48:35.000
+some fund is going, all that
+
+00:48:35.000 --> 00:48:37.000
+is fixed. And after that
+
+00:48:37.000 --> 00:48:39.000
+every month you get 6%
+
+00:48:39.000 --> 00:48:41.000
+variable cost.
+
+00:48:41.000 --> 00:48:43.000
+Whatever revenue you get, you get 6%
+
+00:48:43.000 --> 00:48:45.000
+variable cost.
+
+00:48:45.000 --> 00:48:47.000
+And you give 25% tax every month.
+
+00:48:47.000 --> 00:48:49.000
+Okay.
+
+00:48:49.000 --> 00:48:51.000
+Now what you have to do on this basis
+
+00:48:51.000 --> 00:48:53.000
+you have to tell that every month
+
+00:48:53.000 --> 00:48:55.000
+how much profit will be there, how much
+
+00:48:55.000 --> 00:48:57.000
+sales will be there, what will be the revenue
+
+00:48:57.000 --> 00:48:59.000
+tell you everything. That is actually
+
+00:48:59.000 --> 00:49:01.000
+your P and L state.
+
+00:49:01.000 --> 00:49:03.000
+Okay. So what you do is
+
+00:49:03.000 --> 00:49:05.000
+basically on the basis of previous assumptions
+
+00:49:05.000 --> 00:49:07.000
+previous year's
+
+00:49:07.000 --> 00:49:09.000
+finance, you predict
+
+00:49:09.000 --> 00:49:11.000
+next year's finances. Okay.
+
+00:49:11.000 --> 00:49:13.000
+Now this work is done
+
+00:49:13.000 --> 00:49:15.000
+with the whole plot.
+
+00:49:15.000 --> 00:49:17.000
+Okay. So I will simply
+
+00:49:17.000 --> 00:49:19.000
+write
+
+00:49:19.000 --> 00:49:21.000
+this work.
+
+00:49:23.000 --> 00:49:25.000
+In the finance mode
+
+00:49:25.000 --> 00:49:27.000
+you can say, I will change the
+
+00:49:27.000 --> 00:49:29.000
+data in the P and L
+
+00:49:29.000 --> 00:49:31.000
+sheet
+
+00:49:33.000 --> 00:49:35.000
+build
+
+00:49:35.000 --> 00:49:37.000
+P and L forecast
+
+00:49:37.000 --> 00:49:39.000
+using the data given in the same sheet.
+
+00:49:39.000 --> 00:49:41.000
+I am telling LLM, I am telling
+
+00:49:41.000 --> 00:49:43.000
+my cloud that this P and L
+
+00:49:43.000 --> 00:49:45.000
+statement, sorry, P and L
+
+00:49:45.000 --> 00:49:47.000
+statement sheet
+
+00:49:47.000 --> 00:49:49.000
+on the basis of this
+
+00:49:49.000 --> 00:49:51.000
+make P and L forecast.
+
+00:49:51.000 --> 00:49:53.000
+The data
+
+00:49:53.000 --> 00:49:55.000
+that you have to use is this.
+
+00:49:55.000 --> 00:49:57.000
+Okay. Simply.
+
+00:49:57.000 --> 00:49:59.000
+And this you command it.
+
+00:49:59.000 --> 00:50:01.000
+Now, LLM
+
+00:50:01.000 --> 00:50:03.000
+itself consider everything.
+
+00:50:03.000 --> 00:50:05.000
+Everything.
+
+00:50:05.000 --> 00:50:07.000
+So what is he doing? First of all
+
+00:50:07.000 --> 00:50:09.000
+reading P and L statement sheet.
+
+00:50:09.000 --> 00:50:11.000
+Okay. So assumptions
+
+00:50:11.000 --> 00:50:13.000
+he is saying that
+
+00:50:13.000 --> 00:50:15.000
+everything is here. Okay.
+
+00:50:15.000 --> 00:50:17.000
+What are the things to calculate, he has
+
+00:50:17.000 --> 00:50:19.000
+figured it out and he has made the whole plan.
+
+00:50:21.000 --> 00:50:23.000
+Okay. And now what will he do?
+
+00:50:23.000 --> 00:50:25.000
+According to the plan, everything
+
+00:50:25.000 --> 00:50:27.000
+will be executed.
+
+00:50:27.000 --> 00:50:29.000
+So first of all, what was writing
+
+00:50:29.000 --> 00:50:31.000
+months header, he has written.
+
+00:50:31.000 --> 00:50:33.000
+Jan, February, March, April, May, June, July
+
+00:50:33.000 --> 00:50:35.000
+and the total of financial year.
+
+00:50:35.000 --> 00:50:37.000
+Okay. After that, what is he doing?
+
+00:50:37.000 --> 00:50:39.000
+Calculating gross revenue. So for every month
+
+00:50:39.000 --> 00:50:41.000
+he will calculate gross revenue.
+
+00:50:41.000 --> 00:50:43.000
+How will gross revenue be calculated?
+
+00:50:43.000 --> 00:50:45.000
+First month is mentioned here.
+
+00:50:45.000 --> 00:50:47.000
+39 lakhs and after that
+
+00:50:47.000 --> 00:50:49.000
+every month, 3%-3% increment.
+
+00:50:49.000 --> 00:50:51.000
+So from here,
+
+00:50:51.000 --> 00:50:53.000
+in 39 lakhs, he will do 3%-3% increment.
+
+00:50:53.000 --> 00:50:55.000
+See,
+
+00:50:55.000 --> 00:50:57.000
+automatically he does it.
+
+00:50:57.000 --> 00:50:59.000
+You don't have to do anything.
+
+00:51:01.000 --> 00:51:03.000
+Okay. In fact, if I
+
+00:51:05.000 --> 00:51:07.000
+expand it and show you,
+
+00:51:07.000 --> 00:51:09.000
+so what he has done basically,
+
+00:51:09.000 --> 00:51:11.000
+in 39 lakhs, he has done 3% increment.
+
+00:51:11.000 --> 00:51:13.000
+Then what he did?
+
+00:51:13.000 --> 00:51:15.000
+The next cell,
+
+00:51:15.000 --> 00:51:17.000
+previous cell
+
+00:51:17.000 --> 00:51:19.000
+is Fab. For March,
+
+00:51:19.000 --> 00:51:21.000
+he has calculated gross revenue.
+
+00:51:21.000 --> 00:51:23.000
+How he did it? In Fab,
+
+00:51:23.000 --> 00:51:25.000
+he did 3% increment.
+
+00:51:25.000 --> 00:51:27.000
+How he calculated for April?
+
+00:51:27.000 --> 00:51:29.000
+In March, in E17,
+
+00:51:29.000 --> 00:51:31.000
+he did 3% increment. We all know that
+
+00:51:31.000 --> 00:51:33.000
+these dollar signs basically means
+
+00:51:33.000 --> 00:51:35.000
+statics. Right?
+
+00:51:35.000 --> 00:51:37.000
+It is changing according to reference.
+
+00:51:37.000 --> 00:51:39.000
+And see, he did all the calculations.
+
+00:51:45.000 --> 00:51:47.000
+How complex it is to make it?
+
+00:51:47.000 --> 00:51:49.000
+You have to mention static cell,
+
+00:51:49.000 --> 00:51:51.000
+you have to mention dynamic cell,
+
+00:51:51.000 --> 00:51:53.000
+you have to mention everything.
+
+00:51:53.000 --> 00:51:55.000
+Okay. He calculated net revenue.
+
+00:51:55.000 --> 00:51:57.000
+How will net revenue come?
+
+00:51:57.000 --> 00:51:59.000
+Whatever gross revenue
+
+00:51:59.000 --> 00:52:01.000
+comes, from that, discount is
+
+00:52:01.000 --> 00:52:03.000
+minused. See, from gross revenue,
+
+00:52:03.000 --> 00:52:05.000
+this is your dynamic,
+
+00:52:05.000 --> 00:52:07.000
+this is static, this is
+
+00:52:07.000 --> 00:52:09.000
+static cell. So he
+
+00:52:09.000 --> 00:52:11.000
+himself figured out which will be the dynamic cell,
+
+00:52:11.000 --> 00:52:13.000
+which will be the static cell.
+
+00:52:13.000 --> 00:52:15.000
+Right? All these things
+
+00:52:15.000 --> 00:52:17.000
+he found out. See,
+
+00:52:17.000 --> 00:52:19.000
+how gross revenue
+
+00:52:19.000 --> 00:52:21.000
+is coming for Fab month?
+
+00:52:21.000 --> 00:52:23.000
+For Fab month, sorry,
+
+00:52:23.000 --> 00:52:25.000
+how net revenue is coming?
+
+00:52:25.000 --> 00:52:27.000
+For Fab month, gross revenue minus
+
+00:52:27.000 --> 00:52:29.000
+discount. Same for March.
+
+00:52:29.000 --> 00:52:31.000
+You go here, go to formula bar,
+
+00:52:31.000 --> 00:52:33.000
+you will get cell highlighted.
+
+00:52:33.000 --> 00:52:35.000
+Okay. He got COGS.
+
+00:52:37.000 --> 00:52:39.000
+How will COGS come out? Again,
+
+00:52:39.000 --> 00:52:41.000
+what is 58% of
+
+00:52:41.000 --> 00:52:43.000
+net revenue?
+
+00:52:43.000 --> 00:52:45.000
+What is COGS?
+
+00:52:45.000 --> 00:52:47.000
+So it is coming out here.
+
+00:52:47.000 --> 00:52:49.000
+Net revenue into
+
+00:52:49.000 --> 00:52:51.000
+58%. COGS will come out
+
+00:52:51.000 --> 00:52:53.000
+every month. How much will gross profit be?
+
+00:52:53.000 --> 00:52:55.000
+Your net revenue minus
+
+00:52:55.000 --> 00:52:57.000
+COGS. He
+
+00:52:57.000 --> 00:52:59.000
+himself calculated here. And the biggest
+
+00:52:59.000 --> 00:53:01.000
+thing, this is all dynamically
+
+00:53:01.000 --> 00:53:03.000
+calculated. If I go here
+
+00:53:03.000 --> 00:53:05.000
+and do 4%,
+
+00:53:05.000 --> 00:53:07.000
+all the values will change.
+
+00:53:07.000 --> 00:53:09.000
+Okay.
+
+00:53:09.000 --> 00:53:11.000
+I am moving it back to 3%.
+
+00:53:11.000 --> 00:53:13.000
+Everything will change.
+
+00:53:13.000 --> 00:53:15.000
+Okay.
+
+00:53:15.000 --> 00:53:17.000
+Fixed cost, he is calculating.
+
+00:53:19.000 --> 00:53:21.000
+Right? Which is my 4,50,000.
+
+00:53:21.000 --> 00:53:23.000
+Variable cost, he is calculating.
+
+00:53:23.000 --> 00:53:25.000
+That is, your net revenue
+
+00:53:25.000 --> 00:53:27.000
+is 6%. Okay.
+
+00:53:27.000 --> 00:53:29.000
+He calculated tax.
+
+00:53:31.000 --> 00:53:33.000
+Sorry, total OPEX, he calculated.
+
+00:53:33.000 --> 00:53:35.000
+Then his,
+
+00:53:35.000 --> 00:53:37.000
+you can say,
+
+00:53:37.000 --> 00:53:39.000
+his abit, he calculated.
+
+00:53:39.000 --> 00:53:41.000
+Tax, after that he calculated.
+
+00:53:41.000 --> 00:53:43.000
+Okay.
+
+00:53:43.000 --> 00:53:45.000
+What did he do with tax? Abit
+
+00:53:45.000 --> 00:53:47.000
+25%.
+
+00:53:47.000 --> 00:53:49.000
+He calculated everything. And every month
+
+00:53:49.000 --> 00:53:51.000
+how much profit is coming,
+
+00:53:51.000 --> 00:53:53.000
+he mentioned here.
+
+00:53:55.000 --> 00:53:57.000
+What is this?
+
+00:53:57.000 --> 00:53:59.000
+So the total profit that is coming, that is
+
+00:53:59.000 --> 00:54:01.000
+this. Sorry, December profit.
+
+00:54:01.000 --> 00:54:03.000
+I don't know what is extra 7.
+
+00:54:03.000 --> 00:54:05.000
+Let's see.
+
+00:54:05.000 --> 00:54:07.000
+Okay. So gross revenue.
+
+00:54:07.000 --> 00:54:09.000
+Total revenue that is
+
+00:54:09.000 --> 00:54:11.000
+this amount.
+
+00:54:11.000 --> 00:54:13.000
+That is 10 CR, 27,80,830.
+
+00:54:15.000 --> 00:54:17.000
+Okay.
+
+00:54:17.000 --> 00:54:19.000
+Everything came here with you.
+
+00:54:19.000 --> 00:54:21.000
+Now you can just imagine,
+
+00:54:21.000 --> 00:54:23.000
+how many formulas are required to do this particular thing.
+
+00:54:23.000 --> 00:54:25.000
+Claude made it very simple for you.
+
+00:54:27.000 --> 00:54:29.000
+I hope you all are now getting the power
+
+00:54:29.000 --> 00:54:31.000
+of Claude for Excel. Now your job
+
+00:54:31.000 --> 00:54:33.000
+is only analysis.
+
+00:54:33.000 --> 00:54:35.000
+So generally what happens in the industry, when you
+
+00:54:35.000 --> 00:54:37.000
+forecast a PNFL statement,
+
+00:54:37.000 --> 00:54:39.000
+after that you basically see
+
+00:54:39.000 --> 00:54:41.000
+whatever you have set as the target,
+
+00:54:41.000 --> 00:54:43.000
+like this is my target.
+
+00:54:43.000 --> 00:54:45.000
+How much to sell in the north in the month of January,
+
+00:54:45.000 --> 00:54:47.000
+how much to sell in the south,
+
+00:54:47.000 --> 00:54:49.000
+these are my targets.
+
+00:54:49.000 --> 00:54:51.000
+So what do we do generally?
+
+00:54:51.000 --> 00:54:53.000
+Then we compare the target with our PNFL
+
+00:54:53.000 --> 00:54:55.000
+statement. So this is what we will do.
+
+00:54:55.000 --> 00:54:57.000
+What we will do is,
+
+00:54:57.000 --> 00:54:59.000
+let's do one thing.
+
+00:54:59.000 --> 00:55:01.000
+Compare
+
+00:55:01.000 --> 00:55:03.000
+my
+
+00:55:03.000 --> 00:55:05.000
+targets
+
+00:55:05.000 --> 00:55:07.000
+with PNL
+
+00:55:07.000 --> 00:55:09.000
+statements.
+
+00:55:09.000 --> 00:55:11.000
+Compare my targets
+
+00:55:11.000 --> 00:55:13.000
+using
+
+00:55:13.000 --> 00:55:15.000
+target stable sheet.
+
+00:55:15.000 --> 00:55:17.000
+Using target
+
+00:55:17.000 --> 00:55:19.000
+sheet with PNL
+
+00:55:19.000 --> 00:55:21.000
+statements and
+
+00:55:21.000 --> 00:55:23.000
+show for any
+
+00:55:23.000 --> 00:55:25.000
+variance.
+
+00:55:27.000 --> 00:55:29.000
+Okay. If there is any difference,
+
+00:55:29.000 --> 00:55:31.000
+you tell me about it.
+
+00:55:31.000 --> 00:55:33.000
+Claude for Excel will do all the work.
+
+00:55:33.000 --> 00:55:35.000
+He will do all the work.
+
+00:55:35.000 --> 00:55:37.000
+Okay.
+
+00:55:37.000 --> 00:55:39.000
+Yes, I will provide you
+
+00:55:39.000 --> 00:55:41.000
+this sheet. I promise.
+
+00:55:43.000 --> 00:55:45.000
+Okay.
+
+00:55:47.000 --> 00:55:49.000
+So he
+
+00:55:49.000 --> 00:55:51.000
+first wrote all the months
+
+00:55:51.000 --> 00:55:53.000
+for target versus forecast variance
+
+00:55:53.000 --> 00:55:55.000
+analysis and for every month
+
+00:55:55.000 --> 00:55:57.000
+you tell the difference.
+
+00:55:57.000 --> 00:55:59.000
+So here again, we
+
+00:55:59.000 --> 00:56:01.000
+plan the steps and
+
+00:56:01.000 --> 00:56:03.000
+what will he do?
+
+00:56:03.000 --> 00:56:05.000
+Achieve the 5K steps one by one.
+
+00:56:09.000 --> 00:56:11.000
+See.
+
+00:56:11.000 --> 00:56:13.000
+Variance is coming to 80,000,
+
+00:56:13.000 --> 00:56:15.000
+variance percentage is coming to
+
+00:56:15.000 --> 00:56:17.000
+this much. Everything is
+
+00:56:17.000 --> 00:56:19.000
+detailed here.
+
+00:56:21.000 --> 00:56:23.000
+Everything is detailed here.
+
+00:56:23.000 --> 00:56:25.000
+Net revenue, target
+
+00:56:25.000 --> 00:56:27.000
+variance, everything is there.
+
+00:56:27.000 --> 00:56:29.000
+Where my target is missing,
+
+00:56:29.000 --> 00:56:31.000
+where my target is hitting,
+
+00:56:31.000 --> 00:56:33.000
+he did all the encodings.
+
+00:56:33.000 --> 00:56:35.000
+And overall,
+
+00:56:35.000 --> 00:56:37.000
+based on the targets
+
+00:56:37.000 --> 00:56:39.000
+I have set,
+
+00:56:39.000 --> 00:56:41.000
+what I am doing is
+
+00:56:41.000 --> 00:56:43.000
+I am generating
+
+00:56:43.000 --> 00:56:45.000
+2.5 lakhs less revenue
+
+00:56:45.000 --> 00:56:47.000
+than my projected revenue.
+
+00:56:47.000 --> 00:56:49.000
+See.
+
+00:56:49.000 --> 00:56:51.000
+Your work is only of analysis
+
+00:56:51.000 --> 00:56:53.000
+and decision making.
+
+00:56:53.000 --> 00:56:55.000
+Claude for Excel will do all the work.
+
+00:56:57.000 --> 00:56:59.000
+Isn't this crazy? I hope you all are having fun.
+
+00:56:59.000 --> 00:57:01.000
+You must be knowing about the power
+
+00:57:01.000 --> 00:57:03.000
+of Claude for Excel.
+
+00:57:05.000 --> 00:57:07.000
+Clear with this everyone?
+
+00:57:11.000 --> 00:57:13.000
+Okay. Is anyone getting bored?
+
+00:57:21.000 --> 00:57:23.000
+Anyone getting bored?
+
+00:57:27.000 --> 00:57:29.000
+Okay.
+
+00:57:33.000 --> 00:57:35.000
+And believe me guys,
+
+00:57:35.000 --> 00:57:37.000
+what we have done so far,
+
+00:57:37.000 --> 00:57:39.000
+Claude for Excel has done 15%
+
+00:57:39.000 --> 00:57:41.000
+Claude for Excel is
+
+00:57:41.000 --> 00:57:43.000
+much more.
+
+00:57:43.000 --> 00:57:45.000
+Now let's do one thing.
+
+00:57:45.000 --> 00:57:47.000
+Let's use Claude for Excel
+
+00:57:47.000 --> 00:57:49.000
+and make a whole dashboard.
+
+00:57:49.000 --> 00:57:51.000
+Let's see if it can do it or not.
+
+00:57:51.000 --> 00:57:53.000
+Right.
+
+00:57:53.000 --> 00:57:55.000
+Let's try this. Let's see
+
+00:57:55.000 --> 00:57:57.000
+what it can do.
+
+00:57:57.000 --> 00:57:59.000
+Sir, can it solve ML problems?
+
+00:57:59.000 --> 00:58:01.000
+This data is mostly
+
+00:58:01.000 --> 00:58:03.000
+in Excel or CLV.
+
+00:58:03.000 --> 00:58:05.000
+No, CSV.
+
+00:58:05.000 --> 00:58:07.000
+Are you talking about ML problems
+
+00:58:07.000 --> 00:58:09.000
+in machine learning?
+
+00:58:13.000 --> 00:58:15.000
+Harry?
+
+00:58:17.000 --> 00:58:19.000
+You don't solve ML problems
+
+00:58:19.000 --> 00:58:21.000
+in Excel.
+
+00:58:21.000 --> 00:58:23.000
+If you want to solve ML problems,
+
+00:58:23.000 --> 00:58:25.000
+then use Claude for code.
+
+00:58:25.000 --> 00:58:27.000
+Use agents there.
+
+00:58:29.000 --> 00:58:31.000
+You can use it there.
+
+00:58:31.000 --> 00:58:33.000
+Claude for Excel will do
+
+00:58:33.000 --> 00:58:35.000
+the same thing for you that Excel can do.
+
+00:58:37.000 --> 00:58:39.000
+Okay.
+
+00:58:41.000 --> 00:58:43.000
+Harry, are you the same Harry
+
+00:58:43.000 --> 00:58:45.000
+from Canada?
+
+00:58:47.000 --> 00:58:49.000
+Just out of curiosity.
+
+00:58:49.000 --> 00:58:51.000
+Okay.
+
+00:58:51.000 --> 00:58:53.000
+Actually, I had a student
+
+00:58:53.000 --> 00:58:55.000
+from Canada.
+
+00:58:55.000 --> 00:58:57.000
+His name is also Harry.
+
+00:58:57.000 --> 00:58:59.000
+Okay.
+
+00:58:59.000 --> 00:59:01.000
+Now let's see the problem.
+
+00:59:01.000 --> 00:59:03.000
+I am telling Claude to make
+
+00:59:03.000 --> 00:59:05.000
+the whole dashboard.
+
+00:59:05.000 --> 00:59:07.000
+Okay.
+
+00:59:07.000 --> 00:59:09.000
+So let's do this.
+
+00:59:09.000 --> 00:59:11.000
+I wrote the whole prompt here.
+
+00:59:11.000 --> 00:59:13.000
+Create a new sheet
+
+00:59:13.000 --> 00:59:15.000
+named dashboard.
+
+00:59:15.000 --> 00:59:17.000
+Let's see if it can do it.
+
+00:59:17.000 --> 00:59:19.000
+Create a new sheet named dashboard
+
+00:59:19.000 --> 00:59:21.000
+and build an interactive
+
+00:59:21.000 --> 00:59:23.000
+dashboard. Add KPI cards
+
+00:59:23.000 --> 00:59:25.000
+for total revenue, gross margin
+
+00:59:25.000 --> 00:59:27.000
+percentage, total
+
+00:59:27.000 --> 00:59:29.000
+profit, unit sold, return
+
+00:59:29.000 --> 00:59:31.000
+rate, individual
+
+00:59:31.000 --> 00:59:33.000
+visuals, include visuals
+
+00:59:33.000 --> 00:59:35.000
+for monthly sales trend,
+
+00:59:35.000 --> 00:59:37.000
+revenue by category, monthly
+
+00:59:37.000 --> 00:59:39.000
+target versus actual performance,
+
+00:59:39.000 --> 00:59:41.000
+region-wise target versus
+
+00:59:41.000 --> 00:59:43.000
+actual performance, highlighting
+
+00:59:43.000 --> 00:59:45.000
+reasons that miss their target
+
+00:59:45.000 --> 00:59:47.000
+and rate, sales by channel,
+
+00:59:47.000 --> 00:59:49.000
+category-wise return quantity,
+
+00:59:49.000 --> 00:59:51.000
+sales rep-wise contribution
+
+00:59:51.000 --> 00:59:53.000
+to final sales, and last
+
+00:59:53.000 --> 00:59:55.000
+I wrote the instruction, ensure the dashboard
+
+00:59:55.000 --> 00:59:57.000
+is clean, professional, and easy
+
+00:59:57.000 --> 00:59:59.000
+to management to review.
+
+01:00:01.000 --> 01:00:03.000
+Okay.
+
+01:00:05.000 --> 01:00:07.000
+Right. Now let's run it.
+
+01:00:09.000 --> 01:00:11.000
+Now this is very difficult.
+
+01:00:11.000 --> 01:00:13.000
+Claude
+
+01:00:13.000 --> 01:00:15.000
+can do it or not, let's see.
+
+01:00:15.000 --> 01:00:17.000
+Okay.
+
+01:00:17.000 --> 01:00:19.000
+So it
+
+01:00:19.000 --> 01:00:21.000
+read everything. Now
+
+01:00:21.000 --> 01:00:23.000
+it's a very complex task so first of all
+
+01:00:23.000 --> 01:00:25.000
+it will make a plan and
+
+01:00:25.000 --> 01:00:27.000
+it's asking me questions according to that plan.
+
+01:00:27.000 --> 01:00:29.000
+Okay. Now it was a little confused so
+
+01:00:29.000 --> 01:00:31.000
+it asked me, total profit
+
+01:00:31.000 --> 01:00:33.000
+in KPI card, what to use in KPI card?
+
+01:00:33.000 --> 01:00:35.000
+I am saying, gross profit
+
+01:00:35.000 --> 01:00:37.000
+which is actual profit.
+
+01:00:37.000 --> 01:00:39.000
+Okay.
+
+01:00:39.000 --> 01:00:41.000
+I gave it a command.
+
+01:00:41.000 --> 01:00:43.000
+Right. So now what to do?
+
+01:00:43.000 --> 01:00:45.000
+It will start making dashboard. And you can see
+
+01:00:45.000 --> 01:00:47.000
+first of all it will make a sheet here.
+
+01:00:47.000 --> 01:00:49.000
+It will make a
+
+01:00:49.000 --> 01:00:51.000
+dashboard and a sheet.
+
+01:00:51.000 --> 01:00:53.000
+This task is achieved, then the second task
+
+01:00:53.000 --> 01:00:55.000
+will come, building KPI cards.
+
+01:00:55.000 --> 01:00:57.000
+And see, how much fun
+
+01:00:57.000 --> 01:00:59.000
+it is having while making dashboard.
+
+01:00:59.000 --> 01:01:01.000
+Okay.
+
+01:01:01.000 --> 01:01:03.000
+See, it is doing the whole editing.
+
+01:01:03.000 --> 01:01:05.000
+Let me just
+
+01:01:05.000 --> 01:01:07.000
+increase this size.
+
+01:01:07.000 --> 01:01:09.000
+It has
+
+01:01:09.000 --> 01:01:11.000
+you can say, written the title
+
+01:01:11.000 --> 01:01:13.000
+and then it will edit it
+
+01:01:13.000 --> 01:01:15.000
+and correct it. Because
+
+01:01:15.000 --> 01:01:17.000
+here you can say, there is an issue of editing.
+
+01:01:17.000 --> 01:01:19.000
+It will make
+
+01:01:19.000 --> 01:01:21.000
+KPI cards, charts for you,
+
+01:01:21.000 --> 01:01:23.000
+it will do everything and final formatting
+
+01:01:23.000 --> 01:01:25.000
+and polishing too.
+
+01:01:25.000 --> 01:01:27.000
+Now it will take some time. Okay.
+
+01:01:29.000 --> 01:01:31.000
+Let's just wait for few seconds.
+
+01:01:31.000 --> 01:01:33.000
+See, your KPI's have started to form.
+
+01:01:33.000 --> 01:01:35.000
+How much great editing is going on.
+
+01:01:35.000 --> 01:01:37.000
+You can even
+
+01:01:37.000 --> 01:01:39.000
+mention the theme.
+
+01:01:39.000 --> 01:01:41.000
+What kind of theme
+
+01:01:41.000 --> 01:01:43.000
+you want to edit. All the things
+
+01:01:43.000 --> 01:01:45.000
+can be mentioned.
+
+01:01:45.000 --> 01:01:47.000
+Right. Each and everything you can
+
+01:01:47.000 --> 01:01:49.000
+mention.
+
+01:01:51.000 --> 01:01:53.000
+Now all the editing is
+
+01:01:53.000 --> 01:01:55.000
+done for you.
+
+01:01:55.000 --> 01:01:57.000
+You can see,
+
+01:01:57.000 --> 01:01:59.000
+so much dashboard is ready for you.
+
+01:02:01.000 --> 01:02:03.000
+Till it is happening, till then
+
+01:02:03.000 --> 01:02:05.000
+you can ask your questions.
+
+01:02:05.000 --> 01:02:07.000
+It has made all the charts
+
+01:02:07.000 --> 01:02:09.000
+for building, staging tables.
+
+01:02:09.000 --> 01:02:11.000
+Because without tables you can't make charts.
+
+01:02:11.000 --> 01:02:13.000
+Now it will start making charts.
+
+01:02:13.000 --> 01:02:15.000
+Power BI
+
+01:02:15.000 --> 01:02:17.000
+can work. Again
+
+01:02:17.000 --> 01:02:19.000
+Siddharth Claude for Excel
+
+01:02:19.000 --> 01:02:21.000
+will only work for Excel.
+
+01:02:21.000 --> 01:02:23.000
+For Power BI
+
+01:02:23.000 --> 01:02:25.000
+Microsoft
+
+01:02:25.000 --> 01:02:27.000
+has launched 27
+
+01:02:27.000 --> 01:02:29.000
+skills. I guess 24 or 27
+
+01:02:29.000 --> 01:02:31.000
+skills.
+
+01:02:31.000 --> 01:02:33.000
+Again, maybe in some sessions
+
+01:02:33.000 --> 01:02:35.000
+you can cover it.
+
+01:02:35.000 --> 01:02:37.000
+Again, if you can only give prompts
+
+01:02:37.000 --> 01:02:39.000
+and use skills to make it work.
+
+01:02:39.000 --> 01:02:41.000
+Power BI is also there.
+
+01:02:41.000 --> 01:02:43.000
+Ok.
+
+01:02:43.000 --> 01:02:45.000
+The whole dashboard is ready.
+
+01:02:47.000 --> 01:02:49.000
+See,
+
+01:02:49.000 --> 01:02:51.000
+proper formatting, proper
+
+01:02:51.000 --> 01:02:53.000
+legend, everything is matched here.
+
+01:02:57.000 --> 01:02:59.000
+Claude,
+
+01:02:59.000 --> 01:03:01.000
+you know the power of Claude.
+
+01:03:01.000 --> 01:03:03.000
+Now tell me one thing,
+
+01:03:03.000 --> 01:03:05.000
+the thing
+
+01:03:05.000 --> 01:03:07.000
+which means
+
+01:03:07.000 --> 01:03:09.000
+Claude's power can only
+
+01:03:09.000 --> 01:03:11.000
+be stopped by one thing. What is that thing?
+
+01:03:13.000 --> 01:03:15.000
+Anyone want to guess?
+
+01:03:15.000 --> 01:03:17.000
+See, now
+
+01:03:17.000 --> 01:03:19.000
+it is finalizing the chart.
+
+01:03:19.000 --> 01:03:21.000
+Token,
+
+01:03:21.000 --> 01:03:23.000
+little more, not even token limits.
+
+01:03:23.000 --> 01:03:25.000
+Yes,
+
+01:03:25.000 --> 01:03:27.000
+token limits is the correct thing.
+
+01:03:27.000 --> 01:03:29.000
+Claude can only be stopped by his token limits.
+
+01:03:29.000 --> 01:03:31.000
+If your,
+
+01:03:31.000 --> 01:03:33.000
+you can say,
+
+01:03:33.000 --> 01:03:35.000
+expired birthday quota,
+
+01:03:35.000 --> 01:03:37.000
+then you can't do anything.
+
+01:03:37.000 --> 01:03:39.000
+No one can stop Claude.
+
+01:03:41.000 --> 01:03:43.000
+Ok, now basically
+
+01:03:43.000 --> 01:03:45.000
+see here, I will show you the power.
+
+01:03:45.000 --> 01:03:47.000
+He made this chart.
+
+01:03:49.000 --> 01:03:51.000
+Right?
+
+01:03:51.000 --> 01:03:53.000
+Now after making the charts,
+
+01:03:53.000 --> 01:03:55.000
+he was placing the charts in one place.
+
+01:03:55.000 --> 01:03:57.000
+After placing, what did he do?
+
+01:03:57.000 --> 01:03:59.000
+Verify.
+
+01:03:59.000 --> 01:04:01.000
+While verifying, he saw some
+
+01:04:01.000 --> 01:04:03.000
+errors. Errors, what did he see?
+
+01:04:03.000 --> 01:04:05.000
+Gross profit KPI. We saw that he was showing hash hash.
+
+01:04:05.000 --> 01:04:07.000
+He figured it out himself.
+
+01:04:09.000 --> 01:04:11.000
+Monthly target
+
+01:04:11.000 --> 01:04:13.000
+versus actual, there was some error
+
+01:04:13.000 --> 01:04:15.000
+he figured it out himself.
+
+01:04:15.000 --> 01:04:17.000
+In the tornad chart, here
+
+01:04:17.000 --> 01:04:19.000
+1, 2, 3, 4 was coming.
+
+01:04:19.000 --> 01:04:21.000
+In the legend,
+
+01:04:21.000 --> 01:04:23.000
+1, 2, 3, 4 was coming. He figured it out himself.
+
+01:04:23.000 --> 01:04:25.000
+And now he started fixing it.
+
+01:04:25.000 --> 01:04:27.000
+Ok, and back end, you can see.
+
+01:04:27.000 --> 01:04:29.000
+What is happening?
+
+01:04:29.000 --> 01:04:31.000
+APIs are working.
+
+01:04:31.000 --> 01:04:33.000
+API requests are coming to you.
+
+01:04:33.000 --> 01:04:35.000
+He took screenshot, processed,
+
+01:04:35.000 --> 01:04:37.000
+everything is happening.
+
+01:04:37.000 --> 01:04:39.000
+Ok.
+
+01:04:39.000 --> 01:04:41.000
+And your dashboard is ready.
+
+01:04:43.000 --> 01:04:45.000
+Regional target
+
+01:04:45.000 --> 01:04:47.000
+versus actual target.
+
+01:04:47.000 --> 01:04:49.000
+Here is your table.
+
+01:04:49.000 --> 01:04:51.000
+Repwise, contribution,
+
+01:04:51.000 --> 01:04:53.000
+everything is with you.
+
+01:04:55.000 --> 01:04:57.000
+Everything is each and every.
+
+01:04:59.000 --> 01:05:01.000
+And I am
+
+01:05:01.000 --> 01:05:03.000
+very bad at color
+
+01:05:03.000 --> 01:05:05.000
+in designing.
+
+01:05:05.000 --> 01:05:07.000
+But for me, the color of dashboard
+
+01:05:07.000 --> 01:05:09.000
+is correct. I am finding
+
+01:05:09.000 --> 01:05:11.000
+it pretty
+
+01:05:11.000 --> 01:05:13.000
+simple or
+
+01:05:13.000 --> 01:05:15.000
+attractive.
+
+01:05:15.000 --> 01:05:17.000
+Ok. So I hope
+
+01:05:17.000 --> 01:05:19.000
+you all, the power
+
+01:05:19.000 --> 01:05:21.000
+of the cloud, you all understand.
+
+01:05:21.000 --> 01:05:23.000
+Everyone clear with this?
+
+01:05:23.000 --> 01:05:25.000
+Anyone who has any doubt
+
+01:05:25.000 --> 01:05:27.000
+they can ask.
+
+01:05:27.000 --> 01:05:29.000
+Because after this, you change
+
+01:05:29.000 --> 01:05:31.000
+the gear. These were very basic
+
+01:05:31.000 --> 01:05:33.000
+things. Only 20% of the cloud
+
+01:05:33.000 --> 01:05:35.000
+is there. Now you learn something complex.
+
+01:05:37.000 --> 01:05:39.000
+Any doubt, quick, quick.
+
+01:05:39.000 --> 01:05:41.000
+Yes or no?
+
+01:05:41.000 --> 01:05:43.000
+Anyone?
+
+01:05:51.000 --> 01:05:53.000
+Anyone?
+
+01:05:53.000 --> 01:05:55.000
+Yes or no?
+
+01:05:57.000 --> 01:05:59.000
+Ok.
+
+01:06:01.000 --> 01:06:03.000
+Can anyone tell me why
+
+01:06:03.000 --> 01:06:05.000
+the participation is so low today?
+
+01:06:05.000 --> 01:06:07.000
+Saturdays and Sundays are very high.
+
+01:06:07.000 --> 01:06:09.000
+Today was Wednesday, that's why.
+
+01:06:11.000 --> 01:06:13.000
+Ok.
+
+01:06:19.000 --> 01:06:21.000
+It's possible that
+
+01:06:21.000 --> 01:06:23.000
+the cloud won't be there.
+
+01:06:23.000 --> 01:06:25.000
+Ok.
+
+01:06:25.000 --> 01:06:27.000
+Now, what you have done
+
+01:06:27.000 --> 01:06:29.000
+till now, this is only
+
+01:06:29.000 --> 01:06:31.000
+20% of the cloud.
+
+01:06:31.000 --> 01:06:33.000
+Only 20% of the cloud for Excel.
+
+01:06:33.000 --> 01:06:35.000
+Ok.
+
+01:06:35.000 --> 01:06:37.000
+You can use cloud for Excel
+
+01:06:37.000 --> 01:06:39.000
+to connect skills.
+
+01:06:39.000 --> 01:06:41.000
+To make skills.
+
+01:06:41.000 --> 01:06:43.000
+Ok. You can use cloud for Excel
+
+01:06:43.000 --> 01:06:45.000
+to bring data from MCP.
+
+01:06:45.000 --> 01:06:47.000
+You can use cloud for Excel
+
+01:06:47.000 --> 01:06:49.000
+to use plugins.
+
+01:06:49.000 --> 01:06:51.000
+You can use cloud for Excel
+
+01:06:51.000 --> 01:06:53.000
+to use session monitoring.
+
+01:06:57.000 --> 01:06:59.000
+Right. So, what are all these things?
+
+01:06:59.000 --> 01:07:01.000
+Let's see them one by one.
+
+01:07:01.000 --> 01:07:03.000
+Ok.
+
+01:07:03.000 --> 01:07:05.000
+First of all, let's come to skills.
+
+01:07:05.000 --> 01:07:07.000
+Ok. Now, what are skills?
+
+01:07:07.000 --> 01:07:09.000
+There is nothing.
+
+01:07:09.000 --> 01:07:11.000
+Skills are just
+
+01:07:11.000 --> 01:07:13.000
+a reusable set of
+
+01:07:13.000 --> 01:07:15.000
+instructions.
+
+01:07:15.000 --> 01:07:17.000
+Which you write in a simple text or markdown file.
+
+01:07:17.000 --> 01:07:19.000
+Which tells the cloud
+
+01:07:19.000 --> 01:07:21.000
+how to handle
+
+01:07:21.000 --> 01:07:23.000
+any particular task.
+
+01:07:23.000 --> 01:07:25.000
+Ok.
+
+01:07:25.000 --> 01:07:27.000
+It's simple. If I explain it to you.
+
+01:07:27.000 --> 01:07:29.000
+Let's say you have
+
+01:07:29.000 --> 01:07:31.000
+bank data.
+
+01:07:31.000 --> 01:07:33.000
+What do you do with that data?
+
+01:07:33.000 --> 01:07:35.000
+You clean it.
+
+01:07:35.000 --> 01:07:37.000
+What do you do? You trim the spaces.
+
+01:07:37.000 --> 01:07:39.000
+You do uppercase,
+
+01:07:39.000 --> 01:07:41.000
+lowercase.
+
+01:07:41.000 --> 01:07:43.000
+You duplicate
+
+01:07:43.000 --> 01:07:45.000
+rows.
+
+01:07:45.000 --> 01:07:47.000
+You remove them.
+
+01:07:47.000 --> 01:07:49.000
+What do you do?
+
+01:07:49.000 --> 01:07:51.000
+Let's say, what else can be cleaning?
+
+01:07:51.000 --> 01:07:53.000
+You fill values.
+
+01:07:53.000 --> 01:07:55.000
+You do proper formatting.
+
+01:07:55.000 --> 01:07:57.000
+You do
+
+01:07:57.000 --> 01:07:59.000
+consistent data types.
+
+01:07:59.000 --> 01:08:01.000
+These are all things.
+
+01:08:01.000 --> 01:08:03.000
+Let's say you do it on your data.
+
+01:08:03.000 --> 01:08:05.000
+Ok.
+
+01:08:05.000 --> 01:08:07.000
+Now, don't do this daily.
+
+01:08:07.000 --> 01:08:09.000
+What can you do better than this?
+
+01:08:09.000 --> 01:08:11.000
+Pick up all these
+
+01:08:11.000 --> 01:08:13.000
+instructions
+
+01:08:13.000 --> 01:08:15.000
+and make a skill.
+
+01:08:15.000 --> 01:08:17.000
+Right.
+
+01:08:17.000 --> 01:08:19.000
+So, a skill is nothing.
+
+01:08:19.000 --> 01:08:21.000
+A skill is simply a textual document
+
+01:08:21.000 --> 01:08:23.000
+where you have written
+
+01:08:23.000 --> 01:08:25.000
+how to do a task.
+
+01:08:25.000 --> 01:08:27.000
+It is basically
+
+01:08:27.000 --> 01:08:29.000
+how to
+
+01:08:29.000 --> 01:08:31.000
+do a task
+
+01:08:31.000 --> 01:08:33.000
+manually.
+
+01:08:33.000 --> 01:08:35.000
+Any task is
+
+01:08:35.000 --> 01:08:37.000
+a manual.
+
+01:08:37.000 --> 01:08:39.000
+You must have given some competitive
+
+01:08:39.000 --> 01:08:41.000
+exam and if you didn't,
+
+01:08:41.000 --> 01:08:43.000
+then everyone must have given board exams.
+
+01:08:43.000 --> 01:08:45.000
+So, in the starting of
+
+01:08:45.000 --> 01:08:47.000
+board exams,
+
+01:08:47.000 --> 01:08:49.000
+the instructions are written
+
+01:08:49.000 --> 01:08:51.000
+how to do the paper,
+
+01:08:51.000 --> 01:08:53.000
+what to do, what not to do.
+
+01:08:53.000 --> 01:08:55.000
+Those instructions are written.
+
+01:08:55.000 --> 01:08:57.000
+That is your skill.
+
+01:08:57.000 --> 01:08:59.000
+Ok.
+
+01:08:59.000 --> 01:09:01.000
+There are two ways to clean the bank data.
+
+01:09:01.000 --> 01:09:03.000
+Either you do
+
+01:09:03.000 --> 01:09:05.000
+this work daily.
+
+01:09:05.000 --> 01:09:07.000
+First do this step, then this step,
+
+01:09:07.000 --> 01:09:09.000
+then this step, then this step,
+
+01:09:09.000 --> 01:09:11.000
+then this step, then this step.
+
+01:09:11.000 --> 01:09:13.000
+Do this work daily step by step.
+
+01:09:13.000 --> 01:09:15.000
+Ok. Either you can do it manually
+
+01:09:15.000 --> 01:09:17.000
+or you can do it through prompt.
+
+01:09:17.000 --> 01:09:19.000
+But again, this is time consuming.
+
+01:09:19.000 --> 01:09:21.000
+When I have to do this daily,
+
+01:09:21.000 --> 01:09:23.000
+then I write this work in an instruction
+
+01:09:23.000 --> 01:09:25.000
+and write it in a file.
+
+01:09:25.000 --> 01:09:27.000
+Make it a skill.
+
+01:09:27.000 --> 01:09:29.000
+Ok.
+
+01:09:29.000 --> 01:09:31.000
+This is a skill.
+
+01:09:31.000 --> 01:09:33.000
+It is just an instruction
+
+01:09:33.000 --> 01:09:35.000
+which you follow
+
+01:09:35.000 --> 01:09:37.000
+or which you have to follow
+
+01:09:37.000 --> 01:09:39.000
+to achieve any task.
+
+01:09:39.000 --> 01:09:41.000
+That is a skill.
+
+01:09:41.000 --> 01:09:43.000
+If I talk about Claude,
+
+01:09:43.000 --> 01:09:45.000
+then Claude...
+
+01:09:45.000 --> 01:09:47.000
+Oh shit!
+
+01:09:47.000 --> 01:09:49.000
+Didn't you see my screen?
+
+01:09:49.000 --> 01:09:51.000
+Oh man! Sorry.
+
+01:09:51.000 --> 01:09:53.000
+I was writing,
+
+01:09:53.000 --> 01:09:55.000
+I was scribbling in my notepad.
+
+01:09:55.000 --> 01:09:57.000
+Is my screen visible now?
+
+01:09:59.000 --> 01:10:01.000
+I mean, I wrote in my notepad.
+
+01:10:01.000 --> 01:10:03.000
+I am extremely sorry.
+
+01:10:03.000 --> 01:10:05.000
+But everyone understood, right?
+
+01:10:07.000 --> 01:10:09.000
+I said that till now.
+
+01:10:11.000 --> 01:10:13.000
+Quick yes or no please. I was not aware
+
+01:10:13.000 --> 01:10:15.000
+that the screen is visible or not.
+
+01:10:15.000 --> 01:10:17.000
+Ok. So this is a skill you can do.
+
+01:10:17.000 --> 01:10:19.000
+If I talk about Claude,
+
+01:10:19.000 --> 01:10:21.000
+then Claude
+
+01:10:21.000 --> 01:10:23.000
+has some inbuilt skills.
+
+01:10:23.000 --> 01:10:25.000
+Claude for Excel,
+
+01:10:25.000 --> 01:10:27.000
+when you use it,
+
+01:10:27.000 --> 01:10:29.000
+it has some skills.
+
+01:10:29.000 --> 01:10:31.000
+Go to plus and go to skills.
+
+01:10:31.000 --> 01:10:33.000
+You can see.
+
+01:10:33.000 --> 01:10:35.000
+There are so many skills.
+
+01:10:35.000 --> 01:10:37.000
+Statement model is a skill.
+
+01:10:37.000 --> 01:10:39.000
+Audit Excel is a skill.
+
+01:10:39.000 --> 01:10:41.000
+Cleaned art Excel is a skill.
+
+01:10:41.000 --> 01:10:43.000
+IBO modeling is a skill.
+
+01:10:43.000 --> 01:10:45.000
+DCF model is a skill.
+
+01:10:45.000 --> 01:10:47.000
+Discounted cash flow is a skill.
+
+01:10:47.000 --> 01:10:49.000
+Any instruction
+
+01:10:49.000 --> 01:10:51.000
+to be converted into a skill
+
+01:10:51.000 --> 01:10:53.000
+is a skill.
+
+01:10:53.000 --> 01:10:55.000
+I will show you how the skill looks like.
+
+01:10:55.000 --> 01:10:57.000
+So this clean data skill
+
+01:10:57.000 --> 01:10:59.000
+that we saw here,
+
+01:10:59.000 --> 01:11:01.000
+this clean data skill,
+
+01:11:01.000 --> 01:11:03.000
+I will show you that skill.
+
+01:11:03.000 --> 01:11:05.000
+I am clicking on this link.
+
+01:11:05.000 --> 01:11:07.000
+This is the skill.
+
+01:11:07.000 --> 01:11:09.000
+See, simply write
+
+01:11:09.000 --> 01:11:11.000
+textual data.
+
+01:11:11.000 --> 01:11:13.000
+Ok. All the instructions are written in it.
+
+01:11:13.000 --> 01:11:15.000
+First of all, what to do in step 1,
+
+01:11:15.000 --> 01:11:17.000
+what to do in step 2,
+
+01:11:17.000 --> 01:11:19.000
+what to do in step 3.
+
+01:11:19.000 --> 01:11:21.000
+How to do anything.
+
+01:11:21.000 --> 01:11:23.000
+This is a skill.
+
+01:11:23.000 --> 01:11:25.000
+Now what can you do
+
+01:11:25.000 --> 01:11:27.000
+by using this skill?
+
+01:11:27.000 --> 01:11:29.000
+You can do any work.
+
+01:11:29.000 --> 01:11:31.000
+Now practically
+
+01:11:31.000 --> 01:11:33.000
+see, on me,
+
+01:11:35.000 --> 01:11:37.000
+this table is customer data.
+
+01:11:37.000 --> 01:11:39.000
+This table is very dirty.
+
+01:11:39.000 --> 01:11:41.000
+In fact, when we did analysis,
+
+01:11:41.000 --> 01:11:43.000
+we saw it.
+
+01:11:43.000 --> 01:11:45.000
+I mean when we were generating summary,
+
+01:11:45.000 --> 01:11:47.000
+we saw that this table is dirty.
+
+01:11:47.000 --> 01:11:49.000
+Now what we do is,
+
+01:11:49.000 --> 01:11:51.000
+we use this skill.
+
+01:11:51.000 --> 01:11:53.000
+You can call this skill in two ways.
+
+01:11:53.000 --> 01:11:55.000
+Either by going to the skill,
+
+01:11:57.000 --> 01:11:59.000
+click on the skill you want to use
+
+01:11:59.000 --> 01:12:01.000
+and give your prompt.
+
+01:12:01.000 --> 01:12:03.000
+What is the second way?
+
+01:12:03.000 --> 01:12:05.000
+You directly type slash,
+
+01:12:05.000 --> 01:12:07.000
+automatically all the skills will come.
+
+01:12:07.000 --> 01:12:09.000
+So this skill is clean data excel.
+
+01:12:09.000 --> 01:12:11.000
+So I am saying
+
+01:12:11.000 --> 01:12:13.000
+clean the data,
+
+01:12:13.000 --> 01:12:15.000
+clean
+
+01:12:15.000 --> 01:12:17.000
+data from sheet
+
+01:12:19.000 --> 01:12:21.000
+customer data.
+
+01:12:21.000 --> 01:12:23.000
+See, you just have to write this.
+
+01:12:23.000 --> 01:12:25.000
+And after that
+
+01:12:25.000 --> 01:12:27.000
+you don't have to worry about anything.
+
+01:12:27.000 --> 01:12:29.000
+Why? Because how to clean data,
+
+01:12:29.000 --> 01:12:31.000
+what things to clean,
+
+01:12:31.000 --> 01:12:33.000
+all those things are written here.
+
+01:12:35.000 --> 01:12:37.000
+Right?
+
+01:12:37.000 --> 01:12:39.000
+Okay, now let's run it once.
+
+01:12:41.000 --> 01:12:43.000
+Okay, till this runs,
+
+01:12:43.000 --> 01:12:45.000
+I will show you the skill.
+
+01:12:45.000 --> 01:12:47.000
+So this is audit excel skill.
+
+01:12:47.000 --> 01:12:49.000
+This skill basically
+
+01:12:49.000 --> 01:12:51.000
+checks your formulas.
+
+01:12:51.000 --> 01:12:53.000
+Okay?
+
+01:12:53.000 --> 01:12:55.000
+It will work on three levels and
+
+01:12:55.000 --> 01:12:57.000
+basically it sees what potential
+
+01:12:57.000 --> 01:12:59.000
+errors can be in your formulas.
+
+01:12:59.000 --> 01:13:01.000
+Maybe your formula is working
+
+01:13:01.000 --> 01:13:03.000
+well now, but
+
+01:13:03.000 --> 01:13:05.000
+you have done some hard coded values.
+
+01:13:05.000 --> 01:13:07.000
+There should not be error handling
+
+01:13:07.000 --> 01:13:09.000
+in your formula.
+
+01:13:09.000 --> 01:13:11.000
+So you run this skill
+
+01:13:11.000 --> 01:13:13.000
+and you can audit the formulas
+
+01:13:13.000 --> 01:13:15.000
+of the whole worksheet.
+
+01:13:15.000 --> 01:13:17.000
+And see, how it is written.
+
+01:13:17.000 --> 01:13:19.000
+Simply, what to do in step one,
+
+01:13:19.000 --> 01:13:21.000
+what to edit in step two,
+
+01:13:21.000 --> 01:13:23.000
+what to check in step two,
+
+01:13:23.000 --> 01:13:25.000
+that is written here.
+
+01:13:25.000 --> 01:13:27.000
+In step three,
+
+01:13:27.000 --> 01:13:29.000
+how to do it,
+
+01:13:29.000 --> 01:13:31.000
+what is the output of editing,
+
+01:13:31.000 --> 01:13:33.000
+that is written here.
+
+01:13:33.000 --> 01:13:35.000
+And all things are written here.
+
+01:13:35.000 --> 01:13:37.000
+Every single detail is written here.
+
+01:13:37.000 --> 01:13:39.000
+How to edit every type of formula,
+
+01:13:39.000 --> 01:13:41.000
+this is a skill.
+
+01:13:41.000 --> 01:13:43.000
+Simple language.
+
+01:13:43.000 --> 01:13:45.000
+Okay?
+
+01:13:45.000 --> 01:13:47.000
+So
+
+01:13:47.000 --> 01:13:49.000
+customer data
+
+01:13:49.000 --> 01:13:51.000
+cleaned, let's see.
+
+01:13:53.000 --> 01:13:55.000
+Okay,
+
+01:13:55.000 --> 01:13:57.000
+it generated its plan.
+
+01:13:57.000 --> 01:13:59.000
+Sorry.
+
+01:13:59.000 --> 01:14:01.000
+Here,
+
+01:14:01.000 --> 01:14:03.000
+it cleaned me here.
+
+01:14:03.000 --> 01:14:05.000
+Okay?
+
+01:14:05.000 --> 01:14:07.000
+Let's see, what it says.
+
+01:14:07.000 --> 01:14:09.000
+My plan is seven cleaner steps.
+
+01:14:09.000 --> 01:14:11.000
+Shall I proceed with all
+
+01:14:11.000 --> 01:14:13.000
+the above? It made a plan.
+
+01:14:13.000 --> 01:14:15.000
+First, it identified
+
+01:14:15.000 --> 01:14:17.000
+what are the
+
+01:14:17.000 --> 01:14:19.000
+problems.
+
+01:14:19.000 --> 01:14:21.000
+After that, it made a plan.
+
+01:14:21.000 --> 01:14:23.000
+And it is saying, shall I proceed?
+
+01:14:23.000 --> 01:14:25.000
+So I say, yes.
+
+01:14:25.000 --> 01:14:27.000
+Proceed.
+
+01:14:27.000 --> 01:14:29.000
+And please
+
+01:14:31.000 --> 01:14:33.000
+create
+
+01:14:33.000 --> 01:14:35.000
+another sheet
+
+01:14:35.000 --> 01:14:37.000
+named
+
+01:14:37.000 --> 01:14:39.000
+customer data
+
+01:14:39.000 --> 01:14:41.000
+cleaned and
+
+01:14:45.000 --> 01:14:47.000
+insert
+
+01:14:47.000 --> 01:14:49.000
+cleaned data
+
+01:14:49.000 --> 01:14:51.000
+in the
+
+01:14:51.000 --> 01:14:53.000
+newly created
+
+01:14:53.000 --> 01:14:55.000
+sheet.
+
+01:14:59.000 --> 01:15:01.000
+Okay?
+
+01:15:01.000 --> 01:15:03.000
+Now the cloud will do all the work itself.
+
+01:15:03.000 --> 01:15:05.000
+It will create a new sheet
+
+01:15:05.000 --> 01:15:07.000
+named customer data cleaned.
+
+01:15:07.000 --> 01:15:09.000
+After that, it will complete
+
+01:15:09.000 --> 01:15:11.000
+all the tasks itself.
+
+01:15:11.000 --> 01:15:13.000
+So this is a skill.
+
+01:15:13.000 --> 01:15:15.000
+Okay?
+
+01:15:15.000 --> 01:15:17.000
+Is this clear to everyone?
+
+01:15:21.000 --> 01:15:23.000
+We might know all the existing
+
+01:15:23.000 --> 01:15:25.000
+skill in cloud, will it automatically use
+
+01:15:25.000 --> 01:15:27.000
+the skill based on the prompt provided?
+
+01:15:27.000 --> 01:15:29.000
+I am coming to that point, Shivani.
+
+01:15:29.000 --> 01:15:31.000
+Now, what are the skills?
+
+01:15:31.000 --> 01:15:33.000
+By default,
+
+01:15:33.000 --> 01:15:35.000
+when you add cloud for excel
+
+01:15:35.000 --> 01:15:37.000
+add-in, by default,
+
+01:15:37.000 --> 01:15:39.000
+you get the pass. But if you want to see
+
+01:15:39.000 --> 01:15:41.000
+what other skills are there, go to
+
+01:15:41.000 --> 01:15:43.000
+your cloud, go to settings,
+
+01:15:43.000 --> 01:15:45.000
+okay? Go to skills here.
+
+01:15:45.000 --> 01:15:47.000
+Right? Click on
+
+01:15:47.000 --> 01:15:49.000
+this add skills and click on
+
+01:15:49.000 --> 01:15:51.000
+browse skills. Here you have
+
+01:15:51.000 --> 01:15:53.000
+so many skills.
+
+01:15:55.000 --> 01:15:57.000
+You can see skills up to category wise.
+
+01:15:57.000 --> 01:15:59.000
+You can see.
+
+01:15:59.000 --> 01:16:01.000
+See, how many skills
+
+01:16:01.000 --> 01:16:03.000
+you have here.
+
+01:16:05.000 --> 01:16:07.000
+Recently updated.
+
+01:16:13.000 --> 01:16:15.000
+Okay?
+
+01:16:15.000 --> 01:16:17.000
+Here you have skills.
+
+01:16:17.000 --> 01:16:19.000
+Canva design, web artifact builder,
+
+01:16:19.000 --> 01:16:21.000
+mcp builder, theme factory,
+
+01:16:21.000 --> 01:16:23.000
+so many skills. So what do you
+
+01:16:23.000 --> 01:16:25.000
+basically have to do? According to your task,
+
+01:16:25.000 --> 01:16:27.000
+if you are getting any skill here,
+
+01:16:27.000 --> 01:16:29.000
+then well and good, else
+
+01:16:29.000 --> 01:16:31.000
+you can also make your own skill.
+
+01:16:31.000 --> 01:16:33.000
+Okay?
+
+01:16:33.000 --> 01:16:35.000
+So let's see if changes have been made here or not.
+
+01:16:37.000 --> 01:16:39.000
+Customer data is a clean table
+
+01:16:39.000 --> 01:16:41.000
+and here
+
+01:16:41.000 --> 01:16:43.000
+the changes are happening.
+
+01:16:55.000 --> 01:16:57.000
+Okay?
+
+01:16:57.000 --> 01:16:59.000
+All the changes are clean.
+
+01:16:59.000 --> 01:17:01.000
+Now format and flag
+
+01:17:01.000 --> 01:17:03.000
+the data.
+
+01:17:03.000 --> 01:17:05.000
+Right?
+
+01:17:05.000 --> 01:17:07.000
+So see, it is saying that
+
+01:17:07.000 --> 01:17:09.000
+this row is
+
+01:17:09.000 --> 01:17:11.000
+duplicate of row 2.
+
+01:17:11.000 --> 01:17:13.000
+This row is again the duplicate
+
+01:17:13.000 --> 01:17:15.000
+of row 2.
+
+01:17:15.000 --> 01:17:17.000
+Here the email id is invalid.
+
+01:17:17.000 --> 01:17:19.000
+Okay? Here the value
+
+01:17:19.000 --> 01:17:21.000
+is missing. Which value is missing?
+
+01:17:21.000 --> 01:17:23.000
+Here you have to point out.
+
+01:17:23.000 --> 01:17:25.000
+Okay? So all
+
+01:17:25.000 --> 01:17:27.000
+the data is here.
+
+01:17:27.000 --> 01:17:29.000
+Now what you can do
+
+01:17:29.000 --> 01:17:31.000
+if you want,
+
+01:17:31.000 --> 01:17:33.000
+you can remove the duplicate values.
+
+01:17:33.000 --> 01:17:35.000
+Okay? I can simply write
+
+01:17:37.000 --> 01:17:39.000
+let's just wait for it to complete.
+
+01:17:39.000 --> 01:17:41.000
+I can simply write
+
+01:17:41.000 --> 01:17:43.000
+remove all the duplicate values.
+
+01:17:47.000 --> 01:17:49.000
+So this is,
+
+01:17:49.000 --> 01:17:51.000
+the whole worksheet
+
+01:17:51.000 --> 01:17:53.000
+has the access to the whole worksheet.
+
+01:17:53.000 --> 01:17:55.000
+Claude has it.
+
+01:17:55.000 --> 01:17:57.000
+Claude can use
+
+01:17:57.000 --> 01:17:59.000
+your entire worksheet.
+
+01:17:59.000 --> 01:18:01.000
+In fact, not even the worksheet,
+
+01:18:01.000 --> 01:18:03.000
+the access to the whole workbook.
+
+01:18:03.000 --> 01:18:05.000
+Right? The whole workbook.
+
+01:18:05.000 --> 01:18:07.000
+In this workbook, I have 8 worksheets.
+
+01:18:07.000 --> 01:18:09.000
+Claude has the access to the whole workbook.
+
+01:18:09.000 --> 01:18:11.000
+And my Claude
+
+01:18:11.000 --> 01:18:13.000
+can use any workbook or worksheet
+
+01:18:13.000 --> 01:18:15.000
+of his work.
+
+01:18:15.000 --> 01:18:17.000
+Okay? See,
+
+01:18:17.000 --> 01:18:19.000
+I am saying
+
+01:18:19.000 --> 01:18:21.000
+delete the rows
+
+01:18:21.000 --> 01:18:23.000
+that are
+
+01:18:23.000 --> 01:18:25.000
+duplicate.
+
+01:18:27.000 --> 01:18:29.000
+Now it will delete the rows.
+
+01:18:31.000 --> 01:18:33.000
+Okay?
+
+01:18:35.000 --> 01:18:37.000
+It has deleted
+
+01:18:37.000 --> 01:18:39.000
+the rows. Now how many
+
+01:18:39.000 --> 01:18:41.000
+rows are left on me? Only 28 rows left.
+
+01:18:41.000 --> 01:18:43.000
+One column header and 28 rows left.
+
+01:18:43.000 --> 01:18:45.000
+That's it. Your whole workbook
+
+01:18:45.000 --> 01:18:47.000
+is for you Claude.
+
+01:18:47.000 --> 01:18:49.000
+You can assume the things.
+
+01:18:49.000 --> 01:18:51.000
+You can figure out the things.
+
+01:18:51.000 --> 01:18:53.000
+This was your customer data.
+
+01:18:53.000 --> 01:18:55.000
+How clumsy was it?
+
+01:18:55.000 --> 01:18:57.000
+What were the missing values? You don't need to worry.
+
+01:18:57.000 --> 01:18:59.000
+Tell Claude, Claude will do it.
+
+01:18:59.000 --> 01:19:01.000
+Okay? Claude
+
+01:19:01.000 --> 01:19:03.000
+asks you before changing.
+
+01:19:03.000 --> 01:19:05.000
+Here by default, I have done
+
+01:19:05.000 --> 01:19:07.000
+accept all edits.
+
+01:19:07.000 --> 01:19:09.000
+But it is a good practice to ask
+
+01:19:09.000 --> 01:19:11.000
+before editing. So before
+
+01:19:11.000 --> 01:19:13.000
+editing, Claude
+
+01:19:13.000 --> 01:19:15.000
+asks you. Okay?
+
+01:19:15.000 --> 01:19:17.000
+Now,
+
+01:19:17.000 --> 01:19:19.000
+let's say, the skills mentioned
+
+01:19:19.000 --> 01:19:21.000
+here. Here you went to skills.
+
+01:19:21.000 --> 01:19:23.000
+You went to browse skills.
+
+01:19:23.000 --> 01:19:25.000
+This skills is the whole factory.
+
+01:19:25.000 --> 01:19:27.000
+Now in this skills,
+
+01:19:27.000 --> 01:19:29.000
+what is mentioned
+
+01:19:29.000 --> 01:19:31.000
+is not of your work.
+
+01:19:31.000 --> 01:19:33.000
+Okay? How
+
+01:19:33.000 --> 01:19:35.000
+I will explain to you? Let's say
+
+01:19:35.000 --> 01:19:37.000
+I have a database.
+
+01:19:39.000 --> 01:19:41.000
+And in that database,
+
+01:19:41.000 --> 01:19:43.000
+bank statement is stored.
+
+01:19:43.000 --> 01:19:45.000
+Assume that you are doing a job.
+
+01:19:45.000 --> 01:19:47.000
+And in that job, what are you doing basically?
+
+01:19:47.000 --> 01:19:49.000
+You have a database.
+
+01:19:49.000 --> 01:19:51.000
+In Excel, you have data. And in database,
+
+01:19:51.000 --> 01:19:53.000
+the data is bank statements.
+
+01:19:53.000 --> 01:19:55.000
+Okay, how I will show you?
+
+01:19:57.000 --> 01:19:59.000
+So, let me go to new query.
+
+01:20:01.000 --> 01:20:03.000
+My database is
+
+01:20:03.000 --> 01:20:05.000
+campus-expulse.
+
+01:20:05.000 --> 01:20:07.000
+And I am saying select
+
+01:20:07.000 --> 01:20:09.000
+start from
+
+01:20:09.000 --> 01:20:11.000
+What was the name of my database?
+
+01:20:11.000 --> 01:20:13.000
+Just a minute. Let me see the name of the table.
+
+01:20:15.000 --> 01:20:17.000
+The table name was
+
+01:20:17.000 --> 01:20:19.000
+bank statement wrong.
+
+01:20:19.000 --> 01:20:21.000
+I am saying
+
+01:20:21.000 --> 01:20:23.000
+bank statement wrong.
+
+01:20:23.000 --> 01:20:25.000
+Okay. So your data
+
+01:20:25.000 --> 01:20:27.000
+is something like this.
+
+01:20:27.000 --> 01:20:29.000
+Right? You all must have seen
+
+01:20:29.000 --> 01:20:31.000
+bank statements. So
+
+01:20:31.000 --> 01:20:33.000
+something like this. In that,
+
+01:20:33.000 --> 01:20:35.000
+the data is written in
+
+01:20:35.000 --> 01:20:37.000
+a form like this.
+
+01:20:37.000 --> 01:20:39.000
+NEFT, salary employees, UPI,
+
+01:20:39.000 --> 01:20:41.000
+DR, SWIGI,
+
+01:20:41.000 --> 01:20:43.000
+UPI, DR,
+
+01:20:43.000 --> 01:20:45.000
+rank. I hope you all can relate.
+
+01:20:45.000 --> 01:20:47.000
+As an analyst,
+
+01:20:47.000 --> 01:20:49.000
+what is your job? Daily, you
+
+01:20:49.000 --> 01:20:51.000
+have your customer's data. Let's say,
+
+01:20:51.000 --> 01:20:53.000
+you have daily customer's data.
+
+01:20:53.000 --> 01:20:55.000
+You have to read that customer's data,
+
+01:20:55.000 --> 01:20:57.000
+analyze it and divide that customer's
+
+01:20:57.000 --> 01:20:59.000
+data into 6 categories.
+
+01:20:59.000 --> 01:21:01.000
+Let's say, you have to tell
+
+01:21:01.000 --> 01:21:03.000
+how much he has invested in food.
+
+01:21:03.000 --> 01:21:05.000
+How much he has invested in transportation.
+
+01:21:05.000 --> 01:21:07.000
+He has, let's say,
+
+01:21:07.000 --> 01:21:09.000
+how much he has invested in education.
+
+01:21:09.000 --> 01:21:11.000
+You have to categorize
+
+01:21:11.000 --> 01:21:13.000
+data of your
+
+01:21:13.000 --> 01:21:15.000
+customer in 6 categories or 7 categories.
+
+01:21:15.000 --> 01:21:17.000
+Let's say,
+
+01:21:17.000 --> 01:21:19.000
+this is your job.
+
+01:21:19.000 --> 01:21:21.000
+Now, for this job, Claude does not have any
+
+01:21:21.000 --> 01:21:23.000
+skill. So you can make
+
+01:21:23.000 --> 01:21:25.000
+your own skill. Problem
+
+01:21:25.000 --> 01:21:27.000
+statement, everyone understood?
+
+01:21:29.000 --> 01:21:31.000
+That what you have to do, this kind of data
+
+01:21:31.000 --> 01:21:33.000
+is something and that data
+
+01:21:33.000 --> 01:21:35.000
+is categorized for you.
+
+01:21:35.000 --> 01:21:37.000
+Right?
+
+01:21:37.000 --> 01:21:39.000
+You can do it very easily.
+
+01:21:39.000 --> 01:21:41.000
+Claude gives you the opportunity to do it.
+
+01:21:41.000 --> 01:21:43.000
+What you have to do is simply,
+
+01:21:43.000 --> 01:21:45.000
+you have to
+
+01:21:45.000 --> 01:21:47.000
+what you have to do, let me
+
+01:21:47.000 --> 01:21:49.000
+minimize all this.
+
+01:21:49.000 --> 01:21:51.000
+You don't have to do anything.
+
+01:21:51.000 --> 01:21:53.000
+Make a folder
+
+01:21:53.000 --> 01:21:55.000
+anywhere. Make it in desktop,
+
+01:21:55.000 --> 01:21:57.000
+download, make it anywhere.
+
+01:21:57.000 --> 01:21:59.000
+Make a folder. Make a
+
+01:21:59.000 --> 01:22:01.000
+notepad file in that folder.
+
+01:22:01.000 --> 01:22:03.000
+I am saying notepad
+
+01:22:03.000 --> 01:22:05.000
+file. Right?
+
+01:22:05.000 --> 01:22:07.000
+Text document.
+
+01:22:07.000 --> 01:22:09.000
+And in that text document,
+
+01:22:09.000 --> 01:22:11.000
+write your skill.
+
+01:22:11.000 --> 01:22:13.000
+Now, skill looks like this.
+
+01:22:13.000 --> 01:22:15.000
+Let me show you.
+
+01:22:15.000 --> 01:22:17.000
+See.
+
+01:22:17.000 --> 01:22:19.000
+First of all, you
+
+01:22:19.000 --> 01:22:21.000
+make a category, 3 dash
+
+01:22:21.000 --> 01:22:23.000
+and in that
+
+01:22:23.000 --> 01:22:25.000
+dash, you write a name
+
+01:22:25.000 --> 01:22:27.000
+which will be the name of your skill.
+
+01:22:27.000 --> 01:22:29.000
+In fact, if I show you
+
+01:22:29.000 --> 01:22:31.000
+skills here, these skills are also written
+
+01:22:31.000 --> 01:22:33.000
+in text. You can see
+
+01:22:33.000 --> 01:22:35.000
+this in MD. If I
+
+01:22:35.000 --> 01:22:37.000
+open the same skill
+
+01:22:37.000 --> 01:22:39.000
+in MD, it also looks like this.
+
+01:22:45.000 --> 01:22:47.000
+See.
+
+01:22:51.000 --> 01:22:53.000
+So this is happening.
+
+01:22:53.000 --> 01:22:55.000
+This is what it looks like. But how do you write it in text file?
+
+01:22:55.000 --> 01:22:57.000
+First of all, what you have to do is
+
+01:22:57.000 --> 01:22:59.000
+make a container of 3 dashes
+
+01:22:59.000 --> 01:23:01.000
+and in that container, first of all, you write your name of the skill.
+
+01:23:01.000 --> 01:23:03.000
+Right?
+
+01:23:03.000 --> 01:23:05.000
+After that, you write the description of that skill.
+
+01:23:05.000 --> 01:23:07.000
+Use the skill whenever
+
+01:23:07.000 --> 01:23:09.000
+a user uploads a bank statement,
+
+01:23:09.000 --> 01:23:11.000
+CSV
+
+01:23:11.000 --> 01:23:13.000
+or raw financial data. It will clean
+
+01:23:13.000 --> 01:23:15.000
+the merchant names, categorize the expenses
+
+01:23:15.000 --> 01:23:17.000
+and generalize a structured Excel budget file.
+
+01:23:17.000 --> 01:23:19.000
+This is my description.
+
+01:23:19.000 --> 01:23:21.000
+After that, I have written steps.
+
+01:23:21.000 --> 01:23:23.000
+Right?
+
+01:23:23.000 --> 01:23:25.000
+Smart finance cleaner instructions.
+
+01:23:25.000 --> 01:23:27.000
+I have written instructions whenever user uploads
+
+01:23:27.000 --> 01:23:29.000
+financial data
+
+01:23:29.000 --> 01:23:31.000
+in a financial file like a CSV
+
+01:23:31.000 --> 01:23:33.000
+or PDF file. Ask to organize it.
+
+01:23:33.000 --> 01:23:35.000
+You must follow these exact steps.
+
+01:23:35.000 --> 01:23:37.000
+Then I have written data cleaning steps.
+
+01:23:37.000 --> 01:23:39.000
+Auto categorize steps.
+
+01:23:39.000 --> 01:23:41.000
+Guys,
+
+01:23:41.000 --> 01:23:43.000
+just a minute. I am getting multiple calls from home.
+
+01:23:43.000 --> 01:23:45.000
+Just a minute. I didn't tell them. I will come late.
+
+01:23:45.000 --> 01:23:47.000
+I need just a minute.
+
+01:23:57.000 --> 01:23:59.000
+Thank you.
+
+01:24:27.000 --> 01:24:29.000
+I am sorry for inconvenience.
+
+01:24:29.000 --> 01:24:31.000
+Guys,
+
+01:24:31.000 --> 01:24:33.000
+multiple calls from home.
+
+01:24:33.000 --> 01:24:35.000
+I didn't tell them that today
+
+01:24:35.000 --> 01:24:37.000
+I had a session.
+
+01:24:37.000 --> 01:24:39.000
+Right?
+
+01:24:39.000 --> 01:24:41.000
+So, I have written clear here.
+
+01:24:41.000 --> 01:24:43.000
+What will you do in step 1? Data cleaning.
+
+01:24:43.000 --> 01:24:45.000
+You have to read such data
+
+01:24:45.000 --> 01:24:47.000
+that you have to remove it from random numbers.
+
+01:24:47.000 --> 01:24:49.000
+How to remove it?
+
+01:24:49.000 --> 01:24:51.000
+Something like this.
+
+01:24:51.000 --> 01:24:53.000
+Amazon Marketplace
+
+01:24:53.000 --> 01:24:55.000
+US 1245 will be
+
+01:24:55.000 --> 01:25:00.120
+to Amazigh. Uber Eats spending will be converted to Uber Eats. I have given the full instruction.
+
+01:25:00.120 --> 01:25:06.760
+Step 2 is Auto-categorize. What I am doing is categorizing data in these categories. This
+
+01:25:06.760 --> 01:25:13.480
+is my step. Step 3 is Excel build-in document. I am telling command Excel. What you have
+
+01:25:13.480 --> 01:25:22.640
+to do is that you have to use two sheets. Excel has its own tool to make Excel files. So I
+
+01:25:22.640 --> 01:25:27.240
+am telling you to use this tool and make two sheets. One sheet will be clean data where
+
+01:25:27.240 --> 01:25:31.080
+you will store clean data and the other sheet will be monthly summary where you will store
+
+01:25:31.080 --> 01:25:40.640
+monthly summary. And lastly I have written some other instructions. So simply your file
+
+01:25:40.640 --> 01:25:45.840
+looks like this. I have opened this in MD but you write it in text. So you write like
+
+01:25:45.840 --> 01:25:53.840
+this. Okay. See this is your file. You have made this file. What you have to do after that
+
+01:25:53.840 --> 01:26:01.280
+is that you have to open your cloud. Go to settings. First I will see the usage. Okay
+
+01:26:01.280 --> 01:26:08.200
+now we have a lot of usage. Go to skills. Go to add. Go to browse skills. Sorry not browse
+
+01:26:08.200 --> 01:26:15.600
+skills. Go to create skills. After going to create skills, click on upload skills. And
+
+01:26:15.600 --> 01:26:22.680
+upload the file that you have made. My file was on desktop. I am on this folder and this
+
+01:26:22.680 --> 01:26:30.640
+is my skill. Upload this. That's it. Your new skill is ready. You click on any skill
+
+01:26:30.640 --> 01:26:36.920
+and you will get the full detail. Smart financial cleaner. Who made this. This is the skill.
+
+01:26:36.920 --> 01:26:43.920
+This is the description and this is the skill's meta file. Right. Simple. You can see any
+
+01:26:43.920 --> 01:26:52.720
+other skill. Let's say I am adding the skill by saying MCP builder. Okay. So if I go to
+
+01:26:52.720 --> 01:26:58.480
+this skill too. MCP builder. So here who has made that skill. Its description and its
+
+01:26:58.480 --> 01:27:04.320
+file. Write everything here. You will get it. Okay. You have to remove any skill. Go to
+
+01:27:04.320 --> 01:27:10.920
+this skill. Go to three dots. Click on uninstall. That skill should be removed. Right. Now this
+
+01:27:10.920 --> 01:27:18.120
+skill is made here. Now what you have to do is simply go to excel. Okay. Do one thing.
+
+01:27:18.120 --> 01:27:25.519
+I will save this file. And I am making a new file. And in this file, first of all I will
+
+01:27:25.520 --> 01:27:39.520
+do the same. Okay. So I am going to data. Get data from database. From SQL server. Okay.
+
+01:27:39.520 --> 01:27:48.520
+Now here my server name was Ajay Sati. Database name is. What is the database name. CampusX
+
+01:27:48.520 --> 01:27:56.520
+database. Okay. So first of all, let's get the data from excel. Okay. You can understand
+
+01:27:56.520 --> 01:28:04.520
+this problem like a business statement. This is my data. I am loading it. Okay. Is data
+
+01:28:04.520 --> 01:28:11.520
+gone? Till then you can ask any question. Sir, cloud model is running in cloud. So data
+
+01:28:12.520 --> 01:28:19.520
+is sent to the send in cloud where cloud is hosted to open. No, nothing like that. Actually
+
+01:28:19.520 --> 01:28:25.520
+what is happening? Abhishek, look. API is being made on your local system. The server is being
+
+01:28:25.520 --> 01:28:31.520
+made on your local system. Do you guys have knowledge about OlaMa? Anyone? I will explain
+
+01:28:31.520 --> 01:28:41.520
+about OlaMa through it. Particularly Abhishek. Okay. What happens in OlaMa basically when
+
+01:28:41.520 --> 01:28:46.520
+you call the model, what does the model do? It makes a host on your local server. At the
+
+01:28:46.520 --> 01:28:55.520
+port 4004. What is this? I don't remember the port. So basically it makes a local host.
+
+01:28:55.520 --> 01:29:03.520
+And what happens is this local host gets API request. So in the case of excel, the server
+
+01:29:03.520 --> 01:29:14.520
+is being made on your local and that server gets API request. Clear? Okay. Now this data
+
+01:29:14.520 --> 01:29:20.520
+is mine. Your data is something like this. Right. Now let's clean this data with the help of
+
+01:29:20.520 --> 01:29:31.520
+our skill. It's a very crazy thing. Go to home. Call Claude uncle from here. And simply
+
+01:29:31.520 --> 01:29:39.520
+don't do anything. Let me see here. There is a skill. Let me go to setting and skills.
+
+01:29:39.520 --> 01:29:48.520
+Yes, there is a skill. I am going to excel. Here I have typed slash. And my skill will
+
+01:29:48.520 --> 01:29:59.520
+come. Smart financial cleaner. And I will simply call this skill to clean and organize
+
+01:29:59.520 --> 01:30:16.520
+the data from bank's statement raw sheet. That's it. Now my skill will work completely.
+
+01:30:16.520 --> 01:30:27.520
+It will read the data, make two sheets and put all the data in it. Okay. The newly created
+
+01:30:27.520 --> 01:30:33.520
+skill is public or private. How to share it? It is private. I guess this is private. I
+
+01:30:33.520 --> 01:30:57.520
+am not sure. Let's search once. Are private. These are private skills. Okay. And if you
+
+01:30:57.520 --> 01:31:03.520
+want to share it, I don't think so Claude gives option. You have to share the file you
+
+01:31:03.520 --> 01:31:15.520
+have made manually. Okay. Go to settings. Let me see if I get sharing option. No. I don't
+
+01:31:15.520 --> 01:31:22.520
+have any option to share. So you can share the file you have made manually. Okay. Let's
+
+01:31:22.520 --> 01:31:50.520
+come to Claude. It is still reading the data. Let's just wait for few more seconds. Okay.
+
+01:31:50.520 --> 01:32:17.520
+Now it is making the table sheets. Just have a look here. Automatically. Now see. If as
+
+01:32:17.520 --> 01:32:26.520
+a human you are doing this work, then how big task is it to clean it. Just imagine. And
+
+01:32:26.520 --> 01:32:32.520
+you are doing this work manually. Okay. But we have explained to Excel how to do this
+
+01:32:32.520 --> 01:32:37.520
+work. Excel is doing it by itself. These dates have come. This merchant description has come.
+
+01:32:37.520 --> 01:32:41.520
+Category has come. Type has come. Amount has come. Okay. Monthly salary will be made later.
+
+01:32:41.520 --> 01:33:08.520
+Okay. Now let's see if I can get the table sheet. Okay. Let's see if I can get the table
+
+01:33:08.520 --> 01:33:28.520
+sheet. Okay. Monthly salary will be made later. Okay. Monthly salary will be made later. Okay.
+
+01:33:28.520 --> 01:33:48.520
+Okay. Monthly salary will be made later. Okay. Monthly salary will be made later. Okay.
+
+01:33:48.520 --> 01:34:08.520
+Okay. Monthly salary will be made later. Okay. Monthly salary will be made later. Okay.
+
+01:34:08.520 --> 01:34:16.520
+Monthly salary will be made later. Okay. Monthly salary will be made later. Okay. Monthly
+
+01:34:16.520 --> 01:34:38.520
+salary will be made later. Okay. Monthly salary will be made later. Okay. Monthly
+
+01:34:38.520 --> 01:35:00.520
+salary will be made later. Okay. Monthly salary will be made later. Okay. Monthly salary will
+
+01:35:00.520 --> 01:35:03.520
+In April, my salary was this much.
+
+01:35:03.520 --> 01:35:05.520
+In May, my salary was this much.
+
+01:35:05.520 --> 01:35:06.520
+In June, it was this much.
+
+01:35:06.520 --> 01:35:07.520
+In July, it was this much.
+
+01:35:07.520 --> 01:35:10.520
+And in December, I did not spend anything.
+
+01:35:10.520 --> 01:35:14.520
+So every analysis, saving rate 53.6.
+
+01:35:14.520 --> 01:35:16.520
+Total salary did see this.
+
+01:35:16.520 --> 01:35:18.520
+I saved this much.
+
+01:35:20.520 --> 01:35:24.520
+Each and every, just imagine, this is your data.
+
+01:35:24.520 --> 01:35:26.520
+This is your data.
+
+01:35:26.520 --> 01:35:34.520
+Now, making this from this data is a game of days.
+
+01:35:34.520 --> 01:35:38.520
+I hope you all agree that making this is a day of task.
+
+01:35:38.520 --> 01:35:41.520
+Yes or no? This data.
+
+01:35:44.520 --> 01:35:47.520
+Right? But you just made a skill.
+
+01:35:47.520 --> 01:35:51.520
+In that skill, you told what to do, how to do it, you told the steps.
+
+01:35:51.520 --> 01:35:53.520
+Bingo.
+
+01:35:53.520 --> 01:35:55.520
+Give it to Claude.
+
+01:35:55.520 --> 01:35:57.520
+Give it to Claude. Claude will do it himself.
+
+01:35:57.520 --> 01:35:59.520
+Your work is over.
+
+01:36:01.520 --> 01:36:07.520
+I hope now you are at this point that you can make skills according to your requirements.
+
+01:36:07.520 --> 01:36:08.520
+Quick yes or no, everyone.
+
+01:36:08.520 --> 01:36:13.520
+Whichever domain you are working in, whichever data you are working on, whichever kind of data you are working on.
+
+01:36:13.520 --> 01:36:17.520
+Are you now capable of making your own skill and using that skill?
+
+01:36:19.520 --> 01:36:20.520
+Make it solid.
+
+01:36:20.520 --> 01:36:22.520
+Automate your task.
+
+01:36:23.520 --> 01:36:24.520
+Right?
+
+01:36:24.520 --> 01:36:28.520
+I was reading a book and there was a very good line written.
+
+01:36:28.520 --> 01:36:32.520
+If you are in a corporate, be strategic. Don't be busy.
+
+01:36:33.520 --> 01:36:36.520
+Doing this work manually is being busy.
+
+01:36:36.520 --> 01:36:39.520
+Make a skill once. It will take two hours to make a skill.
+
+01:36:39.520 --> 01:36:40.520
+There is no problem.
+
+01:36:40.520 --> 01:36:42.520
+Make it and use it.
+
+01:36:42.520 --> 01:36:43.520
+Press and use it.
+
+01:36:43.520 --> 01:36:45.520
+That is being strategic.
+
+01:36:45.520 --> 01:36:46.520
+Your work is over.
+
+01:36:46.520 --> 01:36:53.520
+Just imagine, where you were able to process only one file in a day, now you are able to process one file in ten minutes.
+
+01:36:55.520 --> 01:36:57.520
+I forgot the name of the book.
+
+01:36:57.520 --> 01:36:59.520
+I was just reading its few pages.
+
+01:37:01.520 --> 01:37:02.520
+Okay.
+
+01:37:03.520 --> 01:37:05.520
+Now I guess you must be knowing the real power of Claude.
+
+01:37:05.520 --> 01:37:07.520
+Till now you were just doing prompts.
+
+01:37:07.520 --> 01:37:08.520
+Nothing.
+
+01:37:08.520 --> 01:37:10.520
+This is Claude for Excel.
+
+01:37:10.520 --> 01:37:11.520
+Right?
+
+01:37:12.520 --> 01:37:14.520
+So far, anyone has any doubt?
+
+01:37:14.520 --> 01:37:16.520
+Let me close this unnecessary files.
+
+01:37:20.520 --> 01:37:21.520
+Quick yes or no.
+
+01:37:24.520 --> 01:37:25.520
+Okay.
+
+01:37:32.520 --> 01:37:33.520
+Come on.
+
+01:37:33.520 --> 01:37:34.520
+Move ahead.
+
+01:37:35.520 --> 01:37:36.520
+Okay.
+
+01:37:36.520 --> 01:37:39.520
+So we have learned what skills are.
+
+01:37:39.520 --> 01:37:41.520
+How to make it? What to make it?
+
+01:37:41.520 --> 01:37:43.520
+We have to tell us everything.
+
+01:37:43.520 --> 01:37:46.520
+The newly created skill is private.
+
+01:37:46.520 --> 01:37:51.520
+If you want to share it, then you have to share the TXT file that you have made.
+
+01:37:51.520 --> 01:37:52.520
+Right.
+
+01:37:52.520 --> 01:37:54.520
+Or you can make a plugin.
+
+01:37:54.520 --> 01:37:56.520
+We will not learn how to make a plugin in this session.
+
+01:37:56.520 --> 01:37:58.520
+That is again a complex thing.
+
+01:37:58.520 --> 01:37:59.520
+But what is a plugin?
+
+01:37:59.520 --> 01:38:00.520
+I will teach you that.
+
+01:38:00.520 --> 01:38:03.520
+You can make a plugin and host it on Entropic.
+
+01:38:04.520 --> 01:38:07.520
+So anyone can use your plugin and any skill.
+
+01:38:07.520 --> 01:38:09.520
+So we will not learn how to make a plugin here today.
+
+01:38:09.520 --> 01:38:11.520
+But I am just giving you an idea.
+
+01:38:11.520 --> 01:38:12.520
+What is a plugin?
+
+01:38:12.520 --> 01:38:13.520
+We will cover that.
+
+01:38:13.520 --> 01:38:14.520
+Okay.
+
+01:38:15.520 --> 01:38:18.520
+Now let's see what is MCP.
+
+01:38:18.520 --> 01:38:21.520
+Can anyone tell me the definition of MCP?
+
+01:38:24.520 --> 01:38:32.520
+Sir, can it also apply rules for multiple Excel files in a directory by accessing the directory?
+
+01:38:34.520 --> 01:38:35.520
+It can do.
+
+01:38:35.520 --> 01:38:37.520
+How do I tell you?
+
+01:38:38.520 --> 01:38:43.520
+If I show you two skills here, which are Claude's by default skill.
+
+01:38:43.520 --> 01:38:47.520
+There they are basically writing the environment that which file to select.
+
+01:38:47.520 --> 01:38:48.520
+See.
+
+01:38:49.520 --> 01:38:50.520
+Scope.
+
+01:38:50.520 --> 01:38:52.520
+Which file to select.
+
+01:38:52.520 --> 01:38:55.520
+It is of selection sheet, it is of model, what to do.
+
+01:38:55.520 --> 01:38:58.520
+So you can mention that thing in your skill.
+
+01:38:59.520 --> 01:39:01.520
+Clear with the point.
+
+01:39:03.520 --> 01:39:04.520
+Carry.
+
+01:39:06.520 --> 01:39:10.520
+How to bring the file, where to bring it, all those things you have to do.
+
+01:39:10.520 --> 01:39:12.520
+You can mention it in your skill.
+
+01:39:13.520 --> 01:39:14.520
+Right.
+
+01:39:14.520 --> 01:39:16.520
+Again, it's totally up to you.
+
+01:39:16.520 --> 01:39:20.520
+Now you can write it in any way, no matter how complex it is.
+
+01:39:20.520 --> 01:39:24.520
+But it will save a lot of time.
+
+01:39:24.520 --> 01:39:25.520
+Okay.
+
+01:39:25.520 --> 01:39:27.520
+Now let's come to MCP.
+
+01:39:27.520 --> 01:39:29.520
+Can anyone tell me the definition of MCP?
+
+01:39:29.520 --> 01:39:31.520
+Sorry, full form of MCP.
+
+01:39:32.520 --> 01:39:33.520
+Quickly.
+
+01:39:34.520 --> 01:39:35.520
+Quickly.
+
+01:39:40.520 --> 01:39:42.520
+I left the middle word for you.
+
+01:39:43.520 --> 01:39:45.520
+Yes, Model Context Protocol.
+
+01:39:46.520 --> 01:39:47.520
+This is MCP.
+
+01:39:47.520 --> 01:39:50.520
+So MCP is basically your connector.
+
+01:39:50.520 --> 01:39:52.520
+What does connector do basically?
+
+01:39:52.520 --> 01:39:53.520
+It connects two things.
+
+01:39:53.520 --> 01:40:01.520
+Let's say I have a Mac connector and I am connecting that Mac connector with my iPad with projector.
+
+01:40:02.520 --> 01:40:05.520
+So what does this connector do basically?
+
+01:40:05.520 --> 01:40:09.520
+It connects these two things so that data can be shared between them.
+
+01:40:10.520 --> 01:40:13.520
+Now I can see the data of iPad on the projector.
+
+01:40:14.520 --> 01:40:15.520
+Right.
+
+01:40:15.520 --> 01:40:21.520
+For data sharing or to connect multiple devices together,
+
+01:40:21.520 --> 01:40:24.520
+to share between them, we use the connector.
+
+01:40:28.520 --> 01:40:29.520
+Right.
+
+01:40:29.520 --> 01:40:31.520
+This is MCP.
+
+01:40:31.520 --> 01:40:43.520
+So MCP is basically a connector through which you can connect multiple applications with Excel and bring data from there.
+
+01:40:44.520 --> 01:40:45.520
+Okay.
+
+01:40:45.520 --> 01:40:46.520
+This is MCP.
+
+01:40:46.520 --> 01:40:48.520
+Now let me explain you a simple thing.
+
+01:40:48.520 --> 01:40:51.520
+Let's say you are a financial company.
+
+01:40:52.520 --> 01:40:55.520
+How many of you know about Stripe?
+
+01:40:55.520 --> 01:40:58.520
+Stripe is a financial service, right?
+
+01:41:02.520 --> 01:41:03.520
+Anyone know about it?
+
+01:41:03.520 --> 01:41:04.520
+It is financial, right?
+
+01:41:13.520 --> 01:41:15.520
+Financially, yes, I am correct.
+
+01:41:15.520 --> 01:41:17.520
+Stripe is a financial company.
+
+01:41:17.520 --> 01:41:18.520
+Okay.
+
+01:41:18.520 --> 01:41:22.520
+What you do is you are a company and your gateway is handled by Stripe.
+
+01:41:22.520 --> 01:41:25.520
+The payment that is coming is handled by Stripe.
+
+01:41:25.520 --> 01:41:28.520
+What you have to do is you have to extract data from Stripe.
+
+01:41:29.520 --> 01:41:30.520
+Okay.
+
+01:41:30.520 --> 01:41:33.520
+You have to extract that data and analyze it.
+
+01:41:35.520 --> 01:41:36.520
+Okay.
+
+01:41:36.520 --> 01:41:38.520
+Or let's take an example.
+
+01:41:38.520 --> 01:41:41.520
+What you have to do is you have to extract the data from FDA.
+
+01:41:41.520 --> 01:41:46.520
+FDA is basically Food and Drug Organization of USA.
+
+01:41:47.520 --> 01:41:49.520
+You have to extract the data from here.
+
+01:41:49.520 --> 01:41:50.520
+Okay.
+
+01:41:50.520 --> 01:41:53.520
+And you have to extract that data and analyze it.
+
+01:41:53.520 --> 01:41:55.520
+How will you extract it?
+
+01:41:55.520 --> 01:41:58.520
+Generally, what happens is you first find the API.
+
+01:41:58.520 --> 01:42:01.520
+Then you hit that API.
+
+01:42:01.520 --> 01:42:04.520
+You send a request on that API.
+
+01:42:05.520 --> 01:42:06.520
+Okay.
+
+01:42:06.520 --> 01:42:07.520
+Right.
+
+01:42:07.520 --> 01:42:09.520
+API gives you a response.
+
+01:42:09.520 --> 01:42:11.520
+Then what will you do with that response?
+
+01:42:11.520 --> 01:42:15.520
+Let's say you will convert it into a proper formatting.
+
+01:42:15.520 --> 01:42:21.520
+After that formatting, the data that you will get, you will bring that data to Excel.
+
+01:42:21.520 --> 01:42:23.520
+You copy it.
+
+01:42:23.520 --> 01:42:25.520
+This is our way out.
+
+01:42:25.520 --> 01:42:27.520
+It is very complex.
+
+01:42:28.520 --> 01:42:30.520
+You get its alternate.
+
+01:42:30.520 --> 01:42:31.520
+MCB.
+
+01:42:31.520 --> 01:42:34.520
+Which is called Model Context Protocol.
+
+01:42:34.520 --> 01:42:38.520
+Model Context Protocol is basically a connector.
+
+01:42:39.520 --> 01:42:46.520
+Through which you can connect with any app or service and extract their data.
+
+01:42:46.520 --> 01:42:48.520
+If you are authorized.
+
+01:42:48.520 --> 01:42:52.520
+Means you have to extract the data of your company's stripe.
+
+01:42:52.520 --> 01:42:57.520
+The email that you have, through which you will log in to the stripe,
+
+01:42:57.520 --> 01:42:59.520
+that email should have access.
+
+01:42:59.520 --> 01:43:03.520
+Or that email should have the right to extract the data.
+
+01:43:03.520 --> 01:43:04.520
+Okay.
+
+01:43:04.520 --> 01:43:06.520
+This is connected.
+
+01:43:06.520 --> 01:43:08.520
+Simply extract the data.
+
+01:43:08.520 --> 01:43:10.520
+Or to extract the data.
+
+01:43:10.520 --> 01:43:13.520
+You can say a path that is your MCB.
+
+01:43:13.520 --> 01:43:15.520
+Now I will show you.
+
+01:43:15.520 --> 01:43:18.520
+If you go here in settings, you have to go to connectors.
+
+01:43:18.520 --> 01:43:21.520
+By default, these are some connectors.
+
+01:43:21.520 --> 01:43:24.520
+So the connector of Google Drive is connected here.
+
+01:43:24.520 --> 01:43:26.520
+You have to go to browse connectors.
+
+01:43:26.520 --> 01:43:28.520
+You can see so many connectors.
+
+01:43:28.520 --> 01:43:30.520
+You have to extract data from Figma.
+
+01:43:30.520 --> 01:43:32.520
+You have your data in Notion.
+
+01:43:32.520 --> 01:43:33.520
+Click on that.
+
+01:43:33.520 --> 01:43:34.520
+Okay.
+
+01:43:34.520 --> 01:43:36.520
+You have to click on the data in Gmail.
+
+01:43:36.520 --> 01:43:37.520
+Okay.
+
+01:43:37.520 --> 01:43:38.520
+You have data in Slack.
+
+01:43:38.520 --> 01:43:39.520
+Click on the ad.
+
+01:43:39.520 --> 01:43:40.520
+Let's say my data is in Slack.
+
+01:43:40.520 --> 01:43:42.520
+I clicked on the ad.
+
+01:43:42.520 --> 01:43:43.520
+Now what will happen?
+
+01:43:43.520 --> 01:43:44.520
+Slack.
+
+01:43:44.520 --> 01:43:47.520
+First, the Entropiq will ask me to log in to Slack.
+
+01:43:47.520 --> 01:43:50.520
+It is checking if you have permission.
+
+01:43:50.520 --> 01:43:53.520
+If you don't have permission, you don't scrap the data from there.
+
+01:43:53.520 --> 01:43:54.520
+Okay.
+
+01:43:55.520 --> 01:43:56.520
+Okay.
+
+01:43:56.520 --> 01:43:57.520
+Sorry.
+
+01:43:57.520 --> 01:44:00.520
+Let me again log in to my plot.
+
+01:44:00.520 --> 01:44:02.520
+I closed the window.
+
+01:44:05.520 --> 01:44:12.520
+Let me go to settings, connectors, and browse connectors.
+
+01:44:12.520 --> 01:44:14.520
+See, there are so many categories here.
+
+01:44:14.520 --> 01:44:17.520
+If you want any connectors related to data,
+
+01:44:17.520 --> 01:44:20.520
+if you want any connectors related to financial services,
+
+01:44:20.520 --> 01:44:22.520
+you have those connectors.
+
+01:44:22.520 --> 01:44:24.520
+See, you have Stripe here.
+
+01:44:24.520 --> 01:44:27.520
+You have to extract data from Paytm for Business.
+
+01:44:27.520 --> 01:44:31.520
+You have multiple connectors here.
+
+01:44:32.520 --> 01:44:36.520
+You name a thing, there are high chances that these connectors are here.
+
+01:44:36.520 --> 01:44:38.520
+And these companies make connectors themselves.
+
+01:44:38.520 --> 01:44:41.520
+Let's say I am here for financial services.
+
+01:44:41.520 --> 01:44:45.520
+So the Paypal connector here was made by Paypal.
+
+01:44:46.520 --> 01:44:47.520
+Right.
+
+01:44:47.520 --> 01:44:50.520
+Because Paypal wants that if people want my data,
+
+01:44:50.520 --> 01:44:53.520
+and they have access, it will be very easy to extract it.
+
+01:44:53.520 --> 01:44:54.520
+Okay.
+
+01:44:54.520 --> 01:44:57.520
+So companies make their own connectors and put them here.
+
+01:44:57.520 --> 01:45:00.520
+Your job is to connect with those connectors.
+
+01:45:01.520 --> 01:45:02.520
+Okay.
+
+01:45:02.520 --> 01:45:03.520
+How to connect?
+
+01:45:03.520 --> 01:45:04.520
+Simply.
+
+01:45:06.520 --> 01:45:09.520
+Click on any connector you want to connect.
+
+01:45:09.520 --> 01:45:12.520
+You will log in there and you are into the connector.
+
+01:45:12.520 --> 01:45:14.520
+The connector will be listed here.
+
+01:45:14.520 --> 01:45:15.520
+Okay.
+
+01:45:15.520 --> 01:45:16.520
+See, the Slack list is here.
+
+01:45:16.520 --> 01:45:18.520
+Now I just have to connect here.
+
+01:45:18.520 --> 01:45:20.520
+I have connected from Google Drive.
+
+01:45:20.520 --> 01:45:22.520
+Now let's say I connect from email.
+
+01:45:22.520 --> 01:45:23.520
+Okay.
+
+01:45:23.520 --> 01:45:25.520
+It is asking me to sign in.
+
+01:45:25.520 --> 01:45:26.520
+I have signed in.
+
+01:45:28.520 --> 01:45:30.520
+I am giving the permissions.
+
+01:45:31.520 --> 01:45:37.520
+And now if I show you,
+
+01:45:37.520 --> 01:45:40.520
+then see, my email is also connected.
+
+01:45:41.520 --> 01:45:42.520
+Right.
+
+01:45:42.520 --> 01:45:43.520
+So this is the connector.
+
+01:45:43.520 --> 01:45:45.520
+Now you can fetch data from it.
+
+01:45:45.520 --> 01:45:46.520
+So let's do one thing.
+
+01:45:46.520 --> 01:45:50.520
+We connect the US drug department connector here.
+
+01:45:50.520 --> 01:45:52.520
+So if you go to the browsers,
+
+01:45:52.520 --> 01:45:54.520
+you will not find that connector here.
+
+01:45:54.520 --> 01:45:55.520
+Okay.
+
+01:45:55.520 --> 01:45:57.520
+So for that, what can you do?
+
+01:45:57.520 --> 01:45:59.520
+You can also connect the connectors through the URL.
+
+01:45:59.520 --> 01:46:01.520
+So let's say you and some developers like me,
+
+01:46:01.520 --> 01:46:03.520
+they made a connector.
+
+01:46:03.520 --> 01:46:05.520
+So what does that connector do?
+
+01:46:05.520 --> 01:46:07.520
+It makes a GitHub account of that connector.
+
+01:46:07.520 --> 01:46:10.520
+Let's say I look for the FDA connector.
+
+01:46:10.520 --> 01:46:12.520
+FDA Connector.
+
+01:46:15.520 --> 01:46:18.520
+Or you can say FDA MCP server.
+
+01:46:18.520 --> 01:46:20.520
+You can search this.
+
+01:46:20.520 --> 01:46:21.520
+Okay.
+
+01:46:21.520 --> 01:46:23.520
+So see, here you are getting GitHub.
+
+01:46:23.520 --> 01:46:26.520
+Now if you scroll here, you will get the URL.
+
+01:46:29.520 --> 01:46:32.520
+Or in their documentation, you will also get the URL here.
+
+01:46:32.520 --> 01:46:33.520
+Okay.
+
+01:46:33.520 --> 01:46:35.520
+I have already copied that URL.
+
+01:46:35.520 --> 01:46:37.520
+So see, this is the URL.
+
+01:46:37.520 --> 01:46:39.520
+This is the URL of their connector.
+
+01:46:39.520 --> 01:46:40.520
+Okay.
+
+01:46:40.520 --> 01:46:42.520
+So what do you have to do?
+
+01:46:42.520 --> 01:46:44.520
+Simply add custom connector.
+
+01:46:44.520 --> 01:46:48.520
+Here, name your data or whatever you want to give the connector.
+
+01:46:48.520 --> 01:46:52.520
+Let's say FDA.
+
+01:46:52.520 --> 01:46:56.520
+And here, add the MCP server link.
+
+01:46:56.520 --> 01:46:58.520
+And just click on it.
+
+01:46:58.520 --> 01:47:02.520
+Now here, to use this server, to use this MCP,
+
+01:47:02.520 --> 01:47:05.520
+you don't have to login or anything.
+
+01:47:05.520 --> 01:47:07.520
+So you can directly use it.
+
+01:47:07.520 --> 01:47:09.520
+And this is your connector.
+
+01:47:09.520 --> 01:47:11.520
+Right?
+
+01:47:11.520 --> 01:47:13.520
+Now if I go to Excel.
+
+01:47:13.520 --> 01:47:16.520
+Let's use this sheet.
+
+01:47:16.520 --> 01:47:18.520
+If I go to Excel.
+
+01:47:18.520 --> 01:47:20.520
+And here, if I click on plus.
+
+01:47:20.520 --> 01:47:25.520
+If I go to connectors, you can see that the connector is connected.
+
+01:47:25.520 --> 01:47:27.520
+You can...
+
+01:47:27.520 --> 01:47:29.520
+Now it has not been refreshed.
+
+01:47:29.520 --> 01:47:31.520
+Sorry. See, this is the connector.
+
+01:47:31.520 --> 01:47:33.520
+Right?
+
+01:47:33.520 --> 01:47:35.520
+Now you can use this connector.
+
+01:47:35.520 --> 01:47:39.520
+This connector is of FDA, the government, the organization.
+
+01:47:39.520 --> 01:47:43.520
+Now you can use this connector and get any data from FDA.
+
+01:47:43.520 --> 01:47:45.520
+Okay?
+
+01:47:45.520 --> 01:47:47.520
+Sorry.
+
+01:47:47.520 --> 01:47:49.520
+What I will do, I have already written the prompt.
+
+01:47:49.520 --> 01:47:51.520
+Let me bring that.
+
+01:47:51.520 --> 01:47:53.520
+So see.
+
+01:47:54.520 --> 01:47:56.520
+This is the prompt I have written.
+
+01:47:58.520 --> 01:48:00.520
+Prompt is what I am simply saying.
+
+01:48:00.520 --> 01:48:04.520
+Please query your databases for the 100 most recent medical recalls.
+
+01:48:04.520 --> 01:48:08.520
+Please keep in mind, when you are using connectors,
+
+01:48:08.520 --> 01:48:12.520
+you are specifically mentioning the name of the database, keyword or connector.
+
+01:48:12.520 --> 01:48:14.520
+Otherwise, what does Entropic do?
+
+01:48:14.520 --> 01:48:16.520
+Most of the time, Google starts searching.
+
+01:48:16.520 --> 01:48:18.520
+Right? So you mention it.
+
+01:48:18.520 --> 01:48:20.520
+Okay?
+
+01:48:20.520 --> 01:48:22.520
+So what did I say?
+
+01:48:22.520 --> 01:48:24.520
+Put data into the format Excel table, starting from the cell A1.
+
+01:48:24.520 --> 01:48:27.520
+I need only two columns, device name and recall severity.
+
+01:48:27.520 --> 01:48:29.520
+Whichever severity it is recalled on.
+
+01:48:29.520 --> 01:48:31.520
+I am just giving it the prompt.
+
+01:48:33.520 --> 01:48:35.520
+Now what will it do?
+
+01:48:35.520 --> 01:48:39.520
+It will call my data, which you can say server.
+
+01:48:39.520 --> 01:48:41.520
+Okay?
+
+01:48:43.520 --> 01:48:45.520
+I will paste data.
+
+01:48:45.520 --> 01:48:47.520
+Actually, why am I not catching my server?
+
+01:48:47.520 --> 01:48:49.520
+Let's see.
+
+01:48:49.520 --> 01:48:53.520
+Use FTA data connector.
+
+01:48:53.520 --> 01:48:55.520
+Let's see if it catches.
+
+01:48:55.520 --> 01:48:57.520
+Okay.
+
+01:48:57.520 --> 01:48:59.520
+It saw the MCP.
+
+01:48:59.520 --> 01:49:01.520
+And it got the MCP connector.
+
+01:49:01.520 --> 01:49:03.520
+Now what did it do?
+
+01:49:03.520 --> 01:49:07.520
+It used the MCP connector to connect to the server.
+
+01:49:07.520 --> 01:49:09.520
+Here, it requested an API.
+
+01:49:09.520 --> 01:49:13.520
+And I am saying that you use this API request to fetch data.
+
+01:49:13.520 --> 01:49:15.520
+And here your data will come.
+
+01:49:17.520 --> 01:49:19.520
+Okay?
+
+01:49:19.520 --> 01:49:21.520
+And the request that was written.
+
+01:49:21.520 --> 01:49:23.520
+If I can show you the request.
+
+01:49:23.520 --> 01:49:25.520
+See.
+
+01:49:25.520 --> 01:49:27.520
+No, sorry.
+
+01:49:27.520 --> 01:49:29.520
+It is not here.
+
+01:49:29.520 --> 01:49:31.520
+That request.
+
+01:49:31.520 --> 01:49:33.520
+See, what did it do first?
+
+01:49:33.520 --> 01:49:35.520
+It saw your connectors.
+
+01:49:35.520 --> 01:49:37.520
+Here it got the connector.
+
+01:49:37.520 --> 01:49:41.520
+And after that, the request that it wrote, it got the data.
+
+01:49:41.520 --> 01:49:45.520
+And after that, the request that it wrote, I am not getting that request.
+
+01:49:45.520 --> 01:49:49.520
+But if you see the recording, pause it and see.
+
+01:49:49.520 --> 01:49:51.520
+It must have written there that it will fetch 100 records.
+
+01:49:51.520 --> 01:49:55.520
+Now this data will automatically come to my Excel.
+
+01:49:55.520 --> 01:49:59.520
+See how simple it has become to get data to Excel.
+
+01:49:59.520 --> 01:50:01.520
+You can connect to any connector.
+
+01:50:01.520 --> 01:50:03.520
+You can use that connector to get data to Excel.
+
+01:50:05.520 --> 01:50:07.520
+Clear with this point? Everyone?
+
+01:50:11.520 --> 01:50:13.520
+See.
+
+01:50:15.520 --> 01:50:17.520
+This data has come to you.
+
+01:50:17.520 --> 01:50:19.520
+Now this data is coming from an authentic server.
+
+01:50:21.520 --> 01:50:23.520
+Right?
+
+01:50:23.520 --> 01:50:25.520
+Okay.
+
+01:50:25.520 --> 01:50:27.520
+You can trust this data.
+
+01:50:27.520 --> 01:50:29.520
+Now let's say if you want to get data from Paytm, log in.
+
+01:50:29.520 --> 01:50:31.520
+Log in from Stripe.
+
+01:50:31.520 --> 01:50:33.520
+There is no problem with any API.
+
+01:50:33.520 --> 01:50:37.520
+Claude for Excel is handling everything for you.
+
+01:50:37.520 --> 01:50:39.520
+So you think about it yourself.
+
+01:50:39.520 --> 01:50:45.520
+Bring data to Excel, clean data, analyze data, visualize data.
+
+01:50:45.520 --> 01:50:49.520
+Claude for Excel simplifies everything for you.
+
+01:50:49.520 --> 01:50:51.520
+Right?
+
+01:50:51.520 --> 01:50:53.520
+And explore as many connectors as you can.
+
+01:50:53.520 --> 01:50:57.520
+Go here according to your requirements.
+
+01:50:57.520 --> 01:51:01.520
+And according to your domain, see the connectors in actual.
+
+01:51:01.520 --> 01:51:03.520
+Legal, life, science, productivity, sales and marketing.
+
+01:51:03.520 --> 01:51:07.520
+I don't know how many connectors are here.
+
+01:51:07.520 --> 01:51:11.520
+You have to just explore and get the data from your domain.
+
+01:51:13.520 --> 01:51:15.520
+Everyone is clear up to here?
+
+01:51:17.520 --> 01:51:19.520
+Quick yes or no please.
+
+01:51:23.520 --> 01:51:25.520
+Perfect.
+
+01:51:25.520 --> 01:51:27.520
+Okay.
+
+01:51:27.520 --> 01:51:31.520
+Whenever you want to bring data to Excel next time, don't copy and paste.
+
+01:51:31.520 --> 01:51:35.520
+First of all, see if there is any connector available.
+
+01:51:35.520 --> 01:51:39.520
+And there is high chance that the connector of the application you want to bring data from,
+
+01:51:39.520 --> 01:51:43.520
+the database you want to bring data from, will be available.
+
+01:51:43.520 --> 01:51:45.520
+Now let's say there is a database called World Data Bank.
+
+01:51:45.520 --> 01:51:55.520
+If you search on Google, MCP server for World Data Bank.
+
+01:51:55.520 --> 01:51:59.520
+See, someone has created a MCP server for World Data Bank.
+
+01:51:59.520 --> 01:52:03.520
+Now read through it once and pick up its URL from here.
+
+01:52:05.520 --> 01:52:07.520
+Simply.
+
+01:52:07.520 --> 01:52:09.520
+Right? And you will get this connector.
+
+01:52:11.520 --> 01:52:13.520
+Okay?
+
+01:52:15.520 --> 01:52:21.520
+Harry is asking, so we can scrap data easily if we add Playwright Connector.
+
+01:52:21.520 --> 01:52:23.520
+Yes, you should have access.
+
+01:52:23.520 --> 01:52:25.520
+Let's say I don't have a Slack account.
+
+01:52:25.520 --> 01:52:27.520
+Now let's say, let me tell you one more thing.
+
+01:52:27.520 --> 01:52:31.520
+I have connected to connectors from here.
+
+01:52:31.520 --> 01:52:35.520
+Let's say I have connected to Notion.
+
+01:52:35.520 --> 01:52:41.520
+So when I connect to Notion, basically I will be able to extract the same data from Notion
+
+01:52:41.520 --> 01:52:43.520
+which has access to my mail.
+
+01:52:43.520 --> 01:52:47.520
+Now you can't do unwanted, you can say, scrapping.
+
+01:52:47.520 --> 01:52:49.520
+Clear with this point?
+
+01:52:49.520 --> 01:52:51.520
+You can keep a complete security.
+
+01:52:53.520 --> 01:52:55.520
+Clear?
+
+01:52:55.520 --> 01:52:57.520
+Clear?
+
+01:52:59.520 --> 01:53:01.520
+Let's go.
+
+01:53:01.520 --> 01:53:03.520
+Okay.
+
+01:53:03.520 --> 01:53:05.520
+Now let's go to the next one.
+
+01:53:05.520 --> 01:53:07.520
+That is your
+
+01:53:09.520 --> 01:53:11.520
+plugins.
+
+01:53:11.520 --> 01:53:13.520
+Now what are plugins?
+
+01:53:13.520 --> 01:53:17.520
+Let's say you are in the marketing team.
+
+01:53:17.520 --> 01:53:19.520
+Okay.
+
+01:53:19.520 --> 01:53:23.520
+Forget marketing, you are the head of customer service team.
+
+01:53:29.520 --> 01:53:31.520
+Okay.
+
+01:53:31.520 --> 01:53:33.520
+Now what is your daily work?
+
+01:53:33.520 --> 01:53:35.520
+Pulling customer data.
+
+01:53:35.520 --> 01:53:37.520
+Let's say they have different apps from there.
+
+01:53:37.520 --> 01:53:39.520
+Then analyzing it.
+
+01:53:39.520 --> 01:53:41.520
+And then giving recommendations based on it.
+
+01:53:41.520 --> 01:53:43.520
+This is your full work.
+
+01:53:43.520 --> 01:53:45.520
+And you bring data from multiple apps.
+
+01:53:45.520 --> 01:53:47.520
+You analyze it in multiple ways.
+
+01:53:47.520 --> 01:53:49.520
+So what you can do?
+
+01:53:49.520 --> 01:53:53.520
+You can use multiple MCPs to bring data from multiple apps.
+
+01:53:53.520 --> 01:53:55.520
+Okay.
+
+01:53:55.520 --> 01:53:59.520
+You can make multiple skills to analyze it in multiple ways.
+
+01:53:59.520 --> 01:54:01.520
+Okay.
+
+01:54:01.520 --> 01:54:03.520
+And these things
+
+01:54:03.520 --> 01:54:09.520
+you can make a plugin instead of keeping it distorted.
+
+01:54:09.520 --> 01:54:11.520
+So plugin is nothing.
+
+01:54:11.520 --> 01:54:13.520
+It is nothing.
+
+01:54:13.520 --> 01:54:17.520
+Plugin is just the collection of various MCPs and various skills
+
+01:54:17.520 --> 01:54:19.520
+that you can use together.
+
+01:54:19.520 --> 01:54:21.520
+Meaning you get everything at one place.
+
+01:54:21.520 --> 01:54:25.520
+You made this plugin and you gave it to the whole team.
+
+01:54:25.520 --> 01:54:27.520
+What can you do?
+
+01:54:27.520 --> 01:54:29.520
+The team can use the MCP mentioned in that plugin.
+
+01:54:29.520 --> 01:54:35.520
+The skills mentioned in the analysis can be used very easily.
+
+01:54:35.520 --> 01:54:37.520
+This is plugin.
+
+01:54:37.520 --> 01:54:39.520
+So plugin basically is nothing.
+
+01:54:39.520 --> 01:54:43.520
+Plugin is just the collection of MCP and skills
+
+01:54:43.520 --> 01:54:45.520
+which you can keep at one place.
+
+01:54:45.520 --> 01:54:47.520
+Okay.
+
+01:54:47.520 --> 01:54:49.520
+And I have written it here.
+
+01:54:49.520 --> 01:54:51.520
+Plugin is a prepackaged bundle of that combined skills.
+
+01:54:51.520 --> 01:54:55.520
+MCP connectors, set, slash commands, subagents
+
+01:54:55.520 --> 01:54:59.520
+into a single one click instruction.
+
+01:54:59.520 --> 01:55:01.520
+You basically get commands and subagents in this.
+
+01:55:01.520 --> 01:55:03.520
+But they don't stay in Excel.
+
+01:55:03.520 --> 01:55:05.520
+So we won't consider this for Excel.
+
+01:55:05.520 --> 01:55:07.520
+Okay.
+
+01:55:07.520 --> 01:55:11.520
+So these plugins are basically you can use in any cloud code.
+
+01:55:11.520 --> 01:55:13.520
+Right.
+
+01:55:13.520 --> 01:55:15.520
+So these are plugins.
+
+01:55:15.520 --> 01:55:19.520
+So you will get the plugins in what?
+
+01:55:19.520 --> 01:55:21.520
+In cloud.
+
+01:55:21.520 --> 01:55:23.520
+Right. If I show you here.
+
+01:55:23.520 --> 01:55:25.520
+Go to settings.
+
+01:55:25.520 --> 01:55:27.520
+Go to plugins.
+
+01:55:27.520 --> 01:55:29.520
+Add browse plugins.
+
+01:55:29.520 --> 01:55:31.520
+There are so many plugins.
+
+01:55:31.520 --> 01:55:33.520
+Domain wise selectable.
+
+01:55:33.520 --> 01:55:35.520
+Okay.
+
+01:55:35.520 --> 01:55:37.520
+But,
+
+01:55:37.520 --> 01:55:39.520
+Domain wise select any plugin.
+
+01:55:39.520 --> 01:55:41.520
+Right. Now there is a very famous plugin here
+
+01:55:41.520 --> 01:55:43.520
+that is data.
+
+01:55:43.520 --> 01:55:45.520
+This is the plugin of Anthropic.
+
+01:55:45.520 --> 01:55:47.520
+Now in this plugin, basically Anthropic has written
+
+01:55:47.520 --> 01:55:49.520
+so many skills for you.
+
+01:55:49.520 --> 01:55:51.520
+Analyze skills, build dashboard skills,
+
+01:55:51.520 --> 01:55:53.520
+visualization skills,
+
+01:55:53.520 --> 01:55:55.520
+contact data extraction skills.
+
+01:55:55.520 --> 01:55:57.520
+There are many skills.
+
+01:55:57.520 --> 01:55:59.520
+And so many connectors.
+
+01:55:59.520 --> 01:56:01.520
+You can get data from here.
+
+01:56:01.520 --> 01:56:03.520
+Okay.
+
+01:56:03.520 --> 01:56:05.520
+So you got all these things at one place.
+
+01:56:05.520 --> 01:56:07.520
+You don't have to handle multiple things in different ways.
+
+01:56:07.520 --> 01:56:09.520
+You don't have to manage.
+
+01:56:09.520 --> 01:56:11.520
+Simply add this plugin.
+
+01:56:11.520 --> 01:56:13.520
+Here I clicked on plus.
+
+01:56:13.520 --> 01:56:15.520
+Okay.
+
+01:56:15.520 --> 01:56:17.520
+Now this plugin is added here.
+
+01:56:17.520 --> 01:56:19.520
+It has 10 skills.
+
+01:56:19.520 --> 01:56:21.520
+Now I can use this plugin
+
+01:56:21.520 --> 01:56:23.520
+and do whatever skills are mentioned in this plugin.
+
+01:56:23.520 --> 01:56:25.520
+I can do everything.
+
+01:56:25.520 --> 01:56:27.520
+Skills, tools, I can use everything.
+
+01:56:27.520 --> 01:56:29.520
+Right.
+
+01:56:29.520 --> 01:56:31.520
+Now
+
+01:56:31.520 --> 01:56:33.520
+there is a very good skill in this plugin.
+
+01:56:33.520 --> 01:56:35.520
+That is explore data.
+
+01:56:35.520 --> 01:56:37.520
+It explores your data.
+
+01:56:37.520 --> 01:56:39.520
+Second skill
+
+01:56:39.520 --> 01:56:41.520
+is analyze data.
+
+01:56:41.520 --> 01:56:43.520
+It analyzes your data.
+
+01:56:43.520 --> 01:56:45.520
+So you don't have to write manually.
+
+01:56:45.520 --> 01:56:47.520
+Everything is in the plugin.
+
+01:56:47.520 --> 01:56:49.520
+Now all these skills are used by people
+
+01:56:49.520 --> 01:56:51.520
+in your data field.
+
+01:56:51.520 --> 01:56:53.520
+In the same way, go to marketplace.
+
+01:56:55.520 --> 01:56:57.520
+Sorry, go to the blouse plugins.
+
+01:56:57.520 --> 01:56:59.520
+There is another very good
+
+01:56:59.520 --> 01:57:01.520
+plugin that is
+
+01:57:01.520 --> 01:57:03.520
+marketing.
+
+01:57:03.520 --> 01:57:05.520
+This is also of Anthropic.
+
+01:57:05.520 --> 01:57:07.520
+Okay. In this plugin, you have 8 skills
+
+01:57:07.520 --> 01:57:09.520
+and 13 connectors.
+
+01:57:09.520 --> 01:57:11.520
+What marketing people have to do basically?
+
+01:57:11.520 --> 01:57:13.520
+They have to do brand review.
+
+01:57:13.520 --> 01:57:15.520
+They have to do campaign plan.
+
+01:57:15.520 --> 01:57:17.520
+They have to do competitive analysis.
+
+01:57:17.520 --> 01:57:19.520
+They have to do content creation.
+
+01:57:19.520 --> 01:57:21.520
+They have to generate performance report.
+
+01:57:21.520 --> 01:57:23.520
+Skills are made for every work.
+
+01:57:23.520 --> 01:57:25.520
+From where marketing team brings data?
+
+01:57:25.520 --> 01:57:27.520
+For every thing, a connector is made here.
+
+01:57:29.520 --> 01:57:31.520
+What you have to do is
+
+01:57:31.520 --> 01:57:33.520
+install this plugin.
+
+01:57:33.520 --> 01:57:35.520
+There is a very simple way
+
+01:57:35.520 --> 01:57:37.520
+to install it.
+
+01:57:37.520 --> 01:57:39.520
+Click on plus.
+
+01:57:39.520 --> 01:57:41.520
+Once you have done on plus, this plugin
+
+01:57:41.520 --> 01:57:43.520
+comes to you. Now you can use it
+
+01:57:43.520 --> 01:57:45.520
+anywhere. Let's say you are
+
+01:57:45.520 --> 01:57:47.520
+on cloud desktop.
+
+01:57:49.520 --> 01:57:51.520
+I will tell you using you here too.
+
+01:57:51.520 --> 01:57:53.520
+See, go to plus here.
+
+01:57:53.520 --> 01:57:55.520
+Go to plugins. Go to data.
+
+01:57:55.520 --> 01:57:57.520
+All the skills of data
+
+01:57:57.520 --> 01:57:59.520
+are here.
+
+01:57:59.520 --> 01:58:01.520
+Go to marketing. Let's say I have to draft
+
+01:58:01.520 --> 01:58:03.520
+the content. Go to draft content
+
+01:58:03.520 --> 01:58:05.520
+and write
+
+01:58:07.520 --> 01:58:09.520
+LinkedIn post
+
+01:58:09.520 --> 01:58:11.520
+related to AI.
+
+01:58:11.520 --> 01:58:13.520
+Simply.
+
+01:58:13.520 --> 01:58:15.520
+Now what will it say?
+
+01:58:15.520 --> 01:58:17.520
+Cloud.
+
+01:58:17.520 --> 01:58:19.520
+This skill is used
+
+01:58:19.520 --> 01:58:21.520
+by it. First of all,
+
+01:58:21.520 --> 01:58:23.520
+it is reading the skill.
+
+01:58:23.520 --> 01:58:25.520
+It opens the skill
+
+01:58:25.520 --> 01:58:27.520
+and starts reading it.
+
+01:58:27.520 --> 01:58:29.520
+As soon as it reads it,
+
+01:58:29.520 --> 01:58:31.520
+after that, if required,
+
+01:58:31.520 --> 01:58:33.520
+it will ask some questions or it will start working.
+
+01:58:33.520 --> 01:58:35.520
+See,
+
+01:58:35.520 --> 01:58:37.520
+this is plugin.
+
+01:58:37.520 --> 01:58:39.520
+Many people have made plugins.
+
+01:58:39.520 --> 01:58:41.520
+Now it asks you what angle
+
+01:58:41.520 --> 01:58:43.520
+should be. I am saying
+
+01:58:43.520 --> 01:58:45.520
+your campus x work.
+
+01:58:45.520 --> 01:58:47.520
+I am saying
+
+01:58:47.520 --> 01:58:49.520
+opinionated hot take.
+
+01:58:49.520 --> 01:58:51.520
+Short punchy standard.
+
+01:58:51.520 --> 01:58:53.520
+It has asked me questions.
+
+01:58:53.520 --> 01:58:55.520
+Now it will work for me.
+
+01:58:55.520 --> 01:58:57.520
+Now this marketing skill
+
+01:58:57.520 --> 01:58:59.520
+has some work in Excel.
+
+01:58:59.520 --> 01:59:01.520
+But the work in Excel is
+
+01:59:01.520 --> 01:59:03.520
+the plugin of data.
+
+01:59:03.520 --> 01:59:05.520
+The skills in it
+
+01:59:05.520 --> 01:59:07.520
+these skills
+
+01:59:09.520 --> 01:59:11.520
+explore data, validate
+
+01:59:11.520 --> 01:59:13.520
+data, statistical analysis,
+
+01:59:15.520 --> 01:59:17.520
+analyze skill.
+
+01:59:17.520 --> 01:59:19.520
+Again, the work of writing
+
+01:59:19.520 --> 01:59:21.520
+SQL query. This skill
+
+01:59:21.520 --> 01:59:23.520
+is not in Excel.
+
+01:59:23.520 --> 01:59:25.520
+Because I am not writing SQL query in Excel.
+
+01:59:25.520 --> 01:59:27.520
+So plugin is not made
+
+01:59:27.520 --> 01:59:29.520
+for any app.
+
+01:59:29.520 --> 01:59:31.520
+It is made in general.
+
+01:59:31.520 --> 01:59:33.520
+Now think, this plugin
+
+01:59:33.520 --> 01:59:35.520
+data visualization plugin.
+
+01:59:35.520 --> 01:59:37.520
+It can work very well in cloud
+
+01:59:37.520 --> 01:59:39.520
+app. Here I will give
+
+01:59:39.520 --> 01:59:41.520
+a data and call this skill.
+
+01:59:41.520 --> 01:59:43.520
+Sorry not plugin. This skill.
+
+01:59:43.520 --> 01:59:45.520
+I will call this skill and it will visualize.
+
+01:59:45.520 --> 01:59:47.520
+Right?
+
+01:59:47.520 --> 01:59:49.520
+So this is plugin.
+
+01:59:49.520 --> 01:59:51.520
+Now let's do one thing.
+
+01:59:51.520 --> 01:59:53.520
+This data we have called
+
+01:59:53.520 --> 01:59:55.520
+this data will be analyzed.
+
+01:59:55.520 --> 01:59:57.520
+So you have to use plugin. How?
+
+01:59:57.520 --> 01:59:59.520
+Go to plugin.
+
+01:59:59.520 --> 02:00:01.520
+Here it is not refreshed yet.
+
+02:00:03.520 --> 02:00:05.520
+I do one thing.
+
+02:00:05.520 --> 02:00:07.520
+I go to home and
+
+02:00:07.520 --> 02:00:09.520
+shut it down once.
+
+02:00:09.520 --> 02:00:11.520
+Let's open cloud again.
+
+02:00:11.520 --> 02:00:13.520
+See,
+
+02:00:13.520 --> 02:00:15.520
+now all plugins have come on me.
+
+02:00:15.520 --> 02:00:17.520
+Now whatever plugins I click,
+
+02:00:17.520 --> 02:00:19.520
+I get that skill.
+
+02:00:19.520 --> 02:00:21.520
+Right?
+
+02:00:21.520 --> 02:00:23.520
+I am saying explore data.
+
+02:00:23.520 --> 02:00:25.520
+I am saying
+
+02:00:25.520 --> 02:00:27.520
+explore
+
+02:00:31.520 --> 02:00:33.520
+data for
+
+02:00:33.520 --> 02:00:35.520
+simply.
+
+02:00:35.520 --> 02:00:37.520
+So,
+
+02:00:37.520 --> 02:00:39.520
+I am saying
+
+02:00:39.520 --> 02:00:41.520
+explore data.
+
+02:00:41.520 --> 02:00:43.520
+Now it will explore.
+
+02:00:43.520 --> 02:00:45.520
+Ok, first of all,
+
+02:00:45.520 --> 02:00:47.520
+it is reading the reading instructions of this skill.
+
+02:00:47.520 --> 02:00:49.520
+It read the skill. This is the whole skill.
+
+02:00:51.520 --> 02:00:53.520
+This skill is not made by me.
+
+02:00:53.520 --> 02:00:55.520
+It was in the plugins. From there you use.
+
+02:00:57.520 --> 02:00:59.520
+Right? Now it is reading data.
+
+02:01:01.520 --> 02:01:03.520
+So what you have to do is
+
+02:01:03.520 --> 02:01:05.520
+we
+
+02:01:05.520 --> 02:01:07.520
+one aspect of our cloud for excel is left.
+
+02:01:07.520 --> 02:01:09.520
+Apart from this, we have covered all aspects.
+
+02:01:09.520 --> 02:01:11.520
+How to do it normally?
+
+02:01:11.520 --> 02:01:13.520
+How to make a dashboard
+
+02:01:13.520 --> 02:01:15.520
+database? How to edit?
+
+02:01:15.520 --> 02:01:17.520
+How to do visualization?
+
+02:01:17.520 --> 02:01:19.520
+How to use this skill?
+
+02:01:19.520 --> 02:01:21.520
+Cloud for excel.
+
+02:01:21.520 --> 02:01:23.520
+How to get data from MCP?
+
+02:01:23.520 --> 02:01:25.520
+How to use it?
+
+02:01:25.520 --> 02:01:27.520
+How to use plugins from leg?
+
+02:01:27.520 --> 02:01:29.520
+We have covered all.
+
+02:01:29.520 --> 02:01:31.520
+Now what you have to do?
+
+02:01:31.520 --> 02:01:33.520
+You have to do nothing.
+
+02:01:33.520 --> 02:01:35.520
+Open this skill, open the connector, open the plugin.
+
+02:01:35.520 --> 02:01:37.520
+Make the skill yourself.
+
+02:01:37.520 --> 02:01:39.520
+Open connectors and plugin and explore them.
+
+02:01:39.520 --> 02:01:41.520
+See which one is yours.
+
+02:01:41.520 --> 02:01:43.520
+Let's say which domain
+
+02:01:43.520 --> 02:01:45.520
+you are working in.
+
+02:01:45.520 --> 02:01:47.520
+Select that domain from here.
+
+02:01:49.520 --> 02:01:51.520
+Ok
+
+02:01:51.520 --> 02:01:53.520
+Let's say
+
+02:01:53.520 --> 02:01:55.520
+I work only for
+
+02:01:55.520 --> 02:01:57.520
+database.
+
+02:01:57.520 --> 02:01:59.520
+Select the plugin from here.
+
+02:01:59.520 --> 02:02:01.520
+Read it.
+
+02:02:01.520 --> 02:02:03.520
+What can that plugin do?
+
+02:02:03.520 --> 02:02:05.520
+Go to the plugin, this is the plugin for finance.
+
+02:02:05.520 --> 02:02:07.520
+Here you will get the details
+
+02:02:07.520 --> 02:02:09.520
+of what this plugin does.
+
+02:02:09.520 --> 02:02:11.520
+What skills this plugin has, what connectors
+
+02:02:11.520 --> 02:02:13.520
+this plugin has.
+
+02:02:13.520 --> 02:02:15.520
+You can do everything.
+
+02:02:15.520 --> 02:02:17.520
+Now I will tell you
+
+02:02:17.520 --> 02:02:19.520
+how to use MCP inside plugin.
+
+02:02:19.520 --> 02:02:21.520
+Go to this.
+
+02:02:21.520 --> 02:02:23.520
+Go to connectors.
+
+02:02:25.520 --> 02:02:27.520
+Ok.
+
+02:02:27.520 --> 02:02:29.520
+I have told you one thing.
+
+02:02:29.520 --> 02:02:31.520
+Let's say this snowflake connector is here.
+
+02:02:31.520 --> 02:02:33.520
+First of all, you have to
+
+02:02:33.520 --> 02:02:35.520
+authenticate this connector.
+
+02:02:35.520 --> 02:02:37.520
+Means you have to go to connectors
+
+02:02:37.520 --> 02:02:39.520
+and search for snowflake use.
+
+02:02:39.520 --> 02:02:41.520
+And here you have to authenticate it.
+
+02:02:41.520 --> 02:02:43.520
+And then what you can do?
+
+02:02:43.520 --> 02:02:45.520
+You can use this
+
+02:02:45.520 --> 02:02:47.520
+through connectors.
+
+02:02:53.520 --> 02:02:55.520
+Ok.
+
+02:02:57.520 --> 02:02:59.520
+Clear.
+
+02:02:59.520 --> 02:03:01.520
+This is my skill.
+
+02:03:01.520 --> 02:03:03.520
+It gave me
+
+02:03:03.520 --> 02:03:05.520
+the whole
+
+02:03:05.520 --> 02:03:07.520
+data.
+
+02:03:15.520 --> 02:03:17.520
+It gave me everything.
+
+02:03:17.520 --> 02:03:19.520
+Full analysis.
+
+02:03:19.520 --> 02:03:21.520
+So this is plugin.
+
+02:03:21.520 --> 02:03:23.520
+Do search for plugins.
+
+02:03:23.520 --> 02:03:25.520
+Till here, everyone
+
+02:03:25.520 --> 02:03:27.520
+is clear. Each and everything.
+
+02:03:27.520 --> 02:03:29.520
+Now we have to do a very interesting thing.
+
+02:03:33.520 --> 02:03:35.520
+Quick here, Sonu.
+
+02:03:35.520 --> 02:03:37.520
+I think everyone is bored.
+
+02:03:43.520 --> 02:03:45.520
+You tell.
+
+02:03:45.520 --> 02:03:47.520
+What should I tell?
+
+02:03:47.520 --> 02:03:49.520
+I am getting angry.
+
+02:03:49.520 --> 02:03:51.520
+Sudipta
+
+02:03:51.520 --> 02:03:53.520
+got angry.
+
+02:03:53.520 --> 02:03:55.520
+He is telling me to tell
+
+02:03:55.520 --> 02:03:57.520
+that I am bored.
+
+02:03:57.520 --> 02:03:59.520
+Ok.
+
+02:03:59.520 --> 02:04:01.520
+Now let's read one last aspect.
+
+02:04:01.520 --> 02:04:03.520
+That is
+
+02:04:03.520 --> 02:04:05.520
+your session logs.
+
+02:04:05.520 --> 02:04:07.520
+Ok. Now if you
+
+02:04:07.520 --> 02:04:09.520
+go to this sheet
+
+02:04:09.520 --> 02:04:11.520
+I am going to the old one.
+
+02:04:11.520 --> 02:04:13.520
+When I gave the first prompt
+
+02:04:13.520 --> 02:04:15.520
+then Claude made a sheet here.
+
+02:04:17.520 --> 02:04:19.520
+Ok. Why did he make this sheet?
+
+02:04:19.520 --> 02:04:21.520
+Because I went to settings and
+
+02:04:21.520 --> 02:04:23.520
+turned on session logging.
+
+02:04:23.520 --> 02:04:25.520
+When you turn on session logging
+
+02:04:25.520 --> 02:04:27.520
+then when the session starts
+
+02:04:27.520 --> 02:04:29.520
+in your desktop.
+
+02:04:29.520 --> 02:04:31.520
+When you start the session
+
+02:04:31.520 --> 02:04:33.520
+then Claude makes a sheet
+
+02:04:33.520 --> 02:04:35.520
+by saying session log.
+
+02:04:35.520 --> 02:04:37.520
+And in this session log sheet
+
+02:04:37.520 --> 02:04:39.520
+he stores everything.
+
+02:04:39.520 --> 02:04:41.520
+Each and everything.
+
+02:04:41.520 --> 02:04:43.520
+He will tell you
+
+02:04:43.520 --> 02:04:45.520
+the first prompt on which date
+
+02:04:45.520 --> 02:04:47.520
+and what was your prompt.
+
+02:04:47.520 --> 02:04:49.520
+My prompt was read all 8 sheets
+
+02:04:49.520 --> 02:04:51.520
+and provide one line summary for each.
+
+02:04:51.520 --> 02:04:53.520
+Then I identified the facts versus reference table.
+
+02:04:53.520 --> 02:04:55.520
+This was my prompt.
+
+02:04:55.520 --> 02:04:57.520
+These actions are
+
+02:04:57.520 --> 02:04:59.520
+taken by Claude.
+
+02:04:59.520 --> 02:05:01.520
+He read the headers
+
+02:05:01.520 --> 02:05:03.520
+and gave a summary.
+
+02:05:03.520 --> 02:05:05.520
+And these are the details.
+
+02:05:05.520 --> 02:05:07.520
+All the details.
+
+02:05:07.520 --> 02:05:09.520
+Ok. Now let's go to this.
+
+02:05:09.520 --> 02:05:11.520
+My sixth prompt was
+
+02:05:11.520 --> 02:05:13.520
+add a gross profit column in
+
+02:05:13.520 --> 02:05:15.520
+sales column in sales chart.
+
+02:05:15.520 --> 02:05:17.520
+What actions did I take?
+
+02:05:17.520 --> 02:05:19.520
+What actions did I take?
+
+02:05:19.520 --> 02:05:21.520
+Added header this
+
+02:05:21.520 --> 02:05:23.520
+value here
+
+02:05:23.520 --> 02:05:25.520
+formula here.
+
+02:05:25.520 --> 02:05:27.520
+And this formula
+
+02:05:27.520 --> 02:05:29.520
+is written in detail here.
+
+02:05:29.520 --> 02:05:31.520
+And if error is used because
+
+02:05:31.520 --> 02:05:33.520
+non-zero values are 9 and this
+
+02:05:33.520 --> 02:05:35.520
+is the range.
+
+02:05:35.520 --> 02:05:37.520
+So you can use
+
+02:05:37.520 --> 02:05:39.520
+this
+
+02:05:39.520 --> 02:05:41.520
+first
+
+02:05:41.520 --> 02:05:43.520
+for auditing.
+
+02:05:43.520 --> 02:05:45.520
+You
+
+02:05:45.520 --> 02:05:47.520
+don't remember
+
+02:05:47.520 --> 02:05:49.520
+what was the column made from.
+
+02:05:49.520 --> 02:05:51.520
+You can check
+
+02:05:51.520 --> 02:05:53.520
+in your Claude log file
+
+02:05:53.520 --> 02:05:55.520
+how was the column.
+
+02:05:55.520 --> 02:05:57.520
+You can use this
+
+02:05:57.520 --> 02:05:59.520
+for learning purpose.
+
+02:06:01.520 --> 02:06:03.520
+You don't understand
+
+02:06:03.520 --> 02:06:05.520
+how to achieve any particular task.
+
+02:06:05.520 --> 02:06:07.520
+Gross profit column
+
+02:06:07.520 --> 02:06:09.520
+what was the formula?
+
+02:06:09.520 --> 02:06:11.520
+You have it here.
+
+02:06:11.520 --> 02:06:13.520
+You can analyze it.
+
+02:06:13.520 --> 02:06:15.520
+This is used
+
+02:06:15.520 --> 02:06:17.520
+to build trust.
+
+02:06:17.520 --> 02:06:19.520
+You can audit it very well
+
+02:06:19.520 --> 02:06:21.520
+that how every row
+
+02:06:21.520 --> 02:06:23.520
+that has changed.
+
+02:06:23.520 --> 02:06:25.520
+Now let's see a very simple
+
+02:06:25.520 --> 02:06:27.520
+complex one.
+
+02:06:27.520 --> 02:06:29.520
+I made a PNL statement
+
+02:06:29.520 --> 02:06:31.520
+this was
+
+02:06:31.520 --> 02:06:33.520
+my sixth prompt was build a
+
+02:06:33.520 --> 02:06:35.520
+2025 PNL
+
+02:06:35.520 --> 02:06:37.520
+forecast in
+
+02:06:37.520 --> 02:06:39.520
+PNL statement sheet using the
+
+02:06:39.520 --> 02:06:41.520
+assumptions already present.
+
+02:06:41.520 --> 02:06:43.520
+This was my statement prompt.
+
+02:06:43.520 --> 02:06:45.520
+Here it has told me what to do.
+
+02:06:45.520 --> 02:06:47.520
+And here are the details
+
+02:06:47.520 --> 02:06:49.520
+that how it was built.
+
+02:06:49.520 --> 02:06:51.520
+Assumptions were written from C6
+
+02:06:51.520 --> 02:06:53.520
+to C12.
+
+02:06:53.520 --> 02:06:55.520
+Gross revenue was increasing 3%
+
+02:06:55.520 --> 02:06:57.520
+month of month from
+
+02:06:57.520 --> 02:06:59.520
+39 lakh.
+
+02:06:59.520 --> 02:07:01.520
+Financial year net profit is this much.
+
+02:07:01.520 --> 02:07:03.520
+All cells.
+
+02:07:03.520 --> 02:07:05.520
+The dollar format
+
+02:07:05.520 --> 02:07:07.520
+rupees hash
+
+02:07:07.520 --> 02:07:09.520
+comma hash hash this format is used.
+
+02:07:09.520 --> 02:07:11.520
+Net profit row
+
+02:07:11.520 --> 02:07:13.520
+dark navy with white text.
+
+02:07:13.520 --> 02:07:15.520
+It has told in detail.
+
+02:07:15.520 --> 02:07:17.520
+You can use this logging
+
+02:07:17.520 --> 02:07:19.520
+for auditing, learning,
+
+02:07:19.520 --> 02:07:21.520
+for multiple purposes.
+
+02:07:21.520 --> 02:07:23.520
+This is a good practice
+
+02:07:23.520 --> 02:07:25.520
+that you always do logging
+
+02:07:25.520 --> 02:07:27.520
+so that you share your sheet
+
+02:07:27.520 --> 02:07:29.520
+with someone tomorrow.
+
+02:07:29.520 --> 02:07:31.520
+So that he knows what work is here.
+
+02:07:31.520 --> 02:07:33.520
+Clear?
+
+02:07:33.520 --> 02:07:35.520
+Everyone
+
+02:07:35.520 --> 02:07:37.520
+clear with this?
+
+02:07:37.520 --> 02:07:39.520
+So far
+
+02:07:39.520 --> 02:07:41.520
+no doubt
+
+02:07:41.520 --> 02:07:43.520
+so far not in fact
+
+02:07:43.520 --> 02:07:45.520
+we have completed.
+
+02:07:45.520 --> 02:07:47.520
+Now let's come to the
+
+02:07:47.520 --> 02:07:49.520
+main point and that
+
+02:07:49.520 --> 02:07:51.520
+main point is
+
+02:07:51.520 --> 02:07:53.520
+I have just shown you a path
+
+02:07:53.520 --> 02:07:55.520
+that how you can use
+
+02:07:55.520 --> 02:07:57.520
+Claude for Excel.
+
+02:07:57.520 --> 02:07:59.520
+You have to
+
+02:07:59.520 --> 02:08:01.520
+now go and explore Claude
+
+02:08:01.520 --> 02:08:03.520
+for Excel. Believe me Claude
+
+02:08:03.520 --> 02:08:05.520
+for Excel can do a lot.
+
+02:08:05.520 --> 02:08:07.520
+You can do repetitive tasks
+
+02:08:07.520 --> 02:08:09.520
+and you can't think what
+
+02:08:09.520 --> 02:08:11.520
+you can do. Just make
+
+02:08:11.520 --> 02:08:13.520
+skills for yourself.
+
+02:08:13.520 --> 02:08:15.520
+Where you are getting data, find MCP
+
+02:08:15.520 --> 02:08:17.520
+servers. Find plugins for yourself.
+
+02:08:17.520 --> 02:08:19.520
+Rest is all written in the prompt.
+
+02:08:19.520 --> 02:08:21.520
+You have to go and do only three things.
+
+02:08:21.520 --> 02:08:23.520
+Find skills or make
+
+02:08:23.520 --> 02:08:25.520
+second is find MCP
+
+02:08:25.520 --> 02:08:27.520
+servers. If
+
+02:08:27.520 --> 02:08:29.520
+the MCP market is Claude
+
+02:08:29.520 --> 02:08:31.520
+there you are getting MCP server
+
+02:08:31.520 --> 02:08:33.520
+well and good. Otherwise, go to Google
+
+02:08:33.520 --> 02:08:35.520
+and search for GitHub. From there
+
+02:08:35.520 --> 02:08:37.520
+click on MCP servers.
+
+02:08:37.520 --> 02:08:39.520
+For your work.
+
+02:08:39.520 --> 02:08:41.520
+Third, find plugins
+
+02:08:41.520 --> 02:08:43.520
+which can help you in your day to day
+
+02:08:43.520 --> 02:08:45.520
+tasks.
+
+02:08:45.520 --> 02:08:47.520
+Believe me guys.
+
+02:08:47.520 --> 02:08:49.520
+Can you rate yourself now
+
+02:08:49.520 --> 02:08:51.520
+that how much
+
+02:08:51.520 --> 02:08:53.520
+productivity you can increase after
+
+02:08:53.520 --> 02:08:55.520
+having today's session?
+
+02:08:55.520 --> 02:08:57.520
+Everywhere. I need ratings
+
+02:08:57.520 --> 02:08:59.520
+from everywhere. Now tell
+
+02:08:59.520 --> 02:09:01.520
+me 10x, 12x, 1x, 2x.
+
+02:09:01.520 --> 02:09:03.520
+If you use Claude for Excel
+
+02:09:03.520 --> 02:09:05.520
+in your daily workflow
+
+02:09:05.520 --> 02:09:07.520
+how much productivity
+
+02:09:07.520 --> 02:09:09.520
+you can increase?
+
+02:09:09.520 --> 02:09:11.520
+Come on, tell me quickly.
+
+02:09:15.520 --> 02:09:17.520
+10x
+
+02:09:19.520 --> 02:09:21.520
+10x
+
+02:09:21.520 --> 02:09:23.520
+4x, 10x
+
+02:09:23.520 --> 02:09:25.520
+I hope you all
+
+02:09:25.520 --> 02:09:27.520
+means what you have given here
+
+02:09:27.520 --> 02:09:29.520
+for the last two and a half hours. I hope you all
+
+02:09:29.520 --> 02:09:31.520
+got the value. You must have got a
+
+02:09:31.520 --> 02:09:33.520
+proper clear idea
+
+02:09:33.520 --> 02:09:35.520
+how to use Claude.
+
+02:09:37.520 --> 02:09:39.520
+So if this is
+
+02:09:39.520 --> 02:09:41.520
+done then the session
+
+02:09:41.520 --> 02:09:43.520
+is successful for today.
+
+02:09:45.520 --> 02:09:47.520
+Now if you have any doubt
+
+02:09:47.520 --> 02:09:49.520
+do ask
+
+02:09:49.520 --> 02:09:51.520
+and do share
+
+02:09:51.520 --> 02:09:53.520
+today's feedback in the group so that
+
+02:09:53.520 --> 02:09:55.520
+people can see its recordings.
+
+02:09:55.520 --> 02:09:57.520
+Because I personally
+
+02:09:57.520 --> 02:09:59.520
+feel most of the day to day analysis
+
+02:09:59.520 --> 02:10:01.520
+is done on Excel.
+
+02:10:01.520 --> 02:10:03.520
+If your data is not coming in bulk
+
+02:10:03.520 --> 02:10:05.520
+and day to day data is coming then
+
+02:10:05.520 --> 02:10:07.520
+analysis is done on Excel. And if you
+
+02:10:07.520 --> 02:10:09.520
+learn Claude for Excel then
+
+02:10:09.520 --> 02:10:11.520
+you can increase productivity a lot.
+
+02:10:11.520 --> 02:10:13.520
+So once in the group
+
+02:10:13.520 --> 02:10:15.520
+do share your feedback so that
+
+02:10:15.520 --> 02:10:17.520
+others are also motivated to
+
+02:10:17.520 --> 02:10:19.520
+see
+
+02:10:19.520 --> 02:10:21.520
+recordings of this lecture.
+
+02:10:23.520 --> 02:10:25.520
+VBS programming
+
+02:10:25.520 --> 02:10:27.520
+Basically I am telling you VBA program.
+
+02:10:27.520 --> 02:10:29.520
+Mitu will not be able to do Claude for you.
+
+02:10:29.520 --> 02:10:31.520
+In fact Claude
+
+02:10:31.520 --> 02:10:33.520
+can't do editing in your Power Query.
+
+02:10:33.520 --> 02:10:35.520
+In Claude's
+
+02:10:35.520 --> 02:10:37.520
+documentation there are strictly mentioned
+
+02:10:37.520 --> 02:10:39.520
+limitations. You have to do it yourself.
+
+02:10:39.520 --> 02:10:41.520
+Again that is
+
+02:10:41.520 --> 02:10:43.520
+why it is said that
+
+02:10:43.520 --> 02:10:45.520
+AI will not replace you. AI
+
+02:10:45.520 --> 02:10:47.520
+will optimize you.
+
+02:10:47.520 --> 02:10:49.520
+VBA you write it yourself.
+
+02:10:49.520 --> 02:10:51.520
+The high level editing you do
+
+02:10:51.520 --> 02:10:53.520
+in Power Query. You have to do
+
+02:10:53.520 --> 02:10:55.520
+that.
+
+02:10:57.520 --> 02:10:59.520
+Anyone any doubt
+
+02:10:59.520 --> 02:11:01.520
+before ending this session?
+
+02:11:09.520 --> 02:11:11.520
+If no you all can write now.
+
+02:11:17.520 --> 02:11:19.520
+So Dipta is asking, there is a question
+
+02:11:19.520 --> 02:11:21.520
+using session login
+
+02:11:21.520 --> 02:11:23.520
+can we go back to a
+
+02:11:23.520 --> 02:11:25.520
+checkpoint?
+
+02:11:25.520 --> 02:11:27.520
+No, Sudeepta.
+
+02:11:27.520 --> 02:11:29.520
+Yes, you can. How?
+
+02:11:29.520 --> 02:11:31.520
+You can't go directly. But how
+
+02:11:31.520 --> 02:11:33.520
+can you go? I will tell you.
+
+02:11:39.520 --> 02:11:41.520
+Don't do anything.
+
+02:11:41.520 --> 02:11:43.520
+You said
+
+02:11:43.520 --> 02:11:45.520
+checkpoint.
+
+02:11:45.520 --> 02:11:47.520
+From leg to 10th everything
+
+02:11:47.520 --> 02:11:49.520
+was going well.
+
+02:11:49.520 --> 02:11:51.520
+Now you have to reverse
+
+02:11:51.520 --> 02:11:53.520
+things. Don't do anything.
+
+02:11:53.520 --> 02:11:55.520
+Select everything from here to below.
+
+02:11:57.520 --> 02:11:59.520
+Go to Claude for Excel.
+
+02:11:59.520 --> 02:12:01.520
+Okay.
+
+02:12:01.520 --> 02:12:03.520
+And tell him
+
+02:12:03.520 --> 02:12:05.520
+that these changes have happened
+
+02:12:05.520 --> 02:12:07.520
+and I want to reverse it.
+
+02:12:07.520 --> 02:12:09.520
+If changes are reversible
+
+02:12:09.520 --> 02:12:11.520
+Claude will do it. But there are
+
+02:12:11.520 --> 02:12:13.520
+high chances that he will not perform so effectively in it.
+
+02:12:13.520 --> 02:12:15.520
+It is not possible
+
+02:12:15.520 --> 02:12:17.520
+to make a checkpoint.
+
+02:12:17.520 --> 02:12:19.520
+You can say in Claude that
+
+02:12:19.520 --> 02:12:21.520
+reverse
+
+02:12:21.520 --> 02:12:23.520
+all the changes
+
+02:12:23.520 --> 02:12:25.520
+as per data
+
+02:12:25.520 --> 02:12:27.520
+given. Claude
+
+02:12:27.520 --> 02:12:29.520
+will try to do all those changes
+
+02:12:29.520 --> 02:12:31.520
+which are possible and reverse them.
+
+02:12:33.520 --> 02:12:35.520
+Okay.
+
+02:12:35.520 --> 02:12:37.520
+I can't do this currently
+
+02:12:37.520 --> 02:12:39.520
+because I want to share this file with you.
+
+02:12:39.520 --> 02:12:41.520
+This is the reason.
+
+02:12:43.520 --> 02:12:45.520
+Okay.
+
+02:12:45.520 --> 02:12:47.520
+Anyone any more doubts?
+
+02:12:57.520 --> 02:12:59.520
+Best practice is to keep checking
+
+02:12:59.520 --> 02:13:01.520
+the code frequently. Yes.
+
+02:13:01.520 --> 02:13:03.520
+Version history
+
+02:13:03.520 --> 02:13:05.520
+you can't make it.
+
+02:13:05.520 --> 02:13:07.520
+You can make
+
+02:13:07.520 --> 02:13:09.520
+multiple Excel files
+
+02:13:09.520 --> 02:13:11.520
+using version history.
+
+02:13:11.520 --> 02:13:13.520
+You can't make it through Claude code.
+
+02:13:13.520 --> 02:13:15.520
+Sorry.
+
+02:13:15.520 --> 02:13:17.520
+You can't make it through Claude code or Excel.
+
+02:13:23.520 --> 02:13:25.520
+Best practice
+
+02:13:25.520 --> 02:13:27.520
+is to
+
+02:13:27.520 --> 02:13:29.520
+keep checking the code frequently. Yes.
+
+02:13:29.520 --> 02:13:31.520
+And the rest of the best practice is
+
+02:13:31.520 --> 02:13:33.520
+always mention your sheet name.
+
+02:13:33.520 --> 02:13:35.520
+Which you want to refer.
+
+02:13:35.520 --> 02:13:37.520
+If there are multiple tables in the sheet, mention your table name.
+
+02:13:37.520 --> 02:13:39.520
+Along with that,
+
+02:13:39.520 --> 02:13:41.520
+check for the cell references.
+
+02:13:41.520 --> 02:13:43.520
+Check if it is happening or not.
+
+02:13:43.520 --> 02:13:45.520
+Always verify the form plus.
+
+02:13:45.520 --> 02:13:47.520
+Always turn session logging on.
+
+02:13:47.520 --> 02:13:49.520
+These are some of the good practices
+
+02:13:49.520 --> 02:13:51.520
+which you should use Claude for Excel.
+
+02:13:51.520 --> 02:13:53.520
+Meaning you should use it quickly.
+
+02:13:55.520 --> 02:13:57.520
+Okay. Any more doubts?
+
+02:14:05.520 --> 02:14:07.520
+Okay. So shall we
+
+02:14:07.520 --> 02:14:09.520
+end this session?
+
+02:14:11.520 --> 02:14:13.520
+No doubts from any of you.
+
+02:14:13.520 --> 02:14:15.520
+Perfect.
+
+02:14:15.520 --> 02:14:17.520
+So let's go.
+
+02:14:17.520 --> 02:14:19.520
+Let's meet on Saturday.
+
+02:14:19.520 --> 02:14:21.520
+I have an announcement for Saturday.
+
+02:14:21.520 --> 02:14:23.520
+Your AI Pulse session
+
+02:14:23.520 --> 02:14:25.520
+I am planning to cover the news
+
+02:14:25.520 --> 02:14:27.520
+in that session.
+
+02:14:27.520 --> 02:14:29.520
+Along with that, we will
+
+02:14:29.520 --> 02:14:31.520
+take up the news of
+
+02:14:31.520 --> 02:14:33.520
+that kind where we can discuss
+
+02:14:33.520 --> 02:14:35.520
+AI concepts.
+
+02:14:35.520 --> 02:14:37.520
+Let's say
+
+02:14:37.520 --> 02:14:39.520
+Diffusion Gamma is coming.
+
+02:14:39.520 --> 02:14:41.520
+Let's discuss about Diffusion Gamma and architecture.
+
+02:14:41.520 --> 02:14:43.520
+So this is my plan.
+
+02:14:43.520 --> 02:14:45.520
+AI news
+
+02:14:45.520 --> 02:14:47.520
+You are getting updates.
+
+02:14:47.520 --> 02:14:49.520
+But also your conceptual clarity.
+
+02:14:49.520 --> 02:14:51.520
+Let's say
+
+02:14:51.520 --> 02:14:53.520
+GLM2 is coming.
+
+02:14:53.520 --> 02:14:55.520
+They have done a good context engineering.
+
+02:14:55.520 --> 02:14:57.520
+What is context engineering?
+
+02:14:57.520 --> 02:14:59.520
+We will not go into detail.
+
+02:14:59.520 --> 02:15:01.520
+But we will touch that point.
+
+02:15:01.520 --> 02:15:03.520
+So that
+
+02:15:03.520 --> 02:15:05.520
+if you read the news further
+
+02:15:05.520 --> 02:15:07.520
+you will know about it.
+
+02:15:07.520 --> 02:15:09.520
+So this is my plan.
+
+02:15:09.520 --> 02:15:11.520
+Okay?
+
+02:15:11.520 --> 02:15:13.520
+Let's go.
+
+02:15:13.520 --> 02:15:15.520
+Okay. Thank you
+
+02:15:15.520 --> 02:15:17.520
+everyone. Thank you for your time.
+
+02:15:17.520 --> 02:15:19.520
+See you all again on
+
+02:15:19.520 --> 02:15:21.520
+Saturday.
+
+02:15:21.520 --> 02:15:23.520
+See you all again on Saturday. Thank you everyone.
+
+02:15:27.520 --> 02:15:29.520
+Harsh, okay. Thank you for the
+
+02:15:29.520 --> 02:15:31.520
+suggestion. Let's try.
+
+02:15:31.520 --> 02:15:33.520
+For sure. We will try to
+
+02:15:33.520 --> 02:15:35.520
+plan a session on this.
+
+02:15:35.520 --> 02:15:37.520
+Harsh is basically saying
+
+02:15:37.520 --> 02:15:39.520
+if you can teach Gemini in Google
+
+02:15:39.520 --> 02:15:41.520
+Sheet. We will try. For sure
+
+02:15:41.520 --> 02:15:43.520
+we will try.
+
+02:15:43.520 --> 02:15:45.520
+Okay?
+
+02:15:45.520 --> 02:15:47.520
+Thank you everyone. Thank you for your time.
+
+02:15:47.520 --> 02:15:49.520
+See you all again on Saturday. Good night.
+

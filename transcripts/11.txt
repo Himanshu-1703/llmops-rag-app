@@ -1,0 +1,4308 @@
+00:02:00.000 --> 00:02:10.000
+Hi guys, good evening, how are you all?
+
+00:02:10.000 --> 00:02:18.000
+Can you hear me?
+
+00:02:18.000 --> 00:02:24.000
+Okay, thank you.
+
+00:02:24.000 --> 00:02:28.000
+Let's start the session in a little while.
+
+00:02:28.000 --> 00:02:34.000
+Before that, we have some time, around 5 minutes.
+
+00:02:34.000 --> 00:02:38.000
+So whoever is here, if you have any questions, you can ask.
+
+00:02:54.000 --> 00:03:00.000
+Okay, let's start.
+
+00:03:24.000 --> 00:03:34.000
+Okay,
+
+00:03:34.000 --> 00:03:44.000
+Okay, so you can ask.
+
+00:03:44.000 --> 00:03:54.000
+Sir,
+
+00:03:54.000 --> 00:04:00.000
+I
+
+00:04:00.000 --> 00:04:04.000
+know.
+
+00:04:04.000 --> 00:04:10.000
+Can't say right now, honestly, because
+
+00:04:10.000 --> 00:04:14.000
+but yeah, we'll try.
+
+00:04:14.000 --> 00:04:18.000
+At least
+
+00:04:18.000 --> 00:04:24.000
+I can conduct a meetup.
+
+00:04:24.000 --> 00:04:32.000
+Most likely next month, July, may I'm planning to come there.
+
+00:04:32.000 --> 00:04:38.000
+So we can have a meetup then.
+
+00:04:38.000 --> 00:04:42.000
+I'm not from Delhi. Currently, I'm staying in
+
+00:04:42.000 --> 00:04:50.000
+Gurdwara.
+
+00:04:50.000 --> 00:04:54.000
+How many people have come?
+
+00:04:54.000 --> 00:04:58.000
+We have around 38 people.
+
+00:04:58.000 --> 00:05:02.000
+It's 6 o'clock. Let's wait for 2 more minutes and then start.
+
+00:05:02.000 --> 00:05:06.000
+Because this is the first session, immediately starting at this time.
+
+00:05:06.000 --> 00:05:10.000
+It's possible that some other people join.
+
+00:05:18.000 --> 00:05:22.000
+On
+
+00:05:22.000 --> 00:05:26.000
+10th, I guess, on 10th, there was one session where it is.
+
+00:05:26.000 --> 00:05:30.000
+So, AI workplace, which is your actual name,
+
+00:05:30.000 --> 00:05:34.000
+the course through which you have joined,
+
+00:05:34.000 --> 00:05:38.000
+you will be shown in the past sessions orientation session.
+
+00:05:38.000 --> 00:05:42.000
+Is there some newsletter also? Yes, we have
+
+00:05:42.000 --> 00:05:46.000
+a newsletter. You remind me after class. I'll show you. It's not a newsletter.
+
+00:05:46.000 --> 00:05:50.000
+Actually, it's a blog kind of setup where we
+
+00:05:50.000 --> 00:05:54.000
+put an article every Saturday.
+
+00:05:54.000 --> 00:05:58.000
+What happened in AI last week. So you can refer to that.
+
+00:05:58.000 --> 00:06:02.000
+It's not a newsletter. You get an email in the newsletter.
+
+00:06:02.000 --> 00:06:06.000
+We don't mail.
+
+00:06:06.000 --> 00:06:10.000
+We have got so many courses in
+
+00:06:10.000 --> 00:06:14.000
+single go. Is there any best sequence to follow considered starting from scratch?
+
+00:06:14.000 --> 00:06:18.000
+I tackled exactly this question in the orientation session.
+
+00:06:18.000 --> 00:06:22.000
+I told you that we have made a
+
+00:06:22.000 --> 00:06:26.000
+roadmap. It's also on the YouTube channel.
+
+00:06:26.000 --> 00:06:30.000
+If you follow that roadmap, you will get an idea
+
+00:06:30.000 --> 00:06:34.000
+in which order you have to do which courses.
+
+00:06:34.000 --> 00:06:38.000
+People have also talked about it in WhatsApp group. If you don't know
+
+00:06:38.000 --> 00:06:42.000
+about the roadmap, then go to the YouTube channel. You will get it there.
+
+00:06:42.000 --> 00:06:46.000
+It's a roadmap of around 3 hours.
+
+00:06:46.000 --> 00:06:50.000
+Vishwanathan is saying,
+
+00:06:50.000 --> 00:06:54.000
+would there be any session planned for explaining different agentic AI design
+
+00:06:54.000 --> 00:06:58.000
+patterns like React and other patterns?
+
+00:06:58.000 --> 00:07:02.000
+As such, I haven't planned it yet. I have explained React on YouTube channel.
+
+00:07:02.000 --> 00:07:06.000
+There are other patterns as well I know.
+
+00:07:06.000 --> 00:07:10.000
+We can have some sessions around that.
+
+00:07:10.000 --> 00:07:14.000
+I will note it down.
+
+00:07:14.000 --> 00:07:18.000
+Do we get a participation certificate at the end of 2 years? No Sunil.
+
+00:07:18.000 --> 00:07:22.000
+You can generate a certificate of every individual course.
+
+00:07:22.000 --> 00:07:26.000
+You won't get an overall certificate. You will get the certificate
+
+00:07:26.000 --> 00:07:30.000
+of every individual course.
+
+00:07:30.000 --> 00:07:34.000
+How to download the notes under your videos in parts of DSMP?
+
+00:07:34.000 --> 00:07:38.000
+If it's a PDF file, then just right click
+
+00:07:38.000 --> 00:07:42.000
+and save it. Is it possible to keep
+
+00:07:42.000 --> 00:07:46.000
+sessions a bit late evening around 7 or 8 as it would be
+
+00:07:46.000 --> 00:07:50.000
+great for working professionals? Yes, I know 8 would be
+
+00:07:50.000 --> 00:07:54.000
+great. I have an issue with 8. 7 can be done but we will do that from next month.
+
+00:07:54.000 --> 00:07:58.000
+Let's let this time pass this month.
+
+00:07:58.000 --> 00:08:02.000
+Can you show from where we can access the notes?
+
+00:08:02.000 --> 00:08:06.000
+Okay, Abhishek. Tell me at the end of the class when I will
+
+00:08:06.000 --> 00:08:10.000
+screen share. I will show you.
+
+00:08:10.000 --> 00:08:14.000
+I am not added to the WhatsApp group yet. Is there any link? Would need some direction around.
+
+00:08:14.000 --> 00:08:18.000
+The course through which you have joined this live session,
+
+00:08:18.000 --> 00:08:22.000
+you will get the link of the WhatsApp group on the top.
+
+00:08:22.000 --> 00:08:26.000
+Usually when recordings will be uploaded.
+
+00:08:26.000 --> 00:08:30.000
+If the session is still going on today, then you will get the recordings tomorrow morning.
+
+00:08:30.000 --> 00:08:34.000
+Sir, when the mail arrives,
+
+00:08:34.000 --> 00:08:38.000
+the reminder is the timing. If it was mentioned, it would have been better.
+
+00:08:38.000 --> 00:08:42.000
+Timing is mentioned. It is written that the class is after 2 hours or 8 hours.
+
+00:08:42.000 --> 00:08:46.000
+Can you
+
+00:08:46.000 --> 00:08:50.000
+make an app for CampusX? There is a feedback for this.
+
+00:08:50.000 --> 00:08:54.000
+Currently there is no plan but if everyone says, then we can try.
+
+00:08:54.000 --> 00:08:58.000
+Is there any lecture on fine tuning?
+
+00:08:58.000 --> 00:09:02.000
+Yes, there will be a lecture on fine tuning but there is some time in it.
+
+00:09:02.000 --> 00:09:06.000
+Let's do one thing. Let's start the session.
+
+00:09:06.000 --> 00:09:10.000
+I will take the questions after the session.
+
+00:09:10.000 --> 00:09:14.000
+I am screen sharing once. Tell me once if you can see my screen.
+
+00:09:14.000 --> 00:09:18.000
+Can you see my screen?
+
+00:09:18.000 --> 00:09:22.000
+Yes.
+
+00:09:22.000 --> 00:09:26.000
+Thank you.
+
+00:09:26.000 --> 00:09:30.000
+Let's start.
+
+00:09:30.000 --> 00:09:34.000
+Before starting, I would just say one thing. This is my first live session
+
+00:09:34.000 --> 00:09:38.000
+in a long while. I don't think I have taken a live session
+
+00:09:38.000 --> 00:09:42.000
+last year. So, it is possible that I am a bit rusty
+
+00:09:42.000 --> 00:09:46.000
+in taking live sessions. So, it's okay. Please forgive me.
+
+00:09:46.000 --> 00:09:50.000
+I will try to make the session good.
+
+00:09:50.000 --> 00:09:54.000
+I have cleared this upfront. Now let's start the session.
+
+00:09:54.000 --> 00:09:58.000
+What is the session about? We are basically
+
+00:09:58.000 --> 00:10:02.000
+starting a new YouTube playlist. As I said,
+
+00:10:02.000 --> 00:10:06.000
+there is an offering in this membership that we will not
+
+00:10:06.000 --> 00:10:10.000
+put videos directly on YouTube. We will conduct live sessions.
+
+00:10:10.000 --> 00:10:14.000
+You will attend those sessions and then we will edit these sessions and put them on YouTube.
+
+00:10:14.000 --> 00:10:18.000
+You can read these things directly live.
+
+00:10:18.000 --> 00:10:22.000
+You can interact with me. You can ask your doubts live.
+
+00:10:22.000 --> 00:10:26.000
+So, today is the first session. We are calling it YouTube Sandbox.
+
+00:10:26.000 --> 00:10:30.000
+So, today we are starting a new playlist.
+
+00:10:30.000 --> 00:10:34.000
+The name of this playlist is LLM Evals.
+
+00:10:34.000 --> 00:10:38.000
+What is in it? What all things come in it? We will discuss all that today.
+
+00:10:38.000 --> 00:10:42.000
+So, let's start from the beginning.
+
+00:10:42.000 --> 00:10:46.000
+If you talk about CampusX,
+
+00:10:46.000 --> 00:10:50.000
+then from the last 18 months,
+
+00:10:50.000 --> 00:10:54.000
+if you watch our videos or our paid courses,
+
+00:10:54.000 --> 00:10:58.000
+then you will observe a pattern that we are targeting a particular
+
+00:10:58.000 --> 00:11:02.000
+job profile. And the name of this job profile is
+
+00:11:02.000 --> 00:11:06.000
+AI Engineer. And this job profile has come out in the last 4 years.
+
+00:11:06.000 --> 00:11:10.000
+What is this job profile if you don't know?
+
+00:11:10.000 --> 00:11:14.000
+AI engineers are basically engineers whose job is
+
+00:11:14.000 --> 00:11:18.000
+to make LLM based applications.
+
+00:11:18.000 --> 00:11:22.000
+Basically, to make such software applications that use
+
+00:11:22.000 --> 00:11:26.000
+an LLM internally. Like a rag application or an agent.
+
+00:11:26.000 --> 00:11:30.000
+So, my team and I have been targeting this job role
+
+00:11:30.000 --> 00:11:34.000
+for the last 1.5 years. As in, to crack this job role,
+
+00:11:34.000 --> 00:11:38.000
+we are covering the things that you will need to study.
+
+00:11:38.000 --> 00:11:42.000
+So, we have covered a lot of things in this.
+
+00:11:42.000 --> 00:11:46.000
+Starting with, we taught you first of all that
+
+00:11:46.000 --> 00:11:50.000
+how you can orchestrate LLM based applications.
+
+00:11:50.000 --> 00:11:54.000
+Meaning, how you can make a big application by combining multiple LLM calls.
+
+00:11:54.000 --> 00:11:58.000
+How you can make a chatbot using
+
+00:11:58.000 --> 00:12:02.000
+library like Lanching. We taught you
+
+00:12:02.000 --> 00:12:06.000
+how to make rag systems.
+
+00:12:06.000 --> 00:12:10.000
+We taught you how to run a course on prompt engineering.
+
+00:12:10.000 --> 00:12:14.000
+We taught you how to make agents using different libraries.
+
+00:12:14.000 --> 00:12:18.000
+Including libraries like Langraph.
+
+00:12:18.000 --> 00:12:22.000
+Apart from that, we also taught you a lot of no code tools
+
+00:12:22.000 --> 00:12:26.000
+which will help you to make LLM based applications like
+
+00:12:26.000 --> 00:12:30.000
+Anitin, Make.com. So, the idea was
+
+00:12:30.000 --> 00:12:34.000
+to teach you enough things so that you can
+
+00:12:34.000 --> 00:12:38.000
+crack this job profile.
+
+00:12:38.000 --> 00:12:42.000
+But, all the things that we have taught you so far,
+
+00:12:42.000 --> 00:12:46.000
+everyone actually studies them. Everyone knows about them.
+
+00:12:46.000 --> 00:12:50.000
+Anyone who studies for 6 months, he will know all these things.
+
+00:12:50.000 --> 00:12:54.000
+He will know how to work on Lanching, rag, prompt engineering,
+
+00:12:54.000 --> 00:12:58.000
+how to make agents. This new playlist that we are starting
+
+00:12:58.000 --> 00:13:02.000
+is a new topic that very few people know about.
+
+00:13:02.000 --> 00:13:06.000
+If you learn this, you will get two big benefits.
+
+00:13:06.000 --> 00:13:10.000
+First big benefit is that your competitors
+
+00:13:10.000 --> 00:13:14.000
+who will sit with you in interviews, you will get
+
+00:13:14.000 --> 00:13:18.000
+an edge over them. They don't know this particular topic.
+
+00:13:18.000 --> 00:13:22.000
+Because, this topic is not being taught at the mass level. You will search on YouTube
+
+00:13:22.000 --> 00:13:26.000
+and you will not see enough videos. You will search on Udemy and you will not see enough
+
+00:13:26.000 --> 00:13:30.000
+courses because this topic is coming on the surface. New things are being added.
+
+00:13:30.000 --> 00:13:34.000
+So, this is the first benefit. You will get a competitive edge.
+
+00:13:34.000 --> 00:13:38.000
+Second is, after reading this topic, you will feel that
+
+00:13:38.000 --> 00:13:42.000
+there will be a change in your mindset.
+
+00:13:42.000 --> 00:13:46.000
+I will tell you what change will come. Till now, whatever topics you have read,
+
+00:13:46.000 --> 00:13:50.000
+after reading these topics, you may have made some projects on a personal level.
+
+00:13:50.000 --> 00:13:54.000
+But, this particular topic, LLM eval,
+
+00:13:54.000 --> 00:13:58.000
+which we are going to read, if you read this properly, then suddenly you
+
+00:13:58.000 --> 00:14:02.000
+will start thinking that how can I make this particular project
+
+00:14:02.000 --> 00:14:06.000
+for a company. So, suddenly, instead of thinking on a personal level,
+
+00:14:06.000 --> 00:14:10.000
+you will start thinking on the scale of the company. This will be the benefit
+
+00:14:10.000 --> 00:14:14.000
+after watching this particular YouTube playlist.
+
+00:14:14.000 --> 00:14:18.000
+So, today's first session,
+
+00:14:18.000 --> 00:14:22.000
+what are we going to do in this? We are going to do precisely three things.
+
+00:14:22.000 --> 00:14:26.000
+First, we will understand that LLM eval
+
+00:14:26.000 --> 00:14:30.000
+what is it?
+
+00:14:30.000 --> 00:14:34.000
+Second, why do we need it?
+
+00:14:34.000 --> 00:14:38.000
+Why do we need it? Second, I will show you
+
+00:14:38.000 --> 00:14:42.000
+a complete landscape of LLM eval.
+
+00:14:42.000 --> 00:14:46.000
+You may have heard many things.
+
+00:14:46.000 --> 00:14:50.000
+You may have heard different tools, terms, but I will
+
+00:14:50.000 --> 00:14:54.000
+show you a cohesive landscape through which you
+
+00:14:54.000 --> 00:14:58.000
+will create a mental model in your mind as to what LLM eval
+
+00:14:58.000 --> 00:15:02.000
+is and how different things are organized.
+
+00:15:02.000 --> 00:15:06.000
+And the agenda of today's third video,
+
+00:15:06.000 --> 00:15:10.000
+is that I will tell you an outline of this playlist.
+
+00:15:10.000 --> 00:15:14.000
+That in every session,
+
+00:15:14.000 --> 00:15:18.000
+what are we going to read and what prerequisites are needed for it.
+
+00:15:18.000 --> 00:15:22.000
+By the way, for today's video, for today's session,
+
+00:15:22.000 --> 00:15:26.000
+we don't need any prerequisites. If you haven't read the above topics,
+
+00:15:26.000 --> 00:15:30.000
+then you will understand the session to a large extent.
+
+00:15:30.000 --> 00:15:34.000
+Obviously, if you have read the topics, you will appreciate it more.
+
+00:15:34.000 --> 00:15:38.000
+But let's say you haven't read it, then you will click on many things.
+
+00:15:38.000 --> 00:15:42.000
+So, these are the three core agendas of today's session.
+
+00:15:42.000 --> 00:15:46.000
+So, in a nutshell, if I summarize the discussion so far,
+
+00:15:46.000 --> 00:15:50.000
+whatever we have read so far, some are completely different and
+
+00:15:50.000 --> 00:15:54.000
+some are very powerful. You will feel very powerful
+
+00:15:54.000 --> 00:15:58.000
+when you complete this entire playlist.
+
+00:15:58.000 --> 00:16:02.000
+And there will be a shift in your mindset and you will start thinking
+
+00:16:02.000 --> 00:16:06.000
+about things in the industry and production grade and you will be able to make better LLM applications.
+
+00:16:06.000 --> 00:16:10.000
+So, the discussion so far is clear.
+
+00:16:10.000 --> 00:16:14.000
+Write a yes and thumbs up so that we can start the session.
+
+00:16:14.000 --> 00:16:18.000
+We were not starting it yet, we were just talking.
+
+00:16:20.000 --> 00:16:24.000
+Okay.
+
+00:16:24.000 --> 00:16:28.000
+So,
+
+00:16:28.000 --> 00:16:32.000
+as always,
+
+00:16:32.000 --> 00:16:36.000
+we will discuss that
+
+00:16:36.000 --> 00:16:40.000
+why are we going to read the new topics
+
+00:16:40.000 --> 00:16:44.000
+of LLM evals?
+
+00:16:44.000 --> 00:16:48.000
+It is important to ask this question that
+
+00:16:48.000 --> 00:16:52.000
+why are we reading the list if it is being read on a topic?
+
+00:16:52.000 --> 00:16:56.000
+So, let's discuss this. First of all,
+
+00:16:56.000 --> 00:17:00.000
+tell me, I am opening the chat. Can you tell me
+
+00:17:00.000 --> 00:17:04.000
+how many of you have ever made any type of
+
+00:17:04.000 --> 00:17:08.000
+LLM based application in your life? It can be
+
+00:17:08.000 --> 00:17:12.000
+anything. It can be a basic chatbot using OpenAI
+
+00:17:12.000 --> 00:17:16.000
+API or it could be a small scale rag application
+
+00:17:16.000 --> 00:17:20.000
+or it could be a basic agent or it could be a multi agent architecture.
+
+00:17:20.000 --> 00:17:24.000
+How many people have made any type of
+
+00:17:24.000 --> 00:17:28.000
+basic LLM application here? I guess a lot of people will
+
+00:17:28.000 --> 00:17:32.000
+say yes. Right, because if you are following this channel, then you must have
+
+00:17:32.000 --> 00:17:36.000
+made such things together. Okay. Now comes my second
+
+00:17:36.000 --> 00:17:40.000
+question. How many people evaluated such applications
+
+00:17:40.000 --> 00:17:44.000
+after making them? Let's say you made
+
+00:17:44.000 --> 00:17:48.000
+a small rag application and
+
+00:17:48.000 --> 00:17:52.000
+did you evaluate it? This is the question.
+
+00:17:52.000 --> 00:17:56.000
+So, some people are saying yes, some people are saying no.
+
+00:17:56.000 --> 00:18:00.000
+Let me tell you my point. Generally, when I make these applications,
+
+00:18:00.000 --> 00:18:04.000
+I evaluate them. But the way I evaluate them
+
+00:18:04.000 --> 00:18:08.000
+is called wipe test.
+
+00:18:08.000 --> 00:18:12.000
+Can anyone tell me what is wipe test?
+
+00:18:12.000 --> 00:18:16.000
+What exactly is wipe test? There is an LLM application
+
+00:18:16.000 --> 00:18:20.000
+and you are testing it. The simple meaning of wipe test is
+
+00:18:20.000 --> 00:18:24.000
+that you manually
+
+00:18:24.000 --> 00:18:28.000
+test your application. And what is the way to do it manually?
+
+00:18:28.000 --> 00:18:32.000
+You throw 4-5 questions on it
+
+00:18:32.000 --> 00:18:36.000
+that come to your mind at that time and you see,
+
+00:18:36.000 --> 00:18:40.000
+understand and analyze the answer that yes, it is looking right.
+
+00:18:40.000 --> 00:18:44.000
+And if you think the answer to those 5 questions is right, then you say
+
+00:18:44.000 --> 00:18:48.000
+yes, it is working right and the project is done. This is called
+
+00:18:48.000 --> 00:18:52.000
+wipe testing. First of all, tell me, does it sound
+
+00:18:52.000 --> 00:18:56.000
+logical when you make an application for a proper
+
+00:18:56.000 --> 00:19:00.000
+company or for a big client in the industry?
+
+00:19:00.000 --> 00:19:04.000
+Will you do wipe test? Is it a good strategy?
+
+00:19:04.000 --> 00:19:08.000
+Does it sound like a good strategy? That you have given 5 questions,
+
+00:19:08.000 --> 00:19:12.000
+the right response was coming, it will be fine, let's deploy it.
+
+00:19:12.000 --> 00:19:16.000
+I guess everyone here will agree that
+
+00:19:16.000 --> 00:19:20.000
+this sounds risky. Now I know you are understanding
+
+00:19:20.000 --> 00:19:24.000
+that it is risky but now I will tell you manually, not manually,
+
+00:19:24.000 --> 00:19:28.000
+I will tell you with examples how risky it is. I will show you
+
+00:19:28.000 --> 00:19:32.000
+3 case studies where people
+
+00:19:32.000 --> 00:19:36.000
+literally deployed the LLM application after doing wipe test and
+
+00:19:36.000 --> 00:19:40.000
+if it didn't work, I will tell you that. Before that, here is the definition of wipe
+
+00:19:40.000 --> 00:19:44.000
+testing. Wipe testing means casually trying an LLM
+
+00:19:44.000 --> 00:19:48.000
+application with a few prompt and judging it by feel.
+
+00:19:48.000 --> 00:19:52.000
+Basically, I asked it 5-10 questions, the answer looked good,
+
+00:19:52.000 --> 00:19:56.000
+so I think it works. It's informal, subjective and usually
+
+00:19:56.000 --> 00:20:00.000
+not repeatable. Right? And it works only at the personal project
+
+00:20:00.000 --> 00:20:04.000
+level. For serious production grade softwares,
+
+00:20:04.000 --> 00:20:08.000
+wipe testing is not the way to go. You cannot evaluate production grade
+
+00:20:08.000 --> 00:20:12.000
+LLM applications with wipe testing. If you do,
+
+00:20:12.000 --> 00:20:16.000
+then I will tell you what will happen. How many people remember
+
+00:20:16.000 --> 00:20:20.000
+this particular news?
+
+00:20:20.000 --> 00:20:24.000
+A case study of Air Canada is being taught now.
+
+00:20:24.000 --> 00:20:28.000
+It happened in 2023 or 2024.
+
+00:20:28.000 --> 00:20:32.000
+What happened was that there was this passenger
+
+00:20:32.000 --> 00:20:36.000
+whose grandmother died and
+
+00:20:36.000 --> 00:20:40.000
+she had to travel quickly. Obviously.
+
+00:20:40.000 --> 00:20:44.000
+So what did she do? She went to Air Canada's website and asked her chatbot
+
+00:20:44.000 --> 00:20:48.000
+what is the bereavement fare? Bereavement fare is basically
+
+00:20:48.000 --> 00:20:52.000
+if someone dies in your family or friends,
+
+00:20:52.000 --> 00:20:56.000
+then these companies offer you a discount for this situation.
+
+00:20:56.000 --> 00:21:00.000
+I don't know if it happens in India or not but Air Canada gives it.
+
+00:21:00.000 --> 00:21:04.000
+So what did this chatbot do?
+
+00:21:04.000 --> 00:21:08.000
+He hallucinated and told her to pay the entire amount
+
+00:21:08.000 --> 00:21:12.000
+and pay the ticket and then
+
+00:21:12.000 --> 00:21:16.000
+return the entire amount.
+
+00:21:16.000 --> 00:21:20.000
+Now this person travelled by paying the ticket and when he returned
+
+00:21:20.000 --> 00:21:24.000
+for the reimbursement, his support said
+
+00:21:24.000 --> 00:21:28.000
+that there is no such policy. If you want bereavement fare,
+
+00:21:28.000 --> 00:21:32.000
+then you have to pay the discount before the ticket is paid.
+
+00:21:32.000 --> 00:21:36.000
+We don't give you any discount later.
+
+00:21:36.000 --> 00:21:40.000
+This person was emotionally disturbed.
+
+00:21:40.000 --> 00:21:44.000
+He got angry and dragged Air Canada to the court.
+
+00:21:44.000 --> 00:21:48.000
+Now what does Air Canada say? They tried to play smart.
+
+00:21:48.000 --> 00:21:52.000
+They said that this chatbot on our website
+
+00:21:52.000 --> 00:21:56.000
+is a separate entity. It doesn't come under our company.
+
+00:21:56.000 --> 00:22:00.000
+So they tried to make it look like a dependent contractor.
+
+00:22:00.000 --> 00:22:04.000
+The judge said that this does not seem logical.
+
+00:22:04.000 --> 00:22:08.000
+If your website is your company's property, then your chatbot
+
+00:22:08.000 --> 00:22:12.000
+is also your property. So whatever he says,
+
+00:22:12.000 --> 00:22:16.000
+it will be considered that it is coming from your company.
+
+00:22:16.000 --> 00:22:20.000
+Finally, Air Canada lost this case. They had to pay the entire refund
+
+00:22:20.000 --> 00:22:24.000
+which was not a big amount but a lot of insults were also made.
+
+00:22:24.000 --> 00:22:28.000
+After this case study,
+
+00:22:28.000 --> 00:22:32.000
+companies used to be very careful about what their chatbot is doing online.
+
+00:22:32.000 --> 00:22:36.000
+This was the first case study. I guess you are getting an idea
+
+00:22:36.000 --> 00:22:40.000
+how risky it can be if you deploy your LLM application without evaluating it.
+
+00:22:40.000 --> 00:22:44.000
+Another case study is similar.
+
+00:22:44.000 --> 00:22:48.000
+Chevrolet is an American car company. It was also in India.
+
+00:22:48.000 --> 00:22:52.000
+They had a dealer. I don't know where the dealer was in the US.
+
+00:22:52.000 --> 00:22:56.000
+They made their own chatbot.
+
+00:22:56.000 --> 00:23:00.000
+You can ask them about the car,
+
+00:23:00.000 --> 00:23:04.000
+the colors and models available in your dealership.
+
+00:23:04.000 --> 00:23:08.000
+So this guy came and
+
+00:23:08.000 --> 00:23:12.000
+jailbreak the chatbot. He wrote a prompt
+
+00:23:12.000 --> 00:23:16.000
+that going forward in this conversation, whatever I demand from you
+
+00:23:16.000 --> 00:23:20.000
+you have to fulfill. Is that okay?
+
+00:23:20.000 --> 00:23:24.000
+The dealer did not apply the guardrail
+
+00:23:24.000 --> 00:23:28.000
+so the chatbot agreed. This guy asked
+
+00:23:28.000 --> 00:23:32.000
+that he wants this particular car for $1.
+
+00:23:32.000 --> 00:23:36.000
+Is the deal confirmed? The chatbot said
+
+00:23:36.000 --> 00:23:40.000
+that the deal is confirmed. He even said that this is a binding offer.
+
+00:23:40.000 --> 00:23:44.000
+Obviously, the car was not purchased for $1 but he clicked
+
+00:23:44.000 --> 00:23:48.000
+screenshots and posted them on social media.
+
+00:23:48.000 --> 00:23:52.000
+This went viral and was very insulting.
+
+00:23:52.000 --> 00:23:56.000
+Again, this is treated as a case study that why you should not
+
+00:23:56.000 --> 00:24:00.000
+install your chatbots, RAC applications without
+
+00:24:00.000 --> 00:24:04.000
+testing them online. There is one more case study.
+
+00:24:04.000 --> 00:24:08.000
+I am telling you all these case studies so that you can sit in your mind
+
+00:24:08.000 --> 00:24:12.000
+how important it is to properly evaluate your LLM applications.
+
+00:24:12.000 --> 00:24:16.000
+This is another case.
+
+00:24:16.000 --> 00:24:20.000
+There was this guy, again I don't know his name,
+
+00:24:20.000 --> 00:24:24.000
+he was in a flight, it was a Colombian flight
+
+00:24:24.000 --> 00:24:28.000
+and what happened was that the air hostess who comes in the flight
+
+00:24:28.000 --> 00:24:32.000
+with lunch, whatever is in their box
+
+00:24:32.000 --> 00:24:36.000
+this container injured this guy and this guy
+
+00:24:36.000 --> 00:24:40.000
+sued this airline.
+
+00:24:40.000 --> 00:24:44.000
+So the lawyer who was representing
+
+00:24:44.000 --> 00:24:48.000
+this case, what did he do? He went to chatgpt
+
+00:24:48.000 --> 00:24:52.000
+and found some other cases where similar incidents
+
+00:24:52.000 --> 00:24:56.000
+happened and the airline was punished.
+
+00:24:56.000 --> 00:25:00.000
+Now apparently chatgpt generated some fake
+
+00:25:00.000 --> 00:25:04.000
+cases with names and everything.
+
+00:25:04.000 --> 00:25:08.000
+And the lawyer went to court with the fake cases
+
+00:25:08.000 --> 00:25:12.000
+and gave them to the judge. That this has happened in the past
+
+00:25:12.000 --> 00:25:16.000
+and the passenger gets compensation. When the judge
+
+00:25:16.000 --> 00:25:20.000
+searched, no such cases came up.
+
+00:25:20.000 --> 00:25:24.000
+Eventually the judge got angry and put a penalty on the lawyer
+
+00:25:24.000 --> 00:25:28.000
+of around 5000 dollars. And again this was a case which got
+
+00:25:28.000 --> 00:25:32.000
+very very popular. That he is simply hallucinating chatgpt
+
+00:25:32.000 --> 00:25:36.000
+creating facts and people are using it in professional scenarios
+
+00:25:36.000 --> 00:25:40.000
+as if it is true. So these are three cases
+
+00:25:40.000 --> 00:25:44.000
+where you can actually see that if you properly
+
+00:25:44.000 --> 00:25:48.000
+test your chatbots, your rag applications, your agents
+
+00:25:48.000 --> 00:25:52.000
+without putting them online, then not only you may face
+
+00:25:52.000 --> 00:25:56.000
+monetary loss but at the same time your company may get insulted
+
+00:25:56.000 --> 00:26:00.000
+and your brand may get spoiled. So a lot of things are at stake.
+
+00:26:00.000 --> 00:26:04.000
+So till now what we were doing was that we made a project
+
+00:26:04.000 --> 00:26:08.000
+and did a vibe testing and then deployed it.
+
+00:26:08.000 --> 00:26:12.000
+And then we showed it to a recruiter. This does not work.
+
+00:26:12.000 --> 00:26:16.000
+In the industry there is a proper step in between which we call
+
+00:26:16.000 --> 00:26:20.000
+LLM evaluation. And what you do there is that you
+
+00:26:20.000 --> 00:26:24.000
+extensively test the application you have made.
+
+00:26:24.000 --> 00:26:28.000
+I hope you are understanding. After looking at these three cases
+
+00:26:28.000 --> 00:26:32.000
+that the evaluation of LLM and LLM based applications
+
+00:26:32.000 --> 00:26:36.000
+is super important. Do you agree guys?
+
+00:26:36.000 --> 00:26:40.000
+Do you agree with it yes or no? Or do I need more
+
+00:26:40.000 --> 00:26:44.000
+case studies to convince you?
+
+00:26:44.000 --> 00:26:48.000
+Do you feel that the playlist that we are going to read
+
+00:26:48.000 --> 00:26:52.000
+is important on the basis of the discussion till now?
+
+00:26:52.000 --> 00:26:56.000
+Does it feel like that? Right.
+
+00:26:56.000 --> 00:27:00.000
+Okay. So let's discuss one more thing.
+
+00:27:00.000 --> 00:27:04.000
+The next discussion is that if LLM based
+
+00:27:04.000 --> 00:27:08.000
+applications are so important to test,
+
+00:27:08.000 --> 00:27:12.000
+which is visible, there are cases in front of our eyes, then
+
+00:27:12.000 --> 00:27:16.000
+why don't everyone test after making LLM applications?
+
+00:27:16.000 --> 00:27:20.000
+You will see that people who make it, they do vibe testing
+
+00:27:20.000 --> 00:27:24.000
+and deploy it. Mostly. This is not so much a culture that LLM's
+
+00:27:24.000 --> 00:27:28.000
+should have proper evaluation. So the question is that
+
+00:27:28.000 --> 00:27:32.000
+why is it not a norm to evaluate LLM applications?
+
+00:27:32.000 --> 00:27:36.000
+The answer to this is that because
+
+00:27:36.000 --> 00:27:40.000
+it is not straight forward. It's not like
+
+00:27:40.000 --> 00:27:44.000
+software applications where testing is straight forward.
+
+00:27:44.000 --> 00:27:48.000
+How many people are software developers or software
+
+00:27:48.000 --> 00:27:52.000
+testers here? If anyone is, please tell me once.
+
+00:27:52.000 --> 00:27:56.000
+You can tell me in the chat or whatever you can tell.
+
+00:27:56.000 --> 00:28:00.000
+Yeah. So a few people are there. So
+
+00:28:00.000 --> 00:28:04.000
+they will know that software testing is still a bit straight forward.
+
+00:28:04.000 --> 00:28:08.000
+Because I have written two lines here.
+
+00:28:08.000 --> 00:28:12.000
+Let's read it once and then discuss it. So traditional
+
+00:28:12.000 --> 00:28:16.000
+software testing checks whether deterministic logic
+
+00:28:16.000 --> 00:28:20.000
+gives expected output. Simple means that
+
+00:28:20.000 --> 00:28:24.000
+if you have written a calculator program, then you will give it
+
+00:28:24.000 --> 00:28:28.000
+2 and 3, then its output can only be 5.
+
+00:28:28.000 --> 00:28:32.000
+Nothing else can happen. So this is deterministic.
+
+00:28:32.000 --> 00:28:36.000
+Whereas LLM application testing checks whether
+
+00:28:36.000 --> 00:28:40.000
+probabilistic behavior meets a definition of good. This means
+
+00:28:40.000 --> 00:28:44.000
+that in the case of LLM's or LLM based applications
+
+00:28:44.000 --> 00:28:48.000
+that for the same input, output
+
+00:28:48.000 --> 00:28:52.000
+can be very very different. Right? If I ask what is overfitting
+
+00:28:52.000 --> 00:28:56.000
+from the chat bot, from the chat GPT, then the answer that I will show
+
+00:28:56.000 --> 00:29:00.000
+might be totally different from the answer that it shows to you. Right?
+
+00:29:00.000 --> 00:29:04.000
+Words will be different, number of sentences will be different, it can be one paragraph
+
+00:29:04.000 --> 00:29:08.000
+or two paragraphs. But my answer is also right, your answer is also right.
+
+00:29:08.000 --> 00:29:12.000
+So first of all, this is the first complexity that makes LLM
+
+00:29:12.000 --> 00:29:16.000
+based evaluations difficult. In software, it is simple. You will put
+
+00:29:16.000 --> 00:29:20.000
+test cases, on the basis of that either the answer will be yes or no.
+
+00:29:20.000 --> 00:29:24.000
+The test case will either pass or fail. But in the case of LLM's
+
+00:29:24.000 --> 00:29:28.000
+there is a grey area. There are three major differences.
+
+00:29:28.000 --> 00:29:32.000
+I will tell you three. First is that
+
+00:29:32.000 --> 00:29:36.000
+your fixed output is in software.
+
+00:29:36.000 --> 00:29:40.000
+Whereas your flexible output is
+
+00:29:40.000 --> 00:29:44.000
+in the case of LLM's which I have just told you.
+
+00:29:44.000 --> 00:29:48.000
+This is the same thing.
+
+00:29:48.000 --> 00:29:52.000
+There is no need to discuss it separately. Fixed output means deterministic. Flexible output
+
+00:29:52.000 --> 00:29:56.000
+means probabilistic. Second, in the case of software
+
+00:29:56.000 --> 00:30:00.000
+you only measure correctness. That
+
+00:30:00.000 --> 00:30:04.000
+I put two and three, the program gave five.
+
+00:30:04.000 --> 00:30:08.000
+Is it correct or not? That's all that matters. Whereas in LLM
+
+00:30:08.000 --> 00:30:12.000
+application you do multi-dimensional quality testing.
+
+00:30:12.000 --> 00:30:16.000
+You test whether it is correct or not. You test whether
+
+00:30:16.000 --> 00:30:20.000
+it is relevant or not. The answer to whether it is relevant or not is that
+
+00:30:20.000 --> 00:30:24.000
+suppose I asked what is overfitting?
+
+00:30:24.000 --> 00:30:28.000
+He gave me the definition of underfitting.
+
+00:30:28.000 --> 00:30:32.000
+He gave the correct definition of underfitting. Is it relevant?
+
+00:30:32.000 --> 00:30:36.000
+No, it is not relevant. I asked overfitting and he told underfitting.
+
+00:30:36.000 --> 00:30:40.000
+I have to check the relevance. Is it completeness or not?
+
+00:30:40.000 --> 00:30:44.000
+He told me the answer completely or not? Is it grounded or not?
+
+00:30:44.000 --> 00:30:48.000
+If we are making a rag application, the result in my data
+
+00:30:48.000 --> 00:30:52.000
+is it giving the answer on the basis or not? Or is it making it by itself?
+
+00:30:52.000 --> 00:30:56.000
+Is the answer safe? Now he gave me the definition of overfitting
+
+00:30:56.000 --> 00:31:00.000
+while telling me the definition. Because the model was trained
+
+00:31:00.000 --> 00:31:04.000
+in this way. So this is also risk involved. You have to understand this too.
+
+00:31:04.000 --> 00:31:08.000
+So I am saying that testing of LLM based application
+
+00:31:08.000 --> 00:31:12.000
+is not straight forward. In software based testing you
+
+00:31:12.000 --> 00:31:16.000
+have to check whether the output is correct or not
+
+00:31:16.000 --> 00:31:20.000
+You have to check multiple things apart from correctness
+
+00:31:20.000 --> 00:31:24.000
+because of which the overall process of
+
+00:31:24.000 --> 00:31:28.000
+evaluating LLMs becomes very difficult.
+
+00:31:28.000 --> 00:31:32.000
+I hope you understood.
+
+00:31:32.000 --> 00:31:36.000
+Please tell me, did you understand this point?
+
+00:31:36.000 --> 00:31:40.000
+In comparison to software testing, it is much much harder
+
+00:31:40.000 --> 00:31:44.000
+to evaluate LLM based software. Did you understand this point?
+
+00:31:44.000 --> 00:31:48.000
+Did you understand this point?
+
+00:31:48.000 --> 00:31:52.000
+Okay.
+
+00:31:52.000 --> 00:31:56.000
+So finally we will
+
+00:31:56.000 --> 00:32:00.000
+discuss what are LLM evalutes?
+
+00:32:00.000 --> 00:32:04.000
+Okay. We have read that
+
+00:32:04.000 --> 00:32:08.000
+why LLM evalutes are needed. We have read that
+
+00:32:08.000 --> 00:32:12.000
+why it is difficult to evaluate LLM especially in comparison
+
+00:32:12.000 --> 00:32:16.000
+to software testing. Now let's read what exactly LLM evalutes are.
+
+00:32:16.000 --> 00:32:20.000
+So this is kind of
+
+00:32:20.000 --> 00:32:24.000
+formal definition. Let's read it and then understand.
+
+00:32:24.000 --> 00:32:28.000
+So LLM evalutes are systematic and repeatable
+
+00:32:28.000 --> 00:32:32.000
+tests used to measure whether an LLM
+
+00:32:32.000 --> 00:32:36.000
+or an LLM based application is performing well
+
+00:32:36.000 --> 00:32:40.000
+according to a clear definition of good. Listen again.
+
+00:32:40.000 --> 00:32:44.000
+I am saying it again. LLM evalutes are systematic
+
+00:32:44.000 --> 00:32:48.000
+and repeatable tests used to measure
+
+00:32:48.000 --> 00:32:52.000
+whether an LLM or an LLM based application is
+
+00:32:52.000 --> 00:32:56.000
+performing well according to a clear definition of good.
+
+00:32:56.000 --> 00:33:00.000
+There are three words here which I have written in orange. These three things matter a lot.
+
+00:33:00.000 --> 00:33:04.000
+First systematic, second repeatable and third definition of good.
+
+00:33:04.000 --> 00:33:08.000
+Okay. Systematic means that
+
+00:33:08.000 --> 00:33:12.000
+a system is defined to evaluate an LLM based application.
+
+00:33:12.000 --> 00:33:16.000
+It's not random. There is a system involved.
+
+00:33:16.000 --> 00:33:20.000
+Repeatable means that if there are some changes in your system
+
+00:33:20.000 --> 00:33:24.000
+then the method of evaluating your LLM
+
+00:33:24.000 --> 00:33:28.000
+will evaluate the change and give it to you. Which means it is
+
+00:33:28.000 --> 00:33:32.000
+repeatable. You can repeat it at any time. And third,
+
+00:33:32.000 --> 00:33:36.000
+there is a clear definition of good. You should already know
+
+00:33:36.000 --> 00:33:40.000
+what is good? How will this LLM application work?
+
+00:33:40.000 --> 00:33:44.000
+What is the nature of good? Now I know this is a dry definition and
+
+00:33:44.000 --> 00:33:48.000
+you won't understand it. I will explain it through an example.
+
+00:33:48.000 --> 00:33:52.000
+Example is, suppose I am making a chart board
+
+00:33:52.000 --> 00:33:56.000
+for you. Okay. CampusX's chart board.
+
+00:33:56.000 --> 00:34:00.000
+What will CampusX's chart board do? CampusX's
+
+00:34:00.000 --> 00:34:04.000
+chart board, if you have any doubt on our lectures
+
+00:34:04.000 --> 00:34:08.000
+then you can ask CampusX's chart board.
+
+00:34:08.000 --> 00:34:12.000
+And CampusX's chart board will answer you based on the lecture content.
+
+00:34:12.000 --> 00:34:16.000
+So it is a rag application which is running on our lecture data.
+
+00:34:16.000 --> 00:34:20.000
+Now let's discuss here that first of all,
+
+00:34:20.000 --> 00:34:24.000
+if you are performing an evaluation then how will you do it systematically?
+
+00:34:24.000 --> 00:34:28.000
+So first of all, what I will do to test this,
+
+00:34:28.000 --> 00:34:32.000
+I will create a data set. Data set of
+
+00:34:32.000 --> 00:34:36.000
+user queries. So what I will do
+
+00:34:36.000 --> 00:34:40.000
+I will bring 50-100 user queries.
+
+00:34:40.000 --> 00:34:44.000
+And in those queries, I will deliberately try
+
+00:34:44.000 --> 00:34:48.000
+to put in every kind of use case. I will put a simple
+
+00:34:48.000 --> 00:34:52.000
+straightforward user query where the child is asking a simple question.
+
+00:34:52.000 --> 00:34:56.000
+I will put a query where the child is asking a very complex question.
+
+00:34:56.000 --> 00:35:00.000
+I will also bring a query where the child is asking a random question
+
+00:35:00.000 --> 00:35:04.000
+which has no meaning. I will also bring a query where
+
+00:35:04.000 --> 00:35:08.000
+the child is asking a query in another language on which our model is not trained.
+
+00:35:08.000 --> 00:35:12.000
+I will also bring a query where the child is abusing the question.
+
+00:35:12.000 --> 00:35:16.000
+You get my point? I will create a very representative
+
+00:35:16.000 --> 00:35:20.000
+data set in which I will try to capture
+
+00:35:20.000 --> 00:35:24.000
+what are the different kind of scenarios that my chart board
+
+00:35:24.000 --> 00:35:28.000
+can face when it is online and is answering people.
+
+00:35:28.000 --> 00:35:32.000
+And then I will perform an evaluation on the basis of this data set in the future.
+
+00:35:32.000 --> 00:35:36.000
+So you can see there is a system in place.
+
+00:35:36.000 --> 00:35:40.000
+Second, this system is repeatable.
+
+00:35:40.000 --> 00:35:44.000
+Repeatable in the sense that if I have made some changes in my chart board tomorrow
+
+00:35:44.000 --> 00:35:48.000
+First I was using OpenAI LLM, now I am using Anthropic LLM.
+
+00:35:48.000 --> 00:35:52.000
+Even then I can perform this evaluation with the help of this data set.
+
+00:35:52.000 --> 00:35:56.000
+I have made some changes in the system tomorrow. I have used some other
+
+00:35:56.000 --> 00:36:00.000
+databases or I have changed the internal architecture
+
+00:36:00.000 --> 00:36:04.000
+even then I can perform the evaluation. It is repeatable.
+
+00:36:04.000 --> 00:36:08.000
+And third, there is a definition of good. This is the most important point.
+
+00:36:08.000 --> 00:36:12.000
+While evaluating me, I should know
+
+00:36:12.000 --> 00:36:16.000
+what will be a good chart board. So I will sit and
+
+00:36:16.000 --> 00:36:20.000
+I will understand according to my business use case
+
+00:36:20.000 --> 00:36:24.000
+what metrics I have to define on which the chart board should score well.
+
+00:36:24.000 --> 00:36:28.000
+For example, there is a metric for me called
+
+00:36:28.000 --> 00:36:32.000
+simplicity of explanation. I rate it very high.
+
+00:36:32.000 --> 00:36:36.000
+If my chart board will run on my website, then it will explain
+
+00:36:36.000 --> 00:36:40.000
+in a very simple language. Second,
+
+00:36:40.000 --> 00:36:44.000
+I can say that there should be a pattern to explain by giving examples in my chart board.
+
+00:36:44.000 --> 00:36:48.000
+If it gives examples, I will consider it good.
+
+00:36:48.000 --> 00:36:52.000
+If it doesn't give examples, I will consider it bad.
+
+00:36:52.000 --> 00:36:56.000
+Third, I want it to be humorous.
+
+00:36:56.000 --> 00:37:00.000
+I want it to never get angry or frustrated
+
+00:37:00.000 --> 00:37:04.000
+by any child by mistake.
+
+00:37:04.000 --> 00:37:08.000
+So, can't be angry. This can also be
+
+00:37:08.000 --> 00:37:12.000
+a definition of good. Obviously, you cannot say
+
+00:37:12.000 --> 00:37:16.000
+any bad words. So, you can see,
+
+00:37:16.000 --> 00:37:20.000
+I am defining a logic on the basis of this.
+
+00:37:20.000 --> 00:37:24.000
+This is my definition of good. On the basis of this,
+
+00:37:24.000 --> 00:37:28.000
+I will perform an evaluation on this data set which I
+
+00:37:28.000 --> 00:37:32.000
+generated. So, this is how LLM evaluations
+
+00:37:32.000 --> 00:37:36.000
+work. The foundation of LLM eval is that
+
+00:37:36.000 --> 00:37:40.000
+you evaluate your LLM system or application
+
+00:37:40.000 --> 00:37:44.000
+in a systematic, repeatable way according to your business use case.
+
+00:37:44.000 --> 00:37:48.000
+There is a clear definition of good.
+
+00:37:48.000 --> 00:37:52.000
+After defining that, your evaluation is performed.
+
+00:37:52.000 --> 00:37:56.000
+At this point, you may not understand how it is done step by step.
+
+00:37:56.000 --> 00:38:00.000
+We will make our own custom evaluation pipeline in the future.
+
+00:38:00.000 --> 00:38:04.000
+The example I am giving, maybe we will work on this.
+
+00:38:04.000 --> 00:38:08.000
+But at this point, understand that LLM evaluation, this definition is a very proper definition.
+
+00:38:08.000 --> 00:38:12.000
+And if you are not understanding it, it's okay. You can
+
+00:38:12.000 --> 00:38:16.000
+stay loose. It's okay. If you don't understand it, it's fine.
+
+00:38:16.000 --> 00:38:20.000
+So, yeah. Did you get some 50-60%
+
+00:38:20.000 --> 00:38:24.000
+of this entire discussion? What happened to LLM evals?
+
+00:38:24.000 --> 00:38:28.000
+Okay.
+
+00:38:28.000 --> 00:38:32.000
+Now, let's come to the most important part of this lecture.
+
+00:38:32.000 --> 00:38:36.000
+The most important part of this lecture is
+
+00:38:36.000 --> 00:38:40.000
+that I will show you a complete landscape.
+
+00:38:40.000 --> 00:38:44.000
+I will show you
+
+00:38:44.000 --> 00:38:48.000
+what all LLM evals has.
+
+00:38:48.000 --> 00:38:52.000
+There are a lot of things in LLM evals. And that's why when a beginner
+
+00:38:52.000 --> 00:38:56.000
+starts reading this topic, he gets a little scared.
+
+00:38:56.000 --> 00:39:00.000
+There are so many tools, so many terms, what all to read, in what order to read.
+
+00:39:00.000 --> 00:39:04.000
+He is not understanding. But I promise you that
+
+00:39:04.000 --> 00:39:08.000
+in the next 30 minutes, I will make a very good
+
+00:39:08.000 --> 00:39:12.000
+roadmap, kind of, and show you.
+
+00:39:12.000 --> 00:39:16.000
+So, you will create a mental model in your mind.
+
+00:39:16.000 --> 00:39:20.000
+If you listen to any new term or tool tomorrow, you will understand what it does.
+
+00:39:20.000 --> 00:39:24.000
+In LLM evals.
+
+00:39:24.000 --> 00:39:28.000
+So, at this point, let's take a 5-minute break.
+
+00:39:28.000 --> 00:39:32.000
+There is no break. You can ask questions. If there is any question on the basis of the discussion so far.
+
+00:39:32.000 --> 00:39:36.000
+Does eval have to be
+
+00:39:36.000 --> 00:39:40.000
+repeatable for model as well? Models quality will definitely impact
+
+00:39:40.000 --> 00:39:44.000
+the result. Yes, it has to be repeatable.
+
+00:39:44.000 --> 00:39:48.000
+If eval is not repeatable, then there is no point.
+
+00:39:54.000 --> 00:39:58.000
+Sir, will we get the notes of all these videos? Yes, we will.
+
+00:39:58.000 --> 00:40:02.000
+It will be with a little delay. It's not like we will get it tomorrow, but we will get it.
+
+00:40:02.000 --> 00:40:06.000
+Sir, can we use another LLM to check our rag application? Yes.
+
+00:40:06.000 --> 00:40:10.000
+This is a proper technique. We call it LLM as a judge.
+
+00:40:10.000 --> 00:40:14.000
+In this playlist, we will read a 2-hour lecture.
+
+00:40:14.000 --> 00:40:18.000
+So, yes, it happens. It is a very common technique.
+
+00:40:18.000 --> 00:40:22.000
+Where you use another LLM to test an LLM based application.
+
+00:40:22.000 --> 00:40:26.000
+Is there any other question at this point?
+
+00:40:26.000 --> 00:40:30.000
+Is automated reasoning considered part of evals
+
+00:40:30.000 --> 00:40:34.000
+or different concept?
+
+00:40:34.000 --> 00:40:38.000
+I am not sure about this technique.
+
+00:40:38.000 --> 00:40:42.000
+Sorry, I can't see it.
+
+00:40:42.000 --> 00:40:46.000
+Sorry.
+
+00:40:46.000 --> 00:40:50.000
+Sir, that means if we make any LLM based
+
+00:40:50.000 --> 00:40:54.000
+app, then the tools used to eval it, that is LLM evals.
+
+00:40:54.000 --> 00:40:58.000
+Not usual. Only tools are not called LLM evals.
+
+00:40:58.000 --> 00:41:02.000
+In the next discussion, you will understand what is in LLM evals.
+
+00:41:02.000 --> 00:41:06.000
+I am going to teach you that next. Not only tools.
+
+00:41:06.000 --> 00:41:10.000
+If we use LLM as a judge, then how should we trust on another LLM
+
+00:41:10.000 --> 00:41:14.000
+that is right. That's the point.
+
+00:41:14.000 --> 00:41:18.000
+The definition of good that we discussed, on the basis of that, you make sure
+
+00:41:18.000 --> 00:41:22.000
+that the next LLM will judge correctly. You will understand after some time.
+
+00:41:22.000 --> 00:41:26.000
+But here, it takes a lot of your brain.
+
+00:41:26.000 --> 00:41:30.000
+That LLM is working on your behalf, but what you have to do with it,
+
+00:41:30.000 --> 00:41:34.000
+is your decision.
+
+00:41:40.000 --> 00:41:44.000
+Okay.
+
+00:41:44.000 --> 00:41:48.000
+Let's discuss the landscape of LLM evals.
+
+00:41:48.000 --> 00:41:52.000
+In simple words, in the next half hour, I am going to explain to you
+
+00:41:52.000 --> 00:41:56.000
+what all things are there in LLM evals.
+
+00:41:56.000 --> 00:42:00.000
+Like someone just said, that only tools are there in it.
+
+00:42:00.000 --> 00:42:04.000
+The answer is no. In this, apart from tools, many other things are there.
+
+00:42:04.000 --> 00:42:08.000
+So we are going to understand what all are there in this lecture.
+
+00:42:08.000 --> 00:42:12.000
+So the whole landscape of LLM evals,
+
+00:42:12.000 --> 00:42:16.000
+I would like to give a disclaimer here. This landscape that I am going to tell you,
+
+00:42:16.000 --> 00:42:20.000
+I have not picked it up from any book or research paper.
+
+00:42:20.000 --> 00:42:24.000
+This is my own kind of landscape.
+
+00:42:24.000 --> 00:42:28.000
+I have organized it in this way. So don't do this,
+
+00:42:28.000 --> 00:42:32.000
+that you go and start quoting people that this is what happens in LLM evals landscape.
+
+00:42:32.000 --> 00:42:36.000
+No, this is designed by me, so that I can teach you properly.
+
+00:42:36.000 --> 00:42:40.000
+This is not published, you can't quote it.
+
+00:42:40.000 --> 00:42:44.000
+This is a disclaimer. Okay. So yeah, coming back,
+
+00:42:44.000 --> 00:42:48.000
+that in the next half hour, our goal is to understand
+
+00:42:48.000 --> 00:42:52.000
+what all comes in LLM evals.
+
+00:42:52.000 --> 00:42:56.000
+So we are going to understand the big picture of LLM evals.
+
+00:42:56.000 --> 00:43:00.000
+And you must have already seen on the screen that I have divided this whole thing
+
+00:43:00.000 --> 00:43:04.000
+into five categories. What are those five categories?
+
+00:43:04.000 --> 00:43:08.000
+The first category is target.
+
+00:43:08.000 --> 00:43:14.000
+Target means the thing that you want to evaluate.
+
+00:43:14.000 --> 00:43:20.000
+That entity or object that you want to evaluate.
+
+00:43:20.000 --> 00:43:24.000
+Think about it, if we do software testing,
+
+00:43:24.000 --> 00:43:28.000
+then what do we test there?
+
+00:43:28.000 --> 00:43:32.000
+What entity do we test? What is the entity that you test?
+
+00:43:32.000 --> 00:43:36.000
+Can you write those people who are coming from software development?
+
+00:43:36.000 --> 00:43:40.000
+What is the target in software testing?
+
+00:43:40.000 --> 00:43:44.000
+Anyone? What do you test? What is tested?
+
+00:43:44.000 --> 00:43:48.000
+No, not output, outcome. Yes, as Hemanshu said,
+
+00:43:48.000 --> 00:43:52.000
+function. You write functions in code.
+
+00:43:52.000 --> 00:43:56.000
+So a lot of software testing is done on functions.
+
+00:43:56.000 --> 00:44:00.000
+That whether this particular function is working properly or not. Tell me something else.
+
+00:44:00.000 --> 00:44:04.000
+Apart from functions, who else is tested?
+
+00:44:04.000 --> 00:44:08.000
+Programs are tested. But generally programs are a set of functions.
+
+00:44:08.000 --> 00:44:12.000
+So generally, functions are tested. APIs are tested.
+
+00:44:12.000 --> 00:44:16.000
+So it can be said that the target in software testing
+
+00:44:16.000 --> 00:44:20.000
+is the function or the API that is tested.
+
+00:44:20.000 --> 00:44:24.000
+Here, in LLM based applications,
+
+00:44:24.000 --> 00:44:28.000
+can you tell me what are the targets?
+
+00:44:28.000 --> 00:44:32.000
+What do we target? What do we evaluate?
+
+00:44:32.000 --> 00:44:36.000
+What do we evaluate?
+
+00:44:36.000 --> 00:44:40.000
+Let me tell you, I have written it here.
+
+00:44:40.000 --> 00:44:44.000
+In LLM based systems,
+
+00:44:44.000 --> 00:44:48.000
+you can target four things.
+
+00:44:48.000 --> 00:44:52.000
+First is model. Model as in your LLM.
+
+00:44:52.000 --> 00:44:56.000
+If you want, you can evaluate LLM.
+
+00:44:56.000 --> 00:45:00.000
+This is the first target.
+
+00:45:00.000 --> 00:45:04.000
+And you do this so that you can understand which LLM will be right for a particular application.
+
+00:45:04.000 --> 00:45:08.000
+Think about it. Sometimes it happens that
+
+00:45:08.000 --> 00:45:12.000
+for your particular use case, it is not necessary that the frontier model is the best.
+
+00:45:12.000 --> 00:45:16.000
+It is possible that a small model
+
+00:45:16.000 --> 00:45:20.000
+can perform better on a specific thing.
+
+00:45:20.000 --> 00:45:24.000
+Take an example. Let's say I am making a chatbot
+
+00:45:24.000 --> 00:45:28.000
+that will answer coding related questions.
+
+00:45:28.000 --> 00:45:32.000
+Now I have two options. One option is that I use
+
+00:45:32.000 --> 00:45:36.000
+Anthropic's Opus model. Or the second option is
+
+00:45:36.000 --> 00:45:40.000
+that I use Quen's coding model.
+
+00:45:40.000 --> 00:45:44.000
+And by testing, I found that Quen's model
+
+00:45:44.000 --> 00:45:48.000
+is smaller in coding based tasks but it is giving better results because
+
+00:45:48.000 --> 00:45:52.000
+it is trained on coding based data.
+
+00:45:52.000 --> 00:45:56.000
+The first thing that you evaluate is model.
+
+00:45:56.000 --> 00:46:00.000
+Because by the evaluation of model, you can understand which LLM is most suitable for a particular LLM based application.
+
+00:46:00.000 --> 00:46:04.000
+The second thing
+
+00:46:04.000 --> 00:46:08.000
+that you target and evaluate is
+
+00:46:08.000 --> 00:46:12.000
+components. Now you have to understand one thing here.
+
+00:46:12.000 --> 00:46:16.000
+In any LLM based system, there is LLM at the center.
+
+00:46:16.000 --> 00:46:20.000
+But there are many other machines around it
+
+00:46:20.000 --> 00:46:24.000
+which are combined to form your overall system.
+
+00:46:24.000 --> 00:46:28.000
+The best example of this is Rack. Can you tell me
+
+00:46:28.000 --> 00:46:32.000
+what other components are there in Rack apart from LLM? Write it in the chat and tell me.
+
+00:46:32.000 --> 00:46:36.000
+In a Rack system,
+
+00:46:36.000 --> 00:46:40.000
+what are the components apart from LLM? Right, VectorDB,
+
+00:46:40.000 --> 00:46:44.000
+Retrievers, Rerankers,
+
+00:46:44.000 --> 00:46:48.000
+there are many other components.
+
+00:46:48.000 --> 00:46:52.000
+So in LLM evals, you can test LLM
+
+00:46:52.000 --> 00:46:56.000
+but you can also test individual components.
+
+00:46:56.000 --> 00:47:00.000
+Like your prompt, your retriever,
+
+00:47:00.000 --> 00:47:04.000
+your reranker, your context builder. If you are using
+
+00:47:04.000 --> 00:47:08.000
+LLM, you can test its tool call.
+
+00:47:08.000 --> 00:47:12.000
+If you are using output parser, you can test it.
+
+00:47:12.000 --> 00:47:16.000
+You can test the guardrail. There is a memory system. You can test memory individually.
+
+00:47:16.000 --> 00:47:20.000
+So I have told you two targets so far.
+
+00:47:20.000 --> 00:47:24.000
+LLM and different components of a LLM based system.
+
+00:47:24.000 --> 00:47:28.000
+The third thing that you can evaluate
+
+00:47:28.000 --> 00:47:32.000
+is workflow. Workflow is basically
+
+00:47:32.000 --> 00:47:36.000
+a connected flow of components.
+
+00:47:36.000 --> 00:47:40.000
+Like a Rack pipeline. How does a Rack pipeline work?
+
+00:47:40.000 --> 00:47:44.000
+User's question comes, you retrieve the document, build the context,
+
+00:47:44.000 --> 00:47:48.000
+generate the answer and after generating the answer, you cite the sources.
+
+00:47:48.000 --> 00:47:52.000
+So this is a proper workflow. So you can
+
+00:47:52.000 --> 00:47:56.000
+evaluate this workflow. Similarly,
+
+00:47:56.000 --> 00:48:00.000
+you made an agent. User gave the goal, you generated the plan,
+
+00:48:00.000 --> 00:48:04.000
+you created the tool, you chose the tool, called the tool, observed the result,
+
+00:48:04.000 --> 00:48:08.000
+went to the next step and went to the final answer. This is again a workflow.
+
+00:48:08.000 --> 00:48:12.000
+You can evaluate this entire workflow.
+
+00:48:12.000 --> 00:48:16.000
+This is the third entity that you can evaluate.
+
+00:48:16.000 --> 00:48:20.000
+And the fourth one is your complete finalized application.
+
+00:48:20.000 --> 00:48:24.000
+You made a customer chatbot, or an AI tutor,
+
+00:48:24.000 --> 00:48:28.000
+or a legal document assistant. These are like proper products
+
+00:48:28.000 --> 00:48:32.000
+that are being made online. So you can evaluate these as well.
+
+00:48:32.000 --> 00:48:36.000
+Think about it. How does a deployed application
+
+00:48:36.000 --> 00:48:40.000
+perform an evaluation? What do you evaluate?
+
+00:48:40.000 --> 00:48:44.000
+What can you evaluate in an already running application?
+
+00:48:44.000 --> 00:48:48.000
+Think about it. If there is an application which is running, it's live,
+
+00:48:48.000 --> 00:48:52.000
+how can you perform an evaluation there? Latency,
+
+00:48:52.000 --> 00:48:56.000
+how long is the system giving me the result?
+
+00:48:56.000 --> 00:49:00.000
+How much time is the system taking? How much cost is being incurred
+
+00:49:00.000 --> 00:49:04.000
+in generating the per answer? Is the system running properly?
+
+00:49:04.000 --> 00:49:08.000
+How many resources are being used? You test all these things in an online system.
+
+00:49:08.000 --> 00:49:12.000
+So did you get my point? We are discussing
+
+00:49:12.000 --> 00:49:16.000
+what all comes in LLMEvalves. And the first thing we discussed
+
+00:49:16.000 --> 00:49:20.000
+is that the most important thing in LLMEvalves is that
+
+00:49:20.000 --> 00:49:24.000
+what do you want to evaluate? And we read four things.
+
+00:49:24.000 --> 00:49:28.000
+First, what is it? Your LLMEvalves. You can evaluate your LLMEvalves.
+
+00:49:28.000 --> 00:49:32.000
+Second, you can evaluate different components of your system.
+
+00:49:32.000 --> 00:49:36.000
+You can evaluate a workflow.
+
+00:49:36.000 --> 00:49:40.000
+And you can evaluate a completely deployed, completed application.
+
+00:49:40.000 --> 00:49:44.000
+So these are four things which you can call
+
+00:49:44.000 --> 00:49:48.000
+as target. Target means something which you
+
+00:49:48.000 --> 00:49:52.000
+evaluate. Is it clear? Is the first
+
+00:49:52.000 --> 00:49:56.000
+part of this landscape clear? This is the first
+
+00:49:56.000 --> 00:50:00.000
+part of the landscape. Is it clear?
+
+00:50:06.000 --> 00:50:10.000
+Is there anyone who is going from above? I don't understand.
+
+00:50:10.000 --> 00:50:14.000
+It's not making sense. You can give feedback. I mean, in real time, I can
+
+00:50:14.000 --> 00:50:18.000
+try to change my level of
+
+00:50:18.000 --> 00:50:22.000
+explanation, if you will say so.
+
+00:50:22.000 --> 00:50:26.000
+So far, it's okay. We spent half an hour in class.
+
+00:50:26.000 --> 00:50:30.000
+I guess it's been 45 minutes. Is it fine?
+
+00:50:30.000 --> 00:50:34.000
+Okay. So now let's talk
+
+00:50:34.000 --> 00:50:38.000
+about the next thing. In the landscape of LLMEvalves,
+
+00:50:38.000 --> 00:50:42.000
+the next and perhaps the most important thing, which I am calling
+
+00:50:42.000 --> 00:50:46.000
+as criteria. What was the target?
+
+00:50:46.000 --> 00:50:50.000
+The thing which you evaluate.
+
+00:50:50.000 --> 00:50:54.000
+Criteria is actually the definition of good
+
+00:50:54.000 --> 00:50:58.000
+which we were discussing earlier. So the target
+
+00:50:58.000 --> 00:51:02.000
+which you are evaluating, on what aspect
+
+00:51:02.000 --> 00:51:06.000
+are you evaluating it? We call it criteria.
+
+00:51:06.000 --> 00:51:10.000
+For example, if I am evaluating an LLME,
+
+00:51:10.000 --> 00:51:14.000
+then on what aspect will I evaluate it?
+
+00:51:14.000 --> 00:51:18.000
+I am calling this criteria. Can someone tell me quickly,
+
+00:51:18.000 --> 00:51:22.000
+if we are evaluating an LLME, then can you tell me some
+
+00:51:22.000 --> 00:51:26.000
+criteria, some aspect on which you can evaluate LLMEs?
+
+00:51:30.000 --> 00:51:34.000
+Relevancy, hallucination. Hallucination is good. Latency is also good. Yes,
+
+00:51:34.000 --> 00:51:38.000
+latency can be an answer. Token generation speed is also a good
+
+00:51:38.000 --> 00:51:42.000
+metric. Is there toxicity or not?
+
+00:51:42.000 --> 00:51:46.000
+Ground truth is a little rag based.
+
+00:51:46.000 --> 00:51:50.000
+Is there bias or not? You are telling more
+
+00:51:50.000 --> 00:51:54.000
+about rag criteria, but yeah, a lot of people
+
+00:51:54.000 --> 00:51:58.000
+were right. So let me define it again.
+
+00:51:58.000 --> 00:52:02.000
+Target means the thing which you are evaluating. Criteria means
+
+00:52:02.000 --> 00:52:06.000
+on what aspect of that thing are you evaluating it?
+
+00:52:06.000 --> 00:52:10.000
+Now there are categories in this as well.
+
+00:52:10.000 --> 00:52:14.000
+There are four categories in this. First category is
+
+00:52:14.000 --> 00:52:18.000
+capability. Second category is
+
+00:52:18.000 --> 00:52:22.000
+application quality. Third is safety and security and fourth is operation.
+
+00:52:22.000 --> 00:52:26.000
+These are four aspects. Capability
+
+00:52:26.000 --> 00:52:30.000
+simply means what are the capabilities of
+
+00:52:30.000 --> 00:52:34.000
+the things you are using in the LLME. Quickly write me
+
+00:52:34.000 --> 00:52:38.000
+again and tell me what type of capabilities
+
+00:52:38.000 --> 00:52:42.000
+can be there apart from producing text.
+
+00:52:42.000 --> 00:52:46.000
+Producing text is a general capability but what kind of... Yeah, one capability
+
+00:52:46.000 --> 00:52:50.000
+could be generating code, reasoning is a capability,
+
+00:52:50.000 --> 00:52:54.000
+mathematical reasoning can also be called a capability,
+
+00:52:54.000 --> 00:52:58.000
+general knowledge can be called a capability, multimedia
+
+00:52:58.000 --> 00:53:02.000
+understanding can also be called a capability.
+
+00:53:02.000 --> 00:53:06.000
+So basically these are the same capabilities. Capability
+
+00:53:06.000 --> 00:53:10.000
+means we are talking about the aspects on which we judge
+
+00:53:10.000 --> 00:53:14.000
+LLMs. Second is application quality.
+
+00:53:14.000 --> 00:53:18.000
+Application quality means the application
+
+00:53:18.000 --> 00:53:22.000
+you make using LLM, rag application, agents
+
+00:53:22.000 --> 00:53:26.000
+whatever you measure,
+
+00:53:26.000 --> 00:53:30.000
+the way they work, the things you evaluate,
+
+00:53:30.000 --> 00:53:34.000
+you will put all those aspects in this bucket. Third comes
+
+00:53:34.000 --> 00:53:38.000
+safety and security. I guess you can understand if your chatbot is toxic
+
+00:53:38.000 --> 00:53:42.000
+or hallucinating or giving harmful
+
+00:53:42.000 --> 00:53:46.000
+instructions. So measuring all those things
+
+00:53:46.000 --> 00:53:50.000
+comes in this bucket. And finally, operations is
+
+00:53:50.000 --> 00:53:54.000
+a fourth bucket where we put those metrics, those aspects
+
+00:53:54.000 --> 00:53:58.000
+which tells whether your application is
+
+00:53:58.000 --> 00:54:02.000
+running properly in production. Like latency,
+
+00:54:02.000 --> 00:54:06.000
+token count, time for first token,
+
+00:54:06.000 --> 00:54:10.000
+P95 latency, all these things come in fourth bucket.
+
+00:54:10.000 --> 00:54:14.000
+So we discuss all these buckets one by one.
+
+00:54:14.000 --> 00:54:18.000
+First of all, let's discuss the capability bucket. Let's go up again
+
+00:54:18.000 --> 00:54:22.000
+so that you don't get confused. I am backtracking once because
+
+00:54:22.000 --> 00:54:26.000
+it may get confusing. What did we come to discuss?
+
+00:54:26.000 --> 00:54:30.000
+We came to discuss that
+
+00:54:30.000 --> 00:54:34.000
+what all comes in the term LLMEvalse.
+
+00:54:34.000 --> 00:54:38.000
+I said we will discuss this
+
+00:54:38.000 --> 00:54:42.000
+in five parts. First of all, we will discuss
+
+00:54:42.000 --> 00:54:46.000
+what LLMEvalse is applied on.
+
+00:54:46.000 --> 00:54:50.000
+What object is applied on which entity.
+
+00:54:50.000 --> 00:54:54.000
+So we came to know that there are four things. There is model
+
+00:54:54.000 --> 00:54:58.000
+which is our LLM. There are components which we use to build systems.
+
+00:54:58.000 --> 00:55:02.000
+There are workflows and there is the final application.
+
+00:55:02.000 --> 00:55:06.000
+After that, I said that the second LLMEvalse comes in
+
+00:55:06.000 --> 00:55:10.000
+criteria. Criteria means the system
+
+00:55:10.000 --> 00:55:14.000
+which you are evaluating, on what aspect basis you are evaluating it.
+
+00:55:14.000 --> 00:55:18.000
+We are discussing this. And there are four things in this.
+
+00:55:18.000 --> 00:55:22.000
+Capability, application quality, safety and security
+
+00:55:22.000 --> 00:55:26.000
+and operations. So keep tracking this
+
+00:55:26.000 --> 00:55:30.000
+otherwise you will get confused.
+
+00:55:30.000 --> 00:55:34.000
+First of all, let's talk about capability. This is strictly related
+
+00:55:34.000 --> 00:55:38.000
+to LLMs. Whenever we talk about capability
+
+00:55:38.000 --> 00:55:42.000
+we talk about LLMs. Your whole application is a rag application
+
+00:55:42.000 --> 00:55:46.000
+but when we talk about capability, we are talking about the brain of the system
+
+00:55:46.000 --> 00:55:50.000
+which is the LLM. There are many things in this but the most common
+
+00:55:50.000 --> 00:55:54.000
+capabilities which is talked about the most is reasoning capability.
+
+00:55:54.000 --> 00:55:58.000
+Second, coding capability, math capability,
+
+00:55:58.000 --> 00:56:02.000
+knowledge capability, instruction following capability,
+
+00:56:02.000 --> 00:56:06.000
+long context handling capability,
+
+00:56:06.000 --> 00:56:10.000
+multimodal understanding capability and finally, tool use
+
+00:56:10.000 --> 00:56:14.000
+capability. And to judge every capability
+
+00:56:14.000 --> 00:56:18.000
+we have some benchmarks. Maybe you have heard about these things
+
+00:56:18.000 --> 00:56:22.000
+Have you ever heard about these terms? MMLU,
+
+00:56:22.000 --> 00:56:26.000
+Human eval, GSM 8K,
+
+00:56:26.000 --> 00:56:30.000
+MMLU Trivia QA, IF eval
+
+00:56:30.000 --> 00:56:34.000
+maybe you have heard about this. Needle in a haystack,
+
+00:56:34.000 --> 00:56:38.000
+MMMU, tool bench. These are all benchmarks
+
+00:56:38.000 --> 00:56:42.000
+which we will discuss in the next lecture. We will discuss all of these in detail.
+
+00:56:42.000 --> 00:56:46.000
+The simple thing about these benchmarks is
+
+00:56:46.000 --> 00:56:50.000
+they tell you whether your LLM has all these capabilities
+
+00:56:50.000 --> 00:56:54.000
+or not. For example, I will show you one example
+
+00:56:54.000 --> 00:56:58.000
+its name is
+
+00:56:58.000 --> 00:57:02.000
+GSM 8K
+
+00:57:02.000 --> 00:57:06.000
+So this is
+
+00:57:06.000 --> 00:57:10.000
+your benchmark which makes us understand
+
+00:57:10.000 --> 00:57:14.000
+that any new LLM
+
+00:57:14.000 --> 00:57:18.000
+which has the capability to solve math problems
+
+00:57:18.000 --> 00:57:22.000
+So whenever there are new models like Gemini,
+
+00:57:22.000 --> 00:57:26.000
+Anthropic, Cloud or OpenAI
+
+00:57:26.000 --> 00:57:30.000
+they run these benchmarks
+
+00:57:30.000 --> 00:57:34.000
+before releasing their model and they get a score
+
+00:57:34.000 --> 00:57:38.000
+and they show the same score that we have topped
+
+00:57:38.000 --> 00:57:42.000
+and only then we know how capable a particular LLM is.
+
+00:57:42.000 --> 00:57:46.000
+If you have seen or followed LLM or chatbot
+
+00:57:46.000 --> 00:57:50.000
+so these are kind of leaderboards which tell you
+
+00:57:50.000 --> 00:57:54.000
+which model is leading
+
+00:57:54.000 --> 00:57:58.000
+and on what basis it is leading.
+
+00:57:58.000 --> 00:58:02.000
+Here you can see
+
+00:58:02.000 --> 00:58:06.000
+instruction following, math, multi-turn capabilities, coding
+
+00:58:06.000 --> 00:58:10.000
+creative writing. These are the aspects which we are discussing here.
+
+00:58:10.000 --> 00:58:14.000
+Is the point clear? We will not deep dive
+
+00:58:14.000 --> 00:58:18.000
+into how MMLU works or
+
+00:58:18.000 --> 00:58:22.000
+what kind of problems are there in the SWE bench. We will discuss all these in the next session.
+
+00:58:22.000 --> 00:58:26.000
+I just wanted to give you a high level overview
+
+00:58:26.000 --> 00:58:30.000
+that the criteria point we are discussing
+
+00:58:30.000 --> 00:58:34.000
+the first point is
+
+00:58:34.000 --> 00:58:38.000
+capability and we were just discussing the different
+
+00:58:38.000 --> 00:58:42.000
+different type of capabilities that a LLM can have. Is it clear till now?
+
+00:58:42.000 --> 00:58:46.000
+Then we can move on to the next criteria
+
+00:58:46.000 --> 00:58:50.000
+which is application quality.
+
+00:58:50.000 --> 00:58:54.000
+In application quality, the funda is simple. You have used LLM
+
+00:58:54.000 --> 00:58:58.000
+and made an application and on the basis
+
+00:58:58.000 --> 00:59:02.000
+of the nature of the application, you evaluate it.
+
+00:59:02.000 --> 00:59:06.000
+For example, if you have made a general chatbot which is not a rag chatbot
+
+00:59:06.000 --> 00:59:10.000
+or agent, then you will check it on the basis of different things
+
+00:59:10.000 --> 00:59:14.000
+like correctness, relevance, completeness, clarity
+
+00:59:14.000 --> 00:59:18.000
+instruction following. These are some of the metrics on which you judge
+
+00:59:18.000 --> 00:59:22.000
+these are the aspects on which you check.
+
+00:59:22.000 --> 00:59:26.000
+If you are making a rag chatbot, then in the rag chatbot
+
+00:59:26.000 --> 00:59:30.000
+the relevance of retrieval, context recall, faithfulness
+
+00:59:30.000 --> 00:59:34.000
+answer relevance, citation accuracy
+
+00:59:34.000 --> 00:59:38.000
+these are the metrics that you follow. If you are building an agent
+
+00:59:38.000 --> 00:59:42.000
+then tool selection accuracy, argument correctness
+
+00:59:42.000 --> 00:59:46.000
+task completion ratio, every step
+
+00:59:46.000 --> 00:59:50.000
+efficiency, if the agent fails then how much accuracy
+
+00:59:50.000 --> 00:59:54.000
+is required to recover it. These are the metrics
+
+00:59:54.000 --> 00:59:58.000
+inside application quality. Similarly, we also have
+
+00:59:58.000 --> 01:00:02.000
+multi-ton conversation quality and structured output quality.
+
+01:00:02.000 --> 01:00:06.000
+For now, ignore this as well. The point is clear that application quality
+
+01:00:06.000 --> 01:00:10.000
+means when you are making a system on LLM
+
+01:00:10.000 --> 01:00:14.000
+then what is the way to evaluate it.
+
+01:00:14.000 --> 01:00:18.000
+So
+
+01:00:18.000 --> 01:00:22.000
+we have read two points in criteria.
+
+01:00:22.000 --> 01:00:26.000
+This one is done, this one is done.
+
+01:00:26.000 --> 01:00:30.000
+Let's quickly discuss safety and security.
+
+01:00:30.000 --> 01:00:34.000
+The simple meaning of safety and security is that the system you have created or your LLM
+
+01:00:34.000 --> 01:00:38.000
+or LLM based system is both safe and secure.
+
+01:00:38.000 --> 01:00:42.000
+So here you evaluate in many ways. You check toxicity
+
+01:00:42.000 --> 01:00:46.000
+and harmful content. There are different metrics for that. You can just
+
+01:00:46.000 --> 01:00:50.000
+read these metrics. You must have heard them before. But now you are understanding
+
+01:00:50.000 --> 01:00:54.000
+that where can I place it mentally. So we have toxicity and
+
+01:00:54.000 --> 01:00:58.000
+harmful content, bias and fairness
+
+01:00:58.000 --> 01:01:02.000
+metrics, hallucination metrics
+
+01:01:02.000 --> 01:01:06.000
+and other metrics. You have different metrics for
+
+01:01:06.000 --> 01:01:10.000
+sycophancy and dishonesty, jail breaks, prompt injection
+
+01:01:10.000 --> 01:01:14.000
+and other metrics to judge dangerous capabilities.
+
+01:01:14.000 --> 01:01:18.000
+So this is your third dimension
+
+01:01:18.000 --> 01:01:22.000
+inside criteria. And the fourth one is
+
+01:01:22.000 --> 01:01:26.000
+operations which we have discussed here.
+
+01:01:26.000 --> 01:01:30.000
+Operations is basically that once you deploy your application
+
+01:01:30.000 --> 01:01:34.000
+and then you measure
+
+01:01:34.000 --> 01:01:38.000
+latency and responsiveness.
+
+01:01:38.000 --> 01:01:42.000
+So here you have metrics such as P95 latency. 95%
+
+01:01:42.000 --> 01:01:46.000
+users feel how much latency is there in the system. Cost efficiency
+
+01:01:46.000 --> 01:01:50.000
+is one more important metric where you check the token usage
+
+01:01:50.000 --> 01:01:54.000
+cost per query, model cost
+
+01:01:54.000 --> 01:01:58.000
+comparison. We also have reliability and availability
+
+01:01:58.000 --> 01:02:02.000
+where you can see how reliable your system is.
+
+01:02:02.000 --> 01:02:06.000
+Reliable in the sense how long it was up
+
+01:02:06.000 --> 01:02:10.000
+and if it failed and how quickly it came back online.
+
+01:02:10.000 --> 01:02:14.000
+You check such things. In monitoring and observability
+
+01:02:14.000 --> 01:02:18.000
+you check every trace that is coming, you lock it.
+
+01:02:18.000 --> 01:02:22.000
+So you do such things here. And finally in drift and regression
+
+01:02:22.000 --> 01:02:26.000
+tracking you basically check that
+
+01:02:26.000 --> 01:02:30.000
+over time your model or system is not degrading.
+
+01:02:30.000 --> 01:02:34.000
+These things you measure here. So basically
+
+01:02:34.000 --> 01:02:38.000
+these four things come in your criteria.
+
+01:02:38.000 --> 01:02:42.000
+So target was which thing you evaluate.
+
+01:02:42.000 --> 01:02:46.000
+Criteria is
+
+01:02:46.000 --> 01:02:50.000
+which aspect basis you evaluate. Next comes
+
+01:02:50.000 --> 01:02:54.000
+method. Method is basically that you
+
+01:02:54.000 --> 01:02:58.000
+how
+
+01:02:58.000 --> 01:03:02.000
+you perform the evaluation. It is a little
+
+01:03:02.000 --> 01:03:06.000
+good. I feel you can get confused because of the language.
+
+01:03:06.000 --> 01:03:10.000
+But I will try to explain anyways. Target was
+
+01:03:10.000 --> 01:03:14.000
+which thing you are evaluating. Criteria is
+
+01:03:14.000 --> 01:03:18.000
+which aspect you are evaluating. Method is
+
+01:03:18.000 --> 01:03:22.000
+how you are evaluating it. There are different ways. I will tell you.
+
+01:03:22.000 --> 01:03:26.000
+If you go here, I will show you.
+
+01:03:26.000 --> 01:03:30.000
+There are four different ways. First is
+
+01:03:30.000 --> 01:03:34.000
+human judgment. One way is that you
+
+01:03:34.000 --> 01:03:38.000
+make a human sit and tell him that you evaluate
+
+01:03:38.000 --> 01:03:42.000
+the system. This is the best way to evaluate any LLM
+
+01:03:42.000 --> 01:03:46.000
+based application. Because human judgment is still better than
+
+01:03:46.000 --> 01:03:50.000
+any kind of AI. So making a human sit and
+
+01:03:50.000 --> 01:03:54.000
+tell him to do the work is super good. But can you tell me what is the problem with this approach
+
+01:03:54.000 --> 01:03:58.000
+if we keep humans for evaluation.
+
+01:03:58.000 --> 01:04:02.000
+What can be the problem?
+
+01:04:02.000 --> 01:04:06.000
+It is simple. This is not scalable.
+
+01:04:06.000 --> 01:04:10.000
+If you make humans sit and do the testing or evaluation
+
+01:04:10.000 --> 01:04:14.000
+then it is not scalable in the sense that it will be very costly.
+
+01:04:14.000 --> 01:04:18.000
+You will have to pay salary and there is a good chance that you
+
+01:04:18.000 --> 01:04:22.000
+can't even do it. How many test cases can a human think?
+
+01:04:22.000 --> 01:04:26.000
+How many things can he gather? That is the problem. It is not scalable.
+
+01:04:26.000 --> 01:04:30.000
+Second is automated checks. So there are some
+
+01:04:30.000 --> 01:04:34.000
+programmatic techniques with which
+
+01:04:34.000 --> 01:04:38.000
+you can perform evaluations. Again, I can't go into
+
+01:04:38.000 --> 01:04:42.000
+technical depth here because there are many things to study here.
+
+01:04:42.000 --> 01:04:46.000
+But you can do things programmatically.
+
+01:04:46.000 --> 01:04:50.000
+It is just that you can't handle many cases programmatically.
+
+01:04:50.000 --> 01:04:54.000
+For example, if you have made a rag based application then you can't
+
+01:04:54.000 --> 01:04:58.000
+evaluate it programmatically.
+
+01:04:58.000 --> 01:05:02.000
+Let's say you have
+
+01:05:02.000 --> 01:05:06.000
+given an example. Tell me an LLM application
+
+01:05:06.000 --> 01:05:10.000
+which has a structured output
+
+01:05:10.000 --> 01:05:14.000
+from the system. Like a JSON type
+
+01:05:14.000 --> 01:05:18.000
+output. Can you tell me a scenario like this? I can't think of one.
+
+01:05:18.000 --> 01:05:22.000
+Can you give me an example where we have made an LLM application
+
+01:05:22.000 --> 01:05:26.000
+whose output is not a chatbot type output. I cannot chat with it
+
+01:05:26.000 --> 01:05:30.000
+but it is using LLM and giving me a JSON type output.
+
+01:05:30.000 --> 01:05:34.000
+I am trying to think of an example.
+
+01:05:34.000 --> 01:05:38.000
+Let's say there is a weather forecast
+
+01:05:38.000 --> 01:05:42.000
+app. Though for weather forecast you will mostly
+
+01:05:42.000 --> 01:05:46.000
+use a different forecasting model. But let's say
+
+01:05:46.000 --> 01:05:50.000
+you have given a good example
+
+01:05:50.000 --> 01:05:54.000
+like DP Sharma. Web scraping
+
+01:05:54.000 --> 01:05:58.000
+of resumes. Let's say we have made a system
+
+01:05:58.000 --> 01:06:02.000
+where your system is looking at a resume and
+
+01:06:02.000 --> 01:06:06.000
+analyzing it and giving us a score
+
+01:06:06.000 --> 01:06:10.000
+that how suitable the candidate is.
+
+01:06:10.000 --> 01:06:14.000
+There is a system where the output is JSON.
+
+01:06:14.000 --> 01:06:18.000
+You can programatically evaluate this type of system.
+
+01:06:18.000 --> 01:06:22.000
+There are techniques which will programatically evaluate it.
+
+01:06:22.000 --> 01:06:26.000
+But not a rag based system. Because there can be any output
+
+01:06:26.000 --> 01:06:30.000
+and this technique fails.
+
+01:06:30.000 --> 01:06:34.000
+The third and most used technique which you will read the most in this course
+
+01:06:34.000 --> 01:06:38.000
+is model as a judge or we call it LLM as a judge.
+
+01:06:38.000 --> 01:06:42.000
+Basically what you do is
+
+01:06:42.000 --> 01:06:46.000
+you come in between these two techniques. Humans give us the most judgment power
+
+01:06:46.000 --> 01:06:50.000
+and you can scale it through programming.
+
+01:06:50.000 --> 01:06:54.000
+LLM as a judge comes in between. It has
+
+01:06:54.000 --> 01:06:58.000
+human like judgment and it has
+
+01:06:58.000 --> 01:07:02.000
+the power to scale programming. That is why
+
+01:07:02.000 --> 01:07:06.000
+the methods used the most in the industry
+
+01:07:06.000 --> 01:07:10.000
+to evaluate any kind of LLM based application
+
+01:07:10.000 --> 01:07:14.000
+not any kind but most of the types of LLM based application that is LLM
+
+01:07:14.000 --> 01:07:18.000
+as a judge. We will spend the most time on this in this course.
+
+01:07:18.000 --> 01:07:22.000
+There is a fourth method of performing
+
+01:07:22.000 --> 01:07:26.000
+LLM evaluations that is production feedback.
+
+01:07:26.000 --> 01:07:30.000
+When your system is deployed,
+
+01:07:30.000 --> 01:07:34.000
+you perform evaluations. How?
+
+01:07:34.000 --> 01:07:38.000
+You take the help of your users. Like what you are doing is
+
+01:07:38.000 --> 01:07:42.000
+getting the user rating done. Or you are getting thumbs up and thumbs down done.
+
+01:07:42.000 --> 01:07:46.000
+So, evaluations are being done on the basis of this.
+
+01:07:46.000 --> 01:07:50.000
+Suppose you defined a metric like I defined a metric during making a chart board of CampusX
+
+01:07:50.000 --> 01:07:54.000
+that there should be simple examples
+
+01:07:54.000 --> 01:07:58.000
+or there should be simple explanations while giving every answer.
+
+01:07:58.000 --> 01:08:02.000
+So, what I will do is during a session, I will give 4-5 explanations
+
+01:08:02.000 --> 01:08:06.000
+and then I will pop up and ask my student
+
+01:08:06.000 --> 01:08:10.000
+was my explanation simple?
+
+01:08:10.000 --> 01:08:14.000
+Yes or No? So, the user said no.
+
+01:08:14.000 --> 01:08:18.000
+So, it was evaluated and I got to know that whatever was there till now
+
+01:08:18.000 --> 01:08:22.000
+was not getting the answer by being simplified. So, during production
+
+01:08:22.000 --> 01:08:26.000
+you can take the feedback
+
+01:08:26.000 --> 01:08:30.000
+and perform the evaluation.
+
+01:08:30.000 --> 01:08:34.000
+AB testing also comes in this. You have taken out two different versions
+
+01:08:34.000 --> 01:08:38.000
+of your chart board with one model and another with another model
+
+01:08:38.000 --> 01:08:42.000
+and you are finding out which model is giving the most simple explanation.
+
+01:08:42.000 --> 01:08:46.000
+Your user is telling you. So, you perform evaluations in production as well.
+
+01:08:46.000 --> 01:08:50.000
+So, this is the fourth technique. So, in nutshell
+
+01:08:50.000 --> 01:08:54.000
+we will discuss 4 types of methods in this course. Human judgment
+
+01:08:54.000 --> 01:08:58.000
+which is less but is very powerful in the sense
+
+01:08:58.000 --> 01:09:02.000
+that generally it will be correct. But the problem is
+
+01:09:02.000 --> 01:09:06.000
+that you cannot scale it. It is very costly. Second is
+
+01:09:06.000 --> 01:09:10.000
+to evaluate through automated checks or programming.
+
+01:09:10.000 --> 01:09:14.000
+But it will not work on every type of application. It will generally work on that type of application
+
+01:09:14.000 --> 01:09:18.000
+where output is controlled.
+
+01:09:18.000 --> 01:09:22.000
+You get to see a particular type of output as we discussed earlier.
+
+01:09:22.000 --> 01:09:26.000
+The resume type. Third is LLM as a judge where you are using
+
+01:09:26.000 --> 01:09:30.000
+LLM to evaluate an LLM based application.
+
+01:09:30.000 --> 01:09:34.000
+And third is production feedback where you evaluate even after
+
+01:09:34.000 --> 01:09:38.000
+being deployed with the help of user behavior. So, these are the 4 methods
+
+01:09:38.000 --> 01:09:42.000
+which we will discuss in this course. So, again let's go up
+
+01:09:42.000 --> 01:09:46.000
+we covered the third thing. What methods
+
+01:09:46.000 --> 01:09:50.000
+come in LLM evaluation. We are backtracking again.
+
+01:09:50.000 --> 01:09:54.000
+We studied in target. What things can be evaluated.
+
+01:09:54.000 --> 01:09:58.000
+We studied in the theory that what aspects can be evaluated
+
+01:09:58.000 --> 01:10:02.000
+in those targets. And in the method we studied the method
+
+01:10:02.000 --> 01:10:06.000
+of evaluating them. After that the next comes
+
+01:10:06.000 --> 01:10:10.000
+life cycle or we can call it timing. Timing simply
+
+01:10:10.000 --> 01:10:14.000
+tells us when we are performing evaluations.
+
+01:10:14.000 --> 01:10:18.000
+So, there are two in this. One comes your
+
+01:10:18.000 --> 01:10:22.000
+offline evaluation and the other
+
+01:10:22.000 --> 01:10:26.000
+comes online evaluation. Offline evaluation means
+
+01:10:26.000 --> 01:10:30.000
+you are performing the evaluation when your system
+
+01:10:30.000 --> 01:10:34.000
+is being made. It is not deployed. People are not using it.
+
+01:10:34.000 --> 01:10:38.000
+At that time the evaluations you perform are called
+
+01:10:38.000 --> 01:10:42.000
+offline evaluations. And once your system is deployed
+
+01:10:42.000 --> 01:10:46.000
+after that the evaluations are called
+
+01:10:46.000 --> 01:10:50.000
+online evaluations. So, the example I just gave you that the user is telling you
+
+01:10:50.000 --> 01:10:54.000
+by giving a thumbs down. That is an example of online evaluation.
+
+01:10:54.000 --> 01:10:58.000
+You are checking if the latency of your deployed app
+
+01:10:58.000 --> 01:11:02.000
+or the speed of token per second is how much. Then this is an online evaluation.
+
+01:11:02.000 --> 01:11:06.000
+If you are checking in the process of making a rag chatbot
+
+01:11:06.000 --> 01:11:10.000
+that how much is the faithfulness score. Then it is an offline evaluation.
+
+01:11:10.000 --> 01:11:14.000
+So, you can understand this immediately. You can see any metric
+
+01:11:14.000 --> 01:11:18.000
+read its description and you will understand whether it is online or offline.
+
+01:11:18.000 --> 01:11:22.000
+Basically, it is telling you at what point of time
+
+01:11:22.000 --> 01:11:26.000
+you are performing the evaluation. I hope you understood.
+
+01:11:26.000 --> 01:11:30.000
+So, this was the fourth thing. Life cycle or timing.
+
+01:11:30.000 --> 01:11:34.000
+You read the target, criteria, method and timing.
+
+01:11:34.000 --> 01:11:38.000
+The last thing is tools. What are tools?
+
+01:11:38.000 --> 01:11:42.000
+Tools is basically the infra needed to run, track
+
+01:11:42.000 --> 01:11:46.000
+and manage the evaluation. So, all this
+
+01:11:46.000 --> 01:11:50.000
+discussion, who facilitates this work?
+
+01:11:50.000 --> 01:11:54.000
+Tools. So, there are certain categories in tools. We will discuss that later.
+
+01:11:54.000 --> 01:11:58.000
+So, there are four categories in tools. First is
+
+01:11:58.000 --> 01:12:02.000
+evaluation frameworks. Second is benchmarks.
+
+01:12:02.000 --> 01:12:06.000
+Third is end-to-end platforms. And fourth is safety tools.
+
+01:12:06.000 --> 01:12:10.000
+You will mostly see these four types of tools in this playlist
+
+01:12:10.000 --> 01:12:14.000
+and in general when you search on the internet. What are evaluation
+
+01:12:14.000 --> 01:12:18.000
+frameworks? These are basically frameworks
+
+01:12:18.000 --> 01:12:22.000
+with which you can perform many types of evaluations.
+
+01:12:22.000 --> 01:12:26.000
+There are two types of frameworks. One is general frameworks.
+
+01:12:26.000 --> 01:12:30.000
+They give you the option to evaluate different types.
+
+01:12:30.000 --> 01:12:34.000
+The most popular one is DeepEval. We will use it in our course.
+
+01:12:34.000 --> 01:12:38.000
+This is the library. There is a company called Confident AI.
+
+01:12:38.000 --> 01:12:42.000
+This is their library. You will see
+
+01:12:42.000 --> 01:12:46.000
+that you can perform many types of evaluations in this.
+
+01:12:46.000 --> 01:12:50.000
+What is this? It's strange.
+
+01:12:54.000 --> 01:12:58.000
+DeepEval. This is the library.
+
+01:12:58.000 --> 01:13:02.000
+I don't know what is happening. Is this happening with you as well?
+
+01:13:02.000 --> 01:13:06.000
+So, it's not like this.
+
+01:13:06.000 --> 01:13:10.000
+I don't know. This seems like an issue on my laptop.
+
+01:13:10.000 --> 01:13:14.000
+In any case, DeepEval is a library
+
+01:13:14.000 --> 01:13:18.000
+with which you can evaluate agents,
+
+01:13:18.000 --> 01:13:22.000
+RAC chartboards,
+
+01:13:22.000 --> 01:13:26.000
+safety-based evaluations, everything.
+
+01:13:26.000 --> 01:13:30.000
+It's a general kind of framework.
+
+01:13:30.000 --> 01:13:34.000
+This is an example of a general framework. Then there are specialized frameworks
+
+01:13:34.000 --> 01:13:38.000
+which are used to run a particular type of evaluation.
+
+01:13:38.000 --> 01:13:42.000
+This is an example of this. This is RAC.
+
+01:13:42.000 --> 01:13:46.000
+RAC is a library which is used for evaluation of RAC-based applications.
+
+01:13:46.000 --> 01:13:50.000
+This is the library.
+
+01:13:50.000 --> 01:13:54.000
+Then there is a library called TrueLens.
+
+01:13:54.000 --> 01:13:58.000
+TrueLens is for agents.
+
+01:13:58.000 --> 01:14:02.000
+If you are making agents, you can use TrueLens to evaluate them.
+
+01:14:02.000 --> 01:14:06.000
+This is again a specialized library.
+
+01:14:06.000 --> 01:14:10.000
+Benchmarks. Benchmarks are used to tell
+
+01:14:10.000 --> 01:14:14.000
+how LLMs are in a particular task or capability.
+
+01:14:14.000 --> 01:14:18.000
+These are the tasks. Reasoning, coding, math, knowledge, etc.
+
+01:14:18.000 --> 01:14:22.000
+These are the benchmarks which we have seen earlier.
+
+01:14:22.000 --> 01:14:26.000
+We will read them in detail in the next lecture. This is the second set of tools.
+
+01:14:26.000 --> 01:14:30.000
+Third is there are some end-to-end platforms
+
+01:14:30.000 --> 01:14:34.000
+which do a lot of work for you. For example, you have to create a data set
+
+01:14:34.000 --> 01:14:38.000
+which I told you earlier that I will create a data set of 30-40-50 questions.
+
+01:14:38.000 --> 01:14:42.000
+I can do the management of that data set.
+
+01:14:42.000 --> 01:14:46.000
+I can perform experiment tracking. I have changed the chunking size,
+
+01:14:46.000 --> 01:14:50.000
+changed the vector database, run different experiments.
+
+01:14:50.000 --> 01:14:54.000
+I can do version comparison. I can record human feedback.
+
+01:14:54.000 --> 01:14:58.000
+I can bring observability to my system.
+
+01:14:58.000 --> 01:15:02.000
+I can record every trace.
+
+01:15:02.000 --> 01:15:06.000
+There are some tools which are used. Their example is Langsmith.
+
+01:15:06.000 --> 01:15:10.000
+If you have seen it, I have made a YouTube video on it.
+
+01:15:10.000 --> 01:15:14.000
+We also have Langfuse which is again a big name in this particular domain.
+
+01:15:14.000 --> 01:15:18.000
+Arise Phoenix is also very popular.
+
+01:15:18.000 --> 01:15:22.000
+Weave is also a tool. These are end-to-end platforms
+
+01:15:22.000 --> 01:15:26.000
+which are trying to do everything. And lastly, we have some tools
+
+01:15:26.000 --> 01:15:30.000
+which are specifically made for safety-related
+
+01:15:30.000 --> 01:15:34.000
+evaluations. For example, with their help,
+
+01:15:34.000 --> 01:15:38.000
+you can test jail breaks, prompt injection,
+
+01:15:38.000 --> 01:15:42.000
+data leakage. Their example is PromptFoo.
+
+01:15:42.000 --> 01:15:46.000
+This is a very popular tool which specifically
+
+01:15:46.000 --> 01:15:50.000
+helps in safety-related evaluations.
+
+01:15:50.000 --> 01:15:54.000
+Then we have another library
+
+01:15:54.000 --> 01:15:58.000
+called PyRit. This is by Microsoft, I guess.
+
+01:15:58.000 --> 01:16:02.000
+This is a Python risk identification tool.
+
+01:16:02.000 --> 01:16:06.000
+This is used.
+
+01:16:06.000 --> 01:16:10.000
+You can see that this way your entire landscape is made.
+
+01:16:10.000 --> 01:16:14.000
+I will come back on the top
+
+01:16:14.000 --> 01:16:18.000
+to this place. Now I will ask you
+
+01:16:18.000 --> 01:16:22.000
+this question.
+
+01:16:22.000 --> 01:16:26.000
+We spent around half an hour, maybe 45 minutes.
+
+01:16:26.000 --> 01:16:30.000
+Do you have a better picture in your mind
+
+01:16:30.000 --> 01:16:34.000
+in comparison to 45 minutes back? How the entire
+
+01:16:34.000 --> 01:16:38.000
+landscape of LLMEvals is organized?
+
+01:16:38.000 --> 01:16:42.000
+Basically, we discussed 5 categories. Target, which we have to evaluate.
+
+01:16:42.000 --> 01:16:46.000
+Criteria, which aspect we have to evaluate. Method,
+
+01:16:46.000 --> 01:16:50.000
+how to evaluate. Lifecycle, when to evaluate.
+
+01:16:50.000 --> 01:16:54.000
+Tools, which we have to evaluate.
+
+01:16:54.000 --> 01:16:58.000
+We put all these in the same place and tried to decode the entire landscape.
+
+01:16:58.000 --> 01:17:02.000
+Honestly,
+
+01:17:02.000 --> 01:17:06.000
+it's not a good idea to upload so much information
+
+01:17:06.000 --> 01:17:10.000
+without any further study on the students.
+
+01:17:10.000 --> 01:17:14.000
+I am realizing that I haven't studied well.
+
+01:17:14.000 --> 01:17:18.000
+I was feeling that I am not able to express myself.
+
+01:17:18.000 --> 01:17:22.000
+So please tell me once,
+
+01:17:22.000 --> 01:17:26.000
+if you are feeling confusing. Basically, give me feedback so that I can improve.
+
+01:17:26.000 --> 01:17:30.000
+Because I felt that
+
+01:17:30.000 --> 01:17:34.000
+too much information can be processed for you.
+
+01:17:34.000 --> 01:17:38.000
+Was it the case?
+
+01:17:38.000 --> 01:17:42.000
+If it was the case, you can tell me. What I can do is I can take this class again.
+
+01:17:42.000 --> 01:17:46.000
+I can do that too so that you can understand better.
+
+01:17:46.000 --> 01:17:50.000
+Because I am not satisfied with the quality of explanation
+
+01:17:50.000 --> 01:17:54.000
+after seeing the video.
+
+01:17:54.000 --> 01:17:58.000
+As Shivam said, Deepanshu said,
+
+01:17:58.000 --> 01:18:02.000
+too much information to process, too many classifications I felt.
+
+01:18:02.000 --> 01:18:06.000
+Right.
+
+01:18:06.000 --> 01:18:10.000
+If there were more examples, it would have been better.
+
+01:18:10.000 --> 01:18:14.000
+Okay. Some people have a problem which I was feeling
+
+01:18:14.000 --> 01:18:18.000
+in the process of explaining. It's okay.
+
+01:18:18.000 --> 01:18:22.000
+It's all similar and confusing.
+
+01:18:22.000 --> 01:18:26.000
+It's too much content but you can explain.
+
+01:18:26.000 --> 01:18:30.000
+Okay.
+
+01:18:30.000 --> 01:18:34.000
+Okay.
+
+01:18:34.000 --> 01:18:38.000
+So, mostly we had to discuss this. Let's discuss one last thing.
+
+01:18:38.000 --> 01:18:42.000
+Now that you have some idea about the entire landscape
+
+01:18:42.000 --> 01:18:46.000
+and what all things are there in the LLM evaluations.
+
+01:18:46.000 --> 01:18:50.000
+I will tell you how I have planned this course.
+
+01:18:50.000 --> 01:18:54.000
+So, in total there will be 10 lectures. I am telling you the lecture by lecture plan.
+
+01:18:54.000 --> 01:18:58.000
+There will be minimum 10 lectures.
+
+01:18:58.000 --> 01:19:02.000
+It can be more than 10. So, this was our today's lecture
+
+01:19:02.000 --> 01:19:06.000
+where I gave you an introduction of LLM evals and its landscape.
+
+01:19:06.000 --> 01:19:10.000
+In the next lecture,
+
+01:19:10.000 --> 01:19:14.000
+we will study the capability evals in detail.
+
+01:19:14.000 --> 01:19:18.000
+This thing.
+
+01:19:18.000 --> 01:19:22.000
+We will study this thing in detail.
+
+01:19:22.000 --> 01:19:26.000
+How do you evaluate LLMs?
+
+01:19:26.000 --> 01:19:30.000
+What are the different benchmarks? How does every benchmark work?
+
+01:19:30.000 --> 01:19:34.000
+So, we will discuss the most popular benchmarks.
+
+01:19:34.000 --> 01:19:38.000
+This will be our next session. Session number 2.
+
+01:19:38.000 --> 01:19:42.000
+In session number 3, we will move to application quality evals.
+
+01:19:42.000 --> 01:19:46.000
+We will discuss how to evaluate an application.
+
+01:19:46.000 --> 01:19:50.000
+In this session, we are evaluating LLMs.
+
+01:19:50.000 --> 01:19:54.000
+Here, we will learn to evaluate applications.
+
+01:19:54.000 --> 01:19:58.000
+We will not go too deep.
+
+01:19:58.000 --> 01:20:02.000
+This is the first session of application evaluation.
+
+01:20:02.000 --> 01:20:06.000
+In session 4, we will learn how to create golden datasets and rubrics.
+
+01:20:06.000 --> 01:20:10.000
+I told you earlier that I will make a dataset of 50-60 questions.
+
+01:20:10.000 --> 01:20:14.000
+I will create a definition of good.
+
+01:20:14.000 --> 01:20:18.000
+I will create a definition of good.
+
+01:20:18.000 --> 01:20:22.000
+We will learn to make our own dataset in lecture 4.
+
+01:20:22.000 --> 01:20:26.000
+In lecture 5, we will learn about programmatic evals.
+
+01:20:26.000 --> 01:20:30.000
+Programmatic evals are the same that we discussed earlier.
+
+01:20:30.000 --> 01:20:34.000
+We were making an application called a parser.
+
+01:20:34.000 --> 01:20:38.000
+We were generating a score.
+
+01:20:38.000 --> 01:20:42.000
+We will do that in lecture 5.
+
+01:20:42.000 --> 01:20:46.000
+In lecture 6, we will learn the most important topic of the playlist.
+
+01:20:46.000 --> 01:20:48.000
+LLM as a judge.
+
+01:20:48.000 --> 01:20:52.000
+In lecture 7, we will learn how to evaluate racks.
+
+01:20:52.000 --> 01:20:56.000
+In lecture 8, we will learn how to evaluate agents.
+
+01:20:56.000 --> 01:21:00.000
+In lecture 9, we will learn how to evaluate safety.
+
+01:21:00.000 --> 01:21:04.000
+In lecture 10, we will learn how to evaluate operational evals.
+
+01:21:04.000 --> 01:21:08.000
+Operational eval is basically this thing.
+
+01:21:08.000 --> 01:21:12.000
+We took 4-5 lectures.
+
+01:21:12.000 --> 01:21:16.000
+This is the 9th lecture and this is the 10th.
+
+01:21:16.000 --> 01:21:20.000
+This is the outline of the course.
+
+01:21:20.000 --> 01:21:24.000
+At this point, it seems that everything will be done in one lecture.
+
+01:21:24.000 --> 01:21:28.000
+But it is possible that we will have to do more coverage tomorrow.
+
+01:21:28.000 --> 01:21:32.000
+This might be a playlist of 10-15 lectures.
+
+01:21:32.000 --> 01:21:36.000
+But roughly, this will be the course outline.
+
+01:21:36.000 --> 01:21:40.000
+You can tell me if you have any feedback on this.
+
+01:21:40.000 --> 01:21:44.000
+I can add or subtract.
+
+01:21:48.000 --> 01:21:52.000
+I can see that there are 80 people here.
+
+01:21:52.000 --> 01:21:56.000
+There are many people who have problems with explanations.
+
+01:21:56.000 --> 01:22:00.000
+I can take this class again on Monday.
+
+01:22:00.000 --> 01:22:04.000
+I am not satisfied. I think I could have delivered better.
+
+01:22:04.000 --> 01:22:08.000
+I think there could be confusion.
+
+01:22:08.000 --> 01:22:12.000
+I won't say that you didn't try to understand.
+
+01:22:12.000 --> 01:22:16.000
+It was a big topic to explain in 30-45 minutes.
+
+01:22:16.000 --> 01:22:20.000
+But I think I can do better.
+
+01:22:20.000 --> 01:22:24.000
+We have a session on Monday.
+
+01:22:24.000 --> 01:22:28.000
+You have a session on Monday, right?
+
+01:22:28.000 --> 01:22:32.000
+Just one second.
+
+01:22:32.000 --> 01:22:36.000
+Yes, there is a session on Monday.
+
+01:22:36.000 --> 01:22:40.000
+Would you be interested to do a repeat session on Tuesday?
+
+01:22:44.000 --> 01:22:48.000
+I will repeat the session for those who didn't understand.
+
+01:22:48.000 --> 01:22:52.000
+Pre-requisites for the next lecture.
+
+01:22:52.000 --> 01:22:56.000
+The next lecture is Capability Eval.
+
+01:22:56.000 --> 01:23:00.000
+There are no prerequisites here.
+
+01:23:00.000 --> 01:23:04.000
+We are going to study the top benchmarks.
+
+01:23:04.000 --> 01:23:08.000
+We won't go in-depth.
+
+01:23:08.000 --> 01:23:12.000
+We will read the whole lecture in this way.
+
+01:23:12.000 --> 01:23:16.000
+So that we have an idea as application developers.
+
+01:23:16.000 --> 01:23:20.000
+What is the benchmark and what is the meaning of a benchmark.
+
+01:23:20.000 --> 01:23:24.000
+This lecture will solve this purpose.
+
+01:23:24.000 --> 01:23:30.000
+After watching the lecture, you will make a model selection in the process of making your application.
+
+01:23:30.000 --> 01:23:34.000
+Now, you can use the open AI model or the anthropic model.
+
+01:23:34.000 --> 01:23:38.000
+But in the future, you will understand better
+
+01:23:38.000 --> 01:23:42.000
+which model is best for your given task based on these benchmarks.
+
+01:23:42.000 --> 01:23:46.000
+There are no prerequisites.
+
+01:23:46.000 --> 01:23:50.000
+Okay.
+
+01:23:50.000 --> 01:23:54.000
+So guys, that's all I wanted to cover in the introductory session.
+
+01:23:54.000 --> 01:23:58.000
+So what I will do is I will stay for 10-15 minutes.
+
+01:23:58.000 --> 01:24:02.000
+I am looking at your chat.
+
+01:24:02.000 --> 01:24:06.000
+Those who have no doubts, you can go.
+
+01:24:06.000 --> 01:24:10.000
+Those who have doubts, you can stay.
+
+01:24:10.000 --> 01:24:14.000
+You can ask your questions. I am looking at the chat.
+
+01:24:14.000 --> 01:24:18.000
+Yes, we can do an extra session but not really required.
+
+01:24:18.000 --> 01:24:22.000
+I am not satisfied. I will be very honest.
+
+01:24:22.000 --> 01:24:26.000
+As a teacher, you feel that
+
+01:24:26.000 --> 01:24:30.000
+were you able to give your 100% or not.
+
+01:24:30.000 --> 01:24:34.000
+I felt that it was a bit rusty. As I said, I am taking a live session after a long time.
+
+01:24:34.000 --> 01:24:38.000
+I feel that I need more practice. It is not necessary for you to come.
+
+01:24:38.000 --> 01:24:42.000
+You will get the recording anyway.
+
+01:24:42.000 --> 01:24:46.000
+The first session will be better than the first session.
+
+01:24:46.000 --> 01:24:50.000
+So watch the recording of the second session. You don't need to attend it live.
+
+01:24:50.000 --> 01:24:54.000
+Sir, can you please share the schedule dates for these lectures?
+
+01:24:54.000 --> 01:24:58.000
+This is your course dashboard.
+
+01:24:58.000 --> 01:25:02.000
+This is your monthly schedule.
+
+01:25:02.000 --> 01:25:06.000
+You can see it from here.
+
+01:25:06.000 --> 01:25:10.000
+Okay.
+
+01:25:10.000 --> 01:25:14.000
+What else is there?
+
+01:25:14.000 --> 01:25:18.000
+Yes, but please after 6.30 on Tuesday.
+
+01:25:18.000 --> 01:25:22.000
+You can do it from 6.30. I will mention the time there.
+
+01:25:22.000 --> 01:25:26.000
+Can you please tell us for the overall course?
+
+01:25:26.000 --> 01:25:30.000
+Aniket will vary. He will vary in every session.
+
+01:25:30.000 --> 01:25:34.000
+So I cannot say. I will mostly say that you should come to Langraph, Langchain
+
+01:25:34.000 --> 01:25:38.000
+You should come to make rag applications.
+
+01:25:38.000 --> 01:25:42.000
+So prerequisite.
+
+01:25:42.000 --> 01:25:46.000
+When will we get notes, recorded sessions and current deck?
+
+01:25:46.000 --> 01:25:50.000
+Shivani, recorded session will be available tomorrow.
+
+01:25:50.000 --> 01:25:54.000
+It will take time to make notes.
+
+01:25:54.000 --> 01:25:58.000
+I cannot say exactly how much time it will take.
+
+01:25:58.000 --> 01:26:02.000
+It might be 3-4 weeks because it takes time to make notes.
+
+01:26:02.000 --> 01:26:06.000
+And if you are talking about the deck, you will get it tomorrow.
+
+01:26:08.000 --> 01:26:12.000
+Hi sir, one second.
+
+01:26:12.000 --> 01:26:16.000
+If lecture on Monday has dependency on today's lecture, that will be repeat.
+
+01:26:16.000 --> 01:26:20.000
+Can we do session after repeat session?
+
+01:26:20.000 --> 01:26:24.000
+No, it will be a different session. It is a session of LLM Ops.
+
+01:26:24.000 --> 01:26:28.000
+As such, there is no prerequisite. Anyone can join.
+
+01:26:28.000 --> 01:26:32.000
+It is the first session.
+
+01:26:32.000 --> 01:26:36.000
+It is not required that we do this session first.
+
+01:26:36.000 --> 01:26:40.000
+Don't console me.
+
+01:26:40.000 --> 01:26:44.000
+I am not sad.
+
+01:26:44.000 --> 01:26:48.000
+I told you earlier that you have the power of feedback.
+
+01:26:48.000 --> 01:26:52.000
+It means whenever you say that you are not understanding,
+
+01:26:52.000 --> 01:26:56.000
+we will do everything to make sure that you understand.
+
+01:26:56.000 --> 01:27:00.000
+Which might include taking a session again.
+
+01:27:00.000 --> 01:27:04.000
+I don't care.
+
+01:27:04.000 --> 01:27:08.000
+It's okay.
+
+01:27:08.000 --> 01:27:12.000
+Sir, my WhatsApp number is different than registered number sent mail regarding this.
+
+01:27:12.000 --> 01:27:16.000
+If Abhishek mails, it will be handled.
+
+01:27:16.000 --> 01:27:20.000
+Sufil will handle the query.
+
+01:27:20.000 --> 01:27:24.000
+Sir, I am not able to see DSMP 2 content.
+
+01:27:24.000 --> 01:27:28.000
+No, we have broken the content of DSMP 2 into 10 courses.
+
+01:27:28.000 --> 01:27:32.000
+If you go and see all the courses, you will see.
+
+01:27:32.000 --> 01:27:36.000
+DSMP part 1, part 2, part 3, and part 10 are available.
+
+01:27:36.000 --> 01:27:40.000
+So all the content is available.
+
+01:27:40.000 --> 01:27:44.000
+Rag eval is covered in advanced rag.
+
+01:27:44.000 --> 01:27:48.000
+Yes, it is covered there too.
+
+01:27:48.000 --> 01:27:52.000
+We will cover it again here because it is overlapping in this course.
+
+01:27:52.000 --> 01:27:56.000
+It is covered there too.
+
+01:27:56.000 --> 01:28:00.000
+Please show us where to join WhatsApp group.
+
+01:28:00.000 --> 01:28:04.000
+You can see the WhatsApp community link here.
+
+01:28:04.000 --> 01:28:08.000
+You will find this link here.
+
+01:28:08.000 --> 01:28:12.000
+You have to join from here.
+
+01:28:12.000 --> 01:28:16.000
+Want to start from scratch?
+
+01:28:16.000 --> 01:28:20.000
+Sir, Sufil, there was an update.
+
+01:28:20.000 --> 01:28:24.000
+Start with machine learning, then deep learning, then gen. AI.
+
+01:28:24.000 --> 01:28:28.000
+Sir, where is the notes section?
+
+01:28:28.000 --> 01:28:32.000
+There is no section for notes.
+
+01:28:32.000 --> 01:28:36.000
+Notes are also a course.
+
+01:28:36.000 --> 01:28:40.000
+There is a course called 100 days of machine learning in your dashboard.
+
+01:28:40.000 --> 01:28:44.000
+If you go there, you will find notes.
+
+01:28:44.000 --> 01:28:48.000
+No, you are not audible.
+
+01:28:48.000 --> 01:28:52.000
+Wait, I will do it.
+
+01:28:56.000 --> 01:29:00.000
+Yes, tell me.
+
+01:29:00.000 --> 01:29:04.000
+Am I audible?
+
+01:29:04.000 --> 01:29:08.000
+One minute.
+
+01:29:08.000 --> 01:29:12.000
+I will tell you.
+
+01:29:12.000 --> 01:29:16.000
+One minute, I can't hear.
+
+01:29:16.000 --> 01:29:20.000
+Audio.
+
+01:29:20.000 --> 01:29:24.000
+Select a speaker.
+
+01:29:24.000 --> 01:29:28.000
+Hello.
+
+01:29:28.000 --> 01:29:32.000
+I can't hear.
+
+01:29:32.000 --> 01:29:36.000
+Select a speaker.
+
+01:29:36.000 --> 01:29:40.000
+Wait.
+
+01:29:40.000 --> 01:29:44.000
+Say it now.
+
+01:29:44.000 --> 01:29:48.000
+Am I audible?
+
+01:29:48.000 --> 01:29:52.000
+Sir, there is an update for instant notes.
+
+01:29:52.000 --> 01:29:56.000
+We are uploading the transcripts.
+
+01:29:56.000 --> 01:30:00.000
+We can generate pointers by putting them in LLM.
+
+01:30:00.000 --> 01:30:04.000
+The notes that we make will be available after a few weeks.
+
+01:30:04.000 --> 01:30:08.000
+Okay.
+
+01:30:08.000 --> 01:30:12.000
+I think you understood.
+
+01:30:12.000 --> 01:30:16.000
+It is already given below the orientation session.
+
+01:30:16.000 --> 01:30:20.000
+If anyone wants to take a look, they can have it from there.
+
+01:30:20.000 --> 01:30:24.000
+Okay, I guess you understood.
+
+01:30:24.000 --> 01:30:28.000
+Okay.
+
+01:30:28.000 --> 01:30:32.000
+I am 5 minutes away. If you have any other questions, you can ask.
+
+01:30:38.000 --> 01:30:42.000
+Okay.
+
+01:30:42.000 --> 01:30:46.000
+Okay, Manjula.
+
+01:30:46.000 --> 01:30:50.000
+I will take this feedback.
+
+01:30:50.000 --> 01:30:54.000
+If any cloud provider service is available,
+
+01:30:54.000 --> 01:30:58.000
+we can see that too.
+
+01:31:02.000 --> 01:31:06.000
+The method and life cycle are a bit overlapping.
+
+01:31:06.000 --> 01:31:10.000
+The user feedback is coming in both.
+
+01:31:10.000 --> 01:31:14.000
+Yes, obviously overlapping will happen.
+
+01:31:14.000 --> 01:31:18.000
+We are discussing how to evaluate and when to evaluate.
+
+01:31:18.000 --> 01:31:22.000
+So, overlapping will happen.
+
+01:31:22.000 --> 01:31:26.000
+Sir, there is a plan for LLM on GPU in the future.
+
+01:31:26.000 --> 01:31:30.000
+What does LLM on GPU mean?
+
+01:31:30.000 --> 01:31:34.000
+Sir, what is the progress on your book?
+
+01:31:34.000 --> 01:31:38.000
+What is the progress on your book? Which book are you talking about?
+
+01:31:38.000 --> 01:31:42.000
+The one that I uploaded a few days ago on YouTube.
+
+01:31:42.000 --> 01:31:46.000
+It is not working on it.
+
+01:31:46.000 --> 01:31:50.000
+Although, my book is getting published. It is getting published on Amazon.
+
+01:31:50.000 --> 01:31:54.000
+It is complete on machine learning. Hopefully, in July, I will launch it.
+
+01:31:54.000 --> 01:31:58.000
+So, that is the book on which it is working.
+
+01:31:58.000 --> 01:32:02.000
+For around 1.5 years. Sir, will you get some guidance
+
+01:32:02.000 --> 01:32:06.000
+after this?
+
+01:32:06.000 --> 01:32:10.000
+Yes, you can ask. If I can do it, definitely.
+
+01:32:10.000 --> 01:32:14.000
+LLM training on GPU. Yes, yes. We will work on the builder side of things.
+
+01:32:14.000 --> 01:32:18.000
+Hopefully, after this playlist.
+
+01:32:18.000 --> 01:32:22.000
+Book available on O'Reilly. No, no, no. Not on O'Reilly.
+
+01:32:22.000 --> 01:32:26.000
+That book will be published by a publisher.
+
+01:32:26.000 --> 01:32:30.000
+I don't know how many of you have read Let Us See.
+
+01:32:30.000 --> 01:32:34.000
+Do you know the author of Let Us See?
+
+01:32:34.000 --> 01:32:38.000
+Yashwant Sir. Yashwant Kanitkal.
+
+01:32:38.000 --> 01:32:42.000
+He and I are writing a book together.
+
+01:32:42.000 --> 01:32:46.000
+On machine learning. The name of that book is
+
+01:32:46.000 --> 01:32:50.000
+Let Us Learn Machine Learning.
+
+01:32:50.000 --> 01:32:54.000
+That book is getting released in July.
+
+01:32:54.000 --> 01:32:58.000
+We have been working on it for the last 1.5 years.
+
+01:32:58.000 --> 01:33:02.000
+We started in 2024.
+
+01:33:02.000 --> 01:33:06.000
+Now the book has been completed.
+
+01:33:06.000 --> 01:33:10.000
+Editing and everything is happening. Yes, he is a mechanical engineer.
+
+01:33:10.000 --> 01:33:14.000
+He is a very old and very good author.
+
+01:33:14.000 --> 01:33:18.000
+He reached me out and he said, let's write a book together
+
+01:33:18.000 --> 01:33:22.000
+on machine learning. Then we worked together for
+
+01:33:22.000 --> 01:33:26.000
+1.5 years. That book will be released.
+
+01:33:26.000 --> 01:33:30.000
+Hopefully, in July. You can buy it from Amazon.
+
+01:33:30.000 --> 01:33:34.000
+I will tell you about it on my channel. Let it come once.
+
+01:33:38.000 --> 01:33:42.000
+It's okay. I got the feedback. Basically, these libraries
+
+01:33:42.000 --> 01:33:46.000
+are the only ones you can run on cloud tools.
+
+01:33:46.000 --> 01:33:50.000
+Sir, how do you have such immense knowledge?
+
+01:33:50.000 --> 01:33:54.000
+I don't have immense knowledge.
+
+01:33:54.000 --> 01:33:58.000
+I can just say that I have spent more time than you in this field.
+
+01:33:58.000 --> 01:34:02.000
+So maybe I know a bit more.
+
+01:34:02.000 --> 01:34:06.000
+But I don't feel such immense knowledge.
+
+01:34:08.000 --> 01:34:12.000
+Sir, please try. The language of the book should be simpler.
+
+01:34:12.000 --> 01:34:16.000
+I have tried one thing in Dipan Should Trust. Language is very simple.
+
+01:34:16.000 --> 01:34:20.000
+Hopefully, you will like it.
+
+01:34:20.000 --> 01:34:24.000
+Yes, sure.
+
+01:34:24.000 --> 01:34:28.000
+Module 4th, session 4th
+
+01:34:28.000 --> 01:34:32.000
+will be practical for you.
+
+01:34:32.000 --> 01:34:36.000
+Book language. It's in English.
+
+01:34:36.000 --> 01:34:40.000
+It's written in English.
+
+01:34:44.000 --> 01:34:48.000
+Sir, currently I am working as a data engineer. Sir,
+
+01:34:48.000 --> 01:34:52.000
+do you have any plan to use related tools in your project
+
+01:34:52.000 --> 01:34:56.000
+to make agents? I am not only talking about Databricks, but similar tools
+
+01:34:56.000 --> 01:35:00.000
+that we are making agents for. Do you have any plans for sessions for that?
+
+01:35:00.000 --> 01:35:04.000
+Pratyush, currently there is no plan for such tool-dependent sessions.
+
+01:35:04.000 --> 01:35:08.000
+One thing I always focus on is that rather than
+
+01:35:08.000 --> 01:35:12.000
+teaching you things that are tool-dependent, I would like to teach you things that are
+
+01:35:12.000 --> 01:35:16.000
+concept based. So that even after the tool changes,
+
+01:35:16.000 --> 01:35:20.000
+you can work on it. In the LLM evaluation
+
+01:35:20.000 --> 01:35:24.000
+playlist that I am teaching, you will see that I will focus less on tools
+
+01:35:24.000 --> 01:35:28.000
+and more on concepts. Because tools will keep coming.
+
+01:35:28.000 --> 01:35:32.000
+Every day a new tool will come. Things are happening at such a speed.
+
+01:35:32.000 --> 01:35:36.000
+So,
+
+01:35:36.000 --> 01:35:40.000
+I am not focusing on tools right now. But again,
+
+01:35:40.000 --> 01:35:44.000
+if you say, we can arrange a session. But there should be a tool that is really used.
+
+01:35:44.000 --> 01:35:48.000
+It should be common. If there is a tool that is used by only one or two companies,
+
+01:35:48.000 --> 01:35:52.000
+then it does not make sense.
+
+01:35:52.000 --> 01:35:56.000
+Can we get projects to do hands on after every course and get
+
+01:35:56.000 --> 01:36:00.000
+live support from your team? This will increase the confidence.
+
+01:36:00.000 --> 01:36:04.000
+Okay, we can have a discussion about this. We can give projects,
+
+01:36:04.000 --> 01:36:08.000
+but it is difficult to give live support to everyone.
+
+01:36:08.000 --> 01:36:12.000
+Because there are so many people. So, what we can do is
+
+01:36:12.000 --> 01:36:16.000
+we can give you projects. We can guide you.
+
+01:36:16.000 --> 01:36:20.000
+And you can do a lot of things by making teams.
+
+01:36:20.000 --> 01:36:24.000
+Sir, consider doing some hackathons for insiders. Yes, we will do that Abhishek.
+
+01:36:24.000 --> 01:36:28.000
+That is our plan. But the first month has just started. We are also stabilizing a little.
+
+01:36:28.000 --> 01:36:32.000
+The team is also getting a new task. So, we are stabilizing it.
+
+01:36:32.000 --> 01:36:36.000
+After a month or two, we will do something like this. You guys also learn a little after that.
+
+01:36:36.000 --> 01:36:40.000
+Any course planned on Harness Engineering future? Yes, Danish.
+
+01:36:40.000 --> 01:36:44.000
+Harness Engineering is on our radar.
+
+01:36:44.000 --> 01:36:48.000
+Hopefully, we will have a course or a small playlist on Harness Engineering.
+
+01:36:48.000 --> 01:36:52.000
+Okay, I guess
+
+01:36:52.000 --> 01:36:56.000
+there are no more questions. There are a couple of questions coming. Let's see them quickly.
+
+01:37:04.000 --> 01:37:08.000
+Sir, I wanted to understand one thing. You are involved in so many things,
+
+01:37:08.000 --> 01:37:12.000
+and you manage so well every day.
+
+01:37:12.000 --> 01:37:16.000
+Is there any way or approach that you follow?
+
+01:37:16.000 --> 01:37:20.000
+If you can share, then we can plan our day better.
+
+01:37:20.000 --> 01:37:24.000
+We plan every day.
+
+01:37:24.000 --> 01:37:28.000
+Honestly, Sudheet, you must be thinking that I manage well.
+
+01:37:28.000 --> 01:37:32.000
+But the reality of my site is that I struggle a lot just like you.
+
+01:37:32.000 --> 01:37:36.000
+I also have 5-10 tasks written in my day. And by the end of the day,
+
+01:37:36.000 --> 01:37:40.000
+hardly 3-4 tasks are done.
+
+01:37:40.000 --> 01:37:44.000
+The rest are not done. So, I am struggling a lot.
+
+01:37:44.000 --> 01:37:48.000
+In time management and work-life balance,
+
+01:37:48.000 --> 01:37:52.000
+I am really struggling right now. And I am myself trying
+
+01:37:52.000 --> 01:37:56.000
+to figure out. I talk to chat GPT and Claude a lot about
+
+01:37:56.000 --> 01:38:00.000
+how can I improve on this aspect personally.
+
+01:38:00.000 --> 01:38:04.000
+So, not something on which I can explain or tell you something.
+
+01:38:04.000 --> 01:38:08.000
+What are your views on Fable 5? Aman, I haven't used it yet.
+
+01:38:08.000 --> 01:38:12.000
+Ajay has used it. And tomorrow he is going to take a session.
+
+01:38:12.000 --> 01:38:16.000
+So, he will tell you something around Fable 5.
+
+01:38:16.000 --> 01:38:20.000
+MN and JNI projects are mostly getting done on
+
+01:38:20.000 --> 01:38:24.000
+Databricks and Azure based platforms for enterprise level.
+
+01:38:24.000 --> 01:38:28.000
+So, I thought it would be really nice. Okay, Prem, noted.
+
+01:38:28.000 --> 01:38:32.000
+We have heard these two things a lot. And hopefully, in coming days,
+
+01:38:32.000 --> 01:38:36.000
+either we will create a YouTube playlist or
+
+01:38:36.000 --> 01:38:40.000
+we can conduct a small workshop.
+
+01:38:40.000 --> 01:38:44.000
+Sir, can we get transcripts for other languages?
+
+01:38:44.000 --> 01:38:48.000
+Other lectures in the Insider course.
+
+01:38:48.000 --> 01:38:52.000
+Yes, we will give you transcripts of all the lectures we will take live.
+
+01:38:52.000 --> 01:38:56.000
+Sufal, will this be done? Tell me.
+
+01:38:56.000 --> 01:39:00.000
+So, for all the
+
+01:39:00.000 --> 01:39:04.000
+upcoming lectures,
+
+01:39:04.000 --> 01:39:08.000
+we cannot promise the feasibility for previous courses right now.
+
+01:39:08.000 --> 01:39:12.000
+Okay. You will get the transcripts for all the upcoming lectures.
+
+01:39:12.000 --> 01:39:16.000
+Okay.
+
+01:39:16.000 --> 01:39:20.000
+Okay, guys. I guess that's it.
+
+01:39:20.000 --> 01:39:24.000
+So, I will summarize. We have completed the first session.
+
+01:39:24.000 --> 01:39:28.000
+Me and some other people are not fully satisfied with the lecture.
+
+01:39:28.000 --> 01:39:32.000
+So, we are having an extra session in which we will repeat the same thing on Tuesday.
+
+01:39:32.000 --> 01:39:36.000
+Tomorrow, you have a session on
+
+01:39:36.000 --> 01:39:40.000
+AI Pulse where you will be told about
+
+01:39:40.000 --> 01:39:44.000
+what happened in the last two weeks in the world of AI.
+
+01:39:44.000 --> 01:39:48.000
+That session will be taken by Ajay.
+
+01:39:48.000 --> 01:39:52.000
+He prepared a lot this whole week sitting in the office.
+
+01:39:52.000 --> 01:39:56.000
+So, I think I will take a good session. On Monday, you will have your first session on
+
+01:39:56.000 --> 01:40:00.000
+the LLM Ops course. On Tuesday, you will have a repeat session.
+
+01:40:00.000 --> 01:40:04.000
+It's your choice whether you want to come or not. And then on Wednesday,
+
+01:40:04.000 --> 01:40:08.000
+it will be the second session. So, a lot of live sessions are there.
+
+01:40:08.000 --> 01:40:12.000
+Plan your timetable and attend. What we guarantee is that you will get
+
+01:40:12.000 --> 01:40:16.000
+the recordings the next day. You will get the transcripts the next day. If we are using
+
+01:40:16.000 --> 01:40:20.000
+the notes, you will get the notes the next day.
+
+01:40:20.000 --> 01:40:24.000
+I liked it. After taking the live session after a long time,
+
+01:40:24.000 --> 01:40:28.000
+I will be taking the live session.
+
+01:40:28.000 --> 01:40:32.000
+So, yeah, let's close the session.
+
+01:40:32.000 --> 01:40:36.000
+Bye. Good night.
+
