@@ -29,7 +29,7 @@ test_case = LLMTestCase(
 )
 
 # metric
-recall_metric = ContextualRecallMetric(verbose_mode=True)
+recall = ContextualRecallMetric(verbose_mode=True)
 
 # test the metric
-recall_metric.measure(test_case=test_case)
+recall.measure(test_case=test_case)

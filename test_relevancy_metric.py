@@ -22,7 +22,7 @@ test_case = LLMTestCase(
 )
 
 # metric
-recall_metric = ContextualRelevancyMetric(verbose_mode=True)
+context_relevancy = ContextualRelevancyMetric(verbose_mode=True)
 
 # test the metric
-recall_metric.measure(test_case=test_case)
+context_relevancy.measure(test_case=test_case)
