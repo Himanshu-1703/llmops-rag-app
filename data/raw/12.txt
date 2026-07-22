@@ -1,0 +1,5901 @@
+00:03:00.000 --> 00:03:29.640
+Hi guys, good evening.
+
+00:03:29.640 --> 00:03:59.160
+Today I am not expecting too many people to come because it's a
+
+00:03:59.160 --> 00:04:02.200
+repeat session.
+
+00:04:02.200 --> 00:04:07.079
+Although it would have been more fun if they had come because they will teach a lot of new things.
+
+00:04:29.160 --> 00:04:36.520
+How many of you have done my last session?
+
+00:04:36.520 --> 00:04:44.240
+Basically, the session 1 of LLME VALS.
+
+00:04:44.240 --> 00:04:45.600
+This is the repeat session.
+
+00:04:45.600 --> 00:04:52.120
+So the original session.
+
+00:04:52.120 --> 00:04:55.880
+Just Aman.
+
+00:04:55.880 --> 00:04:56.880
+Good evening.
+
+00:04:57.080 --> 00:05:00.520
+Deepi sir, how are you?
+
+00:05:00.520 --> 00:05:03.560
+Vineet, Avinash, you guys did it too.
+
+00:05:03.560 --> 00:05:04.560
+Okay, fine.
+
+00:05:04.560 --> 00:05:07.360
+Okay, it's okay.
+
+00:05:07.360 --> 00:05:13.240
+The good thing is that you will almost feel like the session is new.
+
+00:05:13.240 --> 00:05:16.520
+I have kind of reframed the whole session.
+
+00:05:16.520 --> 00:05:22.840
+As in the last session, my explanation was that you will see a little different from that
+
+00:05:22.960 --> 00:05:27.560
+And hopefully, it will be understood better.
+
+00:05:27.560 --> 00:05:29.640
+So let's wait for a minute or two more.
+
+00:05:29.640 --> 00:05:34.440
+Then we can start the session.
+
+00:05:34.440 --> 00:05:43.440
+Okay, around 20 people are there.
+
+00:05:43.440 --> 00:05:44.440
+Good.
+
+00:05:44.440 --> 00:05:45.440
+More than sufficient.
+
+00:05:45.440 --> 00:06:07.400
+Good evening.
+
+00:06:07.400 --> 00:06:10.440
+How can we know the upcoming live session schedule?
+
+00:06:10.440 --> 00:06:14.920
+Currently, we are receiving email notification one hour prior to the class.
+
+00:06:14.920 --> 00:06:21.840
+Shubham, there is a course in your dashboard called Insiders Live Sessions.
+
+00:06:21.840 --> 00:06:27.120
+I will show you there.
+
+00:06:27.120 --> 00:06:30.720
+I will share my screen.
+
+00:06:30.720 --> 00:06:38.320
+Can you see my screen?
+
+00:06:39.320 --> 00:06:42.320
+This is the course.
+
+00:06:42.320 --> 00:06:46.320
+You will see the monthly schedule here.
+
+00:06:46.320 --> 00:06:50.320
+From there, you will know which class is going to be held on which day.
+
+00:06:50.320 --> 00:06:53.320
+So we have made a whole June schedule and put it here.
+
+00:06:53.320 --> 00:06:55.320
+So today is the 17th class.
+
+00:06:55.320 --> 00:06:58.320
+After that, your class is also for the next three days.
+
+00:06:58.320 --> 00:07:00.320
+So this is the schedule for June.
+
+00:07:00.320 --> 00:07:02.320
+We will do this every month.
+
+00:07:02.320 --> 00:07:04.320
+So you will get the full schedule.
+
+00:07:04.320 --> 00:07:08.320
+Guys, please write in the chat and tell me, can you see the screen?
+
+00:07:08.320 --> 00:07:09.320
+Okay.
+
+00:07:09.320 --> 00:07:12.320
+So guys start the session.
+
+00:07:12.320 --> 00:07:13.320
+One suggestion.
+
+00:07:13.320 --> 00:07:16.320
+Better if we can do it in the morning.
+
+00:07:16.320 --> 00:07:19.320
+So we have started the session.
+
+00:07:19.320 --> 00:07:22.320
+So we will start the session.
+
+00:07:22.320 --> 00:07:25.320
+So we have started the session.
+
+00:07:25.320 --> 00:07:28.320
+So we have started the session.
+
+00:07:28.320 --> 00:07:31.320
+So we have started the session.
+
+00:07:31.320 --> 00:07:33.320
+One suggestion.
+
+00:07:33.320 --> 00:07:39.320
+Better if we can group the recordings of the live session as per similar logical group.
+
+00:07:39.320 --> 00:07:40.320
+Okay.
+
+00:07:40.320 --> 00:07:41.320
+Feedback taken.
+
+00:07:41.320 --> 00:07:43.320
+We will make three categories there.
+
+00:07:43.320 --> 00:07:45.320
+YouTube sessions will come to one place.
+
+00:07:45.320 --> 00:07:48.320
+LLM ops sessions will come to one place.
+
+00:07:48.320 --> 00:07:51.320
+And AI pulse sessions will come to one place.
+
+00:07:51.320 --> 00:07:53.320
+So it will be easier for you to navigate.
+
+00:07:53.320 --> 00:07:55.320
+We were going to do that.
+
+00:07:55.320 --> 00:07:57.320
+Now there are only three or four sessions, so we did not do it.
+
+00:07:57.320 --> 00:08:00.320
+So guys, let's start today's session.
+
+00:08:00.320 --> 00:08:03.320
+First of all, I would like to clarify.
+
+00:08:03.320 --> 00:08:07.320
+If someone is watching the recording in the future, then he may have doubts.
+
+00:08:07.320 --> 00:08:10.320
+This session is being re-recorded.
+
+00:08:10.320 --> 00:08:12.320
+This session was originally held last week.
+
+00:08:12.320 --> 00:08:14.320
+I took it.
+
+00:08:14.320 --> 00:08:21.320
+But the problem was that the explanation I gave in the live class, I personally did not like it.
+
+00:08:21.320 --> 00:08:25.320
+So I decided that whatever has to be done, has to be done well.
+
+00:08:25.320 --> 00:08:29.320
+So I thought that let's take this live session again.
+
+00:08:29.320 --> 00:08:35.319
+Where I will prepare a little better and hopefully I will be able to teach you a little better.
+
+00:08:35.319 --> 00:08:38.319
+So today's session is essentially a repeat session.
+
+00:08:38.319 --> 00:08:45.319
+But those who have done both the sessions will realize that today's session will look very different from the previous session.
+
+00:08:45.319 --> 00:08:46.319
+Okay.
+
+00:08:46.319 --> 00:08:48.319
+So let's start.
+
+00:08:49.320 --> 00:08:56.320
+Again, a disclaimer is that the first half hour may seem identical to you.
+
+00:08:56.320 --> 00:09:00.320
+But I am assuming that you are attending this session for the first time.
+
+00:09:00.320 --> 00:09:02.320
+So I will say it as it is.
+
+00:09:02.320 --> 00:09:03.320
+Okay.
+
+00:09:03.320 --> 00:09:04.320
+So please bear with it.
+
+00:09:04.320 --> 00:09:07.320
+But after half an hour, you will feel the session new.
+
+00:09:07.320 --> 00:09:08.320
+Okay.
+
+00:09:08.320 --> 00:09:10.320
+So everything is clear.
+
+00:09:10.320 --> 00:09:11.320
+Start.
+
+00:09:11.320 --> 00:09:14.320
+Guys, let me know once.
+
+00:09:14.320 --> 00:09:17.320
+We are all done or clear.
+
+00:09:21.320 --> 00:09:22.320
+Okay.
+
+00:09:22.320 --> 00:09:23.320
+Let's go.
+
+00:09:25.320 --> 00:09:34.320
+So, on campusX, we have been targeting a job profile for the past one and a half years.
+
+00:09:34.320 --> 00:09:36.320
+By calling it AI engineer.
+
+00:09:36.320 --> 00:09:41.320
+The reason for targeting this job profile is that I personally feel that
+
+00:09:41.320 --> 00:09:45.320
+this job profile is going to be very popular in the future.
+
+00:09:45.320 --> 00:09:46.320
+Why?
+
+00:09:46.320 --> 00:09:48.320
+Because who is an AI engineer?
+
+00:09:48.320 --> 00:09:55.320
+AI engineer is a person whose job is to make LLM based applications.
+
+00:09:55.320 --> 00:09:56.320
+Right?
+
+00:09:56.320 --> 00:10:01.320
+Now after 2022, there is a wave of LLM in the world of AI.
+
+00:10:01.320 --> 00:10:05.320
+And that is why there is a lot of demand for LLM based applications.
+
+00:10:06.320 --> 00:10:11.320
+And that is why you will see that around you, you will see a lot of LLM based applications.
+
+00:10:11.320 --> 00:10:14.320
+And companies are also facing this thing.
+
+00:10:14.320 --> 00:10:19.320
+They are feeling that their competitors are making LLM based applications and serving better products.
+
+00:10:19.320 --> 00:10:28.320
+And that is why each and every company today wants that they should have more and more LLM based applications.
+
+00:10:28.320 --> 00:10:32.320
+But making LLM based applications is not a very simple job.
+
+00:10:32.320 --> 00:10:36.320
+It needs a lot of specialization and that is why this job role exists.
+
+00:10:36.320 --> 00:10:41.320
+So already in this job profile you will see a lot of jobs.
+
+00:10:41.320 --> 00:10:45.320
+And going forward I feel that this job role will grow even more.
+
+00:10:45.320 --> 00:10:51.320
+There can be a point in the future where even software engineers will be faced with this job role.
+
+00:10:51.320 --> 00:10:54.320
+In terms of the number of job postings.
+
+00:10:54.320 --> 00:11:01.320
+So that is why we here at CampusX are investing our focus, time, energy on this job role.
+
+00:11:01.320 --> 00:11:05.320
+So what we are trying to do is to crack this job role.
+
+00:11:05.320 --> 00:11:11.320
+We are trying to teach you all the things that you need to do in the last 1-1.5 years.
+
+00:11:11.320 --> 00:11:13.320
+What have we covered so far?
+
+00:11:13.320 --> 00:11:17.320
+We have taught you Lang chain in the beginning.
+
+00:11:17.320 --> 00:11:22.320
+With the help of which you can make basic LLM applications.
+
+00:11:22.320 --> 00:11:24.320
+You can orchestrate.
+
+00:11:24.320 --> 00:11:28.320
+Then we taught you how to make rag based applications.
+
+00:11:28.320 --> 00:11:33.320
+Which is again a very important categorization of LLM based applications.
+
+00:11:33.320 --> 00:11:37.320
+Then we taught you how to work with agents.
+
+00:11:37.320 --> 00:11:40.320
+In this also we taught you multiple libraries.
+
+00:11:40.320 --> 00:11:42.320
+We covered Langraph on YouTube.
+
+00:11:42.320 --> 00:11:50.320
+Whereas through our paid courses we covered libraries and frameworks like CRIO AI and Agno.
+
+00:11:50.320 --> 00:11:55.320
+After that we have recently taught you a course on prompt engineering.
+
+00:11:55.320 --> 00:12:04.320
+Then we have also touched on LLM Ops which is again a very important aspect of making LLM based applications.
+
+00:12:04.320 --> 00:12:09.320
+By creating videos around tools like Langsmith.
+
+00:12:09.320 --> 00:12:12.320
+And your course is already going on on LLM Ops.
+
+00:12:12.320 --> 00:12:17.320
+And lastly we have also touched on some no code tools.
+
+00:12:17.320 --> 00:12:19.320
+Such as NA10.
+
+00:12:19.320 --> 00:12:24.320
+With the help of which you can make LLM based applications without writing any code.
+
+00:12:24.320 --> 00:12:28.320
+So all this we have done in the last 1.5 years.
+
+00:12:28.320 --> 00:12:35.320
+But still there are some topics left which are very important to learn if you want to become an AI engineer.
+
+00:12:35.320 --> 00:12:41.320
+One of them is LLM evals which we are going to start today.
+
+00:12:41.320 --> 00:12:48.320
+LLM evals is basically a study of evaluating LLM based applications.
+
+00:12:48.320 --> 00:12:58.320
+How do you know if it is doing a good job, if it is doing a good job, if you can launch it, if users can use it.
+
+00:12:58.320 --> 00:13:02.320
+This is the study of LLM evals.
+
+00:13:02.320 --> 00:13:05.320
+And this is what we are going to cover in this course.
+
+00:13:05.320 --> 00:13:11.320
+Now if you see this course from end to end then you will get two advantages.
+
+00:13:11.320 --> 00:13:17.320
+The first advantage is that you will get some edge over your competition.
+
+00:13:17.320 --> 00:13:21.320
+Today's students are mostly studying these topics.
+
+00:13:21.320 --> 00:13:25.320
+Land chain, land graph, rag, agents, they are learning to make these.
+
+00:13:25.320 --> 00:13:33.320
+But still there are very few people who are focusing on LLM evals which is actually quite important from the point of view of industry.
+
+00:13:33.320 --> 00:13:42.320
+One of the main reasons for this is that there is not much awareness about LLM evals and there are not that many resources on the internet.
+
+00:13:42.320 --> 00:13:48.320
+But over time people would realize that it is a very important topic and everyone should read it.
+
+00:13:48.320 --> 00:13:57.320
+So if you read this topic in advance then there is a better chance that you can perform better in the interview in comparison to your competitors.
+
+00:13:57.320 --> 00:14:05.320
+I had said this in the YouTube video that when I ask any person what questions were asked in your GenAI interview,
+
+00:14:05.320 --> 00:14:12.320
+then I always get to hear one question that how will you evaluate a rag application?
+
+00:14:12.320 --> 00:14:15.320
+How will you evaluate an agent?
+
+00:14:15.320 --> 00:14:19.320
+And most of the times students don't have answers to these questions.
+
+00:14:19.320 --> 00:14:26.320
+You will be able to answer these questions properly if you follow this playlist and this course.
+
+00:14:26.320 --> 00:14:31.320
+So this is the first advantage that you will get edge over your peers.
+
+00:14:31.320 --> 00:14:39.320
+Second advantage is that your mindset will change.
+
+00:14:39.320 --> 00:14:46.320
+So far you mostly make any project based on LLM or any application or project.
+
+00:14:46.320 --> 00:14:52.320
+So you make it with this goal or purpose that you want to add it to your portfolio and show it to the interviewer.
+
+00:14:52.320 --> 00:14:58.320
+So basically you make personal projects and that is why you don't think like a product developer.
+
+00:14:58.320 --> 00:15:07.320
+After completing this course, you will think about any project from the point of view of the company.
+
+00:15:07.320 --> 00:15:13.320
+You will start thinking that this project is working but will it work for crores of people?
+
+00:15:13.320 --> 00:15:16.320
+Can I bring it to production?
+
+00:15:16.320 --> 00:15:18.320
+You will start thinking like this.
+
+00:15:18.320 --> 00:15:26.320
+So your thinking of making such applications will get matured when you will follow this playlist end to end.
+
+00:15:26.320 --> 00:15:31.320
+So I hope you understood why we started this course.
+
+00:15:31.320 --> 00:15:34.320
+Now let's talk about today's lecture.
+
+00:15:34.320 --> 00:15:38.320
+Today's lecture is basically an introduction lecture.
+
+00:15:38.320 --> 00:15:45.320
+Where I will explain to you first why do we need LLMEvales?
+
+00:15:45.320 --> 00:15:48.320
+Why do we need to evaluate LLMEvales?
+
+00:15:48.320 --> 00:15:53.320
+Then I will teach you what exactly LLMEvales are.
+
+00:15:54.320 --> 00:16:05.320
+And thirdly, I will explain to you today with a small example that how a typical LLMEval workflow looks like.
+
+00:16:05.320 --> 00:16:11.320
+And we will talk a little about what things are there in LLMEvales.
+
+00:16:11.320 --> 00:16:18.320
+So after watching this lecture, you will get an overview of what we are going to do in this whole playlist.
+
+00:16:18.320 --> 00:16:21.320
+This is the goal of today's lecture.
+
+00:16:21.320 --> 00:16:27.320
+So guys, let me know if you have any doubts or questions.
+
+00:16:27.320 --> 00:16:30.320
+Especially if you are someone who is watching the lecture for the first time.
+
+00:16:30.320 --> 00:16:33.320
+If you have any questions, you can ask right now.
+
+00:16:33.320 --> 00:16:38.320
+Then we will move ahead and discuss why do we need LLMEvales.
+
+00:16:38.320 --> 00:16:42.320
+So I will open the chat and let me know.
+
+00:16:42.320 --> 00:16:44.320
+Okay.
+
+00:16:44.320 --> 00:16:49.320
+Prem is asking is this session fully repeat or some new content also sir will teach today.
+
+00:16:49.320 --> 00:16:53.320
+Content is the same but we will teach it in a different way.
+
+00:16:53.320 --> 00:16:56.320
+So you will feel like you are doing a new session.
+
+00:16:56.320 --> 00:16:58.320
+This first half an hour will take a little repeat.
+
+00:16:58.320 --> 00:17:00.320
+After half an hour, you will not feel anything new.
+
+00:17:00.320 --> 00:17:03.320
+Any other question at this point guys?
+
+00:17:05.320 --> 00:17:07.320
+What are the prerequisites for today's session?
+
+00:17:07.320 --> 00:17:09.320
+There are no prerequisites for today's session.
+
+00:17:09.320 --> 00:17:15.320
+But for this playlist, the prerequisite is that you should come to make some LLME based applications.
+
+00:17:16.319 --> 00:17:20.319
+If you have made a rag application, you know how to make small agents.
+
+00:17:20.319 --> 00:17:22.319
+These are the prerequisites.
+
+00:17:22.319 --> 00:17:24.319
+There are not many prerequisites.
+
+00:17:24.319 --> 00:17:28.319
+Will this course be an implementation based or just theory based?
+
+00:17:28.319 --> 00:17:31.320
+No, no, we will practically implement things.
+
+00:17:31.320 --> 00:17:34.320
+Obviously, I will teach you theory because without it, it will not work.
+
+00:17:34.320 --> 00:17:38.320
+But we will write code and put evals on the projects.
+
+00:17:38.320 --> 00:17:42.320
+We will cover both but the focus will be more on application based evals.
+
+00:17:42.320 --> 00:17:46.320
+This course is more around application based evals.
+
+00:17:46.320 --> 00:17:50.320
+But one whole lecture is dedicated to LLM benchmarks.
+
+00:17:52.320 --> 00:17:54.320
+I am totally new to the LLM world.
+
+00:17:54.320 --> 00:17:55.320
+First lecture for me.
+
+00:17:55.320 --> 00:17:59.320
+In that case, Sachin, I would just say that once you see this lecture and tell me the end result.
+
+00:17:59.320 --> 00:18:01.320
+I will definitely come to you.
+
+00:18:01.320 --> 00:18:03.320
+I will definitely come to you.
+
+00:18:04.320 --> 00:18:09.320
+In that case, Sachin, I would just say that once you see this lecture and tell me the end result.
+
+00:18:13.320 --> 00:18:17.320
+Roughly 10 sessions of 2-2 hours.
+
+00:18:17.320 --> 00:18:19.320
+So 15-20 hours.
+
+00:18:19.320 --> 00:18:21.320
+Do we need to buy open router credits?
+
+00:18:21.320 --> 00:18:23.320
+You can actually.
+
+00:18:23.320 --> 00:18:24.320
+It might be helpful.
+
+00:18:24.320 --> 00:18:27.320
+Either do open router or give directly to OpenAI.
+
+00:18:27.320 --> 00:18:29.320
+Both will work.
+
+00:18:29.320 --> 00:18:31.320
+It would help.
+
+00:18:33.320 --> 00:18:41.320
+Sir, will it include token utilization and usage philosophy throughout question answering lifecycle?
+
+00:18:41.320 --> 00:18:43.320
+Ansh, I didn't understand your question.
+
+00:18:45.320 --> 00:18:48.320
+Okay guys, let's move ahead.
+
+00:18:48.320 --> 00:18:50.320
+I will keep taking questions in between.
+
+00:18:50.320 --> 00:18:51.320
+Don't worry.
+
+00:18:51.320 --> 00:18:56.320
+The whole idea of taking this live session is that you can watch this session on YouTube.
+
+00:18:56.320 --> 00:18:58.320
+But you can interact with me here.
+
+00:18:58.320 --> 00:19:05.320
+So after every 15 minutes, after covering a topic, I will answer your questions.
+
+00:19:05.320 --> 00:19:06.320
+So don't worry.
+
+00:19:06.320 --> 00:19:08.320
+You won't miss any question.
+
+00:19:08.320 --> 00:19:12.320
+If I don't see any question and miss it, then copy it and paste it next time.
+
+00:19:12.320 --> 00:19:13.320
+Okay.
+
+00:19:13.320 --> 00:19:15.320
+Resume the session.
+
+00:19:18.320 --> 00:19:20.320
+Write Y once.
+
+00:19:22.320 --> 00:19:23.320
+Okay.
+
+00:19:23.320 --> 00:19:24.320
+Okay.
+
+00:19:24.320 --> 00:19:25.320
+Let's go.
+
+00:19:26.320 --> 00:19:36.320
+So now the first thing we will discuss is that when we read something, we discuss what is the need to read it.
+
+00:19:36.320 --> 00:19:39.320
+Why do we need that particular thing?
+
+00:19:39.320 --> 00:19:46.320
+So in this playlist, we will discuss why LLMEval is important.
+
+00:19:46.320 --> 00:19:47.320
+Okay.
+
+00:19:47.320 --> 00:19:51.320
+So here I would like to ask you this simple question.
+
+00:19:51.320 --> 00:19:59.320
+How many of you have ever made an LLME-based application in your life?
+
+00:19:59.320 --> 00:20:01.320
+It could be a simple chatbot.
+
+00:20:01.320 --> 00:20:03.320
+It could be a basic RAD chatbot.
+
+00:20:03.320 --> 00:20:05.320
+Or it could be an agent.
+
+00:20:05.320 --> 00:20:07.320
+It could be a multi-agent software.
+
+00:20:07.320 --> 00:20:08.320
+Anything.
+
+00:20:08.320 --> 00:20:12.320
+If you have made it, then write it in the chat.
+
+00:20:14.320 --> 00:20:18.320
+A lot of you know how to build LLME-based applications.
+
+00:20:18.320 --> 00:20:23.320
+But if I ask the next question, have you ever evaluated it properly?
+
+00:20:23.320 --> 00:20:26.320
+Have you ever made an application or a chatbot?
+
+00:20:26.320 --> 00:20:30.320
+Have you ever evaluated it methodologically?
+
+00:20:30.320 --> 00:20:32.320
+So what would you say?
+
+00:20:33.320 --> 00:20:38.320
+I feel a lot of you will say that sir, I haven't evaluated it properly.
+
+00:20:38.320 --> 00:20:44.320
+But I asked him questions and I found the answer to it.
+
+00:20:44.320 --> 00:20:48.320
+So I assumed that this application is working properly.
+
+00:20:48.320 --> 00:20:49.320
+Right?
+
+00:20:49.320 --> 00:20:50.320
+Mostly we do this.
+
+00:20:50.320 --> 00:20:53.320
+What we do is we build an LLME-based application.
+
+00:20:53.320 --> 00:20:58.320
+Then before checking it, before launching it, before sharing it with someone,
+
+00:20:58.320 --> 00:21:02.320
+we ask the 4-5 questions that come to our mind at that point.
+
+00:21:02.320 --> 00:21:04.320
+And that's it.
+
+00:21:04.320 --> 00:21:09.320
+If the right responses come there, then we accept that our application is working properly.
+
+00:21:09.320 --> 00:21:13.320
+Actually, this whole phenomenon, this way of testing,
+
+00:21:13.320 --> 00:21:15.320
+this term has been given in the industry.
+
+00:21:15.320 --> 00:21:17.320
+It is called vibe testing.
+
+00:21:17.320 --> 00:21:20.320
+Just like vibe coding, it is vibe testing.
+
+00:21:20.320 --> 00:21:21.320
+What is vibe testing?
+
+00:21:21.320 --> 00:21:23.320
+Look, I have written it here.
+
+00:21:23.320 --> 00:21:30.320
+Vibe testing means you casually trying an LLME application with a few prompts and judging it by feel.
+
+00:21:30.320 --> 00:21:34.320
+You asked 5 questions and read the answers.
+
+00:21:34.320 --> 00:21:38.320
+And judge based on the feel whether it is right or not.
+
+00:21:38.320 --> 00:21:40.320
+This is called vibe testing.
+
+00:21:40.320 --> 00:21:42.320
+So basically what you do is you ask 5-10 questions,
+
+00:21:42.320 --> 00:21:46.320
+the answer is right, you feel that it is working.
+
+00:21:46.320 --> 00:21:52.320
+It is informal, it is subjective, and it is usually not repeatable.
+
+00:21:52.320 --> 00:21:55.320
+Because today you asked 5 questions,
+
+00:21:55.320 --> 00:21:58.320
+after 10 days you won't ask the same 5 questions, you will ask something else.
+
+00:21:58.320 --> 00:22:00.320
+So it is not even repeatable.
+
+00:22:00.320 --> 00:22:03.320
+Now you must be understanding even after listening to vibe testing
+
+00:22:03.320 --> 00:22:07.320
+that it works only at the personal project level.
+
+00:22:07.320 --> 00:22:12.320
+By doing vibe testing, you don't make production grade software in the industry.
+
+00:22:12.320 --> 00:22:14.320
+Obviously. Right?
+
+00:22:14.320 --> 00:22:19.320
+Now I will tell you some instances, some case studies
+
+00:22:19.320 --> 00:22:25.320
+where teams made a mistake that they deployed a LLME based application by doing vibe testing.
+
+00:22:25.320 --> 00:22:30.320
+And I will tell you the results with the help of 3 case studies.
+
+00:22:30.320 --> 00:22:34.320
+The first case study is Air Canada's chatbot.
+
+00:22:34.320 --> 00:22:39.320
+This was a very popular incident around 2-3 years ago.
+
+00:22:39.320 --> 00:22:44.320
+Where there was this guy and his grandmother died.
+
+00:22:44.320 --> 00:22:49.320
+And he was searching for bereavement fair on Air Canada's website.
+
+00:22:49.320 --> 00:22:54.320
+Bereavement fair is basically when someone in your family dies or your close friend dies
+
+00:22:54.320 --> 00:22:56.320
+and you have to travel,
+
+00:22:56.320 --> 00:23:01.320
+then airlines give you a discount because you are in a bad situation.
+
+00:23:01.320 --> 00:23:04.320
+I am not sure if this happens in India but it happens in Canada.
+
+00:23:04.320 --> 00:23:09.320
+So this guy went and on Air Canada's website he chatted with the chatbot
+
+00:23:09.320 --> 00:23:13.320
+about the bereavement fair policy.
+
+00:23:13.320 --> 00:23:17.320
+Now at this point the chatbot hallucinated
+
+00:23:17.320 --> 00:23:23.320
+and instead of telling the correct policy, he said that you book a ticket now,
+
+00:23:23.320 --> 00:23:26.320
+pay the full amount and travel.
+
+00:23:26.320 --> 00:23:29.320
+And later we will refund your entire amount.
+
+00:23:29.320 --> 00:23:33.320
+So this guy booked the ticket and travelled.
+
+00:23:33.320 --> 00:23:38.320
+And after travelling when he tried to refund,
+
+00:23:38.320 --> 00:23:43.320
+customer support said that such a policy does not exist.
+
+00:23:43.320 --> 00:23:49.320
+We have this policy that you can take discounts before travelling.
+
+00:23:49.320 --> 00:23:51.320
+We do not refund anything later.
+
+00:23:51.320 --> 00:23:57.320
+So this guy got upset and filed a case against Air Canada.
+
+00:23:57.320 --> 00:24:05.320
+In the court, Air Canada's executives and lawyers pitched that the chatbot is a separate entity.
+
+00:24:05.320 --> 00:24:11.320
+Whatever he is saying, Air Canada does not know about it.
+
+00:24:11.320 --> 00:24:13.320
+It is like a separate entity.
+
+00:24:13.320 --> 00:24:16.320
+The judge said that this is not allowed.
+
+00:24:16.320 --> 00:24:23.320
+If your website is your property, then your chatbot is also your property.
+
+00:24:23.320 --> 00:24:29.320
+Which means that whatever your chatbot says, you will have to take its responsibility.
+
+00:24:29.320 --> 00:24:32.320
+Which means you will have to refund.
+
+00:24:32.320 --> 00:24:37.320
+So around 600 dollars of refund was to be done to Air Canada,
+
+00:24:37.320 --> 00:24:44.320
+which is not a big amount but it was a big blow on the name of a big company.
+
+00:24:44.320 --> 00:24:48.320
+How can you make such a mistake after being such a big company?
+
+00:24:48.320 --> 00:24:50.320
+So this case became very famous.
+
+00:24:50.320 --> 00:24:56.320
+And this case came in the picture because the developers here also did vibe testing.
+
+00:24:56.320 --> 00:24:59.320
+They did not properly test the chatbot and deployed it.
+
+00:24:59.320 --> 00:25:05.320
+So you can see how much loss can be reached on the scale of a big company
+
+00:25:05.320 --> 00:25:09.320
+if you launch an LLM based application without testing it.
+
+00:25:10.320 --> 00:25:15.320
+Similarly, there is one more incident which became very popular 2-3 years ago.
+
+00:25:15.320 --> 00:25:20.320
+There was a car dealership, an American brand called Chevrolet.
+
+00:25:20.320 --> 00:25:22.320
+They had a dealer.
+
+00:25:22.320 --> 00:25:30.320
+The dealer made a chatbot so that they could deal with customers.
+
+00:25:30.320 --> 00:25:36.320
+So a person went and started chatting with the chatbot.
+
+00:25:36.320 --> 00:25:41.320
+And he felt that there is a potential that I can do anything with this chatbot.
+
+00:25:41.320 --> 00:25:46.320
+So what he did was he prompted the chatbot in such a way that he said
+
+00:25:46.320 --> 00:25:53.320
+since I am your customer, you are obliged to follow whatever I say.
+
+00:25:53.320 --> 00:25:56.320
+So whatever I say, you have to listen to it.
+
+00:25:56.320 --> 00:26:00.320
+So in a way, this person jailbreak the chatbot.
+
+00:26:00.320 --> 00:26:04.320
+And he said that I like this particular car.
+
+00:26:04.320 --> 00:26:08.320
+You offer me this car for $1.
+
+00:26:08.320 --> 00:26:12.320
+And your chatbot agreed.
+
+00:26:12.320 --> 00:26:15.320
+Not only did he agree, he also released a binding offer.
+
+00:26:15.320 --> 00:26:21.320
+And this person took a screenshot of the entire chat and put it on the internet.
+
+00:26:21.320 --> 00:26:26.320
+And this thing got viral that how the chatbot is selling a car for $1.
+
+00:26:26.320 --> 00:26:28.320
+And then it was a big sale.
+
+00:26:28.320 --> 00:26:33.320
+Obviously, in this case, Chevrolet did not have to pay $1 for the car
+
+00:26:33.320 --> 00:26:35.320
+because the codes do not allow this.
+
+00:26:35.320 --> 00:26:37.320
+But again, negative publicity.
+
+00:26:37.320 --> 00:26:43.320
+All because you put such a chatbot on production that you did not test properly.
+
+00:26:43.320 --> 00:26:45.320
+So this is the second incident.
+
+00:26:45.320 --> 00:26:48.320
+And then we have one more incident.
+
+00:26:48.320 --> 00:26:52.320
+And this is directly the incident of the chat GPT.
+
+00:26:52.320 --> 00:26:59.320
+In this case, there was this guy who was flying with some Colombian airline.
+
+00:26:59.320 --> 00:27:02.320
+And what happened there, he had an accident in the flight.
+
+00:27:02.320 --> 00:27:07.320
+This trolley in which the air hostess gives food to everyone.
+
+00:27:07.320 --> 00:27:11.320
+This trolley somehow rolled and hit him on the shoulder.
+
+00:27:11.320 --> 00:27:13.320
+Which hurt him a lot.
+
+00:27:13.320 --> 00:27:17.320
+So he sued this Colombian airline in anger.
+
+00:27:17.320 --> 00:27:19.320
+Cases were filed against him in the court.
+
+00:27:19.320 --> 00:27:25.320
+And this guy's lawyer thought that what we can do is
+
+00:27:25.320 --> 00:27:32.320
+to take money from the company, we can get information about the incidents that have happened in the past.
+
+00:27:32.320 --> 00:27:35.320
+And we can present it in the court.
+
+00:27:35.320 --> 00:27:40.320
+So he went to the chat GPT and asked if this has ever happened in the past
+
+00:27:40.320 --> 00:27:46.320
+that a passenger has been hurt by an airline and how much crime has been paid by the airline.
+
+00:27:46.320 --> 00:27:49.320
+So what did the chat GPT do at this point?
+
+00:27:49.320 --> 00:27:54.320
+That he created cases on his own.
+
+00:27:54.320 --> 00:27:56.320
+Fabricated the information.
+
+00:27:56.320 --> 00:28:00.320
+And gave him some information about the cases.
+
+00:28:00.320 --> 00:28:03.320
+Like these cases did not exist in reality.
+
+00:28:03.320 --> 00:28:06.320
+All this information was fabricated.
+
+00:28:06.320 --> 00:28:09.320
+At that point, the chat GPT created it.
+
+00:28:09.320 --> 00:28:11.320
+Hallucinated it.
+
+00:28:11.320 --> 00:28:15.320
+And this lawyer thought that if the chat GPT is giving, then he must be giving the right information.
+
+00:28:15.320 --> 00:28:17.320
+He did not even verify the cross-check.
+
+00:28:17.320 --> 00:28:22.320
+And he kept all these documents in front of the judge.
+
+00:28:22.320 --> 00:28:28.320
+When the judge tried to verify it, he found that these cases do not exist.
+
+00:28:28.320 --> 00:28:30.320
+These people do not exist.
+
+00:28:30.320 --> 00:28:35.320
+And then the judge simply turned this lawyer and his firm.
+
+00:28:35.320 --> 00:28:39.320
+He committed a crime of around $5,000.
+
+00:28:39.320 --> 00:28:40.320
+This guy lost the case.
+
+00:28:40.320 --> 00:28:43.320
+And again, there was a lot of negative publicity.
+
+00:28:43.320 --> 00:28:48.320
+Now I am not saying that the chat GPT was tested without the help of OpenAI.
+
+00:28:48.320 --> 00:28:51.320
+But again, one incident that you can understand.
+
+00:28:51.320 --> 00:28:57.320
+That end to end, properly evaluating an LLM based application is so important.
+
+00:28:57.320 --> 00:29:01.320
+Before deploying it in production setup.
+
+00:29:01.320 --> 00:29:03.320
+Users start interacting once.
+
+00:29:03.320 --> 00:29:06.320
+Which user will ask what questions, what will he say.
+
+00:29:06.320 --> 00:29:10.320
+And how will your chatbot respond after turning it.
+
+00:29:10.320 --> 00:29:11.320
+You never know.
+
+00:29:11.320 --> 00:29:15.320
+And then there can be a lot of problems on the scale of a big company.
+
+00:29:15.320 --> 00:29:24.320
+So that is why one thing that you should take from the case studies of these three is that evaluation is super important.
+
+00:29:24.320 --> 00:29:29.320
+Without this, you cannot deploy your LLM based applications.
+
+00:29:29.320 --> 00:29:32.320
+One more question should come to your mind at this point.
+
+00:29:32.320 --> 00:29:34.320
+Because it came to my mind too.
+
+00:29:34.320 --> 00:29:39.320
+And that is that if the LLM application's evaluation is so important.
+
+00:29:39.320 --> 00:29:43.320
+Then why is this evaluation not so common?
+
+00:29:43.320 --> 00:29:45.320
+Why is there no other talk about it?
+
+00:29:45.320 --> 00:29:47.320
+Why don't people study?
+
+00:29:47.320 --> 00:29:55.320
+So the answer to this is that evaluating LLM based applications is not straightforward.
+
+00:29:55.320 --> 00:29:57.320
+It's not like a software application.
+
+00:29:57.320 --> 00:30:01.320
+Which you quickly write some test cases and evaluate.
+
+00:30:01.320 --> 00:30:06.320
+Evaluating LLM based applications is very very tricky.
+
+00:30:07.320 --> 00:30:10.320
+And we will discuss that in the next section.
+
+00:30:10.320 --> 00:30:12.320
+What are the key complexities.
+
+00:30:12.320 --> 00:30:17.320
+Because of which it becomes difficult to evaluate LLM based applications.
+
+00:30:17.320 --> 00:30:19.320
+In comparison to a software system.
+
+00:30:19.320 --> 00:30:21.320
+So we will read that next.
+
+00:30:21.320 --> 00:30:25.320
+Before that, at this point, if you have any questions.
+
+00:30:25.320 --> 00:30:27.320
+Around what we discussed right now.
+
+00:30:27.320 --> 00:30:29.320
+So please let me know.
+
+00:30:29.320 --> 00:30:31.320
+Then we will move to the next topic.
+
+00:30:33.320 --> 00:30:35.320
+I will wait for 3-4 minutes.
+
+00:30:35.320 --> 00:30:36.320
+3 minutes.
+
+00:30:41.320 --> 00:30:46.320
+Are you convinced that LLM evaluations are very important?
+
+00:30:46.320 --> 00:30:48.320
+Are you convinced?
+
+00:30:48.320 --> 00:30:51.320
+Do you feel this is an important topic to study?
+
+00:30:51.320 --> 00:30:53.320
+You should study this.
+
+00:30:57.320 --> 00:30:58.320
+Okay.
+
+00:31:00.320 --> 00:31:01.320
+Okay.
+
+00:31:01.320 --> 00:31:03.320
+Is there any question at this point?
+
+00:31:05.320 --> 00:31:06.320
+Okay.
+
+00:31:11.320 --> 00:31:12.320
+Okay.
+
+00:31:12.320 --> 00:31:14.320
+So let's move ahead.
+
+00:31:14.320 --> 00:31:16.320
+And discuss once.
+
+00:31:16.320 --> 00:31:21.320
+What are the key differences in software testing and LLM evaluations.
+
+00:31:21.320 --> 00:31:22.320
+Okay.
+
+00:31:22.320 --> 00:31:24.320
+There are two major differences.
+
+00:31:24.320 --> 00:31:26.320
+I discuss both one by one.
+
+00:31:26.320 --> 00:31:29.320
+The first difference is.
+
+00:31:29.320 --> 00:31:31.320
+That the software.
+
+00:31:31.320 --> 00:31:35.320
+The software you create and use.
+
+00:31:35.320 --> 00:31:39.320
+By nature, it is deterministic.
+
+00:31:39.320 --> 00:31:41.320
+What is deterministic?
+
+00:31:41.320 --> 00:31:44.320
+That if you give the same input.
+
+00:31:44.320 --> 00:31:48.320
+Then every time you will get the same output.
+
+00:31:48.320 --> 00:31:50.320
+I guess you would agree.
+
+00:31:50.320 --> 00:31:52.320
+Let's say you made a calculator.
+
+00:31:52.320 --> 00:31:56.320
+Now in that calculator, you will give the input of 2 and 2.
+
+00:31:56.320 --> 00:31:57.320
+2 plus 2.
+
+00:31:57.320 --> 00:32:00.320
+So the output will always be 4.
+
+00:32:00.320 --> 00:32:02.320
+Do this thousands of times.
+
+00:32:02.320 --> 00:32:04.320
+Every time you will get the answer 4.
+
+00:32:04.320 --> 00:32:06.320
+So software is deterministic.
+
+00:32:06.320 --> 00:32:10.320
+If you have put the right email and password, then login will be done.
+
+00:32:10.320 --> 00:32:12.320
+If you have put it wrong, then login will not be done.
+
+00:32:12.320 --> 00:32:15.320
+Software is always deterministic.
+
+00:32:15.320 --> 00:32:20.320
+Whereas LLMs and LLM based applications.
+
+00:32:20.320 --> 00:32:22.320
+They are probabilistic.
+
+00:32:22.320 --> 00:32:24.320
+This means.
+
+00:32:24.320 --> 00:32:28.320
+That by giving the same input again and again.
+
+00:32:28.320 --> 00:32:30.320
+It is possible.
+
+00:32:30.320 --> 00:32:32.320
+That you will get different outputs.
+
+00:32:32.320 --> 00:32:34.320
+It is a very simple example.
+
+00:32:34.320 --> 00:32:36.320
+You go to chat.gpt and search.
+
+00:32:36.320 --> 00:32:38.320
+Or ask what is overfitting.
+
+00:32:38.320 --> 00:32:41.320
+Today you will get some answer.
+
+00:32:41.320 --> 00:32:43.320
+After 10 days you will get some other answer.
+
+00:32:43.320 --> 00:32:45.320
+Your friend will get some other answer.
+
+00:32:45.320 --> 00:32:47.320
+Your father will get some other answer.
+
+00:32:47.320 --> 00:32:49.320
+It is not like one answer is right.
+
+00:32:49.320 --> 00:32:51.320
+And the other answer is wrong.
+
+00:32:51.320 --> 00:32:53.320
+All the answers are correct.
+
+00:32:53.320 --> 00:32:55.320
+It is not the same.
+
+00:32:55.320 --> 00:32:59.320
+This is the biggest challenge of an LLM based application.
+
+00:32:59.320 --> 00:33:03.320
+That only one input might produce different different outputs.
+
+00:33:03.320 --> 00:33:05.320
+And all of them are correct.
+
+00:33:05.320 --> 00:33:07.320
+So how would you evaluate?
+
+00:33:07.320 --> 00:33:09.320
+This is the first challenge.
+
+00:33:09.320 --> 00:33:11.320
+Second challenge.
+
+00:33:11.320 --> 00:33:13.320
+Second challenge is this.
+
+00:33:13.320 --> 00:33:17.320
+That in software you only worry about one thing.
+
+00:33:17.320 --> 00:33:21.320
+That your software is running correctly or not.
+
+00:33:21.320 --> 00:33:23.320
+2 plus 2 is 4 or not.
+
+00:33:23.320 --> 00:33:25.320
+You just have to worry about this.
+
+00:33:25.320 --> 00:33:27.320
+Is it 5 or 6?
+
+00:33:27.320 --> 00:33:29.320
+This is your tension.
+
+00:33:29.320 --> 00:33:33.320
+Whereas in an LLM based system.
+
+00:33:33.320 --> 00:33:35.320
+You have a lot of tension.
+
+00:33:35.320 --> 00:33:39.320
+For example if you have made a rag chart board.
+
+00:33:41.320 --> 00:33:43.320
+Then it will not only matter.
+
+00:33:43.320 --> 00:33:47.320
+That your answer is correct or not.
+
+00:33:47.320 --> 00:33:49.320
+It will also matter.
+
+00:33:49.320 --> 00:33:53.320
+That your answer is from a retrieved document or not.
+
+00:33:53.320 --> 00:33:57.320
+That your answer is correct or not.
+
+00:33:57.320 --> 00:33:59.320
+That your answer is.
+
+00:34:01.320 --> 00:34:03.320
+That's latency.
+
+00:34:03.320 --> 00:34:05.320
+Latency is also there in software.
+
+00:34:05.320 --> 00:34:07.320
+How much is the cost?
+
+00:34:07.320 --> 00:34:09.319
+How much is your LLM taking tokens?
+
+00:34:09.319 --> 00:34:11.319
+In the process of answering that question.
+
+00:34:11.319 --> 00:34:15.319
+So basically a lot of things matter.
+
+00:34:15.320 --> 00:34:17.320
+In LLM based evaluations.
+
+00:34:17.320 --> 00:34:21.320
+There is no simple correctness check here.
+
+00:34:21.320 --> 00:34:25.320
+You check the answer from multiple aspects.
+
+00:34:25.320 --> 00:34:29.320
+Because of which again your evaluation becomes very tricky.
+
+00:34:29.320 --> 00:34:31.320
+I will explain this through an example.
+
+00:34:31.320 --> 00:34:35.320
+Let's say I am making a chart board for CampusX.
+
+00:34:35.320 --> 00:34:39.320
+Which will solve your doubt on our videos.
+
+00:34:39.320 --> 00:34:43.320
+So how would I evaluate that this chart board is working properly?
+
+00:34:43.320 --> 00:34:47.320
+You can't evaluate only on whether the answer is correct or not.
+
+00:34:47.320 --> 00:34:49.320
+You have to think in every way.
+
+00:34:49.320 --> 00:34:51.320
+Is it giving unsafe output?
+
+00:34:51.320 --> 00:34:53.320
+Is it abusing?
+
+00:34:53.320 --> 00:34:55.320
+Is it getting delayed?
+
+00:34:55.320 --> 00:34:59.320
+Is it giving the answer from somewhere else?
+
+00:34:59.320 --> 00:35:01.320
+Instead of giving the answer from our videos.
+
+00:35:01.320 --> 00:35:05.320
+Is the answer coming out simple enough or not?
+
+00:35:05.320 --> 00:35:09.320
+Does it match our explanation style or not?
+
+00:35:09.320 --> 00:35:15.320
+So there are many things that you have to check before deploying the campusX chart board.
+
+00:35:15.320 --> 00:35:19.320
+So the two major problems are.
+
+00:35:19.320 --> 00:35:23.320
+First, LLM based systems are probabilistic.
+
+00:35:23.320 --> 00:35:27.320
+Same input might give you different different output.
+
+00:35:27.320 --> 00:35:31.320
+And second, there is no single definition of correctness.
+
+00:35:31.320 --> 00:35:33.320
+You have to look at multiple things.
+
+00:35:33.320 --> 00:35:37.320
+And you have to think about what all things matter.
+
+00:35:37.320 --> 00:35:39.320
+So you have to evaluate on that.
+
+00:35:39.320 --> 00:35:43.320
+That is why I said it is not straight forward.
+
+00:35:43.320 --> 00:35:49.320
+And you will see that when we will evaluate the applications properly.
+
+00:35:49.320 --> 00:35:51.320
+We will create our own rubrics.
+
+00:35:51.320 --> 00:35:57.320
+You will see that how much you have to think about what all things matter.
+
+00:35:57.320 --> 00:36:03.320
+So that is why it is always said that software based testing is straight forward.
+
+00:36:03.320 --> 00:36:07.320
+Whereas LLM's evaluation is very very tricky.
+
+00:36:07.320 --> 00:36:09.320
+So is this point clear?
+
+00:36:09.320 --> 00:36:11.320
+Is the discussion going on right?
+
+00:36:11.320 --> 00:36:13.320
+Is everything clear?
+
+00:36:17.320 --> 00:36:19.320
+Okay.
+
+00:36:19.320 --> 00:36:21.320
+Okay.
+
+00:36:21.320 --> 00:36:25.320
+So till this point, the class was very similar.
+
+00:36:25.320 --> 00:36:29.320
+As you did in the previous session or in the YouTube video.
+
+00:36:29.320 --> 00:36:32.320
+Now going forward, the class will feel different.
+
+00:36:32.320 --> 00:36:35.320
+We will teach the same thing but you will feel a little different.
+
+00:36:35.320 --> 00:36:36.320
+Okay.
+
+00:36:36.320 --> 00:36:43.320
+So now that we understand why LLM evaluations are important.
+
+00:36:43.320 --> 00:36:47.320
+And how LLM evaluations are different from software testing.
+
+00:36:47.320 --> 00:36:54.320
+Now let's move on to the main topic of the day.
+
+00:36:54.320 --> 00:36:57.320
+What are LLM evals?
+
+00:36:57.320 --> 00:36:59.320
+We have not discussed this yet.
+
+00:36:59.320 --> 00:37:02.320
+I mean we have done it from the top but let's read it in detail.
+
+00:37:02.320 --> 00:37:03.320
+Okay.
+
+00:37:03.320 --> 00:37:06.320
+So here I have written a definition.
+
+00:37:06.320 --> 00:37:09.320
+I will first read the definition and then we will discuss the point.
+
+00:37:09.320 --> 00:37:14.320
+So we can define LLM evals as.
+
+00:37:14.320 --> 00:37:20.320
+That LLM evals are systematic repeatable tests.
+
+00:37:20.320 --> 00:37:28.320
+Used to judge an LLM or LLM powered system against a clear criteria.
+
+00:37:28.320 --> 00:37:29.320
+Okay.
+
+00:37:29.320 --> 00:37:33.320
+Basically LLM evaluations are tests.
+
+00:37:33.320 --> 00:37:39.320
+Which we apply on LLM or LLM based applications.
+
+00:37:39.320 --> 00:37:43.320
+And there are three main aspects of it.
+
+00:37:43.320 --> 00:37:48.320
+First is that these tests are systematic.
+
+00:37:48.320 --> 00:37:51.320
+Second, these tests are repeatable.
+
+00:37:51.320 --> 00:37:55.320
+And these tests have very clear criteria.
+
+00:37:55.320 --> 00:37:58.320
+These three are very important pointers.
+
+00:37:58.320 --> 00:38:01.320
+Very important characteristics of LLM evals.
+
+00:38:01.320 --> 00:38:03.320
+Let's understand these.
+
+00:38:03.320 --> 00:38:05.320
+First of all let's talk about systematic.
+
+00:38:05.320 --> 00:38:09.320
+Systematic means that you are not doing vibe testing here.
+
+00:38:09.320 --> 00:38:11.320
+You got five questions in your mind.
+
+00:38:11.320 --> 00:38:12.320
+You asked and got the answer.
+
+00:38:12.320 --> 00:38:13.320
+You thought everything is fine.
+
+00:38:13.320 --> 00:38:14.320
+It doesn't happen.
+
+00:38:14.320 --> 00:38:19.320
+Here what you do is you create proper data sets.
+
+00:38:19.320 --> 00:38:25.320
+And in those data sets you try to cover all kinds of edge cases.
+
+00:38:25.320 --> 00:38:33.320
+So that you can properly test your chatbot or LLM based system.
+
+00:38:33.320 --> 00:38:34.320
+Okay.
+
+00:38:34.320 --> 00:38:36.320
+For example if I am creating a chatbot of campusX.
+
+00:38:36.320 --> 00:38:45.320
+Then what I will do is that I will randomly pick up what 100 real users are chatting with my system.
+
+00:38:45.320 --> 00:38:47.320
+And I will create a database of that chat.
+
+00:38:47.320 --> 00:38:48.320
+I will create a database.
+
+00:38:48.320 --> 00:38:49.320
+I will create a data set.
+
+00:38:49.320 --> 00:38:51.320
+And I will test on that data set.
+
+00:38:51.320 --> 00:38:59.320
+So that I get to see the real world behavior of my chatbot.
+
+00:38:59.320 --> 00:39:00.320
+Okay.
+
+00:39:00.320 --> 00:39:01.320
+So first it is systematic.
+
+00:39:01.320 --> 00:39:03.320
+Second it is repeatable.
+
+00:39:03.320 --> 00:39:08.320
+Repeatable means that if you change prompt in your system tomorrow.
+
+00:39:08.320 --> 00:39:09.320
+Change model.
+
+00:39:09.320 --> 00:39:10.320
+Change retriever.
+
+00:39:10.320 --> 00:39:12.320
+Change chunking strategy.
+
+00:39:12.320 --> 00:39:14.320
+Change all these things.
+
+00:39:14.320 --> 00:39:20.320
+So even after that you can evaluate your system exactly the way you were able to do it before.
+
+00:39:20.320 --> 00:39:26.320
+So this is again one important idea that LLM evals should be repeatable.
+
+00:39:26.320 --> 00:39:32.320
+You can apply the data set on any version of the software exactly the way you want.
+
+00:39:32.320 --> 00:39:33.320
+And extract the results.
+
+00:39:33.320 --> 00:39:34.320
+This is very important.
+
+00:39:34.320 --> 00:39:39.320
+And you can compare with this whether version 1 is better or version 2 is better.
+
+00:39:39.320 --> 00:39:41.320
+Because you have a test data set.
+
+00:39:41.320 --> 00:39:43.320
+Version 1 gave performance on that.
+
+00:39:43.320 --> 00:39:45.320
+Version 2 gave performance on that.
+
+00:39:45.320 --> 00:39:48.320
+With that we can understand whether the system is improving or not.
+
+00:39:48.320 --> 00:39:49.320
+Okay.
+
+00:39:49.320 --> 00:39:51.320
+So it is repeatable.
+
+00:39:51.320 --> 00:39:54.320
+Third most important thing.
+
+00:39:54.320 --> 00:40:02.320
+That LLM evaluations depend on the criteria on which you want to evaluate.
+
+00:40:02.320 --> 00:40:03.320
+Right.
+
+00:40:03.320 --> 00:40:06.320
+For example if I am creating a chatbot of campusX.
+
+00:40:07.320 --> 00:40:11.320
+So there will be many criteria on which I want to evaluate.
+
+00:40:11.320 --> 00:40:15.320
+First obviously the answer that is coming out should be correct.
+
+00:40:15.320 --> 00:40:19.320
+Second answer should be filled with simple explanation.
+
+00:40:19.320 --> 00:40:24.320
+Third whatever explanation is coming should come from our course content.
+
+00:40:24.320 --> 00:40:27.320
+Fourth should be safe.
+
+00:40:27.320 --> 00:40:34.320
+There should not be any such things in it which are unsafe or there are abuses written or tone of scaring.
+
+00:40:34.320 --> 00:40:35.320
+All these should not happen.
+
+00:40:35.320 --> 00:40:36.320
+So what will you do?
+
+00:40:36.320 --> 00:40:41.320
+You will define such criteria to evaluate the chatbot.
+
+00:40:41.320 --> 00:40:42.320
+Okay.
+
+00:40:42.320 --> 00:40:45.320
+Without criteria you just do wipe testing.
+
+00:40:45.320 --> 00:40:48.320
+With criteria you do proper evaluation.
+
+00:40:48.320 --> 00:40:49.320
+Okay.
+
+00:40:49.320 --> 00:40:52.320
+So in nutshell I have explained you at a theoretical level.
+
+00:40:52.320 --> 00:40:53.320
+But don't worry.
+
+00:40:53.320 --> 00:40:57.320
+After some time we will understand this whole workflow through a proper example.
+
+00:40:57.320 --> 00:41:00.320
+But at this point if I would like to summarize.
+
+00:41:00.320 --> 00:41:03.320
+LLM evals are basically tests.
+
+00:41:03.320 --> 00:41:11.320
+With the help of which you test LLM or LLM based applications for some given clear criteria.
+
+00:41:11.320 --> 00:41:16.320
+And usually these tests are repeatable and very systematic.
+
+00:41:16.320 --> 00:41:18.320
+We have read this till now.
+
+00:41:18.320 --> 00:41:21.320
+Now here I would like to clarify one more thing.
+
+00:41:21.320 --> 00:41:23.320
+Because this is doubtful to many people.
+
+00:41:23.320 --> 00:41:26.320
+I also had this doubt when I was hearing about this topic for the first time.
+
+00:41:26.320 --> 00:41:30.320
+I used to think that eval means metric.
+
+00:41:30.320 --> 00:41:32.320
+Because I had come from machine learning and deep learning.
+
+00:41:32.320 --> 00:41:34.320
+So what was the meaning of evaluation there?
+
+00:41:34.320 --> 00:41:35.320
+Metric.
+
+00:41:35.320 --> 00:41:38.320
+We used to say that how to evaluate machine learning models.
+
+00:41:38.320 --> 00:41:40.320
+So what were we talking about?
+
+00:41:40.320 --> 00:41:43.320
+We were talking about accuracy.
+
+00:41:43.320 --> 00:41:45.320
+We were talking about precision.
+
+00:41:45.320 --> 00:41:46.320
+Recall.
+
+00:41:46.320 --> 00:41:47.320
+Those were metrics.
+
+00:41:47.320 --> 00:41:52.320
+So in my mind it was a perception that LLM evals will also be simply a set of metrics.
+
+00:41:52.320 --> 00:41:55.320
+Based on which we perform evaluation.
+
+00:41:55.320 --> 00:41:57.320
+But this is not correct.
+
+00:41:57.320 --> 00:42:00.320
+Here in the first lecture I would like to tell you one thing.
+
+00:42:00.320 --> 00:42:07.320
+That the meaning of evaluation, LLM eval is not just metric.
+
+00:42:07.320 --> 00:42:11.320
+It is basically the complete testing setup.
+
+00:42:11.320 --> 00:42:15.320
+The complete setup that we create to test LLMs.
+
+00:42:15.320 --> 00:42:18.320
+We call that complete testing setup LLM evals.
+
+00:42:18.320 --> 00:42:19.320
+Okay.
+
+00:42:19.320 --> 00:42:23.320
+So what are we evaluating?
+
+00:42:23.320 --> 00:42:26.320
+Suppose you have a rag chatbot.
+
+00:42:26.320 --> 00:42:29.320
+We want to evaluate the retriever in it.
+
+00:42:29.320 --> 00:42:34.320
+So the retriever component has become a part of our LLM eval.
+
+00:42:34.320 --> 00:42:38.320
+Based on which criteria are we evaluating it?
+
+00:42:38.320 --> 00:42:41.320
+Based on the accuracy of the retriever.
+
+00:42:41.320 --> 00:42:44.320
+We are evaluating it based on that.
+
+00:42:44.320 --> 00:42:49.320
+The data set that we have prepared to evaluate comes in LLM eval.
+
+00:42:49.320 --> 00:42:52.320
+When are we running these tests?
+
+00:42:52.320 --> 00:42:56.320
+Are we running it offline or after being deployed in production?
+
+00:42:56.320 --> 00:43:00.320
+That is also a part of this setup.
+
+00:43:00.320 --> 00:43:02.320
+After that, what tools are we using?
+
+00:43:02.320 --> 00:43:05.320
+Let's say we are using ragas because it is a rag application.
+
+00:43:05.320 --> 00:43:08.320
+So this tool is also a part of your LLM eval.
+
+00:43:08.320 --> 00:43:11.320
+So in a nutshell, if I simplify this discussion.
+
+00:43:11.320 --> 00:43:16.320
+Then just understand that whenever someone tells you what LLM evals are.
+
+00:43:16.320 --> 00:43:21.320
+Then you have to say that LLM eval means not just metrics.
+
+00:43:21.320 --> 00:43:25.320
+LLM evals means the entire testing setup.
+
+00:43:25.320 --> 00:43:27.320
+What are we testing?
+
+00:43:27.320 --> 00:43:29.320
+What basis are we testing?
+
+00:43:29.320 --> 00:43:30.320
+When are we testing?
+
+00:43:30.320 --> 00:43:32.320
+What tool are we using to test?
+
+00:43:32.320 --> 00:43:34.320
+We call all these LLM evals.
+
+00:43:34.320 --> 00:43:35.320
+Is this point clear?
+
+00:43:35.320 --> 00:43:37.320
+It might be a little confusing.
+
+00:43:37.320 --> 00:43:39.320
+But is this point clear?
+
+00:43:39.320 --> 00:43:43.320
+That LLM evals is not only metric.
+
+00:43:43.320 --> 00:43:46.320
+It is basically the entire testing setup.
+
+00:43:46.320 --> 00:43:47.320
+Okay.
+
+00:43:47.320 --> 00:43:53.320
+And the goal of LLM eval is not to give you a score.
+
+00:43:53.320 --> 00:43:58.320
+Its goal is to give you the answer to practical questions.
+
+00:43:58.320 --> 00:44:00.320
+What kind of questions?
+
+00:44:00.320 --> 00:44:01.320
+See, it is written here.
+
+00:44:01.320 --> 00:44:04.320
+Can the model be used for a particular task application?
+
+00:44:04.320 --> 00:44:08.320
+You will get the answer to this question when you evaluate LLMs.
+
+00:44:08.320 --> 00:44:10.320
+Is this system good enough to ship?
+
+00:44:10.320 --> 00:44:11.320
+Are we producing it?
+
+00:44:11.320 --> 00:44:13.320
+Is it good enough to ship?
+
+00:44:13.320 --> 00:44:15.320
+Is this system good enough to ship?
+
+00:44:15.320 --> 00:44:17.320
+Can we put it into production?
+
+00:44:17.320 --> 00:44:20.320
+You will get the answer to this question when you evaluate LLMs.
+
+00:44:20.320 --> 00:44:24.320
+Did prompt version 2 improve over prompt V1?
+
+00:44:24.320 --> 00:44:28.320
+You can get the answer to this question by evaluating prompts.
+
+00:44:28.320 --> 00:44:31.320
+Is the rag answer grounded in retrieved context?
+
+00:44:31.320 --> 00:44:34.320
+Is the agent completing the task correctly?
+
+00:44:34.320 --> 00:44:37.320
+Is the chatbot safe for real users?
+
+00:44:37.320 --> 00:44:39.320
+Is the latency under control?
+
+00:44:39.320 --> 00:44:43.320
+You will get the answer to these kinds of questions when you evaluate LLMs.
+
+00:44:43.320 --> 00:44:46.320
+LLM eval answers these kinds of questions.
+
+00:44:46.320 --> 00:44:47.320
+Okay.
+
+00:44:47.320 --> 00:44:50.320
+So, in a nutshell, we have read a lot of theory.
+
+00:44:50.320 --> 00:44:52.320
+But don't worry.
+
+00:44:52.320 --> 00:44:55.320
+Even if you didn't click that much on this point.
+
+00:44:55.320 --> 00:45:00.320
+After a while, we will revisit this whole thing through a practical example.
+
+00:45:00.320 --> 00:45:02.320
+And everything will make sense.
+
+00:45:02.320 --> 00:45:03.320
+Don't worry.
+
+00:45:03.320 --> 00:45:04.320
+Okay.
+
+00:45:04.320 --> 00:45:07.320
+So, we understood a little bit on this point.
+
+00:45:07.320 --> 00:45:10.320
+What is LLM eval on a theoretical level?
+
+00:45:10.320 --> 00:45:13.320
+If you have any questions, you can ask.
+
+00:45:13.320 --> 00:45:16.320
+I will again take a break.
+
+00:45:22.320 --> 00:45:26.320
+So, if you understood the whole chronology of this lecture,
+
+00:45:26.320 --> 00:45:28.320
+we started with Y.
+
+00:45:28.320 --> 00:45:30.320
+Now we are on Watt.
+
+00:45:30.320 --> 00:45:32.320
+In a while, we will go to Wau.
+
+00:45:32.320 --> 00:45:35.320
+You will understand things better there.
+
+00:45:35.320 --> 00:45:36.320
+Okay.
+
+00:45:36.320 --> 00:45:39.320
+If you have any questions, you can ask.
+
+00:45:49.320 --> 00:45:52.320
+Sir, can we get these notes for revising these topics?
+
+00:45:52.320 --> 00:45:53.320
+Yes, Rhea, you will get it.
+
+00:45:53.320 --> 00:45:54.320
+By tomorrow, you will get it.
+
+00:45:54.320 --> 00:46:00.320
+I didn't share the last lecture because I knew in my mind that I would be taking this session again.
+
+00:46:00.320 --> 00:46:03.320
+But I will share the final version with you.
+
+00:46:03.320 --> 00:46:05.320
+Don't worry.
+
+00:46:05.320 --> 00:46:07.320
+Any other question at this point?
+
+00:46:13.320 --> 00:46:14.320
+Let's resume then.
+
+00:46:14.320 --> 00:46:16.320
+Let's go to the next topic.
+
+00:46:16.320 --> 00:46:19.320
+Just write yes when you are ready.
+
+00:46:22.320 --> 00:46:23.320
+Okay.
+
+00:46:23.320 --> 00:46:25.320
+Thanks.
+
+00:46:25.320 --> 00:46:29.320
+Now, how exactly do LLM evals work?
+
+00:46:29.320 --> 00:46:34.320
+Before discussing this, I want to tell you a very important distinction.
+
+00:46:34.320 --> 00:46:37.320
+It is very important for you to have this distinction in your mind.
+
+00:46:37.320 --> 00:46:40.320
+This will help you in the future.
+
+00:46:40.320 --> 00:46:41.320
+Okay.
+
+00:46:41.320 --> 00:46:42.320
+What is the distinction?
+
+00:46:42.320 --> 00:46:48.320
+In today's rate, you can divide LLM evals into two parts.
+
+00:46:48.320 --> 00:46:55.320
+We call one model evals and the second is application evals.
+
+00:46:55.320 --> 00:47:03.320
+Model evals are the evals with which we evaluate LLMs.
+
+00:47:03.320 --> 00:47:15.320
+Application evals are the evals with which we evaluate LLM based applications.
+
+00:47:15.320 --> 00:47:21.320
+If you go to the last slide, it was written in the definition that LLM evals...
+
+00:47:21.320 --> 00:47:33.320
+LLM evals are systematic repeatable tests used to judge an LLM or LLM powered systems.
+
+00:47:33.320 --> 00:47:35.320
+Both are written here.
+
+00:47:35.320 --> 00:47:40.320
+And that is why we can say that there are two types of LLM evals.
+
+00:47:40.320 --> 00:47:45.320
+One is called model evals and the second is application evals.
+
+00:47:45.320 --> 00:47:47.320
+Model evals work is very simple.
+
+00:47:47.320 --> 00:47:56.320
+Given, evaluating LLM and application evals is to evaluate LLM based applications.
+
+00:47:56.320 --> 00:48:00.320
+And if this distinction is clear in your mind in the beginning, then it is very good.
+
+00:48:00.320 --> 00:48:03.320
+Here, in fact, I will give you a disclaimer.
+
+00:48:03.320 --> 00:48:12.320
+Disclaimer is that the terms written here, model eval and application eval, are not official terms.
+
+00:48:12.320 --> 00:48:14.320
+I have created these.
+
+00:48:14.320 --> 00:48:19.320
+Why have I created these? Because I want to simplify this topic in your mind.
+
+00:48:19.320 --> 00:48:25.320
+So, don't quote me that model eval is a term and application eval is a term.
+
+00:48:25.320 --> 00:48:29.320
+Even now, in the industry, both are called LLM evals.
+
+00:48:29.320 --> 00:48:37.320
+And then depending on the use case, people automatically understand that it is a model eval or an application eval.
+
+00:48:37.320 --> 00:48:39.320
+So, I am giving you this disclaimer from the beginning.
+
+00:48:39.320 --> 00:48:47.320
+Now, let's try to understand in detail what both types of evals do.
+
+00:48:47.320 --> 00:48:49.320
+First, let's talk about model evals.
+
+00:48:49.320 --> 00:48:54.320
+Here, a definition is written, model evals evaluate the model itself.
+
+00:48:54.320 --> 00:48:58.320
+It is simple. Their job is to evaluate LLMs.
+
+00:48:58.320 --> 00:49:04.320
+The main idea is to test and evaluate the capabilities of a model.
+
+00:49:05.320 --> 00:49:10.320
+The goal of these evals is that when a new LLM is released,
+
+00:49:10.320 --> 00:49:17.320
+we test and benchmark the capabilities of that LLM and document it.
+
+00:49:17.320 --> 00:49:20.320
+You might have seen that when a new LLM is released,
+
+00:49:20.320 --> 00:49:27.320
+it is said that this LLM came on top on a particular benchmark or a particular leaderboard.
+
+00:49:27.320 --> 00:49:30.320
+It has so much accuracy, it is on such a percentage.
+
+00:49:30.320 --> 00:49:32.320
+Have you seen this? Have you ever noticed this?
+
+00:49:32.320 --> 00:49:33.320
+Have you ever noticed this?
+
+00:49:33.320 --> 00:49:35.320
+Whenever these new releases are released,
+
+00:49:35.320 --> 00:49:42.320
+you see that these YouTubers always quote these benchmarks and leaderboards
+
+00:49:42.320 --> 00:49:47.320
+that this LLM topped on this particular leaderboard or benchmark.
+
+00:49:47.320 --> 00:49:51.320
+So, what is happening there is that some evals are kept.
+
+00:49:51.320 --> 00:49:53.320
+As soon as a new LLM comes to the market,
+
+00:49:53.320 --> 00:49:59.320
+we test that LLM on the eval to find out the capability level.
+
+00:49:59.320 --> 00:50:05.320
+We document it and publish it on the internet to find out how capable a LLM is.
+
+00:50:05.320 --> 00:50:11.320
+The question is what type of capabilities can we test?
+
+00:50:11.320 --> 00:50:18.320
+So, we test the LLMs of today on 8 major capabilities.
+
+00:50:18.320 --> 00:50:20.320
+The first capability is reasoning.
+
+00:50:20.320 --> 00:50:23.320
+Can our LLM reason?
+
+00:50:23.320 --> 00:50:27.320
+Can it solve a problem step by step?
+
+00:50:27.320 --> 00:50:29.320
+The second capability is knowledge.
+
+00:50:29.320 --> 00:50:33.320
+Does our LLM have basic world knowledge?
+
+00:50:33.320 --> 00:50:35.320
+Does it have general knowledge?
+
+00:50:35.320 --> 00:50:37.320
+Right? In which we talk about the cutoff date.
+
+00:50:37.320 --> 00:50:42.320
+So, the world's knowledge of the first cutoff date should be with the LLM.
+
+00:50:42.320 --> 00:50:44.320
+So, this is the second capability.
+
+00:50:44.320 --> 00:50:46.320
+The third capability is basic maths.
+
+00:50:46.320 --> 00:50:51.320
+Can our LLM solve maths problems or not?
+
+00:50:51.320 --> 00:50:54.320
+Then the fourth capability is coding.
+
+00:50:54.320 --> 00:50:57.320
+Can our LLM code or not?
+
+00:50:57.320 --> 00:51:00.320
+The fifth capability is instruction following.
+
+00:51:00.320 --> 00:51:04.320
+Can our model LLM follow instructions or not?
+
+00:51:04.320 --> 00:51:07.320
+If I give it 10 instructions,
+
+00:51:07.320 --> 00:51:11.320
+will it follow all the instructions one by one or not?
+
+00:51:11.320 --> 00:51:14.320
+Then comes long context handling.
+
+00:51:14.320 --> 00:51:21.320
+Can our LLM give us the right answers even in a very big context or not?
+
+00:51:21.320 --> 00:51:24.320
+The seventh capability is multimodal understanding.
+
+00:51:24.320 --> 00:51:28.320
+Does our LLM have multimodal capabilities or not?
+
+00:51:28.320 --> 00:51:32.320
+Can it understand images, text, sound or not?
+
+00:51:32.320 --> 00:51:35.320
+Or can it give output or not?
+
+00:51:35.320 --> 00:51:37.320
+And lastly, tool use.
+
+00:51:37.320 --> 00:51:41.320
+Can our LLM utilize tools or not properly?
+
+00:51:41.320 --> 00:51:45.320
+Today, there are 8 main capability categories
+
+00:51:45.320 --> 00:51:49.320
+on which every new LLM is evaluated on the basis.
+
+00:51:49.320 --> 00:51:53.320
+And then, it is documented and explained.
+
+00:51:53.320 --> 00:51:59.320
+And the whole evaluation is done on the basis of benchmarks.
+
+00:51:59.320 --> 00:52:03.320
+So, I have written some example benchmarks here.
+
+00:52:03.320 --> 00:52:05.320
+We will not discuss all the benchmarks now.
+
+00:52:05.320 --> 00:52:09.320
+So, if you want to check general knowledge and reasoning of any model,
+
+00:52:09.320 --> 00:52:12.320
+then there is a famous benchmark called MMLU.
+
+00:52:12.320 --> 00:52:16.320
+Which asks questions on many subjects from you.
+
+00:52:16.320 --> 00:52:18.320
+Science, history, law, medicine.
+
+00:52:18.320 --> 00:52:20.320
+It will ask questions on you.
+
+00:52:20.320 --> 00:52:24.320
+It will ask questions from your LLM and record it and evaluate it.
+
+00:52:24.320 --> 00:52:28.320
+For maths, there is a benchmark called GSM 8.
+
+00:52:28.320 --> 00:52:34.320
+Which asks questions of grade school maths and evaluates the answers on basis.
+
+00:52:34.320 --> 00:52:36.320
+For coding, SWE bench.
+
+00:52:36.320 --> 00:52:39.320
+You might have heard that it is a very famous benchmark.
+
+00:52:39.320 --> 00:52:41.320
+There is human eval as well.
+
+00:52:41.320 --> 00:52:43.320
+For instruction following, there is IF eval.
+
+00:52:43.320 --> 00:52:47.320
+For long context checking, there is a famous benchmark called needle in a haystack.
+
+00:52:47.320 --> 00:52:52.320
+For multi-modal capabilities checking, there is a benchmark called MMMU.
+
+00:52:52.320 --> 00:52:55.320
+So, if I summarize the discussion till now in nutshell,
+
+00:52:55.320 --> 00:52:59.320
+then LLM eval is divided into two parts.
+
+00:52:59.320 --> 00:53:02.320
+Model eval and application eval.
+
+00:53:02.320 --> 00:53:07.320
+Model eval is used to test the capabilities of LLM.
+
+00:53:07.320 --> 00:53:10.320
+And which are the capabilities?
+
+00:53:10.320 --> 00:53:13.320
+So far, we have studied about 8 capabilities.
+
+00:53:13.320 --> 00:53:16.320
+And how are these capabilities tested?
+
+00:53:16.320 --> 00:53:18.320
+With the help of benchmarks.
+
+00:53:18.320 --> 00:53:21.320
+Now, this is the topic of our next lecture.
+
+00:53:21.320 --> 00:53:27.320
+Where I will teach you about the most popular benchmarks in the entire lecture.
+
+00:53:27.320 --> 00:53:29.320
+How they are applied on LLMs.
+
+00:53:29.320 --> 00:53:31.320
+How the results are taken out.
+
+00:53:31.320 --> 00:53:33.320
+I will teach you the entire workflow.
+
+00:53:33.320 --> 00:53:37.320
+So, basically, you will get a very good idea in the next lecture.
+
+00:53:37.320 --> 00:53:39.320
+Around model evals.
+
+00:53:39.320 --> 00:53:42.320
+But, I would like to clear one thing here.
+
+00:53:42.320 --> 00:53:45.320
+That if you are going to become an AI engineer,
+
+00:53:45.320 --> 00:53:48.320
+then you will not work on model evals.
+
+00:53:48.320 --> 00:53:51.320
+Because, just think, this new LLM came.
+
+00:53:51.320 --> 00:53:54.320
+Evaluating it, benchmarking it,
+
+00:53:54.320 --> 00:53:57.320
+documenting its evaluations is not your job.
+
+00:53:57.320 --> 00:54:01.320
+This is the job of the big frontier labs.
+
+00:54:01.320 --> 00:54:04.320
+When they are bringing the new model,
+
+00:54:04.320 --> 00:54:07.320
+then they will test on these benchmarks.
+
+00:54:07.320 --> 00:54:10.320
+And they will tell you about their new LLM.
+
+00:54:10.320 --> 00:54:15.320
+You should know what model evaluation is.
+
+00:54:15.320 --> 00:54:17.320
+What are the benchmarks?
+
+00:54:17.320 --> 00:54:19.320
+And how to read the benchmarks.
+
+00:54:19.320 --> 00:54:24.320
+This will help you when you pick a new project tomorrow.
+
+00:54:24.320 --> 00:54:28.320
+Since you have the idea to read the benchmarks,
+
+00:54:28.320 --> 00:54:31.320
+and you have the knowledge on which model tops which benchmark.
+
+00:54:31.320 --> 00:54:36.320
+So, on the basis of that, you will be able to do better decision making.
+
+00:54:36.320 --> 00:54:41.320
+That which LLM should you keep in your LLM based application.
+
+00:54:41.320 --> 00:54:44.320
+So, you will feel a little more literate.
+
+00:54:44.320 --> 00:54:46.320
+If you know this topic.
+
+00:54:46.320 --> 00:54:52.320
+But, it does not mean that you have to do practical evaluations.
+
+00:54:52.320 --> 00:54:56.320
+There is a good chance that you should never do model evaluations.
+
+00:54:56.320 --> 00:55:00.320
+But, you should know, you should know how to read them.
+
+00:55:00.320 --> 00:55:02.320
+You should know about the top benchmark.
+
+00:55:02.320 --> 00:55:05.320
+Because, as a project developer,
+
+00:55:05.320 --> 00:55:09.320
+one important thing is that when you are starting a project,
+
+00:55:09.320 --> 00:55:12.320
+you should decide whether you want LLM of OpenAI,
+
+00:55:12.320 --> 00:55:17.320
+or of Anthropic, or any open source LLM will also work for you.
+
+00:55:17.320 --> 00:55:21.320
+And this decision making comes from model evals.
+
+00:55:21.320 --> 00:55:24.320
+So, is it clear, the discussion till now?
+
+00:55:24.320 --> 00:55:27.320
+LLM evals, two types, model evals, application evals.
+
+00:55:27.320 --> 00:55:29.320
+We have just discussed model evals.
+
+00:55:29.320 --> 00:55:32.320
+So, is it clear, the discussion till now?
+
+00:55:33.320 --> 00:55:36.320
+Let me know in the chat.
+
+00:55:37.320 --> 00:55:40.320
+At this point, if you have any questions, you can ask.
+
+00:55:51.320 --> 00:55:52.320
+Okay.
+
+00:55:52.320 --> 00:55:55.320
+So, now let's talk about the second category.
+
+00:55:55.320 --> 00:55:58.320
+That is, application evals.
+
+00:55:59.320 --> 00:56:03.320
+Before discussing the category, I would like to tell you one thing.
+
+00:56:03.320 --> 00:56:09.320
+That this is the category that you have to read well.
+
+00:56:09.320 --> 00:56:12.320
+This should be your topic of interest.
+
+00:56:12.320 --> 00:56:15.320
+And this is the category that you will practically do.
+
+00:56:15.320 --> 00:56:16.320
+Okay.
+
+00:56:16.320 --> 00:56:21.320
+Because, your job as an AI engineer is to build LLM based applications.
+
+00:56:21.320 --> 00:56:23.320
+So, it is your job to evaluate it.
+
+00:56:23.320 --> 00:56:26.320
+So, this application eval is the main topic of this playlist.
+
+00:56:26.320 --> 00:56:29.320
+In this course, we will focus more on this.
+
+00:56:29.320 --> 00:56:33.320
+There will be only one dedicated lecture on this.
+
+00:56:33.320 --> 00:56:39.320
+And that too because I want you to understand how model evaluation works.
+
+00:56:39.320 --> 00:56:42.320
+You should understand, you should have literacy.
+
+00:56:42.320 --> 00:56:43.320
+Okay.
+
+00:56:43.320 --> 00:56:54.320
+So, application evals exist because LLM is just one component in applications.
+
+00:56:54.320 --> 00:57:01.320
+If you think about it, we feel that LLM application means LLMs.
+
+00:57:01.320 --> 00:57:05.320
+If the main thing is the brain, then everything is about LLMs.
+
+00:57:05.320 --> 00:57:06.320
+But it is not like that.
+
+00:57:06.320 --> 00:57:12.320
+As you get experience in AI engineering, you make some big applications.
+
+00:57:12.320 --> 00:57:15.320
+You would realize that the brain is important.
+
+00:57:15.320 --> 00:57:20.320
+But apart from that, you have to put a lot of things in it.
+
+00:57:20.320 --> 00:57:23.320
+So that your LLM based application works properly.
+
+00:57:23.320 --> 00:57:26.320
+I have made a list of all those things here.
+
+00:57:26.320 --> 00:57:28.320
+Your user interface is one thing.
+
+00:57:28.320 --> 00:57:31.320
+The prompt that you write, system prompt, that is one thing.
+
+00:57:31.320 --> 00:57:35.320
+If you add tools in it, add APIs, that is one thing.
+
+00:57:35.320 --> 00:57:40.320
+The code that you have written to orchestrate the whole system, let's say in Langraph.
+
+00:57:40.320 --> 00:57:43.320
+That the control will go from here, the branching will happen from here.
+
+00:57:43.320 --> 00:57:45.320
+Then the control will go in parallel.
+
+00:57:45.320 --> 00:57:47.320
+This is also one thing.
+
+00:57:47.320 --> 00:57:51.320
+The guardrails that you put on the application level is also an important thing.
+
+00:57:51.320 --> 00:57:54.320
+If you are using output parsers, that is one thing.
+
+00:57:54.320 --> 00:57:56.320
+What should I say about memory and context?
+
+00:57:56.320 --> 00:57:57.320
+Super important.
+
+00:57:57.320 --> 00:58:01.320
+If you are building a rag system, then there is a separate system for retrieval.
+
+00:58:01.320 --> 00:58:03.320
+You use a different embedding model.
+
+00:58:03.320 --> 00:58:05.320
+Vector databases are there.
+
+00:58:05.320 --> 00:58:08.320
+After deploying, there is a complete monitoring setup.
+
+00:58:08.320 --> 00:58:10.320
+There is a complete feedback loop.
+
+00:58:10.320 --> 00:58:14.320
+So you might understand that when you make a proper LLM based application.
+
+00:58:14.320 --> 00:58:17.320
+So there LLM is just one component.
+
+00:58:17.320 --> 00:58:21.320
+Apart from that, you have to add a lot of other things.
+
+00:58:21.320 --> 00:58:26.320
+And that is why application evals is such an important topic.
+
+00:58:26.320 --> 00:58:28.320
+It won't work only with model evaluation.
+
+00:58:28.320 --> 00:58:31.320
+With model evaluation, we are finding out how capable the model is.
+
+00:58:31.320 --> 00:58:36.320
+But the whole system that you have made around it, should also work properly.
+
+00:58:36.320 --> 00:58:38.320
+I will give you a very good analogy of this.
+
+00:58:38.320 --> 00:58:40.320
+Analogy, whatever you call it.
+
+00:58:40.320 --> 00:58:43.320
+A very good analogy is smartphones.
+
+00:58:44.320 --> 00:58:46.320
+What happens in smartphones?
+
+00:58:46.320 --> 00:58:47.320
+There is a chip.
+
+00:58:47.320 --> 00:58:50.320
+Snapdragon, MediaTek, which also has a chip.
+
+00:58:50.320 --> 00:58:53.320
+And you will see that the chip manufacturers,
+
+00:58:53.320 --> 00:58:56.320
+they release benchmarks.
+
+00:58:56.320 --> 00:58:59.320
+That our new Gen 2 has come, Gen 3 has come.
+
+00:58:59.320 --> 00:59:03.320
+So its Antutu score or whatever the scores are, it is so high.
+
+00:59:03.320 --> 00:59:07.320
+This shows us how strong our processor is.
+
+00:59:07.320 --> 00:59:10.320
+Now tell yourself that being a good processor,
+
+00:59:10.320 --> 00:59:13.320
+does it guarantee that your smartphone is good?
+
+00:59:13.320 --> 00:59:15.320
+Or other things matter?
+
+00:59:15.320 --> 00:59:16.320
+Can you tell me?
+
+00:59:16.320 --> 00:59:19.320
+Is it enough that your processor is strong,
+
+00:59:19.320 --> 00:59:22.320
+and your smartphone is assumed to be strong?
+
+00:59:22.320 --> 00:59:26.320
+Or do you need more things to make a smartphone?
+
+00:59:26.320 --> 00:59:30.320
+Obviously, to make a smartphone, you need a lot more things.
+
+00:59:30.320 --> 00:59:31.320
+Right?
+
+00:59:31.320 --> 00:59:34.320
+Your camera system, your operating system,
+
+00:59:34.320 --> 00:59:38.320
+your sound system, your graphics card.
+
+00:59:38.320 --> 00:59:40.320
+There are a lot more things.
+
+00:59:40.320 --> 00:59:45.320
+And if all of them work well, then only your smartphone is good.
+
+00:59:45.320 --> 00:59:48.320
+So since there are so many more things,
+
+00:59:48.320 --> 00:59:50.320
+battery is there, battery is also an important thing.
+
+00:59:50.320 --> 00:59:54.320
+So all these things work together, then your smartphone works well.
+
+00:59:54.320 --> 00:59:56.320
+Nothing happens if the processor is good.
+
+00:59:56.320 --> 00:59:59.320
+So all these things that you added,
+
+00:59:59.320 --> 01:00:01.320
+you will also evaluate them.
+
+01:00:01.320 --> 01:00:04.320
+If you have put a battery, then you will test the battery too.
+
+01:00:04.320 --> 01:00:06.320
+If you have put a graphics card, you will test it too.
+
+01:00:06.320 --> 01:00:08.320
+If you have put a screen, you will test it too.
+
+01:00:08.320 --> 01:00:11.320
+So the same thing applies here too.
+
+01:00:11.320 --> 01:00:15.320
+That the evaluation of LLMs is done by Frontier Labs.
+
+01:00:15.320 --> 01:00:18.320
+But the whole system that we have built on it,
+
+01:00:18.320 --> 01:00:22.320
+the responsibility of the evaluation is ours.
+
+01:00:22.320 --> 01:00:26.320
+As an AI engineer, we do that evaluation.
+
+01:00:26.320 --> 01:00:28.320
+So I hope I could make you understand.
+
+01:00:28.320 --> 01:00:31.320
+Here it is written in theory.
+
+01:00:31.320 --> 01:00:37.320
+Application evals assess the behavior and performance of an LLM-powered application,
+
+01:00:37.320 --> 01:00:42.320
+whether at the level of the entire system or a specific component within it.
+
+01:00:42.320 --> 01:00:44.320
+What do application evals do?
+
+01:00:44.320 --> 01:00:46.320
+They evaluate at the component level too.
+
+01:00:46.320 --> 01:00:48.320
+And they do it at the level of the whole system too.
+
+01:00:48.320 --> 01:00:50.320
+So if you have made a rack chart board,
+
+01:00:50.320 --> 01:00:52.320
+then you will evaluate the whole rack chart board too.
+
+01:00:52.320 --> 01:00:58.320
+How is its final response, latency, how is the token on the cost.
+
+01:00:58.320 --> 01:01:01.320
+And you will evaluate it at the component level too.
+
+01:01:01.320 --> 01:01:03.320
+Whether my retriever is working properly or not.
+
+01:01:03.320 --> 01:01:05.320
+Whether my embedding model is working properly or not.
+
+01:01:05.320 --> 01:01:07.320
+Whether my re-ranker is working properly or not.
+
+01:01:07.320 --> 01:01:08.320
+You get my idea?
+
+01:01:08.320 --> 01:01:12.320
+So here it is written, in application eval,
+
+01:01:12.320 --> 01:01:15.320
+we don't ask can the model do this.
+
+01:01:15.320 --> 01:01:17.320
+This is the work of model evaluation.
+
+01:01:17.320 --> 01:01:20.320
+Instead, we ask in application eval,
+
+01:01:20.320 --> 01:01:23.320
+whether our product will work properly or not.
+
+01:01:23.320 --> 01:01:27.320
+For example, if you are making a chart board of CampusX,
+
+01:01:27.320 --> 01:01:31.320
+then application evals will give us the answer to these questions.
+
+01:01:31.320 --> 01:01:33.320
+Whether the student's question was answered correctly.
+
+01:01:33.320 --> 01:01:35.320
+Whether the material was used properly.
+
+01:01:35.320 --> 01:01:37.320
+Was the answer faithful?
+
+01:01:37.320 --> 01:01:40.320
+Was the answer easy for the beginner?
+
+01:01:40.320 --> 01:01:42.320
+Was there any hallucination?
+
+01:01:42.320 --> 01:01:44.320
+Did we get the answer quickly or not?
+
+01:01:44.320 --> 01:01:46.320
+Is our chart board safe or not?
+
+01:01:46.320 --> 01:01:49.320
+I hope you understood.
+
+01:01:49.320 --> 01:01:53.320
+What is application eval and what is model eval?
+
+01:01:53.320 --> 01:01:59.320
+And why are we going to talk about application eval in this course?
+
+01:01:59.320 --> 01:02:01.320
+Is this entire discussion clear guys?
+
+01:02:01.320 --> 01:02:03.320
+I wanted to clear this upfront.
+
+01:02:03.320 --> 01:02:05.320
+I really hope I could do it.
+
+01:02:11.320 --> 01:02:14.320
+Going forward, when you watch a video on YouTube in the future,
+
+01:02:14.320 --> 01:02:16.320
+and it is written there, LLM evaluation,
+
+01:02:16.320 --> 01:02:20.320
+you can assume that it is teaching you application evaluation.
+
+01:02:20.320 --> 01:02:22.320
+Not model evaluation.
+
+01:02:22.320 --> 01:02:24.320
+Most likely 99% times.
+
+01:02:24.320 --> 01:02:26.320
+You have to read that.
+
+01:02:32.320 --> 01:02:34.320
+You can ask any question at this point.
+
+01:02:38.320 --> 01:02:39.320
+Okay.
+
+01:02:41.320 --> 01:02:42.320
+Fine.
+
+01:02:42.320 --> 01:02:47.320
+So, if we summarize the entire flow of this lecture,
+
+01:02:47.320 --> 01:02:51.320
+we first discussed why are we studying this topic.
+
+01:02:51.320 --> 01:02:56.320
+Then we discussed what LLM evals are and what are their types.
+
+01:02:56.320 --> 01:02:57.320
+We studied two types.
+
+01:02:57.320 --> 01:02:59.320
+Model evals and application evals.
+
+01:02:59.320 --> 01:03:03.320
+So why and what should be clear to you so far.
+
+01:03:03.320 --> 01:03:06.320
+Now we move towards how.
+
+01:03:06.320 --> 01:03:10.320
+How LLM evaluations are done.
+
+01:03:10.320 --> 01:03:12.320
+And here again there is a disclaimer.
+
+01:03:12.320 --> 01:03:14.320
+The how I will teach you,
+
+01:03:14.320 --> 01:03:20.320
+I will actually teach you from the perspective of application eval.
+
+01:03:21.320 --> 01:03:24.320
+I am not teaching from the perspective of model eval.
+
+01:03:24.320 --> 01:03:25.320
+Okay.
+
+01:03:25.320 --> 01:03:26.320
+Makes sense.
+
+01:03:26.320 --> 01:03:29.320
+Obviously because we are going to focus more on this.
+
+01:03:32.320 --> 01:03:33.320
+So come on.
+
+01:03:33.320 --> 01:03:36.320
+Now we will read a very important thing
+
+01:03:36.320 --> 01:03:38.320
+which will give you a lot of perspective.
+
+01:03:38.320 --> 01:03:43.320
+And the topic is LLM application eval workflow.
+
+01:03:43.320 --> 01:03:49.320
+How do you evaluate a typical LLM based application?
+
+01:03:49.320 --> 01:03:51.320
+We are going to read this next.
+
+01:03:51.320 --> 01:03:52.320
+Okay.
+
+01:03:55.320 --> 01:03:56.320
+Just one second.
+
+01:03:56.320 --> 01:03:57.320
+Let me drink some water.
+
+01:04:01.320 --> 01:04:03.320
+Now the class looks a little different from the previous class.
+
+01:04:03.320 --> 01:04:04.320
+Those who have done both the classes.
+
+01:04:04.320 --> 01:04:05.320
+Tell me once.
+
+01:04:07.320 --> 01:04:09.320
+Flow seems a little different in comparison to the previous class.
+
+01:04:09.320 --> 01:04:14.320
+Is it more clearer than the previous class?
+
+01:04:19.320 --> 01:04:21.320
+Actually let me tell you what happened in the last class.
+
+01:04:21.320 --> 01:04:23.320
+I will be honest.
+
+01:04:23.320 --> 01:04:27.320
+First of all, I was taking a live class after a long time.
+
+01:04:27.320 --> 01:04:29.320
+Live class is a bit challenging.
+
+01:04:29.320 --> 01:04:34.320
+Because it is difficult to teach for two hours straight.
+
+01:04:34.320 --> 01:04:35.320
+And I was doing it after a long time.
+
+01:04:35.320 --> 01:04:37.320
+Second mistake I made was that
+
+01:04:37.320 --> 01:04:43.320
+If you remember, I had put a lot of AI generated images in the last lecture.
+
+01:04:43.320 --> 01:04:45.320
+You must have seen it.
+
+01:04:45.320 --> 01:04:49.320
+The problem with AI generated images was that
+
+01:04:49.320 --> 01:04:50.320
+there was a lot of text written.
+
+01:04:50.320 --> 01:04:52.320
+And generally in my teaching style,
+
+01:04:52.320 --> 01:04:54.320
+if I see a lot of content on the screen,
+
+01:04:54.320 --> 01:04:56.320
+I can't organize my thoughts.
+
+01:04:56.320 --> 01:04:58.320
+I faced this in the last class.
+
+01:04:58.320 --> 01:05:00.320
+So because of which I felt that
+
+01:05:00.320 --> 01:05:02.320
+what is happening, there is so much text,
+
+01:05:02.320 --> 01:05:04.320
+what to teach, what not to teach.
+
+01:05:04.320 --> 01:05:06.320
+I lost track of that.
+
+01:05:06.320 --> 01:05:08.320
+Because of which,
+
+01:05:08.320 --> 01:05:12.320
+I personally felt that the class was not that great.
+
+01:05:12.320 --> 01:05:17.320
+So I tried to rectify that.
+
+01:05:17.320 --> 01:05:19.320
+First you will notice one thing.
+
+01:05:19.320 --> 01:05:23.320
+There is not much clustered information here.
+
+01:05:23.320 --> 01:05:28.320
+And I am trying to organize my thoughts on the go.
+
+01:05:28.320 --> 01:05:30.320
+And I have improved the flow too.
+
+01:05:30.320 --> 01:05:33.320
+That is why you might feel this class is better than the previous class.
+
+01:05:33.320 --> 01:05:35.320
+It might look better.
+
+01:05:35.320 --> 01:05:39.320
+Okay, let's go.
+
+01:05:43.320 --> 01:05:48.320
+Now see, the next 10-15 minutes is very important.
+
+01:05:48.320 --> 01:05:53.320
+Because it will set a tone for your entire course.
+
+01:05:53.320 --> 01:05:56.320
+So what we are going to learn is that
+
+01:05:56.320 --> 01:05:59.320
+you have an LLM based application.
+
+01:05:59.320 --> 01:06:03.320
+And you have to evaluate it.
+
+01:06:03.320 --> 01:06:07.320
+And we will move forward with the simplest possible example.
+
+01:06:07.320 --> 01:06:10.320
+I will tell you what application we have made.
+
+01:06:10.320 --> 01:06:14.320
+So we are, let's say, working for a company.
+
+01:06:14.320 --> 01:06:16.320
+We are AI engineers.
+
+01:06:16.320 --> 01:06:19.320
+And this company is Zomato.
+
+01:06:19.320 --> 01:06:27.320
+And their problem is that they get a lot of mails daily.
+
+01:06:27.320 --> 01:06:30.320
+Because it's a big company with a lot of customers.
+
+01:06:30.320 --> 01:06:37.320
+And what they want is that it is difficult to reply to these mails manually.
+
+01:06:37.320 --> 01:06:39.320
+So they want to automate the setup.
+
+01:06:39.320 --> 01:06:43.320
+So what they want is that they want a system
+
+01:06:43.320 --> 01:06:50.320
+that reads these mails and gives a classification on the basis of content.
+
+01:06:50.320 --> 01:06:57.320
+So they want to know if the customer is asking a billing related question in this mail.
+
+01:06:57.320 --> 01:07:03.320
+Or let's say, let me check what combinations are there.
+
+01:07:03.320 --> 01:07:05.320
+If the customer is asking a billing related question.
+
+01:07:05.320 --> 01:07:08.320
+Or if he has a technical problem.
+
+01:07:08.320 --> 01:07:11.320
+Or if he has a general query.
+
+01:07:11.320 --> 01:07:14.320
+I just want to get this classification done.
+
+01:07:14.320 --> 01:07:15.320
+Why do I want it done?
+
+01:07:15.320 --> 01:07:16.320
+What is the benefit of this?
+
+01:07:16.320 --> 01:07:18.320
+If there is a billing related query.
+
+01:07:18.320 --> 01:07:22.320
+Then I will directly route it to my billing team.
+
+01:07:22.320 --> 01:07:24.320
+If there is a technical query.
+
+01:07:24.320 --> 01:07:25.320
+Then I will send it to the technical team.
+
+01:07:25.320 --> 01:07:26.320
+And if there is a general query.
+
+01:07:26.320 --> 01:07:29.320
+Then I will send it to my customer support team.
+
+01:07:29.320 --> 01:07:36.320
+I don't want a person here who can manually read these mails and tag my team.
+
+01:07:36.320 --> 01:07:39.320
+I want to automate this process.
+
+01:07:39.320 --> 01:07:40.320
+Is this use case clear?
+
+01:07:40.320 --> 01:07:44.320
+Do you feel this is a big use case for companies like Zomato
+
+01:07:44.320 --> 01:07:47.320
+where millions of mails can come in a day?
+
+01:07:47.320 --> 01:07:49.320
+Does it make sense?
+
+01:07:49.320 --> 01:07:50.320
+Okay.
+
+01:07:50.320 --> 01:07:52.320
+So what did we do?
+
+01:07:52.320 --> 01:07:55.320
+We made a very simple system.
+
+01:07:55.320 --> 01:08:01.320
+The system is that we made an LLM sit.
+
+01:08:01.320 --> 01:08:07.320
+We made an LLM sit.
+
+01:08:07.320 --> 01:08:09.320
+And gave it a prompt.
+
+01:08:09.320 --> 01:08:14.320
+So we got an email from the customer agent.
+
+01:08:14.320 --> 01:08:18.319
+Who will read the email and decide where to route it.
+
+01:08:18.319 --> 01:08:20.319
+So here we are getting the email of the user.
+
+01:08:20.319 --> 01:08:23.319
+And from here it is routing.
+
+01:08:23.319 --> 01:08:25.319
+It is a very simple LLM application.
+
+01:08:25.319 --> 01:08:27.319
+You can make it in 5-10 minutes.
+
+01:08:27.319 --> 01:08:31.319
+But now comes the real question.
+
+01:08:31.319 --> 01:08:36.319
+Should we deploy it directly?
+
+01:08:36.319 --> 01:08:37.319
+No.
+
+01:08:37.319 --> 01:08:38.319
+We have discussed this so far.
+
+01:08:38.319 --> 01:08:40.319
+We don't want to deploy it.
+
+01:08:40.319 --> 01:08:43.319
+Before that we have to evaluate this system.
+
+01:08:43.319 --> 01:08:45.319
+We have to evaluate the system.
+
+01:08:45.319 --> 01:08:46.319
+Okay.
+
+01:08:46.319 --> 01:08:47.319
+How to evaluate?
+
+01:08:47.319 --> 01:08:49.319
+I will tell you that flow.
+
+01:08:49.319 --> 01:08:51.319
+And the flow that I am going to tell you now.
+
+01:08:51.319 --> 01:08:54.319
+You will see this flow in this course again and again.
+
+01:08:54.319 --> 01:08:55.319
+This is a very simple application.
+
+01:08:55.319 --> 01:08:59.319
+You have to use this workflow for a very complex agent.
+
+01:08:59.319 --> 01:09:00.319
+Okay.
+
+01:09:00.319 --> 01:09:01.319
+What is the workflow?
+
+01:09:01.319 --> 01:09:02.319
+Let's discuss.
+
+01:09:02.319 --> 01:09:05.319
+The first thing you have to do in the workflow.
+
+01:09:05.319 --> 01:09:09.319
+You have to define the task and target.
+
+01:09:09.319 --> 01:09:13.319
+What do you want to evaluate?
+
+01:09:13.319 --> 01:09:15.319
+You have to define this first.
+
+01:09:15.319 --> 01:09:24.319
+In this case, we have to evaluate this system or this workflow.
+
+01:09:24.319 --> 01:09:25.319
+Okay.
+
+01:09:25.319 --> 01:09:28.319
+And what is the task of evaluation?
+
+01:09:28.319 --> 01:09:31.319
+It is a simple classification task.
+
+01:09:31.319 --> 01:09:37.319
+We have to check whether this system is able to classify properly or not.
+
+01:09:37.319 --> 01:09:40.319
+So this is our step number one.
+
+01:09:40.319 --> 01:09:47.319
+In step number two, you define a success criteria for your evaluation.
+
+01:09:47.319 --> 01:09:52.319
+Can you tell me what is the success criteria for this particular use case?
+
+01:09:52.319 --> 01:09:56.320
+How would we know that this system is working properly?
+
+01:09:56.320 --> 01:09:59.320
+Think about it.
+
+01:09:59.320 --> 01:10:04.320
+It is a simple system whose task is to classify.
+
+01:10:04.320 --> 01:10:09.320
+So what matrix can define the success of this system?
+
+01:10:09.320 --> 01:10:10.320
+Absolutely correct.
+
+01:10:10.320 --> 01:10:12.320
+DP sir was absolutely correct.
+
+01:10:12.320 --> 01:10:13.320
+The answer is accuracy.
+
+01:10:13.320 --> 01:10:16.320
+It is simple.
+
+01:10:16.320 --> 01:10:22.320
+If it gets 100 queries, if it routs 90 of these queries to the right place,
+
+01:10:22.320 --> 01:10:23.320
+then what would you say?
+
+01:10:23.320 --> 01:10:27.320
+That this system is 90% accurate.
+
+01:10:27.320 --> 01:10:29.320
+This is what happened.
+
+01:10:29.320 --> 01:10:36.320
+So in this particular system, your success criteria is classification.
+
+01:10:36.320 --> 01:10:44.320
+And the metric on which we will find out whether the classification is working properly or not is accuracy.
+
+01:10:44.320 --> 01:10:46.320
+Is this discussion clear?
+
+01:10:46.320 --> 01:10:47.320
+There is no confusion.
+
+01:10:47.320 --> 01:10:48.320
+It is simple.
+
+01:10:48.320 --> 01:10:52.320
+Now comes the next and most important step.
+
+01:10:52.320 --> 01:10:56.320
+Now what you have to do is you have to build a data set.
+
+01:10:56.320 --> 01:11:01.320
+So what you do is you prepare a data set like this.
+
+01:11:01.320 --> 01:11:08.320
+Where on one side is your message or your mail content.
+
+01:11:08.320 --> 01:11:14.320
+And on the other side, you have manually told yourself what type it is.
+
+01:11:14.320 --> 01:11:18.320
+For example, if your mail is this, my card was charged twice.
+
+01:11:18.320 --> 01:11:20.320
+So this is a billing issue.
+
+01:11:20.320 --> 01:11:22.320
+The app crashes on login.
+
+01:11:22.320 --> 01:11:24.320
+This is a technical issue.
+
+01:11:24.320 --> 01:11:26.320
+What are your hours?
+
+01:11:26.320 --> 01:11:28.320
+So this is a general issue.
+
+01:11:28.320 --> 01:11:30.320
+So here I have made only three rows of data.
+
+01:11:30.320 --> 01:11:37.320
+Generally, you will create a data of 50 to 500 rows.
+
+01:11:37.320 --> 01:11:39.320
+How will this data be created?
+
+01:11:39.320 --> 01:11:43.320
+The best thing is that you bring your actual data.
+
+01:11:43.320 --> 01:11:50.320
+So if this is Zomato, then you bring your past chats and create a data set from it.
+
+01:11:50.320 --> 01:11:53.320
+And you also do this labeling manually.
+
+01:11:53.320 --> 01:11:56.320
+You make someone sit and get this labeled.
+
+01:11:56.320 --> 01:11:58.320
+So this is how you create a data set.
+
+01:11:58.320 --> 01:12:03.320
+By the way, this is called golden data set in the language of LLMEvals.
+
+01:12:03.320 --> 01:12:08.320
+So what we are doing is in this third step, we are building a data set.
+
+01:12:08.320 --> 01:12:11.320
+Which will evaluate for us.
+
+01:12:11.320 --> 01:12:12.320
+Okay.
+
+01:12:12.320 --> 01:12:17.320
+After that, next you define an evaluation method.
+
+01:12:17.320 --> 01:12:22.320
+Basically, you decide who will evaluate.
+
+01:12:22.320 --> 01:12:24.320
+There are two or three options.
+
+01:12:24.320 --> 01:12:27.320
+Either it will be done in an automated way.
+
+01:12:27.320 --> 01:12:30.320
+Or someone will do it humanly.
+
+01:12:30.320 --> 01:12:36.320
+Or you can use another LLMEval to perform the evaluation.
+
+01:12:36.320 --> 01:12:39.320
+I hope you are understanding.
+
+01:12:39.320 --> 01:12:42.320
+What is the simple meaning of performing the evaluation?
+
+01:12:42.320 --> 01:12:45.320
+That your system that you made.
+
+01:12:46.320 --> 01:12:53.320
+What you will do is you will send this data set to that system.
+
+01:12:53.320 --> 01:12:55.320
+Right?
+
+01:12:55.320 --> 01:12:59.320
+Now your system will give an answer for every message.
+
+01:12:59.320 --> 01:13:03.320
+Let's say for the first one, it said billing.
+
+01:13:03.320 --> 01:13:06.320
+For the second one, it said general.
+
+01:13:06.320 --> 01:13:10.320
+And for the third one, it said general.
+
+01:13:10.320 --> 01:13:13.320
+So now what will you do?
+
+01:13:13.320 --> 01:13:16.320
+You will compare these two.
+
+01:13:16.320 --> 01:13:18.320
+And what will you calculate?
+
+01:13:18.320 --> 01:13:21.320
+What is the accuracy of this system?
+
+01:13:21.320 --> 01:13:25.320
+But who is giving you this accuracy by calculating?
+
+01:13:25.320 --> 01:13:27.320
+Tell me quickly in the chart.
+
+01:13:27.320 --> 01:13:29.320
+Will it be automated?
+
+01:13:29.320 --> 01:13:30.320
+Can we do it through code?
+
+01:13:30.320 --> 01:13:34.320
+Or we should make a human do this work.
+
+01:13:34.320 --> 01:13:36.320
+Or we should make an LLME do this work.
+
+01:13:36.320 --> 01:13:37.320
+This is the question.
+
+01:13:37.320 --> 01:13:38.320
+Think and tell me.
+
+01:13:38.320 --> 01:13:41.320
+This system has given these answers.
+
+01:13:41.320 --> 01:13:44.320
+Now our next goal is to evaluate.
+
+01:13:44.320 --> 01:13:45.320
+What do we have to evaluate?
+
+01:13:45.320 --> 01:13:46.320
+We have to get the accuracy.
+
+01:13:46.320 --> 01:13:47.320
+So tell me.
+
+01:13:47.320 --> 01:13:51.320
+Will you make it done by a human, an LLME or a Python code?
+
+01:13:51.320 --> 01:13:53.320
+It is simple.
+
+01:13:53.320 --> 01:13:55.320
+In this case, why will you make a human do it?
+
+01:13:55.320 --> 01:13:57.320
+It will have to pay a salary.
+
+01:13:57.320 --> 01:13:59.320
+You don't have to get it to an LLME.
+
+01:13:59.320 --> 01:14:01.320
+You simply write a Python code.
+
+01:14:01.320 --> 01:14:04.320
+Which will check the accuracy score.
+
+01:14:05.320 --> 01:14:13.320
+So in this case, your eval method is automated.
+
+01:14:13.320 --> 01:14:15.320
+Because this is a simple LLME application.
+
+01:14:15.320 --> 01:14:21.320
+Imagine if this was a chatbot.
+
+01:14:21.320 --> 01:14:27.320
+So here in expected, there would be a long textual answer.
+
+01:14:27.320 --> 01:14:30.320
+And here, LLME would have a long textual answer.
+
+01:14:30.320 --> 01:14:33.320
+So now, who do you compare these two texts with?
+
+01:14:33.320 --> 01:14:34.320
+Think and tell me.
+
+01:14:34.320 --> 01:14:37.320
+Can you compare two paragraphs automatically?
+
+01:14:37.320 --> 01:14:39.320
+Is it correct or not?
+
+01:14:39.320 --> 01:14:40.320
+Is it possible?
+
+01:14:40.320 --> 01:14:42.320
+You have to compare two paragraphs.
+
+01:14:42.320 --> 01:14:44.320
+Is it possible that you do it through code?
+
+01:14:44.320 --> 01:14:45.320
+It is not possible.
+
+01:14:45.320 --> 01:14:46.320
+Right?
+
+01:14:46.320 --> 01:14:48.320
+One is correct, the other is wrong.
+
+01:14:48.320 --> 01:14:50.320
+It is very difficult to find through code.
+
+01:14:50.320 --> 01:14:52.320
+Because the semantic meaning is the same.
+
+01:14:52.320 --> 01:14:53.320
+You have to find it.
+
+01:14:53.320 --> 01:14:55.320
+You can make a human do it.
+
+01:14:55.320 --> 01:14:56.320
+But human would be costly.
+
+01:14:56.320 --> 01:14:57.320
+Right?
+
+01:14:57.320 --> 01:15:01.320
+If I have to do a lot of testing, then I will have to pay salary to the human.
+
+01:15:01.320 --> 01:15:03.320
+Third option is the middle thing.
+
+01:15:03.320 --> 01:15:04.320
+LLME.
+
+01:15:04.320 --> 01:15:05.320
+You can do this testing through LLME.
+
+01:15:05.320 --> 01:15:06.320
+Did you get my point?
+
+01:15:06.320 --> 01:15:10.320
+At this point, you should have an evaluation method.
+
+01:15:10.320 --> 01:15:12.320
+It can be automated.
+
+01:15:12.320 --> 01:15:14.320
+It can be a human.
+
+01:15:14.320 --> 01:15:15.320
+Or it can be LLME.
+
+01:15:15.320 --> 01:15:17.320
+Is it clear till this point?
+
+01:15:17.320 --> 01:15:20.320
+Let's come back down.
+
+01:15:20.320 --> 01:15:23.320
+First of all, we defined the task and the target.
+
+01:15:23.320 --> 01:15:24.320
+What was the target?
+
+01:15:24.320 --> 01:15:25.320
+Our entire system.
+
+01:15:25.320 --> 01:15:26.320
+The entire workflow.
+
+01:15:26.320 --> 01:15:28.320
+And what was the task?
+
+01:15:28.320 --> 01:15:32.320
+We have to evaluate this system whether it is working properly or not.
+
+01:15:32.320 --> 01:15:34.320
+What was the success criteria?
+
+01:15:34.320 --> 01:15:35.320
+Classification.
+
+01:15:35.320 --> 01:15:37.320
+And what was the metric?
+
+01:15:37.320 --> 01:15:39.320
+Accuracy score.
+
+01:15:39.320 --> 01:15:41.320
+We built the dataset.
+
+01:15:41.320 --> 01:15:44.320
+We built the dataset of 50-100 rows.
+
+01:15:44.320 --> 01:15:48.320
+And now we have defined that when my system will give the answer,
+
+01:15:48.320 --> 01:15:50.320
+then who will calculate the accuracy?
+
+01:15:50.320 --> 01:15:52.320
+It will be done automatically.
+
+01:15:52.320 --> 01:15:53.320
+Okay?
+
+01:15:53.320 --> 01:15:54.320
+Now comes the next step.
+
+01:15:54.320 --> 01:15:56.320
+Where you basically run the model.
+
+01:15:56.320 --> 01:15:58.320
+What does run the model mean?
+
+01:15:58.320 --> 01:16:02.320
+You will send your dataset to the system you have built.
+
+01:16:02.320 --> 01:16:06.320
+And your system will generate answers.
+
+01:16:06.320 --> 01:16:07.320
+This is the step.
+
+01:16:07.320 --> 01:16:10.320
+After that, what do you do in the next step?
+
+01:16:10.320 --> 01:16:12.320
+You evaluate the results.
+
+01:16:12.320 --> 01:16:14.320
+Basically, you have a Python code
+
+01:16:14.320 --> 01:16:19.320
+which is giving you the accuracy score in this step.
+
+01:16:19.320 --> 01:16:22.320
+Suppose your accuracy is 80%.
+
+01:16:22.320 --> 01:16:27.320
+Let's say you sent 100 rows.
+
+01:16:27.320 --> 01:16:30.320
+Out of 100, 80 rows were classified correctly.
+
+01:16:30.320 --> 01:16:31.320
+And 20 rows were wrong.
+
+01:16:31.320 --> 01:16:33.320
+Now comes the next step.
+
+01:16:33.320 --> 01:16:36.320
+Where you analyze the results.
+
+01:16:36.320 --> 01:16:41.320
+Which basically means you try to think where the mistake is happening.
+
+01:16:41.320 --> 01:16:42.320
+Think and tell me.
+
+01:16:42.320 --> 01:16:47.320
+If you are making a system whose work is to read the content of the mail and classify it.
+
+01:16:47.320 --> 01:16:50.320
+Whether it is billing, technical or general.
+
+01:16:50.320 --> 01:16:52.320
+And if there are mistakes in it.
+
+01:16:52.320 --> 01:16:55.320
+Then where is the scope of improvement?
+
+01:16:55.320 --> 01:16:57.320
+What can you improve?
+
+01:16:57.320 --> 01:16:59.320
+Where can there be mistakes?
+
+01:16:59.320 --> 01:17:02.320
+Do you understand my question?
+
+01:17:02.320 --> 01:17:06.320
+My question is that if you are building a system
+
+01:17:06.320 --> 01:17:09.320
+whose simple work is to read the text and classify it.
+
+01:17:09.320 --> 01:17:10.320
+And it is doing the work wrong.
+
+01:17:10.320 --> 01:17:11.320
+80% is correct.
+
+01:17:11.320 --> 01:17:13.320
+20% is making a mistake.
+
+01:17:13.320 --> 01:17:16.320
+So what is the thing that I will change?
+
+01:17:16.320 --> 01:17:18.320
+What can I improve?
+
+01:17:18.320 --> 01:17:20.320
+You can fix multiple things.
+
+01:17:20.320 --> 01:17:21.320
+Let me tell you.
+
+01:17:21.320 --> 01:17:24.320
+First of all, you can fix your system prompt.
+
+01:17:24.320 --> 01:17:30.320
+Maybe your system prompt is defined in such a way that it is confused between billing and technical.
+
+01:17:30.320 --> 01:17:32.320
+That could be one possible option.
+
+01:17:32.320 --> 01:17:34.320
+Second possible option is that the model you are using.
+
+01:17:34.320 --> 01:17:36.320
+The LLM you are using.
+
+01:17:36.320 --> 01:17:38.320
+It is not able to do that.
+
+01:17:38.320 --> 01:17:41.320
+You have taken a low parameter model.
+
+01:17:41.320 --> 01:17:42.320
+You have taken an open source model.
+
+01:17:42.320 --> 01:17:44.320
+And it is not able to do that.
+
+01:17:44.320 --> 01:17:46.320
+So there can be any such reasons.
+
+01:17:46.320 --> 01:17:48.320
+There is not much scope of improvement here.
+
+01:17:48.320 --> 01:17:50.320
+But let's say the system is prompt.
+
+01:17:50.320 --> 01:17:52.320
+Changing the model is one more thing.
+
+01:17:52.320 --> 01:17:54.320
+Whatever it is.
+
+01:17:54.320 --> 01:17:57.320
+What you will do is you will analyze your system.
+
+01:17:57.320 --> 01:17:59.320
+You have the result of your evaluation.
+
+01:17:59.320 --> 01:18:00.320
+80% accuracy.
+
+01:18:00.320 --> 01:18:03.320
+Your manager said improve what you are doing.
+
+01:18:03.320 --> 01:18:05.320
+So now you are going and tweaking the prompt.
+
+01:18:05.320 --> 01:18:07.320
+Or changing the model.
+
+01:18:07.320 --> 01:18:10.320
+And what you do is basically improving your system.
+
+01:18:10.320 --> 01:18:11.320
+There should not be a model here.
+
+01:18:11.320 --> 01:18:12.320
+There should be a system here.
+
+01:18:12.320 --> 01:18:14.320
+You try to improve the system.
+
+01:18:14.320 --> 01:18:16.320
+And just after improving the system.
+
+01:18:16.320 --> 01:18:18.320
+What is the next step?
+
+01:18:18.320 --> 01:18:21.320
+You trigger the evaluation again.
+
+01:18:21.320 --> 01:18:23.320
+I hope everyone understood what I said.
+
+01:18:23.320 --> 01:18:26.320
+When I said earlier that LLM evals are repeatable.
+
+01:18:26.320 --> 01:18:28.320
+So this is what you are doing.
+
+01:18:28.320 --> 01:18:30.320
+You have a golden data set.
+
+01:18:30.320 --> 01:18:32.320
+What are you doing again and again?
+
+01:18:32.320 --> 01:18:33.320
+You are changing your system.
+
+01:18:33.320 --> 01:18:34.320
+This time you changed the prompt.
+
+01:18:34.320 --> 01:18:36.320
+And ran it on the data set again.
+
+01:18:36.320 --> 01:18:38.320
+So you got 90% accuracy.
+
+01:18:38.320 --> 01:18:40.320
+Your manager said improve it more.
+
+01:18:40.320 --> 01:18:42.320
+Now this time you went and said move it.
+
+01:18:42.320 --> 01:18:43.320
+You said move it.
+
+01:18:43.320 --> 01:18:44.320
+Don't think too much.
+
+01:18:44.320 --> 01:18:45.320
+Change the LLM.
+
+01:18:45.320 --> 01:18:47.320
+Let's put a heavy LLM.
+
+01:18:47.320 --> 01:18:48.320
+You put a heavy LLM.
+
+01:18:48.320 --> 01:18:50.320
+Run the evaluation again on the same data set.
+
+01:18:50.320 --> 01:18:52.320
+You got 95% accuracy.
+
+01:18:52.320 --> 01:18:53.320
+Now your manager is happy.
+
+01:18:53.320 --> 01:18:55.320
+So now you will close it.
+
+01:18:55.320 --> 01:18:57.320
+So basically you iterate in this step.
+
+01:18:57.320 --> 01:18:59.320
+The data set is ready.
+
+01:18:59.320 --> 01:19:00.320
+You took the model.
+
+01:19:00.320 --> 01:19:01.320
+Run it on the data set.
+
+01:19:01.320 --> 01:19:02.320
+Results came.
+
+01:19:02.320 --> 01:19:03.320
+You evaluated it.
+
+01:19:03.320 --> 01:19:04.320
+Analyzed it.
+
+01:19:04.320 --> 01:19:05.320
+Improved it.
+
+01:19:05.320 --> 01:19:07.320
+You kept doing this in the loop.
+
+01:19:07.320 --> 01:19:10.320
+Eventually you reach a place where you feel that.
+
+01:19:10.320 --> 01:19:12.320
+My system is worth deploying.
+
+01:19:12.320 --> 01:19:14.320
+Now you can deploy it.
+
+01:19:14.320 --> 01:19:16.320
+So then what you do is.
+
+01:19:16.320 --> 01:19:18.320
+You actually go on and deploy.
+
+01:19:18.320 --> 01:19:20.320
+Your system online.
+
+01:19:20.320 --> 01:19:22.320
+But even after deploying.
+
+01:19:22.320 --> 01:19:23.320
+Your work doesn't end.
+
+01:19:23.320 --> 01:19:25.320
+What happens there?
+
+01:19:25.320 --> 01:19:27.320
+You start monitoring.
+
+01:19:27.320 --> 01:19:28.320
+Without monitoring.
+
+01:19:28.320 --> 01:19:30.320
+The system can fail online.
+
+01:19:30.320 --> 01:19:32.320
+So you consistently monitor it.
+
+01:19:32.320 --> 01:19:34.320
+And in monitoring you have to see.
+
+01:19:34.320 --> 01:19:36.320
+Are there failures in production or not?
+
+01:19:36.320 --> 01:19:38.320
+Your system was 95% accurate.
+
+01:19:38.320 --> 01:19:41.320
+It was 95% accurate on your test data set.
+
+01:19:41.320 --> 01:19:43.320
+But when it got new data from a customer.
+
+01:19:43.320 --> 01:19:45.320
+Then it started making mistakes there.
+
+01:19:45.320 --> 01:19:47.320
+So now what you do here.
+
+01:19:47.320 --> 01:19:48.320
+An important step is.
+
+01:19:48.320 --> 01:19:50.320
+That the failures in your production.
+
+01:19:50.320 --> 01:19:51.320
+A particular mail came.
+
+01:19:51.320 --> 01:19:52.320
+It should have been called billing.
+
+01:19:52.320 --> 01:19:53.320
+But it was called technical.
+
+01:19:53.320 --> 01:19:54.320
+My mail.
+
+01:19:54.320 --> 01:19:55.320
+My model.
+
+01:19:55.320 --> 01:19:56.320
+So what I will do is.
+
+01:19:56.320 --> 01:19:57.320
+That particular instance.
+
+01:19:57.320 --> 01:19:59.320
+I will pick up the content of that mail.
+
+01:19:59.320 --> 01:20:01.320
+And I will go and add it.
+
+01:20:01.320 --> 01:20:03.320
+In my data set.
+
+01:20:03.320 --> 01:20:05.320
+In my golden data set.
+
+01:20:05.320 --> 01:20:07.320
+And then.
+
+01:20:07.320 --> 01:20:08.320
+Then.
+
+01:20:08.320 --> 01:20:10.320
+I will restart this whole step.
+
+01:20:10.320 --> 01:20:12.320
+I will restart this whole step.
+
+01:20:12.320 --> 01:20:14.320
+So what happens is.
+
+01:20:14.320 --> 01:20:16.320
+The production mistakes.
+
+01:20:16.320 --> 01:20:18.320
+The failures in production.
+
+01:20:18.320 --> 01:20:20.320
+Where do you put them?
+
+01:20:20.320 --> 01:20:22.320
+In your data set.
+
+01:20:22.320 --> 01:20:24.320
+So this way your golden data set.
+
+01:20:24.320 --> 01:20:26.320
+Gets richer.
+
+01:20:26.320 --> 01:20:27.320
+And on the golden data set.
+
+01:20:27.320 --> 01:20:29.320
+You keep improving your model.
+
+01:20:29.320 --> 01:20:30.320
+And keep deploying.
+
+01:20:30.320 --> 01:20:31.320
+So basically this is a.
+
+01:20:31.320 --> 01:20:33.320
+Proper big loop.
+
+01:20:33.320 --> 01:20:35.320
+In which the whole evaluation.
+
+01:20:35.320 --> 01:20:36.320
+Consistently works.
+
+01:20:36.320 --> 01:20:38.320
+I have given a very simple example.
+
+01:20:38.320 --> 01:20:40.320
+But this same flow.
+
+01:20:40.320 --> 01:20:41.320
+You will see.
+
+01:20:41.320 --> 01:20:42.320
+It applies on the racks.
+
+01:20:42.320 --> 01:20:43.320
+This same flow.
+
+01:20:43.320 --> 01:20:45.320
+It applies on the agents.
+
+01:20:46.320 --> 01:20:47.320
+Is it clear?
+
+01:20:47.320 --> 01:20:48.320
+The whole flow.
+
+01:20:48.320 --> 01:20:50.320
+Define task and target.
+
+01:20:50.320 --> 01:20:52.320
+Define a success criteria.
+
+01:20:52.320 --> 01:20:54.320
+Build a data set.
+
+01:20:54.320 --> 01:20:56.320
+Define an evaluation method.
+
+01:20:56.320 --> 01:20:57.320
+Run the model.
+
+01:20:57.320 --> 01:20:58.320
+Evaluate the results.
+
+01:20:58.320 --> 01:21:00.320
+Analyze the results.
+
+01:21:00.320 --> 01:21:01.320
+Improve the model.
+
+01:21:01.320 --> 01:21:02.320
+Iterate when you are satisfied.
+
+01:21:02.320 --> 01:21:03.320
+Deploy.
+
+01:21:03.320 --> 01:21:04.320
+Monitor.
+
+01:21:04.320 --> 01:21:05.320
+There is a mistake.
+
+01:21:05.320 --> 01:21:07.320
+The mistake is on the data set.
+
+01:21:07.320 --> 01:21:08.320
+Make it part of the data set.
+
+01:21:08.320 --> 01:21:10.320
+Evaluate again.
+
+01:21:10.320 --> 01:21:12.320
+And you keep doing it forever.
+
+01:21:12.320 --> 01:21:14.320
+Till your system is in deployment.
+
+01:21:14.320 --> 01:21:16.320
+You keep doing this work.
+
+01:21:16.320 --> 01:21:17.320
+And that is how.
+
+01:21:17.320 --> 01:21:19.320
+You build reliable.
+
+01:21:19.320 --> 01:21:20.320
+LLM based applications.
+
+01:21:20.320 --> 01:21:22.320
+Is this explanation clear to you?
+
+01:21:26.320 --> 01:21:27.320
+It got a little clear.
+
+01:21:27.320 --> 01:21:29.320
+Whatever we discussed.
+
+01:21:29.320 --> 01:21:30.320
+In what.
+
+01:21:30.320 --> 01:21:31.320
+Is it making more sense now.
+
+01:21:31.320 --> 01:21:32.320
+With how.
+
+01:21:32.320 --> 01:21:34.320
+Coming into the picture.
+
+01:21:35.320 --> 01:21:36.320
+Interesting.
+
+01:21:36.320 --> 01:21:38.320
+Was it fun?
+
+01:21:38.320 --> 01:21:39.320
+Fine.
+
+01:21:39.320 --> 01:21:41.320
+Better than the last class.
+
+01:21:47.320 --> 01:21:49.320
+Who will decide whether the output is wrong.
+
+01:21:49.320 --> 01:21:51.320
+During the monitoring phase.
+
+01:21:51.320 --> 01:21:52.320
+Good question.
+
+01:21:52.320 --> 01:21:53.320
+Actually.
+
+01:21:53.320 --> 01:21:55.320
+It will keep on raising.
+
+01:21:55.320 --> 01:21:56.320
+If.
+
+01:21:56.320 --> 01:21:57.320
+The output is wrong.
+
+01:21:57.320 --> 01:21:59.320
+During the monitoring phase.
+
+01:21:59.320 --> 01:22:00.320
+Good question.
+
+01:22:00.320 --> 01:22:01.320
+Actually.
+
+01:22:01.320 --> 01:22:02.320
+It will keep on raising.
+
+01:22:02.320 --> 01:22:03.320
+If.
+
+01:22:03.320 --> 01:22:04.320
+Suppose I am a customer.
+
+01:22:04.320 --> 01:22:05.320
+I.
+
+01:22:05.320 --> 01:22:06.320
+I.
+
+01:22:06.320 --> 01:22:07.320
+Did an email.
+
+01:22:07.320 --> 01:22:08.320
+And.
+
+01:22:08.320 --> 01:22:10.320
+Essentially it was a billing issue.
+
+01:22:10.320 --> 01:22:12.320
+But I was redirected to the technical team.
+
+01:22:12.320 --> 01:22:14.320
+The technical team followed up.
+
+01:22:14.320 --> 01:22:16.320
+So I told the technical team.
+
+01:22:16.320 --> 01:22:17.320
+I don't care about you.
+
+01:22:17.320 --> 01:22:18.320
+I care about billing.
+
+01:22:18.320 --> 01:22:19.320
+So here.
+
+01:22:19.320 --> 01:22:20.320
+A process will be set up.
+
+01:22:20.320 --> 01:22:22.320
+That the technical team will flag this case.
+
+01:22:22.320 --> 01:22:24.320
+That we were sent wrong information.
+
+01:22:24.320 --> 01:22:26.320
+So that will keep on adding in the data set.
+
+01:22:26.320 --> 01:22:27.320
+So that.
+
+01:22:27.320 --> 01:22:29.320
+A monitoring system will be in place there.
+
+01:22:29.320 --> 01:22:30.320
+And.
+
+01:22:30.320 --> 01:22:31.320
+The data will be sent.
+
+01:22:31.320 --> 01:22:32.320
+So.
+
+01:22:32.320 --> 01:22:34.320
+A monitoring system will be in place there.
+
+01:22:36.320 --> 01:22:37.320
+Is it clear?
+
+01:22:41.320 --> 01:22:42.320
+Also.
+
+01:22:42.320 --> 01:22:44.320
+If we use an LLM to evaluate.
+
+01:22:44.320 --> 01:22:47.320
+How are we sure that the LLM is doing a good job in evaluation.
+
+01:22:47.320 --> 01:22:49.320
+That is not today's topic.
+
+01:22:49.320 --> 01:22:51.320
+Today I just wanted to explain.
+
+01:22:51.320 --> 01:22:52.320
+That.
+
+01:22:52.320 --> 01:22:54.320
+Different evaluation methods can be there.
+
+01:22:54.320 --> 01:22:55.320
+It can be automated.
+
+01:22:55.320 --> 01:22:56.320
+It can be LLM.
+
+01:22:56.320 --> 01:22:57.320
+It can be human.
+
+01:22:57.320 --> 01:22:59.320
+Is LLM reliable or not.
+
+01:22:59.320 --> 01:23:00.320
+That.
+
+01:23:00.320 --> 01:23:01.320
+Is the next topic.
+
+01:23:01.320 --> 01:23:02.320
+We will discuss.
+
+01:23:02.320 --> 01:23:03.320
+In fact.
+
+01:23:03.320 --> 01:23:04.320
+We have a whole session.
+
+01:23:04.320 --> 01:23:06.320
+It is a topic called LLM as a judge.
+
+01:23:06.320 --> 01:23:08.320
+Backbone of this course.
+
+01:23:08.320 --> 01:23:10.320
+We will discuss in detail there.
+
+01:23:15.320 --> 01:23:16.320
+If you have any other questions.
+
+01:23:16.320 --> 01:23:17.320
+Ask guys.
+
+01:23:17.320 --> 01:23:18.320
+Aman is asking.
+
+01:23:18.320 --> 01:23:20.320
+Will the golden data set also change in this.
+
+01:23:20.320 --> 01:23:22.320
+Because of the data drift in.
+
+01:23:22.320 --> 01:23:24.320
+Long term deployment.
+
+01:23:24.320 --> 01:23:26.320
+Or we can keep it same throughout as its classification.
+
+01:23:26.320 --> 01:23:27.320
+Assuming no.
+
+01:23:27.320 --> 01:23:28.320
+No no.
+
+01:23:28.320 --> 01:23:30.320
+Drift always comes in the system.
+
+01:23:30.320 --> 01:23:32.320
+You can't assume that forever.
+
+01:23:32.320 --> 01:23:34.320
+Your same data set will give you.
+
+01:23:34.320 --> 01:23:35.320
+A golden data set.
+
+01:23:35.320 --> 01:23:36.320
+And.
+
+01:23:36.320 --> 01:23:37.320
+A golden data set.
+
+01:23:37.320 --> 01:23:38.320
+And.
+
+01:23:38.320 --> 01:23:39.320
+A golden data set.
+
+01:23:39.320 --> 01:23:40.320
+And.
+
+01:23:40.320 --> 01:23:41.320
+A golden data set.
+
+01:23:41.320 --> 01:23:42.320
+And.
+
+01:23:42.320 --> 01:23:43.320
+A golden data set.
+
+01:23:43.320 --> 01:23:44.320
+And.
+
+01:23:44.320 --> 01:23:45.320
+A golden data set.
+
+01:23:45.320 --> 01:23:46.320
+And.
+
+01:23:46.320 --> 01:23:47.320
+A golden data set.
+
+01:23:47.320 --> 01:23:49.320
+Will give you relevant results.
+
+01:23:49.320 --> 01:23:50.320
+So.
+
+01:23:50.320 --> 01:23:51.320
+Drift is always captured.
+
+01:23:51.320 --> 01:23:52.320
+In fact.
+
+01:23:52.320 --> 01:23:54.320
+Drift is also evaluated.
+
+01:23:54.320 --> 01:23:56.320
+That is also an evaluation part.
+
+01:23:56.320 --> 01:23:57.320
+So yeah.
+
+01:23:57.320 --> 01:23:58.320
+Its answer is.
+
+01:23:58.320 --> 01:24:00.320
+Drift can come in any kind of system.
+
+01:24:02.320 --> 01:24:04.320
+Do we have some rules to follow.
+
+01:24:04.320 --> 01:24:06.320
+For creating golden data sets.
+
+01:24:06.320 --> 01:24:07.320
+Or different use cases.
+
+01:24:07.320 --> 01:24:08.320
+Or Rahul.
+
+01:24:08.320 --> 01:24:09.320
+This.
+
+01:24:09.320 --> 01:24:11.320
+Use case to use case varies.
+
+01:24:11.320 --> 01:24:12.320
+What you are making.
+
+01:24:12.320 --> 01:24:13.320
+On the basis of that.
+
+01:24:13.320 --> 01:24:15.320
+Your golden data set will be created.
+
+01:24:15.320 --> 01:24:17.320
+There are no hard and fast rules.
+
+01:24:17.320 --> 01:24:19.320
+But there are guidelines.
+
+01:24:19.320 --> 01:24:20.320
+So our.
+
+01:24:20.320 --> 01:24:21.320
+Our third.
+
+01:24:21.320 --> 01:24:22.320
+Fourth session.
+
+01:24:22.320 --> 01:24:24.320
+Is on this topic.
+
+01:24:24.320 --> 01:24:26.320
+How do you create golden data sets.
+
+01:24:26.320 --> 01:24:28.320
+So we will learn that.
+
+01:24:28.320 --> 01:24:30.320
+According to some famous applications.
+
+01:24:30.320 --> 01:24:31.320
+Like RAG.
+
+01:24:31.320 --> 01:24:32.320
+Or Agent.
+
+01:24:32.320 --> 01:24:33.320
+We will learn according to that.
+
+01:24:33.320 --> 01:24:34.320
+Don't worry.
+
+01:24:34.320 --> 01:24:36.320
+Can we use some other classification metric.
+
+01:24:36.320 --> 01:24:38.320
+Or accuracy only in this case.
+
+01:24:38.320 --> 01:24:39.320
+No pream.
+
+01:24:39.320 --> 01:24:40.320
+It depends.
+
+01:24:40.320 --> 01:24:41.320
+It can also be.
+
+01:24:41.320 --> 01:24:43.320
+If it comes with a balanced or imbalanced thing.
+
+01:24:43.320 --> 01:24:44.320
+You never know.
+
+01:24:44.320 --> 01:24:46.320
+Precision recall might come into the picture.
+
+01:24:46.320 --> 01:24:48.320
+It depends.
+
+01:24:48.320 --> 01:24:49.320
+What kind of situation.
+
+01:24:49.320 --> 01:24:50.320
+Your data distribution is.
+
+01:24:50.320 --> 01:24:51.320
+According to that.
+
+01:24:51.320 --> 01:24:52.320
+I took the example.
+
+01:24:52.320 --> 01:24:53.320
+That there is accuracy.
+
+01:24:53.320 --> 01:24:54.320
+But it might be.
+
+01:24:54.320 --> 01:24:55.320
+That there is accuracy.
+
+01:24:55.320 --> 01:24:56.320
+But it might be.
+
+01:24:56.320 --> 01:24:57.320
+That there is accuracy.
+
+01:24:57.320 --> 01:24:58.320
+But it might be.
+
+01:24:58.320 --> 01:24:59.320
+That there is accuracy.
+
+01:24:59.320 --> 01:25:00.320
+But it might be.
+
+01:25:00.320 --> 01:25:01.320
+That there is accuracy.
+
+01:25:01.320 --> 01:25:02.320
+But it might be.
+
+01:25:02.320 --> 01:25:03.320
+That there is accuracy.
+
+01:25:03.320 --> 01:25:04.320
+But it might be something else.
+
+01:25:04.320 --> 01:25:06.320
+It depends on your use case.
+
+01:25:07.320 --> 01:25:10.320
+Are there any industry specific evaluation metrics.
+
+01:25:10.320 --> 01:25:12.320
+For these application evaluations.
+
+01:25:12.320 --> 01:25:14.320
+Or do we need to create custom evaluations.
+
+01:25:14.320 --> 01:25:15.320
+No no no.
+
+01:25:15.320 --> 01:25:17.320
+There are standard metrics.
+
+01:25:17.320 --> 01:25:18.320
+We will discuss.
+
+01:25:18.320 --> 01:25:20.320
+Today we can't discuss.
+
+01:25:20.320 --> 01:25:22.320
+Because I have actually planned a lot of things.
+
+01:25:22.320 --> 01:25:23.320
+You can see.
+
+01:25:23.320 --> 01:25:24.320
+At least.
+
+01:25:25.320 --> 01:25:26.320
+A lot of things are left.
+
+01:25:26.320 --> 01:25:30.320
+So I think it will take an hour and a half to teach all this.
+
+01:25:30.320 --> 01:25:31.320
+So we don't do it today.
+
+01:25:31.320 --> 01:25:32.320
+Because.
+
+01:25:32.320 --> 01:25:33.320
+I.
+
+01:25:33.320 --> 01:25:35.320
+Don't want to put load on you.
+
+01:25:35.320 --> 01:25:36.320
+But yeah.
+
+01:25:36.320 --> 01:25:37.320
+Standard metrics are available.
+
+01:25:37.320 --> 01:25:39.320
+There are standard metrics of RAD.
+
+01:25:39.320 --> 01:25:41.320
+There are standard metrics of agents.
+
+01:25:41.320 --> 01:25:44.320
+There are standard metrics of multi turn conversation.
+
+01:25:44.320 --> 01:25:46.320
+We will discuss this in the next class.
+
+01:25:47.320 --> 01:25:53.320
+Do we usually apply evals on input output collected during monitoring at frequent interval like once a day.
+
+01:25:53.320 --> 01:25:54.320
+I have to read this.
+
+01:25:54.320 --> 01:25:55.320
+Sohail.
+
+01:25:55.320 --> 01:25:56.320
+That we.
+
+01:25:56.320 --> 01:25:58.320
+Do it at certain frequency.
+
+01:25:58.320 --> 01:26:00.320
+Or track everyone.
+
+01:26:00.320 --> 01:26:02.320
+I have to see this once.
+
+01:26:02.320 --> 01:26:03.320
+Because.
+
+01:26:03.320 --> 01:26:06.320
+Obviously if a system is operating on a very large scale.
+
+01:26:06.320 --> 01:26:08.320
+Then tracking everything is not possible.
+
+01:26:08.320 --> 01:26:10.320
+So it might be.
+
+01:26:10.320 --> 01:26:11.320
+The scene.
+
+01:26:11.320 --> 01:26:12.320
+Frequent.
+
+01:26:12.320 --> 01:26:14.320
+At some frequency.
+
+01:26:14.320 --> 01:26:15.320
+So.
+
+01:26:15.320 --> 01:26:16.320
+I have to read this.
+
+01:26:16.320 --> 01:26:17.320
+So.
+
+01:26:17.320 --> 01:26:18.320
+So.
+
+01:26:18.320 --> 01:26:19.320
+So.
+
+01:26:19.320 --> 01:26:20.320
+So.
+
+01:26:20.320 --> 01:26:21.320
+So.
+
+01:26:21.320 --> 01:26:22.320
+Sometimes I.
+
+01:26:22.320 --> 01:26:24.320
+Don't understand.
+
+01:26:24.320 --> 01:26:26.320
+So what can I do either.
+
+01:26:26.320 --> 01:26:28.320
+Browser's.
+
+01:26:28.320 --> 01:26:37.920
+Normally this is
+
+01:26:37.920 --> 01:26:38.920
+I.
+
+01:26:38.920 --> 01:26:41.920
+Can't read it either.
+
+01:26:41.920 --> 01:26:43.679
+And of course.
+
+01:26:43.679 --> 01:26:47.679
+There is no problem on outputHave any issue with output having problem.
+
+01:26:47.680 --> 01:26:50.300
+those deployment evals as well to evaluate during
+
+01:26:50.300 --> 01:26:53.300
+yes it happens, in fact that was our topic today
+
+01:26:53.300 --> 01:26:55.300
+offline vs online evals
+
+01:26:55.300 --> 01:26:58.760
+so it happens, in online some considerations change
+
+01:26:58.760 --> 01:27:00.760
+this discussion we did was offline
+
+01:27:00.760 --> 01:27:03.760
+before you deploy your application
+
+01:27:03.760 --> 01:27:05.760
+you do these kind of things
+
+01:27:05.760 --> 01:27:07.760
+online there are different considerations, we will read it
+
+01:27:12.760 --> 01:27:16.760
+Sir is this the skill set also required for AI QA engineer
+
+01:27:16.840 --> 01:27:18.840
+now you can say that Harry
+
+01:27:18.840 --> 01:27:20.840
+I have not seen any AI QA engineer profile
+
+01:27:20.840 --> 01:27:22.840
+now the thing is that
+
+01:27:22.840 --> 01:27:24.840
+this field is very dense
+
+01:27:24.840 --> 01:27:26.840
+condensed in the sense that
+
+01:27:26.840 --> 01:27:28.840
+only one person is AI engineer
+
+01:27:28.840 --> 01:27:30.840
+he has to do everything
+
+01:27:30.840 --> 01:27:32.840
+but there might be a scenario
+
+01:27:32.840 --> 01:27:34.840
+that after 5 years this field
+
+01:27:34.840 --> 01:27:36.840
+will be very mature
+
+01:27:36.840 --> 01:27:38.840
+so the work of LLM applications
+
+01:27:38.840 --> 01:27:40.840
+should be done by the developer
+
+01:27:40.840 --> 01:27:42.840
+and a different role of QA engineer should be done
+
+01:27:42.840 --> 01:27:44.840
+for the evaluation
+
+01:27:44.920 --> 01:27:46.920
+currently there is only one guy
+
+01:27:46.920 --> 01:27:48.920
+if a company is working in a mature way
+
+01:27:48.920 --> 01:27:50.920
+then they might hire two separate people
+
+01:27:50.920 --> 01:27:52.920
+one for developing and one for
+
+01:27:52.920 --> 01:27:54.920
+testing these applications
+
+01:27:54.920 --> 01:27:56.920
+but now I think only one person has all the expectations
+
+01:27:57.000 --> 01:27:59.000
+Sir I believe working on project after learning
+
+01:27:59.000 --> 01:28:01.000
+topics, techniques or concepts helps us
+
+01:28:01.000 --> 01:28:03.000
+understand how they are implemented
+
+01:28:03.000 --> 01:28:05.000
+in real world production systems
+
+01:28:05.000 --> 01:28:07.000
+could you please guide us on how project ideas
+
+01:28:07.000 --> 01:28:09.000
+are practical applications related to
+
+01:28:09.000 --> 01:28:11.000
+topics covered in the course
+
+01:28:11.000 --> 01:28:13.000
+ok we will do it Rhea don't worry
+
+01:28:13.000 --> 01:28:15.000
+we will also work on the projects
+
+01:28:15.000 --> 01:28:17.000
+and the evaluation is such that
+
+01:28:17.000 --> 01:28:19.000
+the evaluation of complex projects
+
+01:28:19.000 --> 01:28:21.000
+increases
+
+01:28:21.000 --> 01:28:23.000
+but yes, we will work on the projects
+
+01:28:23.000 --> 01:28:25.000
+and the evaluation of complex projects
+
+01:28:25.080 --> 01:28:29.080
+but yeah, ok I understood your point
+
+01:28:33.080 --> 01:28:35.080
+for SLM evaluation
+
+01:28:35.080 --> 01:28:37.080
+yes Akhil, that falls into model eval
+
+01:28:37.080 --> 01:28:39.080
+ok here one more thing
+
+01:28:39.080 --> 01:28:41.080
+I forgot to tell you an important thing
+
+01:28:41.080 --> 01:28:43.080
+read this line guys
+
+01:28:43.080 --> 01:28:45.080
+this is a very important line
+
+01:28:45.080 --> 01:28:47.080
+one LLM based application
+
+01:28:47.080 --> 01:28:49.080
+may have
+
+01:28:49.080 --> 01:28:51.080
+or might have
+
+01:28:51.080 --> 01:28:53.080
+several LLM evals
+
+01:28:53.160 --> 01:28:55.160
+so it is possible that
+
+01:28:55.160 --> 01:28:57.160
+you have made one rag application
+
+01:28:57.160 --> 01:28:59.160
+but on that one rag application
+
+01:28:59.160 --> 01:29:01.160
+you are running multiple evaluations
+
+01:29:01.160 --> 01:29:03.160
+like this was one single evaluation
+
+01:29:03.160 --> 01:29:05.160
+but it is possible that
+
+01:29:05.160 --> 01:29:07.160
+on one single LLM application
+
+01:29:07.160 --> 01:29:09.160
+you are running multiple evals
+
+01:29:09.160 --> 01:29:11.160
+for example
+
+01:29:11.160 --> 01:29:13.160
+in rag you are running one evaluation
+
+01:29:13.160 --> 01:29:15.160
+to test the performance
+
+01:29:15.160 --> 01:29:17.160
+of the retriever
+
+01:29:17.160 --> 01:29:19.160
+you are running one
+
+01:29:19.160 --> 01:29:21.160
+different evaluation
+
+01:29:21.240 --> 01:29:23.240
+you are running one evaluation
+
+01:29:23.240 --> 01:29:25.240
+to check the performance
+
+01:29:25.240 --> 01:29:27.240
+of the embedding model
+
+01:29:27.240 --> 01:29:29.240
+you are running one eval
+
+01:29:29.240 --> 01:29:31.240
+to test the whole rag workflow
+
+01:29:31.240 --> 01:29:33.240
+you are running one eval
+
+01:29:33.240 --> 01:29:35.240
+to check the latency
+
+01:29:35.240 --> 01:29:37.240
+of the system
+
+01:29:37.240 --> 01:29:39.240
+so generally
+
+01:29:39.240 --> 01:29:41.240
+one LLM based application
+
+01:29:41.240 --> 01:29:43.240
+always runs more than one eval
+
+01:29:43.240 --> 01:29:45.240
+now I have given you an example
+
+01:29:45.240 --> 01:29:47.240
+I have told you about one eval
+
+01:29:47.240 --> 01:29:49.240
+but generally
+
+01:29:49.320 --> 01:29:51.320
+you will get to see
+
+01:29:51.320 --> 01:29:53.320
+that on one single application
+
+01:29:53.320 --> 01:29:55.320
+multiple evals are run
+
+01:29:55.320 --> 01:29:57.320
+this is an important point
+
+01:29:57.320 --> 01:29:59.320
+you have to remember
+
+01:29:59.320 --> 01:30:01.320
+rest you will see later
+
+01:30:01.320 --> 01:30:03.320
+so guys let's keep it clean
+
+01:30:03.320 --> 01:30:05.320
+let's keep it clean
+
+01:30:05.320 --> 01:30:07.320
+I just hope
+
+01:30:07.320 --> 01:30:09.320
+in today's class
+
+01:30:09.320 --> 01:30:11.320
+you can learn better
+
+01:30:11.320 --> 01:30:13.320
+than the previous class
+
+01:30:13.320 --> 01:30:15.320
+and based on this
+
+01:30:15.320 --> 01:30:17.320
+we will do more
+
+01:30:17.400 --> 01:30:19.400
+discussions
+
+01:30:19.400 --> 01:30:21.400
+so
+
+01:30:21.400 --> 01:30:23.400
+can you rate
+
+01:30:23.400 --> 01:30:25.400
+the last class on 10
+
+01:30:25.400 --> 01:30:27.400
+and this class on 10
+
+01:30:27.400 --> 01:30:29.400
+just so that I can understand
+
+01:30:29.400 --> 01:30:31.400
+whether this class was beneficial
+
+01:30:31.400 --> 01:30:33.400
+by repeating
+
+01:30:33.400 --> 01:30:35.400
+those who did both the classes
+
+01:30:35.400 --> 01:30:37.400
+last class out of 10, this class out of 10
+
+01:30:43.400 --> 01:30:45.400
+last class was a 6
+
+01:30:45.480 --> 01:30:47.480
+this is 8
+
+01:30:55.480 --> 01:30:57.480
+and in general
+
+01:30:57.480 --> 01:30:59.480
+how was your experience
+
+01:30:59.480 --> 01:31:01.480
+of insider membership
+
+01:31:01.480 --> 01:31:03.480
+tell me that
+
+01:31:05.480 --> 01:31:07.480
+so far it is good
+
+01:31:07.480 --> 01:31:09.480
+the things you are learning
+
+01:31:09.480 --> 01:31:11.480
+ROI
+
+01:31:11.480 --> 01:31:13.480
+does it make sense
+
+01:31:13.559 --> 01:31:15.559
+does it make sense
+
+01:31:15.559 --> 01:31:17.559
+if it is still good
+
+01:31:17.559 --> 01:31:19.559
+then don't worry
+
+01:31:19.559 --> 01:31:21.559
+our goal is to work hard
+
+01:31:21.559 --> 01:31:23.559
+and do this for 2 years
+
+01:31:23.559 --> 01:31:25.559
+so that you feel like we got 10x
+
+01:31:25.559 --> 01:31:27.559
+that is our goal
+
+01:31:27.559 --> 01:31:29.559
+so
+
+01:31:29.559 --> 01:31:31.559
+ok
+
+01:31:31.559 --> 01:31:33.559
+only waiting for
+
+01:31:33.559 --> 01:31:35.559
+fine tuning this is the skill
+
+01:31:35.559 --> 01:31:37.559
+that can separate
+
+01:31:37.559 --> 01:31:39.559
+fine tuning we will do
+
+01:31:39.559 --> 01:31:41.559
+as I told you
+
+01:31:41.640 --> 01:31:43.640
+so that you can try to wrap up
+
+01:31:43.640 --> 01:31:45.640
+fine tuning
+
+01:31:45.640 --> 01:31:47.640
+now going forward
+
+01:31:47.640 --> 01:31:49.640
+whatever we will study will be important
+
+01:31:49.640 --> 01:31:51.640
+LLM Ops is important
+
+01:31:51.640 --> 01:31:53.640
+LLM evals is important
+
+01:31:53.640 --> 01:31:55.640
+when we will cover more topics
+
+01:31:55.640 --> 01:31:57.640
+they will be mostly important
+
+01:32:01.640 --> 01:32:03.640
+I have one general question
+
+01:32:03.640 --> 01:32:05.640
+I have done
+
+01:32:05.640 --> 01:32:07.640
+guys by the way class is over
+
+01:32:07.640 --> 01:32:09.640
+so if you don't want to ask any question
+
+01:32:09.720 --> 01:32:11.720
+then I will be there in 5-10 minutes
+
+01:32:11.720 --> 01:32:13.720
+I have done 100 days
+
+01:32:13.720 --> 01:32:15.720
+of MLM finished CNN
+
+01:32:15.720 --> 01:32:17.720
+in DLs I have used LLMs
+
+01:32:17.720 --> 01:32:19.720
+a bit at an applied level
+
+01:32:19.720 --> 01:32:21.720
+but haven't built a full
+
+01:32:21.720 --> 01:32:23.720
+LLM project or learnt the fundamentals
+
+01:32:23.720 --> 01:32:25.720
+should I take a basic LLM intro
+
+01:32:25.720 --> 01:32:27.720
+and do a simple project or continue this playlist
+
+01:32:27.720 --> 01:32:29.720
+Nidhi I would recommend
+
+01:32:29.720 --> 01:32:31.720
+you cover my 2 playlists
+
+01:32:31.720 --> 01:32:33.720
+one is Lanchain and one is Langraph
+
+01:32:33.720 --> 01:32:35.720
+if you see these 2 playlists
+
+01:32:35.720 --> 01:32:37.720
+then you will not have any problem
+
+01:32:37.800 --> 01:32:39.800
+if you have a complete course
+
+01:32:39.800 --> 01:32:41.800
+then you don't need to see anything else
+
+01:32:47.800 --> 01:32:49.800
+very important thing is project implementation
+
+01:32:49.800 --> 01:32:51.800
+should be there after every topic
+
+01:32:51.800 --> 01:32:53.800
+with good industry project
+
+01:32:53.800 --> 01:32:55.800
+the only problem
+
+01:32:55.800 --> 01:32:57.800
+with this particular course
+
+01:32:57.800 --> 01:32:59.800
+is that here
+
+01:32:59.800 --> 01:33:01.800
+actually if you go to make a project
+
+01:33:01.800 --> 01:33:03.800
+then
+
+01:33:03.800 --> 01:33:05.800
+if you are doing a software testing course
+
+01:33:05.880 --> 01:33:07.880
+then you don't learn to make software
+
+01:33:07.880 --> 01:33:09.880
+what you do is
+
+01:33:09.880 --> 01:33:11.880
+you learn the fundamentals of testing
+
+01:33:11.880 --> 01:33:13.880
+and you apply it on a software
+
+01:33:13.880 --> 01:33:15.880
+here same scene
+
+01:33:15.880 --> 01:33:17.880
+I will not teach you to make a very heavy
+
+01:33:17.880 --> 01:33:19.880
+rag project because
+
+01:33:19.880 --> 01:33:21.880
+it will take 3-4 sessions
+
+01:33:21.880 --> 01:33:23.880
+here I will teach you to test
+
+01:33:23.880 --> 01:33:25.880
+so I will explain you how to test big projects
+
+01:33:25.880 --> 01:33:27.880
+so don't worry
+
+01:33:31.880 --> 01:33:33.880
+Sir in road map can we add course links as well
+
+01:33:33.960 --> 01:33:35.960
+we have got the feedback
+
+01:33:35.960 --> 01:33:37.960
+in road map
+
+01:33:37.960 --> 01:33:39.960
+whatever is left
+
+01:33:39.960 --> 01:33:41.960
+where we have not connected our resources
+
+01:33:41.960 --> 01:33:43.960
+we will do it
+
+01:33:43.960 --> 01:33:45.960
+main thing is that new course has started
+
+01:33:45.960 --> 01:33:47.960
+so there is lot of work
+
+01:33:47.960 --> 01:33:49.960
+new people are enrolling
+
+01:33:49.960 --> 01:33:51.960
+so we have to handle them
+
+01:33:51.960 --> 01:33:53.960
+new classes have started
+
+01:33:53.960 --> 01:33:55.960
+so we have to manage it
+
+01:33:55.960 --> 01:33:57.960
+if it will become stable
+
+01:33:57.960 --> 01:33:59.960
+then we will do all the things
+
+01:33:59.960 --> 01:34:01.960
+from my side
+
+01:34:02.040 --> 01:34:04.040
+so the goal is that we are going to improve
+
+01:34:04.040 --> 01:34:06.040
+this is what you will see
+
+01:34:06.040 --> 01:34:08.040
+so whatever is left we will do
+
+01:34:08.040 --> 01:34:10.040
+we are executing it in a prior order
+
+01:34:12.040 --> 01:34:14.040
+Sir we are not getting notification
+
+01:34:14.040 --> 01:34:16.040
+of YouTube sandbox on whatsapp or for live session
+
+01:34:16.040 --> 01:34:18.040
+didn't you get notification
+
+01:34:18.040 --> 01:34:20.040
+one notification must have been received
+
+01:34:20.040 --> 01:34:22.040
+one hour before
+
+01:34:26.040 --> 01:34:28.040
+but other than courses
+
+01:34:28.040 --> 01:34:30.040
+courses like
+
+01:34:30.120 --> 01:34:32.120
+LLMops course will not be free for live classes
+
+01:34:32.120 --> 01:34:34.120
+if I remember you sir
+
+01:34:34.120 --> 01:34:36.120
+I didn't understand what is the question
+
+01:34:36.120 --> 01:34:38.120
+it is free for you guys
+
+01:34:38.120 --> 01:34:40.120
+you have to pay something
+
+01:34:40.120 --> 01:34:42.120
+Sir can you change the timing from 6 to 8
+
+01:34:42.120 --> 01:34:44.120
+Pritesh let's remove this month
+
+01:34:44.120 --> 01:34:46.120
+after that we can have a revision
+
+01:34:46.120 --> 01:34:48.120
+for me 8pm class is difficult
+
+01:34:48.120 --> 01:34:50.120
+what I can do is
+
+01:34:50.120 --> 01:34:52.120
+I might shift to 7pm
+
+01:34:56.120 --> 01:34:58.120
+there are lot of courses in insider
+
+01:34:58.200 --> 01:35:00.200
+keeping a tab on all topics and creating
+
+01:35:00.200 --> 01:35:02.200
+a study timetable is difficult for the topic
+
+01:35:02.200 --> 01:35:04.200
+sir you can suggest something on how to complete
+
+01:35:04.200 --> 01:35:06.200
+all the courses
+
+01:35:06.200 --> 01:35:08.200
+guys I will do one thing
+
+01:35:08.200 --> 01:35:10.200
+I will do a separate session
+
+01:35:10.200 --> 01:35:12.200
+where we will handle these doubts
+
+01:35:12.200 --> 01:35:14.200
+whoever has these doubts
+
+01:35:14.200 --> 01:35:16.200
+like road map related
+
+01:35:16.200 --> 01:35:18.200
+or how to plan
+
+01:35:18.200 --> 01:35:20.200
+let's do a separate session
+
+01:35:20.200 --> 01:35:22.200
+next week is next week
+
+01:35:22.200 --> 01:35:24.200
+we have shared a road map
+
+01:35:24.200 --> 01:35:26.200
+with you
+
+01:35:26.280 --> 01:35:28.280
+in your whatsapp group
+
+01:35:28.280 --> 01:35:30.280
+there you can
+
+01:35:30.280 --> 01:35:32.280
+create a personalized road map
+
+01:35:52.280 --> 01:35:54.280
+to create prompts
+
+01:35:54.360 --> 01:35:56.360
+use jpt or cloud
+
+01:35:56.360 --> 01:35:58.360
+slowly you will understand
+
+01:35:58.360 --> 01:36:00.360
+what you need
+
+01:36:00.360 --> 01:36:02.360
+you won't be able to create a good one in the first time
+
+01:36:02.360 --> 01:36:04.360
+it is simple
+
+01:36:06.360 --> 01:36:08.360
+it is very easy
+
+01:36:08.360 --> 01:36:10.360
+slowly you can create a few projects
+
+01:36:10.360 --> 01:36:12.360
+I also had a command on cloud code in the first time
+
+01:36:12.360 --> 01:36:14.360
+I worked for 6 months
+
+01:36:14.360 --> 01:36:16.360
+now I feel I can use it for any kind of project
+
+01:36:16.360 --> 01:36:18.360
+it will take some time
+
+01:36:18.360 --> 01:36:20.360
+don't be impatient
+
+01:36:20.360 --> 01:36:22.360
+first it won't be good
+
+01:36:22.440 --> 01:36:24.440
+using whatsapp API for reminders
+
+01:36:24.440 --> 01:36:26.440
+do you guys know what reminders are
+
+01:36:52.440 --> 01:36:54.440
+as I said
+
+01:36:54.440 --> 01:36:56.440
+let's take a session on this
+
+01:36:56.440 --> 01:36:58.440
+for those who have career related doubts
+
+01:36:58.440 --> 01:37:00.440
+let's take a session
+
+01:37:00.440 --> 01:37:02.440
+there we will understand these questions in detail
+
+01:37:04.440 --> 01:37:06.440
+I will do a session like this
+
+01:37:06.440 --> 01:37:08.440
+don't worry
+
+01:37:08.440 --> 01:37:10.440
+sir how to set up
+
+01:37:10.440 --> 01:37:12.440
+standalone server for setting up
+
+01:37:12.440 --> 01:37:14.440
+local LM & companies data center for model inference
+
+01:37:14.440 --> 01:37:16.440
+this is a very good topic
+
+01:37:16.440 --> 01:37:18.440
+we have a plan to do a workshop on this
+
+01:37:18.519 --> 01:37:20.519
+let's say
+
+01:37:20.519 --> 01:37:22.519
+in July or August
+
+01:37:22.519 --> 01:37:24.519
+we will do a workshop
+
+01:37:24.519 --> 01:37:26.519
+on how to create our own LLM server
+
+01:37:26.519 --> 01:37:28.519
+I am very eager to teach you
+
+01:37:28.519 --> 01:37:30.519
+can you please recent the road
+
+01:37:30.519 --> 01:37:32.519
+guys if anyone has the road map
+
+01:37:32.519 --> 01:37:34.519
+share it on whatsapp
+
+01:37:38.519 --> 01:37:40.519
+out of control
+
+01:37:40.519 --> 01:37:42.519
+I am not sure
+
+01:37:42.519 --> 01:37:44.519
+if anyone has the road map
+
+01:37:44.519 --> 01:37:46.519
+share it on whatsapp
+
+01:37:46.600 --> 01:37:48.600
+out of context question
+
+01:37:48.600 --> 01:37:50.600
+can we use LLM
+
+01:37:50.600 --> 01:37:52.600
+for classification
+
+01:37:52.600 --> 01:37:54.600
+prediction problem using static large
+
+01:37:54.600 --> 01:37:56.600
+tabular data set
+
+01:37:56.600 --> 01:37:58.600
+for example some medical data set to predict
+
+01:37:58.600 --> 01:38:00.600
+for example diabetes
+
+01:38:00.600 --> 01:38:02.600
+I mean you can use it
+
+01:38:02.600 --> 01:38:04.600
+the problem is
+
+01:38:04.600 --> 01:38:06.600
+the work you can do
+
+01:38:06.600 --> 01:38:08.600
+with XGBoost
+
+01:38:08.600 --> 01:38:10.600
+its inference cost will be nothing
+
+01:38:10.600 --> 01:38:12.600
+it will be equal to nothing
+
+01:38:12.600 --> 01:38:14.600
+why do you want to pay the cost of inference
+
+01:38:14.680 --> 01:38:16.680
+that is why you don't use LLMs
+
+01:38:16.680 --> 01:38:18.680
+plus there can be a reliability issue
+
+01:38:18.680 --> 01:38:20.680
+as good as XGBoost
+
+01:38:20.680 --> 01:38:22.680
+will give results on its trained data
+
+01:38:22.680 --> 01:38:24.680
+there is a chance
+
+01:38:24.680 --> 01:38:26.680
+that LLM will make some mistakes
+
+01:38:26.680 --> 01:38:28.680
+that is why machine learning techniques
+
+01:38:28.680 --> 01:38:30.680
+still exist
+
+01:38:38.680 --> 01:38:40.680
+this company to company varies
+
+01:38:40.680 --> 01:38:42.680
+it depends on who is interviewing you
+
+01:38:42.760 --> 01:38:44.760
+for me its not a big deal
+
+01:38:44.760 --> 01:38:46.760
+if the person doesn't know syntax
+
+01:38:46.760 --> 01:38:48.760
+if his logic is clear I hire him
+
+01:38:48.760 --> 01:38:50.760
+but again it depends on the person
+
+01:38:50.760 --> 01:38:52.760
+so in worst case scenario you have to prepare
+
+01:38:58.760 --> 01:39:00.760
+so message me personally
+
+01:39:00.760 --> 01:39:02.760
+AI work space
+
+01:39:02.760 --> 01:39:04.760
+whatever your name is
+
+01:39:12.760 --> 01:39:14.760
+we are planning a course
+
+01:39:14.760 --> 01:39:16.760
+on AI system design
+
+01:39:16.760 --> 01:39:18.760
+so I guess both topics are same
+
+01:39:18.760 --> 01:39:20.760
+I am a working professional
+
+01:39:20.760 --> 01:39:22.760
+I am building healthcare
+
+01:39:22.760 --> 01:39:24.760
+chatbot for my company so can you suggest
+
+01:39:24.760 --> 01:39:26.760
+how to make robust long term memory
+
+01:39:26.760 --> 01:39:28.760
+have seen your both playlists for
+
+01:39:28.760 --> 01:39:30.760
+Langraaf and Langchain
+
+01:39:30.760 --> 01:39:32.760
+go check out this software called
+
+01:39:32.760 --> 01:39:34.760
+Supermemory
+
+01:39:34.760 --> 01:39:36.760
+its not a software its a library
+
+01:39:36.760 --> 01:39:38.760
+Supermemory and Memzero
+
+01:39:38.760 --> 01:39:40.760
+this is their work
+
+01:39:40.840 --> 01:39:42.840
+so long term add your memory
+
+01:39:42.840 --> 01:39:44.840
+in LLM based systems
+
+01:39:50.840 --> 01:39:52.840
+ok then
+
+01:39:52.840 --> 01:39:54.840
+lets take one last question
+
+01:40:06.840 --> 01:40:08.840
+as I said
+
+01:40:08.920 --> 01:40:10.920
+I am seeing a lot of questions like this
+
+01:40:10.920 --> 01:40:12.920
+so what I will do is plan a dedicated
+
+01:40:12.920 --> 01:40:14.920
+session on this
+
+01:40:14.920 --> 01:40:16.920
+where those who have doubts
+
+01:40:16.920 --> 01:40:18.920
+can come and we will
+
+01:40:18.920 --> 01:40:20.920
+sit there for half an hour
+
+01:40:20.920 --> 01:40:22.920
+and then this problem will be solved
+
+01:40:28.920 --> 01:40:30.920
+LLM ops is running
+
+01:40:30.920 --> 01:40:32.920
+yes there is a chance
+
+01:40:32.920 --> 01:40:34.920
+otherwise
+
+01:40:34.920 --> 01:40:36.920
+it will happen in first 3 months
+
+01:40:38.920 --> 01:40:40.920
+is a good book to build LLM
+
+01:40:40.920 --> 01:40:42.920
+from scratch or any other resource
+
+01:40:42.920 --> 01:40:44.920
+I haven't read
+
+01:40:44.920 --> 01:40:46.920
+bookyoli so can't really
+
+01:40:46.920 --> 01:40:48.920
+comment right now
+
+01:40:48.920 --> 01:40:50.920
+but PDF is available so try reading
+
+01:40:50.920 --> 01:40:52.920
+or send it to Claude and ask
+
+01:40:52.920 --> 01:40:54.920
+is it a good book
+
+01:40:54.920 --> 01:40:56.920
+what is Claude's opinion chatgpt's opinion
+
+01:40:56.920 --> 01:40:58.920
+these days its easy
+
+01:40:58.920 --> 01:41:00.920
+I haven't read so can't say
+
+01:41:04.920 --> 01:41:06.920
+sir for fine tuning I need road map
+
+01:41:07.000 --> 01:41:09.000
+so specific to fine tuning
+
+01:41:09.000 --> 01:41:11.000
+we don't have road map
+
+01:41:11.000 --> 01:41:13.000
+we need to make it
+
+01:41:13.000 --> 01:41:15.000
+can you please suggest a book for AI system design
+
+01:41:15.000 --> 01:41:17.000
+Chip Hewane's book
+
+01:41:17.000 --> 01:41:19.000
+AI engineering is a good book
+
+01:41:19.000 --> 01:41:21.000
+I haven't read it completely
+
+01:41:21.000 --> 01:41:23.000
+but its a good book
+
+01:41:23.000 --> 01:41:25.000
+Chip Hewane is also a good author
+
+01:41:27.000 --> 01:41:29.000
+so guys that's it for today
+
+01:41:29.000 --> 01:41:31.000
+lets close the session
+
+01:41:31.000 --> 01:41:33.000
+was this recording
+
+01:41:33.000 --> 01:41:35.000
+don't say like that
+
+01:41:37.000 --> 01:41:39.000
+is it recording
+
+01:41:39.000 --> 01:41:41.000
+yes its recording
+
+01:41:41.000 --> 01:41:43.000
+ok guys
+
+01:41:43.000 --> 01:41:45.000
+see you in next session
+
+01:41:45.000 --> 01:41:47.000
+Friday
+
+01:41:47.000 --> 01:41:49.000
+bye good night
+

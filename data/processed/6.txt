@@ -1,0 +1,3538 @@
+Hi everyone good evening guys a quick check am audible visible is my one note visible great
+wait for another 5 minutes so that everyone can join
+till then if you have any questions you can ask me
+without quick questions
+all good
+you are practicing together
+you have coded the application by yourself
+ok first task
+following
+right
+this is what is required from you
+just follow along
+and if you don't understand any part then do watch the recordings
+because LLM ops is a field where every class is connected to each other
+maybe what you are studying today will be useful again after 10 classes
+good evening
+where are you uploading it is in your dashboard
+all videos are uploaded timely
+thanks arun
+thanks
+do you like the sessions
+the structure of the sessions and everything
+ok great
+because we are covering it step by step
+again my goal is that at the end of every session you take some value from here
+till the last step
+great
+ok I did a typo in the last session
+you must have seen that
+I fixed it on the github
+it was not a major typo
+basically when I was returning the state in a node
+I think instead of retrieved documents I returned the context
+it was a minor error
+I fixed it
+it didn't cause any problems in our flow of the code
+but
+it was not proper so I fixed it
+it was a small typo
+great
+let's wait for 2 more minutes
+people are still joining in
+I can see
+and then we will start
+is the screen share off
+just a second guys
+just a second
+can you see the screen share
+one note
+I think it is off in the middle
+any prerequisites
+we have already discussed prerequisites
+those are your line graph and line chain
+there are only 2 prerequisites
+and it is not advanced
+just the basic concepts
+let's start
+let's start today's session
+so
+let me discuss with you guys
+that our upcoming week
+or the flow of this particular session
+is going to be
+and I would request all of you
+that all the upcoming sessions
+and this session
+you can attend it live
+you will gain more value
+from it
+because the part we are covering
+that is around our evaluations
+is very important
+and we
+will cover evaluations
+with the first principle approach
+we will cover evaluations
+like
+you are an engineer
+who has an evaluation task
+and you are doing this for the first time
+and you are basically
+the designer behind DPVAL
+so
+you have a task
+how to do evaluations
+of a rag application
+and secondly
+you have to do this particular framework
+through which we can do
+evaluations in an automated way
+we will discuss about how to design
+this too
+again because we are taking
+the first principle approach
+and we will discuss about the reasons
+so it won't be much of a big deal
+that we will go into technical details
+but you will understand everything
+at a conceptual level
+and we will cover this step by step
+with an example
+is this clear?
+so the coming
+4 sessions will be needed
+to complete this part
+so I want that all the people
+who are attending this session
+in the next 3-4 sessions
+will get more value
+you will get the same thing in recording
+but again when you do live sessions
+then this interaction
+you can extract more value
+from here
+so let's start
+today's session
+so let's do this thing
+whatever we did in previous sessions
+let's take a small recap
+moreover the things we did in previous session
+let's take a recap
+so you will remember in the last session
+the first session started
+it started around
+building of our application
+we built
+our Rack chatbot
+and what we did there
+we first
+analyzed
+our transcripts
+we analyzed them
+we saw that there are some cleaning issues
+in the transcripts
+so what we did
+we cleaned this transcript
+we cleaned this re module
+we cleaned all the time stamps
+and time ranges
+and we compiled and assembled
+the text
+after that we built
+our Rack chatbot
+on this cleaned transcript
+and to build this Rack chatbot
+we used
+the components in every node
+we used the Lank chain
+whereas
+we used the entire pipeline
+around our Rack chatbot
+to build this we used Lank graph
+this thing is clear
+and we successfully built this
+and we
+the
+good practices
+in industry that are used
+while creating the project folder
+creating your virtual environment
+how you define the path
+we understood all these things
+and at the end of the day
+we had a fully functional
+Rack chatbot
+and we did live
+courses on it
+we did some queries
+and we tested this Rack chatbot
+ok
+now this testing
+at the end of the session
+this testing is called
+by testing
+ok this manual testing
+we checked
+that all these things are working or not
+this is called wipe testing
+so we successfully
+wiped our application
+in the previous session
+now I will tell you what is our
+agenda for today and upcoming sessions
+ok
+we have come here to read about
+evaluations
+basically we have come here to read
+how you
+evaluate
+an LLM based application
+how you
+evaluate
+an LLM based application
+is different from
+machine learning
+because we all come from machine learning background
+and we have
+evaluated a machine learning
+model
+so how an LLM based application
+is different from machine learning model
+we will see that
+we will also see that
+for evaluation
+how you prepare a data set
+how it is done
+what is its methodology
+how it is done
+we will touch this in detail
+ok
+and when you will read about this
+whole flow you will enjoy it
+you will feel that
+the makers, the developers
+who made a framework like deep eval
+orchestrated the whole workflow
+ok
+we will see that
+because we are working with an LLM based application
+and I told you in the previous session
+if you remember
+that for every application
+for every application type
+there are specific metrics
+and because we are working with a Rack
+application
+with Rack chatbot
+we will read about Rack specific metrics
+next
+we will read
+Rack specific metrics
+now in Rack specific metrics
+you have 5 key metrics
+which cover your entire pipeline
+we will read about them in detail
+how they work
+what is their formula
+how you score here
+we will cover all these things
+and not only we will cover theoretical aspects
+we will also implement it in the code
+using Deep eval
+and we will also see
+that what you are scoring
+what technique we use
+for this
+generally you can score
+in many ways here but
+in today's day and age
+frameworks like Deep eval or raka
+are used
+that technique is called LLM as a judge
+LLM as a judge
+is a very important concept
+it is also very important from the perspective of interview
+so we will read
+in and out
+what is LLM as a judge technique
+and if you need
+you can implement
+LLM as a judge
+we will see
+how much technicality you need
+how difficult it is
+and what are the benefits of this
+is it clear guys
+is it clear
+if this thing is clear
+so write clear in the chat
+and in the coming 3-4 sessions
+we will read around these topics
+clear
+clear
+now I just want one promise from you guys
+that you
+here
+religiously follow these 4 lectures
+ok
+whenever you come in the next lecture
+if you have any doubts in the previous lecture
+if you have not seen the lecture completely
+then you will see the recordings of it
+ok
+whenever you come
+we will conduct lectures
+in an interaction way
+if you have any doubts
+if you are not understanding the technique
+then you can simply ask me the question
+and I will respond back
+ok, is it clear now?
+ok fine, so start guys
+if you have any
+questions around flow
+then you can ask me
+and then we will start
+and we will resume this session
+ok
+no
+clear
+ok
+ok
+now we will see
+that because we are working
+with a rack based application
+so why
+evaluating your rack based application
+is different from machine learning evaluation
+ok, but
+before understanding the difference
+let us understand that
+what is the use of evaluating
+a rack based chatbot
+or a rack based application
+ok, because if we know what to evaluate
+then only we will understand the differences
+so let us understand once
+what do you evaluate in a rack chatbot
+for that you should know the flow of the rack
+ok, so we will not discuss
+the flow of ingestion
+because what is the use of ingestion flow
+the work of ingestion flow is
+to prepare your knowledge base
+so generally
+you do not evaluate
+the knowledge base
+because
+what are you doing in this step
+in this step you are basically
+seeing that what documents
+have you feed your knowledge base
+from which documents
+although here also
+you have chunking step and embedding
+which affects
+your downstream steps
+but you straight away
+do not check this
+ok, you never
+in ingestion phase
+you have to keep this in mind
+if you have a question in interview
+you never directly evaluate
+ingestion phase
+here there is no direct evaluation concept
+here what is that
+whatever steps you do in ingestion phase
+you
+evaluate their effects
+you evaluate
+means
+the results of downstream processes
+the effects of those
+you evaluate
+so your key evaluation
+phase is always your
+retrieval phase
+ok
+so let's discuss the retrieval phase
+and see which components
+we evaluate
+so what is in retrieval phase
+in retrieval phase first comes
+your input query
+where do we get this input query
+so this input query is given by our user
+ok
+so what is the query asking
+what input is giving
+we have no control on this
+you have to keep this in mind
+we have no control on this
+user can ask anything
+what happens next
+this query is converted
+in one query vector
+now this query vector step
+you can say
+that
+it is not directly involved
+in your evaluation
+why because this is a carry forward
+from your ingestion phase
+in ingestion phase
+whatever embedding model you are using
+through which
+you are converting your documents
+in embeddings
+same embedding model with the same configuration
+you are using in retrieval step
+so here generally
+again you have no control
+your control is on this step
+whatever you have finalized
+fixed on this step
+you have to use the same thing
+so it is just you are
+carry forwarding the step
+after this
+your similarity is being searched
+it can be
+through any metric like
+dot product, cosine similarity
+or your
+distance based metric
+but whatever it is you have searched
+similarity and retrieved
+the top documents
+top similar documents
+retrieved
+right
+now what you do
+with this top similar documents
+you take the text of every document
+and compile it
+and build a context
+here
+so this retrieval step
+where we are fetching
+these top documents
+this is the first point
+that we are evaluating
+because in your
+rag chatbot
+the first point of failure
+we are discussing failure points
+which points
+can be your failure
+so the first point
+is our retriever failure
+that retriever is
+a step that can fail
+in your rag chatbot
+not that it will give error
+fail means
+the output quality we need
+the expected context
+we are getting something from that
+so
+the first step is
+our retriever failure
+and if you
+understand that your retriever
+failed then what will happen
+that the context will be
+do you think it will be of good quality
+the answer is no
+this context will not be of good quality
+and we are passing this context
+in our downstream process
+how? we are taking this context
+and taking our user query
+and
+we are putting it in a prompt
+this is our argumentation step
+so where did we get this query
+we got it from our user
+we have no control over it
+whereas where did we get this context
+we got this context
+from our retriever
+and
+you can change
+your retriever output quality
+using different
+configurations
+so this is in our control
+what did we do
+one factor that is not in our control
+whereas another factor
+that is in the control of the developer
+we merged these two factors
+and combined it and made one thing
+so we don't have control over
+uncontrollable we can't even
+control over it
+so what we have to do here
+we have to combine these two things
+and evaluate this whole
+chunk together
+right
+and
+what we do with this chunk
+we send it to our LLM
+what does LLM do
+it has a prompt with my query
+context and we
+instruct LLM
+to see my query, context
+and respond to it
+so this response of my LLM
+this is my second point of failure
+and this is called
+generator failure
+guys I will take your questions don't worry about it
+just understand the flow
+so we have
+two points of failure
+first is retriever failure
+where we are searching for
+similarities and the context built from it
+this context may be
+not of that quality not of that accuracy
+which we are expecting
+so this is one
+dynamic step
+and problems can be there in this dynamic step
+now because
+this context is going downstream
+so if this is a failure
+then there is a high chance that our downstream
+step will also be a failure
+garbage in garbage out you know
+so if you are sending garbage down
+then how can you expect from LLM
+that it will give you
+a good output
+these chances are very less
+so we study our second failure point
+because this is also
+our dynamic
+because till now you must have understood that
+LLM outputs are not deterministic
+they are probabilistic and highly dynamic
+so we
+evaluate the dynamic steps
+in our rag pipeline
+so always
+always remember that whenever we
+talk about rag specific metrics
+then here
+component wise if we think
+which components we are evaluating
+so first component will always be
+our retriever so some metrics
+will be of your kind which will be retriever specific
+secondly
+some metrics will be of your kind which will be generator
+specific
+whereas some metrics
+will be of your kind which
+will take both together
+this point is clear guys
+if it is clear then write
+clear in the chat and if no
+if you have any questions then you can ask
+let me see your questions
+and then we will move forward
+data ingestion
+will not be good then how will
+retriever give good results
+as I told you
+that we
+are not directly evaluating
+that step
+we are evaluating the effects of that step
+so if your data ingestion is not good
+then you will see the effects
+in retrieval
+is it clear guys
+sir chunking method will also vary
+a lot
+yes in response there will be difference
+difference will come in that
+but it is not that
+it is make or break
+it is not make or break
+generator failure
+again yes
+so I will explain generator failure
+in your rag pipeline
+basically there are two moving components
+which as a developer when I am building
+this application in my control
+there are three moving components
+input, retrieval from where context is being built
+and generation but input
+is not in my control, input is in my user's control
+so what can I evaluate
+when I am
+developing my application
+then I can evaluate only two things
+first is my retriever
+and second
+is my generator
+and this generation step
+I am getting from my LLM
+so generally
+what you evaluate in generator case
+in generator case
+you evaluate that I gave
+correct query
+correct context
+it is possible that
+query is obviously given by my user
+so query is also correct
+context which I have retrieved is also correct
+why my generator is not able to generate
+accurate response
+why my generator
+is hallucinating
+even though I have given it proper context
+why my generator
+is not able to
+give specific
+output of my application
+it is possible that I am
+expecting output in a particular format
+but it is giving me output in some other way
+so these are your
+generator related failures
+and retriever related failures are
+where you build your context
+is it clear guys
+now it is possible that you find this
+a little confusing but when you
+read individual metrics
+then you will understand which are retriever
+specific metrics and which are generator specific
+don't worry about it
+so far what I explained is clear
+I am looking at the chat
+we evaluate
+rag and two steps
+evaluation metric will be of three types
+retrieval generator and final
+what is a final system
+when you do rag based evaluations
+then generally you do component wise
+evaluation because rag has
+a sequential flow
+so if you are messing up the context
+then your context is going downstream
+rag final output
+what is your generator failure
+that is the response
+so far it is clear
+two point of failure
+now we will discuss
+these are our two
+point of failures
+we will discuss that in any LLM based
+application
+what are the differences from your other
+machine learning based application
+or in general your LLM based applications
+behave a little differently
+and why do you have to
+evaluate them differently
+first problem in your LLM
+based application is
+that is
+there should be no determinism
+the lack of determinism
+as we have already discussed
+what are your LLMs
+those are your probabilistic models
+so in most of the cases
+for the same input
+same input means
+same input where exactly
+the same words are used
+in the same order
+you don't get to see
+the same output here
+output always changes
+but it is not that
+if your output has changed then
+that output is wrong
+in most of the cases your output is correct
+but what is there is that
+your order has changed
+your output length has changed
+there may be different words used
+but the output is
+ok it is accurate
+so what we have to do
+if we are evaluating
+any LLM based application
+then we can't directly
+evaluate
+a ground truth
+like
+let's say I have already
+a ground truth available
+what does ground truth mean
+the accurate answer
+so I can't directly
+compare it with
+my response
+I will explain
+what is the difference
+between machine learning
+but you can understand
+the output I am getting
+that is probabilistic in nature
+so I can't compare it
+in any way
+you can understand
+that I have an answer
+the actual answer is written
+but the answer I am getting
+from the LLM is
+changing every time for the same input
+so I can't directly
+compare it with word to word
+is that clear
+and the biggest reason for this is
+lack of determinism in my application
+second reason is
+second reason is
+that in LLM based applications
+especially in my drag applications
+in my drag applications
+there are multiple points of failure
+it is multi dimensional in nature
+what does multi dimensional mean
+there are multiple moving parts
+you can see
+your drag application is divided into two phases
+one is your ingestion
+one is your retrieval
+and then there are multiple components
+in your ingestion
+and multiple components
+are working in your retrieval phase
+they are related to each other
+someone's output is working
+for the other person's input
+so here because there are so many moving parts
+so the whole approach of evaluation
+becomes multi dimensional in nature
+here we have to
+evaluate many things
+is this clear
+third is that
+here you have no
+fixed criteria
+of correctness
+again this comes from
+your no determinism
+because here you are
+generating many responses
+and it is possible that
+all the responses you are generating
+those are correct in nature
+nothing is incorrect from that
+but you match word to word
+and if you have
+an answer key
+you can't directly compare it and evaluate
+and you also understand
+that if you can't directly
+match the answers and evaluate
+then how will you score
+scoring is also an issue
+how will you believe that
+if I have one answer A
+and one answer B
+then how much percent is A correct
+if I am checking accuracy
+so how accurate is it
+is also difficult to judge
+how accurate is A and B
+because it is possible
+that both the answers are very similar
+but there will be some details
+minor nuances that I have to
+decide and according to that
+I have to decide accuracy
+so not only comparison is
+difficult here, scoring is also difficult
+here many concepts come
+like your complete scoring
+partial scoring
+you have to take many things here
+is it getting clear now
+is it getting clear guys
+is it not difficult that we are discussing
+because it is very important
+yes clear
+so here I have
+written some points
+let's discuss these points
+whatever we have discussed below
+actually the points are written here
+suspense is increasing that's great
+so why your
+LLM based applications
+are fundamentally different
+first of all your output type
+your output is a text
+with no fixed
+set of possible values
+any value can be there
+what you did is simply
+you changed the order of words
+so your output is completely different
+let's say
+I gave an output
+Hi, my name is Rahul
+this is one output
+and the second output
+let's say
+Rahul is my name
+it is possible that it is wrong English
+we are not going on grammar
+but you can see that both these sentences
+are telling the same thing
+they are telling my name
+so both
+are clarifying
+their intentions
+but I can't directly
+compare it with any answer key
+and why is that
+because here is a free form of text
+as output
+it is not a closed output
+like in machine learning
+ok, what happens in machine learning
+let's say we are working on
+classification problem
+so output will be either 1 or 0
+it can never be
+something in between
+whereas here you can
+use any length
+simple, complex, any type of output
+it is difficult to compare
+second
+quality is subjective
+and multi-dimensional
+as I told you that you have two responses
+A or B
+which is good, how will you judge
+how will you score
+what will be the criteria
+and second problem is that
+it is a multi-dimensional problem
+here are many moving parts
+you have to evaluate every moving part separately
+how should be the final evaluation
+let's say you have evaluated the retriever separately
+you have evaluated your generator separately
+but the final score
+that your application is fail
+pass, how will you do that
+so many things are very difficult
+here
+again, this point is repeated
+that you have to evaluate retrieval
+you have to evaluate generation
+your application is not
+hallucinating, you have to evaluate all these things
+here
+again, determinism problem
+same input can produce slightly
+different outputs in each run
+ok
+second is that
+correct output is but factually incorrect
+means the output you are getting
+is correct
+here
+instead of Rahul, you are getting
+Hi, my name is Amit
+so my query
+my user's query
+it was let's say
+just a second
+yes
+so my user's query was
+let's say
+tell me the
+name of
+student with run number
+let's say 123
+Amit told me
+so now here
+my rag chatbot is understanding the intent of my query
+I asked him
+tell me the name of this student
+he is giving me the name upside down
+he is not giving me any definition
+no fact
+he is telling me the name
+but the problem is that
+here it is not factually correct
+the name of 123 roll number student
+was not Amit, it was Rahul
+but what I got in response
+so in a rag chatbot
+I have to check
+that in response
+the facts that are coming to me
+the facts that are being presented to me
+are they correct or wrong
+so again it is one more pain point
+which I have to evaluate
+so I am explaining you that
+this evaluation of a rag chatbot
+it is multi-dimensional
+here you have to evaluate different views
+in focus
+it is not as simple as your machine learning applications
+is this thing clear guys?
+if these points are clear
+then write clear in the chat
+and then we will read what is the difference between
+your machine learning and your LLM based applications
+is it clear?
+clear
+now let's understand
+what is the difference between your LLM based applications
+and machine learning based applications
+while doing evaluation
+we have done machine learning
+we have done evaluation
+we have used different metrics
+whether it is regression problem, classification
+or recommendation system
+we have generally evaluated all ML models
+now
+we are making LLM based applications
+so let's understand the difference
+between both while doing the evaluation
+the first difference
+that we understand
+is the output type
+as I told you that in machine learning applications
+the output is a
+closed form of output
+you are getting either 1 or 0
+you are getting a particular category
+whereas here there is free form text
+anything can happen in text
+your evaluation is very difficult
+you can do direct comparison
+in LLM based applications
+you can't do direct comparison
+in LLM based applications
+how do we do evaluation in machine learning
+we do comparison
+especially in classification
+we check
+that our predicted value is 1
+what is the actual ground value
+what is the target value
+let's say target is also 1
+so we say that this is 100% accurate
+here 1 came
+I had the actual value
+which was 0
+so I will say that accuracy is 0%
+so I can do direct comparison
+I can use
+a framework like pyTest
+and write direct assert
+and do comparison
+in LLM based applications
+this is not possible
+second here is
+I always have a ground truth
+whenever I do
+test data through evaluations
+I always have a target column
+I am talking about supervised ML
+always there is a target
+but how will you tell in
+an LLM based application
+that this particular output is correct
+or this particular output is wrong
+if I tell the example of Rahul
+and Rahul is my name
+how will you tell that this one is correct
+and this one is correct
+and how much is correct
+who will do comparison
+all these things come into consideration
+then there is evaluation criteria or metric
+in your LLM based
+applications
+there is no straight forward criteria
+in machine learning applications
+there are straight forward criteria
+and the best thing is
+that you can mathematically calculate them
+it is basically a formula
+you can directly
+compare and get accuracy
+precision, recall
+F1 score
+very easy
+there is no much compute
+simply you have to do your predicted values
+your y hat and y
+you have to do comparison between them
+and that's it
+so here your metrics
+ML based systems are simple metrics
+whereas in your LLM based applications
+your metrics are complex
+and along with that
+your metrics are changed
+as soon as the application is changed
+your RAD based metrics will be different
+your chat summarizer metrics
+will be different
+your agentic metrics
+will be different
+if you are making any LLM based application
+then you have to use
+application specific metrics
+and in every application
+your workflow is different
+according to that your metrics are changed
+fourth point
+which is very difficult
+in an LLM based application
+and we will cover it in detail
+we have called it the biggest hurdle
+data set is the biggest hurdle
+while doing the evaluation
+that is our data set creation
+in ML systems
+what you do is
+you use sampling
+you already have a data
+you do sampling from it
+you do sampling from it
+and you set some data as training
+and some data as test
+you do train test
+you do a hold out approach
+but here we don't have
+any data set to start with
+we have to
+do the evaluation
+and this is the most difficult
+work
+because in your LLM based application
+especially in RAD application
+there are so many moving parts
+for this part you need
+a different type of data
+and I will tell you
+what other problems come
+in a RAD based application
+when we come to the next slide
+so being a data set for evaluation
+for testing is the biggest hurdle
+in LLM based applications
+fifth is your determinism
+we have discussed this point in detail
+and sixth point is what can fail
+in your ML based
+systems if the evaluation
+fails then what will fail
+will your application fail
+the answer is no, your model will only fail
+what you can do is
+improve your model
+it is possible that the data set
+on which you are training your model
+is complex so you can use some other
+algorithm some more complex algorithm
+you can improve your model by
+doing hyper parameter tuning
+whereas in an LLM based application
+your entire pipeline gets destroyed
+your retriever is bad
+but in an LLM based application
+you have used SOTA model
+state of the art model
+you have used the latest GPT model
+I am saying you have used
+Mythos and Fable
+but if your retriever is bad
+then no matter how good
+model you use
+the final result of your application
+will be useless
+so here if
+any component of yours
+fails then it costs you
+your complete application
+your complete pipeline whereas
+in your ML systems if your model
+fails then what you have to do is
+use another model or
+improve your existing model
+there are no multiple points of failure
+so fixing anything
+if you are below
+threshold is easy
+is this thing clear
+now you understand the difference
+why LLM based applications are
+different while doing the evaluation
+how to separate LLM from ML
+right, now moving on
+to the next slide before that
+I will take your questions
+if you have any questions
+you can ask me
+whatever point we discussed
+now you understood
+ok this whole slide was
+theoretical
+if you understood then write
+clear in the chat and then we will move forward
+if you have any questions
+you can ask me
+clear
+so basically
+what we discussed for half an hour
+in that discussion
+we understood
+what are the pain points
+here we discussed
+no solution
+here we discussed
+the pain points
+and around which
+our LLM based application
+when we go to evaluate
+around that
+the pain points why it is called difficult
+we discussed that here
+but is it
+logical to finish the class on pain points
+the answer is no
+we are here, now what we have to do
+we have to discuss solutions here
+what I told you
+that here we will
+understand from the first principle approach
+that how you evaluate
+LLM based applications
+so first of all what we did here
+identify the problems which is very important
+now what we will do
+we will build up solutions here
+and whenever we will build up a solution
+we will question ourselves
+we will judge it, it is not that without verifying it
+we will move forward
+I will discuss it with you
+and when you will say yes
+this solution is working
+then we will move forward
+is this clear
+clear
+let's go towards the
+next slide and discuss
+about the biggest hurdle that is the data set
+now
+you understand this scenario
+that you have a rag application
+now you forget
+that we are talking about
+the first application
+any general rag application
+and you have to evaluate it
+ok
+you know this too
+you have read it on the internet
+that there are two points
+of failing on your rag application
+your retriever can fail
+and your generator can fail
+these are two points of
+failure
+but whenever you go to test something
+then you should have
+testing criteria
+let's say you are sitting in an exam
+so
+you will conduct the exam
+what do you want first
+do you want to
+define how I will score the exam
+or do you want to define
+what will be the answers
+or do you want to define
+what will be the questions
+to start any exam
+what is our first prerequisite
+question paper
+we need a question paper
+where we will test
+our students
+or the students who are giving the exam
+here also
+we are doing this
+what is our rag application
+you understand that our rag application
+is a student
+this is a student
+and let's say
+this is the board exam
+science's 10th board
+and this student
+has read the entire NCERT
+rag application works like this
+what is there in rag application
+we have a knowledge base
+knowledge source
+you understand that this is our raw book
+and the knowledge base is its vectors
+for now let's assume that our knowledge base is our NCERT
+now
+what this student has to do
+according to this
+whatever question paper
+has a question
+we have to write the answer
+but remember one thing
+what should be the answer
+the facts written in the answer
+should be in my NCERT
+and as an examiner
+what I have to make sure
+I have to make sure that when I
+set this question paper
+then the questions I am setting here
+should be in my knowledge base
+in NCERT
+so you understood both the points
+what I am expecting from my student
+whatever points my student is mentioning
+should be in the book
+is this clear
+and what my student is expecting from me
+that any question is not outside the syllabus
+whatever question is
+from inside NCERT
+is this clear
+yes
+so you understood the scenario
+that which scenario we are checking
+now what I have to do
+I have to set my question paper here
+because I have to evaluate my student
+so
+if I am a teacher
+and I am setting the question paper of the board
+and today is the exam of science
+so whenever I go here to set the question
+so should I
+set the question paper in one shot
+the answer is no
+so I have to do this
+so what will be my first requirement
+to set this question paper
+I have to
+that I have to have a science teacher
+who will set this question paper
+the math teacher
+can't set the question of science
+why?
+because he never
+read the book of science here
+of NCERT
+so I need one domain expert
+who can set this question paper
+ok
+next what I need here
+I have got a teacher
+who is a science teacher
+and can set the question paper of science
+next I need from this teacher
+that he
+NCERT key concepts
+which are in the book of 10
+where are they
+I need to have knowledge about them
+which are they
+that's why I can set a good
+question paper
+if I ask you a simple question
+that you are giving board exam
+and in your question paper
+majority of the question paper
+came from last 3-4 chapters
+so do you think that question paper will be good
+or different topic from the whole book
+has been catered in the question paper
+you can evaluate it better
+I am looking for answers in the chat
+ok again today's session will be
+interactive
+what scenario is better
+from 5-6 end chapters
+I have set all the question paper
+full coverage
+what will be the benefit of full coverage
+that I can check
+different aspects of my student
+aspects means
+that I can check how good they are in biology
+how good they are in chemistry and physics
+ok
+so I want to set a full coverage question paper
+here
+but full coverage question paper
+is the biggest problem in setting
+problem is
+that I can't include
+many questions in my question paper
+not the compute power
+we are talking about manual work
+we are not talking about
+evaluation
+simply I am the teacher
+I have to set the paper and test the student
+ok
+so the biggest problem is
+that I can't include endless number of questions
+in my question paper
+so I have to set the paper and
+there should be only 15 questions
+in your question paper
+so what is my first
+pain point while
+making this question paper
+first pain point is
+that I want full coverage
+but
+I have only
+limited questions
+means
+I have to set my application
+or my student
+I want to test my student
+in every aspect
+but
+the problem is
+that I don't have
+the possibility to set
+many questions
+so here comes the dilemma
+that I have to set
+a paper
+where I can
+maximize
+my coverage
+and
+and
+my questions
+range
+can be increased
+while keeping in mind
+that here
+should not be more than 15 questions
+and do you think
+that here if I don't have
+full knowledge of this book
+let's say I am a science teacher
+who teaches
+without any NCRT
+so I have
+become a teacher from faris
+so I have never read NCRT
+and I use old
+sample papers
+and on the basis of
+previous questions
+I send them to paper
+so do you think that I am
+the best candidate to set up this paper
+the answer is no
+what kind of teacher do I need
+who has written NCRT
+he should know which key
+is covered here
+and whoever I set up
+the paper here
+should be highly impactful
+means in 15 questions
+the questions should be so good
+that I can test
+my students properly
+and
+another thing that I have to see here
+is that the difficulty level
+should be mixed
+if I set
+15 questions difficult
+do you think that I can
+evaluate my students properly
+maximum students will fail
+and if I show leniency
+then I won't be able to
+differentiate
+90% of all will come up
+so how will I know which
+high performing meritorious student
+are you able to understand the problem
+in evaluation
+guys
+yes
+so what do we need here
+if we want to evaluate
+our students
+then we need
+a teacher who
+knows all this
+ok
+recording is going on
+fine
+he should know all this
+and he has read NCRT
+here
+now what is the next problem
+next problem is
+do you think
+is it humanly possible
+that one teacher
+sets 15 questions
+and I am head of examination
+and I include the 15 questions
+set by one teacher
+in my paper
+do you think it is a good strategy
+or I do this that I have a pool of teachers
+I have a pool of teachers
+and I
+ask every teacher
+to set 50 questions
+let's say I have
+5 teachers
+5 is more
+let's do 3
+and I will do 30 instead of 50
+so what I am doing
+among these pool of teachers
+3 expert teachers who have all knowledge
+about NCRT
+I am telling them that you
+set 30 questions from your end
+and as head of examiner
+what will I do here
+I will take all these questions
+and I will select 15 best questions
+which approach is better
+this one or
+this one
+second one is better
+but again here comes a problem
+problem is
+if I take this approach
+then I have to prepare 90 questions
+this is taking more time
+and
+consuming more resources
+whereas if I
+do this particular thing
+then it is taking less time
+and resources are also less
+but I will take this
+particular approach
+why
+what is the benefit of this approach
+the first benefit is that
+I am mixing up different
+teachers' questions and setting
+one or better question paper
+now what is the benefit in this
+one of these science teachers
+teaches biology, chemistry,
+biology teacher
+will have bias
+against biology
+he will want to
+keep 7 out of 15 questions
+which should be 5
+physics teacher
+will want to keep physics
+because it has more hold on physics
+I want coverage
+but what I want
+besides coverage
+I want equal proportion
+here you can say
+non biased approach
+what is equal proportion
+non biased, equality
+so here I
+want coverage and
+non biased approach to evaluate
+so here
+what I am doing
+here I am taking 90 questions
+although it is taking more time
+and compute, still I am following this approach
+next problem here is
+that the 90 questions
+which I have set
+I have set 90 questions
+from that
+I have selected 15
+now
+the criteria to select 15
+don't you think that
+this should be
+a proper criteria
+for this also I need an expert
+expert
+who
+fetched the best questions
+here
+keeping in mind that
+coverage is also happening here
+there is no bias, equal proportion
+now because here I have
+written these questions from my teachers
+so what will my teachers do
+they have knowledge of NCERT
+they said open the book
+the important parts of the book
+they made questions from them
+and they have written answers
+in it
+now don't you think that
+it is a better approach that
+these 15 questions which I have selected
+should I improve them
+in a way that
+the questions written by my teachers
+from the book are straight question answers
+straight means
+what do you mean by photosynthesis
+its answer, what do you mean by
+gene
+its answer
+now what I have to do here
+for different marks
+questions
+I have to set the complexity in different ways
+question can be of photosynthesis
+but I can also add
+that explain the
+steps through which
+chemical equations through which
+this process is happening
+so its complexity will increase
+so what I have to do next
+is to tune them
+these 15 questions are with me
+I have to improve them
+so what I will do
+is to tune them
+in that
+what I will do
+is to improve it
+and in deep eval
+it is given a term
+your evolution
+I evolve my questions
+I make them
+multi aspect
+I make them multi dimensionality
+so that they can cover
+different aspects
+it is possible that in some question
+I judge how my student's reasoning
+power is
+in some question I judge his aptitude
+in some question I judge
+how well he can present facts
+so I want to cover
+my student on multiple aspects
+and don't you think
+that now
+after this final process
+the question paper that I will have
+it is worthy of testing my student
+this whole effort
+now the question paper
+that I have
+is a good question paper
+and through this I can test my students
+don't you think
+first of all tell me how did you like this example
+simple to understand
+this whole discussion
+was understood great
+because the way
+to prepare the data set
+in deep eval
+it follows the same flow
+and our next
+lecture which will be on monday
+we will cover this whole flow
+in detail
+I will repeat once
+don't worry about it
+but I will tell you what exactly happened in deep eval
+we will not go into details
+we will stay in overview mode
+and understand this whole thing
+I will explain all that
+those are your parameters
+you can adjust
+I will explain the ideal size
+we will read in next lecture
+what should be ideal size and what should be minimal size
+very complex things
+Arun I didn't understand your question
+can you repeat your question Arun
+this whole scenario
+did you understand the whole scenario
+student teacher
+if you explain it well
+that's great
+I will change you
+in this scenario
+scenario is
+we will replace our student
+with our rag application
+we will replace it with our rag application
+whether you want to use campus x rag application
+or any other application
+that will do
+and we will replace our teacher
+who is setting our exam
+with deep eval
+or any other framework
+which is preparing our data set
+ok
+and
+we are not telling
+how to do the evaluation
+we have not discussed
+what to do with your answer sheet
+we are simply saying
+what you have to do is
+test your student
+step no.1 of testing is
+you should have a question paper
+to begin with
+how to make question paper
+that is our point of discussion
+ok
+first of all
+what is the problem with deep eval
+deep eval or any other framework
+the biggest problem is that
+in rag application
+you have to test your two components
+first is your retriever
+and second is your generator
+your student has these two things
+and you have to evaluate
+on these two things
+now the problem is
+what is your receiver
+it depends on
+what will it retrieve
+it depends on your knowledge base
+what is stored
+now what you have stored
+what kind of chunks you have made
+it depends on
+what kind of embedding you have done
+it depends on that
+I have told you that you study effects
+you can't directly study embedding
+how will you study embedding
+I have told you that
+we can't study it
+we can't evaluate it
+after chunking
+who will tell you if chunking is good or not
+you will know this
+when you will work on retriever
+there is a student
+who is able to solve math problems
+which are given behind the chapter
+but is he able to solve
+the questions given behind the chapter
+does it guarantee that
+he will solve it well in board exam
+no, in board exam
+you will get the answers
+complexity of questions
+it may be familiarized
+with the questions
+behind the chapter
+but in board, scenario is different
+similarly
+what is your chunk size
+what is your chunk overlap
+what is your embedding model
+you can't directly evaluate it
+there is no mechanism to directly evaluate it
+the way to evaluate it is
+you evaluate its effect
+first of all, you see in the retriever
+so whatever you have done in your ingestion phase
+or any mistake you have done
+you will know in your retriever
+that yes, there is a mistake here
+ok
+so this is directly linked with your knowledge base
+retriever retrieves from where
+from your knowledge base
+which is your vector store
+it is coming from your vector store
+and generator
+generator is directly linked with your retriever
+what is generator
+today is your LLM
+now it is getting only two things in input
+first is your augmented prompt
+in which the query is given by your user
+there is no control on it
+control is on the context you are giving
+so if this context is bad
+then your LLM can't do anything even if you want
+and second is the one you are passing the instructions
+in the system prompt
+so it is getting only two things
+everything is depending on this
+is this thing clear?
+yes, you can say that sir
+who is the LLM provider, how is the model
+is it powerful, is it weak, it depends on those things
+but it is not like
+if you are working with a mini model
+like we are working with GPT-5 mini
+but you gave it a proper prompt
+made a proper context
+so don't you think that it will behave better
+as compared to
+you take GPT-5
+take GPT-5O
+give such a model a lower context
+then you can't expect from it
+so here the generator
+is depending on your context
+and the context is
+depending on the processes
+you have done till the vector store
+is this thing clear?
+yes
+so what are we doing here
+we are testing our rag application
+which is our student
+on these two criteria
+retriever and generator
+now what I have to do first
+first of all
+as a teacher
+or as deep eval
+I should know what is in my knowledge base
+because what is my knowledge base
+my ncrt
+this is my ncrt
+this is
+what my retriever or student
+has studied from
+and what he has studied, what he remembers
+so he is able to answer on the basis of ncrt
+so if he has studied properly
+then he will answer properly
+he will mention all the steps
+if he has not studied properly
+then he will not answer
+but as a teacher what is my goal
+my goal is to prepare my paper from ncrt
+not from outside
+so deep eval
+like framework, what do we do first
+here is to understand your entire
+context
+means your entire knowledge base
+understand this
+how do you understand
+here basically what they do
+they try to number one
+increase coverage
+number two
+here your every context
+which questions are generated
+their quality should be good
+so what is the first step
+the first step is that your knowledge base
+is broken into chunks
+now we are
+in overview understanding the flow
+so you had knowledge base
+which is your ncrt book
+what you did is
+chapter by chapter or page by page
+you broke it into chunks
+now
+because you have to include
+only 15 questions in the final question paper
+so you can't make a question from every page
+so next
+what you have to do is
+you have to do some filtering
+and what I told you
+if you want a teacher who is expert
+so what we use
+for filtering
+we use a critique
+and in critique also we use
+an LLM
+what it does is
+randomly
+we had multiple chunks
+multiple chapters information
+multiple paragraphs information
+we randomly go and pick
+some pages
+so my teacher is an LLM
+so he can't read all the book
+so what he will do is
+randomly pick some pages
+and evaluate them
+that is this particular page
+is it worth to make question on it
+or not
+will it be useful
+in my app
+so he evaluates
+and basically he does filtering
+by filtering
+he gets
+30 topics
+what I did here
+I gave every teacher 30 questions
+so he gets 30 topics
+and
+now what he does on these 30 topics
+he
+on these 30 topics
+he assembles
+context
+so 30 major topics
+he gets them
+and what he does is
+he looks at other topics
+which are
+similar to these 30 topics
+so let's say
+in my book page number 1
+page number 3 and page number 5
+they are similar
+so what he will do
+1, 3 and 5 together
+make a chunk
+let's say in my book page number 10
+page number 12 and page number 13
+are similar
+so what he will do
+he will make a chunk
+by mixing them
+so what he did first
+let's say in my ncrt
+there were 500 pages
+so he breaks my ncrt page by page
+in that he randomly
+took out 100 pages
+or 50 pages
+or 30 pages
+and after that
+whatever page he filtered
+he first checked
+if he can make questions from these pages
+if he can make
+then what he will do
+by mixing them together
+compile other pages information
+why is this done
+because my coverage can increase
+non-repeating
+questions should be reduced
+if I will not
+do them together
+I will make one question from page number 1
+one from page number 3
+and one from page number 5
+and in all three pages
+I will make three questions
+so I can test something extra
+about my application
+I am checking one aspect in three different ways
+it would be better
+instead of making three questions
+from this context
+I would have made one question
+checking one aspect of the application
+whereas by taking some other context
+I would have made other questions
+because the problem is
+the number of questions
+I have to make at the end is limited
+I can't make unlimited questions
+so what is the first step
+check all the context
+and filter them
+to see which questions
+should be made
+and then compile them
+so what happened
+I have a group of context
+ok
+in this group
+there are three pages
+in this group there are five pages
+in this group there are only two pages
+but I have different context
+these are different context
+you can understand them
+what is the benefit
+the benefit is that the coverage has increased
+clear
+now what I have to do next
+now here
+if I make these questions
+from one teacher
+then there can be some bias
+so what I will do here
+I will take different teachers
+what does it mean to take different teachers
+I will make multiple questions
+from every topic
+not one question
+I will say that these are final 30 topics
+and from every topic
+three questions will be made
+and these three questions
+although my LLM will make
+but if there will be three API calls
+then three different questions will be made
+three different parts of the context
+will be focused here
+so at the end of the day I have 90 questions
+can I include these 90 questions
+the answer is no
+again I will filter here
+here an LLM will be used
+which will do the filtering
+will do the critiquing
+and will take out 15 questions from this
+15 questions which I think will test my application
+overall
+now these 15 questions
+which I have are raw questions
+raw means
+these are questions
+which will directly answer
+means in my NCERT
+there is a topic written
+there is a text
+I have made a question from it
+and the answer of that question
+is given in the book as it is
+so no need to work hard
+what I want is
+I want to test my student in different ways
+I want to test his reasoning capability
+I want to test his aptitude
+mathematical aptitude
+I want to refine my question
+I want to make it a little tricky
+because this is a board paper
+not a school exam
+so what I will do here
+I will evolve the 15 questions
+and the process of this evolution
+is based on your research paper
+we will see that research paper
+in the next lecture
+because we will read this whole flow
+in detail in the next lecture
+our main topic will be in the next lecture
+how to prepare for the exam using DPVAL
+and I will make these questions better
+and after doing better
+then I will evaluate them
+that when I make these questions better
+then are they matching my criteria
+or not
+if they are doing then what I will do
+finally the 15 best questions
+which are evolved
+which are a little tricky
+which are worth writing in the board paper
+I will make my question paper on the basis of them
+this is my complete journey
+through which I prepare my data set
+is it clear guys?
+it is clear
+again you don't need to
+remember this whole flow
+we will see it in detail
+how it is done in DPVAL
+in the next lecture
+I just wanted to explain you in this lecture
+that making this data set
+making this question answer
+is such a big problem
+yes we will see it in the next lecture with flow chart
+now this was just an explanation
+I hope you have understood
+the scale of problem here
+that how big is the problem
+now I have started testing
+and part number one of testing
+that is my question paper
+it is so much difficult to make it
+so how much effort is there
+to score in the future
+are you understanding
+how different is it from your ML based system
+in ML based system
+you had test data
+you used to evaluate
+and calculate the matrix
+how much problem is there in LLM based application
+and now this is rag application
+generally rag applications
+take a linear flow
+there are some conditional flows
+but not many steps
+now you think there is an agentic flow
+where it is working in a loop
+how difficult is it to evaluate
+it is working in a loop
+you can understand that different rounds of interview
+yes we will discuss
+all your questions around data set
+when you cover
+next lecture
+then you will understand
+after that we will discuss in detail
+now we have discussed in overview mode
+actual step by step
+where filtering is done
+how it evolves
+what is the mechanism of evolution
+we will discuss all that
+how you can customize it
+and we will implement it in code
+this is the part of data set creation
+so in next lecture
+after theoretical study
+we will see how you implement it in code
+and create your own data set
+is this clear
+this flow is clear
+is this clear
+so you write clear in the chat
+if you have any question then you can ask me
+then we will move forward
+any questions guys
+are you enjoying
+we will discuss
+so we will discuss further
+we will discuss chunking strategy
+what is best
+now we will evaluate
+our application which we have made
+the best strategy is
+you have
+multiple values of
+every component
+so with experience
+you choose some subset
+and after that
+you experiment
+let's say I have 10 types of chunking strategy
+I have finalized 2 of them
+and for my rag application
+I think these 2 will be fine
+from those I experiment
+I make a chunking strategy
+through that I build my rag application
+and evaluate
+I lock the scores
+the experiment tracking is this
+we will lock the evaluation in our application
+save it
+after that we will change our chunking strategy
+after changing
+we will lock the strategy
+then we will evaluate
+then we will compare both the strategies
+we will do this for every component
+many questions have come
+we will make a question
+and after giving the rag
+we will evaluate
+yes, this is DPVAL
+now we will move forward and discuss
+now you understand from the first principle approach
+what we have done so far
+now we have only discussed how to make our question paper
+so we have solved problem no.1
+to a small extent
+what are these problems
+internally and domain problem
+have to sales proposal
+we will discuss how to make custom metrics
+in evaluation
+we will spend good time
+don't worry about it
+is it clear? this point is clear
+now we will discuss how to set up the question paper
+we have cleared this point
+now we will discuss how to set up our question paper
+but what are the possible solutions
+how will we set up this question paper
+here you have 3 approaches
+not more than 3
+first is manual creation
+now we will talk about this data set
+whenever I talk about data set
+now consider it as your question paper
+again we have not discussed this
+now we will discuss about student and teacher analogy
+so we have to set up this question paper
+we have 3 logical solutions to set up this data set
+first is manual creation
+what does manual creation mean?
+that as a developer
+I have to set up these questions
+now the first problem in manual creation
+is that whatever is stored in my knowledge base
+I should have an idea
+because what we are doing in manual creation
+we are setting up questions with the help of a human
+as we are setting up questions with a human teacher
+so my teacher has to set up all the questions
+so my teacher should have an idea about the information
+in every page in NCERT
+next he should also set up the paper
+that the coverage should be high
+only then the testing will be good
+if I keep the coverage low
+I will not include all the aspects in my question paper
+so I will not be able to test my students properly
+if I set a tough paper
+then my student should not pass
+although he was worthy of passing
+but because I set my question paper so difficultly
+that he is not able to pass
+whereas if I set it leniently
+then it will be difficult to differentiate
+so I have to take a balanced approach
+in coverage and difficulty
+I have to take a balanced approach
+so I have to take a balanced approach
+so the evolution I am doing
+I am upgrading my questions for different aspects
+I have to do this very carefully
+and I have to keep this approach probabilistic
+and dynamic
+it is not like if I am improving my questions
+then all the questions will be tested
+in my aptitude
+or all the questions will be tested in reasoning
+all the questions here
+let's say if I am making a question
+around practicality or practical work
+then all the practical questions will be tested
+theory is nothing
+it should not be like this
+it should be balanced
+it should be mixed questions
+so what is the first problem
+the first problem is
+whatever is in the knowledge base
+its idea
+make sure that it is coverage
+and whatever questions I am creating
+in the data set should be balanced
+now in manual creation
+because we are using humans
+so humans have their own factors
+first of all
+bias
+so if I am setting these questions
+then it is possible that the bias of my teacher
+like I said the bias of physics teacher
+will be towards physics problems
+chemistry problems
+bias
+second problem is
+if you are working with humans
+it is a human resource
+so it is possible that human resource is unavailable
+it is possible that he is not in the mood
+to do proper evaluation
+to set proper questions
+he may be sick that day
+so he may not be able to set good questions
+so there are multiple ways
+because of which
+your data set creation
+or question paper creation may be bad
+third problem is
+third problem is
+it is very costly to get this work done
+because manual labor is involved
+so you are setting three teachers
+to set the paper
+so you are paying their salaries
+fourth problem is
+fourth problem is
+let's say
+your knowledge base is updated
+your NCRT
+some chapter is cut
+it is possible that some chapter is changed
+some detail is changed
+so now my teacher
+will have to go
+and read NCRT again
+and he should know what things are updated
+what are the changes
+so in manual
+update cycle
+you can't manage it
+and fifth
+problem in manual
+is
+around your scaling
+you are getting one exam done
+so you need a lot of manual labor
+you have to do multiple exams
+multiple subjects
+so you can see
+how much scale is there
+of manual effort
+is it clear?
+second thing
+second approach is
+historical data
+there is not only one way
+to make question paper
+this is also the way
+that the previous year question paper
+is already there
+I can catch them
+and fetch some questions
+and make paper
+here if I explain the perspective of
+historical data
+from the basis of RAT
+so my application is in production setting
+so in production setting
+my users are asking questions
+and whatever
+question they are asking, I am locking it
+saving it
+so I already have
+my question
+so I can make
+my question paper
+yes I can make question paper
+but the problem is
+when I need answers
+although I have answers
+if I
+take previous question papers
+and make one question paper
+and I have to do scoring
+so I have answers of students
+but how do I know that the answer
+is correct?
+so I have to write the correct answer
+so that is again
+an issue
+third method is
+to use synthetic data
+if I tell you from paper example
+what is synthetic data?
+you can understand it like a key
+make it
+question and answer pairs
+in rag application
+what is in rag application?
+that we are using
+any framework
+like deep eval
+we are generating
+our question answer pairs
+for evaluation
+we are setting our question paper
+using synthetic approach
+is this clear?
+so what we discussed is
+we have to set question paper for evaluation
+and to set that
+we have three approaches
+manual where we are setting through humans
+what is the problem in humans?
+it is bias
+you have to take care of coverage
+cost, scaling, many issues
+second is historical data
+what is the problem in historical data?
+whatever you are interacting with your application
+users, you are making their questions
+but again there is the same problem
+it may be that you are using only one type of user
+not having much coverage
+then you have to test the responses
+of the questions
+that LLM is giving
+whether they are correct or not
+so you should have the actual correct answer
+for that
+again you have to put manual effort
+third approach is synthetic data
+using some smart technique
+using some smart way
+we automate this approach
+how good it would be
+that we simply take our knowledge base
+and apply that smart approach
+on it
+and it goes to this knowledge base
+and reads it
+and on its basis
+it prepares questions for testing
+and also prepares the answer
+that we have answered
+so don't you think it is
+a smart approach
+now I don't have the issue of scaling
+because it is an automated method
+so I can
+if I have a computer available
+then I can scale it
+so I don't have the issue of
+regular updates in my knowledge base
+because if the update is complete
+then I have to restart this pipeline
+and again
+my data set will be ready
+now it is clear
+I don't have the biasness of the human
+I don't have the fatigue
+I don't have the illness
+again because it is an automated method
+the cost is less
+now it is clear
+now it is clear
+these 3 solutions
+synthetic data
+is not clear because we haven't discussed much
+now consider it as a smart approach
+through which we are getting all this done
+there is no human here
+now we haven't discussed
+what is this smart approach
+now it is clear
+now it is clear
+so now we have understood
+that going forward
+whatever we will do
+evaluations
+for that we will make synthetic data
+means our data set
+will not be made by any human
+or will not be made on previous user input
+output
+it will depend on a smart approach
+which will take our knowledge base
+and will make a data set
+on it
+and this is the problem
+that it should make sure
+that there is no biasness
+that the coverage is maximum
+and my application
+which is my rag chatbot
+it should test my data set
+on different aspects
+on different aspects
+and not only I have
+questions here
+I have the correct answers
+means the answer key
+should also be with me
+my smart approach will make sure both these things
+is it clear
+clear guys
+let's move forward
+if you have any doubt
+you can ask me
+I don't want to rush
+if you have any doubt you can ask
+now again
+I am not touching this much
+because this is the part of next lecture
+we will touch it in detail there
+different forms
+if the value of the row spread across different pages
+excel to pdf
+no now
+the data we are talking about
+is our textual data
+not about structured data
+structured data has different technique
+here we are talking about textual data
+we will discuss, very good question
+how can you ensure that
+the synthetic data is reliable
+it is extremely important question
+we will discuss this
+don't worry
+let's move forward
+keep these questions
+note them somewhere
+we will discuss all these questions
+in the next lecture
+here we have an 80-20 approach
+show some practical
+again in the next lecture
+and I can't show it now
+I will generate the whole data set
+and show you
+yes it is costly
+but it is less costly than human
+let's move forward
+now we have discussed this
+it is an important concept
+I need your focus
+this is an important question
+from the perspective of your interviews
+so here
+we understood in our discussion
+that the question paper
+that we have to set
+we understood that we have to do evaluation
+so we need question paper
+so the question paper that we are setting
+where we are generating two things
+that is your questions
+and your answers
+this we are generating
+in an automated way
+with a synthetic approach
+we have discussed its benefits
+and now we have
+our question paper ready
+with our 15 questions
+now what we have to do next
+next we have to
+give this question paper to our students
+and our students
+will solve this question paper
+and write their answers
+in an answer sheet
+that is what we do
+in the evaluation of a rack application
+what we did
+we have here
+question and
+expected output
+I am telling you the terminology
+question and expected output
+we have made its pairs
+this is my data set
+and we have made it in a synthetic way
+and now
+this question
+where will I give this question
+I will give this to my rack application
+as you all know that my rack application
+always needs a query in the input
+I will give a query and that's enough
+what will my rack application do
+this question or this query will go
+first it will be converted into a vector
+after converting into a vector
+here the similarity search will take place
+now the similarity search
+that I will perform
+will be done in a better way
+why because the question
+that I have made, I have not made it from anywhere
+I have kept in mind in the rack application
+that the question that is being made
+is being made from my knowledge base
+so I will not get
+any such question
+which will come out of context
+it will come from inside my context
+here the similarity search will take place
+after the similarity search
+after the similarity search
+I will get retrieved context
+this retrieved context will go
+here augmentation will take place
+and on the basis of this
+I will get a response
+what is the response
+response is the thing that my student
+has written in the answer sheet
+so what did you do, set the question paper
+you have conducted the exam
+you have the answer sheets
+of every student, you have arranged it
+roll number wise
+what is the next step
+what do you do next step
+what is the next step
+today was the board exam
+of the 10th class
+your board exam is done
+original answers
+tell me a little simple, we will compare
+we will compare, you understood
+tell me a little more simple
+exam is conducted today
+what will be the next step
+after conducting
+what is the next step
+after your exam is done
+what is the next step
+generate answers are done
+we have generated the answer
+here is the answer
+this answer is written in the answer sheet
+to the invigilator
+there is no correction
+you are missing the point guys
+it is very simple, after giving the exam
+what happens, evaluation happens
+submission is
+it is evaluation, it will be scoring
+paper check will happen
+in simple language
+then your paper will be taken for checking
+what happens in checking
+in checking
+your paper checker
+has an answer sheet
+sorry, the answer is key
+it has criteria
+written in it
+if these points are yours
+then give this much marks, if not
+then give this much marks, do this and that
+ok
+you also have to do this
+now there are multiple ways
+to do this evaluation
+one way is that you do this manually
+means
+now we have done this synthetic
+data set
+to generate
+with our smart approach
+but the answers that are coming
+that my rag application is giving me
+now what I am saying is that
+a human goes here and manually compares
+here
+and not only compare
+here also give score
+so here also the manual approach
+problem was there during generation
+problem during making data set
+the same problem will come here
+what problem will come
+the thing is that this cannot be scaled
+now here
+you
+were not able to generate 15 questions manually
+now what you have to do
+here is to evaluate
+so you will do this evaluation
+again and again
+so do you think that it is possible to do this
+with humans
+and now we are taking 15 examples
+let's say your application
+to evaluate it
+so here you have 200 question answer pairs
+and you
+are experimenting everyday
+you are changing your application everyday
+and you are doing 200 evaluations everyday
+do you think it is humanly possible
+you have to do so many manual work
+here
+if tomorrow 200 questions become 2000
+then 10x workload will increase
+so it is not scalable
+second is
+here human bias comes
+I said that
+here you have to score between 0 to 100
+so what
+you have to score every question
+there is no fixed criteria
+it is possible that one human
+scores that question
+60 whereas the other human
+scores 70 so here nothing is fixed
+and again
+there are more problems with humans
+which are in human evaluation
+I am not discussing it again
+now what I have to do
+for evaluation
+wouldn't it be better
+that I have a smart approach
+smart means that it is smart
+and also automated
+you see like this
+when you have to do board exams
+here
+then you have to do different checking
+every teacher is checked
+but instead of
+checking here
+if I had some OMR type setting
+how fast would the evaluation be
+but the problem is
+the problem is
+this is not an objective type paper
+what is my rag application
+the response of rag application is
+subjective
+so I can't conduct it on OMR sheet
+do you understand this problem
+the input of rag application
+is text
+output is also text
+whereas my machine learning
+algorithm output
+is a category
+it is like machine learning
+has an OMR response
+so machine learning evaluation
+is so fast
+you have OMR sheet
+you have score
+similarly your machine learning
+evaluation is text
+and your answer is also text
+now it is possible
+that the writing style of
+the answer generating teacher
+is different
+whereas the writing style of the student
+is different
+but if the student
+has covered all the points
+in the answer
+then don't you think I should
+score it high
+I can't penalize it only on writing style
+what I mean to say is
+when you work with text based
+intent matters
+of your answers
+actual wordings matter
+so
+your deep eval
+developers
+brought a technique
+LLM as a judge
+they thought
+that LLM
+those are trained on massive data
+and what is the benefit
+of training on that massive data
+the benefit is that
+you have the skill of NLU
+what is NLU
+natural language understanding
+they understand the language
+not only
+they understand, they can do
+comparisons between them
+they can get the intent
+out of any text
+that intent is focused
+so what if
+instead of using
+any NLP based approach
+if we were using smart approach
+instead of using machine learning approach
+why don't we use LLM
+as a judge
+what do we have to say to LLM
+we have to
+instruct LLM
+that here is your
+actual response
+from where am I getting this
+from my application
+which is the output of my application
+means the answer written in my exam
+answer
+by student
+and second thing
+what I have to give to my LLM
+expected response
+means the answer
+which my student has to score
+should be there
+who is giving me this
+I am getting this in my data set
+this is my answer key
+so don't you think
+I should give these two things to my LLM
+that this is the answer of my Rack application
+and this is the expected answer
+you take these two answers
+and do comparisons between them
+so don't you think this LLM
+can do it
+because it has
+NLU capability
+and not only
+it can do comparisons for me
+it can also
+tell me the score
+and
+what was the reason behind this
+it can also tell
+is it clear now
+so
+what we have done here
+we have used a smart approach
+what was the smart approach
+I have to do comparison
+between two texts
+now as a human I can do
+very good comparison but
+my comparison is not scalable
+I can't do much comparison in a day
+I can do it in a day
+I need rest, I need salaries
+I can be sick
+I can be biased
+whereas LLMs can not be sick
+their token cost
+means if you compare the cost of analysis
+the human is always less
+you can scale that
+you are calling one API
+instead of that you can call 100 API
+you can work very fast
+and
+the other thing is that your LLMs
+they understand your language patterns
+very well
+so in this particular
+approach
+to solve this particular problem
+they are the best candidates
+this is called LLM as a judge
+LLM as a judge means
+here we are using
+one LLM as a judge
+judge means
+the other LLM
+the other LLM
+the response
+the person is evaluating
+the person is judging
+what happens in human as a judge
+the person is human
+the lawyer is human
+the judge is human
+here in LLM as a judge
+we are using LLM as a judge
+and on whom we are using it
+on the responses of LLM
+simply we are saying
+this is the response of my rag application
+this is the actual answer
+which I am expecting
+and compare them
+and tell me how good is this
+and after telling me
+tell me how much score
+is this
+and also
+tell me the reason behind this score
+is this clear
+is this clear
+approach LLM as a judge
+so
+many times when we read LLM as a judge
+we find it very confusing
+we feel like
+we have to read it for 3-4 hours
+but this is the simple concept
+there is nothing fancy in it
+simply you have to use LLM
+and
+use that LLM as a
+verification system
+as a judge
+on another LLM's response
+is this clear
+and why are we using it
+because
+LLM has NLU capability
+they have mastered this capability
+in their own
+they have learned
+in their training
+how to interact with language
+so what they can do
+they can read the intent of a response
+and compare it
+now what is the benefit
+of using LLM as a judge
+the benefit is
+now my response
+their comparison
+just a second
+comparison
+it shifted me
+from actual
+word by word comparison
+if I had used
+any other programmatic approach
+then what would I have to do
+but because my LLM
+applications are probabilistic
+non deterministic
+then word by word comparison is not feasible
+what is the benefit of
+using LLM's picture
+that now this comparison is possible
+ok I have accepted
+LLM's are probabilistic but
+now I can evaluate my applications
+as poison cuts poison
+I have used LLM's
+to evaluate
+is this clear
+we will discuss this point
+it is a drawback
+but we will discuss this
+is this clear
+now what is LLM as a judge
+so what I have to do
+in LLM as a judge
+simple I am telling you
+this is the approach of every LLM as a judge
+now how do you interact with LLM
+using a prompt
+so what you do first
+you give a persona to this judge
+a task using the system prompt
+what you have to do
+if you are a judge
+then which court
+I will tell you this
+where is the judge of district court
+and what is your job
+what is the case
+and how will I tell all this to my LLM
+I can't tell it in ear
+I will tell it through the prompt
+and give me two inputs
+here is my
+application output
+which is the response of my
+application LLM
+and here is my expected output
+which is already
+available in my data set
+take these two inputs
+and compare them
+and on what basis you have to compare
+I can write this in the prompt
+on the basis of clarity
+or on the basis of coverage
+on the basis of factual correctness
+I can tell all that in the prompt
+I have to do scoring according to this
+what is the criteria of scoring
+I can write that in detail
+the more you write the prompt in detail
+the better your LLM output is
+I just have to keep one thing in mind
+that the LLM
+which I am using
+as a judge
+it should always be
+a bigger and powerful model
+as compared to the
+LLM I am using in my application
+always remember this
+the judge is always educated
+from your
+criminal
+or from your lawyer
+his qualification is more
+that's why he can judge
+if you take a weak model
+how can he do a proper comparison
+here
+always remember
+whenever you use LLM as a judge
+use a stronger model
+which you have used in the application
+always take a notch above model
+is this clear
+how does LLM as a judge work
+is it clear
+we thought it simple
+nothing fancy, nothing technical
+simple explanation what is LLM as a judge
+and that's it
+I can tell you this for an hour
+but this is it
+nothing more
+when we will read the metrics
+we will see
+how you use
+LLM as a judge in every metric
+we just explained the concept
+how we will understand
+when we will read the metrics
+and not only this
+LLM as a judge is used in making your data set
+this point we will cover in the next class
+in the next class
+I will not tell you any metric
+only how the data set is ready
+we will discuss only on this
+this discussion will last for 1-2 hours
+I don't know that
+but I will discuss this one point
+because I want you to understand this point
+data set creation is a very important point
+this is the biggest hurdle
+because you already have the application
+you already have the student
+who will write the answer
+you already have the way to evaluate
+you already have LLM
+you just have to give it a prompt
+and the evaluation will be done
+the biggest problem is
+to prepare the answer set
+is it clear
+LLM as a judge
+write clear in the chat
+if this point is clear
+I am telling you this aspect again
+we are leaving it here
+but
+till we read the evaluation
+and even when we apply guardrails
+the concept will come again and again
+so there we
+yes, we will cover all the things
+in the next session
+what are the goldens
+how we prepare it
+how the evaluation is done
+each and everything will be covered
+leave the tension
+LLM as a judge is a recurring topic
+you will read the evaluation
+and guardrails
+it is used everywhere
+so in which aspect it is used
+we will read it in detail
+in the next session
+there is no point in reading it
+because you may get confused
+so we will read the point
+where it is needed
+is it clear?
+now let's read
+about the advantages and disadvantages
+I forgot to write a point
+that is disadvantages
+and
+disadvantages
+both points are covered
+let's discuss them
+and then
+I will take your questions and that's it
+that's all for today
+advantages
+the first advantage is read
+we have already discussed it in detail
+why we use LLM as a judge
+we use it because it understands the meaning
+understands the intent
+not only focus on words
+if the intent is matching
+then the answers are scored correctly
+not on actual words
+because it is non deterministic
+here the focus is on our actual intent
+next point is
+it can evaluate complex
+multi dimensional criteria
+means you can use it
+in different metrics
+to compare different things
+what is the simple thing to do
+here in system prompt
+persona, which judge is fighting
+that has to make a difference
+my judge is fighting a criminal case
+is fighting on property dispute
+or a civil case
+divorce case
+simply I have to change the system prompt
+I have to change the persona of my judge
+and I can deal with
+different metrics
+so you can see
+how much we can use one technique
+simply we have to make a good system prompt
+and deep evolve internally
+it has tested many system prompts
+and the metrics
+it has set
+it is using detailed system prompts
+if possible
+then I will show you the system prompts
+I will show you that in the code
+in the deep evolve repository
+we can see that
+it scales instantly
+we have to do one question
+10,000 questions
+because there is no human bottleneck
+everything is done programmatically
+so we can do that using LM as a judge
+it gives you explainability
+not just the score
+we can take a reason
+from our judge
+so what we have to do is
+we need a structured output
+that give me a score
+and tell me the reason why
+you gave me a score
+my LLME can do that
+we have already done it in our application
+so here I will get a reason
+what will be the benefit of the reason
+the benefit of the reason is
+if my score is less
+then I will understand why the score is less
+what is the reason behind it
+what is the missing point
+so here I can also know what to fix
+with the reason
+and if my score is good
+then I will know that I don't want to touch
+this particular parameter
+already I am passing the threshold
+so there is no benefit in adjusting this
+I am already doing good
+I hope you understood this point
+now let's talk about
+several disadvantages
+there are advantages and disadvantages
+the biggest disadvantage of this particular
+technique is self enhancement bias
+meaning here
+what we are doing in LLM as a judge
+using one LLM
+and evaluating the other LLM
+so here one LLM
+can have intrinsic bias
+and this is especially
+when we generate responses
+from the same model
+and we evaluate it
+from the same model
+because LLMs
+are basically your
+next word prediction models
+they understand the patterns of your language
+they don't understand the actual
+language
+they know the relationship between
+the tokens
+using self attention
+so if you
+give one LLM
+to evaluate your own response
+then there is a good chance
+that it will high rate the bad response
+because it
+can't catch its mistakes so easily
+so the easiest way to remove
+bias from LLM
+is
+to use a powerful model
+from the model
+you are using in your application
+because powerful model can catch
+mistakes easily
+if you use the same model to generate
+answers and to judge them
+the judge has an inherent tendency to
+favor its own responses
+because he knows how he writes the responses
+so he will feel that it is right
+it is like I am giving you
+it is wrong to evaluate
+does it make sense?
+because you will feel your answers are right
+so that is self enhancement bias
+second point
+someone said
+the judge itself can be wrong
+the judge can also be wrong
+so yes, the judge
+doesn't have a foolproof mechanism
+he is an LLM himself
+so he can be wrong
+it can misunderstand nuances
+miss subtle details
+it can hallucinate, it can make reasoning errors
+so are we here
+to evaluate the judge
+should we put another LLM on the judge
+no, the answer is no
+what we have to do here
+again we should increase the coverage
+of our data set
+and we should run multiple evaluations
+and we should get the average
+that if in our evaluation
+there was some inherent bias
+or our judge
+did some wrong evaluation
+so when we will evaluate it multiple times
+with the same question
+then the problem of wrong evaluation
+will be a little bit removed
+again putting LLM on the LLM
+is not a good way
+to deal with the problem
+third is prompt sensitivity
+again I told you that
+you are passing the input
+to your LLM through the prompt
+so the prompt you are writing
+this system prompt is very important
+and it should be well defined
+and all the criteria
+should be well defined
+and that's why you use
+the built in metrics of deep eval
+because in these metrics
+the system prompt is very properly written
+they have improved it
+in multiple iterations
+and finally they have decided
+one system prompt
+which is working best for their given metrics
+the way you instruct the LLM judge
+massively
+massively affects the scores
+a slight rewarding
+of the judge's
+instruction can shift scores
+significantly, evaluation results
+partly reflect how well the judge
+prompt was written
+not just how well the rag app
+is performing
+so the system prompt you are writing
+where you are telling the judge
+it should be well defined
+and you don't write it in one shot
+you improve it
+with multiple iterations
+again we don't need to do this
+this is already done by deep eval
+we simply have to use
+their built in metrics
+they have already written the system prompt
+and it is best in their experimentation
+next is cost
+cost is a factor
+if you are using LLM
+to evaluate
+you will do API calls
+your API calls are of two types
+your rag app is writing
+the API call itself
+from the application
+API call is also there
+and the judge is evaluating
+is doing API calls
+let's say we are testing 5 metrics
+on our rag app
+and we have 200 questions
+so how many do I have here
+1000 LLM calls
+for the evaluation
+cost is a factor
+we don't work with such a big data set
+we generally
+make a data set of
+80 questions
+so the work of making this data set
+is done very carefully
+so that we include these questions
+best in the best
+and through this we evaluate our application
+as you increase
+the cost will increase
+but again human evaluation
+is cheaper and faster
+again here time is money
+and it is very fast
+so you are evaluating
+1000 questions through a
+manual human process
+and there you are using
+LLM which will give you response in minutes
+so you use this particular
+approach
+and it is not suitable for all
+the cases as we have discussed
+that it is suitable in the case of text
+but there is a structured response
+there is a code response
+so in the code
+you have to run the code to see if there is any error
+only the written code
+written text
+you can't evaluate it directly
+from the tool response
+from the agent
+you can't evaluate it directly
+so for these special cases
+you have to use other techniques
+is it clear?
+so these are some of the advantages
+and disadvantages
+of using LLM as a judge
+now you must be thinking
+that when there are so many problems
+why should we use this?
+because in the given time
+in the current scenario this is the best approach
+this is the best
+possible approach we have
+so we are using this
+is it clear?
+tomorrow no better technique will come
+we will use that in the future
+so this is all
+I had to discuss in today's session
+so we have completed the session
+now I am here for another 10 minutes
+so if you have any questions you can ask me
+and I am happy to respond
+and in the next session
+I have already told you
+we will discuss that in the next session
+I just have one request from you
+that please
+follow the session religiously
+ok
+so I am open to questions guys now
+and those who don't have questions
+they can leave the chat
+ok
+thank you
+again
+let's rate today's session
+in the last session something went wrong
+maybe the time was too much
+and I couldn't deliver properly
+the last 15 minutes
+today's session on
+clarity out of 5
+clarity of concepts
+how did you like it guys?
+5 out of 5
+great
+in the next session
+how the data set generation
+is done
+how it is done in DPval
+and we will run our code
+and see
+through our transcripts we will generate data set
+ok
+and I will add some more transcripts
+in our
+knowledge base
+thank you
+thank you
+thank you so much
+your feedback is right
+I stay motivated
+if you like it
+I think it is a win-win for me
+and I am also happy
+that all the people
+who started the session
+I think I am able to retain maximum of you
+so it is a good metric
+thank you so much
+thank you pain
+any questions
+related to the session?
+ok, there are no questions
+it means that there can be two things
+that you didn't understand anything
+or whatever I have studied you understood
+in these two cases there are no questions
+ok
+some get up code
+examples to try on
+on our own
+not for now, we will do it next
+after that I will share the code with you
+then you can do it
+whatever we covered today
+you just
+internalize it
+and move forward in research
+research in
+you are doing research
+PhD
+for crew ai
+how can I reach out
+I am taking the course as well
+upen, whatever your doubt
+you can ask in the group
+if I can answer
+then I will definitely do it
+because in our paid
+courses generally
+there is no support
+but I will help you
+don't worry
+how to do self research
+I have never
+mastered it
+I myself
+ask from neti sir
+how do you do research
+because I like his way of research
+my way is
+I myself question myself
+that
+did I understand the point
+can I explain it to
+any child
+if I can explain it
+then I think I understood the point
+then I will go to the next point
+my delivery style
+is that
+I am studying this thing
+I become a student while teaching you
+and I think
+I am understanding while teaching
+if I am getting an example
+then I will move forward
+then the next thing is
+hallucination check
+again there is a metric
+we will discuss that too
+in the next session we will discuss
+the data set creation
+we will understand the flow
+and we will code our data set
+then in the upcoming sections
+we will open our 5 metrics
+one by one
+we will do its code word
+and at the end
+we will put all 5 metrics
+and evaluate the application
+thank you guys
+any feedback for me
+how was the pacing today
+how were the examples
+any feedback for me
+thanks thanks
+sir also says
+I think I have learnt from sir
+because I am also a student
+so I have seen sir
+teaching for a long time
+and I think
+I have picked from there
+again I am telling you
+some of his positive aspects
+he has been teaching for so many years
+so every day he gets to learn
+so you see
+all the live sessions
+of our campus X insider group
+I try to be available in all
+I don't miss any session of sir
+and honestly speaking
+in the last session I asked you
+to tell me questions
+but I was testing you guys
+whether you are following it well or not
+I also follow
+Ajay sir's sessions
+yesterday's session
+and I think Saturday also
+you have a pulse session
+so I will be there
+guys coming week
+you have 2 sessions back to back
+on monday
+we will have a data set session
+and on tuesday
+you have a session of AI pulse
+that will be on pinecon
+that is also related to your rag
+and if you are interested
+to learn about
+vector databases
+pinecon is a vector database
+which is used in your production environment
+so please join in the session
+yeah
+if you don't have any questions
+you can sign off
+I will be here for 2 minutes
+so close the session
+any more questions guys?
+if you don't have
+tell me
+questions
+feedback, anything
+anything else you want to know
+around this session
+any other session
+sir
+I
+am not getting
+your uploaded videos
+in the case
+contact the supervisor
+in your dashboard
+you will get
+the insider sessions dashboard
+because
+a complaint came from you
+and not from anyone
+there all recorded sessions are available
+I want to tell you
+I was figuring out
+the notes of one note
+because I recently switched from windows to mac
+in mac
+there is no option to export it in pdf
+if you have
+purchased my recorded courses
+you must have seen
+I provide notes of one note in pdf format
+now mac doesn't have this feature
+because their one note application
+is closed by microsoft
+so here
+I have a page by page export feature
+but again I think it will be tiring
+for me if I will export
+one by one
+and share with you
+so my recommendation will be
+that the transcript you are getting
+you should generate your own notes based on it
+again
+this is an issue, if it wasn't there I would share it with you
+because
+I have put linux in my other 2 laptops
+I don't have windows
+because I find it very bad
+so I have removed it
+I will try
+if I can share it in any way
+if I can share it
+I will share it with you
+but I can't promise
+so
+that's it for today
+one drive for what
+no, I can't export it
+I will use one drive
+I have one drive
+but I can't export it
+you are asking me to share
+the one note file with you
+I will talk to the adjuster
+how they do it
+they share the one note file directly
+I will ask them once
+how they work
+what things are shared and what are not
+I will discuss it once and share it
+no, sync is done
+there is no issue of sync
+it is syncing
+I can view this particular one note
+on my other systems
+but again it is not windows
+so there is no app on linux
+I have to go to web and see
+drive view link
+if there is anything like this
+I will share the link with you
+I will check it once
+I will update it in the dashboard
+don't worry
+close it guys
+bye guys
+I will see you guys on monday
+and we will cover our evaluation part
+bye guys

@@ -1,0 +1,3017 @@
+So let's begin again. Someone please confirm audio video.
+Perfect. So let's start. So today's session is going to be a little long.
+It will be around two and a half hours. Right now. The reason behind it is that I want to complete entire aspect related to Claude with Excel.
+Means there will be an agenda for this session. I am assuming that you don't know anything about Claude with Excel.
+And when I will end the session, you will be at that point when you understand the whole landscape of Claude with Excel.
+You will understand everything. And now you are at that phase that you can modify Claude with Excel according to your job role and task.
+So this will be my goal for today's lecture. And this will be the agenda.
+So let's begin. And I have shared a drive link with you in the chat box. And if you are watching the recording, then you will find the description of the video in the description.
+So let's begin. And I have shared a drive link with you in the chat box. And if you are watching the recording, then you will find the drive link in the description.
+So in this drive link, the file that we are going to use today is mentioned. Okay. So let me share my screen and let's start today's lecture.
+Is my screen visible clearly? Someone please confirm. Perfect. Okay.
+So before starting Claude with Excel, I want to ask you a simple thing. How many of you know what are the skills in the world of AI?
+Okay. And you can say what is MCP and what are the plugins?
+You give me the score. If you know all three, then write 3 out of 3. If you know two, then write 2 out of 3. And if you know only one, then write 1 out of 3 else 0 out of 3.
+I just want to know.
+3, 2, 3, 2, 3, 3, 3.
+Okay. No issue. Okay. So we will cover these things also.
+Second thing. Now I have some more questions. It's a simple question. What are the purposes of using Excel?
+Now I know. Let's say I want to do data analysis.
+This is one purpose. Okay. What other purposes can be used to use Excel?
+Come on, tell me quickly.
+Data cleaning, data analysis.
+Okay. Data cleaning is done. Data analysis is done. I'm reporting visualization forecasting. Perfect.
+Reporting is done.
+Visualization is done. Forecasting is done.
+Okay. There are many more purposes to use Excel.
+Okay. Now, a simple question.
+That question is that when you are using Excel, what is the most painful point while using Excel?
+Means you think that if I don't have to do this, then it's the best.
+Or the one where you spend the most time. What is left?
+Formulas, data cleaning, and
+Formulas are done. Data cleaning is done.
+Data transformation, EDA.
+Data transformations, EDA is done.
+And VBA macros formatting.
+VBA macros formatting. I'm considering it into data cleaning only.
+Formulas. Okay. So, what will we do?
+In today's lecture, your pain points.
+We will solve these pain points using Claude with Excel.
+Okay. This is our agenda for today.
+Okay. So, now, a simple thing if I tell you.
+If I give you some data like this.
+Something like this.
+If I give you some data like this. Okay.
+There are so many tables in this. Right?
+There are so many tables here. And along with this data, I will give you some problem statement.
+Right? Soon, there will be a business problem statement that
+Who is the client and what are the requirements of the client.
+So, after reading this data, how long will it take you to reach this analysis?
+Simple question.
+This is the whole data.
+This data has to be read 1, 2, 3, 4, 5, 6, 7.
+There are 7 tables. And to read this 7 tables,
+Analyze it, process it and then take out the analysis, how much time will it take?
+Quick answers everyone.
+2, 2, 3 working days, 1 week, reading data, 10 hours, 10 minutes, 4 to 5 hours.
+Perfect. Okay.
+It takes only this much time. Right?
+So, now, we will do the same work which is my business requirement.
+Let me do one thing. I will share the whole screen.
+Right? So, now, what we will do today is
+Which is my business requirement.
+We will achieve this business requirement.
+Using this data, we will do it in an hour.
+Using Claude with Excel.
+Claude in Excel. Right?
+So, let's start.
+First of all, I want to tell you that Claude in Excel is an add-in.
+Means, you should have proper Excel.
+And we add it there as a feature.
+Okay. Second thing I want to tell you is
+If you want to use Claude in Excel, you should have a paid plan.
+You cannot work on a free plan.
+You need to have a proper paid plan.
+It can be Pro, Max, Team, Enterprise, anything.
+But you should have a proper paid plan.
+You cannot work on a free plan.
+Okay. So, now, how to set up Claude with Excel?
+Let's see that. It's very simple.
+You don't have to do anything. You have to go to Excel.
+Right? Go to home.
+When you go to home, you will see an option on the side.
+Add-ins. Top right corner.
+Click on that option add-in.
+And here you have to search for Claude for Excel.
+Okay. You have to search Claude for Excel.
+Claude by Excel. You have this option.
+Just click on add.
+As soon as you click on add, you will see a Claude icon on the top right corner.
+Right? What you have to do is just click on that.
+As soon as you click on that, it will ask you some questions.
+And after asking those questions, you will have a Claude chatbot in your Excel.
+And now what you will do is use this chatbot to work in your Excel.
+Right? This is Claude by Excel.
+Okay? So, now, in today's session, we will learn how to effectively use Claude in Excel.
+And how in this whole process.
+Or you can say, we can utilize Claude to optimize our time.
+We can quickly complete our tasks.
+Right?
+Okay. Now, if I go to the general, if I get any task of data analysis.
+Okay. If I get any task of data analysis, then what is its general flow?
+If I talk about simple flow, then what we do first is we load the data in Excel.
+Then we read it, understand what data is there, how other things are connected, how multiple tables are connected, who is connected or not.
+Then we understand where the cleaning is going. We understand all these things.
+Okay?
+Then after that, as per the requirement of the client, we do calculations.
+What do you do in calculations?
+You make columns.
+Okay. You do data cleaning, you do data transformation, you make tables, you do a lot of things.
+Right?
+And then if required, you make dashboards.
+And finally, what do you do?
+You do analysis.
+Right?
+And this is our whole general flow if we are using Excel.
+Today, we will cover this whole flow using CLOT.
+With the help of CLOT, we will cover this whole flow.
+Okay?
+So, what will be the whole flow?
+I have already written prompts for the task because we all know that typing takes time in the class.
+So, I have written prompts.
+Simply, I will copy paste that prompt and explain it to you.
+Okay?
+So, the first thing we all need to do is to understand the data.
+Right?
+So, what have I done here?
+This is my Excel sheet.
+In the side of the Excel sheet, I have opened CLOT for Excel.
+Now, with the help of CLOT, we will understand our data.
+Okay?
+So, what do you have to do?
+I have opened CLOT in the side.
+I am simply writing the command.
+Now, what is that command?
+Just a minute.
+Okay?
+So, what have I written in a simple language?
+Read the whole workbook.
+Give me a one-liner for each of the seven sheets and how to connect them.
+Tell me which sheet is the fact table and which are reference table.
+Actually, there are eight sheets here.
+So, I will mention eight sheets.
+Okay?
+Okay?
+You simply have to write a prompt in normal English.
+That's it.
+Now, before writing this, I want to give you a little overview of this interface.
+Okay?
+So, here you will write your prompt.
+Here you have a lot of add-ins.
+We will discuss them later.
+Okay?
+Here, basically, you can change your thinking.
+Meaning, if you are using a model, you have to keep its thinking extended and normal.
+I will keep it normal.
+You can write your prompt by giving a voice command here.
+Okay?
+Here, you have an option of new chat.
+You can start a new chat from here.
+You can see chat histories from here.
+Right?
+Along with that, if you go to three dots on this side, you get an option of settings.
+Here, you have a lot of settings.
+You can increase or decrease the text size.
+If you want to write a system prompt, you can write it here.
+We all know system prompt.
+What is system prompt?
+It is a kind of constitution that tells our LLM how to do the work.
+Okay?
+So, you can write your system prompt here in detail.
+What will your cloud do?
+It will take all the actions according to this system prompt.
+Right?
+Now, whatever your job role is, job profile is, you can mention all those things in detail here.
+Okay?
+Now, what is session logging?
+I am keeping it on for now.
+I will explain its benefit to you in the last.
+Okay?
+There are some constraints for safety.
+You want to connect the cloud to multiple applications.
+You have those options here.
+Right?
+So, it is a very basic interface of cloud for Excel.
+Now, let's move to our first prompt.
+It is a simple prompt.
+Read this whole workbook.
+Give me a one-line summary of each of the eight sheets and how they connect.
+Right?
+Tell me which sheet is factable and which are referenceable.
+Simply, just send the command.
+Now, see.
+Now, see the magic.
+I will explain this.
+Let me expand it.
+So, first of all, what is it doing?
+It is reading the data.
+You can see here.
+If I expand it, what did it do?
+First of all, it read the sales table, its headers and rows, product table, its headers and rows, sales wrap, target sheet, returns.
+It read all the tables.
+Right?
+And after that, it provides me this summary.
+It is a sales table.
+It has three rows.
+And the columns are these.
+Okay?
+Along with that, there is a product table.
+24 products are mentioned in the product table.
+The names of the columns are SKU, name, category, unit cost, list price, everything is mentioned here.
+Okay?
+In the sales wrap, there are 12 rows.
+And all the columns are mentioned.
+The detail of the target column is mentioned.
+The detail of the returns column is mentioned.
+The detail of the customer column is mentioned.
+And here, while reading it, when I told it to read the data, it is clearly mentioned that the customer data is messy.
+Right?
+It is written to clean it.
+What are the messes?
+That is also written.
+And then the next table was P&L.
+Its data is here.
+And there is a data called formula debugging.
+Okay?
+And how are all these tables connected?
+Right?
+So, here it is written.
+Okay?
+Which is the fact table?
+Which is the reference table?
+Which is the stand-alone table?
+Everything is written here.
+Okay?
+Right?
+Now, we will see the cloud log at the end.
+What it is.
+And you can see, as soon as I finish this prompt, a new sheet will be made on me.
+Cloud log.
+We will discuss this at the end.
+Okay?
+So, you can see, by writing a simple line of command, I have generated the summary of all my data.
+What tables are there?
+How are they connected?
+Okay?
+Right?
+Perfect.
+Now, let's know more about data.
+Let's say I want to see how many data are there in the sales table.
+How many dates are there?
+Because I can see here, there are dates in the sales table.
+Let's see, there are dates in the product tables.
+Again, there are dates in the sales rep tables.
+So, I want to know how many data are there in this data?
+Means, which month and date to which month of date data.
+Okay?
+So, simply, you don't have to do anything.
+You have to understand the data code.
+Simply write a prompt and send it to your cloud.
+Okay?
+I am simply saying, how many data rows are in sales data?
+What data range do the orders cover?
+How many SEQU are in products?
+And how many reps are in sales data?
+Okay?
+I asked all the things.
+Means, based on the data, I can see the data.
+Basically, what I want to do is, I want to explore my data in depth.
+Okay?
+And I also asked, that whatever data you will generate from here,
+you tell me in actual, what cells you can use to generate this data.
+Simply send the prompt.
+You will get an analysis here.
+Right?
+All the tables I asked, Claude read them all.
+See.
+Okay?
+Now, it is saying, that there are 303 total rows in sales data.
+And how he has extracted this data, it is giving me a reference.
+He has used sales data from A2 column to A304 column.
+And now, if you click on this reference, you can directly go to the data.
+You can say, the actual data, you can redirect it there.
+Similarly, what was the earliest order date?
+1st Jan 2025.
+How he got to know this?
+See.
+He has also given that reference row.
+Okay?
+What is the last order date?
+Again, he has given reference rows.
+Okay?
+He has given data of SKU tables.
+In that, there are 24 SKU product tables.
+How he got to know?
+Here, he has given reference.
+A2 to A225.
+See.
+Okay?
+Sales representative is 12.
+How he got to know?
+Here, you have a reference.
+A2 to A13 of sales rep table.
+If you click on this reference, you can redirect to your table.
+So, Claude not only gives data, he also gives reference cells to verify.
+He gives reference range, on the basis of which range or cells, he has extracted this conclusion or analysis.
+Right?
+And he has given other information as well.
+So, you can understand your data by asking so many questions.
+With the help of Claude.
+Right?
+Okay?
+So, 1st thing, for which purpose you can use Claude, that is understanding your data.
+Understand your data.
+For this purpose, you can use Claude very well.
+Okay?
+2nd purpose.
+For which you can use Claude for Excel.
+That is, make changes in data.
+Okay?
+You have to make new columns in data.
+You have to do editing in data.
+You have to do analysis in data.
+For all these purposes, what you can do?
+You can use Claude for Excel.
+Okay?
+Now, I will explain you with an example.
+Okay?
+My company has told me that they want these key matrices.
+Total revenue, total cost, gross profit, gross profit margin, unit sold, return rate.
+All these calculations are required by my company.
+Okay?
+Now, to do all these calculations, I am assuming that you have read the data.
+Because I have shared the data in the group.
+Okay?
+Now, I have to do all these calculations.
+Total revenue calculation, total cost price calculation, profit calculation, all these things I have to calculate.
+Okay?
+So, what I am doing for that?
+Let's do one thing.
+What I do is, the data data table.
+In this, I take out the unit price of every product.
+Because when I will be able to take out the unit price, I will multiply the unit price by quantity.
+I will get revenue.
+Okay?
+Then, if I go to the product table and take out the list price, then I can take out the revenue and the list price.
+I can also take out the profit.
+Okay?
+So, now let's say I have to take out the unit price.
+Because I have a sales table.
+I want to put all the data in this table.
+Okay?
+Okay?
+So, what I have to do is, I have to bring the unit price column here.
+Now, one way is that you make the column here yourself.
+Okay?
+Now, where is the unit price stored?
+The unit price is stored in the product table.
+So, what you have to do is, go to the sales column, make the column here and use lookup to fetch for the unit price using the SKU column from the product table.
+There is only one way in which you have to write the formula manually.
+What is the second way?
+Claude.
+Okay?
+Go to Claude.
+Simply call Claude this.
+Okay?
+What to say?
+In the sales data table, create a column unit price and fill values for the column based on that.
+And just set it.
+Now, see the magic.
+What Claude will do?
+I have not written any formula for Claude.
+Okay?
+What happened?
+I had told Claude to read all the data and understand.
+During that time, Claude actually understood how all the data is connected.
+See, he has also told a connection here.
+And now, what Claude is doing?
+Using that connection, he is making this column and filling its value.
+You can see here.
+Okay?
+So, here he is telling that sales data and product table are connected on the basis of SKU column.
+So, now it is telling me that what I will do is, I will take SKU column from sales data.
+I will compare the value of that column with the column A of product table which is SKU column.
+So, from here, he is taking the value from SKU column.
+He is comparing it with SKU column of product table.
+And then from there, he is giving you the unit price.
+See, he is giving you the unit price.
+Okay?
+And see, now I will go to sales data and I am having unit price.
+Now, if you click here, Claude has written the formula for you automatically for x lookup.
+Where you had to write it yourself.
+Claude has understood your data.
+Claude will write the formulas for you.
+What is your job?
+You have to verify it.
+Like here SKU is my TEC405.
+Its unit price is 449.
+Let's go and verify it once.
+TEC405 is unit price.
+List price is 449.
+Now, I will tell you a very crazy thing.
+There were two prices in product table.
+Unit price and list price.
+My Claude has picked up the list price.
+Right?
+Now, you might have a question in your mind why he has picked up the list price.
+It is a very practical thing because this is a sales table.
+Here I have to tell you the price of every unit.
+So what happens in actual is that my MRP is the list price.
+But still let's ask Claude once.
+Why did you choose unit price?
+Sorry, why did you choose list price?
+From product table not unit price.
+Let's ask Claude. Claude will give you the answer.
+If you are confused about something, Claude will give you the answer.
+Okay?
+Okay? So he has told you.
+See, for unit price and sales data which represents the price change per unit sold,
+list price is actually the correct choice.
+He is telling me.
+Right? So you can also cross-question with Claude and ask him.
+Okay?
+Why did he put a particular formula?
+Why did he use any particular column?
+You can ask him everything.
+Okay?
+So, as I have made the unit price column, I have two or three more columns.
+I will make that too.
+So I am simply asking Claude that please create three new columns in the sales table.
+What are the columns? Revenue, Cost, Gross Profit and Fill Values for the column based on the data.
+So I have asked Claude to make three more columns.
+Okay? Let's see.
+Claude has made the columns himself.
+He is confirming the layout himself.
+He is seeing what the formula will be.
+Now how is Claude knowing this?
+Because we have put a very good strategy.
+Before using Claude, we have told him to read the data and understand it himself.
+And also explain it to us.
+So Claude had already understood what the data is.
+How they are connected and see.
+I am getting the revenue.
+I am getting the cost.
+And I am getting the gross profit.
+If you want to verify, you can.
+How will the revenue come basically?
+Unit price into quantity minus discount.
+This will be the revenue.
+And this formula will be given by Claude.
+Okay?
+How will the cost come?
+Again, by looking up.
+So what it is doing?
+This G2 column is picking up this column.
+Let me escape it.
+What it is doing?
+It is picking up the G2 column from the product table.
+And then it is looking up for the values from G column.
+You can see here.
+It is looking up values from the G column into the products table.
+And from there, it extracts the values of the E column.
+So you can also verify things.
+And how will the gross profit come?
+Revenue minus cost.
+This is my profit.
+So how simple it becomes by using Claude.
+And achieve your day to day task.
+Right?
+Till here, if anyone has any doubt.
+Now we will increase the level slowly.
+Now I am telling you very basic things.
+Anyone any doubt till now.
+Quick yes or no please.
+Claude in Microsoft Office is available.
+Pro Max will upgrade to Claude in Microsoft Office.
+Yes?
+Yes Gagan.
+That's why I have to upgrade Claude to use.
+You can also see the schema.
+You can see the schema and verify things.
+That Claude is telling the truth or not.
+Okay?
+Let's move ahead.
+Now these were the basic columns.
+Do all these things.
+Okay?
+Now let's do one thing.
+Let's make one more column.
+Let's say Gross Profit Percentage.
+Okay?
+Let's calculate the percentage also.
+Right?
+So I am saying add a new column.
+Gross Profit Percentage.
+And in that column add Profit Percentage.
+Let's see the magic.
+Claude will do it together.
+You will see changes on the screen.
+First of all he wrote the header.
+After the header he wrote the value of one cell.
+And after that what did he do?
+He will populate the value in all the cells.
+Okay?
+Now what will he do?
+He will convert it in percentage.
+He does that thing step by step.
+And you can verify every thing here.
+You can go through it.
+Okay?
+Right?
+Perfect.
+Now let's do one more complex task.
+Okay?
+Let's do one thing.
+What I want is in sales table.
+I want that which sales representative did any particular sales.
+I mean I want to bring the name of the representative in the sales table.
+And along with that I want to bring the product of which category.
+This product is of which category?
+Okay?
+So category is in my product table.
+See.
+So here product table is category.
+And sales rep table is the name of the representative.
+I want to bring it in sales data.
+Very simple.
+What you have to do simply is to write a command.
+Create two new columns in the sales data table.
+Sales rep name is the name of the column.
+And product category is the name of the column.
+And retrieve relevant data from column.
+I haven't even told Claude about the sales rep name.
+What will be the values in this column?
+What will be the values in product category column?
+I am keeping the name of the column in such a way that Claude understands it himself.
+So this is again a very important strategy to use Claude.
+That you keep the name of the column in such a way that Claude understands it himself from the annotations.
+So he understands from which column the data is coming from.
+And just hit enter.
+Now see.
+Claude will read the columns here.
+Okay?
+And it is looking for representations.
+How are they connected?
+And it is saying I will use xlookup.
+How will I use it?
+He has told this.
+Okay?
+Now see.
+Now here you can see very dirty data is coming.
+Now he will clean it himself.
+Right?
+As soon as he wrote the output, after writing the output, he himself saw that header was being copied in row 2.
+We saw that header was being copied in row 2.
+So what did he do?
+He himself identified it and started correcting it.
+Now it is saying that I have to fill something.
+Are you giving permission or not?
+I am saying I am giving you permission.
+He filled all the data.
+Right?
+Now it is again verified.
+It is also verifying the data.
+Claude does this every time.
+First of all, he will do your work and after doing the work, he will also verify that whether the work has been done properly or not.
+Claude for Excel's property.
+And you can see.
+Your data has come here.
+You have reference cells.
+What did he do?
+Basically lookup.
+And the range used for lookup is this.
+This is the range for sales rep and product table.
+You can easily verify things.
+Right?
+So these are small things.
+You can easily do it with the help of Claude.
+Where you had to write the formula.
+Where you can say it was taking time.
+You were debugging the formula.
+No need.
+Claude will do small tasks for you.
+Right?
+Now let's do a little complex task with Claude.
+What is the complex task?
+Let's say my sales data.
+What I want from this sales data is to do analysis.
+And what I want is basically channel wise and city wise.
+Channel wise means this channel is from online retail hole.
+Channel wise and city wise.
+On the basis of these two columns, I want to know how much quantity was sold.
+And how much profit came.
+Or what is profit margin.
+Okay?
+Let's do this with Claude.
+So I am here in sales data.
+And here I am writing prompt.
+Create a separate table in the sales data table.
+And that table cell should start from R3.
+I am mentioning that the table from R3 cell should start.
+You can mention any location according to you.
+And what to do in that table basically?
+Calculate channel wise and city wise.
+Quantity sold and average gross margin profit.
+Just hit that button.
+Now I will explain you a very important thing.
+I have given this complex task.
+LLM.
+So what will LLM do?
+First of all, it will generate a plan.
+Right?
+And then it will achieve that plan step by step.
+You all must have heard about Claude's plan mode.
+Claude first plans and then achieves things.
+So you can see.
+First of all, he made a plan.
+What did he write in the plan?
+I have to make two tables.
+Channel wise summary table and city wise table.
+So he made channel wise summary table.
+He completed that task.
+Now what is he doing?
+He is making city wise summary table.
+Here you have city wise summary table.
+Okay?
+And you can see.
+The tables that are made.
+Those tables are dynamic.
+There are no stagnant values in it.
+There are no static values.
+This is written with your proper formula.
+Right?
+Here you have the proper formula of sum.
+So what is this formula basically doing?
+This formula is looking for this value.
+This is the value of the city of Ahmedabad.
+In the column D.
+Which is my column D?
+City.
+And if the value is matching, then after that
+the sum of the quantity column is happening.
+You can see the sum of the edge column.
+Right?
+So Claude will write the formula properly and work for you.
+Okay?
+And same he did for gross profit.
+What I did in the case of profit?
+I asked him to calculate the average profit.
+So in this case Claude put the average if.
+He did not put the sum if.
+So you have to give Claude the task properly.
+Claude will do everything by himself.
+Okay?
+So far everyone is clear?
+Anyone any doubt?
+Can we retrieve data from the internet using Claude?
+For example, we can retrieve state name based on the city name provided by the column D.
+Can we retrieve state name based on the city name provided by column D?
+You can do it Harsh.
+For that you need MCPs.
+We will read about it later.
+Claude can do a lot.
+Either anyone doubts.
+Quick or listen.
+Guys am I not audible?
+Parallel subagent in your sense I am asking.
+You cannot invoke anything here.
+You just give a prompt.
+Claude decides what to invoke.
+You do not have the control of the granular level.
+Parallel subagent I am assuming that you wanted to generate both the tables together.
+Right?
+You wanted to generate both the tables together. Right?
+That one agent generates this table and the other one this table.
+Something like that Imanchu?
+You cannot decide this.
+Claude makes his own plan and executes it by himself.
+Okay?
+You don't have that authority.
+Claude for Excel you don't have that authority.
+Right?
+Claude did a good analysis of tables and formatting.
+He did everything well.
+Okay?
+Right?
+Now let's say I want to use these tables to make a chart.
+Right?
+I don't want this in tables.
+I want to make a chart out of them.
+Okay?
+So what can I do?
+I can write a command that convert the table created above into charts for betterization.
+Simple.
+Claude will take these tables and make charts on their basis.
+Right?
+Now what did he do?
+Channel wise, the summary table.
+He is reading the city wise summary table.
+This is the table.
+He is reading both of them and now fill their charts.
+See.
+You have the first chart.
+Channel wise.
+The second chart will come.
+City wise.
+See.
+All of the charts are there in front of you.
+The most important thing.
+These charts are editable.
+Meaning if you want to make any changes in this chart, you can do it.
+Right?
+You can assume that whatever Claude is giving you as output.
+That output is in the form of proper Excel elements.
+What are Excel elements?
+Tables, cells, rows.
+If you want to make any changes in this chart, click on it.
+All the options will open up.
+You can use them to make changes.
+You can do the relevant changes.
+If you go here.
+Then.
+This whole data is written.
+How they are working.
+And at the same time, the references are also written here.
+That this data is used for making the chart.
+See.
+Second data used for making another chart.
+Gross average city.
+Gross average city.
+This data is used for profit by city.
+Right?
+So you have all the references.
+Which you can verify yourself.
+If you want to change the chart from here.
+You can change it.
+You want to change the chart elements.
+You can change it.
+All.
+You can say.
+Accessibility is with you.
+You can do everything here.
+Right?
+You must have understood one thing.
+Claude is your assistant.
+The complex task.
+The pain point task.
+Which you can say.
+The task which used to take time.
+That task is Claude for you.
+Now what is your job left?
+As an analyst.
+Your job is only.
+What?
+Analyst.
+You are telling Claude what he is doing.
+You interpret this data.
+As an analyst.
+Your job is only.
+Analyst's job.
+Right?
+The rest of the work which you can say.
+Repetitive task.
+Complex task. Claude is doing for you.
+Right?
+So Soheb is asking.
+Can we put light on data privacy?
+We will talk about this in the end.
+You are basically concerned.
+That your data is going to Claude.
+Right?
+Right Soheb?
+Okay.
+Let's talk about this in a while.
+First let's cover the basics.
+Can we sort chart through the prompt?
+You can do it.
+You can do it. Try it from your end.
+Now.
+Two important things here.
+In fact, these queries have also come.
+What will happen of privacy?
+What will happen? Will it hallucinate?
+My LLM.
+I will clear both the things.
+Claude for Excel is totally
+independent.
+Product of Claude.
+Your data is only on your local
+system.
+Your data is never
+skipped on your local system.
+It doesn't go to Claude's enterprise.
+Means although processing is coming.
+Commands are going there.
+But the data is here.
+What is happening in the backend?
+I will tell you.
+Excel's own APIs.
+The one you are using Excel.
+Its own APIs.
+So when you are writing prompt.
+So what is this prompt basically?
+Converting
+Excel's APIs.
+Right?
+And that Excel's APIs are running
+on your local system.
+Because where is your Excel?
+So the whole work of backend
+is happening through API calls.
+If I show you to verify.
+So here we saw
+this looks something like a
+JSON object which is API call.
+Right?
+So your Claude
+basically is doing your prompt.
+Whatever you are writing this prompt.
+Claude converts your prompt
+into API.
+Right? And this API
+is then executed on your local
+end.
+Ok?
+Is this clear? So generally
+when you use Excel. What do you do
+basically when you use Excel?
+You work through clicks.
+So what happens in backend is
+that these APIs of Excel
+get hit and they get worked.
+Right? They do your whole work.
+So same thing
+Claude is doing for you here.
+Your prompts are being converted
+into API commands in general
+and those API commands are running
+on your local data, local system.
+So the data privacy
+is very strict here.
+Right?
+Now I am not sure about
+MCP. How does it work in MCP?
+We will discuss later.
+What is the privacy of data in MCP?
+But if you have data in your system
+that data should be in your system.
+Right?
+Second let's come to hallucination.
+Can my life hallucinate?
+The probability is yes.
+It can.
+But there are very less chances.
+Why?
+Because look, data
+on which your
+LLM, you can say
+is working is your locally present.
+Ok?
+Claude is only
+converting your prompt
+into API.
+Now where can you find the problem
+that API is not properly converted.
+But if API is properly converted
+to make a chart,
+then hallucination
+will not happen.
+Because again, API call
+will be proper. Data is with you.
+There are no changes in data.
+So when that API hits on data,
+hallucination
+will not happen.
+But again, there are chances of hallucination.
+The best way is that you
+always verify what you are doing
+from Claude.
+Let's say Claude
+changes in 100 rows.
+So you
+at least verify it in 2 or 3 rows.
+Clear?
+No, it didn't go to Claude's servers.
+It came here.
+Claude
+again hit APIs. Claude
+read the data. Now you think
+let's say
+I wanted to summarize.
+What did I get in the summary?
+Okay.
+I will go to the output of the summarize.
+In the summary, 303
+transaction rows. Can't
+this be done with
+hitting the API
+of Excel which is counting only rows?
+Can't
+this be this analysis?
+Can't we get this analysis
+by hitting the API
+which is telling only the names of columns?
+So everything is locally yours.
+Clear everyone with this?
+Quick or no?
+Then move forward.
+Now increase the complexities slowly.
+Okay.
+Right?
+Now let's say
+I want to make another visual.
+Here what we did
+basically
+we made a table and visual on the basis of it.
+Okay. Now directly
+let's make a visualization. I directly
+said to Excel, build a visual
+that shows line revenue by
+region. And you can say revenue by region.
+Basically what I want is
+my revenue, I want to
+visualize that on the basis of
+region. Let's
+build this.
+Okay.
+Till this is built
+I have a query
+Sir, do Excel API act as a tool
+for cloud? You can say
+Harry. Means you can
+consider it that way.
+Okay. So see
+it has told which columns it is considering.
+Everything here it will tell.
+And then after that it will make a visualization.
+Let's just wait.
+So it has started the chart
+panel. You can see
+all the changes in your Excel.
+This is the best thing.
+So it has made a table
+and then on the basis of region
+it has made a chart.
+We all know that
+whenever we make a chart in Excel
+first we have to convert it in table.
+Then we can make a chart on the basis of table.
+So it did this.
+First of all it has taken data
+made a table and after table
+made a chart.
+Okay. What is mentioned
+everywhere, for all of that you have
+references and click on any
+reference and you will be redirected
+to that particular cell
+or that particular feature.
+Okay.
+Right.
+Let's go.
+Let's move forward.
+Now
+Let's do one thing. Let's do some complex
+task with this. How many are you
+from finance?
+Who is from finance?
+Anyone with little
+knowledge of finance?
+Okay.
+Okay. So you can
+please tell me
+what are
+PNL statements?
+What are they?
+Siddharth?
+Right. Profit and
+loss statement.
+So PNL statement is
+like a forecast for a company.
+Okay.
+This basically tells the company
+that its
+this month's data is going to be
+or how much sales are going to be done
+and then what they do is
+compare it with their actual target.
+So here I will make PNL statement
+with my AI.
+And it is very complex to make.
+If anyone actually knows
+that you are forecasting
+your financial health, then it is very complex
+to make.
+I do the whole work
+with clots.
+So basically what happens in TL
+PNL statement is that you
+decide on the basis of your previous sales
+that your new financial
+year
+or new year, how much is
+its first month's sale?
+So let's say I am saying that its first month's
+sale is 39 lakhs.
+And every month my
+revenue is growing by 3%.
+Okay. Every month
+and average discount is 8%.
+And every month
+what is happening with me, the revenue
+is 58% of my production
+okay.
+The cost that I am getting is 58%.
+Okay. After that
+every month my
+fixed cost is 4.50 lakhs.
+Now what is the fixed cost?
+Let's say your
+showroom rent is going, your
+employee's benefit is going,
+some fund is going, all that
+is fixed. And after that
+every month you get 6%
+variable cost.
+Whatever revenue you get, you get 6%
+variable cost.
+And you give 25% tax every month.
+Okay.
+Now what you have to do on this basis
+you have to tell that every month
+how much profit will be there, how much
+sales will be there, what will be the revenue
+tell you everything. That is actually
+your P and L state.
+Okay. So what you do is
+basically on the basis of previous assumptions
+previous year's
+finance, you predict
+next year's finances. Okay.
+Now this work is done
+with the whole plot.
+Okay. So I will simply
+write
+this work.
+In the finance mode
+you can say, I will change the
+data in the P and L
+sheet
+build
+P and L forecast
+using the data given in the same sheet.
+I am telling LLM, I am telling
+my cloud that this P and L
+statement, sorry, P and L
+statement sheet
+on the basis of this
+make P and L forecast.
+The data
+that you have to use is this.
+Okay. Simply.
+And this you command it.
+Now, LLM
+itself consider everything.
+Everything.
+So what is he doing? First of all
+reading P and L statement sheet.
+Okay. So assumptions
+he is saying that
+everything is here. Okay.
+What are the things to calculate, he has
+figured it out and he has made the whole plan.
+Okay. And now what will he do?
+According to the plan, everything
+will be executed.
+So first of all, what was writing
+months header, he has written.
+Jan, February, March, April, May, June, July
+and the total of financial year.
+Okay. After that, what is he doing?
+Calculating gross revenue. So for every month
+he will calculate gross revenue.
+How will gross revenue be calculated?
+First month is mentioned here.
+39 lakhs and after that
+every month, 3%-3% increment.
+So from here,
+in 39 lakhs, he will do 3%-3% increment.
+See,
+automatically he does it.
+You don't have to do anything.
+Okay. In fact, if I
+expand it and show you,
+so what he has done basically,
+in 39 lakhs, he has done 3% increment.
+Then what he did?
+The next cell,
+previous cell
+is Fab. For March,
+he has calculated gross revenue.
+How he did it? In Fab,
+he did 3% increment.
+How he calculated for April?
+In March, in E17,
+he did 3% increment. We all know that
+these dollar signs basically means
+statics. Right?
+It is changing according to reference.
+And see, he did all the calculations.
+How complex it is to make it?
+You have to mention static cell,
+you have to mention dynamic cell,
+you have to mention everything.
+Okay. He calculated net revenue.
+How will net revenue come?
+Whatever gross revenue
+comes, from that, discount is
+minused. See, from gross revenue,
+this is your dynamic,
+this is static, this is
+static cell. So he
+himself figured out which will be the dynamic cell,
+which will be the static cell.
+Right? All these things
+he found out. See,
+how gross revenue
+is coming for Fab month?
+For Fab month, sorry,
+how net revenue is coming?
+For Fab month, gross revenue minus
+discount. Same for March.
+You go here, go to formula bar,
+you will get cell highlighted.
+Okay. He got COGS.
+How will COGS come out? Again,
+what is 58% of
+net revenue?
+What is COGS?
+So it is coming out here.
+Net revenue into
+58%. COGS will come out
+every month. How much will gross profit be?
+Your net revenue minus
+COGS. He
+himself calculated here. And the biggest
+thing, this is all dynamically
+calculated. If I go here
+and do 4%,
+all the values will change.
+Okay.
+I am moving it back to 3%.
+Everything will change.
+Okay.
+Fixed cost, he is calculating.
+Right? Which is my 4,50,000.
+Variable cost, he is calculating.
+That is, your net revenue
+is 6%. Okay.
+He calculated tax.
+Sorry, total OPEX, he calculated.
+Then his,
+you can say,
+his abit, he calculated.
+Tax, after that he calculated.
+Okay.
+What did he do with tax? Abit
+25%.
+He calculated everything. And every month
+how much profit is coming,
+he mentioned here.
+What is this?
+So the total profit that is coming, that is
+this. Sorry, December profit.
+I don't know what is extra 7.
+Let's see.
+Okay. So gross revenue.
+Total revenue that is
+this amount.
+That is 10 CR, 27,80,830.
+Okay.
+Everything came here with you.
+Now you can just imagine,
+how many formulas are required to do this particular thing.
+Claude made it very simple for you.
+I hope you all are now getting the power
+of Claude for Excel. Now your job
+is only analysis.
+So generally what happens in the industry, when you
+forecast a PNFL statement,
+after that you basically see
+whatever you have set as the target,
+like this is my target.
+How much to sell in the north in the month of January,
+how much to sell in the south,
+these are my targets.
+So what do we do generally?
+Then we compare the target with our PNFL
+statement. So this is what we will do.
+What we will do is,
+let's do one thing.
+Compare
+my
+targets
+with PNL
+statements.
+Compare my targets
+using
+target stable sheet.
+Using target
+sheet with PNL
+statements and
+show for any
+variance.
+Okay. If there is any difference,
+you tell me about it.
+Claude for Excel will do all the work.
+He will do all the work.
+Okay.
+Yes, I will provide you
+this sheet. I promise.
+Okay.
+So he
+first wrote all the months
+for target versus forecast variance
+analysis and for every month
+you tell the difference.
+So here again, we
+plan the steps and
+what will he do?
+Achieve the 5K steps one by one.
+See.
+Variance is coming to 80,000,
+variance percentage is coming to
+this much. Everything is
+detailed here.
+Everything is detailed here.
+Net revenue, target
+variance, everything is there.
+Where my target is missing,
+where my target is hitting,
+he did all the encodings.
+And overall,
+based on the targets
+I have set,
+what I am doing is
+I am generating
+2.5 lakhs less revenue
+than my projected revenue.
+See.
+Your work is only of analysis
+and decision making.
+Claude for Excel will do all the work.
+Isn't this crazy? I hope you all are having fun.
+You must be knowing about the power
+of Claude for Excel.
+Clear with this everyone?
+Okay. Is anyone getting bored?
+Anyone getting bored?
+Okay.
+And believe me guys,
+what we have done so far,
+Claude for Excel has done 15%
+Claude for Excel is
+much more.
+Now let's do one thing.
+Let's use Claude for Excel
+and make a whole dashboard.
+Let's see if it can do it or not.
+Right.
+Let's try this. Let's see
+what it can do.
+Sir, can it solve ML problems?
+This data is mostly
+in Excel or CLV.
+No, CSV.
+Are you talking about ML problems
+in machine learning?
+Harry?
+You don't solve ML problems
+in Excel.
+If you want to solve ML problems,
+then use Claude for code.
+Use agents there.
+You can use it there.
+Claude for Excel will do
+the same thing for you that Excel can do.
+Okay.
+Harry, are you the same Harry
+from Canada?
+Just out of curiosity.
+Okay.
+Actually, I had a student
+from Canada.
+His name is also Harry.
+Okay.
+Now let's see the problem.
+I am telling Claude to make
+the whole dashboard.
+Okay.
+So let's do this.
+I wrote the whole prompt here.
+Create a new sheet
+named dashboard.
+Let's see if it can do it.
+Create a new sheet named dashboard
+and build an interactive
+dashboard. Add KPI cards
+for total revenue, gross margin
+percentage, total
+profit, unit sold, return
+rate, individual
+visuals, include visuals
+for monthly sales trend,
+revenue by category, monthly
+target versus actual performance,
+region-wise target versus
+actual performance, highlighting
+reasons that miss their target
+and rate, sales by channel,
+category-wise return quantity,
+sales rep-wise contribution
+to final sales, and last
+I wrote the instruction, ensure the dashboard
+is clean, professional, and easy
+to management to review.
+Okay.
+Right. Now let's run it.
+Now this is very difficult.
+Claude
+can do it or not, let's see.
+Okay.
+So it
+read everything. Now
+it's a very complex task so first of all
+it will make a plan and
+it's asking me questions according to that plan.
+Okay. Now it was a little confused so
+it asked me, total profit
+in KPI card, what to use in KPI card?
+I am saying, gross profit
+which is actual profit.
+Okay.
+I gave it a command.
+Right. So now what to do?
+It will start making dashboard. And you can see
+first of all it will make a sheet here.
+It will make a
+dashboard and a sheet.
+This task is achieved, then the second task
+will come, building KPI cards.
+And see, how much fun
+it is having while making dashboard.
+Okay.
+See, it is doing the whole editing.
+Let me just
+increase this size.
+It has
+you can say, written the title
+and then it will edit it
+and correct it. Because
+here you can say, there is an issue of editing.
+It will make
+KPI cards, charts for you,
+it will do everything and final formatting
+and polishing too.
+Now it will take some time. Okay.
+Let's just wait for few seconds.
+See, your KPI's have started to form.
+How much great editing is going on.
+You can even
+mention the theme.
+What kind of theme
+you want to edit. All the things
+can be mentioned.
+Right. Each and everything you can
+mention.
+Now all the editing is
+done for you.
+You can see,
+so much dashboard is ready for you.
+Till it is happening, till then
+you can ask your questions.
+It has made all the charts
+for building, staging tables.
+Because without tables you can't make charts.
+Now it will start making charts.
+Power BI
+can work. Again
+Siddharth Claude for Excel
+will only work for Excel.
+For Power BI
+Microsoft
+has launched 27
+skills. I guess 24 or 27
+skills.
+Again, maybe in some sessions
+you can cover it.
+Again, if you can only give prompts
+and use skills to make it work.
+Power BI is also there.
+Ok.
+The whole dashboard is ready.
+See,
+proper formatting, proper
+legend, everything is matched here.
+Claude,
+you know the power of Claude.
+Now tell me one thing,
+the thing
+which means
+Claude's power can only
+be stopped by one thing. What is that thing?
+Anyone want to guess?
+See, now
+it is finalizing the chart.
+Token,
+little more, not even token limits.
+Yes,
+token limits is the correct thing.
+Claude can only be stopped by his token limits.
+If your,
+you can say,
+expired birthday quota,
+then you can't do anything.
+No one can stop Claude.
+Ok, now basically
+see here, I will show you the power.
+He made this chart.
+Right?
+Now after making the charts,
+he was placing the charts in one place.
+After placing, what did he do?
+Verify.
+While verifying, he saw some
+errors. Errors, what did he see?
+Gross profit KPI. We saw that he was showing hash hash.
+He figured it out himself.
+Monthly target
+versus actual, there was some error
+he figured it out himself.
+In the tornad chart, here
+1, 2, 3, 4 was coming.
+In the legend,
+1, 2, 3, 4 was coming. He figured it out himself.
+And now he started fixing it.
+Ok, and back end, you can see.
+What is happening?
+APIs are working.
+API requests are coming to you.
+He took screenshot, processed,
+everything is happening.
+Ok.
+And your dashboard is ready.
+Regional target
+versus actual target.
+Here is your table.
+Repwise, contribution,
+everything is with you.
+Everything is each and every.
+And I am
+very bad at color
+in designing.
+But for me, the color of dashboard
+is correct. I am finding
+it pretty
+simple or
+attractive.
+Ok. So I hope
+you all, the power
+of the cloud, you all understand.
+Everyone clear with this?
+Anyone who has any doubt
+they can ask.
+Because after this, you change
+the gear. These were very basic
+things. Only 20% of the cloud
+is there. Now you learn something complex.
+Any doubt, quick, quick.
+Yes or no?
+Anyone?
+Anyone?
+Yes or no?
+Ok.
+Can anyone tell me why
+the participation is so low today?
+Saturdays and Sundays are very high.
+Today was Wednesday, that's why.
+Ok.
+It's possible that
+the cloud won't be there.
+Ok.
+Now, what you have done
+till now, this is only
+20% of the cloud.
+Only 20% of the cloud for Excel.
+Ok.
+You can use cloud for Excel
+to connect skills.
+To make skills.
+Ok. You can use cloud for Excel
+to bring data from MCP.
+You can use cloud for Excel
+to use plugins.
+You can use cloud for Excel
+to use session monitoring.
+Right. So, what are all these things?
+Let's see them one by one.
+Ok.
+First of all, let's come to skills.
+Ok. Now, what are skills?
+There is nothing.
+Skills are just
+a reusable set of
+instructions.
+Which you write in a simple text or markdown file.
+Which tells the cloud
+how to handle
+any particular task.
+Ok.
+It's simple. If I explain it to you.
+Let's say you have
+bank data.
+What do you do with that data?
+You clean it.
+What do you do? You trim the spaces.
+You do uppercase,
+lowercase.
+You duplicate
+rows.
+You remove them.
+What do you do?
+Let's say, what else can be cleaning?
+You fill values.
+You do proper formatting.
+You do
+consistent data types.
+These are all things.
+Let's say you do it on your data.
+Ok.
+Now, don't do this daily.
+What can you do better than this?
+Pick up all these
+instructions
+and make a skill.
+Right.
+So, a skill is nothing.
+A skill is simply a textual document
+where you have written
+how to do a task.
+It is basically
+how to
+do a task
+manually.
+Any task is
+a manual.
+You must have given some competitive
+exam and if you didn't,
+then everyone must have given board exams.
+So, in the starting of
+board exams,
+the instructions are written
+how to do the paper,
+what to do, what not to do.
+Those instructions are written.
+That is your skill.
+Ok.
+There are two ways to clean the bank data.
+Either you do
+this work daily.
+First do this step, then this step,
+then this step, then this step,
+then this step, then this step.
+Do this work daily step by step.
+Ok. Either you can do it manually
+or you can do it through prompt.
+But again, this is time consuming.
+When I have to do this daily,
+then I write this work in an instruction
+and write it in a file.
+Make it a skill.
+Ok.
+This is a skill.
+It is just an instruction
+which you follow
+or which you have to follow
+to achieve any task.
+That is a skill.
+If I talk about Claude,
+then Claude...
+Oh shit!
+Didn't you see my screen?
+Oh man! Sorry.
+I was writing,
+I was scribbling in my notepad.
+Is my screen visible now?
+I mean, I wrote in my notepad.
+I am extremely sorry.
+But everyone understood, right?
+I said that till now.
+Quick yes or no please. I was not aware
+that the screen is visible or not.
+Ok. So this is a skill you can do.
+If I talk about Claude,
+then Claude
+has some inbuilt skills.
+Claude for Excel,
+when you use it,
+it has some skills.
+Go to plus and go to skills.
+You can see.
+There are so many skills.
+Statement model is a skill.
+Audit Excel is a skill.
+Cleaned art Excel is a skill.
+IBO modeling is a skill.
+DCF model is a skill.
+Discounted cash flow is a skill.
+Any instruction
+to be converted into a skill
+is a skill.
+I will show you how the skill looks like.
+So this clean data skill
+that we saw here,
+this clean data skill,
+I will show you that skill.
+I am clicking on this link.
+This is the skill.
+See, simply write
+textual data.
+Ok. All the instructions are written in it.
+First of all, what to do in step 1,
+what to do in step 2,
+what to do in step 3.
+How to do anything.
+This is a skill.
+Now what can you do
+by using this skill?
+You can do any work.
+Now practically
+see, on me,
+this table is customer data.
+This table is very dirty.
+In fact, when we did analysis,
+we saw it.
+I mean when we were generating summary,
+we saw that this table is dirty.
+Now what we do is,
+we use this skill.
+You can call this skill in two ways.
+Either by going to the skill,
+click on the skill you want to use
+and give your prompt.
+What is the second way?
+You directly type slash,
+automatically all the skills will come.
+So this skill is clean data excel.
+So I am saying
+clean the data,
+clean
+data from sheet
+customer data.
+See, you just have to write this.
+And after that
+you don't have to worry about anything.
+Why? Because how to clean data,
+what things to clean,
+all those things are written here.
+Right?
+Okay, now let's run it once.
+Okay, till this runs,
+I will show you the skill.
+So this is audit excel skill.
+This skill basically
+checks your formulas.
+Okay?
+It will work on three levels and
+basically it sees what potential
+errors can be in your formulas.
+Maybe your formula is working
+well now, but
+you have done some hard coded values.
+There should not be error handling
+in your formula.
+So you run this skill
+and you can audit the formulas
+of the whole worksheet.
+And see, how it is written.
+Simply, what to do in step one,
+what to edit in step two,
+what to check in step two,
+that is written here.
+In step three,
+how to do it,
+what is the output of editing,
+that is written here.
+And all things are written here.
+Every single detail is written here.
+How to edit every type of formula,
+this is a skill.
+Simple language.
+Okay?
+So
+customer data
+cleaned, let's see.
+Okay,
+it generated its plan.
+Sorry.
+Here,
+it cleaned me here.
+Okay?
+Let's see, what it says.
+My plan is seven cleaner steps.
+Shall I proceed with all
+the above? It made a plan.
+First, it identified
+what are the
+problems.
+After that, it made a plan.
+And it is saying, shall I proceed?
+So I say, yes.
+Proceed.
+And please
+create
+another sheet
+named
+customer data
+cleaned and
+insert
+cleaned data
+in the
+newly created
+sheet.
+Okay?
+Now the cloud will do all the work itself.
+It will create a new sheet
+named customer data cleaned.
+After that, it will complete
+all the tasks itself.
+So this is a skill.
+Okay?
+Is this clear to everyone?
+We might know all the existing
+skill in cloud, will it automatically use
+the skill based on the prompt provided?
+I am coming to that point, Shivani.
+Now, what are the skills?
+By default,
+when you add cloud for excel
+add-in, by default,
+you get the pass. But if you want to see
+what other skills are there, go to
+your cloud, go to settings,
+okay? Go to skills here.
+Right? Click on
+this add skills and click on
+browse skills. Here you have
+so many skills.
+You can see skills up to category wise.
+You can see.
+See, how many skills
+you have here.
+Recently updated.
+Okay?
+Here you have skills.
+Canva design, web artifact builder,
+mcp builder, theme factory,
+so many skills. So what do you
+basically have to do? According to your task,
+if you are getting any skill here,
+then well and good, else
+you can also make your own skill.
+Okay?
+So let's see if changes have been made here or not.
+Customer data is a clean table
+and here
+the changes are happening.
+Okay?
+All the changes are clean.
+Now format and flag
+the data.
+Right?
+So see, it is saying that
+this row is
+duplicate of row 2.
+This row is again the duplicate
+of row 2.
+Here the email id is invalid.
+Okay? Here the value
+is missing. Which value is missing?
+Here you have to point out.
+Okay? So all
+the data is here.
+Now what you can do
+if you want,
+you can remove the duplicate values.
+Okay? I can simply write
+let's just wait for it to complete.
+I can simply write
+remove all the duplicate values.
+So this is,
+the whole worksheet
+has the access to the whole worksheet.
+Claude has it.
+Claude can use
+your entire worksheet.
+In fact, not even the worksheet,
+the access to the whole workbook.
+Right? The whole workbook.
+In this workbook, I have 8 worksheets.
+Claude has the access to the whole workbook.
+And my Claude
+can use any workbook or worksheet
+of his work.
+Okay? See,
+I am saying
+delete the rows
+that are
+duplicate.
+Now it will delete the rows.
+Okay?
+It has deleted
+the rows. Now how many
+rows are left on me? Only 28 rows left.
+One column header and 28 rows left.
+That's it. Your whole workbook
+is for you Claude.
+You can assume the things.
+You can figure out the things.
+This was your customer data.
+How clumsy was it?
+What were the missing values? You don't need to worry.
+Tell Claude, Claude will do it.
+Okay? Claude
+asks you before changing.
+Here by default, I have done
+accept all edits.
+But it is a good practice to ask
+before editing. So before
+editing, Claude
+asks you. Okay?
+Now,
+let's say, the skills mentioned
+here. Here you went to skills.
+You went to browse skills.
+This skills is the whole factory.
+Now in this skills,
+what is mentioned
+is not of your work.
+Okay? How
+I will explain to you? Let's say
+I have a database.
+And in that database,
+bank statement is stored.
+Assume that you are doing a job.
+And in that job, what are you doing basically?
+You have a database.
+In Excel, you have data. And in database,
+the data is bank statements.
+Okay, how I will show you?
+So, let me go to new query.
+My database is
+campus-expulse.
+And I am saying select
+start from
+What was the name of my database?
+Just a minute. Let me see the name of the table.
+The table name was
+bank statement wrong.
+I am saying
+bank statement wrong.
+Okay. So your data
+is something like this.
+Right? You all must have seen
+bank statements. So
+something like this. In that,
+the data is written in
+a form like this.
+NEFT, salary employees, UPI,
+DR, SWIGI,
+UPI, DR,
+rank. I hope you all can relate.
+As an analyst,
+what is your job? Daily, you
+have your customer's data. Let's say,
+you have daily customer's data.
+You have to read that customer's data,
+analyze it and divide that customer's
+data into 6 categories.
+Let's say, you have to tell
+how much he has invested in food.
+How much he has invested in transportation.
+He has, let's say,
+how much he has invested in education.
+You have to categorize
+data of your
+customer in 6 categories or 7 categories.
+Let's say,
+this is your job.
+Now, for this job, Claude does not have any
+skill. So you can make
+your own skill. Problem
+statement, everyone understood?
+That what you have to do, this kind of data
+is something and that data
+is categorized for you.
+Right?
+You can do it very easily.
+Claude gives you the opportunity to do it.
+What you have to do is simply,
+you have to
+what you have to do, let me
+minimize all this.
+You don't have to do anything.
+Make a folder
+anywhere. Make it in desktop,
+download, make it anywhere.
+Make a folder. Make a
+notepad file in that folder.
+I am saying notepad
+file. Right?
+Text document.
+And in that text document,
+write your skill.
+Now, skill looks like this.
+Let me show you.
+See.
+First of all, you
+make a category, 3 dash
+and in that
+dash, you write a name
+which will be the name of your skill.
+In fact, if I show you
+skills here, these skills are also written
+in text. You can see
+this in MD. If I
+open the same skill
+in MD, it also looks like this.
+See.
+So this is happening.
+This is what it looks like. But how do you write it in text file?
+First of all, what you have to do is
+make a container of 3 dashes
+and in that container, first of all, you write your name of the skill.
+Right?
+After that, you write the description of that skill.
+Use the skill whenever
+a user uploads a bank statement,
+CSV
+or raw financial data. It will clean
+the merchant names, categorize the expenses
+and generalize a structured Excel budget file.
+This is my description.
+After that, I have written steps.
+Right?
+Smart finance cleaner instructions.
+I have written instructions whenever user uploads
+financial data
+in a financial file like a CSV
+or PDF file. Ask to organize it.
+You must follow these exact steps.
+Then I have written data cleaning steps.
+Auto categorize steps.
+Guys,
+just a minute. I am getting multiple calls from home.
+Just a minute. I didn't tell them. I will come late.
+I need just a minute.
+Thank you.
+I am sorry for inconvenience.
+Guys,
+multiple calls from home.
+I didn't tell them that today
+I had a session.
+Right?
+So, I have written clear here.
+What will you do in step 1? Data cleaning.
+You have to read such data
+that you have to remove it from random numbers.
+How to remove it?
+Something like this.
+Amazon Marketplace
+US 1245 will be
+to Amazigh. Uber Eats spending will be converted to Uber Eats. I have given the full instruction.
+Step 2 is Auto-categorize. What I am doing is categorizing data in these categories. This
+is my step. Step 3 is Excel build-in document. I am telling command Excel. What you have
+to do is that you have to use two sheets. Excel has its own tool to make Excel files. So I
+am telling you to use this tool and make two sheets. One sheet will be clean data where
+you will store clean data and the other sheet will be monthly summary where you will store
+monthly summary. And lastly I have written some other instructions. So simply your file
+looks like this. I have opened this in MD but you write it in text. So you write like
+this. Okay. See this is your file. You have made this file. What you have to do after that
+is that you have to open your cloud. Go to settings. First I will see the usage. Okay
+now we have a lot of usage. Go to skills. Go to add. Go to browse skills. Sorry not browse
+skills. Go to create skills. After going to create skills, click on upload skills. And
+upload the file that you have made. My file was on desktop. I am on this folder and this
+is my skill. Upload this. That's it. Your new skill is ready. You click on any skill
+and you will get the full detail. Smart financial cleaner. Who made this. This is the skill.
+This is the description and this is the skill's meta file. Right. Simple. You can see any
+other skill. Let's say I am adding the skill by saying MCP builder. Okay. So if I go to
+this skill too. MCP builder. So here who has made that skill. Its description and its
+file. Write everything here. You will get it. Okay. You have to remove any skill. Go to
+this skill. Go to three dots. Click on uninstall. That skill should be removed. Right. Now this
+skill is made here. Now what you have to do is simply go to excel. Okay. Do one thing.
+I will save this file. And I am making a new file. And in this file, first of all I will
+do the same. Okay. So I am going to data. Get data from database. From SQL server. Okay.
+Now here my server name was Ajay Sati. Database name is. What is the database name. CampusX
+database. Okay. So first of all, let's get the data from excel. Okay. You can understand
+this problem like a business statement. This is my data. I am loading it. Okay. Is data
+gone? Till then you can ask any question. Sir, cloud model is running in cloud. So data
+is sent to the send in cloud where cloud is hosted to open. No, nothing like that. Actually
+what is happening? Abhishek, look. API is being made on your local system. The server is being
+made on your local system. Do you guys have knowledge about OlaMa? Anyone? I will explain
+about OlaMa through it. Particularly Abhishek. Okay. What happens in OlaMa basically when
+you call the model, what does the model do? It makes a host on your local server. At the
+port 4004. What is this? I don't remember the port. So basically it makes a local host.
+And what happens is this local host gets API request. So in the case of excel, the server
+is being made on your local and that server gets API request. Clear? Okay. Now this data
+is mine. Your data is something like this. Right. Now let's clean this data with the help of
+our skill. It's a very crazy thing. Go to home. Call Claude uncle from here. And simply
+don't do anything. Let me see here. There is a skill. Let me go to setting and skills.
+Yes, there is a skill. I am going to excel. Here I have typed slash. And my skill will
+come. Smart financial cleaner. And I will simply call this skill to clean and organize
+the data from bank's statement raw sheet. That's it. Now my skill will work completely.
+It will read the data, make two sheets and put all the data in it. Okay. The newly created
+skill is public or private. How to share it? It is private. I guess this is private. I
+am not sure. Let's search once. Are private. These are private skills. Okay. And if you
+want to share it, I don't think so Claude gives option. You have to share the file you
+have made manually. Okay. Go to settings. Let me see if I get sharing option. No. I don't
+have any option to share. So you can share the file you have made manually. Okay. Let's
+come to Claude. It is still reading the data. Let's just wait for few more seconds. Okay.
+Now it is making the table sheets. Just have a look here. Automatically. Now see. If as
+a human you are doing this work, then how big task is it to clean it. Just imagine. And
+you are doing this work manually. Okay. But we have explained to Excel how to do this
+work. Excel is doing it by itself. These dates have come. This merchant description has come.
+Category has come. Type has come. Amount has come. Okay. Monthly salary will be made later.
+Okay. Now let's see if I can get the table sheet. Okay. Let's see if I can get the table
+sheet. Okay. Monthly salary will be made later. Okay. Monthly salary will be made later. Okay.
+Okay. Monthly salary will be made later. Okay. Monthly salary will be made later. Okay.
+Okay. Monthly salary will be made later. Okay. Monthly salary will be made later. Okay.
+Monthly salary will be made later. Okay. Monthly salary will be made later. Okay. Monthly
+salary will be made later. Okay. Monthly salary will be made later. Okay. Monthly
+salary will be made later. Okay. Monthly salary will be made later. Okay. Monthly salary will
+In April, my salary was this much.
+In May, my salary was this much.
+In June, it was this much.
+In July, it was this much.
+And in December, I did not spend anything.
+So every analysis, saving rate 53.6.
+Total salary did see this.
+I saved this much.
+Each and every, just imagine, this is your data.
+This is your data.
+Now, making this from this data is a game of days.
+I hope you all agree that making this is a day of task.
+Yes or no? This data.
+Right? But you just made a skill.
+In that skill, you told what to do, how to do it, you told the steps.
+Bingo.
+Give it to Claude.
+Give it to Claude. Claude will do it himself.
+Your work is over.
+I hope now you are at this point that you can make skills according to your requirements.
+Quick yes or no, everyone.
+Whichever domain you are working in, whichever data you are working on, whichever kind of data you are working on.
+Are you now capable of making your own skill and using that skill?
+Make it solid.
+Automate your task.
+Right?
+I was reading a book and there was a very good line written.
+If you are in a corporate, be strategic. Don't be busy.
+Doing this work manually is being busy.
+Make a skill once. It will take two hours to make a skill.
+There is no problem.
+Make it and use it.
+Press and use it.
+That is being strategic.
+Your work is over.
+Just imagine, where you were able to process only one file in a day, now you are able to process one file in ten minutes.
+I forgot the name of the book.
+I was just reading its few pages.
+Okay.
+Now I guess you must be knowing the real power of Claude.
+Till now you were just doing prompts.
+Nothing.
+This is Claude for Excel.
+Right?
+So far, anyone has any doubt?
+Let me close this unnecessary files.
+Quick yes or no.
+Okay.
+Come on.
+Move ahead.
+Okay.
+So we have learned what skills are.
+How to make it? What to make it?
+We have to tell us everything.
+The newly created skill is private.
+If you want to share it, then you have to share the TXT file that you have made.
+Right.
+Or you can make a plugin.
+We will not learn how to make a plugin in this session.
+That is again a complex thing.
+But what is a plugin?
+I will teach you that.
+You can make a plugin and host it on Entropic.
+So anyone can use your plugin and any skill.
+So we will not learn how to make a plugin here today.
+But I am just giving you an idea.
+What is a plugin?
+We will cover that.
+Okay.
+Now let's see what is MCP.
+Can anyone tell me the definition of MCP?
+Sir, can it also apply rules for multiple Excel files in a directory by accessing the directory?
+It can do.
+How do I tell you?
+If I show you two skills here, which are Claude's by default skill.
+There they are basically writing the environment that which file to select.
+See.
+Scope.
+Which file to select.
+It is of selection sheet, it is of model, what to do.
+So you can mention that thing in your skill.
+Clear with the point.
+Carry.
+How to bring the file, where to bring it, all those things you have to do.
+You can mention it in your skill.
+Right.
+Again, it's totally up to you.
+Now you can write it in any way, no matter how complex it is.
+But it will save a lot of time.
+Okay.
+Now let's come to MCP.
+Can anyone tell me the definition of MCP?
+Sorry, full form of MCP.
+Quickly.
+Quickly.
+I left the middle word for you.
+Yes, Model Context Protocol.
+This is MCP.
+So MCP is basically your connector.
+What does connector do basically?
+It connects two things.
+Let's say I have a Mac connector and I am connecting that Mac connector with my iPad with projector.
+So what does this connector do basically?
+It connects these two things so that data can be shared between them.
+Now I can see the data of iPad on the projector.
+Right.
+For data sharing or to connect multiple devices together,
+to share between them, we use the connector.
+Right.
+This is MCP.
+So MCP is basically a connector through which you can connect multiple applications with Excel and bring data from there.
+Okay.
+This is MCP.
+Now let me explain you a simple thing.
+Let's say you are a financial company.
+How many of you know about Stripe?
+Stripe is a financial service, right?
+Anyone know about it?
+It is financial, right?
+Financially, yes, I am correct.
+Stripe is a financial company.
+Okay.
+What you do is you are a company and your gateway is handled by Stripe.
+The payment that is coming is handled by Stripe.
+What you have to do is you have to extract data from Stripe.
+Okay.
+You have to extract that data and analyze it.
+Okay.
+Or let's take an example.
+What you have to do is you have to extract the data from FDA.
+FDA is basically Food and Drug Organization of USA.
+You have to extract the data from here.
+Okay.
+And you have to extract that data and analyze it.
+How will you extract it?
+Generally, what happens is you first find the API.
+Then you hit that API.
+You send a request on that API.
+Okay.
+Right.
+API gives you a response.
+Then what will you do with that response?
+Let's say you will convert it into a proper formatting.
+After that formatting, the data that you will get, you will bring that data to Excel.
+You copy it.
+This is our way out.
+It is very complex.
+You get its alternate.
+MCB.
+Which is called Model Context Protocol.
+Model Context Protocol is basically a connector.
+Through which you can connect with any app or service and extract their data.
+If you are authorized.
+Means you have to extract the data of your company's stripe.
+The email that you have, through which you will log in to the stripe,
+that email should have access.
+Or that email should have the right to extract the data.
+Okay.
+This is connected.
+Simply extract the data.
+Or to extract the data.
+You can say a path that is your MCB.
+Now I will show you.
+If you go here in settings, you have to go to connectors.
+By default, these are some connectors.
+So the connector of Google Drive is connected here.
+You have to go to browse connectors.
+You can see so many connectors.
+You have to extract data from Figma.
+You have your data in Notion.
+Click on that.
+Okay.
+You have to click on the data in Gmail.
+Okay.
+You have data in Slack.
+Click on the ad.
+Let's say my data is in Slack.
+I clicked on the ad.
+Now what will happen?
+Slack.
+First, the Entropiq will ask me to log in to Slack.
+It is checking if you have permission.
+If you don't have permission, you don't scrap the data from there.
+Okay.
+Okay.
+Sorry.
+Let me again log in to my plot.
+I closed the window.
+Let me go to settings, connectors, and browse connectors.
+See, there are so many categories here.
+If you want any connectors related to data,
+if you want any connectors related to financial services,
+you have those connectors.
+See, you have Stripe here.
+You have to extract data from Paytm for Business.
+You have multiple connectors here.
+You name a thing, there are high chances that these connectors are here.
+And these companies make connectors themselves.
+Let's say I am here for financial services.
+So the Paypal connector here was made by Paypal.
+Right.
+Because Paypal wants that if people want my data,
+and they have access, it will be very easy to extract it.
+Okay.
+So companies make their own connectors and put them here.
+Your job is to connect with those connectors.
+Okay.
+How to connect?
+Simply.
+Click on any connector you want to connect.
+You will log in there and you are into the connector.
+The connector will be listed here.
+Okay.
+See, the Slack list is here.
+Now I just have to connect here.
+I have connected from Google Drive.
+Now let's say I connect from email.
+Okay.
+It is asking me to sign in.
+I have signed in.
+I am giving the permissions.
+And now if I show you,
+then see, my email is also connected.
+Right.
+So this is the connector.
+Now you can fetch data from it.
+So let's do one thing.
+We connect the US drug department connector here.
+So if you go to the browsers,
+you will not find that connector here.
+Okay.
+So for that, what can you do?
+You can also connect the connectors through the URL.
+So let's say you and some developers like me,
+they made a connector.
+So what does that connector do?
+It makes a GitHub account of that connector.
+Let's say I look for the FDA connector.
+FDA Connector.
+Or you can say FDA MCP server.
+You can search this.
+Okay.
+So see, here you are getting GitHub.
+Now if you scroll here, you will get the URL.
+Or in their documentation, you will also get the URL here.
+Okay.
+I have already copied that URL.
+So see, this is the URL.
+This is the URL of their connector.
+Okay.
+So what do you have to do?
+Simply add custom connector.
+Here, name your data or whatever you want to give the connector.
+Let's say FDA.
+And here, add the MCP server link.
+And just click on it.
+Now here, to use this server, to use this MCP,
+you don't have to login or anything.
+So you can directly use it.
+And this is your connector.
+Right?
+Now if I go to Excel.
+Let's use this sheet.
+If I go to Excel.
+And here, if I click on plus.
+If I go to connectors, you can see that the connector is connected.
+You can...
+Now it has not been refreshed.
+Sorry. See, this is the connector.
+Right?
+Now you can use this connector.
+This connector is of FDA, the government, the organization.
+Now you can use this connector and get any data from FDA.
+Okay?
+Sorry.
+What I will do, I have already written the prompt.
+Let me bring that.
+So see.
+This is the prompt I have written.
+Prompt is what I am simply saying.
+Please query your databases for the 100 most recent medical recalls.
+Please keep in mind, when you are using connectors,
+you are specifically mentioning the name of the database, keyword or connector.
+Otherwise, what does Entropic do?
+Most of the time, Google starts searching.
+Right? So you mention it.
+Okay?
+So what did I say?
+Put data into the format Excel table, starting from the cell A1.
+I need only two columns, device name and recall severity.
+Whichever severity it is recalled on.
+I am just giving it the prompt.
+Now what will it do?
+It will call my data, which you can say server.
+Okay?
+I will paste data.
+Actually, why am I not catching my server?
+Let's see.
+Use FTA data connector.
+Let's see if it catches.
+Okay.
+It saw the MCP.
+And it got the MCP connector.
+Now what did it do?
+It used the MCP connector to connect to the server.
+Here, it requested an API.
+And I am saying that you use this API request to fetch data.
+And here your data will come.
+Okay?
+And the request that was written.
+If I can show you the request.
+See.
+No, sorry.
+It is not here.
+That request.
+See, what did it do first?
+It saw your connectors.
+Here it got the connector.
+And after that, the request that it wrote, it got the data.
+And after that, the request that it wrote, I am not getting that request.
+But if you see the recording, pause it and see.
+It must have written there that it will fetch 100 records.
+Now this data will automatically come to my Excel.
+See how simple it has become to get data to Excel.
+You can connect to any connector.
+You can use that connector to get data to Excel.
+Clear with this point? Everyone?
+See.
+This data has come to you.
+Now this data is coming from an authentic server.
+Right?
+Okay.
+You can trust this data.
+Now let's say if you want to get data from Paytm, log in.
+Log in from Stripe.
+There is no problem with any API.
+Claude for Excel is handling everything for you.
+So you think about it yourself.
+Bring data to Excel, clean data, analyze data, visualize data.
+Claude for Excel simplifies everything for you.
+Right?
+And explore as many connectors as you can.
+Go here according to your requirements.
+And according to your domain, see the connectors in actual.
+Legal, life, science, productivity, sales and marketing.
+I don't know how many connectors are here.
+You have to just explore and get the data from your domain.
+Everyone is clear up to here?
+Quick yes or no please.
+Perfect.
+Okay.
+Whenever you want to bring data to Excel next time, don't copy and paste.
+First of all, see if there is any connector available.
+And there is high chance that the connector of the application you want to bring data from,
+the database you want to bring data from, will be available.
+Now let's say there is a database called World Data Bank.
+If you search on Google, MCP server for World Data Bank.
+See, someone has created a MCP server for World Data Bank.
+Now read through it once and pick up its URL from here.
+Simply.
+Right? And you will get this connector.
+Okay?
+Harry is asking, so we can scrap data easily if we add Playwright Connector.
+Yes, you should have access.
+Let's say I don't have a Slack account.
+Now let's say, let me tell you one more thing.
+I have connected to connectors from here.
+Let's say I have connected to Notion.
+So when I connect to Notion, basically I will be able to extract the same data from Notion
+which has access to my mail.
+Now you can't do unwanted, you can say, scrapping.
+Clear with this point?
+You can keep a complete security.
+Clear?
+Clear?
+Let's go.
+Okay.
+Now let's go to the next one.
+That is your
+plugins.
+Now what are plugins?
+Let's say you are in the marketing team.
+Okay.
+Forget marketing, you are the head of customer service team.
+Okay.
+Now what is your daily work?
+Pulling customer data.
+Let's say they have different apps from there.
+Then analyzing it.
+And then giving recommendations based on it.
+This is your full work.
+And you bring data from multiple apps.
+You analyze it in multiple ways.
+So what you can do?
+You can use multiple MCPs to bring data from multiple apps.
+Okay.
+You can make multiple skills to analyze it in multiple ways.
+Okay.
+And these things
+you can make a plugin instead of keeping it distorted.
+So plugin is nothing.
+It is nothing.
+Plugin is just the collection of various MCPs and various skills
+that you can use together.
+Meaning you get everything at one place.
+You made this plugin and you gave it to the whole team.
+What can you do?
+The team can use the MCP mentioned in that plugin.
+The skills mentioned in the analysis can be used very easily.
+This is plugin.
+So plugin basically is nothing.
+Plugin is just the collection of MCP and skills
+which you can keep at one place.
+Okay.
+And I have written it here.
+Plugin is a prepackaged bundle of that combined skills.
+MCP connectors, set, slash commands, subagents
+into a single one click instruction.
+You basically get commands and subagents in this.
+But they don't stay in Excel.
+So we won't consider this for Excel.
+Okay.
+So these plugins are basically you can use in any cloud code.
+Right.
+So these are plugins.
+So you will get the plugins in what?
+In cloud.
+Right. If I show you here.
+Go to settings.
+Go to plugins.
+Add browse plugins.
+There are so many plugins.
+Domain wise selectable.
+Okay.
+But,
+Domain wise select any plugin.
+Right. Now there is a very famous plugin here
+that is data.
+This is the plugin of Anthropic.
+Now in this plugin, basically Anthropic has written
+so many skills for you.
+Analyze skills, build dashboard skills,
+visualization skills,
+contact data extraction skills.
+There are many skills.
+And so many connectors.
+You can get data from here.
+Okay.
+So you got all these things at one place.
+You don't have to handle multiple things in different ways.
+You don't have to manage.
+Simply add this plugin.
+Here I clicked on plus.
+Okay.
+Now this plugin is added here.
+It has 10 skills.
+Now I can use this plugin
+and do whatever skills are mentioned in this plugin.
+I can do everything.
+Skills, tools, I can use everything.
+Right.
+Now
+there is a very good skill in this plugin.
+That is explore data.
+It explores your data.
+Second skill
+is analyze data.
+It analyzes your data.
+So you don't have to write manually.
+Everything is in the plugin.
+Now all these skills are used by people
+in your data field.
+In the same way, go to marketplace.
+Sorry, go to the blouse plugins.
+There is another very good
+plugin that is
+marketing.
+This is also of Anthropic.
+Okay. In this plugin, you have 8 skills
+and 13 connectors.
+What marketing people have to do basically?
+They have to do brand review.
+They have to do campaign plan.
+They have to do competitive analysis.
+They have to do content creation.
+They have to generate performance report.
+Skills are made for every work.
+From where marketing team brings data?
+For every thing, a connector is made here.
+What you have to do is
+install this plugin.
+There is a very simple way
+to install it.
+Click on plus.
+Once you have done on plus, this plugin
+comes to you. Now you can use it
+anywhere. Let's say you are
+on cloud desktop.
+I will tell you using you here too.
+See, go to plus here.
+Go to plugins. Go to data.
+All the skills of data
+are here.
+Go to marketing. Let's say I have to draft
+the content. Go to draft content
+and write
+LinkedIn post
+related to AI.
+Simply.
+Now what will it say?
+Cloud.
+This skill is used
+by it. First of all,
+it is reading the skill.
+It opens the skill
+and starts reading it.
+As soon as it reads it,
+after that, if required,
+it will ask some questions or it will start working.
+See,
+this is plugin.
+Many people have made plugins.
+Now it asks you what angle
+should be. I am saying
+your campus x work.
+I am saying
+opinionated hot take.
+Short punchy standard.
+It has asked me questions.
+Now it will work for me.
+Now this marketing skill
+has some work in Excel.
+But the work in Excel is
+the plugin of data.
+The skills in it
+these skills
+explore data, validate
+data, statistical analysis,
+analyze skill.
+Again, the work of writing
+SQL query. This skill
+is not in Excel.
+Because I am not writing SQL query in Excel.
+So plugin is not made
+for any app.
+It is made in general.
+Now think, this plugin
+data visualization plugin.
+It can work very well in cloud
+app. Here I will give
+a data and call this skill.
+Sorry not plugin. This skill.
+I will call this skill and it will visualize.
+Right?
+So this is plugin.
+Now let's do one thing.
+This data we have called
+this data will be analyzed.
+So you have to use plugin. How?
+Go to plugin.
+Here it is not refreshed yet.
+I do one thing.
+I go to home and
+shut it down once.
+Let's open cloud again.
+See,
+now all plugins have come on me.
+Now whatever plugins I click,
+I get that skill.
+Right?
+I am saying explore data.
+I am saying
+explore
+data for
+simply.
+So,
+I am saying
+explore data.
+Now it will explore.
+Ok, first of all,
+it is reading the reading instructions of this skill.
+It read the skill. This is the whole skill.
+This skill is not made by me.
+It was in the plugins. From there you use.
+Right? Now it is reading data.
+So what you have to do is
+we
+one aspect of our cloud for excel is left.
+Apart from this, we have covered all aspects.
+How to do it normally?
+How to make a dashboard
+database? How to edit?
+How to do visualization?
+How to use this skill?
+Cloud for excel.
+How to get data from MCP?
+How to use it?
+How to use plugins from leg?
+We have covered all.
+Now what you have to do?
+You have to do nothing.
+Open this skill, open the connector, open the plugin.
+Make the skill yourself.
+Open connectors and plugin and explore them.
+See which one is yours.
+Let's say which domain
+you are working in.
+Select that domain from here.
+Ok
+Let's say
+I work only for
+database.
+Select the plugin from here.
+Read it.
+What can that plugin do?
+Go to the plugin, this is the plugin for finance.
+Here you will get the details
+of what this plugin does.
+What skills this plugin has, what connectors
+this plugin has.
+You can do everything.
+Now I will tell you
+how to use MCP inside plugin.
+Go to this.
+Go to connectors.
+Ok.
+I have told you one thing.
+Let's say this snowflake connector is here.
+First of all, you have to
+authenticate this connector.
+Means you have to go to connectors
+and search for snowflake use.
+And here you have to authenticate it.
+And then what you can do?
+You can use this
+through connectors.
+Ok.
+Clear.
+This is my skill.
+It gave me
+the whole
+data.
+It gave me everything.
+Full analysis.
+So this is plugin.
+Do search for plugins.
+Till here, everyone
+is clear. Each and everything.
+Now we have to do a very interesting thing.
+Quick here, Sonu.
+I think everyone is bored.
+You tell.
+What should I tell?
+I am getting angry.
+Sudipta
+got angry.
+He is telling me to tell
+that I am bored.
+Ok.
+Now let's read one last aspect.
+That is
+your session logs.
+Ok. Now if you
+go to this sheet
+I am going to the old one.
+When I gave the first prompt
+then Claude made a sheet here.
+Ok. Why did he make this sheet?
+Because I went to settings and
+turned on session logging.
+When you turn on session logging
+then when the session starts
+in your desktop.
+When you start the session
+then Claude makes a sheet
+by saying session log.
+And in this session log sheet
+he stores everything.
+Each and everything.
+He will tell you
+the first prompt on which date
+and what was your prompt.
+My prompt was read all 8 sheets
+and provide one line summary for each.
+Then I identified the facts versus reference table.
+This was my prompt.
+These actions are
+taken by Claude.
+He read the headers
+and gave a summary.
+And these are the details.
+All the details.
+Ok. Now let's go to this.
+My sixth prompt was
+add a gross profit column in
+sales column in sales chart.
+What actions did I take?
+What actions did I take?
+Added header this
+value here
+formula here.
+And this formula
+is written in detail here.
+And if error is used because
+non-zero values are 9 and this
+is the range.
+So you can use
+this
+first
+for auditing.
+You
+don't remember
+what was the column made from.
+You can check
+in your Claude log file
+how was the column.
+You can use this
+for learning purpose.
+You don't understand
+how to achieve any particular task.
+Gross profit column
+what was the formula?
+You have it here.
+You can analyze it.
+This is used
+to build trust.
+You can audit it very well
+that how every row
+that has changed.
+Now let's see a very simple
+complex one.
+I made a PNL statement
+this was
+my sixth prompt was build a
+2025 PNL
+forecast in
+PNL statement sheet using the
+assumptions already present.
+This was my statement prompt.
+Here it has told me what to do.
+And here are the details
+that how it was built.
+Assumptions were written from C6
+to C12.
+Gross revenue was increasing 3%
+month of month from
+39 lakh.
+Financial year net profit is this much.
+All cells.
+The dollar format
+rupees hash
+comma hash hash this format is used.
+Net profit row
+dark navy with white text.
+It has told in detail.
+You can use this logging
+for auditing, learning,
+for multiple purposes.
+This is a good practice
+that you always do logging
+so that you share your sheet
+with someone tomorrow.
+So that he knows what work is here.
+Clear?
+Everyone
+clear with this?
+So far
+no doubt
+so far not in fact
+we have completed.
+Now let's come to the
+main point and that
+main point is
+I have just shown you a path
+that how you can use
+Claude for Excel.
+You have to
+now go and explore Claude
+for Excel. Believe me Claude
+for Excel can do a lot.
+You can do repetitive tasks
+and you can't think what
+you can do. Just make
+skills for yourself.
+Where you are getting data, find MCP
+servers. Find plugins for yourself.
+Rest is all written in the prompt.
+You have to go and do only three things.
+Find skills or make
+second is find MCP
+servers. If
+the MCP market is Claude
+there you are getting MCP server
+well and good. Otherwise, go to Google
+and search for GitHub. From there
+click on MCP servers.
+For your work.
+Third, find plugins
+which can help you in your day to day
+tasks.
+Believe me guys.
+Can you rate yourself now
+that how much
+productivity you can increase after
+having today's session?
+Everywhere. I need ratings
+from everywhere. Now tell
+me 10x, 12x, 1x, 2x.
+If you use Claude for Excel
+in your daily workflow
+how much productivity
+you can increase?
+Come on, tell me quickly.
+10x
+10x
+4x, 10x
+I hope you all
+means what you have given here
+for the last two and a half hours. I hope you all
+got the value. You must have got a
+proper clear idea
+how to use Claude.
+So if this is
+done then the session
+is successful for today.
+Now if you have any doubt
+do ask
+and do share
+today's feedback in the group so that
+people can see its recordings.
+Because I personally
+feel most of the day to day analysis
+is done on Excel.
+If your data is not coming in bulk
+and day to day data is coming then
+analysis is done on Excel. And if you
+learn Claude for Excel then
+you can increase productivity a lot.
+So once in the group
+do share your feedback so that
+others are also motivated to
+see
+recordings of this lecture.
+VBS programming
+Basically I am telling you VBA program.
+Mitu will not be able to do Claude for you.
+In fact Claude
+can't do editing in your Power Query.
+In Claude's
+documentation there are strictly mentioned
+limitations. You have to do it yourself.
+Again that is
+why it is said that
+AI will not replace you. AI
+will optimize you.
+VBA you write it yourself.
+The high level editing you do
+in Power Query. You have to do
+that.
+Anyone any doubt
+before ending this session?
+If no you all can write now.
+So Dipta is asking, there is a question
+using session login
+can we go back to a
+checkpoint?
+No, Sudeepta.
+Yes, you can. How?
+You can't go directly. But how
+can you go? I will tell you.
+Don't do anything.
+You said
+checkpoint.
+From leg to 10th everything
+was going well.
+Now you have to reverse
+things. Don't do anything.
+Select everything from here to below.
+Go to Claude for Excel.
+Okay.
+And tell him
+that these changes have happened
+and I want to reverse it.
+If changes are reversible
+Claude will do it. But there are
+high chances that he will not perform so effectively in it.
+It is not possible
+to make a checkpoint.
+You can say in Claude that
+reverse
+all the changes
+as per data
+given. Claude
+will try to do all those changes
+which are possible and reverse them.
+Okay.
+I can't do this currently
+because I want to share this file with you.
+This is the reason.
+Okay.
+Anyone any more doubts?
+Best practice is to keep checking
+the code frequently. Yes.
+Version history
+you can't make it.
+You can make
+multiple Excel files
+using version history.
+You can't make it through Claude code.
+Sorry.
+You can't make it through Claude code or Excel.
+Best practice
+is to
+keep checking the code frequently. Yes.
+And the rest of the best practice is
+always mention your sheet name.
+Which you want to refer.
+If there are multiple tables in the sheet, mention your table name.
+Along with that,
+check for the cell references.
+Check if it is happening or not.
+Always verify the form plus.
+Always turn session logging on.
+These are some of the good practices
+which you should use Claude for Excel.
+Meaning you should use it quickly.
+Okay. Any more doubts?
+Okay. So shall we
+end this session?
+No doubts from any of you.
+Perfect.
+So let's go.
+Let's meet on Saturday.
+I have an announcement for Saturday.
+Your AI Pulse session
+I am planning to cover the news
+in that session.
+Along with that, we will
+take up the news of
+that kind where we can discuss
+AI concepts.
+Let's say
+Diffusion Gamma is coming.
+Let's discuss about Diffusion Gamma and architecture.
+So this is my plan.
+AI news
+You are getting updates.
+But also your conceptual clarity.
+Let's say
+GLM2 is coming.
+They have done a good context engineering.
+What is context engineering?
+We will not go into detail.
+But we will touch that point.
+So that
+if you read the news further
+you will know about it.
+So this is my plan.
+Okay?
+Let's go.
+Okay. Thank you
+everyone. Thank you for your time.
+See you all again on
+Saturday.
+See you all again on Saturday. Thank you everyone.
+Harsh, okay. Thank you for the
+suggestion. Let's try.
+For sure. We will try to
+plan a session on this.
+Harsh is basically saying
+if you can teach Gemini in Google
+Sheet. We will try. For sure
+we will try.
+Okay?
+Thank you everyone. Thank you for your time.
+See you all again on Saturday. Good night.

@@ -1,0 +1,9489 @@
+00:01:00.000 --> 00:01:24.000
+Yeah, am I audible now?
+
+00:01:24.000 --> 00:01:28.500
+Yes, great, great.
+
+00:01:28.500 --> 00:01:41.500
+Okay guys, 5 minutes, we'll wait for everyone to join and then we'll start.
+
+00:01:41.500 --> 00:01:44.500
+Okay, one thing I'm working on a new system.
+
+00:01:44.500 --> 00:01:46.500
+Everything is clearly visible to you.
+
+00:01:46.500 --> 00:01:48.500
+Is my screen share visible?
+
+00:01:48.500 --> 00:01:53.500
+Am I audible? Everything is perfect?
+
+00:01:53.500 --> 00:01:56.500
+I'll discuss everything. I'll discuss the prerequisites.
+
+00:01:56.500 --> 00:01:58.500
+Everything. Don't worry about it.
+
+00:02:04.500 --> 00:02:05.500
+Great, great, great.
+
+00:02:05.500 --> 00:02:07.500
+So, we'll do one thing.
+
+00:02:07.500 --> 00:02:11.500
+Like starting in 15-20 minutes, we'll have a little discussion.
+
+00:02:11.500 --> 00:02:15.500
+Okay, I'll discuss my audience.
+
+00:02:15.500 --> 00:02:16.500
+How is my audience?
+
+00:02:16.500 --> 00:02:21.500
+Because when I was designing the curriculum for the course,
+
+00:02:21.500 --> 00:02:25.500
+I was not sure what kind of audience is coming to me.
+
+00:02:25.500 --> 00:02:27.500
+What is your prior experience?
+
+00:02:27.500 --> 00:02:31.500
+So we'll discuss that a little bit and then we'll start.
+
+00:02:31.500 --> 00:02:35.500
+Okay, don't worry about it.
+
+00:02:35.500 --> 00:02:39.500
+Everything will depend on your feedback.
+
+00:02:49.500 --> 00:02:50.500
+Yeah.
+
+00:02:55.500 --> 00:03:01.500
+How many classes will there be?
+
+00:03:01.500 --> 00:03:05.500
+Now we are planning to have around 20 classes.
+
+00:03:05.500 --> 00:03:13.500
+Okay, the rest will depend on how many sessions you are able to understand.
+
+00:03:13.500 --> 00:03:17.500
+Again, based on your experience level.
+
+00:03:17.500 --> 00:03:18.500
+We'll discuss the prerequisites.
+
+00:03:18.500 --> 00:03:19.500
+We'll discuss everything.
+
+00:03:19.500 --> 00:03:23.500
+Don't worry about it.
+
+00:03:23.500 --> 00:03:27.500
+There are not many prerequisites.
+
+00:03:27.500 --> 00:03:29.500
+We'll discuss everything in detail.
+
+00:03:29.500 --> 00:03:35.500
+We'll discuss the curriculum as well.
+
+00:03:35.500 --> 00:03:39.500
+Everything will be discussed.
+
+00:03:39.500 --> 00:03:45.500
+Okay, if you have never deployed, then we'll start from the very basics.
+
+00:03:45.500 --> 00:03:51.500
+My idea of designing LLM Ops is basically if I tell you my idea,
+
+00:03:51.500 --> 00:03:57.500
+the idea is that you will get the answer of Y in this particular course.
+
+00:03:57.500 --> 00:04:01.500
+So I'll tell you my idea of designing LLM Ops.
+
+00:04:01.500 --> 00:04:03.500
+So basically if I tell you my idea,
+
+00:04:03.500 --> 00:04:09.500
+the idea is that you will get the answer of Y in this particular course.
+
+00:04:09.500 --> 00:04:13.500
+We will not focus on the tool that we are using.
+
+00:04:13.500 --> 00:04:17.500
+Because tools keep coming and changing.
+
+00:04:17.500 --> 00:04:19.500
+It may be that when you are working in the industry and
+
+00:04:49.500 --> 00:04:51.500
+I don't know.
+
+00:04:51.500 --> 00:04:53.500
+Is the audio back?
+
+00:04:53.500 --> 00:04:55.500
+Hello.
+
+00:04:55.500 --> 00:04:57.500
+Okay.
+
+00:04:57.500 --> 00:04:59.500
+It's fine now.
+
+00:04:59.500 --> 00:05:05.500
+Guys, it may be that there are some glitches because I am currently working on a very new setup.
+
+00:05:05.500 --> 00:05:07.500
+I have set it up for the first time for this class.
+
+00:05:07.500 --> 00:05:09.500
+I tested everything.
+
+00:05:09.500 --> 00:05:11.500
+Everything was working fine.
+
+00:05:11.500 --> 00:05:13.500
+But it may be that during the class, some glitches may occur.
+
+00:05:13.500 --> 00:05:15.500
+So please be supportive today.
+
+00:05:15.500 --> 00:05:19.500
+If there is an issue with the cables or USB hub, I will figure it out.
+
+00:05:19.500 --> 00:05:21.500
+So there will be no issue in the next class.
+
+00:05:21.500 --> 00:05:23.500
+I am very new on Mac.
+
+00:05:23.500 --> 00:05:29.500
+I was working on a Windows system so it will take some time today.
+
+00:05:29.500 --> 00:05:31.500
+Right.
+
+00:05:31.500 --> 00:05:39.500
+So I was telling that the answer behind Y is that why are we using a tool?
+
+00:05:39.500 --> 00:05:41.500
+We will read that Y.
+
+00:05:41.500 --> 00:05:45.500
+We will cover this lecture from the first principle approach.
+
+00:05:45.500 --> 00:05:49.500
+Because as I told you, tools keep changing with time.
+
+00:05:49.500 --> 00:05:51.500
+Today you are reading a tool.
+
+00:05:51.500 --> 00:05:55.500
+It may be that when you are working in the industry, you work with another tool.
+
+00:05:55.500 --> 00:06:03.500
+So my main focus for this particular lecture is that we will take the Y approach here.
+
+00:06:03.500 --> 00:06:05.500
+Why are you using the tool?
+
+00:06:05.500 --> 00:06:09.500
+Where is the tool used in your workflow?
+
+00:06:09.500 --> 00:06:11.500
+Where is the tool used and why is it used?
+
+00:06:11.500 --> 00:06:13.500
+We will find the answer to that question.
+
+00:06:13.500 --> 00:06:15.500
+Is this clear?
+
+00:06:23.500 --> 00:06:25.500
+Great.
+
+00:06:25.500 --> 00:06:27.500
+Great.
+
+00:06:27.500 --> 00:06:29.500
+Do you have any more questions?
+
+00:06:31.500 --> 00:06:35.500
+If you have any more questions, you can ask and then we will start.
+
+00:06:35.500 --> 00:06:39.500
+There are a lot of questions on prerequisites.
+
+00:06:39.500 --> 00:06:41.500
+Don't worry.
+
+00:06:41.500 --> 00:06:43.500
+I will discuss the prerequisites.
+
+00:06:43.500 --> 00:06:45.500
+They are very simple.
+
+00:06:45.500 --> 00:06:47.500
+I will take your feedback.
+
+00:06:47.500 --> 00:06:51.500
+If my maximum audience is the first person to hear about these tools and techniques,
+
+00:06:51.500 --> 00:06:53.500
+then we will plan the curriculum accordingly.
+
+00:06:53.500 --> 00:06:55.500
+I have taken a very dynamic approach in this curriculum.
+
+00:06:55.500 --> 00:06:57.500
+This curriculum is very flexible.
+
+00:06:57.500 --> 00:07:03.500
+That's why I am saying that it is difficult to tell you how many classes there will be.
+
+00:07:03.500 --> 00:07:07.500
+It will depend on your pace on how we plan it.
+
+00:07:07.500 --> 00:07:13.500
+Our initial idea was that we will cover it in around 20 classes.
+
+00:07:13.500 --> 00:07:19.500
+But if you are struggling with some of the tools or you are taking time to learn,
+
+00:07:19.500 --> 00:07:23.500
+then we will manage accordingly.
+
+00:07:23.500 --> 00:07:25.500
+It will be flexible.
+
+00:07:29.500 --> 00:07:31.500
+For demonstration, we need some tools.
+
+00:07:31.500 --> 00:07:37.500
+I have selected some tools for each of the steps in the pipeline.
+
+00:07:37.500 --> 00:07:39.500
+I will share the list with you.
+
+00:07:39.500 --> 00:07:41.500
+We will share it in this session.
+
+00:07:41.500 --> 00:07:45.500
+You can see these tools in this particular slide.
+
+00:07:45.500 --> 00:07:47.500
+We will read them.
+
+00:07:53.500 --> 00:07:55.500
+Any more questions?
+
+00:07:55.500 --> 00:07:57.500
+Hands on?
+
+00:07:57.500 --> 00:07:59.500
+Yes, hands on.
+
+00:07:59.500 --> 00:08:01.500
+The theoretical part will be there.
+
+00:08:01.500 --> 00:08:03.500
+Why?
+
+00:08:03.500 --> 00:08:05.500
+Everything will be hands on.
+
+00:08:05.500 --> 00:08:07.500
+Yes, why, what and how.
+
+00:08:07.500 --> 00:08:09.500
+It will work like that.
+
+00:08:15.500 --> 00:08:19.500
+I think there are not many minimum system requirements.
+
+00:08:19.500 --> 00:08:23.500
+If you have a system of 8GB or 16GB with a decent enough CPU,
+
+00:08:23.500 --> 00:08:25.500
+you will be able to work.
+
+00:08:31.500 --> 00:08:33.500
+This session will be two hours.
+
+00:08:39.500 --> 00:08:41.500
+What is relevant Kartik?
+
+00:08:47.500 --> 00:08:49.500
+Okay.
+
+00:08:49.500 --> 00:08:51.500
+Shall we start?
+
+00:08:53.500 --> 00:08:55.500
+Yes, we should start now.
+
+00:08:55.500 --> 00:08:57.500
+Let me ask you people.
+
+00:08:57.500 --> 00:08:59.500
+How many of you have ever done MLops?
+
+00:08:59.500 --> 00:09:01.500
+I mean have you ever studied about MLops?
+
+00:09:01.500 --> 00:09:03.500
+Or any of the tools in MLops pipeline that you have hands on?
+
+00:09:03.500 --> 00:09:05.500
+Okay.
+
+00:09:05.500 --> 00:09:07.500
+So, let's start.
+
+00:09:07.500 --> 00:09:09.500
+So, let's start.
+
+00:09:09.500 --> 00:09:11.500
+So, let's start.
+
+00:09:11.500 --> 00:09:13.500
+So, let's start.
+
+00:09:13.500 --> 00:09:15.500
+So, let's start.
+
+00:09:15.500 --> 00:09:17.500
+So, let's start.
+
+00:09:17.500 --> 00:09:19.500
+So, let's start.
+
+00:09:19.500 --> 00:09:21.500
+So, let's start.
+
+00:09:21.500 --> 00:09:23.500
+So, let's start.
+
+00:09:27.500 --> 00:09:29.500
+Right.
+
+00:09:29.500 --> 00:09:33.500
+How many of you have ever made a GNI based or LLM based application?
+
+00:09:33.500 --> 00:09:35.500
+Either using Lang chain, Lang graph,
+
+00:09:35.500 --> 00:09:37.500
+or any simple application?
+
+00:09:39.500 --> 00:09:41.500
+You have made the basic.
+
+00:09:41.500 --> 00:09:45.500
+Have you ever made a rack based application?
+
+00:09:47.500 --> 00:09:49.500
+You have a basic idea.
+
+00:09:49.500 --> 00:09:51.500
+So, some of you have basic idea.
+
+00:09:51.500 --> 00:09:53.500
+And agentic based application?
+
+00:09:59.500 --> 00:10:01.500
+Right.
+
+00:10:03.500 --> 00:10:05.500
+So, the prerequisites that are going to be there,
+
+00:10:05.500 --> 00:10:07.500
+So, the prerequisites that are going to be there,
+
+00:10:07.500 --> 00:10:09.500
+because now I have understood that
+
+00:10:11.500 --> 00:10:13.500
+Okay.
+
+00:10:13.500 --> 00:10:15.500
+So, the prerequisites that are going to be there for this particular course,
+
+00:10:15.500 --> 00:10:17.500
+I am finalizing it.
+
+00:10:17.500 --> 00:10:19.500
+So, the prerequisites will be
+
+00:10:19.500 --> 00:10:21.500
+your little hands on with Lang chain and Lang graph.
+
+00:10:21.500 --> 00:10:23.500
+your little hands on with Lang chain and Lang graph.
+
+00:10:47.500 --> 00:10:49.500
+Am I audible now?
+
+00:10:51.500 --> 00:10:53.500
+Yes.
+
+00:10:53.500 --> 00:10:55.500
+So, let's do one thing.
+
+00:10:55.500 --> 00:10:57.500
+I was speaking through the mic.
+
+00:10:57.500 --> 00:10:59.500
+I have disconnected the mic.
+
+00:10:59.500 --> 00:11:01.500
+I am talking through the laptop microphone.
+
+00:11:01.500 --> 00:11:03.500
+Is there any echo?
+
+00:11:03.500 --> 00:11:05.500
+No. Perfect.
+
+00:11:05.500 --> 00:11:07.500
+So, as I said,
+
+00:11:07.500 --> 00:11:09.500
+the prerequisites that are going to be there for this particular course,
+
+00:11:09.500 --> 00:11:11.500
+will be Lang chain and Lang graph.
+
+00:11:11.500 --> 00:11:13.500
+will be Lang chain and Lang graph.
+
+00:11:13.500 --> 00:11:15.500
+You can follow the YouTube playlist of Lang chain and Lang graph.
+
+00:11:15.500 --> 00:11:17.500
+You can follow that.
+
+00:11:17.500 --> 00:11:19.500
+Just the basics.
+
+00:11:19.500 --> 00:11:21.500
+You should have an idea of concepts
+
+00:11:21.500 --> 00:11:23.500
+and you should have an idea of syntax.
+
+00:11:23.500 --> 00:11:25.500
+So that when we write the code from the next session to the upcoming session,
+
+00:11:25.500 --> 00:11:27.500
+so that you don't feel the code is alien.
+
+00:11:27.500 --> 00:11:29.500
+So, what are the runnables in the Lang chain?
+
+00:11:29.500 --> 00:11:31.500
+So, what are the runnables in the Lang chain?
+
+00:11:31.500 --> 00:11:33.500
+How do you code in the Lang chain?
+
+00:11:33.500 --> 00:11:35.500
+How do you write prompts?
+
+00:11:35.500 --> 00:11:37.500
+How do you invoke LLMs?
+
+00:11:37.500 --> 00:11:39.500
+You should have that idea.
+
+00:11:39.500 --> 00:11:41.500
+And what is the concept of state in the Lang graph?
+
+00:11:41.500 --> 00:11:43.500
+How do graphs are made?
+
+00:11:43.500 --> 00:11:45.500
+How do workflows are made?
+
+00:11:45.500 --> 00:11:47.500
+Graphs are compiled, notes are added.
+
+00:11:47.500 --> 00:11:49.500
+You should have that idea.
+
+00:11:49.500 --> 00:11:51.500
+Is it clear now?
+
+00:11:51.500 --> 00:11:53.500
+Prerequisites are clear?
+
+00:11:53.500 --> 00:11:55.500
+So, I will write the prerequisites here.
+
+00:11:55.500 --> 00:11:57.500
+So,
+
+00:11:57.500 --> 00:11:59.500
+the prerequisites that are going to be there for this particular course,
+
+00:11:59.500 --> 00:12:01.500
+it will be 2.
+
+00:12:01.500 --> 00:12:03.500
+First will be our Lang chain.
+
+00:12:03.500 --> 00:12:05.500
+Second will be our Lang graph.
+
+00:12:05.500 --> 00:12:07.500
+Second will be our Lang graph.
+
+00:12:07.500 --> 00:12:09.500
+Second will be our Lang graph.
+
+00:12:09.500 --> 00:12:11.500
+Second will be our Lang graph.
+
+00:12:11.500 --> 00:12:13.500
+Is it clear?
+
+00:12:13.500 --> 00:12:15.500
+And from where do you have to read this?
+
+00:12:15.500 --> 00:12:17.500
+Which is our YouTube playlist.
+
+00:12:21.500 --> 00:12:23.500
+And just the basics.
+
+00:12:23.500 --> 00:12:25.500
+You don't have to go into advanced concepts.
+
+00:12:25.500 --> 00:12:27.500
+Like if I talk about Lang graph,
+
+00:12:27.500 --> 00:12:29.500
+then the concept of memory,
+
+00:12:29.500 --> 00:12:31.500
+short term memory, long term memory,
+
+00:12:31.500 --> 00:12:33.500
+you don't have to go into those advanced concepts.
+
+00:12:33.500 --> 00:12:35.500
+You should have a basic idea.
+
+00:12:35.500 --> 00:12:37.500
+Yes, I am sharing my screen.
+
+00:12:37.500 --> 00:12:39.500
+Is it not visible?
+
+00:12:41.500 --> 00:12:43.500
+I think it is.
+
+00:12:43.500 --> 00:12:45.500
+It will be a problem from your end.
+
+00:12:45.500 --> 00:12:51.500
+Okay, your chat is disturbing my flow.
+
+00:12:51.500 --> 00:12:53.500
+So, I will request you,
+
+00:12:53.500 --> 00:12:55.500
+for a while,
+
+00:12:55.500 --> 00:12:57.500
+don't do any activity in the chat section.
+
+00:12:57.500 --> 00:12:59.500
+I will give you time.
+
+00:12:59.500 --> 00:13:01.500
+Is it clear?
+
+00:13:01.500 --> 00:13:03.500
+Is it clear?
+
+00:13:03.500 --> 00:13:05.500
+Okay.
+
+00:13:05.500 --> 00:13:07.500
+So, as I was telling,
+
+00:13:07.500 --> 00:13:09.500
+the prerequisites are Lang chain and Lang graph.
+
+00:13:09.500 --> 00:13:11.500
+Right?
+
+00:13:11.500 --> 00:13:13.500
+Now, let's start our discussion
+
+00:13:13.500 --> 00:13:15.500
+and discuss what is LLM Ops?
+
+00:13:15.500 --> 00:13:17.500
+What is LLM Ops?
+
+00:13:17.500 --> 00:13:19.500
+Because you must be thinking,
+
+00:13:19.500 --> 00:13:21.500
+that we have started reading LLM Ops.
+
+00:13:21.500 --> 00:13:23.500
+What is this thing?
+
+00:13:23.500 --> 00:13:25.500
+And where does it get used?
+
+00:13:25.500 --> 00:13:27.500
+Why has the entire field of LLM Ops evolved?
+
+00:13:27.500 --> 00:13:29.500
+There must be some reason behind it.
+
+00:13:29.500 --> 00:13:31.500
+So, let's do one thing.
+
+00:13:31.500 --> 00:13:33.500
+Let's go to Google.
+
+00:13:33.500 --> 00:13:35.500
+And I will search on Google
+
+00:13:35.500 --> 00:13:37.500
+and tell you what is LLM Ops.
+
+00:13:37.500 --> 00:13:39.500
+I will show you the definition of it.
+
+00:13:39.500 --> 00:13:41.500
+So, what I will do is
+
+00:13:41.500 --> 00:13:43.500
+I will re-share the screen.
+
+00:13:43.500 --> 00:13:45.500
+Just give me a second.
+
+00:13:47.500 --> 00:13:51.500
+Today, you will have to support me a little.
+
+00:13:51.500 --> 00:13:53.500
+But going forward,
+
+00:13:53.500 --> 00:13:55.500
+I will be used to this particular setup
+
+00:13:55.500 --> 00:13:59.500
+and then you will not face any problem.
+
+00:13:59.500 --> 00:14:01.500
+Okay.
+
+00:14:01.500 --> 00:14:03.500
+Is Chrome visible to you?
+
+00:14:07.500 --> 00:14:09.500
+So, first of all,
+
+00:14:09.500 --> 00:14:11.500
+I will show you the definition of LLM Ops.
+
+00:14:11.500 --> 00:14:13.500
+If I simply search on Google,
+
+00:14:13.500 --> 00:14:15.500
+what is LLM Ops?
+
+00:14:15.500 --> 00:14:17.500
+So, here are some definitions.
+
+00:14:17.500 --> 00:14:19.500
+I open the database page.
+
+00:14:19.500 --> 00:14:21.500
+I open the IBM page.
+
+00:14:21.500 --> 00:14:23.500
+Just randomly, I am opening some pages.
+
+00:14:23.500 --> 00:14:25.500
+Like I opened Oracle's page.
+
+00:14:25.500 --> 00:14:27.500
+I am opening the database page.
+
+00:14:27.500 --> 00:14:29.500
+I am opening the database page.
+
+00:14:29.500 --> 00:14:31.500
+I am opening the database page.
+
+00:14:31.500 --> 00:14:33.500
+I am opening the database page.
+
+00:14:33.500 --> 00:14:35.500
+I am opening the database page.
+
+00:14:35.500 --> 00:14:37.500
+I am opening the database page.
+
+00:14:37.500 --> 00:14:39.500
+I can also open MLflow.
+
+00:14:39.500 --> 00:14:41.500
+But these three are enough.
+
+00:14:41.500 --> 00:14:43.500
+And let's read it once.
+
+00:14:43.500 --> 00:14:45.500
+So, here it is written at the top.
+
+00:14:45.500 --> 00:14:47.500
+What is LLM Ops?
+
+00:14:47.500 --> 00:14:49.500
+And what is written here?
+
+00:14:49.500 --> 00:14:51.500
+It is the practices and tools
+
+00:14:51.500 --> 00:14:53.500
+for developing, deploying
+
+00:14:53.500 --> 00:14:55.500
+and managing LLMs in production.
+
+00:14:55.500 --> 00:14:57.500
+Addressing, fine-tuning, prompt engineering,
+
+00:14:57.500 --> 00:14:59.500
+evaluation and AI governance.
+
+00:14:59.500 --> 00:15:01.500
+So, let's do one thing.
+
+00:15:01.500 --> 00:15:03.500
+I will copy this whole definition.
+
+00:15:03.500 --> 00:15:05.500
+I will copy this whole definition.
+
+00:15:05.500 --> 00:15:07.500
+Because we are going to use it in the future.
+
+00:15:07.500 --> 00:15:09.500
+And I will paste it here.
+
+00:15:09.500 --> 00:15:11.500
+And I will paste it here.
+
+00:15:11.500 --> 00:15:13.500
+Now, I will increase its size.
+
+00:15:13.500 --> 00:15:15.500
+Now, I will increase its size.
+
+00:15:15.500 --> 00:15:17.500
+Again, figuring out
+
+00:15:17.500 --> 00:15:19.500
+Between Windows and Mac.
+
+00:15:19.500 --> 00:15:21.500
+Between Windows and Mac.
+
+00:15:21.500 --> 00:15:23.500
+Now, this particular page is
+
+00:15:23.500 --> 00:15:25.500
+of our IBM.
+
+00:15:25.500 --> 00:15:27.500
+There is a definition here too.
+
+00:15:27.500 --> 00:15:29.500
+Let's read it.
+
+00:15:29.500 --> 00:15:31.500
+So, what is the definition of LLM Ops?
+
+00:15:31.500 --> 00:15:33.500
+It stands for Large Language Model Operations.
+
+00:15:33.500 --> 00:15:35.500
+What is LLM?
+
+00:15:35.500 --> 00:15:37.500
+It is a large language model.
+
+00:15:37.500 --> 00:15:39.500
+And the entire field around its operations
+
+00:15:39.500 --> 00:15:41.500
+has evolved.
+
+00:15:41.500 --> 00:15:43.500
+And refers to the specialized practices
+
+00:15:43.500 --> 00:15:45.500
+and workflows
+
+00:15:45.500 --> 00:15:47.500
+that speed development, deployment
+
+00:15:47.500 --> 00:15:49.500
+and management of AI models
+
+00:15:49.500 --> 00:15:51.500
+throughout their complete life cycle.
+
+00:15:51.500 --> 00:15:53.500
+Again, let's copy this definition too.
+
+00:15:53.500 --> 00:15:55.500
+Let's copy this definition too.
+
+00:15:55.500 --> 00:15:57.500
+I am showing you different versions.
+
+00:15:57.500 --> 00:15:59.500
+What are the different versions
+
+00:15:59.500 --> 00:16:01.500
+of definitions over the internet?
+
+00:16:01.500 --> 00:16:03.500
+What are the different versions of definitions over the internet?
+
+00:16:03.500 --> 00:16:05.500
+Let's move forward.
+
+00:16:05.500 --> 00:16:07.500
+LLM Ops platforms
+
+00:16:07.500 --> 00:16:09.500
+can deliver more efficient
+
+00:16:09.500 --> 00:16:11.500
+library management, lowering
+
+00:16:11.500 --> 00:16:13.500
+operational cost and enabling less
+
+00:16:13.500 --> 00:16:15.500
+technical personnel. This is a useless definition.
+
+00:16:15.500 --> 00:16:17.500
+These operations
+
+00:16:17.500 --> 00:16:19.500
+These operations include
+
+00:16:19.500 --> 00:16:21.500
+Data preprocessing,
+
+00:16:21.500 --> 00:16:23.500
+Language model training,
+
+00:16:23.500 --> 00:16:25.500
+Monitoring, fine tuning
+
+00:16:25.500 --> 00:16:27.500
+and deployment.
+
+00:16:27.500 --> 00:16:29.500
+Let's copy this one as well.
+
+00:16:29.500 --> 00:16:31.500
+This is useful.
+
+00:16:31.500 --> 00:16:33.500
+Let's paste it here.
+
+00:16:33.500 --> 00:16:35.500
+Next, we will discuss
+
+00:16:35.500 --> 00:16:37.500
+about ML Ops.
+
+00:16:37.500 --> 00:16:39.500
+Next, we will discuss about ML Ops.
+
+00:16:39.500 --> 00:16:41.500
+We have discussed about LLM Ops
+
+00:16:41.500 --> 00:16:43.500
+versus ML Ops.
+
+00:16:43.500 --> 00:16:45.500
+Now, let's go to the Oracle page.
+
+00:16:45.500 --> 00:16:47.500
+Now, let's go to the Oracle page.
+
+00:16:47.500 --> 00:16:49.500
+Let's read the definition once again.
+
+00:16:49.500 --> 00:16:51.500
+What is the definition here?
+
+00:16:51.500 --> 00:16:53.500
+What is the definition here?
+
+00:16:53.500 --> 00:16:55.500
+Just a second.
+
+00:16:55.500 --> 00:16:57.500
+Large language model
+
+00:16:57.500 --> 00:16:59.500
+operations or LLM Ops
+
+00:16:59.500 --> 00:17:01.500
+for short
+
+00:17:01.500 --> 00:17:03.500
+refers to methods,
+
+00:17:03.500 --> 00:17:05.500
+tools and processes that
+
+00:17:05.500 --> 00:17:07.500
+allow organizations to use
+
+00:17:07.500 --> 00:17:09.500
+LLMs reliably.
+
+00:17:09.500 --> 00:17:11.500
+This discipline is needed because
+
+00:17:11.500 --> 00:17:13.500
+licensing and LLM once
+
+00:17:13.500 --> 00:17:15.500
+and running it independently doesn't address
+
+00:17:15.500 --> 00:17:17.500
+the ongoing need to provide
+
+00:17:17.500 --> 00:17:19.500
+the accuracy, security and performance
+
+00:17:19.500 --> 00:17:21.500
+that organizations demand.
+
+00:17:21.500 --> 00:17:23.500
+This is a little vague
+
+00:17:23.500 --> 00:17:25.500
+definition.
+
+00:17:25.500 --> 00:17:27.500
+I am not getting a better definition here.
+
+00:17:27.500 --> 00:17:29.500
+If I go further,
+
+00:17:29.500 --> 00:17:31.500
+here also
+
+00:17:31.500 --> 00:17:33.500
+there is not a good definition.
+
+00:17:33.500 --> 00:17:35.500
+So, we have two definitions here.
+
+00:17:35.500 --> 00:17:37.500
+So, we have two definitions here.
+
+00:17:37.500 --> 00:17:39.500
+If you can clearly see,
+
+00:17:39.500 --> 00:17:41.500
+these are the two definitions.
+
+00:17:41.500 --> 00:17:43.500
+If I
+
+00:17:43.500 --> 00:17:45.500
+increase the size of this
+
+00:17:45.500 --> 00:17:47.500
+once,
+
+00:17:47.500 --> 00:17:49.500
+I hope this
+
+00:17:49.500 --> 00:17:51.500
+is now visible to you.
+
+00:17:51.500 --> 00:17:53.500
+If I increase the size of this
+
+00:17:53.500 --> 00:17:55.500
+once,
+
+00:17:55.500 --> 00:17:57.500
+the layout of the whole
+
+00:17:57.500 --> 00:17:59.500
+one note has changed.
+
+00:17:59.500 --> 00:18:01.500
+Anyways, whatever is there.
+
+00:18:07.500 --> 00:18:09.500
+Now it's fine.
+
+00:18:09.500 --> 00:18:11.500
+Guys, are the definitions visible to you?
+
+00:18:11.500 --> 00:18:13.500
+Are these visible?
+
+00:18:15.500 --> 00:18:17.500
+Okay.
+
+00:18:17.500 --> 00:18:19.500
+So, let's read them once again
+
+00:18:19.500 --> 00:18:21.500
+and discuss about them.
+
+00:18:21.500 --> 00:18:23.500
+Because in these definitions
+
+00:18:23.500 --> 00:18:25.500
+we have been told what LLM Ops is.
+
+00:18:25.500 --> 00:18:27.500
+And what is the whole field.
+
+00:18:27.500 --> 00:18:29.500
+So, here it is written
+
+00:18:29.500 --> 00:18:31.500
+that LLM Ops and
+
+00:18:31.500 --> 00:18:33.500
+sorry,
+
+00:18:33.500 --> 00:18:35.500
+let's read this definition here.
+
+00:18:35.500 --> 00:18:37.500
+What is LLM Ops?
+
+00:18:37.500 --> 00:18:39.500
+It is the practices and tools
+
+00:18:39.500 --> 00:18:41.500
+for developing.
+
+00:18:41.500 --> 00:18:43.500
+So, the first point here is
+
+00:18:43.500 --> 00:18:45.500
+that the first thing
+
+00:18:45.500 --> 00:18:47.500
+that comes in LLM Ops is
+
+00:18:47.500 --> 00:18:49.500
+that is your development.
+
+00:18:51.500 --> 00:18:53.500
+It is developing
+
+00:18:53.500 --> 00:18:55.500
+deploying.
+
+00:18:55.500 --> 00:18:57.500
+Second is your deployment.
+
+00:18:59.500 --> 00:19:01.500
+And third is
+
+00:19:01.500 --> 00:19:03.500
+management.
+
+00:19:05.500 --> 00:19:07.500
+Of what?
+
+00:19:07.500 --> 00:19:09.500
+Of your LLMs.
+
+00:19:09.500 --> 00:19:11.500
+Around your LLMs,
+
+00:19:11.500 --> 00:19:13.500
+development, deployment
+
+00:19:13.500 --> 00:19:15.500
+and management is called
+
+00:19:15.500 --> 00:19:17.500
+LLM Ops.
+
+00:19:17.500 --> 00:19:19.500
+And what all things are addressed in it?
+
+00:19:19.500 --> 00:19:21.500
+LLMs in production
+
+00:19:21.500 --> 00:19:23.500
+are addressed.
+
+00:19:23.500 --> 00:19:25.500
+Obviously, when we talk about deployment,
+
+00:19:25.500 --> 00:19:27.500
+then we are talking about production.
+
+00:19:27.500 --> 00:19:29.500
+So, here we are talking about LLMs.
+
+00:19:29.500 --> 00:19:31.500
+These are not running on our own systems.
+
+00:19:31.500 --> 00:19:33.500
+These are not running on our local system.
+
+00:19:33.500 --> 00:19:35.500
+These are LLMs that are running
+
+00:19:35.500 --> 00:19:37.500
+in our production environment.
+
+00:19:37.500 --> 00:19:39.500
+So, we address them
+
+00:19:39.500 --> 00:19:41.500
+that how they are running
+
+00:19:41.500 --> 00:19:43.500
+in production.
+
+00:19:43.500 --> 00:19:45.500
+We also manage fine tuning.
+
+00:19:49.500 --> 00:19:51.500
+We also manage prompt engineering.
+
+00:19:51.500 --> 00:19:53.500
+We also manage
+
+00:19:53.500 --> 00:19:55.500
+LLM evaluation.
+
+00:19:55.500 --> 00:19:57.500
+Now you are reading
+
+00:19:57.500 --> 00:19:59.500
+LLM evolves course from Nitya Sir.
+
+00:19:59.500 --> 00:20:01.500
+You know what LLM eval is.
+
+00:20:01.500 --> 00:20:03.500
+These are basically your evaluations
+
+00:20:03.500 --> 00:20:05.500
+around your LLMs.
+
+00:20:05.500 --> 00:20:07.500
+So, there are your application specific
+
+00:20:07.500 --> 00:20:09.500
+evaluations and model specific
+
+00:20:09.500 --> 00:20:11.500
+evaluations.
+
+00:20:11.500 --> 00:20:13.500
+In our class, when we talk about
+
+00:20:13.500 --> 00:20:15.500
+LLMs and models,
+
+00:20:15.500 --> 00:20:17.500
+then we talk about model specific
+
+00:20:17.500 --> 00:20:19.500
+evaluations, which are our benchmark
+
+00:20:19.500 --> 00:20:21.500
+scores and AI governance.
+
+00:20:21.500 --> 00:20:23.500
+This is very important.
+
+00:20:23.500 --> 00:20:25.500
+What does AI governance mean?
+
+00:20:25.500 --> 00:20:27.500
+That your LLM should be
+
+00:20:27.500 --> 00:20:29.500
+ethical.
+
+00:20:29.500 --> 00:20:31.500
+Your LLM should be aligned
+
+00:20:31.500 --> 00:20:33.500
+with human values.
+
+00:20:33.500 --> 00:20:35.500
+That response should not be
+
+00:20:35.500 --> 00:20:37.500
+toxic.
+
+00:20:37.500 --> 00:20:39.500
+That should not be a response
+
+00:20:39.500 --> 00:20:41.500
+that is harmful.
+
+00:20:41.500 --> 00:20:43.500
+Your LLM should always be helpful.
+
+00:20:43.500 --> 00:20:45.500
+No bias or toxic
+
+00:20:45.500 --> 00:20:47.500
+output should be given.
+
+00:20:47.500 --> 00:20:49.500
+And never
+
+00:20:49.500 --> 00:20:51.500
+leak any secret.
+
+00:20:51.500 --> 00:20:53.500
+That means it should not be
+
+00:20:53.500 --> 00:20:55.500
+attacked.
+
+00:20:55.500 --> 00:20:57.500
+Or we should not be able to
+
+00:20:57.500 --> 00:20:59.500
+deviate from its nature.
+
+00:20:59.500 --> 00:21:01.500
+So, we have to make sure
+
+00:21:01.500 --> 00:21:03.500
+all these things in LLM ops.
+
+00:21:03.500 --> 00:21:05.500
+Now let's go towards
+
+00:21:05.500 --> 00:21:07.500
+the second definition.
+
+00:21:07.500 --> 00:21:09.500
+LLM ops stands for
+
+00:21:09.500 --> 00:21:11.500
+Large Language Model Operations.
+
+00:21:11.500 --> 00:21:13.500
+And refers to
+
+00:21:13.500 --> 00:21:15.500
+the specialized practices.
+
+00:21:15.500 --> 00:21:17.500
+Here we adopt some
+
+00:21:17.500 --> 00:21:19.500
+specialized practices.
+
+00:21:19.500 --> 00:21:21.500
+We adopt some specialized
+
+00:21:21.500 --> 00:21:23.500
+practices.
+
+00:21:23.500 --> 00:21:25.500
+And in those specialized practices,
+
+00:21:25.500 --> 00:21:27.500
+certain specialized workflows come.
+
+00:21:27.500 --> 00:21:29.500
+Which speed up development.
+
+00:21:29.500 --> 00:21:31.500
+Increase the speed of development.
+
+00:21:31.500 --> 00:21:33.500
+Increase the speed of deployment.
+
+00:21:33.500 --> 00:21:35.500
+And management of AI models.
+
+00:21:35.500 --> 00:21:37.500
+Throughout their complete life cycle.
+
+00:21:37.500 --> 00:21:39.500
+Now this particular word
+
+00:21:39.500 --> 00:21:41.500
+must be in your mind.
+
+00:21:41.500 --> 00:21:43.500
+That what is this complete life cycle of
+
+00:21:43.500 --> 00:21:45.500
+an LLM.
+
+00:21:45.500 --> 00:21:47.500
+Let's discuss about this.
+
+00:21:47.500 --> 00:21:49.500
+These operations include
+
+00:21:49.500 --> 00:21:51.500
+These steps are telling
+
+00:21:51.500 --> 00:21:53.500
+what are the operations.
+
+00:21:53.500 --> 00:21:55.500
+First step is your data processing.
+
+00:21:55.500 --> 00:21:57.500
+Second is your training.
+
+00:21:57.500 --> 00:21:59.500
+Third is monitoring.
+
+00:21:59.500 --> 00:22:01.500
+Fine tuning and deployment.
+
+00:22:01.500 --> 00:22:03.500
+I hope this thing is clear to you.
+
+00:22:03.500 --> 00:22:05.500
+I hope this thing is clear to you.
+
+00:22:05.500 --> 00:22:07.500
+Clear guys? What is LLM ops?
+
+00:22:09.500 --> 00:22:11.500
+Now we have read only the definition.
+
+00:22:13.500 --> 00:22:15.500
+But did you get the definition clear?
+
+00:22:17.500 --> 00:22:19.500
+If anyone has any doubt
+
+00:22:19.500 --> 00:22:21.500
+then you can ask me right now.
+
+00:22:21.500 --> 00:22:23.500
+Because if you get the definitions clear
+
+00:22:23.500 --> 00:22:25.500
+then only we will move forward.
+
+00:22:25.500 --> 00:22:27.500
+Clear guys?
+
+00:22:27.500 --> 00:22:29.500
+Right clear in the chat?
+
+00:22:29.500 --> 00:22:31.500
+Clear.
+
+00:22:31.500 --> 00:22:33.500
+Okay.
+
+00:22:33.500 --> 00:22:35.500
+Clear.
+
+00:22:35.500 --> 00:22:37.500
+So you must have worked with
+
+00:22:37.500 --> 00:22:39.500
+machine learning or deep learning
+
+00:22:39.500 --> 00:22:41.500
+models right?
+
+00:22:41.500 --> 00:22:43.500
+So if I ask you that
+
+00:22:43.500 --> 00:22:45.500
+one LLM's complete life cycle
+
+00:22:45.500 --> 00:22:47.500
+operation
+
+00:22:47.500 --> 00:22:49.500
+is a complete LLM.
+
+00:22:49.500 --> 00:22:51.500
+So what is LLM?
+
+00:22:51.500 --> 00:22:53.500
+So what is LLM?
+
+00:22:53.500 --> 00:22:55.500
+So what is LLM?
+
+00:22:55.500 --> 00:22:57.500
+What is this life cycle of an LLM?
+
+00:22:57.500 --> 00:22:59.500
+What is this life cycle of an LLM?
+
+00:22:59.500 --> 00:23:01.500
+So let's discuss this life cycle.
+
+00:23:01.500 --> 00:23:03.500
+So let's discuss this life cycle.
+
+00:23:03.500 --> 00:23:05.500
+The first point
+
+00:23:05.500 --> 00:23:07.500
+or the first step
+
+00:23:07.500 --> 00:23:09.500
+in an LLM life cycle
+
+00:23:09.500 --> 00:23:11.500
+that is your data.
+
+00:23:11.500 --> 00:23:13.500
+Whether it is machine learning
+
+00:23:13.500 --> 00:23:15.500
+algorithm or deep learning
+
+00:23:15.500 --> 00:23:17.500
+model or your LLM
+
+00:23:17.500 --> 00:23:19.500
+everyone's story
+
+00:23:19.500 --> 00:23:21.500
+starts with data.
+
+00:23:21.500 --> 00:23:23.500
+So if we want to train
+
+00:23:23.500 --> 00:23:25.500
+an LLM, let's say
+
+00:23:25.500 --> 00:23:27.500
+we are open AI
+
+00:23:27.500 --> 00:23:29.500
+and we are training an LLM from scratch
+
+00:23:29.500 --> 00:23:31.500
+we are training the next
+
+00:23:31.500 --> 00:23:33.500
+GPT-6 model.
+
+00:23:33.500 --> 00:23:35.500
+We are training a major
+
+00:23:35.500 --> 00:23:37.500
+iteration.
+
+00:23:37.500 --> 00:23:39.500
+So what will be the first requirement for that?
+
+00:23:39.500 --> 00:23:41.500
+Our first prerequisite will be data.
+
+00:23:41.500 --> 00:23:43.500
+Now you know
+
+00:23:43.500 --> 00:23:45.500
+that to train LLMs
+
+00:23:45.500 --> 00:23:47.500
+you need massive amounts of data.
+
+00:23:47.500 --> 00:23:49.500
+Massive amounts.
+
+00:23:49.500 --> 00:23:51.500
+Ok?
+
+00:23:51.500 --> 00:23:53.500
+Maybe you need data from the entire internet
+
+00:23:53.500 --> 00:23:55.500
+to train these models.
+
+00:23:55.500 --> 00:23:57.500
+to train these models.
+
+00:23:57.500 --> 00:23:59.500
+But do you think
+
+00:23:59.500 --> 00:24:01.500
+that all the data on the internet
+
+00:24:01.500 --> 00:24:03.500
+is available in a perfect form?
+
+00:24:03.500 --> 00:24:05.500
+Can we directly
+
+00:24:05.500 --> 00:24:07.500
+use it as our training data?
+
+00:24:07.500 --> 00:24:09.500
+I am looking at the chat.
+
+00:24:09.500 --> 00:24:11.500
+I am looking at the chat.
+
+00:24:13.500 --> 00:24:15.500
+No.
+
+00:24:15.500 --> 00:24:17.500
+Can you give me the reason?
+
+00:24:17.500 --> 00:24:19.500
+Is there any reason behind this?
+
+00:24:23.500 --> 00:24:25.500
+It is biased. Yes.
+
+00:24:27.500 --> 00:24:29.500
+It is unstructured.
+
+00:24:29.500 --> 00:24:31.500
+That's a very good reason.
+
+00:24:31.500 --> 00:24:33.500
+Not clean. Unstructured noisy data.
+
+00:24:33.500 --> 00:24:35.500
+Right. So the data
+
+00:24:35.500 --> 00:24:37.500
+on the internet is unstructured
+
+00:24:37.500 --> 00:24:39.500
+and noisy. What does noisy mean?
+
+00:24:39.500 --> 00:24:41.500
+Along with relevant information
+
+00:24:41.500 --> 00:24:43.500
+there is a lot of irrelevant
+
+00:24:43.500 --> 00:24:45.500
+information in it.
+
+00:24:45.500 --> 00:24:47.500
+Ok? It is possible that
+
+00:24:47.500 --> 00:24:49.500
+there is a lot of biased data
+
+00:24:49.500 --> 00:24:51.500
+in it.
+
+00:24:51.500 --> 00:24:53.500
+If we are taking data from a social media platform
+
+00:24:53.500 --> 00:24:55.500
+then it is possible that it is biased
+
+00:24:55.500 --> 00:24:57.500
+on geographical locations or gender.
+
+00:24:57.500 --> 00:24:59.500
+It can be possible.
+
+00:24:59.500 --> 00:25:01.500
+So we don't want to train
+
+00:25:01.500 --> 00:25:03.500
+our LLM with this kind of data.
+
+00:25:03.500 --> 00:25:05.500
+The reason is simple.
+
+00:25:05.500 --> 00:25:07.500
+We have studied in machine learning
+
+00:25:07.500 --> 00:25:09.500
+and whenever we talk about
+
+00:25:09.500 --> 00:25:11.500
+deep learning models training
+
+00:25:11.500 --> 00:25:13.500
+we also hear that garbage
+
+00:25:13.500 --> 00:25:15.500
+out is a garbage out.
+
+00:25:15.500 --> 00:25:17.500
+The data you provide to your model
+
+00:25:17.500 --> 00:25:19.500
+will be performed the same way.
+
+00:25:19.500 --> 00:25:21.500
+So what we have to do here
+
+00:25:21.500 --> 00:25:23.500
+is not completely possible
+
+00:25:23.500 --> 00:25:25.500
+but
+
+00:25:25.500 --> 00:25:27.500
+mostly we want
+
+00:25:27.500 --> 00:25:29.500
+that we can provide
+
+00:25:29.500 --> 00:25:31.500
+good data to our LLMs.
+
+00:25:31.500 --> 00:25:33.500
+So the first
+
+00:25:33.500 --> 00:25:35.500
+main component around training
+
+00:25:35.500 --> 00:25:37.500
+that is your data.
+
+00:25:37.500 --> 00:25:39.500
+What is our second component?
+
+00:25:39.500 --> 00:25:41.500
+Our second component is our model component.
+
+00:25:41.500 --> 00:25:43.500
+Now there are different layers
+
+00:25:43.500 --> 00:25:45.500
+in model component.
+
+00:25:45.500 --> 00:25:47.500
+First of all,
+
+00:25:47.500 --> 00:25:49.500
+your model's architecture comes in model component.
+
+00:25:49.500 --> 00:25:51.500
+All models are not of one kind.
+
+00:25:51.500 --> 00:25:53.500
+So what architecture
+
+00:25:53.500 --> 00:25:55.500
+is it made on?
+
+00:25:55.500 --> 00:25:57.500
+That is a very big factor.
+
+00:25:57.500 --> 00:25:59.500
+Second comes that how many parameters
+
+00:25:59.500 --> 00:26:01.500
+are there in it.
+
+00:26:01.500 --> 00:26:03.500
+What are the parameters?
+
+00:26:03.500 --> 00:26:05.500
+Parameters are your models, weights and biases.
+
+00:26:05.500 --> 00:26:07.500
+Because
+
+00:26:07.500 --> 00:26:09.500
+at the end, it is a transformer based model.
+
+00:26:09.500 --> 00:26:11.500
+This is a deep learning model.
+
+00:26:11.500 --> 00:26:13.500
+So there will be weights and biases in it.
+
+00:26:13.500 --> 00:26:15.500
+This is what you train during training.
+
+00:26:15.500 --> 00:26:17.500
+What is the main goal of training?
+
+00:26:17.500 --> 00:26:19.500
+If I ask you
+
+00:26:19.500 --> 00:26:21.500
+what is the main goal of training?
+
+00:26:21.500 --> 00:26:23.500
+So the main goal of training
+
+00:26:23.500 --> 00:26:25.500
+is always, whether it is machine learning,
+
+00:26:25.500 --> 00:26:27.500
+deep learning or LLMs.
+
+00:26:27.500 --> 00:26:29.500
+The goal of training is to
+
+00:26:29.500 --> 00:26:31.500
+find the
+
+00:26:31.500 --> 00:26:33.500
+optimum value
+
+00:26:35.500 --> 00:26:37.500
+of parameters.
+
+00:26:37.500 --> 00:26:39.500
+This is the main goal.
+
+00:26:39.500 --> 00:26:41.500
+There is no other goal of training.
+
+00:26:41.500 --> 00:26:43.500
+The right value of these parameters
+
+00:26:43.500 --> 00:26:45.500
+is what we should be.
+
+00:26:45.500 --> 00:26:47.500
+We have to find it.
+
+00:26:47.500 --> 00:26:49.500
+So
+
+00:26:49.500 --> 00:26:51.500
+what is next in training?
+
+00:26:51.500 --> 00:26:53.500
+Next comes our architecture
+
+00:26:53.500 --> 00:26:55.500
+and our parameters.
+
+00:26:55.500 --> 00:26:57.500
+You know that when you train
+
+00:26:57.500 --> 00:26:59.500
+such massive models,
+
+00:26:59.500 --> 00:27:01.500
+they cannot be trained on a single system.
+
+00:27:01.500 --> 00:27:03.500
+If you want to train such massive models,
+
+00:27:03.500 --> 00:27:05.500
+you need distributed systems.
+
+00:27:07.500 --> 00:27:09.500
+Does anybody have
+
+00:27:09.500 --> 00:27:11.500
+an idea around distributed systems?
+
+00:27:11.500 --> 00:27:13.500
+What are distributed systems?
+
+00:27:17.500 --> 00:27:19.500
+Parallel processing, yes.
+
+00:27:19.500 --> 00:27:21.500
+You must have heard the name of
+
+00:27:21.500 --> 00:27:23.500
+data centers, GPU clusters.
+
+00:27:23.500 --> 00:27:25.500
+Basically,
+
+00:27:25.500 --> 00:27:27.500
+the compute is massive.
+
+00:27:27.500 --> 00:27:29.500
+There is a lot of compute
+
+00:27:29.500 --> 00:27:31.500
+there because
+
+00:27:31.500 --> 00:27:33.500
+you have to train these models
+
+00:27:33.500 --> 00:27:35.500
+for large number of iterations.
+
+00:27:35.500 --> 00:27:37.500
+If you have a GPT size model,
+
+00:27:37.500 --> 00:27:39.500
+it takes months to train
+
+00:27:39.500 --> 00:27:41.500
+these models.
+
+00:27:41.500 --> 00:27:43.500
+You need a lot of compute.
+
+00:27:43.500 --> 00:27:45.500
+You need a lot of RAM,
+
+00:27:45.500 --> 00:27:47.500
+a lot of GPU.
+
+00:27:47.500 --> 00:27:49.500
+And that too parallel processing.
+
+00:27:49.500 --> 00:27:51.500
+You have to handle all this data.
+
+00:27:51.500 --> 00:27:53.500
+The movement of data.
+
+00:27:53.500 --> 00:27:55.500
+All your parameters will be updated.
+
+00:27:55.500 --> 00:27:57.500
+You have to save their gradients.
+
+00:27:57.500 --> 00:27:59.500
+So it is a lot of calculations.
+
+00:28:01.500 --> 00:28:03.500
+Next is, you have
+
+00:28:03.500 --> 00:28:05.500
+your trained model.
+
+00:28:05.500 --> 00:28:07.500
+What is this whole step called?
+
+00:28:07.500 --> 00:28:09.500
+When you train LLMs,
+
+00:28:09.500 --> 00:28:11.500
+this whole step is called
+
+00:28:11.500 --> 00:28:13.500
+as your pre-training.
+
+00:28:13.500 --> 00:28:15.500
+This is called
+
+00:28:15.500 --> 00:28:17.500
+pre-training phase.
+
+00:28:17.500 --> 00:28:19.500
+So you have
+
+00:28:19.500 --> 00:28:21.500
+your trained model
+
+00:28:21.500 --> 00:28:23.500
+after pre-training.
+
+00:28:23.500 --> 00:28:25.500
+Do you think
+
+00:28:25.500 --> 00:28:27.500
+this trained model is ready
+
+00:28:27.500 --> 00:28:29.500
+to be exposed to the public?
+
+00:28:29.500 --> 00:28:31.500
+Is it ready now?
+
+00:28:31.500 --> 00:28:33.500
+So let's say I have the GPT-6 model.
+
+00:28:33.500 --> 00:28:35.500
+And I have trained it.
+
+00:28:35.500 --> 00:28:37.500
+And let's say
+
+00:28:37.500 --> 00:28:39.500
+I have trained it for
+
+00:28:39.500 --> 00:28:41.500
+around 5 months.
+
+00:28:41.500 --> 00:28:43.500
+So after 5 months of training,
+
+00:28:43.500 --> 00:28:45.500
+can I take this particular model
+
+00:28:45.500 --> 00:28:47.500
+to the public
+
+00:28:47.500 --> 00:28:49.500
+as much as I have put effort?
+
+00:28:49.500 --> 00:28:51.500
+The answer is no. Why?
+
+00:28:51.500 --> 00:28:53.500
+Because I have not
+
+00:28:53.500 --> 00:28:55.500
+made any alignment
+
+00:28:55.500 --> 00:28:57.500
+in this model.
+
+00:28:57.500 --> 00:28:59.500
+What are our LLMs?
+
+00:28:59.500 --> 00:29:01.500
+Our LLMs are
+
+00:29:01.500 --> 00:29:03.500
+basically your
+
+00:29:03.500 --> 00:29:05.500
+next word prediction models.
+
+00:29:09.500 --> 00:29:11.500
+Sentence completion models.
+
+00:29:11.500 --> 00:29:13.500
+Their job is
+
+00:29:13.500 --> 00:29:15.500
+that you have to complete
+
+00:29:15.500 --> 00:29:17.500
+the input and prompt.
+
+00:29:17.500 --> 00:29:19.500
+So let's say
+
+00:29:19.500 --> 00:29:21.500
+a user of mine
+
+00:29:21.500 --> 00:29:23.500
+put a question on this
+
+00:29:23.500 --> 00:29:25.500
+pre-trained model.
+
+00:29:25.500 --> 00:29:27.500
+Help me make a bomb.
+
+00:29:27.500 --> 00:29:29.500
+So this model will tell. Why?
+
+00:29:29.500 --> 00:29:31.500
+Because I have not
+
+00:29:31.500 --> 00:29:33.500
+aligned this model.
+
+00:29:33.500 --> 00:29:35.500
+This model knows that
+
+00:29:35.500 --> 00:29:37.500
+if it has any input,
+
+00:29:37.500 --> 00:29:39.500
+it will simply
+
+00:29:39.500 --> 00:29:41.500
+get involved in completing it.
+
+00:29:41.500 --> 00:29:43.500
+And if the bomb
+
+00:29:43.500 --> 00:29:45.500
+training data is available in
+
+00:29:45.500 --> 00:29:47.500
+its training data, it will give the answer.
+
+00:29:47.500 --> 00:29:49.500
+So what is the next step?
+
+00:29:49.500 --> 00:29:51.500
+After pre-training, you have to
+
+00:29:51.500 --> 00:29:53.500
+align your model.
+
+00:29:53.500 --> 00:29:55.500
+Next step is your alignment step.
+
+00:29:57.500 --> 00:29:59.500
+What do we do in this?
+
+00:29:59.500 --> 00:30:01.500
+We use a technique
+
+00:30:01.500 --> 00:30:03.500
+called RLHF.
+
+00:30:03.500 --> 00:30:05.500
+Has anyone heard about RLHF?
+
+00:30:05.500 --> 00:30:07.500
+Reinforcement Learning
+
+00:30:07.500 --> 00:30:09.500
+with Human Feedback. What does this happen?
+
+00:30:09.500 --> 00:30:11.500
+Does anyone
+
+00:30:11.500 --> 00:30:13.500
+know about it? You must have heard this term.
+
+00:30:13.500 --> 00:30:15.500
+What is its purpose?
+
+00:30:15.500 --> 00:30:17.500
+Do you know about it?
+
+00:30:17.500 --> 00:30:19.500
+What do we do in this?
+
+00:30:19.500 --> 00:30:21.500
+I will tell you.
+
+00:30:21.500 --> 00:30:23.500
+Basically, what we do in this is
+
+00:30:23.500 --> 00:30:25.500
+we use human reviewers.
+
+00:30:25.500 --> 00:30:27.500
+We use actual humans
+
+00:30:27.500 --> 00:30:29.500
+who align our models.
+
+00:30:31.500 --> 00:30:33.500
+We give our models
+
+00:30:33.500 --> 00:30:35.500
+a set of inputs
+
+00:30:35.500 --> 00:30:37.500
+and for that
+
+00:30:37.500 --> 00:30:39.500
+we have a data of
+
+00:30:39.500 --> 00:30:41.500
+possible outputs.
+
+00:30:43.500 --> 00:30:45.500
+Let's say I have an input
+
+00:30:45.500 --> 00:30:47.500
+input A.
+
+00:30:47.500 --> 00:30:49.500
+Now I have
+
+00:30:49.500 --> 00:30:51.500
+4 sets of outputs.
+
+00:30:51.500 --> 00:30:53.500
+Output A,
+
+00:30:53.500 --> 00:30:55.500
+Output B,
+
+00:30:55.500 --> 00:30:57.500
+Output C,
+
+00:30:57.500 --> 00:30:59.500
+Output D.
+
+00:30:59.500 --> 00:31:01.500
+Now I will take a human
+
+00:31:01.500 --> 00:31:03.500
+and
+
+00:31:03.500 --> 00:31:05.500
+give this input to my LLM.
+
+00:31:05.500 --> 00:31:07.500
+LLM will give me 4 outputs.
+
+00:31:09.500 --> 00:31:11.500
+Now I will ask my human
+
+00:31:11.500 --> 00:31:13.500
+to tell me which one is better.
+
+00:31:13.500 --> 00:31:15.500
+Which one is better?
+
+00:31:15.500 --> 00:31:17.500
+It is
+
+00:31:17.500 --> 00:31:19.500
+more aligned with the human values.
+
+00:31:19.500 --> 00:31:21.500
+I will select that.
+
+00:31:23.500 --> 00:31:25.500
+Now let's say I have
+
+00:31:25.500 --> 00:31:27.500
+1 lakh
+
+00:31:27.500 --> 00:31:29.500
+question answer pairs.
+
+00:31:29.500 --> 00:31:31.500
+You can say MCQs.
+
+00:31:33.500 --> 00:31:35.500
+You have 4 options for one question.
+
+00:31:35.500 --> 00:31:37.500
+You have 1 lakh
+
+00:31:37.500 --> 00:31:39.500
+questions available and their answers.
+
+00:31:39.500 --> 00:31:41.500
+Human reviewers
+
+00:31:41.500 --> 00:31:43.500
+review these answers.
+
+00:31:43.500 --> 00:31:45.500
+What happens with that?
+
+00:31:45.500 --> 00:31:47.500
+Your model
+
+00:31:47.500 --> 00:31:49.500
+starts to align with that.
+
+00:31:49.500 --> 00:31:51.500
+What does that mean?
+
+00:31:51.500 --> 00:31:53.500
+Through reinforcement
+
+00:31:53.500 --> 00:31:55.500
+learning,
+
+00:31:55.500 --> 00:31:57.500
+you start to understand
+
+00:31:57.500 --> 00:31:59.500
+what kind of
+
+00:31:59.500 --> 00:32:01.500
+output should be of a particular input.
+
+00:32:01.500 --> 00:32:03.500
+We are not
+
+00:32:03.500 --> 00:32:05.500
+actually training our model here.
+
+00:32:05.500 --> 00:32:07.500
+We are not telling it
+
+00:32:07.500 --> 00:32:09.500
+that this input should have this output.
+
+00:32:09.500 --> 00:32:11.500
+No, we are training it
+
+00:32:11.500 --> 00:32:13.500
+that for a particular set
+
+00:32:13.500 --> 00:32:15.500
+of input, what should be the way
+
+00:32:15.500 --> 00:32:17.500
+to give the answer.
+
+00:32:17.500 --> 00:32:19.500
+Our model
+
+00:32:19.500 --> 00:32:21.500
+is trained now.
+
+00:32:21.500 --> 00:32:23.500
+He knows what
+
+00:32:23.500 --> 00:32:25.500
+should be the output for a particular input.
+
+00:32:25.500 --> 00:32:27.500
+We are
+
+00:32:27.500 --> 00:32:29.500
+telling him how to give the answer.
+
+00:32:29.500 --> 00:32:31.500
+Is it clear?
+
+00:32:31.500 --> 00:32:33.500
+Is it clear?
+
+00:32:37.500 --> 00:32:39.500
+Is it clear?
+
+00:32:43.500 --> 00:32:45.500
+You can understand it like this
+
+00:32:45.500 --> 00:32:47.500
+if you have ever done dashboarding
+
+00:32:47.500 --> 00:32:49.500
+or data analysis.
+
+00:32:49.500 --> 00:32:51.500
+So, making a dashboard is a skill.
+
+00:32:51.500 --> 00:32:53.500
+Whereas storytelling is another skill.
+
+00:32:55.500 --> 00:32:57.500
+But it is not necessary
+
+00:32:57.500 --> 00:32:59.500
+that if a student can make a good dashboard
+
+00:32:59.500 --> 00:33:01.500
+he can also do good storytelling.
+
+00:33:03.500 --> 00:33:05.500
+So, what we do is
+
+00:33:05.500 --> 00:33:07.500
+we have taught our model how to make a dashboard
+
+00:33:07.500 --> 00:33:09.500
+through pre-training.
+
+00:33:09.500 --> 00:33:11.500
+Dashboards are very easy to make.
+
+00:33:11.500 --> 00:33:13.500
+It can present a lot of data
+
+00:33:13.500 --> 00:33:15.500
+with different graphs.
+
+00:33:15.500 --> 00:33:17.500
+But
+
+00:33:17.500 --> 00:33:19.500
+the presentation style is not known.
+
+00:33:19.500 --> 00:33:21.500
+Storytelling is not known.
+
+00:33:21.500 --> 00:33:23.500
+So, we teach storytelling through RLHF.
+
+00:33:25.500 --> 00:33:27.500
+And we work with
+
+00:33:27.500 --> 00:33:29.500
+very few examples.
+
+00:33:29.500 --> 00:33:31.500
+So, our model knows
+
+00:33:31.500 --> 00:33:33.500
+how to answer
+
+00:33:33.500 --> 00:33:35.500
+a question.
+
+00:33:35.500 --> 00:33:37.500
+We align it with human values.
+
+00:33:37.500 --> 00:33:39.500
+That's why it is called alignment.
+
+00:33:39.500 --> 00:33:41.500
+There are other techniques like
+
+00:33:41.500 --> 00:33:43.500
+guardrails.
+
+00:33:43.500 --> 00:33:45.500
+But RLHF is a very
+
+00:33:45.500 --> 00:33:47.500
+major technique.
+
+00:33:47.500 --> 00:33:49.500
+The plus point of using it
+
+00:33:49.500 --> 00:33:51.500
+is that you can align your model
+
+00:33:51.500 --> 00:33:53.500
+with very few examples.
+
+00:33:57.500 --> 00:33:59.500
+Is this clear?
+
+00:34:03.500 --> 00:34:05.500
+It is not necessary that
+
+00:34:05.500 --> 00:34:07.500
+this is the norm of the industry.
+
+00:34:07.500 --> 00:34:09.500
+RLHF.
+
+00:34:09.500 --> 00:34:11.500
+Now, Anthropic
+
+00:34:13.500 --> 00:34:15.500
+Anthropic
+
+00:34:15.500 --> 00:34:17.500
+if you listen to the term
+
+00:34:17.500 --> 00:34:19.500
+Constitutional AI
+
+00:34:19.500 --> 00:34:21.500
+What is that?
+
+00:34:21.500 --> 00:34:23.500
+Anthropic has made a constitution for LLMs.
+
+00:34:23.500 --> 00:34:25.500
+What is written in the constitution?
+
+00:34:25.500 --> 00:34:27.500
+What is right?
+
+00:34:27.500 --> 00:34:29.500
+What is wrong?
+
+00:34:29.500 --> 00:34:31.500
+They have made a whole file.
+
+00:34:31.500 --> 00:34:33.500
+And what they are doing
+
+00:34:33.500 --> 00:34:35.500
+they don't use human reviewers.
+
+00:34:35.500 --> 00:34:37.500
+They don't use RLHF.
+
+00:34:37.500 --> 00:34:39.500
+They use this constitution
+
+00:34:39.500 --> 00:34:41.500
+to review
+
+00:34:41.500 --> 00:34:43.500
+their answers.
+
+00:34:43.500 --> 00:34:45.500
+They say read this constitution
+
+00:34:45.500 --> 00:34:47.500
+what is right and what is wrong.
+
+00:34:47.500 --> 00:34:49.500
+And these are your possible answers.
+
+00:34:49.500 --> 00:34:51.500
+You tell them which answer
+
+00:34:51.500 --> 00:34:53.500
+should be given in the constitution.
+
+00:34:53.500 --> 00:34:55.500
+So what is the width time?
+
+00:34:55.500 --> 00:34:57.500
+LLMs start improving themselves.
+
+00:34:57.500 --> 00:34:59.500
+It is like an upgrade over RLHF.
+
+00:34:59.500 --> 00:35:01.500
+You don't need humans here.
+
+00:35:01.500 --> 00:35:03.500
+LLMs can
+
+00:35:03.500 --> 00:35:05.500
+align themselves here.
+
+00:35:05.500 --> 00:35:07.500
+Is this clear?
+
+00:35:13.500 --> 00:35:15.500
+Is it clear guys?
+
+00:35:15.500 --> 00:35:17.500
+Great.
+
+00:35:17.500 --> 00:35:19.500
+Great.
+
+00:35:19.500 --> 00:35:21.500
+I will pause here for 2 minutes.
+
+00:35:21.500 --> 00:35:23.500
+Because I have discussed
+
+00:35:23.500 --> 00:35:25.500
+many terms.
+
+00:35:25.500 --> 00:35:27.500
+If you have any questions you can ask.
+
+00:35:27.500 --> 00:35:29.500
+Today we will
+
+00:35:29.500 --> 00:35:31.500
+do this whole
+
+00:35:31.500 --> 00:35:33.500
+lecture in a discussion way.
+
+00:35:33.500 --> 00:35:35.500
+I will take pauses
+
+00:35:35.500 --> 00:35:37.500
+and I will ask questions.
+
+00:35:49.500 --> 00:35:51.500
+Any questions you have?
+
+00:35:57.500 --> 00:35:59.500
+It is not possible
+
+00:35:59.500 --> 00:36:01.500
+to explain everything again.
+
+00:36:01.500 --> 00:36:03.500
+But I will give you a simple overview.
+
+00:36:05.500 --> 00:36:07.500
+Okay. Constitutional AI.
+
+00:36:07.500 --> 00:36:09.500
+Yes.
+
+00:36:09.500 --> 00:36:11.500
+So first I will tell you the alignment.
+
+00:36:11.500 --> 00:36:13.500
+I will give you a small overview again.
+
+00:36:13.500 --> 00:36:15.500
+Alignment is basically that
+
+00:36:15.500 --> 00:36:17.500
+when your LLMs are pre-trained
+
+00:36:17.500 --> 00:36:19.500
+on internet data.
+
+00:36:19.500 --> 00:36:21.500
+Now their training
+
+00:36:21.500 --> 00:36:23.500
+basically says that
+
+00:36:23.500 --> 00:36:25.500
+for a given input
+
+00:36:25.500 --> 00:36:27.500
+prompt you complete it.
+
+00:36:27.500 --> 00:36:29.500
+You predict the next possible word.
+
+00:36:29.500 --> 00:36:31.500
+So if someone asks
+
+00:36:31.500 --> 00:36:33.500
+my LLM how to murder someone
+
+00:36:33.500 --> 00:36:35.500
+then my LLM will tell you.
+
+00:36:35.500 --> 00:36:37.500
+But do you think LLM should answer this?
+
+00:36:37.500 --> 00:36:39.500
+Okay. My LLM
+
+00:36:39.500 --> 00:36:41.500
+should refrain from giving these sort of answers.
+
+00:36:41.500 --> 00:36:43.500
+So what we do is
+
+00:36:43.500 --> 00:36:45.500
+align it with human values.
+
+00:36:45.500 --> 00:36:47.500
+We make it harmless.
+
+00:36:47.500 --> 00:36:49.500
+We make it more helpful.
+
+00:36:49.500 --> 00:36:51.500
+We reduce the bias in it
+
+00:36:51.500 --> 00:36:53.500
+in its data.
+
+00:36:53.500 --> 00:36:55.500
+Is this clear?
+
+00:36:55.500 --> 00:36:57.500
+First
+
+00:36:57.500 --> 00:36:59.500
+for this particular thing
+
+00:36:59.500 --> 00:37:01.500
+we used RLHF for alignment
+
+00:37:01.500 --> 00:37:03.500
+where human reviewers were used.
+
+00:37:03.500 --> 00:37:05.500
+Now we
+
+00:37:05.500 --> 00:37:07.500
+developed a constitution
+
+00:37:07.500 --> 00:37:09.500
+which is a constitutional AI.
+
+00:37:09.500 --> 00:37:11.500
+And we told our LLM
+
+00:37:11.500 --> 00:37:13.500
+that this is a constitution document
+
+00:37:13.500 --> 00:37:15.500
+and now you
+
+00:37:15.500 --> 00:37:17.500
+have to review your answers
+
+00:37:17.500 --> 00:37:19.500
+and align yourself.
+
+00:37:19.500 --> 00:37:21.500
+So we removed humans from the middle.
+
+00:37:21.500 --> 00:37:23.500
+Basically
+
+00:37:23.500 --> 00:37:25.500
+we automated it a little more.
+
+00:37:31.500 --> 00:37:33.500
+Clear guys?
+
+00:37:33.500 --> 00:37:35.500
+Why the term constitution rather than
+
+00:37:35.500 --> 00:37:37.500
+that is decided by Anthropic
+
+00:37:37.500 --> 00:37:39.500
+and I haven't decided.
+
+00:37:39.500 --> 00:37:41.500
+What does constitution mean?
+
+00:37:41.500 --> 00:37:43.500
+It's a set of rules
+
+00:37:43.500 --> 00:37:45.500
+according to which the whole nation works.
+
+00:37:45.500 --> 00:37:47.500
+So for LLMs that is a constitution.
+
+00:37:47.500 --> 00:37:49.500
+Yes.
+
+00:37:49.500 --> 00:37:51.500
+You can say that.
+
+00:37:51.500 --> 00:37:53.500
+It is reinforcement learning
+
+00:37:53.500 --> 00:37:55.500
+and it is a system of
+
+00:37:55.500 --> 00:37:57.500
+human knowledge.
+
+00:37:57.500 --> 00:37:59.500
+So it is a system of
+
+00:37:59.500 --> 00:38:01.500
+human knowledge.
+
+00:38:01.500 --> 00:38:03.500
+It is reinforcement learning
+
+00:38:03.500 --> 00:38:05.500
+but without human feedback.
+
+00:38:05.500 --> 00:38:07.500
+Feedback is getting from LLM.
+
+00:38:11.500 --> 00:38:13.500
+I'll come to that question.
+
+00:38:15.500 --> 00:38:17.500
+Move forward.
+
+00:38:21.500 --> 00:38:23.500
+Yeah.
+
+00:38:23.500 --> 00:38:25.500
+So what we did is we aligned our model here.
+
+00:38:27.500 --> 00:38:29.500
+So we have completed the alignment step.
+
+00:38:29.500 --> 00:38:31.500
+So now our model is now ready.
+
+00:38:31.500 --> 00:38:33.500
+But
+
+00:38:33.500 --> 00:38:35.500
+can we directly
+
+00:38:35.500 --> 00:38:37.500
+expose our model to the public?
+
+00:38:37.500 --> 00:38:39.500
+The answer is no.
+
+00:38:39.500 --> 00:38:41.500
+We have to think about
+
+00:38:41.500 --> 00:38:43.500
+the infrastructure.
+
+00:38:43.500 --> 00:38:45.500
+It takes a lot of compute
+
+00:38:45.500 --> 00:38:47.500
+to train LLMs.
+
+00:38:47.500 --> 00:38:49.500
+But generally people don't know
+
+00:38:49.500 --> 00:38:51.500
+that the inference step in LLMs
+
+00:38:51.500 --> 00:38:53.500
+where we use
+
+00:38:53.500 --> 00:38:55.500
+LLMs
+
+00:38:55.500 --> 00:38:57.500
+takes a lot of compute inside it.
+
+00:38:57.500 --> 00:38:59.500
+So compute comes in front of you
+
+00:38:59.500 --> 00:39:01.500
+not only during training
+
+00:39:01.500 --> 00:39:03.500
+but also during inference.
+
+00:39:03.500 --> 00:39:05.500
+Is that clear?
+
+00:39:05.500 --> 00:39:07.500
+And
+
+00:39:07.500 --> 00:39:09.500
+here we need to fine
+
+00:39:09.500 --> 00:39:11.500
+tune many times.
+
+00:39:11.500 --> 00:39:13.500
+Now
+
+00:39:13.500 --> 00:39:15.500
+this term is used a lot.
+
+00:39:15.500 --> 00:39:17.500
+Fine tuning.
+
+00:39:17.500 --> 00:39:19.500
+But generally people don't know about it.
+
+00:39:19.500 --> 00:39:21.500
+Does anyone know about fine
+
+00:39:21.500 --> 00:39:23.500
+tuning? What is fine tuning?
+
+00:39:23.500 --> 00:39:25.500
+Why is it done?
+
+00:39:27.500 --> 00:39:29.500
+Retraining the model.
+
+00:39:29.500 --> 00:39:31.500
+Hmm.
+
+00:39:31.500 --> 00:39:33.500
+It is actually
+
+00:39:33.500 --> 00:39:35.500
+not retraining the model.
+
+00:39:35.500 --> 00:39:37.500
+What we do is we fine tune
+
+00:39:37.500 --> 00:39:39.500
+the model.
+
+00:39:39.500 --> 00:39:41.500
+That's why it is called fine tuning.
+
+00:39:41.500 --> 00:39:43.500
+Not retraining.
+
+00:39:43.500 --> 00:39:45.500
+We don't touch
+
+00:39:45.500 --> 00:39:47.500
+most of the parameters of the model
+
+00:39:47.500 --> 00:39:49.500
+here.
+
+00:39:49.500 --> 00:39:51.500
+Because the parameters in the model
+
+00:39:51.500 --> 00:39:53.500
+are not responsible for our output.
+
+00:39:53.500 --> 00:39:55.500
+Some parameters
+
+00:39:55.500 --> 00:39:57.500
+are there for reasoning.
+
+00:39:57.500 --> 00:39:59.500
+Some parameters are there
+
+00:39:59.500 --> 00:40:01.500
+which can transform the input.
+
+00:40:01.500 --> 00:40:03.500
+Multiple parameters come.
+
+00:40:03.500 --> 00:40:05.500
+So the majority of the parameters
+
+00:40:05.500 --> 00:40:07.500
+are there in your LLM.
+
+00:40:09.500 --> 00:40:11.500
+They capture your
+
+00:40:11.500 --> 00:40:13.500
+NLU based skill.
+
+00:40:13.500 --> 00:40:15.500
+Means natural language understanding.
+
+00:40:15.500 --> 00:40:17.500
+Fine.
+
+00:40:17.500 --> 00:40:19.500
+What happens inside this? In these parameters
+
+00:40:19.500 --> 00:40:21.500
+the values you store
+
+00:40:21.500 --> 00:40:23.500
+through which your LLM
+
+00:40:23.500 --> 00:40:25.500
+can pick the patterns inside it.
+
+00:40:27.500 --> 00:40:29.500
+Means for a given input what is the output
+
+00:40:29.500 --> 00:40:31.500
+to give? It can pick that.
+
+00:40:31.500 --> 00:40:33.500
+Whereas some parameters are there
+
+00:40:33.500 --> 00:40:35.500
+here.
+
+00:40:37.500 --> 00:40:39.500
+Which govern your output style.
+
+00:40:39.500 --> 00:40:41.500
+Govern the output
+
+00:40:41.500 --> 00:40:43.500
+style here.
+
+00:40:43.500 --> 00:40:45.500
+And to change this
+
+00:40:45.500 --> 00:40:47.500
+output style you do fine tuning here.
+
+00:40:47.500 --> 00:40:49.500
+You must have heard that
+
+00:40:49.500 --> 00:40:51.500
+fine tuning is generally done for
+
+00:40:51.500 --> 00:40:53.500
+specific domains.
+
+00:40:53.500 --> 00:40:55.500
+Like your legal domain, your medical domain.
+
+00:40:57.500 --> 00:40:59.500
+What you do inside that?
+
+00:40:59.500 --> 00:41:01.500
+You make a generalist
+
+00:41:01.500 --> 00:41:03.500
+what is a generalist?
+
+00:41:03.500 --> 00:41:05.500
+A LLM who has the knowledge of the world.
+
+00:41:05.500 --> 00:41:07.500
+The knowledge of every domain.
+
+00:41:07.500 --> 00:41:09.500
+The understanding of language.
+
+00:41:09.500 --> 00:41:11.500
+You make a
+
+00:41:11.500 --> 00:41:13.500
+journalist a specialist.
+
+00:41:15.500 --> 00:41:17.500
+In fine tuning
+
+00:41:17.500 --> 00:41:19.500
+you tweak the selected parameters
+
+00:41:19.500 --> 00:41:21.500
+which makes your journalist
+
+00:41:21.500 --> 00:41:23.500
+LLM a specialist.
+
+00:41:23.500 --> 00:41:25.500
+It is capable of giving
+
+00:41:25.500 --> 00:41:27.500
+any domain specific answers.
+
+00:41:29.500 --> 00:41:31.500
+Is this clear?
+
+00:41:33.500 --> 00:41:35.500
+We are not going into the technicalities
+
+00:41:35.500 --> 00:41:37.500
+of fine tuning. But in general
+
+00:41:37.500 --> 00:41:39.500
+this is fine tuning.
+
+00:41:39.500 --> 00:41:41.500
+You have a journalist LLM
+
+00:41:41.500 --> 00:41:43.500
+which is trained on your entire internet data.
+
+00:41:43.500 --> 00:41:45.500
+And how to output it
+
+00:41:45.500 --> 00:41:47.500
+in a legal domain, in a medical domain
+
+00:41:47.500 --> 00:41:49.500
+how to output the answers.
+
+00:41:49.500 --> 00:41:51.500
+He doesn't know that.
+
+00:41:51.500 --> 00:41:53.500
+He will give a general sort of answer.
+
+00:41:53.500 --> 00:41:55.500
+So what we do by fine tuning is
+
+00:41:55.500 --> 00:41:57.500
+we convert it into a specialist.
+
+00:41:57.500 --> 00:41:59.500
+Now I have fine tuned you.
+
+00:41:59.500 --> 00:42:01.500
+Now you are aligning with my domain.
+
+00:42:01.500 --> 00:42:03.500
+So for domain alignment
+
+00:42:03.500 --> 00:42:05.500
+fine tuning is used.
+
+00:42:09.500 --> 00:42:11.500
+Is it clear?
+
+00:42:13.500 --> 00:42:15.500
+Inferences prediction.
+
+00:42:15.500 --> 00:42:17.500
+When you talk to chat GPD
+
+00:42:17.500 --> 00:42:19.500
+after writing a prompt
+
+00:42:19.500 --> 00:42:21.500
+you enter press that is your inference.
+
+00:42:21.500 --> 00:42:23.500
+When the model predicts.
+
+00:42:25.500 --> 00:42:27.500
+Generally in machine learning models
+
+00:42:27.500 --> 00:42:29.500
+training is tough, prediction is done
+
+00:42:29.500 --> 00:42:31.500
+on small systems also.
+
+00:42:31.500 --> 00:42:33.500
+But in LLM
+
+00:42:33.500 --> 00:42:35.500
+prediction is also compute heavy.
+
+00:42:35.500 --> 00:42:37.500
+Because your input
+
+00:42:37.500 --> 00:42:39.500
+has to pass billions of
+
+00:42:39.500 --> 00:42:41.500
+trillions of parameters.
+
+00:42:41.500 --> 00:42:43.500
+So these billion trillion parameters
+
+00:42:43.500 --> 00:42:45.500
+are very much calculated.
+
+00:42:45.500 --> 00:42:47.500
+And this is compute heavy.
+
+00:42:47.500 --> 00:42:49.500
+And now you see
+
+00:42:49.500 --> 00:42:51.500
+you are not a single user.
+
+00:42:51.500 --> 00:42:53.500
+At a single time there are multiple users.
+
+00:42:53.500 --> 00:42:55.500
+Hundreds and thousands of users.
+
+00:42:57.500 --> 00:42:59.500
+So scaling is also an issue.
+
+00:43:03.500 --> 00:43:05.500
+Is it clear?
+
+00:43:05.500 --> 00:43:07.500
+Is it clear?
+
+00:43:07.500 --> 00:43:09.500
+Yeah I will take your questions.
+
+00:43:09.500 --> 00:43:11.500
+So far what I have explained is clear guys.
+
+00:43:13.500 --> 00:43:15.500
+Is the pacing of the lecture okay?
+
+00:43:15.500 --> 00:43:17.500
+Am I going too fast? Too slow?
+
+00:43:19.500 --> 00:43:21.500
+Quick feedback?
+
+00:43:21.500 --> 00:43:23.500
+Pacing is good. Perfect.
+
+00:43:23.500 --> 00:43:25.500
+Okay. Someone is saying
+
+00:43:25.500 --> 00:43:27.500
+too slow. Maybe you know
+
+00:43:27.500 --> 00:43:29.500
+these concepts.
+
+00:43:29.500 --> 00:43:31.500
+So I will keep the pacing according to the general audience.
+
+00:43:31.500 --> 00:43:33.500
+If most of them feel
+
+00:43:33.500 --> 00:43:35.500
+that it is okay then
+
+00:43:35.500 --> 00:43:37.500
+we will go with that.
+
+00:43:37.500 --> 00:43:39.500
+Clear.
+
+00:43:39.500 --> 00:43:41.500
+Clear. Clear.
+
+00:43:43.500 --> 00:43:45.500
+I am taking questions.
+
+00:43:45.500 --> 00:43:47.500
+This is the first session
+
+00:43:47.500 --> 00:43:49.500
+and I want to be very comfortable
+
+00:43:49.500 --> 00:43:51.500
+with LLM Ops.
+
+00:43:51.500 --> 00:43:53.500
+You all be comfortable. That's why I am taking
+
+00:43:53.500 --> 00:43:55.500
+more questions today.
+
+00:43:55.500 --> 00:43:57.500
+In the upcoming sessions we will stick to
+
+00:43:57.500 --> 00:43:59.500
+the curriculum more.
+
+00:43:59.500 --> 00:44:01.500
+And there will be no discussion type session.
+
+00:44:01.500 --> 00:44:03.500
+This was an orientation type session.
+
+00:44:03.500 --> 00:44:05.500
+That's why I am taking more of questions.
+
+00:44:07.500 --> 00:44:09.500
+Let me take some questions
+
+00:44:09.500 --> 00:44:11.500
+guys. Just a second.
+
+00:44:13.500 --> 00:44:15.500
+When model is trained on
+
+00:44:15.500 --> 00:44:17.500
+internet data it is not trained on
+
+00:44:17.500 --> 00:44:19.500
+specialized data as well.
+
+00:44:19.500 --> 00:44:21.500
+No. Internet data
+
+00:44:21.500 --> 00:44:23.500
+has many domains.
+
+00:44:23.500 --> 00:44:25.500
+It is not trained on
+
+00:44:25.500 --> 00:44:27.500
+specialized data.
+
+00:44:27.500 --> 00:44:29.500
+Because data comes from every domain.
+
+00:44:31.500 --> 00:44:33.500
+That's why we work with specialized data
+
+00:44:33.500 --> 00:44:35.500
+in fine tune. Very specific.
+
+00:44:35.500 --> 00:44:37.500
+Clear.
+
+00:44:41.500 --> 00:44:43.500
+Clear guys.
+
+00:44:47.500 --> 00:44:49.500
+Write clear in the chat.
+
+00:44:55.500 --> 00:44:57.500
+We are not discussing that.
+
+00:44:57.500 --> 00:44:59.500
+We are not discussing inference. We are discussing LLM Ops.
+
+00:45:01.500 --> 00:45:03.500
+Write clear in the chat and then we will move forward.
+
+00:45:05.500 --> 00:45:07.500
+Clear.
+
+00:45:09.500 --> 00:45:11.500
+So, this whole discussion
+
+00:45:11.500 --> 00:45:13.500
+which we have discussed for 15-20 minutes
+
+00:45:13.500 --> 00:45:15.500
+that we have
+
+00:45:15.500 --> 00:45:17.500
+discussed about
+
+00:45:17.500 --> 00:45:19.500
+LLM Ops life cycle.
+
+00:45:19.500 --> 00:45:21.500
+I will not discuss about
+
+00:45:21.500 --> 00:45:23.500
+LLM Ops life cycle. I will discuss about
+
+00:45:23.500 --> 00:45:25.500
+LLM's life cycle.
+
+00:45:25.500 --> 00:45:27.500
+We have discussed about LLM's training life cycle.
+
+00:45:27.500 --> 00:45:29.500
+So, you can see
+
+00:45:29.500 --> 00:45:31.500
+how many steps are there.
+
+00:45:31.500 --> 00:45:33.500
+And all these steps
+
+00:45:33.500 --> 00:45:35.500
+which we have discussed
+
+00:45:35.500 --> 00:45:37.500
+here
+
+00:45:37.500 --> 00:45:39.500
+those have massive data
+
+00:45:39.500 --> 00:45:41.500
+requirements.
+
+00:45:43.500 --> 00:45:45.500
+So, let me talk about requirements.
+
+00:45:45.500 --> 00:45:47.500
+Data is very much needed.
+
+00:45:47.500 --> 00:45:49.500
+Massive compute requirements.
+
+00:45:55.500 --> 00:45:57.500
+Okay. It is infrastructure requirement.
+
+00:45:57.500 --> 00:45:59.500
+And one thing that we forget
+
+00:45:59.500 --> 00:46:01.500
+is that is your massive technical
+
+00:46:01.500 --> 00:46:03.500
+requirements.
+
+00:46:03.500 --> 00:46:05.500
+Technical expertise is also needed.
+
+00:46:07.500 --> 00:46:09.500
+The training you are doing,
+
+00:46:09.500 --> 00:46:11.500
+fine tuning, these are
+
+00:46:11.500 --> 00:46:13.500
+very technical things.
+
+00:46:13.500 --> 00:46:15.500
+So, you need technical requirements here.
+
+00:46:15.500 --> 00:46:17.500
+So,
+
+00:46:17.500 --> 00:46:19.500
+doing it on a small scale
+
+00:46:19.500 --> 00:46:21.500
+on a small scale
+
+00:46:21.500 --> 00:46:23.500
+is not possible.
+
+00:46:23.500 --> 00:46:25.500
+So, what we will do here
+
+00:46:25.500 --> 00:46:27.500
+we will take a second approach
+
+00:46:27.500 --> 00:46:29.500
+in this particular LLM Ops course.
+
+00:46:29.500 --> 00:46:31.500
+Because
+
+00:46:31.500 --> 00:46:33.500
+there are two branches of LLM Ops.
+
+00:46:33.500 --> 00:46:35.500
+Okay.
+
+00:46:35.500 --> 00:46:37.500
+Let me tell you.
+
+00:46:37.500 --> 00:46:39.500
+Whenever
+
+00:46:39.500 --> 00:46:41.500
+we talk about LLM Ops,
+
+00:46:41.500 --> 00:46:43.500
+there are two branches here.
+
+00:46:43.500 --> 00:46:45.500
+First branch is your LLM branch.
+
+00:46:45.500 --> 00:46:47.500
+Which we have discussed about
+
+00:46:47.500 --> 00:46:49.500
+the whole life cycle.
+
+00:46:49.500 --> 00:46:51.500
+This is our LLM branch.
+
+00:46:51.500 --> 00:46:53.500
+The second branch is
+
+00:46:53.500 --> 00:46:55.500
+our LLM based applications branch.
+
+00:46:59.500 --> 00:47:01.500
+Where you use LLM
+
+00:47:01.500 --> 00:47:03.500
+to build applications.
+
+00:47:03.500 --> 00:47:05.500
+So,
+
+00:47:05.500 --> 00:47:07.500
+for this particular LLM branch
+
+00:47:07.500 --> 00:47:09.500
+we need massive data,
+
+00:47:09.500 --> 00:47:11.500
+which we don't have. We need massive
+
+00:47:11.500 --> 00:47:13.500
+compute, which we don't have.
+
+00:47:13.500 --> 00:47:15.500
+We need massive technical expertise, massive
+
+00:47:15.500 --> 00:47:17.500
+infrastructure and massive cost.
+
+00:47:17.500 --> 00:47:19.500
+Because cost is first.
+
+00:47:19.500 --> 00:47:21.500
+To collect data, it will cost a lot of money.
+
+00:47:21.500 --> 00:47:23.500
+To spend compute,
+
+00:47:23.500 --> 00:47:25.500
+it will cost a lot of money.
+
+00:47:25.500 --> 00:47:27.500
+It will cost electricity, water, you know everything.
+
+00:47:27.500 --> 00:47:29.500
+And to hire
+
+00:47:29.500 --> 00:47:31.500
+a technical team,
+
+00:47:31.500 --> 00:47:33.500
+you will have to pay a lot of salaries.
+
+00:47:33.500 --> 00:47:35.500
+So, we will not cover
+
+00:47:35.500 --> 00:47:37.500
+this particular branch in this course.
+
+00:47:37.500 --> 00:47:39.500
+Because simply
+
+00:47:39.500 --> 00:47:41.500
+it is not possible on our scale.
+
+00:47:41.500 --> 00:47:43.500
+The scale on which we are working,
+
+00:47:43.500 --> 00:47:45.500
+we are studying,
+
+00:47:45.500 --> 00:47:47.500
+we can't achieve this. Do you agree with that?
+
+00:47:49.500 --> 00:47:51.500
+Do you agree guys?
+
+00:47:51.500 --> 00:47:53.500
+Do you agree guys?
+
+00:47:57.500 --> 00:47:59.500
+Yes.
+
+00:48:01.500 --> 00:48:03.500
+So, what option do we have left?
+
+00:48:03.500 --> 00:48:05.500
+We have an option left to go with
+
+00:48:05.500 --> 00:48:07.500
+the LLM based application.
+
+00:48:07.500 --> 00:48:09.500
+And it's not like we are taking this option in helplessness.
+
+00:48:09.500 --> 00:48:11.500
+This is not a helpless option.
+
+00:48:11.500 --> 00:48:13.500
+This is a very logical option.
+
+00:48:13.500 --> 00:48:15.500
+This is a logical option.
+
+00:48:15.500 --> 00:48:17.500
+Why? Because
+
+00:48:17.500 --> 00:48:19.500
+when you apply LLM aux in the industry,
+
+00:48:19.500 --> 00:48:21.500
+then you will
+
+00:48:21.500 --> 00:48:23.500
+train LLMs from scratch.
+
+00:48:23.500 --> 00:48:25.500
+Okay?
+
+00:48:25.500 --> 00:48:27.500
+Maybe you will train a foundation model.
+
+00:48:29.500 --> 00:48:31.500
+Like, if there are 100 students in this class,
+
+00:48:31.500 --> 00:48:33.500
+then maybe
+
+00:48:33.500 --> 00:48:35.500
+1 out of you or 2 out of you will
+
+00:48:35.500 --> 00:48:37.500
+maybe do that.
+
+00:48:37.500 --> 00:48:39.500
+Not all of them.
+
+00:48:39.500 --> 00:48:41.500
+Whereas, you will make LLM based applications.
+
+00:48:43.500 --> 00:48:45.500
+So, what will we do here?
+
+00:48:45.500 --> 00:48:47.500
+We will learn how LLM
+
+00:48:47.500 --> 00:48:49.500
+aux is applied in LLM based applications.
+
+00:48:49.500 --> 00:48:51.500
+So, what will
+
+00:48:51.500 --> 00:48:53.500
+our whole course revolve around,
+
+00:48:53.500 --> 00:48:55.500
+it will be LLM
+
+00:48:55.500 --> 00:48:57.500
+aux around LLM based applications.
+
+00:48:57.500 --> 00:48:59.500
+Is this clear?
+
+00:49:01.500 --> 00:49:03.500
+Is this clear?
+
+00:49:03.500 --> 00:49:05.500
+So, even in the industry,
+
+00:49:05.500 --> 00:49:07.500
+when you sit in interviews
+
+00:49:07.500 --> 00:49:09.500
+and when you get projects,
+
+00:49:09.500 --> 00:49:11.500
+nobody is expecting you to
+
+00:49:11.500 --> 00:49:13.500
+use this particular
+
+00:49:13.500 --> 00:49:15.500
+branch. You have an idea,
+
+00:49:15.500 --> 00:49:17.500
+an overview, that's enough.
+
+00:49:17.500 --> 00:49:19.500
+Whereas, where will you expect
+
+00:49:19.500 --> 00:49:21.500
+that expertise?
+
+00:49:21.500 --> 00:49:23.500
+In this particular branch.
+
+00:49:31.500 --> 00:49:33.500
+Yes, we can. We can do fine-tuning.
+
+00:49:33.500 --> 00:49:35.500
+But, as I said,
+
+00:49:35.500 --> 00:49:37.500
+we are not covering that branch yet.
+
+00:49:37.500 --> 00:49:39.500
+Because you will have to do fine-tuning for that.
+
+00:49:39.500 --> 00:49:41.500
+Fine-tuning is not part of this course.
+
+00:49:45.500 --> 00:49:47.500
+When you will read fine-tuning once,
+
+00:49:47.500 --> 00:49:49.500
+then you can obviously do it.
+
+00:49:51.500 --> 00:49:53.500
+But again,
+
+00:49:53.500 --> 00:49:55.500
+there are computer requirements,
+
+00:49:55.500 --> 00:49:57.500
+technical requirements,
+
+00:49:57.500 --> 00:49:59.500
+and you have to save your fine-tuned model
+
+00:49:59.500 --> 00:50:01.500
+somewhere.
+
+00:50:01.500 --> 00:50:03.500
+You have to do its versioning.
+
+00:50:03.500 --> 00:50:05.500
+Multiple things are there.
+
+00:50:05.500 --> 00:50:07.500
+Again, it is expensive.
+
+00:50:09.500 --> 00:50:11.500
+Is this clear?
+
+00:50:11.500 --> 00:50:13.500
+Is this clear, guys?
+
+00:50:19.500 --> 00:50:21.500
+Clear.
+
+00:50:23.500 --> 00:50:25.500
+So, as I said,
+
+00:50:25.500 --> 00:50:27.500
+you have two branches of LLM Ops.
+
+00:50:27.500 --> 00:50:29.500
+We have two branches with us.
+
+00:50:29.500 --> 00:50:31.500
+The first is your
+
+00:50:31.500 --> 00:50:33.500
+LLM branch.
+
+00:50:33.500 --> 00:50:35.500
+And the second is your
+
+00:50:35.500 --> 00:50:37.500
+LLM based applications.
+
+00:50:39.500 --> 00:50:43.500
+We will go to this particular branch.
+
+00:50:43.500 --> 00:50:45.500
+We will go to this branch.
+
+00:50:47.500 --> 00:50:49.500
+Okay.
+
+00:50:49.500 --> 00:50:51.500
+If I show you its definition,
+
+00:50:51.500 --> 00:50:53.500
+then where I asked
+
+00:50:53.500 --> 00:50:55.500
+what is LLM Ops,
+
+00:50:55.500 --> 00:50:57.500
+if you go up,
+
+00:50:57.500 --> 00:50:59.500
+then here is the definition of Google Overview.
+
+00:50:59.500 --> 00:51:01.500
+Can you see this definition, guys?
+
+00:51:01.500 --> 00:51:03.500
+Google Overview.
+
+00:51:03.500 --> 00:51:05.500
+So, this definition is
+
+00:51:05.500 --> 00:51:07.500
+your application based.
+
+00:51:07.500 --> 00:51:09.500
+See, LLM Ops
+
+00:51:09.500 --> 00:51:11.500
+is a set of practices,
+
+00:51:11.500 --> 00:51:13.500
+tools, and processes designed to manage
+
+00:51:13.500 --> 00:51:15.500
+life cycle of application
+
+00:51:15.500 --> 00:51:17.500
+powered by large language models.
+
+00:51:19.500 --> 00:51:21.500
+It streamlines deployment,
+
+00:51:21.500 --> 00:51:23.500
+monitoring, maintaining, gen.ai
+
+00:51:23.500 --> 00:51:25.500
+by adapting traditional software engineering principles
+
+00:51:25.500 --> 00:51:27.500
+like EACICT, etc.
+
+00:51:27.500 --> 00:51:29.500
+We will cover all these things.
+
+00:51:31.500 --> 00:51:33.500
+Is it clear?
+
+00:51:37.500 --> 00:51:39.500
+Great.
+
+00:51:39.500 --> 00:51:41.500
+So, now I will tell you that
+
+00:51:41.500 --> 00:51:43.500
+in this curriculum,
+
+00:51:43.500 --> 00:51:45.500
+as I told you that we are going to touch
+
+00:51:45.500 --> 00:51:47.500
+LLM based applications.
+
+00:51:47.500 --> 00:51:49.500
+So, which applications are we going to work with?
+
+00:51:49.500 --> 00:51:51.500
+I will disclose about that.
+
+00:51:51.500 --> 00:51:53.500
+So, the first application
+
+00:51:53.500 --> 00:51:55.500
+in which we are going to work
+
+00:51:55.500 --> 00:51:57.500
+that will be our Rack based application.
+
+00:52:03.500 --> 00:52:05.500
+And the second application
+
+00:52:05.500 --> 00:52:07.500
+that is our Agentic based application.
+
+00:52:13.500 --> 00:52:15.500
+And you know that
+
+00:52:15.500 --> 00:52:17.500
+in the world of LLM based applications
+
+00:52:17.500 --> 00:52:19.500
+both the applications are very popular.
+
+00:52:19.500 --> 00:52:21.500
+Either you are making
+
+00:52:21.500 --> 00:52:23.500
+a Rack based application
+
+00:52:23.500 --> 00:52:25.500
+or you are making an Agentic based application.
+
+00:52:25.500 --> 00:52:27.500
+And how you are going to learn
+
+00:52:27.500 --> 00:52:29.500
+how to apply LLM Ops with both of us.
+
+00:52:29.500 --> 00:52:31.500
+Right?
+
+00:52:31.500 --> 00:52:33.500
+Now,
+
+00:52:33.500 --> 00:52:35.500
+what we will do is
+
+00:52:35.500 --> 00:52:37.500
+in this particular course
+
+00:52:37.500 --> 00:52:39.500
+which will be our learning journey.
+
+00:52:39.500 --> 00:52:41.500
+Now, I am talking about learning journey.
+
+00:52:41.500 --> 00:52:43.500
+In this particular journey
+
+00:52:43.500 --> 00:52:45.500
+we will stick to
+
+00:52:45.500 --> 00:52:47.500
+Rack based application.
+
+00:52:47.500 --> 00:52:49.500
+We will take this particular application
+
+00:52:49.500 --> 00:52:51.500
+and through this
+
+00:52:51.500 --> 00:52:53.500
+we will study our LLM Ops journey.
+
+00:52:53.500 --> 00:52:55.500
+We will study our LLM Ops journey.
+
+00:52:55.500 --> 00:52:57.500
+We will study our LLM Ops journey.
+
+00:52:57.500 --> 00:52:59.500
+Whatever tools we have to study
+
+00:52:59.500 --> 00:53:01.500
+whatever concepts we have to study
+
+00:53:01.500 --> 00:53:03.500
+will be our around a Rack based application.
+
+00:53:03.500 --> 00:53:05.500
+Whereas,
+
+00:53:05.500 --> 00:53:07.500
+when we will build a project
+
+00:53:07.500 --> 00:53:09.500
+at the end of this particular course
+
+00:53:09.500 --> 00:53:11.500
+then at the time of building the project
+
+00:53:11.500 --> 00:53:13.500
+we will work with the
+
+00:53:13.500 --> 00:53:15.500
+Agentic based application.
+
+00:53:15.500 --> 00:53:17.500
+And this whole life cycle
+
+00:53:17.500 --> 00:53:19.500
+of LLM Ops
+
+00:53:19.500 --> 00:53:21.500
+I will show you again
+
+00:53:21.500 --> 00:53:23.500
+on the Rack based application.
+
+00:53:23.500 --> 00:53:25.500
+Is it clear?
+
+00:53:25.500 --> 00:53:27.500
+So,
+
+00:53:27.500 --> 00:53:29.500
+in this particular course
+
+00:53:29.500 --> 00:53:31.500
+we will work with both the applications
+
+00:53:31.500 --> 00:53:33.500
+but during learning
+
+00:53:33.500 --> 00:53:35.500
+we will stick to Rack based application only.
+
+00:53:35.500 --> 00:53:37.500
+Because if I will work with two applications
+
+00:53:37.500 --> 00:53:39.500
+in parallel then you will get confused.
+
+00:53:39.500 --> 00:53:41.500
+So, we will make up our mind
+
+00:53:41.500 --> 00:53:43.500
+in our mind we will say
+
+00:53:43.500 --> 00:53:45.500
+that we have to apply LLM Ops on the Rack based application
+
+00:53:45.500 --> 00:53:47.500
+and through that
+
+00:53:47.500 --> 00:53:49.500
+we will do our learning.
+
+00:53:49.500 --> 00:53:51.500
+And as soon as we complete our learning
+
+00:53:51.500 --> 00:53:53.500
+after that
+
+00:53:53.500 --> 00:53:55.500
+we will build the Agent based application
+
+00:53:55.500 --> 00:53:57.500
+and we will apply LLM Ops
+
+00:53:57.500 --> 00:53:59.500
+again on it.
+
+00:54:01.500 --> 00:54:03.500
+Clear?
+
+00:54:03.500 --> 00:54:05.500
+I will give you an example
+
+00:54:05.500 --> 00:54:07.500
+I will give you everything.
+
+00:54:07.500 --> 00:54:09.500
+I will give you all the details.
+
+00:54:09.500 --> 00:54:11.500
+This point is clear.
+
+00:54:13.500 --> 00:54:15.500
+And why I decided this point
+
+00:54:15.500 --> 00:54:17.500
+that we are going to work in this flow.
+
+00:54:17.500 --> 00:54:19.500
+This point is also clear.
+
+00:54:23.500 --> 00:54:25.500
+Now let's talk about
+
+00:54:25.500 --> 00:54:27.500
+what kind of application we are going to work on.
+
+00:54:27.500 --> 00:54:29.500
+So, we are moving towards
+
+00:54:29.500 --> 00:54:31.500
+the LLM based applications
+
+00:54:31.500 --> 00:54:33.500
+and moreover we are going to discuss
+
+00:54:33.500 --> 00:54:35.500
+about our first application
+
+00:54:35.500 --> 00:54:37.500
+that is our Rack application.
+
+00:54:37.500 --> 00:54:39.500
+What kind of application
+
+00:54:39.500 --> 00:54:41.500
+will be there.
+
+00:54:41.500 --> 00:54:43.500
+And I will explain the whole scenario
+
+00:54:43.500 --> 00:54:45.500
+of this Rack application through an example.
+
+00:54:45.500 --> 00:54:47.500
+So, you can understand the example
+
+00:54:47.500 --> 00:54:49.500
+that currently I am
+
+00:54:49.500 --> 00:54:51.500
+working at CampusX.
+
+00:54:51.500 --> 00:54:53.500
+And I have got the task
+
+00:54:53.500 --> 00:54:55.500
+to design a chatbot
+
+00:54:55.500 --> 00:54:57.500
+based on our courses.
+
+00:54:59.500 --> 00:55:01.500
+And this chatbot is a Rack chatbot.
+
+00:55:05.500 --> 00:55:07.500
+So, how is our current flow?
+
+00:55:07.500 --> 00:55:09.500
+Now whatever course we take live
+
+00:55:09.500 --> 00:55:11.500
+like this course is going live
+
+00:55:11.500 --> 00:55:13.500
+so behind the scenes is
+
+00:55:13.500 --> 00:55:15.500
+a transcript that is being generated
+
+00:55:15.500 --> 00:55:17.500
+for this particular session.
+
+00:55:17.500 --> 00:55:19.500
+And as soon as this course ends
+
+00:55:19.500 --> 00:55:21.500
+a transcript will be added in the course dashboard.
+
+00:55:21.500 --> 00:55:23.500
+So, what we did here
+
+00:55:23.500 --> 00:55:25.500
+we collected the transcripts
+
+00:55:25.500 --> 00:55:27.500
+of all our live courses
+
+00:55:29.500 --> 00:55:31.500
+and based on the knowledge
+
+00:55:31.500 --> 00:55:33.500
+that is in this transcript
+
+00:55:33.500 --> 00:55:35.500
+we built a Rack chatbot
+
+00:55:35.500 --> 00:55:37.500
+or I built a Rack chatbot
+
+00:55:37.500 --> 00:55:39.500
+and I integrated it
+
+00:55:39.500 --> 00:55:41.500
+on my website.
+
+00:55:41.500 --> 00:55:43.500
+So, what can you do now?
+
+00:55:43.500 --> 00:55:45.500
+You can come with this Rack chatbot
+
+00:55:45.500 --> 00:55:47.500
+and do Q&A
+
+00:55:47.500 --> 00:55:49.500
+and you can ask your doubts.
+
+00:55:51.500 --> 00:55:53.500
+Now, as this is a Rack chatbot
+
+00:55:53.500 --> 00:55:55.500
+so its responses will be grounded.
+
+00:55:57.500 --> 00:55:59.500
+Means whatever
+
+00:55:59.500 --> 00:56:01.500
+is taught in the course
+
+00:56:01.500 --> 00:56:03.500
+it will give you the answer on the basis of it.
+
+00:56:03.500 --> 00:56:05.500
+So, don't you think it will be able to
+
+00:56:05.500 --> 00:56:07.500
+solve your doubts very well?
+
+00:56:07.500 --> 00:56:09.500
+Because your doubts will be around the course
+
+00:56:09.500 --> 00:56:11.500
+and around our videos.
+
+00:56:13.500 --> 00:56:15.500
+So, don't you think this can be a
+
+00:56:15.500 --> 00:56:17.500
+very good doubt solving tool for you?
+
+00:56:17.500 --> 00:56:19.500
+An application where
+
+00:56:19.500 --> 00:56:21.500
+students can come anytime
+
+00:56:21.500 --> 00:56:23.500
+and ask their doubts.
+
+00:56:25.500 --> 00:56:27.500
+Now, how does this whole tool work?
+
+00:56:29.500 --> 00:56:31.500
+In making a Rack chatbot
+
+00:56:31.500 --> 00:56:33.500
+what all things are required
+
+00:56:33.500 --> 00:56:35.500
+we will discuss about that.
+
+00:56:35.500 --> 00:56:37.500
+I have told you that we will make a chatbot
+
+00:56:37.500 --> 00:56:39.500
+and we will give all the data of our transcripts.
+
+00:56:41.500 --> 00:56:43.500
+But to make a Rack chatbot
+
+00:56:43.500 --> 00:56:45.500
+what all components are used
+
+00:56:45.500 --> 00:56:47.500
+how it works, what is its flow
+
+00:56:47.500 --> 00:56:49.500
+we need to discuss that too.
+
+00:56:49.500 --> 00:56:51.500
+So, whenever we make a Rack chatbot
+
+00:56:53.500 --> 00:56:55.500
+we are not making a very specialized chatbot
+
+00:56:55.500 --> 00:56:57.500
+we are making a naive chatbot or basic chatbot.
+
+00:56:59.500 --> 00:57:01.500
+So, we will do our discussion accordingly.
+
+00:57:01.500 --> 00:57:03.500
+The first step
+
+00:57:03.500 --> 00:57:05.500
+the first step, the first phase
+
+00:57:05.500 --> 00:57:07.500
+in a Rack chatbot
+
+00:57:07.500 --> 00:57:09.500
+is called the Ingestion phase.
+
+00:57:13.500 --> 00:57:15.500
+In this Ingestion phase
+
+00:57:15.500 --> 00:57:17.500
+we ingest data in our Rack chatbot
+
+00:57:21.500 --> 00:57:23.500
+which means we prepare our chatbot
+
+00:57:25.500 --> 00:57:27.500
+directly I cannot give my chatbot
+
+00:57:27.500 --> 00:57:29.500
+to students
+
+00:57:29.500 --> 00:57:31.500
+because it will give any answer
+
+00:57:31.500 --> 00:57:33.500
+maybe its answers are not on the basis of our courses
+
+00:57:33.500 --> 00:57:35.500
+but on the basis of some other video
+
+00:57:35.500 --> 00:57:37.500
+I don't want that
+
+00:57:37.500 --> 00:57:39.500
+I want that my answers are
+
+00:57:39.500 --> 00:57:41.500
+according to my videos
+
+00:57:41.500 --> 00:57:43.500
+the information that I have given in the video
+
+00:57:43.500 --> 00:57:45.500
+according to that
+
+00:57:45.500 --> 00:57:47.500
+my student can solve the doubt.
+
+00:57:47.500 --> 00:57:49.500
+So, first of all
+
+00:57:49.500 --> 00:57:51.500
+I have to provide data to my chatbot
+
+00:57:51.500 --> 00:57:53.500
+and this whole thing
+
+00:57:53.500 --> 00:57:55.500
+is called your Ingestion phase.
+
+00:57:55.500 --> 00:57:57.500
+Clear?
+
+00:57:57.500 --> 00:57:59.500
+This is my phase number one.
+
+00:57:59.500 --> 00:58:01.500
+What do you do in the second phase?
+
+00:58:03.500 --> 00:58:05.500
+In the second phase
+
+00:58:05.500 --> 00:58:07.500
+whatever data you have added in it
+
+00:58:07.500 --> 00:58:09.500
+on the basis of that it is retrieval.
+
+00:58:11.500 --> 00:58:13.500
+And this is called your retrieval phase
+
+00:58:13.500 --> 00:58:15.500
+means whatever data I have added
+
+00:58:15.500 --> 00:58:17.500
+in it and given this chatbot to you
+
+00:58:17.500 --> 00:58:19.500
+now when you are answering the question
+
+00:58:19.500 --> 00:58:21.500
+then here it will be retrieval.
+
+00:58:21.500 --> 00:58:23.500
+Is this thing clear?
+
+00:58:23.500 --> 00:58:25.500
+Now let's talk about what components
+
+00:58:25.500 --> 00:58:27.500
+are there in a Rack chatbot
+
+00:58:27.500 --> 00:58:29.500
+So, the first component in a Rack chatbot
+
+00:58:29.500 --> 00:58:31.500
+is
+
+00:58:31.500 --> 00:58:33.500
+Now let's talk about the Ingestion phase
+
+00:58:33.500 --> 00:58:35.500
+that is your
+
+00:58:35.500 --> 00:58:37.500
+Document Loaders
+
+00:58:39.500 --> 00:58:41.500
+If you have never heard about Rack
+
+00:58:41.500 --> 00:58:43.500
+or if you have not worked with Rack chatbot
+
+00:58:43.500 --> 00:58:45.500
+don't worry about it. I will explain it to you
+
+00:58:45.500 --> 00:58:47.500
+with the first principle approach.
+
+00:58:47.500 --> 00:58:49.500
+Now I am understanding what is
+
+00:58:49.500 --> 00:58:51.500
+document loader?
+
+00:58:51.500 --> 00:58:53.500
+What we have to do is
+
+00:58:53.500 --> 00:58:55.500
+we have to give transcripts to our chatbot
+
+00:58:55.500 --> 00:58:57.500
+and you will answer on the basis of transcripts
+
+00:58:57.500 --> 00:58:59.500
+so the work of document loader
+
+00:58:59.500 --> 00:59:01.500
+is to load these transcripts
+
+00:59:01.500 --> 00:59:03.500
+wherever they are
+
+00:59:03.500 --> 00:59:05.500
+let's say
+
+00:59:05.500 --> 00:59:07.500
+what is Sufal Sir doing?
+
+00:59:07.500 --> 00:59:09.500
+All these transcripts that are generated
+
+00:59:09.500 --> 00:59:11.500
+after each live session
+
+00:59:11.500 --> 00:59:13.500
+are adding it in a drive folder
+
+00:59:15.500 --> 00:59:17.500
+so this document loader component
+
+00:59:17.500 --> 00:59:19.500
+what is its simple work?
+
+00:59:19.500 --> 00:59:21.500
+it's simple work is that it will go
+
+00:59:21.500 --> 00:59:23.500
+in the drive folder and load
+
+00:59:23.500 --> 00:59:25.500
+the transcripts
+
+00:59:25.500 --> 00:59:27.500
+is it clear?
+
+00:59:27.500 --> 00:59:29.500
+Next component
+
+00:59:29.500 --> 00:59:31.500
+in a Rack chatbot
+
+00:59:31.500 --> 00:59:33.500
+next component is
+
+00:59:33.500 --> 00:59:35.500
+Text Splitter
+
+00:59:35.500 --> 00:59:37.500
+which is also called
+
+00:59:37.500 --> 00:59:39.500
+chunking strategy
+
+00:59:39.500 --> 00:59:41.500
+now these transcripts
+
+00:59:41.500 --> 00:59:43.500
+are of our every video
+
+00:59:43.500 --> 00:59:45.500
+in a course
+
+00:59:45.500 --> 00:59:47.500
+let's say I talk about my course
+
+00:59:47.500 --> 00:59:49.500
+there can be 20-25 videos
+
+00:59:49.500 --> 00:59:51.500
+every video is of 2 hours
+
+00:59:51.500 --> 00:59:53.500
+so what we have to do is
+
+00:59:53.500 --> 00:59:55.500
+we have to break our big transcripts
+
+00:59:55.500 --> 00:59:57.500
+in logical chunks
+
+00:59:57.500 --> 00:59:59.500
+so that we can
+
+00:59:59.500 --> 01:00:01.500
+properly pass
+
+01:00:01.500 --> 01:00:03.500
+the next processes
+
+01:00:03.500 --> 01:00:05.500
+from this
+
+01:00:05.500 --> 01:00:07.500
+so what we will do with these big transcripts
+
+01:00:07.500 --> 01:00:09.500
+we will break them down into chunks
+
+01:00:15.500 --> 01:00:17.500
+what is chunks?
+
+01:00:17.500 --> 01:00:19.500
+chunks means pieces
+
+01:00:19.500 --> 01:00:21.500
+so this is my transcript
+
+01:00:21.500 --> 01:00:23.500
+of my 2 hours video
+
+01:00:23.500 --> 01:00:25.500
+let's say I divide it into 10-10 minutes chunks
+
+01:00:25.500 --> 01:00:27.500
+according to the time
+
+01:00:27.500 --> 01:00:29.500
+so now in every chunk
+
+01:00:29.500 --> 01:00:31.500
+of my video
+
+01:00:31.500 --> 01:00:33.500
+10 minutes transcript is available
+
+01:00:33.500 --> 01:00:35.500
+is it clear?
+
+01:00:35.500 --> 01:00:37.500
+is it clear guys?
+
+01:00:43.500 --> 01:00:45.500
+next step is
+
+01:00:45.500 --> 01:00:47.500
+your embedding
+
+01:00:47.500 --> 01:00:49.500
+what we do in embedding
+
+01:00:49.500 --> 01:00:51.500
+we basically
+
+01:00:51.500 --> 01:00:53.500
+represent this text
+
+01:00:53.500 --> 01:00:55.500
+in numbers
+
+01:00:55.500 --> 01:00:57.500
+but when we
+
+01:00:57.500 --> 01:00:59.500
+represent it in numbers
+
+01:00:59.500 --> 01:01:01.500
+we don't just represent it in numbers
+
+01:01:01.500 --> 01:01:03.500
+we use a smart
+
+01:01:03.500 --> 01:01:05.500
+approach in it
+
+01:01:05.500 --> 01:01:07.500
+our embedding models
+
+01:01:07.500 --> 01:01:09.500
+convert text into numbers
+
+01:01:09.500 --> 01:01:11.500
+but at the time
+
+01:01:11.500 --> 01:01:13.500
+of this conversion
+
+01:01:13.500 --> 01:01:15.500
+whatever meaning is there in our text
+
+01:01:15.500 --> 01:01:17.500
+if I tell it in technical terms
+
+01:01:17.500 --> 01:01:19.500
+it is called semantic meaning
+
+01:01:19.500 --> 01:01:21.500
+means
+
+01:01:21.500 --> 01:01:23.500
+the intent of my text
+
+01:01:23.500 --> 01:01:25.500
+is captured in numbers
+
+01:01:25.500 --> 01:01:27.500
+so what I did
+
+01:01:27.500 --> 01:01:29.500
+I sent every chunk
+
+01:01:29.500 --> 01:01:31.500
+to this embedding model
+
+01:01:31.500 --> 01:01:33.500
+and I converted it into numbers
+
+01:01:33.500 --> 01:01:35.500
+now I used
+
+01:01:35.500 --> 01:01:37.500
+this embedding model
+
+01:01:37.500 --> 01:01:39.500
+in this converted embedding
+
+01:01:39.500 --> 01:01:41.500
+and this is a deep learning model
+
+01:01:41.500 --> 01:01:43.500
+to convert this
+
+01:01:43.500 --> 01:01:45.500
+I would have to use compute
+
+01:01:45.500 --> 01:01:47.500
+time, cost
+
+01:01:47.500 --> 01:01:49.500
+because I haven't developed it
+
+01:01:49.500 --> 01:01:51.500
+I am using it from somewhere
+
+01:01:51.500 --> 01:01:53.500
+so I have to bear the cost of
+
+01:01:53.500 --> 01:01:55.500
+API calls
+
+01:01:55.500 --> 01:01:57.500
+so I can't throw it
+
+01:01:57.500 --> 01:01:59.500
+so what I have to do
+
+01:01:59.500 --> 01:02:01.500
+I have to save these embeddings
+
+01:02:01.500 --> 01:02:03.500
+and persist them
+
+01:02:03.500 --> 01:02:05.500
+and for that persistence
+
+01:02:05.500 --> 01:02:07.500
+I use vector databases
+
+01:02:09.500 --> 01:02:11.500
+and these vectors
+
+01:02:11.500 --> 01:02:13.500
+I store them
+
+01:02:13.500 --> 01:02:15.500
+in this
+
+01:02:15.500 --> 01:02:17.500
+but do vectors only get stored here
+
+01:02:17.500 --> 01:02:19.500
+the answer is no
+
+01:02:19.500 --> 01:02:21.500
+here along with vectors
+
+01:02:21.500 --> 01:02:23.500
+the metadata related to vectors
+
+01:02:23.500 --> 01:02:25.500
+means additional data
+
+01:02:25.500 --> 01:02:27.500
+about my vectors also gets stored
+
+01:02:27.500 --> 01:02:29.500
+like a simple metadata
+
+01:02:29.500 --> 01:02:31.500
+field if I tell you
+
+01:02:31.500 --> 01:02:33.500
+for a vector is your original text
+
+01:02:35.500 --> 01:02:37.500
+what you did
+
+01:02:37.500 --> 01:02:39.500
+you converted chunk into vector
+
+01:02:39.500 --> 01:02:41.500
+and you stored it
+
+01:02:41.500 --> 01:02:43.500
+in your database
+
+01:02:43.500 --> 01:02:45.500
+but you will store
+
+01:02:45.500 --> 01:02:47.500
+these numbers only
+
+01:02:47.500 --> 01:02:49.500
+these numbers have no meaning
+
+01:02:49.500 --> 01:02:51.500
+when you have the information
+
+01:02:51.500 --> 01:02:53.500
+of original chunk
+
+01:02:53.500 --> 01:02:55.500
+you store the original chunk data
+
+01:02:57.500 --> 01:02:59.500
+clear
+
+01:02:59.500 --> 01:03:01.500
+this is your ingestion phase
+
+01:03:03.500 --> 01:03:05.500
+so what you did
+
+01:03:05.500 --> 01:03:07.500
+you prepared your chatbot
+
+01:03:07.500 --> 01:03:09.500
+and you have prepared it
+
+01:03:09.500 --> 01:03:11.500
+now we are not using any LLM
+
+01:03:11.500 --> 01:03:13.500
+option
+
+01:03:13.500 --> 01:03:15.500
+we are simply discussing
+
+01:03:15.500 --> 01:03:17.500
+how to make a rack chatbot
+
+01:03:17.500 --> 01:03:19.500
+what are the steps
+
+01:03:19.500 --> 01:03:21.500
+because we also have to make a rack chatbot
+
+01:03:21.500 --> 01:03:23.500
+so you should know about these steps
+
+01:03:23.500 --> 01:03:25.500
+ok
+
+01:03:25.500 --> 01:03:27.500
+in more detail
+
+01:03:27.500 --> 01:03:29.500
+when we build this application
+
+01:03:29.500 --> 01:03:31.500
+we will discuss the steps
+
+01:03:31.500 --> 01:03:33.500
+don't worry about it
+
+01:03:33.500 --> 01:03:35.500
+I am going very close
+
+01:03:35.500 --> 01:03:37.500
+so don't worry about it
+
+01:03:37.500 --> 01:03:39.500
+what these components do
+
+01:03:39.500 --> 01:03:41.500
+we will discuss in the coming lectures
+
+01:03:41.500 --> 01:03:43.500
+now we know
+
+01:03:43.500 --> 01:03:45.500
+what we are building
+
+01:03:45.500 --> 01:03:47.500
+and what are the steps
+
+01:03:47.500 --> 01:03:49.500
+we are building
+
+01:03:49.500 --> 01:03:51.500
+so here we have completed
+
+01:03:51.500 --> 01:03:53.500
+our ingestion phase
+
+01:03:53.500 --> 01:03:55.500
+now what will be the next phase
+
+01:03:55.500 --> 01:03:57.500
+next phase will be my retrieval phase
+
+01:04:01.500 --> 01:04:03.500
+what will happen in retrieval phase
+
+01:04:03.500 --> 01:04:05.500
+my user will come
+
+01:04:05.500 --> 01:04:07.500
+in retrieval phase
+
+01:04:07.500 --> 01:04:09.500
+and this time
+
+01:04:09.500 --> 01:04:11.500
+who is my user
+
+01:04:11.500 --> 01:04:13.500
+my user is a student
+
+01:04:13.500 --> 01:04:15.500
+a paid student of campusx
+
+01:04:15.500 --> 01:04:17.500
+like you
+
+01:04:17.500 --> 01:04:19.500
+what you will do
+
+01:04:19.500 --> 01:04:21.500
+you will ask a question from this chatbot
+
+01:04:21.500 --> 01:04:23.500
+like in today's video
+
+01:04:23.500 --> 01:04:25.500
+so maybe student will come
+
+01:04:25.500 --> 01:04:27.500
+and ask this question
+
+01:04:27.500 --> 01:04:29.500
+what are the prerequisites of LLM OBS
+
+01:04:29.500 --> 01:04:31.500
+so what did I tell you
+
+01:04:31.500 --> 01:04:33.500
+what are the prerequisites
+
+01:04:33.500 --> 01:04:35.500
+like LLM, LLM
+
+01:04:35.500 --> 01:04:37.500
+and where to read it
+
+01:04:37.500 --> 01:04:39.500
+so I am expecting
+
+01:04:39.500 --> 01:04:41.500
+from my chatbot
+
+01:04:41.500 --> 01:04:43.500
+that it will be this type of answer
+
+01:04:43.500 --> 01:04:45.500
+where are the prerequisites
+
+01:04:45.500 --> 01:04:47.500
+this mentor told me
+
+01:04:47.500 --> 01:04:49.500
+and tutor told me
+
+01:04:49.500 --> 01:04:51.500
+so I need exactly that answer
+
+01:04:51.500 --> 01:04:53.500
+so in this particular phase
+
+01:04:53.500 --> 01:04:55.500
+what will happen
+
+01:04:55.500 --> 01:04:57.500
+my query
+
+01:04:57.500 --> 01:04:59.500
+will be converted to a query vector
+
+01:04:59.500 --> 01:05:01.500
+because again
+
+01:05:01.500 --> 01:05:03.500
+my model cannot understand text
+
+01:05:03.500 --> 01:05:05.500
+so I will convert it to numbers
+
+01:05:05.500 --> 01:05:07.500
+and to convert it to numbers
+
+01:05:07.500 --> 01:05:09.500
+I will use the same embedding model
+
+01:05:09.500 --> 01:05:11.500
+now what will be the benefit
+
+01:05:11.500 --> 01:05:13.500
+using the same embedding model
+
+01:05:13.500 --> 01:05:15.500
+the benefit will be
+
+01:05:15.500 --> 01:05:17.500
+like my chunks have been converted to vectors
+
+01:05:17.500 --> 01:05:19.500
+in the same style
+
+01:05:19.500 --> 01:05:21.500
+my query vector will be made
+
+01:05:21.500 --> 01:05:23.500
+there will be no difference
+
+01:05:23.500 --> 01:05:25.500
+I am explaining in a simple language
+
+01:05:25.500 --> 01:05:27.500
+guys
+
+01:05:27.500 --> 01:05:29.500
+if any of you
+
+01:05:29.500 --> 01:05:31.500
+know about RAC
+
+01:05:31.500 --> 01:05:33.500
+don't think that sir is telling wrong
+
+01:05:33.500 --> 01:05:35.500
+now I am explaining in overview mode
+
+01:05:35.500 --> 01:05:37.500
+in a simple language
+
+01:05:37.500 --> 01:05:39.500
+is it clear
+
+01:05:39.500 --> 01:05:41.500
+now
+
+01:05:41.500 --> 01:05:43.500
+your query vector is made
+
+01:05:43.500 --> 01:05:45.500
+after that where will this query vector go
+
+01:05:45.500 --> 01:05:47.500
+into your vector database
+
+01:05:47.500 --> 01:05:49.500
+and here
+
+01:05:49.500 --> 01:05:51.500
+will be searching
+
+01:05:51.500 --> 01:05:53.500
+what does searching mean
+
+01:05:53.500 --> 01:05:55.500
+query is about
+
+01:05:55.500 --> 01:05:57.500
+prerequisites of this course
+
+01:05:57.500 --> 01:05:59.500
+whereas
+
+01:05:59.500 --> 01:06:01.500
+in my vector database
+
+01:06:01.500 --> 01:06:03.500
+there is a 2 hour transcript of this lecture
+
+01:06:03.500 --> 01:06:05.500
+so in 2 hours
+
+01:06:05.500 --> 01:06:07.500
+I have discussed many concepts
+
+01:06:07.500 --> 01:06:09.500
+talked many things
+
+01:06:09.500 --> 01:06:11.500
+solved doubts and questions
+
+01:06:11.500 --> 01:06:13.500
+multiple things are there
+
+01:06:13.500 --> 01:06:15.500
+so what will happen
+
+01:06:15.500 --> 01:06:17.500
+in my vector database
+
+01:06:17.500 --> 01:06:19.500
+there will be a searching operation
+
+01:06:19.500 --> 01:06:21.500
+yes it is similarity search
+
+01:06:21.500 --> 01:06:23.500
+and here I will get 4 vectors
+
+01:06:23.500 --> 01:06:25.500
+which are similar to my query
+
+01:06:31.500 --> 01:06:33.500
+means
+
+01:06:33.500 --> 01:06:35.500
+those vectors
+
+01:06:35.500 --> 01:06:37.500
+will come to me
+
+01:06:37.500 --> 01:06:39.500
+which are similar to my question
+
+01:06:39.500 --> 01:06:41.500
+question is prerequisites
+
+01:06:41.500 --> 01:06:43.500
+so which vectors will come
+
+01:06:43.500 --> 01:06:45.500
+my prerequisites
+
+01:06:45.500 --> 01:06:47.500
+where prerequisites have been discussed
+
+01:06:47.500 --> 01:06:49.500
+is it clear
+
+01:06:49.500 --> 01:06:51.500
+now these vectors
+
+01:06:51.500 --> 01:06:53.500
+these are my multi dimensional vectors
+
+01:06:53.500 --> 01:06:55.500
+these are vectors
+
+01:06:55.500 --> 01:06:57.500
+numbers
+
+01:06:57.500 --> 01:06:59.500
+what is the information in these numbers
+
+01:06:59.500 --> 01:07:01.500
+I don't want to do any work
+
+01:07:01.500 --> 01:07:03.500
+what I want
+
+01:07:03.500 --> 01:07:05.500
+I want original text
+
+01:07:07.500 --> 01:07:09.500
+and this original text
+
+01:07:09.500 --> 01:07:11.500
+I didn't throw
+
+01:07:11.500 --> 01:07:13.500
+I didn't dispose
+
+01:07:13.500 --> 01:07:15.500
+I saved it in my metadata
+
+01:07:15.500 --> 01:07:17.500
+it was a smart move by me
+
+01:07:17.500 --> 01:07:19.500
+so I saved this original text
+
+01:07:19.500 --> 01:07:21.500
+now I will simply
+
+01:07:21.500 --> 01:07:23.500
+extract this text
+
+01:07:23.500 --> 01:07:25.500
+from here
+
+01:07:25.500 --> 01:07:27.500
+I can extract it in metadata
+
+01:07:27.500 --> 01:07:29.500
+and I will combine it here
+
+01:07:29.500 --> 01:07:31.500
+means
+
+01:07:31.500 --> 01:07:33.500
+let's say I have 3 similar
+
+01:07:33.500 --> 01:07:35.500
+vectors here
+
+01:07:35.500 --> 01:07:37.500
+so 3 chunks of 3 vectors will come
+
+01:07:37.500 --> 01:07:39.500
+like this
+
+01:07:39.500 --> 01:07:41.500
+I will combine all of them
+
+01:07:41.500 --> 01:07:43.500
+into one complete chunk
+
+01:07:43.500 --> 01:07:45.500
+and this will be my
+
+01:07:45.500 --> 01:07:47.500
+retrieved context
+
+01:07:49.500 --> 01:07:51.500
+I have my context
+
+01:07:51.500 --> 01:07:53.500
+now what I simply
+
+01:07:53.500 --> 01:07:55.500
+have to do
+
+01:07:55.500 --> 01:07:57.500
+is take this context
+
+01:07:57.500 --> 01:07:59.500
+and give it to my LLM
+
+01:08:01.500 --> 01:08:03.500
+through a prompt
+
+01:08:03.500 --> 01:08:05.500
+and this step is called
+
+01:08:05.500 --> 01:08:07.500
+your augmentation step
+
+01:08:07.500 --> 01:08:09.500
+again we will cover this
+
+01:08:09.500 --> 01:08:11.500
+in detail in upcoming lectures
+
+01:08:11.500 --> 01:08:13.500
+don't worry
+
+01:08:13.500 --> 01:08:15.500
+what you did is
+
+01:08:15.500 --> 01:08:17.500
+you gave your original query
+
+01:08:17.500 --> 01:08:19.500
+and gave your retrieved context
+
+01:08:19.500 --> 01:08:21.500
+to your LLM
+
+01:08:21.500 --> 01:08:23.500
+and said read this context
+
+01:08:23.500 --> 01:08:25.500
+read this query
+
+01:08:25.500 --> 01:08:27.500
+and give query answer on this context
+
+01:08:27.500 --> 01:08:29.500
+so here I have my LLM
+
+01:08:29.500 --> 01:08:31.500
+response or answer
+
+01:08:33.500 --> 01:08:35.500
+and through these particular steps
+
+01:08:35.500 --> 01:08:37.500
+I successfully built a rack chatbot
+
+01:08:37.500 --> 01:08:39.500
+and integrated it
+
+01:08:39.500 --> 01:08:41.500
+on my website
+
+01:08:41.500 --> 01:08:43.500
+but there is a catch
+
+01:08:43.500 --> 01:08:45.500
+catch is that
+
+01:08:45.500 --> 01:08:47.500
+whatever discussion I did
+
+01:08:47.500 --> 01:08:49.500
+I have discussed these whole series of steps
+
+01:08:49.500 --> 01:08:51.500
+these were all around my
+
+01:08:51.500 --> 01:08:53.500
+building of application
+
+01:08:55.500 --> 01:08:57.500
+we didn't talk about integration
+
+01:08:59.500 --> 01:09:01.500
+we didn't talk about
+
+01:09:01.500 --> 01:09:03.500
+integration right now
+
+01:09:03.500 --> 01:09:05.500
+we just built the application
+
+01:09:05.500 --> 01:09:07.500
+so building the application
+
+01:09:07.500 --> 01:09:09.500
+is one part
+
+01:09:09.500 --> 01:09:11.500
+or one stage of
+
+01:09:11.500 --> 01:09:13.500
+your LLM ops pipeline
+
+01:09:13.500 --> 01:09:15.500
+whereas the other step
+
+01:09:15.500 --> 01:09:17.500
+where you are building
+
+01:09:17.500 --> 01:09:19.500
+this application on your laptop
+
+01:09:19.500 --> 01:09:21.500
+you take it to your end user
+
+01:09:21.500 --> 01:09:23.500
+this integration
+
+01:09:23.500 --> 01:09:25.500
+is your
+
+01:09:25.500 --> 01:09:27.500
+LLM ops
+
+01:09:27.500 --> 01:09:29.500
+let me clear one thing
+
+01:09:29.500 --> 01:09:31.500
+now in this course
+
+01:09:31.500 --> 01:09:33.500
+when I will talk about LLM ops
+
+01:09:33.500 --> 01:09:35.500
+then it is clear that we are talking
+
+01:09:35.500 --> 01:09:37.500
+about application based LLM ops
+
+01:09:37.500 --> 01:09:39.500
+so I will not talk about
+
+01:09:39.500 --> 01:09:41.500
+application based LLM ops
+
+01:09:41.500 --> 01:09:43.500
+because LLM ops means
+
+01:09:43.500 --> 01:09:45.500
+application based
+
+01:09:45.500 --> 01:09:47.500
+is this clear?
+
+01:09:47.500 --> 01:09:49.500
+clear?
+
+01:09:51.500 --> 01:09:53.500
+so till now we have some questions
+
+01:09:53.500 --> 01:09:55.500
+on our discussion so you can tell me
+
+01:09:55.500 --> 01:09:57.500
+any questions?
+
+01:09:57.500 --> 01:09:59.500
+we will discuss everything
+
+01:10:15.500 --> 01:10:17.500
+I will share the whole curriculum
+
+01:10:17.500 --> 01:10:19.500
+don't worry about it
+
+01:10:19.500 --> 01:10:21.500
+what are the steps in our curriculum
+
+01:10:21.500 --> 01:10:23.500
+I will cover everything
+
+01:10:23.500 --> 01:10:25.500
+this flow chart
+
+01:10:25.500 --> 01:10:27.500
+this will be shared
+
+01:10:47.500 --> 01:10:49.500
+any questions?
+
+01:10:49.500 --> 01:10:51.500
+so far how is the
+
+01:10:51.500 --> 01:10:53.500
+explanation looking?
+
+01:10:53.500 --> 01:10:55.500
+simple, tough
+
+01:10:59.500 --> 01:11:01.500
+excited to learn
+
+01:11:01.500 --> 01:11:03.500
+LLM ops?
+
+01:11:05.500 --> 01:11:07.500
+I am also excited to teach you
+
+01:11:11.500 --> 01:11:13.500
+now we are not going into details
+
+01:11:13.500 --> 01:11:15.500
+how this will work
+
+01:11:15.500 --> 01:11:17.500
+when we will make the application
+
+01:11:17.500 --> 01:11:19.500
+we will discuss everything
+
+01:11:19.500 --> 01:11:21.500
+we will discuss everything in this session
+
+01:11:21.500 --> 01:11:23.500
+let's keep it that way
+
+01:11:23.500 --> 01:11:25.500
+I will tell you everything
+
+01:11:25.500 --> 01:11:27.500
+what will be the installation steps
+
+01:11:27.500 --> 01:11:29.500
+how will you use it in VS code
+
+01:11:29.500 --> 01:11:31.500
+I will tell you everything in detail
+
+01:11:31.500 --> 01:11:33.500
+don't worry about it
+
+01:11:33.500 --> 01:11:35.500
+you will not feel
+
+01:11:35.500 --> 01:11:37.500
+that I have left you
+
+01:11:37.500 --> 01:11:39.500
+to figure it out
+
+01:11:39.500 --> 01:11:41.500
+yes, one thing
+
+01:11:41.500 --> 01:11:43.500
+I would like to tell you
+
+01:11:43.500 --> 01:11:45.500
+whatever we will discuss
+
+01:11:45.500 --> 01:11:47.500
+where we are learning
+
+01:11:47.500 --> 01:11:49.500
+practical things
+
+01:11:49.500 --> 01:11:51.500
+then you will be requested
+
+01:11:51.500 --> 01:11:53.500
+to test it on your project
+
+01:11:53.500 --> 01:11:55.500
+on your code
+
+01:11:55.500 --> 01:11:57.500
+and if you have any bugs
+
+01:11:57.500 --> 01:11:59.500
+while testing it
+
+01:11:59.500 --> 01:12:01.500
+then don't approach me directly
+
+01:12:01.500 --> 01:12:03.500
+the best way to learn LLM ops
+
+01:12:03.500 --> 01:12:05.500
+is to make
+
+01:12:05.500 --> 01:12:07.500
+some debugging capability
+
+01:12:07.500 --> 01:12:09.500
+inside yourself
+
+01:12:09.500 --> 01:12:11.500
+if you have small bugs
+
+01:12:11.500 --> 01:12:13.500
+go to chartgpt, cloud, ask them
+
+01:12:13.500 --> 01:12:15.500
+try to fix bugs
+
+01:12:15.500 --> 01:12:17.500
+and then go to matha
+
+01:12:17.500 --> 01:12:19.500
+even if you have ruined
+
+01:12:19.500 --> 01:12:21.500
+5-6 hours
+
+01:12:21.500 --> 01:12:23.500
+then come to me
+
+01:12:23.500 --> 01:12:25.500
+I will solve it out
+
+01:12:25.500 --> 01:12:27.500
+clear
+
+01:12:27.500 --> 01:12:29.500
+because when you
+
+01:12:29.500 --> 01:12:31.500
+apply LLM ops inside the industry
+
+01:12:31.500 --> 01:12:33.500
+then I will not be available to help you
+
+01:12:33.500 --> 01:12:35.500
+then your debugging skills
+
+01:12:35.500 --> 01:12:37.500
+will be useful to you
+
+01:12:37.500 --> 01:12:39.500
+that's why we will build them in this course
+
+01:12:41.500 --> 01:12:43.500
+got it
+
+01:12:43.500 --> 01:12:45.500
+right
+
+01:12:47.500 --> 01:12:49.500
+move forward
+
+01:12:51.500 --> 01:12:53.500
+now let's talk about
+
+01:12:53.500 --> 01:12:55.500
+the integration
+
+01:12:55.500 --> 01:12:57.500
+we have understood the building step
+
+01:12:57.500 --> 01:12:59.500
+what we want to build
+
+01:12:59.500 --> 01:13:01.500
+we have explained our application
+
+01:13:01.500 --> 01:13:03.500
+and built it
+
+01:13:03.500 --> 01:13:05.500
+so in our LLM ops pipeline
+
+01:13:05.500 --> 01:13:07.500
+these are our first two steps
+
+01:13:07.500 --> 01:13:09.500
+so I have pasted this pipeline
+
+01:13:09.500 --> 01:13:11.500
+if you see here
+
+01:13:11.500 --> 01:13:13.500
+so what is our first step
+
+01:13:13.500 --> 01:13:15.500
+our first step is
+
+01:13:15.500 --> 01:13:17.500
+our business understanding
+
+01:13:17.500 --> 01:13:19.500
+so what was business understanding
+
+01:13:19.500 --> 01:13:21.500
+that
+
+01:13:21.500 --> 01:13:23.500
+students on campusx
+
+01:13:23.500 --> 01:13:25.500
+are requesting
+
+01:13:25.500 --> 01:13:27.500
+that there should be a chatbot
+
+01:13:27.500 --> 01:13:29.500
+which can solve their doubts
+
+01:13:29.500 --> 01:13:31.500
+I understood that problem
+
+01:13:31.500 --> 01:13:33.500
+and built a rag based application
+
+01:13:33.500 --> 01:13:35.500
+and why I decided to build a rag based application
+
+01:13:35.500 --> 01:13:37.500
+because
+
+01:13:37.500 --> 01:13:39.500
+whatever I have said
+
+01:13:39.500 --> 01:13:41.500
+whatever I have taught
+
+01:13:41.500 --> 01:13:43.500
+on the basis of that
+
+01:13:43.500 --> 01:13:45.500
+and such an application
+
+01:13:45.500 --> 01:13:47.500
+which gives grounded responses
+
+01:13:47.500 --> 01:13:49.500
+I can achieve that through a rag application
+
+01:13:49.500 --> 01:13:51.500
+so I made business understanding
+
+01:13:51.500 --> 01:13:53.500
+here
+
+01:13:53.500 --> 01:13:55.500
+understood the problem of my user
+
+01:13:55.500 --> 01:13:57.500
+what skills are available to me
+
+01:13:57.500 --> 01:13:59.500
+what tools are available to them
+
+01:13:59.500 --> 01:14:01.500
+I have a transcript available
+
+01:14:01.500 --> 01:14:03.500
+so I understood that yes, transcript is available
+
+01:14:03.500 --> 01:14:05.500
+I can use it to make a rag chatbot
+
+01:14:05.500 --> 01:14:07.500
+and with the help of that
+
+01:14:07.500 --> 01:14:09.500
+I built a rag chatbot
+
+01:14:09.500 --> 01:14:11.500
+so the first important step
+
+01:14:11.500 --> 01:14:13.500
+whenever you make an LLM based application
+
+01:14:13.500 --> 01:14:15.500
+there is always business understanding
+
+01:14:15.500 --> 01:14:17.500
+understanding the problem of the business
+
+01:14:17.500 --> 01:14:19.500
+you never go straight away to code
+
+01:14:19.500 --> 01:14:21.500
+most of the
+
+01:14:21.500 --> 01:14:23.500
+freshers or most of the
+
+01:14:23.500 --> 01:14:25.500
+junior developers what they do
+
+01:14:25.500 --> 01:14:27.500
+they go straight away to code
+
+01:14:27.500 --> 01:14:29.500
+without understanding the business problem
+
+01:14:29.500 --> 01:14:31.500
+and that is very bad
+
+01:14:31.500 --> 01:14:33.500
+you should know
+
+01:14:33.500 --> 01:14:35.500
+what tools are available to you
+
+01:14:35.500 --> 01:14:37.500
+what skills are available to you
+
+01:14:37.500 --> 01:14:39.500
+what is your problem statement
+
+01:14:39.500 --> 01:14:41.500
+then only you go ahead
+
+01:14:41.500 --> 01:14:43.500
+so never
+
+01:14:43.500 --> 01:14:45.500
+ignore it
+
+01:14:45.500 --> 01:14:47.500
+that is why this is your pipeline
+
+01:14:47.500 --> 01:14:49.500
+ingestion step
+
+01:14:49.500 --> 01:14:51.500
+the first step through which
+
+01:14:51.500 --> 01:14:53.500
+you enter the pipeline
+
+01:14:53.500 --> 01:14:55.500
+build the application
+
+01:14:55.500 --> 01:14:57.500
+is not your first step
+
+01:14:57.500 --> 01:14:59.500
+next what will you do
+
+01:14:59.500 --> 01:15:01.500
+when you have done business understanding
+
+01:15:01.500 --> 01:15:03.500
+you know what to make
+
+01:15:03.500 --> 01:15:05.500
+how to make
+
+01:15:05.500 --> 01:15:07.500
+after that you
+
+01:15:07.500 --> 01:15:09.500
+start applying it
+
+01:15:09.500 --> 01:15:11.500
+you start building the application
+
+01:15:11.500 --> 01:15:13.500
+so what is the second step
+
+01:15:13.500 --> 01:15:15.500
+you will build the application
+
+01:15:15.500 --> 01:15:17.500
+I will remove it
+
+01:15:17.500 --> 01:15:19.500
+because I will share these notes with you
+
+01:15:19.500 --> 01:15:21.500
+so you should not have any garbage
+
+01:15:21.500 --> 01:15:23.500
+you should have proper workflow
+
+01:15:23.500 --> 01:15:25.500
+so what you do next
+
+01:15:25.500 --> 01:15:27.500
+you build the application
+
+01:15:27.500 --> 01:15:29.500
+is it clear
+
+01:15:29.500 --> 01:15:31.500
+so we have completed
+
+01:15:31.500 --> 01:15:33.500
+step 2
+
+01:15:33.500 --> 01:15:35.500
+we have built our application
+
+01:15:35.500 --> 01:15:37.500
+now what is the next step
+
+01:15:37.500 --> 01:15:39.500
+someone can tell me
+
+01:15:39.500 --> 01:15:41.500
+what should be my next step
+
+01:15:41.500 --> 01:15:43.500
+can I directly
+
+01:15:43.500 --> 01:15:45.500
+integrate the application
+
+01:15:45.500 --> 01:15:47.500
+on my website
+
+01:15:47.500 --> 01:15:49.500
+that I have an application
+
+01:15:49.500 --> 01:15:51.500
+I removed it and put it there
+
+01:15:51.500 --> 01:15:53.500
+no
+
+01:15:53.500 --> 01:15:55.500
+someone said evaluation
+
+01:15:55.500 --> 01:15:57.500
+I have to test it
+
+01:15:57.500 --> 01:15:59.500
+why testing is required
+
+01:15:59.500 --> 01:16:01.500
+why testing is so important
+
+01:16:05.500 --> 01:16:07.500
+guardrails
+
+01:16:07.500 --> 01:16:09.500
+to catch the errors
+
+01:16:09.500 --> 01:16:11.500
+basically I want to see
+
+01:16:11.500 --> 01:16:13.500
+is my application
+
+01:16:13.500 --> 01:16:15.500
+working as intended
+
+01:16:15.500 --> 01:16:17.500
+I have coded it
+
+01:16:17.500 --> 01:16:19.500
+but what I wanted from my application
+
+01:16:19.500 --> 01:16:21.500
+the output I wanted
+
+01:16:21.500 --> 01:16:23.500
+to handle the edge cases
+
+01:16:23.500 --> 01:16:25.500
+but before that
+
+01:16:25.500 --> 01:16:27.500
+there is a step
+
+01:16:27.500 --> 01:16:29.500
+called prompt versioning
+
+01:16:35.500 --> 01:16:37.500
+you know that
+
+01:16:37.500 --> 01:16:39.500
+LLM
+
+01:16:39.500 --> 01:16:41.500
+relies a lot on prompts
+
+01:16:41.500 --> 01:16:43.500
+sorry
+
+01:16:43.500 --> 01:16:45.500
+after LLM
+
+01:16:45.500 --> 01:16:47.500
+comes
+
+01:16:47.500 --> 01:16:49.500
+one minute
+
+01:16:49.500 --> 01:16:51.500
+which step is irritating
+
+01:16:51.500 --> 01:16:53.500
+is there something on the screen
+
+01:16:53.500 --> 01:16:55.500
+are you talking about
+
+01:16:55.500 --> 01:16:57.500
+this step
+
+01:16:57.500 --> 01:16:59.500
+or these steps
+
+01:17:01.500 --> 01:17:03.500
+ok
+
+01:17:03.500 --> 01:17:05.500
+now guys
+
+01:17:05.500 --> 01:17:07.500
+don't put anything in the chat
+
+01:17:07.500 --> 01:17:09.500
+the flow breaks
+
+01:17:09.500 --> 01:17:11.500
+I will give you time to discuss
+
+01:17:11.500 --> 01:17:13.500
+because I have
+
+01:17:13.500 --> 01:17:15.500
+opened the chat window
+
+01:17:15.500 --> 01:17:17.500
+I am not closing it
+
+01:17:17.500 --> 01:17:19.500
+because it may not be open again
+
+01:17:19.500 --> 01:17:21.500
+so I have opened it
+
+01:17:21.500 --> 01:17:23.500
+if you write
+
+01:17:23.500 --> 01:17:25.500
+so as I told you
+
+01:17:25.500 --> 01:17:27.500
+the first step is
+
+01:17:27.500 --> 01:17:29.500
+prompt versioning
+
+01:17:29.500 --> 01:17:31.500
+because
+
+01:17:31.500 --> 01:17:33.500
+LLM relies a lot on
+
+01:17:33.500 --> 01:17:35.500
+prompts
+
+01:17:35.500 --> 01:17:37.500
+it is their input
+
+01:17:37.500 --> 01:17:39.500
+if you interact with LLM
+
+01:17:39.500 --> 01:17:41.500
+then how do you do it
+
+01:17:41.500 --> 01:17:43.500
+you don't give it a data set
+
+01:17:43.500 --> 01:17:45.500
+you don't write a SQL query
+
+01:17:45.500 --> 01:17:47.500
+you interact with LLM
+
+01:17:47.500 --> 01:17:49.500
+through a prompt
+
+01:17:49.500 --> 01:17:51.500
+so how the output will be given
+
+01:17:51.500 --> 01:17:53.500
+depends on the input
+
+01:17:53.500 --> 01:17:55.500
+and after LLM
+
+01:17:55.500 --> 01:17:57.500
+prompts are developed
+
+01:17:57.500 --> 01:17:59.500
+and around prompts
+
+01:17:59.500 --> 01:18:01.500
+a whole new
+
+01:18:01.500 --> 01:18:03.500
+field is ready
+
+01:18:03.500 --> 01:18:05.500
+that is prompt engineering
+
+01:18:05.500 --> 01:18:07.500
+and slowly prompt engineering
+
+01:18:07.500 --> 01:18:09.500
+evolves into context engineering
+
+01:18:11.500 --> 01:18:13.500
+so you can see
+
+01:18:13.500 --> 01:18:15.500
+how important prompts and context
+
+01:18:15.500 --> 01:18:17.500
+are for an LLM
+
+01:18:17.500 --> 01:18:19.500
+and it is very important to version it
+
+01:18:19.500 --> 01:18:21.500
+where is prompt in our
+
+01:18:21.500 --> 01:18:23.500
+rack based application
+
+01:18:23.500 --> 01:18:25.500
+there is a whole step
+
+01:18:25.500 --> 01:18:27.500
+which is dedicated to
+
+01:18:27.500 --> 01:18:29.500
+prompts
+
+01:18:29.500 --> 01:18:31.500
+augmentation step
+
+01:18:31.500 --> 01:18:33.500
+what are we doing in this
+
+01:18:33.500 --> 01:18:35.500
+we are adding
+
+01:18:35.500 --> 01:18:37.500
+our query
+
+01:18:37.500 --> 01:18:39.500
+our retrieved context
+
+01:18:39.500 --> 01:18:41.500
+in our prompt
+
+01:18:43.500 --> 01:18:45.500
+and not only that
+
+01:18:45.500 --> 01:18:47.500
+we are adding instructions
+
+01:18:47.500 --> 01:18:49.500
+for our chatbot
+
+01:18:49.500 --> 01:18:51.500
+how to answer it
+
+01:18:51.500 --> 01:18:53.500
+how to use this query and context
+
+01:18:53.500 --> 01:18:55.500
+and give a grounded
+
+01:18:55.500 --> 01:18:57.500
+response
+
+01:18:57.500 --> 01:18:59.500
+what should be the fallback mechanism
+
+01:18:59.500 --> 01:19:01.500
+let's say nothing came in retrieved context
+
+01:19:01.500 --> 01:19:03.500
+in LLM ops course someone asked
+
+01:19:03.500 --> 01:19:05.500
+a prompt engineering question
+
+01:19:05.500 --> 01:19:07.500
+so what will chatbot do
+
+01:19:07.500 --> 01:19:09.500
+chatbot should have a fallback mechanism
+
+01:19:09.500 --> 01:19:11.500
+that you asked a question
+
+01:19:11.500 --> 01:19:13.500
+outside the course
+
+01:19:13.500 --> 01:19:15.500
+there should be a response like this
+
+01:19:15.500 --> 01:19:17.500
+so where do you keep all these things
+
+01:19:17.500 --> 01:19:19.500
+you set all these things
+
+01:19:19.500 --> 01:19:21.500
+in these instructions
+
+01:19:21.500 --> 01:19:23.500
+and these instructions
+
+01:19:23.500 --> 01:19:25.500
+specifically what is called
+
+01:19:25.500 --> 01:19:27.500
+in prompt language
+
+01:19:27.500 --> 01:19:29.500
+this is called your system prompt
+
+01:19:31.500 --> 01:19:33.500
+so when we talk about system prompt
+
+01:19:33.500 --> 01:19:35.500
+so system prompts are basically those
+
+01:19:35.500 --> 01:19:37.500
+instructions which guide your LLMs
+
+01:19:37.500 --> 01:19:39.500
+how to work
+
+01:19:39.500 --> 01:19:41.500
+because your LLMs
+
+01:19:41.500 --> 01:19:43.500
+are in a way journalists
+
+01:19:43.500 --> 01:19:45.500
+means
+
+01:19:45.500 --> 01:19:47.500
+they give general output
+
+01:19:47.500 --> 01:19:49.500
+here you have to
+
+01:19:49.500 --> 01:19:51.500
+create an application for your particular use case
+
+01:19:51.500 --> 01:19:53.500
+create a chatbot for campusx
+
+01:19:53.500 --> 01:19:55.500
+so how will your chatbot
+
+01:19:55.500 --> 01:19:57.500
+work
+
+01:19:57.500 --> 01:19:59.500
+how will it behave
+
+01:19:59.500 --> 01:20:01.500
+how the user is interacting with it
+
+01:20:01.500 --> 01:20:03.500
+you will put all these things in system prompt
+
+01:20:03.500 --> 01:20:05.500
+like I will put in my chatbot
+
+01:20:05.500 --> 01:20:07.500
+always give simple explanation
+
+01:20:07.500 --> 01:20:09.500
+give explanation with
+
+01:20:09.500 --> 01:20:11.500
+examples, analogies
+
+01:20:11.500 --> 01:20:13.500
+so that a student
+
+01:20:13.500 --> 01:20:15.500
+can get help
+
+01:20:15.500 --> 01:20:17.500
+I will say don't go too technical
+
+01:20:17.500 --> 01:20:19.500
+explain step by step
+
+01:20:19.500 --> 01:20:21.500
+so I hope
+
+01:20:21.500 --> 01:20:23.500
+you are able to understand this thing
+
+01:20:23.500 --> 01:20:25.500
+that prompts are very important
+
+01:20:25.500 --> 01:20:27.500
+prompts are your inputs to your LLMs
+
+01:20:27.500 --> 01:20:29.500
+and the first step
+
+01:20:29.500 --> 01:20:31.500
+is our prompt versioning
+
+01:20:31.500 --> 01:20:33.500
+we have to version that prompt
+
+01:20:33.500 --> 01:20:35.500
+because what you do
+
+01:20:35.500 --> 01:20:37.500
+you improve these prompts
+
+01:20:37.500 --> 01:20:39.500
+you improve these system prompts
+
+01:20:39.500 --> 01:20:41.500
+it's not like you wrote perfect system prompt in one shot
+
+01:20:41.500 --> 01:20:43.500
+it's possible
+
+01:20:43.500 --> 01:20:45.500
+you wrote system prompt
+
+01:20:45.500 --> 01:20:47.500
+then you tested your application
+
+01:20:47.500 --> 01:20:49.500
+after testing you found out that
+
+01:20:49.500 --> 01:20:51.500
+this system prompt is not working
+
+01:20:51.500 --> 01:20:53.500
+or your application
+
+01:20:53.500 --> 01:20:55.500
+is not following the intended behavior
+
+01:20:55.500 --> 01:20:57.500
+so what will you do
+
+01:20:57.500 --> 01:20:59.500
+you will tweak this system prompt
+
+01:20:59.500 --> 01:21:01.500
+so you should have a record
+
+01:21:01.500 --> 01:21:03.500
+of previous prompts
+
+01:21:03.500 --> 01:21:05.500
+and new version
+
+01:21:05.500 --> 01:21:07.500
+of the prompt
+
+01:21:07.500 --> 01:21:09.500
+and what has changed in the new version
+
+01:21:09.500 --> 01:21:11.500
+from the previous prompt
+
+01:21:11.500 --> 01:21:13.500
+this information should be there
+
+01:21:13.500 --> 01:21:15.500
+so what is the first step
+
+01:21:15.500 --> 01:21:17.500
+your prompt versioning is the first step
+
+01:21:17.500 --> 01:21:19.500
+is it clear
+
+01:21:19.500 --> 01:21:21.500
+clear guys
+
+01:21:21.500 --> 01:21:23.500
+clear
+
+01:21:29.500 --> 01:21:31.500
+next step is
+
+01:21:31.500 --> 01:21:33.500
+experiment tracking
+
+01:21:33.500 --> 01:21:35.500
+experiment tracking
+
+01:21:35.500 --> 01:21:37.500
+I will tell you
+
+01:21:37.500 --> 01:21:39.500
+why this is a key step
+
+01:21:39.500 --> 01:21:41.500
+in the LLM Ops Lifecycle
+
+01:21:41.500 --> 01:21:43.500
+you have an application
+
+01:21:43.500 --> 01:21:45.500
+our rag application
+
+01:21:45.500 --> 01:21:47.500
+it has multiple phases
+
+01:21:47.500 --> 01:21:49.500
+it is working in two phases
+
+01:21:49.500 --> 01:21:51.500
+and each phase has many components
+
+01:21:51.500 --> 01:21:53.500
+and there are many
+
+01:21:53.500 --> 01:21:55.500
+combinations of those components
+
+01:21:55.500 --> 01:21:57.500
+if you have
+
+01:21:57.500 --> 01:21:59.500
+worked with rag chatbot
+
+01:21:59.500 --> 01:22:01.500
+then to load different documents
+
+01:22:01.500 --> 01:22:03.500
+there are many document loaders
+
+01:22:03.500 --> 01:22:05.500
+if I am an example
+
+01:22:05.500 --> 01:22:07.500
+of PDF
+
+01:22:07.500 --> 01:22:09.500
+then there are 10 different
+
+01:22:09.500 --> 01:22:11.500
+document loaders
+
+01:22:11.500 --> 01:22:13.500
+different chunking strategies
+
+01:22:13.500 --> 01:22:15.500
+different embedding models
+
+01:22:15.500 --> 01:22:17.500
+and inside those embedding models
+
+01:22:17.500 --> 01:22:19.500
+there are different configurations
+
+01:22:19.500 --> 01:22:21.500
+how much dimensionality should be output
+
+01:22:21.500 --> 01:22:23.500
+and
+
+01:22:23.500 --> 01:22:25.500
+whether it is working in batches
+
+01:22:25.500 --> 01:22:27.500
+means there are endless
+
+01:22:27.500 --> 01:22:29.500
+combinations
+
+01:22:29.500 --> 01:22:31.500
+there are many different combinations
+
+01:22:31.500 --> 01:22:33.500
+of vector database
+
+01:22:33.500 --> 01:22:35.500
+and retrievers
+
+01:22:35.500 --> 01:22:37.500
+so what you do
+
+01:22:37.500 --> 01:22:39.500
+you through experiment tracking
+
+01:22:39.500 --> 01:22:41.500
+track every combination
+
+01:22:45.500 --> 01:22:47.500
+means you record
+
+01:22:47.500 --> 01:22:49.500
+somewhere
+
+01:22:49.500 --> 01:22:51.500
+save
+
+01:22:51.500 --> 01:22:53.500
+and what is the reason
+
+01:22:53.500 --> 01:22:55.500
+to save it
+
+01:22:55.500 --> 01:22:57.500
+the reason to save it is
+
+01:22:57.500 --> 01:22:59.500
+you will do an evaluation on rag application
+
+01:22:59.500 --> 01:23:01.500
+so you will not get perfect results
+
+01:23:01.500 --> 01:23:03.500
+in the first time
+
+01:23:03.500 --> 01:23:05.500
+if your
+
+01:23:05.500 --> 01:23:07.500
+particular metric is doing low score
+
+01:23:07.500 --> 01:23:09.500
+then what you will do in that case
+
+01:23:09.500 --> 01:23:11.500
+you will try different combinations
+
+01:23:11.500 --> 01:23:13.500
+let's say you will work with different document loaders
+
+01:23:13.500 --> 01:23:15.500
+with different retrievers
+
+01:23:15.500 --> 01:23:17.500
+and you have to
+
+01:23:17.500 --> 01:23:19.500
+track all these things
+
+01:23:19.500 --> 01:23:21.500
+that when I worked with a falla retriever
+
+01:23:21.500 --> 01:23:23.500
+then what score was coming
+
+01:23:23.500 --> 01:23:25.500
+now I changed the retriever
+
+01:23:25.500 --> 01:23:27.500
+whether the score is increased or decreased
+
+01:23:27.500 --> 01:23:29.500
+it may be that in the previous iteration
+
+01:23:29.500 --> 01:23:31.500
+better score is coming
+
+01:23:31.500 --> 01:23:33.500
+you have changed something
+
+01:23:33.500 --> 01:23:35.500
+which will decrease your score
+
+01:23:35.500 --> 01:23:37.500
+so you will not use that
+
+01:23:37.500 --> 01:23:39.500
+you have to go to the previous iteration
+
+01:23:39.500 --> 01:23:41.500
+so all these things
+
+01:23:41.500 --> 01:23:43.500
+the dynamic things
+
+01:23:43.500 --> 01:23:45.500
+which you are tracking and storing
+
+01:23:45.500 --> 01:23:47.500
+this is stored through experiment tracking
+
+01:23:47.500 --> 01:23:49.500
+is it clear
+
+01:23:49.500 --> 01:23:51.500
+step 2 is clear
+
+01:23:51.500 --> 01:23:53.500
+so in experiment tracking
+
+01:23:53.500 --> 01:23:55.500
+if I tell you in simple words
+
+01:23:55.500 --> 01:23:57.500
+then whatever
+
+01:23:57.500 --> 01:23:59.500
+rag pipeline is
+
+01:23:59.500 --> 01:24:01.500
+rag chatbot, whatever components are there
+
+01:24:01.500 --> 01:24:03.500
+and the configurations are there
+
+01:24:03.500 --> 01:24:05.500
+you can safely secure them
+
+01:24:05.500 --> 01:24:07.500
+for version number 1
+
+01:24:07.500 --> 01:24:09.500
+this is my configuration
+
+01:24:09.500 --> 01:24:11.500
+for version number 2
+
+01:24:11.500 --> 01:24:13.500
+this is my configuration
+
+01:24:13.500 --> 01:24:15.500
+now let's talk about the next step
+
+01:24:15.500 --> 01:24:17.500
+next step comes
+
+01:24:17.500 --> 01:24:19.500
+of your
+
+01:24:19.500 --> 01:24:21.500
+evaluations
+
+01:24:23.500 --> 01:24:25.500
+why were you doing version
+
+01:24:25.500 --> 01:24:27.500
+because you have to
+
+01:24:27.500 --> 01:24:29.500
+test your application
+
+01:24:29.500 --> 01:24:31.500
+you have to assign a score
+
+01:24:31.500 --> 01:24:33.500
+so what you do here
+
+01:24:33.500 --> 01:24:35.500
+you do evaluations
+
+01:24:35.500 --> 01:24:37.500
+what is the simple meaning of evaluation
+
+01:24:37.500 --> 01:24:39.500
+you have your metrics
+
+01:24:39.500 --> 01:24:41.500
+and every LLM based
+
+01:24:41.500 --> 01:24:43.500
+application has different metrics
+
+01:24:43.500 --> 01:24:45.500
+you judge your
+
+01:24:45.500 --> 01:24:47.500
+application on their basis
+
+01:24:47.500 --> 01:24:49.500
+so the simple meaning of evaluation
+
+01:24:49.500 --> 01:24:51.500
+is to judge
+
+01:24:51.500 --> 01:24:53.500
+your application
+
+01:24:53.500 --> 01:24:55.500
+how it is performing
+
+01:24:55.500 --> 01:24:57.500
+and its accuracy
+
+01:24:57.500 --> 01:24:59.500
+next step is evaluation
+
+01:24:59.500 --> 01:25:01.500
+and this evaluation
+
+01:25:01.500 --> 01:25:03.500
+and experiment tracking
+
+01:25:03.500 --> 01:25:05.500
+works in a loop
+
+01:25:05.500 --> 01:25:07.500
+you made one version
+
+01:25:07.500 --> 01:25:09.500
+v1 and evaluated it
+
+01:25:09.500 --> 01:25:11.500
+and after evaluation
+
+01:25:11.500 --> 01:25:13.500
+the scores are
+
+01:25:13.500 --> 01:25:15.500
+stored with v1
+
+01:25:15.500 --> 01:25:17.500
+v1 means
+
+01:25:17.500 --> 01:25:19.500
+the combinations of your components
+
+01:25:19.500 --> 01:25:21.500
+are stored with
+
+01:25:21.500 --> 01:25:23.500
+their respective metrics
+
+01:25:23.500 --> 01:25:25.500
+then you made some minor changes
+
+01:25:25.500 --> 01:25:27.500
+then again
+
+01:25:27.500 --> 01:25:29.500
+run evaluations
+
+01:25:29.500 --> 01:25:31.500
+again save the scores
+
+01:25:31.500 --> 01:25:33.500
+in the second iteration
+
+01:25:33.500 --> 01:25:35.500
+you did this
+
+01:25:35.500 --> 01:25:37.500
+and how long do you do this
+
+01:25:37.500 --> 01:25:39.500
+you do this till your scores
+
+01:25:39.500 --> 01:25:41.500
+are improving
+
+01:25:41.500 --> 01:25:43.500
+is this clear
+
+01:25:43.500 --> 01:25:45.500
+but because in your
+
+01:25:45.500 --> 01:25:47.500
+rag applications or in general
+
+01:25:47.500 --> 01:25:49.500
+LLM based applications
+
+01:25:49.500 --> 01:25:51.500
+there are many combinations
+
+01:25:51.500 --> 01:25:53.500
+so there is always method to the madness
+
+01:25:53.500 --> 01:25:55.500
+its not like you try every single thing
+
+01:25:55.500 --> 01:25:57.500
+you listen to your instincts
+
+01:25:59.500 --> 01:26:01.500
+its not like you try endlessly
+
+01:26:01.500 --> 01:26:03.500
+you have to try all the
+
+01:26:03.500 --> 01:26:05.500
+document loaders
+
+01:26:05.500 --> 01:26:07.500
+you understand your use case
+
+01:26:07.500 --> 01:26:09.500
+and you filter out
+
+01:26:09.500 --> 01:26:11.500
+these are the two that
+
+01:26:11.500 --> 01:26:13.500
+are good for my application
+
+01:26:13.500 --> 01:26:15.500
+now I will compare which one is best
+
+01:26:15.500 --> 01:26:17.500
+from this
+
+01:26:17.500 --> 01:26:19.500
+next step is
+
+01:26:19.500 --> 01:26:21.500
+your evaluation
+
+01:26:21.500 --> 01:26:23.500
+lets go up to our
+
+01:26:23.500 --> 01:26:25.500
+workflow and see
+
+01:26:25.500 --> 01:26:27.500
+what are our next steps
+
+01:26:27.500 --> 01:26:29.500
+so we completed one
+
+01:26:29.500 --> 01:26:31.500
+segment here
+
+01:26:31.500 --> 01:26:33.500
+first is prompt overgilling
+
+01:26:33.500 --> 01:26:35.500
+second is experimentation tracking
+
+01:26:35.500 --> 01:26:37.500
+and third is evaluation
+
+01:26:37.500 --> 01:26:39.500
+and this evaluation and experiment tracking
+
+01:26:39.500 --> 01:26:41.500
+so here we have a loop
+
+01:26:41.500 --> 01:26:43.500
+its gone
+
+01:26:43.500 --> 01:26:45.500
+because black over black
+
+01:26:45.500 --> 01:26:47.500
+but how long does this loop
+
+01:26:47.500 --> 01:26:49.500
+run until desired scores are met
+
+01:26:49.500 --> 01:26:51.500
+till your desired scores are not met
+
+01:26:51.500 --> 01:26:53.500
+you run this loop
+
+01:26:55.500 --> 01:26:57.500
+is this clear
+
+01:26:59.500 --> 01:27:01.500
+is it clear
+
+01:27:03.500 --> 01:27:05.500
+next step is
+
+01:27:05.500 --> 01:27:07.500
+your
+
+01:27:07.500 --> 01:27:09.500
+step number 4
+
+01:27:09.500 --> 01:27:11.500
+is your observability
+
+01:27:15.500 --> 01:27:17.500
+till now your rag application
+
+01:27:17.500 --> 01:27:19.500
+is working like
+
+01:27:19.500 --> 01:27:21.500
+a black box
+
+01:27:21.500 --> 01:27:23.500
+means you are doing
+
+01:27:23.500 --> 01:27:25.500
+in evaluation
+
+01:27:25.500 --> 01:27:27.500
+simply sending some input
+
+01:27:27.500 --> 01:27:29.500
+some output is coming
+
+01:27:29.500 --> 01:27:31.500
+you are scoring it
+
+01:27:31.500 --> 01:27:33.500
+whether the input and output is correct
+
+01:27:33.500 --> 01:27:35.500
+whether you are getting the required results
+
+01:27:35.500 --> 01:27:37.500
+in the evaluation
+
+01:27:37.500 --> 01:27:39.500
+what observability does
+
+01:27:39.500 --> 01:27:41.500
+it opens this black box
+
+01:27:43.500 --> 01:27:45.500
+it basically
+
+01:27:47.500 --> 01:27:49.500
+gives you the feature of traceability
+
+01:27:49.500 --> 01:27:51.500
+tracing or
+
+01:27:51.500 --> 01:27:53.500
+traceability means
+
+01:27:53.500 --> 01:27:55.500
+you are tracking your input
+
+01:27:55.500 --> 01:27:57.500
+what does track mean
+
+01:27:57.500 --> 01:27:59.500
+your input
+
+01:27:59.500 --> 01:28:01.500
+what is the input
+
+01:28:01.500 --> 01:28:03.500
+so here user asked
+
+01:28:03.500 --> 01:28:05.500
+next what happened
+
+01:28:05.500 --> 01:28:07.500
+next it went to your document loader
+
+01:28:07.500 --> 01:28:09.500
+retriever
+
+01:28:09.500 --> 01:28:11.500
+obviously it will not go to document loader
+
+01:28:11.500 --> 01:28:13.500
+it will go to retriever
+
+01:28:13.500 --> 01:28:15.500
+so what documents retriever
+
+01:28:15.500 --> 01:28:17.500
+retrieved
+
+01:28:17.500 --> 01:28:19.500
+here
+
+01:28:19.500 --> 01:28:21.500
+will come
+
+01:28:21.500 --> 01:28:23.500
+after that what you did with these documents
+
+01:28:23.500 --> 01:28:25.500
+you built context
+
+01:28:25.500 --> 01:28:27.500
+how you
+
+01:28:27.500 --> 01:28:29.500
+augmented that context in prompt
+
+01:28:29.500 --> 01:28:31.500
+and when you sent this augmented prompt
+
+01:28:31.500 --> 01:28:33.500
+to LLM
+
+01:28:33.500 --> 01:28:35.500
+what was the response of LLM
+
+01:28:37.500 --> 01:28:39.500
+so what is traceability
+
+01:28:39.500 --> 01:28:41.500
+you put a tracker
+
+01:28:41.500 --> 01:28:43.500
+on this input
+
+01:28:43.500 --> 01:28:45.500
+like in Hollywood action films
+
+01:28:45.500 --> 01:28:47.500
+they put GPS tracker on the pair
+
+01:28:47.500 --> 01:28:49.500
+and through it they track
+
+01:28:49.500 --> 01:28:51.500
+where the asset went
+
+01:28:51.500 --> 01:28:53.500
+so you put
+
+01:28:53.500 --> 01:28:55.500
+a GPS tracker
+
+01:28:55.500 --> 01:28:57.500
+on the input
+
+01:28:57.500 --> 01:28:59.500
+so you can see what is going on in your pipeline
+
+01:29:01.500 --> 01:29:03.500
+input went to retriever
+
+01:29:03.500 --> 01:29:05.500
+what did retriever do
+
+01:29:05.500 --> 01:29:07.500
+what did retrieved
+
+01:29:07.500 --> 01:29:09.500
+what is the next step
+
+01:29:09.500 --> 01:29:11.500
+this is called as your observability
+
+01:29:11.500 --> 01:29:13.500
+and traceability
+
+01:29:13.500 --> 01:29:15.500
+someone can tell me
+
+01:29:15.500 --> 01:29:17.500
+why observability and traceability is needed
+
+01:29:17.500 --> 01:29:19.500
+without this it could have worked
+
+01:29:19.500 --> 01:29:21.500
+my application is performing well
+
+01:29:21.500 --> 01:29:23.500
+this evaluation is telling me
+
+01:29:23.500 --> 01:29:25.500
+but why I need this
+
+01:29:27.500 --> 01:29:29.500
+which step is going wrong
+
+01:29:29.500 --> 01:29:31.500
+I understood this
+
+01:29:31.500 --> 01:29:33.500
+which step is going wrong
+
+01:29:33.500 --> 01:29:35.500
+but why
+
+01:29:35.500 --> 01:29:37.500
+why I am going so far back
+
+01:29:39.500 --> 01:29:41.500
+how much money is going where
+
+01:29:41.500 --> 01:29:43.500
+okay
+
+01:29:49.500 --> 01:29:51.500
+probabilistic reason to understand
+
+01:29:51.500 --> 01:29:53.500
+the final result
+
+01:29:53.500 --> 01:29:55.500
+tracing during inference
+
+01:29:55.500 --> 01:29:57.500
+to improve latency and cost
+
+01:29:57.500 --> 01:29:59.500
+yes, latency and cost
+
+01:29:59.500 --> 01:30:01.500
+is one factor
+
+01:30:01.500 --> 01:30:03.500
+when we will study about observability
+
+01:30:03.500 --> 01:30:05.500
+we will get this point
+
+01:30:05.500 --> 01:30:07.500
+there you track usage of tokens
+
+01:30:07.500 --> 01:30:09.500
+and how much latency
+
+01:30:09.500 --> 01:30:11.500
+someone told me the name of Langsmith
+
+01:30:11.500 --> 01:30:13.500
+so yes, Langsmith tracks everything
+
+01:30:13.500 --> 01:30:15.500
+but the prime use of observability
+
+01:30:15.500 --> 01:30:17.500
+is
+
+01:30:17.500 --> 01:30:19.500
+that you
+
+01:30:19.500 --> 01:30:21.500
+where you want to put your application
+
+01:30:21.500 --> 01:30:23.500
+now understand the why behind it
+
+01:30:23.500 --> 01:30:25.500
+simple why
+
+01:30:25.500 --> 01:30:27.500
+you are telling me
+
+01:30:27.500 --> 01:30:29.500
+what happens inside
+
+01:30:29.500 --> 01:30:31.500
+this is not the why
+
+01:30:31.500 --> 01:30:33.500
+you are telling me how the input is behaving
+
+01:30:33.500 --> 01:30:35.500
+I have to open the whole thing
+
+01:30:35.500 --> 01:30:37.500
+no, why is simple
+
+01:30:37.500 --> 01:30:39.500
+that I have to take this application
+
+01:30:39.500 --> 01:30:41.500
+to my user
+
+01:30:41.500 --> 01:30:43.500
+to my user
+
+01:30:43.500 --> 01:30:45.500
+before going to my user
+
+01:30:45.500 --> 01:30:47.500
+I am doing a final test
+
+01:30:49.500 --> 01:30:51.500
+that how it works internally
+
+01:30:51.500 --> 01:30:53.500
+how it works, I have this box
+
+01:30:53.500 --> 01:30:55.500
+I gave it a score
+
+01:30:55.500 --> 01:30:57.500
+but can I take this box
+
+01:30:57.500 --> 01:30:59.500
+and give it to my user
+
+01:30:59.500 --> 01:31:01.500
+I have to open this box
+
+01:31:03.500 --> 01:31:05.500
+that the individual components inside it
+
+01:31:05.500 --> 01:31:07.500
+are working or not
+
+01:31:07.500 --> 01:31:09.500
+it is like a QA check
+
+01:31:11.500 --> 01:31:13.500
+when your car gets assembled
+
+01:31:13.500 --> 01:31:15.500
+then you finally open your engine
+
+01:31:15.500 --> 01:31:17.500
+and see
+
+01:31:17.500 --> 01:31:19.500
+all components are working or not
+
+01:31:19.500 --> 01:31:21.500
+that is the final check
+
+01:31:23.500 --> 01:31:25.500
+so open the bonnet
+
+01:31:25.500 --> 01:31:27.500
+open the black box
+
+01:31:27.500 --> 01:31:29.500
+and see if all gears are working properly
+
+01:31:29.500 --> 01:31:31.500
+all wires
+
+01:31:31.500 --> 01:31:33.500
+are working properly
+
+01:31:33.500 --> 01:31:35.500
+what is the intended functionality
+
+01:31:35.500 --> 01:31:37.500
+is it working or not
+
+01:31:37.500 --> 01:31:39.500
+so that is why you use observability
+
+01:31:39.500 --> 01:31:41.500
+basically you want to
+
+01:31:41.500 --> 01:31:43.500
+open that application last time
+
+01:31:43.500 --> 01:31:45.500
+and you continue it
+
+01:31:45.500 --> 01:31:47.500
+when you
+
+01:31:47.500 --> 01:31:49.500
+send this application to your user
+
+01:31:49.500 --> 01:31:51.500
+then you don't stop observability
+
+01:31:51.500 --> 01:31:53.500
+you continue it
+
+01:31:53.500 --> 01:31:55.500
+that how my user is
+
+01:31:55.500 --> 01:31:57.500
+asking questions there
+
+01:31:57.500 --> 01:31:59.500
+how my chatbot is answering
+
+01:31:59.500 --> 01:32:01.500
+with this you get
+
+01:32:01.500 --> 01:32:03.500
+an improvement opportunity
+
+01:32:03.500 --> 01:32:05.500
+let's say
+
+01:32:05.500 --> 01:32:07.500
+user asked a question, chatbot didn't give
+
+01:32:07.500 --> 01:32:09.500
+an intended answer, then what will happen
+
+01:32:09.500 --> 01:32:11.500
+at that time you will get data
+
+01:32:11.500 --> 01:32:13.500
+that this was an input
+
+01:32:13.500 --> 01:32:15.500
+chatbot gave this answer
+
+01:32:15.500 --> 01:32:17.500
+and my user is not satisfied
+
+01:32:17.500 --> 01:32:19.500
+so how will I improve
+
+01:32:19.500 --> 01:32:21.500
+is it clear now
+
+01:32:21.500 --> 01:32:23.500
+is it clear guys
+
+01:32:23.500 --> 01:32:25.500
+why do we need
+
+01:32:25.500 --> 01:32:27.500
+observability
+
+01:32:27.500 --> 01:32:29.500
+what happens
+
+01:32:29.500 --> 01:32:31.500
+I understood that
+
+01:32:31.500 --> 01:32:33.500
+why do we need observability
+
+01:32:33.500 --> 01:32:35.500
+yes
+
+01:32:35.500 --> 01:32:37.500
+you can improve anything
+
+01:32:37.500 --> 01:32:39.500
+see there are multiple components
+
+01:32:39.500 --> 01:32:41.500
+you have to improve anything from that
+
+01:32:41.500 --> 01:32:43.500
+so you open this black box
+
+01:32:43.500 --> 01:32:45.500
+what is this
+
+01:32:45.500 --> 01:32:47.500
+why is it stuck here
+
+01:32:55.500 --> 01:32:57.500
+guys you can see
+
+01:32:57.500 --> 01:32:59.500
+this move happens
+
+01:32:59.500 --> 01:33:01.500
+I am not able to delete it
+
+01:33:01.500 --> 01:33:03.500
+I don't know
+
+01:33:03.500 --> 01:33:05.500
+is there any issue with one note
+
+01:33:05.500 --> 01:33:07.500
+whatever
+
+01:33:07.500 --> 01:33:09.500
+let's continue our discussion
+
+01:33:09.500 --> 01:33:11.500
+so what is next
+
+01:33:11.500 --> 01:33:13.500
+tracing and observability
+
+01:33:17.500 --> 01:33:19.500
+ok let me do it
+
+01:33:19.500 --> 01:33:21.500
+you are saying
+
+01:33:21.500 --> 01:33:23.500
+to minimize
+
+01:33:23.500 --> 01:33:25.500
+and then reopen
+
+01:33:25.500 --> 01:33:27.500
+press escape
+
+01:33:27.500 --> 01:33:29.500
+and see
+
+01:33:29.500 --> 01:33:31.500
+nothing is happening
+
+01:33:33.500 --> 01:33:35.500
+it is stuck
+
+01:33:35.500 --> 01:33:37.500
+I am not able to select it
+
+01:33:37.500 --> 01:33:39.500
+I am not able to do it
+
+01:33:41.500 --> 01:33:43.500
+can I erase it
+
+01:33:43.500 --> 01:33:45.500
+whatever
+
+01:33:45.500 --> 01:33:47.500
+it is gone
+
+01:33:49.500 --> 01:33:51.500
+what was this
+
+01:33:51.500 --> 01:33:53.500
+one note
+
+01:33:53.500 --> 01:33:55.500
+micro slop
+
+01:33:55.500 --> 01:33:57.500
+that's why I say micro slop
+
+01:33:57.500 --> 01:33:59.500
+things are breaking down in micro slop
+
+01:33:59.500 --> 01:34:01.500
+ok
+
+01:34:01.500 --> 01:34:03.500
+so we have done tracing and observability
+
+01:34:03.500 --> 01:34:05.500
+now let's talk about the next step
+
+01:34:07.500 --> 01:34:09.500
+this is the favorite of the people
+
+01:34:09.500 --> 01:34:11.500
+they have already told me
+
+01:34:11.500 --> 01:34:13.500
+when will the guardrails step come
+
+01:34:13.500 --> 01:34:15.500
+now it's the time
+
+01:34:15.500 --> 01:34:17.500
+the guardrails step has come
+
+01:34:17.500 --> 01:34:19.500
+now what I did
+
+01:34:19.500 --> 01:34:21.500
+I opened my box
+
+01:34:21.500 --> 01:34:23.500
+but before sending it to the end user
+
+01:34:23.500 --> 01:34:25.500
+one final thing
+
+01:34:25.500 --> 01:34:27.500
+I have to do
+
+01:34:27.500 --> 01:34:29.500
+I have to set some boundaries
+
+01:34:29.500 --> 01:34:31.500
+here
+
+01:34:33.500 --> 01:34:35.500
+set some rules
+
+01:34:35.500 --> 01:34:37.500
+if I am making a chatbot for campusX
+
+01:34:37.500 --> 01:34:39.500
+then
+
+01:34:39.500 --> 01:34:41.500
+you can tell me
+
+01:34:41.500 --> 01:34:43.500
+which boundaries
+
+01:34:43.500 --> 01:34:45.500
+I have to set
+
+01:34:49.500 --> 01:34:51.500
+simple
+
+01:34:51.500 --> 01:34:53.500
+not bias
+
+01:34:53.500 --> 01:34:55.500
+you are telling too much technical
+
+01:34:55.500 --> 01:34:57.500
+safety
+
+01:34:57.500 --> 01:34:59.500
+what can be in safety
+
+01:34:59.500 --> 01:35:01.500
+only refer to transcript
+
+01:35:01.500 --> 01:35:03.500
+unwanted answer avoid
+
+01:35:03.500 --> 01:35:05.500
+if I want to make a chatbot for campusX
+
+01:35:05.500 --> 01:35:07.500
+then
+
+01:35:07.500 --> 01:35:09.500
+what will be my first rule
+
+01:35:09.500 --> 01:35:11.500
+that
+
+01:35:11.500 --> 01:35:13.500
+doubt solve
+
+01:35:13.500 --> 01:35:15.500
+do the same
+
+01:35:15.500 --> 01:35:17.500
+lecture or the same course
+
+01:35:17.500 --> 01:35:19.500
+that my user has purchased
+
+01:35:19.500 --> 01:35:21.500
+let's say you have purchased
+
+01:35:21.500 --> 01:35:23.500
+the rag course
+
+01:35:23.500 --> 01:35:25.500
+but not the prompt engineering course
+
+01:35:25.500 --> 01:35:27.500
+now
+
+01:35:27.500 --> 01:35:29.500
+if I tell my chatbot
+
+01:35:29.500 --> 01:35:31.500
+that you can doubt solve
+
+01:35:31.500 --> 01:35:33.500
+then
+
+01:35:33.500 --> 01:35:35.500
+any student
+
+01:35:35.500 --> 01:35:37.500
+who is taught in prompt
+
+01:35:37.500 --> 01:35:39.500
+can ask chatbot
+
+01:35:39.500 --> 01:35:41.500
+and solve
+
+01:35:41.500 --> 01:35:43.500
+yes
+
+01:35:43.500 --> 01:35:45.500
+don't blame any other channel
+
+01:35:45.500 --> 01:35:47.500
+this is also a big guardrail
+
+01:35:47.500 --> 01:35:49.500
+this is called competitor check
+
+01:35:49.500 --> 01:35:51.500
+that you don't say anything wrong about
+
+01:35:51.500 --> 01:35:53.500
+competitor
+
+01:35:53.500 --> 01:35:55.500
+don't ask to make a bomb
+
+01:35:55.500 --> 01:35:57.500
+yes, don't be bias
+
+01:35:57.500 --> 01:35:59.500
+one rule will be
+
+01:35:59.500 --> 01:36:01.500
+I am making this custom rule
+
+01:36:01.500 --> 01:36:03.500
+that don't be too technical
+
+01:36:03.500 --> 01:36:05.500
+in your answers
+
+01:36:05.500 --> 01:36:07.500
+ok
+
+01:36:07.500 --> 01:36:09.500
+don't make any vague answer
+
+01:36:11.500 --> 01:36:13.500
+is it clear
+
+01:36:13.500 --> 01:36:15.500
+be responsible
+
+01:36:15.500 --> 01:36:17.500
+and these rules and boundaries
+
+01:36:17.500 --> 01:36:19.500
+are called guardrails
+
+01:36:19.500 --> 01:36:21.500
+one rule
+
+01:36:21.500 --> 01:36:23.500
+that is also coming in my mind
+
+01:36:23.500 --> 01:36:25.500
+that don't expose any student's personal information
+
+01:36:25.500 --> 01:36:27.500
+don't expose
+
+01:36:27.500 --> 01:36:29.500
+maybe
+
+01:36:29.500 --> 01:36:31.500
+in chatbot
+
+01:36:31.500 --> 01:36:33.500
+in the data of transcript
+
+01:36:33.500 --> 01:36:35.500
+sorry, in the data of chats
+
+01:36:35.500 --> 01:36:37.500
+so here you have written your names
+
+01:36:37.500 --> 01:36:39.500
+and all the answers you have done
+
+01:36:39.500 --> 01:36:41.500
+so don't expose
+
+01:36:41.500 --> 01:36:43.500
+this data of student
+
+01:36:43.500 --> 01:36:45.500
+don't give your system prompt
+
+01:36:45.500 --> 01:36:47.500
+don't give company secrets
+
+01:36:47.500 --> 01:36:49.500
+don't give information about
+
+01:36:49.500 --> 01:36:51.500
+upcoming courses
+
+01:36:51.500 --> 01:36:53.500
+that we haven't told you
+
+01:36:53.500 --> 01:36:55.500
+don't tell chatbot
+
+01:36:55.500 --> 01:36:57.500
+all rules are there but you have to set up rules
+
+01:36:59.500 --> 01:37:01.500
+simply you want your LLM
+
+01:37:01.500 --> 01:37:03.500
+based application to behave
+
+01:37:03.500 --> 01:37:05.500
+in the right direction
+
+01:37:05.500 --> 01:37:07.500
+yes
+
+01:37:07.500 --> 01:37:09.500
+this is a big point
+
+01:37:09.500 --> 01:37:11.500
+that I
+
+01:37:11.500 --> 01:37:13.500
+should not have told
+
+01:37:13.500 --> 01:37:15.500
+ok
+
+01:37:15.500 --> 01:37:17.500
+so these things matter
+
+01:37:17.500 --> 01:37:19.500
+is it clear
+
+01:37:21.500 --> 01:37:23.500
+is it clear
+
+01:37:25.500 --> 01:37:27.500
+if you are following this particular lecture
+
+01:37:27.500 --> 01:37:29.500
+then guys I will ask you a question
+
+01:37:29.500 --> 01:37:31.500
+this particular
+
+01:37:31.500 --> 01:37:33.500
+guardrail step
+
+01:37:33.500 --> 01:37:35.500
+why I have
+
+01:37:35.500 --> 01:37:37.500
+kept it after evaluations
+
+01:37:37.500 --> 01:37:39.500
+and observability
+
+01:37:41.500 --> 01:37:43.500
+after observability
+
+01:37:43.500 --> 01:37:45.500
+why it comes
+
+01:37:45.500 --> 01:37:47.500
+why I have not added this in my LLM of pipeline
+
+01:37:47.500 --> 01:37:49.500
+before
+
+01:37:49.500 --> 01:37:51.500
+there must be some reason
+
+01:37:55.500 --> 01:37:57.500
+no
+
+01:38:03.500 --> 01:38:05.500
+no
+
+01:38:05.500 --> 01:38:07.500
+you could have applied earlier
+
+01:38:07.500 --> 01:38:09.500
+ok
+
+01:38:09.500 --> 01:38:11.500
+if I had put these guardrails earlier
+
+01:38:11.500 --> 01:38:13.500
+then wouldn't they have been applied
+
+01:38:17.500 --> 01:38:19.500
+is it yes or no
+
+01:38:19.500 --> 01:38:21.500
+if I had
+
+01:38:21.500 --> 01:38:23.500
+implemented these guardrails earlier
+
+01:38:23.500 --> 01:38:25.500
+then wouldn't they have been applied
+
+01:38:25.500 --> 01:38:27.500
+or not
+
+01:38:27.500 --> 01:38:29.500
+because there are simply
+
+01:38:29.500 --> 01:38:31.500
+rules
+
+01:38:31.500 --> 01:38:33.500
+I am giving rules to my LLM
+
+01:38:33.500 --> 01:38:35.500
+how to behave
+
+01:38:35.500 --> 01:38:37.500
+so these would have been applied earlier
+
+01:38:37.500 --> 01:38:39.500
+so why this step comes after
+
+01:38:39.500 --> 01:38:41.500
+my evaluation and observability
+
+01:38:45.500 --> 01:38:47.500
+I will tell you why it comes later
+
+01:38:47.500 --> 01:38:49.500
+what are you doing in evaluation
+
+01:38:49.500 --> 01:38:51.500
+in evaluation
+
+01:38:51.500 --> 01:38:53.500
+you are testing your application
+
+01:38:53.500 --> 01:38:55.500
+and it is not necessary
+
+01:38:55.500 --> 01:38:57.500
+that in the first test your application
+
+01:38:57.500 --> 01:38:59.500
+gets intended scores
+
+01:38:59.500 --> 01:39:01.500
+so what you will do
+
+01:39:01.500 --> 01:39:03.500
+is you will improve your application
+
+01:39:03.500 --> 01:39:05.500
+in multiple iterations
+
+01:39:05.500 --> 01:39:07.500
+so if you include guardrails before
+
+01:39:07.500 --> 01:39:09.500
+this then there is no benefit
+
+01:39:09.500 --> 01:39:11.500
+because you will have to implement
+
+01:39:11.500 --> 01:39:13.500
+guardrails again on your
+
+01:39:13.500 --> 01:39:15.500
+final iteration which you select
+
+01:39:15.500 --> 01:39:17.500
+ok
+
+01:39:17.500 --> 01:39:19.500
+next is your observability
+
+01:39:21.500 --> 01:39:23.500
+what are you doing in observability
+
+01:39:23.500 --> 01:39:25.500
+you are basically
+
+01:39:25.500 --> 01:39:27.500
+locking and tracking
+
+01:39:27.500 --> 01:39:29.500
+the entire journey from input to output
+
+01:39:31.500 --> 01:39:33.500
+there is no benefit of
+
+01:39:33.500 --> 01:39:35.500
+applying guardrails in this
+
+01:39:35.500 --> 01:39:37.500
+because you are seeing
+
+01:39:37.500 --> 01:39:39.500
+how the input to output
+
+01:39:39.500 --> 01:39:41.500
+is moving in your different components
+
+01:39:41.500 --> 01:39:43.500
+you are opening your black box
+
+01:39:43.500 --> 01:39:45.500
+now you have applied rules
+
+01:39:45.500 --> 01:39:47.500
+what difference does it make
+
+01:39:47.500 --> 01:39:49.500
+think of it like
+
+01:39:49.500 --> 01:39:51.500
+guardrails are your
+
+01:39:51.500 --> 01:39:53.500
+gift wrap
+
+01:39:53.500 --> 01:39:55.500
+so you have wrapped around the gift box
+
+01:39:55.500 --> 01:39:57.500
+and you have to open the box
+
+01:39:57.500 --> 01:39:59.500
+so with wrapper or without wrapper
+
+01:39:59.500 --> 01:40:01.500
+you have to open it by tearing it
+
+01:40:01.500 --> 01:40:03.500
+with wrapper
+
+01:40:03.500 --> 01:40:05.500
+it is not like your opening strategy
+
+01:40:05.500 --> 01:40:07.500
+will change, instead you have to
+
+01:40:07.500 --> 01:40:09.500
+remove the wrapper first, it is an extra added step
+
+01:40:11.500 --> 01:40:13.500
+is it clear
+
+01:40:13.500 --> 01:40:15.500
+and now you are feeling
+
+01:40:15.500 --> 01:40:17.500
+that our application
+
+01:40:17.500 --> 01:40:19.500
+which was on the developer side
+
+01:40:19.500 --> 01:40:21.500
+means to do evaluation
+
+01:40:21.500 --> 01:40:23.500
+was developer side
+
+01:40:23.500 --> 01:40:25.500
+when we are building, me as a developer
+
+01:40:25.500 --> 01:40:27.500
+when I am building the application
+
+01:40:27.500 --> 01:40:29.500
+so it is my job to do evaluation
+
+01:40:29.500 --> 01:40:31.500
+what is happening in observability is my job
+
+01:40:31.500 --> 01:40:33.500
+I am not expecting from my user
+
+01:40:33.500 --> 01:40:35.500
+that his input
+
+01:40:35.500 --> 01:40:37.500
+through which steps his output is coming
+
+01:40:37.500 --> 01:40:39.500
+how is it coming, how are my components working
+
+01:40:39.500 --> 01:40:41.500
+user doesn't have any benefit of this
+
+01:40:41.500 --> 01:40:43.500
+but when I am going to guardrails side
+
+01:40:43.500 --> 01:40:45.500
+so I am shifting
+
+01:40:45.500 --> 01:40:47.500
+to user side
+
+01:40:47.500 --> 01:40:49.500
+because whether guardrails is there or not
+
+01:40:49.500 --> 01:40:51.500
+it impacts my user
+
+01:40:51.500 --> 01:40:53.500
+don't you think
+
+01:40:59.500 --> 01:41:01.500
+understand my point
+
+01:41:01.500 --> 01:41:03.500
+now basically what we are doing
+
+01:41:03.500 --> 01:41:05.500
+now we are going to our LLM Ops
+
+01:41:05.500 --> 01:41:07.500
+pipeline from development side
+
+01:41:07.500 --> 01:41:09.500
+to user side
+
+01:41:09.500 --> 01:41:11.500
+we said we will integrate our application
+
+01:41:11.500 --> 01:41:13.500
+so we are going more to integration side
+
+01:41:13.500 --> 01:41:15.500
+how our end user
+
+01:41:15.500 --> 01:41:17.500
+will be impacted
+
+01:41:17.500 --> 01:41:19.500
+we are thinking more about that
+
+01:41:19.500 --> 01:41:21.500
+is it clear
+
+01:41:21.500 --> 01:41:23.500
+clear guys
+
+01:41:29.500 --> 01:41:31.500
+so I hope you understood guardrails
+
+01:41:35.500 --> 01:41:37.500
+Sanjay when we will discuss guardrails and system prompt
+
+01:41:37.500 --> 01:41:39.500
+we will discuss this point again
+
+01:41:39.500 --> 01:41:41.500
+now this point is not valid
+
+01:41:41.500 --> 01:41:43.500
+you define rules
+
+01:41:43.500 --> 01:41:45.500
+in both ways
+
+01:41:45.500 --> 01:41:47.500
+here
+
+01:41:47.500 --> 01:41:49.500
+system prompt is not always
+
+01:41:49.500 --> 01:41:51.500
+100% secure
+
+01:41:51.500 --> 01:41:53.500
+so you use guardrails
+
+01:41:53.500 --> 01:41:55.500
+so no matter how much you profit
+
+01:41:55.500 --> 01:41:57.500
+system prompt
+
+01:41:57.500 --> 01:41:59.500
+but still you have to use guardrails
+
+01:41:59.500 --> 01:42:01.500
+for final check
+
+01:42:01.500 --> 01:42:03.500
+for final filtration
+
+01:42:03.500 --> 01:42:05.500
+now let's go
+
+01:42:05.500 --> 01:42:07.500
+towards deployment part
+
+01:42:07.500 --> 01:42:09.500
+so till now
+
+01:42:09.500 --> 01:42:11.500
+we had to use guardrails
+
+01:42:11.500 --> 01:42:13.500
+tracing, evaluation
+
+01:42:13.500 --> 01:42:15.500
+this was limited to our application
+
+01:42:15.500 --> 01:42:17.500
+we were deciding this
+
+01:42:17.500 --> 01:42:19.500
+according to our application
+
+01:42:19.500 --> 01:42:21.500
+what will be my system prompt
+
+01:42:21.500 --> 01:42:23.500
+it depends on my application
+
+01:42:23.500 --> 01:42:25.500
+what all things to track in experiment tracking
+
+01:42:25.500 --> 01:42:27.500
+depends on application
+
+01:42:27.500 --> 01:42:29.500
+what will be evaluation metrics
+
+01:42:29.500 --> 01:42:31.500
+depends on application
+
+01:42:31.500 --> 01:42:33.500
+how will be tracing
+
+01:42:33.500 --> 01:42:35.500
+depends on application
+
+01:42:35.500 --> 01:42:37.500
+how will be guardrails
+
+01:42:37.500 --> 01:42:39.500
+depends on application
+
+01:42:39.500 --> 01:42:41.500
+you don't use all guardrails
+
+01:42:41.500 --> 01:42:43.500
+now the next steps
+
+01:42:43.500 --> 01:42:45.500
+these are more
+
+01:42:45.500 --> 01:42:47.500
+of your
+
+01:42:47.500 --> 01:42:49.500
+deployment focused
+
+01:42:49.500 --> 01:42:51.500
+now you are
+
+01:42:51.500 --> 01:42:53.500
+moving towards deployment
+
+01:42:53.500 --> 01:42:55.500
+or integration
+
+01:42:55.500 --> 01:42:57.500
+next step
+
+01:42:57.500 --> 01:42:59.500
+that is your
+
+01:42:59.500 --> 01:43:01.500
+just a second guys
+
+01:43:01.500 --> 01:43:03.500
+next step
+
+01:43:03.500 --> 01:43:05.500
+now because we are
+
+01:43:05.500 --> 01:43:07.500
+moving towards deployment
+
+01:43:07.500 --> 01:43:09.500
+next step is
+
+01:43:09.500 --> 01:43:11.500
+through fast api
+
+01:43:11.500 --> 01:43:13.500
+you serve your application
+
+01:43:15.500 --> 01:43:17.500
+now what is the meaning of this serving
+
+01:43:17.500 --> 01:43:19.500
+that you are serving your application
+
+01:43:19.500 --> 01:43:21.500
+I will give you a simple explanation
+
+01:43:21.500 --> 01:43:23.500
+you as a
+
+01:43:23.500 --> 01:43:25.500
+developer
+
+01:43:25.500 --> 01:43:27.500
+you know about your application
+
+01:43:27.500 --> 01:43:29.500
+ok, how you
+
+01:43:29.500 --> 01:43:31.500
+built your application
+
+01:43:31.500 --> 01:43:33.500
+through which framework
+
+01:43:33.500 --> 01:43:35.500
+but your user
+
+01:43:35.500 --> 01:43:37.500
+through what
+
+01:43:37.500 --> 01:43:39.500
+is exposed in your application
+
+01:43:39.500 --> 01:43:41.500
+it is exposed through the front end
+
+01:43:41.500 --> 01:43:43.500
+your user interacts with front end
+
+01:43:43.500 --> 01:43:45.500
+have you ever seen your user
+
+01:43:45.500 --> 01:43:47.500
+interacting with back end
+
+01:43:47.500 --> 01:43:49.500
+never possible
+
+01:43:49.500 --> 01:43:51.500
+that is why it is called back end
+
+01:43:51.500 --> 01:43:53.500
+front end means user facing
+
+01:43:53.500 --> 01:43:55.500
+so your user always
+
+01:43:55.500 --> 01:43:57.500
+interacts with front end
+
+01:43:57.500 --> 01:43:59.500
+and it is not necessary
+
+01:43:59.500 --> 01:44:01.500
+that you always make this front end
+
+01:44:01.500 --> 01:44:03.500
+yourself
+
+01:44:03.500 --> 01:44:05.500
+so basically what you do
+
+01:44:05.500 --> 01:44:07.500
+you take this back end
+
+01:44:07.500 --> 01:44:09.500
+and you expose this back end
+
+01:44:09.500 --> 01:44:11.500
+or you serve
+
+01:44:11.500 --> 01:44:13.500
+through api
+
+01:44:15.500 --> 01:44:17.500
+now we will read about api
+
+01:44:17.500 --> 01:44:19.500
+in detail what is api
+
+01:44:19.500 --> 01:44:21.500
+simply api is
+
+01:44:21.500 --> 01:44:23.500
+api is basically your
+
+01:44:23.500 --> 01:44:25.500
+menu guard
+
+01:44:25.500 --> 01:44:27.500
+of a restaurant
+
+01:44:29.500 --> 01:44:31.500
+which chef is in the kitchen
+
+01:44:31.500 --> 01:44:33.500
+what is his name
+
+01:44:33.500 --> 01:44:35.500
+how he cooks does not matter
+
+01:44:35.500 --> 01:44:37.500
+whatever dish you want to order
+
+01:44:37.500 --> 01:44:39.500
+you order
+
+01:44:39.500 --> 01:44:41.500
+through your menu
+
+01:44:41.500 --> 01:44:43.500
+and
+
+01:44:43.500 --> 01:44:45.500
+who brings that menu to you
+
+01:44:45.500 --> 01:44:47.500
+the server
+
+01:44:47.500 --> 01:44:49.500
+and the waiter
+
+01:44:49.500 --> 01:44:51.500
+basically he is serving you
+
+01:44:51.500 --> 01:44:53.500
+first menu through which you place your order
+
+01:44:53.500 --> 01:44:55.500
+and then your dish
+
+01:44:55.500 --> 01:44:57.500
+from the kitchen
+
+01:44:57.500 --> 01:44:59.500
+so this back and forth
+
+01:44:59.500 --> 01:45:01.500
+is your api
+
+01:45:01.500 --> 01:45:03.500
+and for this we will use
+
+01:45:03.500 --> 01:45:05.500
+fast api
+
+01:45:05.500 --> 01:45:07.500
+ok
+
+01:45:07.500 --> 01:45:09.500
+now what is api
+
+01:45:09.500 --> 01:45:11.500
+so this whole thing is called
+
+01:45:11.500 --> 01:45:13.500
+your serving
+
+01:45:13.500 --> 01:45:15.500
+you are serving
+
+01:45:15.500 --> 01:45:17.500
+your application
+
+01:45:17.500 --> 01:45:19.500
+so that you can expose
+
+01:45:19.500 --> 01:45:21.500
+your api
+
+01:45:21.500 --> 01:45:23.500
+you will expose your api
+
+01:45:23.500 --> 01:45:25.500
+and you will give the api documentation
+
+01:45:25.500 --> 01:45:27.500
+to your front end developer
+
+01:45:27.500 --> 01:45:29.500
+front end developer
+
+01:45:29.500 --> 01:45:31.500
+knows how to make a website
+
+01:45:31.500 --> 01:45:33.500
+he will use any framework to make a website
+
+01:45:33.500 --> 01:45:35.500
+and integrate your application
+
+01:45:35.500 --> 01:45:37.500
+in it
+
+01:45:37.500 --> 01:45:39.500
+let's say in campusx our platform
+
+01:45:39.500 --> 01:45:41.500
+is hosted on graphy
+
+01:45:41.500 --> 01:45:43.500
+so i made the application
+
+01:45:43.500 --> 01:45:45.500
+and gave the api documentation to graphy
+
+01:45:45.500 --> 01:45:47.500
+that you integrate
+
+01:45:47.500 --> 01:45:49.500
+this chatbot in my courses
+
+01:45:51.500 --> 01:45:53.500
+ok
+
+01:45:55.500 --> 01:45:57.500
+next step is your
+
+01:45:57.500 --> 01:45:59.500
+dockerization
+
+01:46:01.500 --> 01:46:03.500
+in simple words
+
+01:46:03.500 --> 01:46:05.500
+i will explain dockerization
+
+01:46:05.500 --> 01:46:07.500
+because dockerization is very new for you
+
+01:46:07.500 --> 01:46:09.500
+so simply what you do
+
+01:46:09.500 --> 01:46:11.500
+you have an application
+
+01:46:11.500 --> 01:46:13.500
+it is running on your system
+
+01:46:13.500 --> 01:46:15.500
+because what is on your system
+
+01:46:15.500 --> 01:46:17.500
+you have made a python environment
+
+01:46:17.500 --> 01:46:19.500
+you have installed libraries
+
+01:46:19.500 --> 01:46:21.500
+let's say you are building through
+
+01:46:21.500 --> 01:46:23.500
+lang chain and lang graph
+
+01:46:23.500 --> 01:46:25.500
+you have installed lang chain and lang graph
+
+01:46:25.500 --> 01:46:27.500
+python has installed
+
+01:46:27.500 --> 01:46:29.500
+but now what you have to do
+
+01:46:29.500 --> 01:46:31.500
+you have to integrate it on the graphy platform
+
+01:46:31.500 --> 01:46:33.500
+so will you manually
+
+01:46:33.500 --> 01:46:35.500
+install this thing on graphy
+
+01:46:35.500 --> 01:46:37.500
+the answer is no
+
+01:46:37.500 --> 01:46:39.500
+so what you do here
+
+01:46:39.500 --> 01:46:41.500
+by making a package
+
+01:46:41.500 --> 01:46:43.500
+in which you put everything
+
+01:46:43.500 --> 01:46:45.500
+your application, its requirements
+
+01:46:45.500 --> 01:46:47.500
+you give this package to the
+
+01:46:47.500 --> 01:46:49.500
+graphy developer
+
+01:46:49.500 --> 01:46:51.500
+and you say that you integrate this
+
+01:46:51.500 --> 01:46:53.500
+so you have
+
+01:46:53.500 --> 01:46:55.500
+package your application
+
+01:46:55.500 --> 01:46:57.500
+and you have installed that package
+
+01:46:57.500 --> 01:46:59.500
+that's it
+
+01:46:59.500 --> 01:47:01.500
+like you install a game on your system
+
+01:47:01.500 --> 01:47:03.500
+so you don't install individual files
+
+01:47:03.500 --> 01:47:05.500
+you simply
+
+01:47:05.500 --> 01:47:07.500
+run its exe
+
+01:47:07.500 --> 01:47:09.500
+and your file gets installed
+
+01:47:11.500 --> 01:47:13.500
+its exactly like that
+
+01:47:13.500 --> 01:47:15.500
+is it clear now
+
+01:47:15.500 --> 01:47:17.500
+in very simple words
+
+01:47:17.500 --> 01:47:19.500
+we are not going into details of docker
+
+01:47:19.500 --> 01:47:21.500
+now docker is done
+
+01:47:21.500 --> 01:47:23.500
+your serving is done
+
+01:47:23.500 --> 01:47:25.500
+after that comes your step of
+
+01:47:25.500 --> 01:47:27.500
+CI CD
+
+01:47:27.500 --> 01:47:29.500
+CI CD means
+
+01:47:29.500 --> 01:47:31.500
+continuous integration
+
+01:47:31.500 --> 01:47:33.500
+continuous development
+
+01:47:33.500 --> 01:47:35.500
+and deployment both are correct
+
+01:47:35.500 --> 01:47:37.500
+so we will say deployment
+
+01:47:37.500 --> 01:47:39.500
+so what is in continuous integration
+
+01:47:39.500 --> 01:47:41.500
+that you have changed
+
+01:47:41.500 --> 01:47:43.500
+something in your application
+
+01:47:43.500 --> 01:47:45.500
+so after updating
+
+01:47:45.500 --> 01:47:47.500
+the whole pipeline
+
+01:47:47.500 --> 01:47:49.500
+will automatically run
+
+01:47:49.500 --> 01:47:51.500
+and your box will be made
+
+01:47:51.500 --> 01:47:53.500
+this is your continuous integration
+
+01:47:53.500 --> 01:47:55.500
+what is continuous
+
+01:47:55.500 --> 01:47:57.500
+you have automated this
+
+01:47:57.500 --> 01:47:59.500
+simple words
+
+01:47:59.500 --> 01:48:01.500
+till now you were doing this manually
+
+01:48:01.500 --> 01:48:03.500
+now what you did
+
+01:48:03.500 --> 01:48:05.500
+you wrote a code
+
+01:48:05.500 --> 01:48:07.500
+through which if you have made any changes
+
+01:48:07.500 --> 01:48:09.500
+in your rack application
+
+01:48:09.500 --> 01:48:11.500
+let's say you have added transcripts
+
+01:48:11.500 --> 01:48:13.500
+so your rack chatbot
+
+01:48:13.500 --> 01:48:15.500
+will support the upcoming
+
+01:48:15.500 --> 01:48:17.500
+courses
+
+01:48:17.500 --> 01:48:19.500
+or you have added
+
+01:48:19.500 --> 01:48:21.500
+support for notes
+
+01:48:21.500 --> 01:48:23.500
+now what will happen
+
+01:48:23.500 --> 01:48:25.500
+you have to integrate version 2
+
+01:48:25.500 --> 01:48:27.500
+and make a box again
+
+01:48:27.500 --> 01:48:29.500
+so to make a box you will not do
+
+01:48:29.500 --> 01:48:31.500
+these steps manually
+
+01:48:31.500 --> 01:48:33.500
+you write a script
+
+01:48:33.500 --> 01:48:35.500
+and the box will be made
+
+01:48:35.500 --> 01:48:37.500
+and what is continuous deployment
+
+01:48:37.500 --> 01:48:39.500
+means when you have to integrate
+
+01:48:39.500 --> 01:48:41.500
+this work will also be done manually
+
+01:48:41.500 --> 01:48:43.500
+in an automated way
+
+01:48:43.500 --> 01:48:45.500
+I am explaining you in simple words
+
+01:48:45.500 --> 01:48:47.500
+CICD
+
+01:48:47.500 --> 01:48:49.500
+nothing is technical here
+
+01:48:49.500 --> 01:48:51.500
+is it clear
+
+01:48:51.500 --> 01:48:53.500
+next step is your deployment
+
+01:48:53.500 --> 01:48:55.500
+if the box is made
+
+01:48:55.500 --> 01:48:57.500
+then the graphic designer will have to deploy it
+
+01:48:57.500 --> 01:48:59.500
+so next step is your
+
+01:48:59.500 --> 01:49:01.500
+deployment, you know the deployment
+
+01:49:01.500 --> 01:49:03.500
+you have
+
+01:49:03.500 --> 01:49:05.500
+live your application on the platform
+
+01:49:05.500 --> 01:49:07.500
+ok
+
+01:49:07.500 --> 01:49:09.500
+but your journey
+
+01:49:09.500 --> 01:49:11.500
+does not end on deployment
+
+01:49:11.500 --> 01:49:13.500
+it is ahead of deployment
+
+01:49:13.500 --> 01:49:15.500
+that is your
+
+01:49:15.500 --> 01:49:17.500
+post deployment
+
+01:49:21.500 --> 01:49:23.500
+ok, after the child is born
+
+01:49:23.500 --> 01:49:25.500
+the responsibility of the parents does not end
+
+01:49:25.500 --> 01:49:27.500
+it starts
+
+01:49:27.500 --> 01:49:29.500
+so similarly after the deployment
+
+01:49:29.500 --> 01:49:31.500
+of your LLM based applications
+
+01:49:31.500 --> 01:49:33.500
+your responsibility increases
+
+01:49:33.500 --> 01:49:35.500
+what you have to do here
+
+01:49:35.500 --> 01:49:37.500
+is monitoring
+
+01:49:39.500 --> 01:49:41.500
+and monitoring is also two things
+
+01:49:41.500 --> 01:49:43.500
+what was the first
+
+01:49:43.500 --> 01:49:45.500
+you had to do this monitoring
+
+01:49:45.500 --> 01:49:47.500
+only for your application
+
+01:49:47.500 --> 01:49:49.500
+but because now
+
+01:49:49.500 --> 01:49:51.500
+with your application
+
+01:49:51.500 --> 01:49:53.500
+the user is also interacting
+
+01:49:53.500 --> 01:49:55.500
+so how the user is interacting
+
+01:49:55.500 --> 01:49:57.500
+what is its input and output
+
+01:49:57.500 --> 01:49:59.500
+you will trace them
+
+01:49:59.500 --> 01:50:01.500
+and the performance metrics of your application
+
+01:50:01.500 --> 01:50:03.500
+you will track them
+
+01:50:03.500 --> 01:50:05.500
+how much is the cost
+
+01:50:05.500 --> 01:50:07.500
+how much is the usage of the
+
+01:50:07.500 --> 01:50:09.500
+application on the server
+
+01:50:09.500 --> 01:50:11.500
+how much is the usage of the CPU
+
+01:50:11.500 --> 01:50:13.500
+how many are the API calls
+
+01:50:13.500 --> 01:50:15.500
+is there any error
+
+01:50:15.500 --> 01:50:17.500
+from the API
+
+01:50:17.500 --> 01:50:19.500
+you monitor all these things
+
+01:50:19.500 --> 01:50:21.500
+so finally
+
+01:50:21.500 --> 01:50:23.500
+what are the steps in deployment
+
+01:50:23.500 --> 01:50:25.500
+first you will serve
+
+01:50:25.500 --> 01:50:27.500
+ok, after that
+
+01:50:27.500 --> 01:50:29.500
+you will make a box
+
+01:50:29.500 --> 01:50:31.500
+you will automate the way to make that box
+
+01:50:31.500 --> 01:50:33.500
+I made it manually
+
+01:50:33.500 --> 01:50:35.500
+now I don't have to make it manually again and again
+
+01:50:35.500 --> 01:50:37.500
+now I have automated
+
+01:50:37.500 --> 01:50:39.500
+after that I will deploy
+
+01:50:39.500 --> 01:50:41.500
+and finally I will monitor
+
+01:50:41.500 --> 01:50:43.500
+where I will trace at the level of LLM
+
+01:50:43.500 --> 01:50:45.500
+and I will monitor the infrastructure
+
+01:50:45.500 --> 01:50:47.500
+which is my server
+
+01:50:47.500 --> 01:50:49.500
+and this is your
+
+01:50:49.500 --> 01:50:51.500
+complete LLM ops lifecycle
+
+01:50:51.500 --> 01:50:53.500
+and these are the steps
+
+01:50:53.500 --> 01:50:55.500
+we will be reading in this course
+
+01:50:55.500 --> 01:50:57.500
+first tell me
+
+01:50:57.500 --> 01:50:59.500
+is it clear
+
+01:50:59.500 --> 01:51:01.500
+clear
+
+01:51:01.500 --> 01:51:03.500
+is it fun
+
+01:51:03.500 --> 01:51:05.500
+interested
+
+01:51:05.500 --> 01:51:07.500
+right
+
+01:51:07.500 --> 01:51:09.500
+right
+
+01:51:09.500 --> 01:51:11.500
+I wanted you to
+
+01:51:11.500 --> 01:51:13.500
+be hooked up
+
+01:51:13.500 --> 01:51:15.500
+yes, it should be fun
+
+01:51:15.500 --> 01:51:17.500
+yes, cloud part will be covered
+
+01:51:17.500 --> 01:51:19.500
+cloud deployment is written here
+
+01:51:19.500 --> 01:51:21.500
+where will you deploy, we will do it on the graph
+
+01:51:21.500 --> 01:51:23.500
+we will do it on the cloud
+
+01:51:23.500 --> 01:51:25.500
+AWS
+
+01:51:25.500 --> 01:51:27.500
+AWS
+
+01:51:27.500 --> 01:51:29.500
+AWS
+
+01:51:29.500 --> 01:51:31.500
+no problem, I will teach you
+
+01:51:31.500 --> 01:51:33.500
+AWS
+
+01:51:33.500 --> 01:51:35.500
+whoever is new
+
+01:51:35.500 --> 01:51:37.500
+I understood
+
+01:51:37.500 --> 01:51:39.500
+most of you have never touched ML Ops
+
+01:51:45.500 --> 01:51:47.500
+Sir
+
+01:51:47.500 --> 01:51:49.500
+you
+
+01:51:49.500 --> 01:51:51.500
+the lecture goes so far that I will not take it fun
+
+01:51:51.500 --> 01:51:53.500
+great
+
+01:51:53.500 --> 01:51:55.500
+great
+
+01:51:55.500 --> 01:51:57.500
+great
+
+01:51:57.500 --> 01:51:59.500
+I have one request
+
+01:51:59.500 --> 01:52:01.500
+from you all
+
+01:52:01.500 --> 01:52:03.500
+how much time
+
+01:52:03.500 --> 01:52:05.500
+takes to complete one cycle
+
+01:52:05.500 --> 01:52:07.500
+Shivani
+
+01:52:07.500 --> 01:52:09.500
+you are asking about the actual timeline
+
+01:52:09.500 --> 01:52:11.500
+or our course
+
+01:52:11.500 --> 01:52:13.500
+all the modules in our course
+
+01:52:13.500 --> 01:52:15.500
+where we will face learning
+
+01:52:15.500 --> 01:52:17.500
+till then it will be a cycle
+
+01:52:17.500 --> 01:52:19.500
+hmm
+
+01:52:19.500 --> 01:52:21.500
+hmm
+
+01:52:23.500 --> 01:52:25.500
+I didn't understand the actual timeline
+
+01:52:25.500 --> 01:52:27.500
+I didn't understand your question
+
+01:52:27.500 --> 01:52:29.500
+how much time
+
+01:52:29.500 --> 01:52:31.500
+it takes to complete an application
+
+01:52:31.500 --> 01:52:33.500
+it depends on the
+
+01:52:33.500 --> 01:52:35.500
+size of the team, it depends on your application
+
+01:52:35.500 --> 01:52:37.500
+complexity
+
+01:52:37.500 --> 01:52:39.500
+it depends on many things
+
+01:52:39.500 --> 01:52:41.500
+infrastructure availability
+
+01:52:41.500 --> 01:52:43.500
+cost availability
+
+01:52:45.500 --> 01:52:47.500
+yes, twice a week
+
+01:52:47.500 --> 01:52:49.500
+Monday and Thursday
+
+01:52:49.500 --> 01:52:51.500
+this is the schedule for this month
+
+01:52:51.500 --> 01:52:53.500
+Monday and Thursday will be your LLM Ops session
+
+01:52:55.500 --> 01:52:57.500
+how many hours
+
+01:52:57.500 --> 01:52:59.500
+class will be?
+
+01:52:59.500 --> 01:53:01.500
+2 hours, I know time is up
+
+01:53:03.500 --> 01:53:05.500
+hmm
+
+01:53:05.500 --> 01:53:07.500
+because of the system
+
+01:53:07.500 --> 01:53:09.500
+guys there is no issue
+
+01:53:09.500 --> 01:53:11.500
+of handwriting because
+
+01:53:11.500 --> 01:53:13.500
+I am getting some issue of drivers
+
+01:53:13.500 --> 01:53:15.500
+because of my writing pad
+
+01:53:15.500 --> 01:53:17.500
+do you want these notes?
+
+01:53:17.500 --> 01:53:19.500
+because I am scribbling
+
+01:53:19.500 --> 01:53:21.500
+if you want
+
+01:53:21.500 --> 01:53:23.500
+I can generate better notes
+
+01:53:23.500 --> 01:53:25.500
+from transcript
+
+01:53:25.500 --> 01:53:27.500
+if you want
+
+01:53:29.500 --> 01:53:31.500
+I would suggest that you take
+
+01:53:31.500 --> 01:53:33.500
+structure notes
+
+01:53:35.500 --> 01:53:37.500
+I am not promising
+
+01:53:37.500 --> 01:53:39.500
+detailed notes
+
+01:53:39.500 --> 01:53:41.500
+but yes, as much as a brief overview
+
+01:53:41.500 --> 01:53:43.500
+of my lecture
+
+01:53:43.500 --> 01:53:45.500
+you can understand what is discussed in the lecture
+
+01:53:45.500 --> 01:53:47.500
+like this is scribbling
+
+01:53:47.500 --> 01:53:49.500
+what do you understand from this
+
+01:53:49.500 --> 01:53:51.500
+you will understand this much from structure notes
+
+01:53:53.500 --> 01:53:55.500
+rough note will be easy
+
+01:53:55.500 --> 01:53:57.500
+so I will share both
+
+01:53:57.500 --> 01:53:59.500
+I will share both
+
+01:53:59.500 --> 01:54:01.500
+don't worry
+
+01:54:03.500 --> 01:54:05.500
+timings will be 8 to 10
+
+01:54:09.500 --> 01:54:11.500
+now let's do one thing
+
+01:54:11.500 --> 01:54:13.500
+it is already 10
+
+01:54:13.500 --> 01:54:15.500
+let's discuss this
+
+01:54:15.500 --> 01:54:17.500
+tools and tech stack
+
+01:54:17.500 --> 01:54:19.500
+and then
+
+01:54:19.500 --> 01:54:21.500
+we will discuss this part later
+
+01:54:21.500 --> 01:54:23.500
+or else we can do this later
+
+01:54:23.500 --> 01:54:25.500
+if you want
+
+01:54:25.500 --> 01:54:27.500
+because it will take
+
+01:54:27.500 --> 01:54:29.500
+around 15-20 minutes
+
+01:54:33.500 --> 01:54:35.500
+do you want to do it now
+
+01:54:35.500 --> 01:54:37.500
+or Thursday
+
+01:54:37.500 --> 01:54:39.500
+it is getting heavy, do you want to do it later?
+
+01:54:39.500 --> 01:54:41.500
+no problem because
+
+01:54:41.500 --> 01:54:43.500
+I want you to learn here
+
+01:54:43.500 --> 01:54:45.500
+if things are not
+
+01:54:45.500 --> 01:54:47.500
+being covered
+
+01:54:47.500 --> 01:54:49.500
+I will take more classes
+
+01:54:49.500 --> 01:54:51.500
+but our goal on campus x
+
+01:54:51.500 --> 01:54:53.500
+is that you understand things
+
+01:54:55.500 --> 01:54:57.500
+quick feedback guys
+
+01:54:57.500 --> 01:54:59.500
+how was today's session
+
+01:54:59.500 --> 01:55:01.500
+rate this session out of 5
+
+01:55:01.500 --> 01:55:03.500
+how was the session
+
+01:55:03.500 --> 01:55:05.500
+11
+
+01:55:05.500 --> 01:55:07.500
+out of 500
+
+01:55:07.500 --> 01:55:09.500
+5 out of 5
+
+01:55:09.500 --> 01:55:11.500
+thanks
+
+01:55:13.500 --> 01:55:15.500
+you are very calm
+
+01:55:15.500 --> 01:55:17.500
+ask Ajay sir
+
+01:55:17.500 --> 01:55:19.500
+I am not calm
+
+01:55:19.500 --> 01:55:21.500
+recordings will be there
+
+01:55:21.500 --> 01:55:23.500
+maybe tomorrow
+
+01:55:23.500 --> 01:55:25.500
+it takes some time to process
+
+01:55:25.500 --> 01:55:27.500
+pacing is perfect
+
+01:55:27.500 --> 01:55:29.500
+I will try to improve the pacing
+
+01:55:29.500 --> 01:55:31.500
+today was first lecture and I am struggling with the system
+
+01:55:31.500 --> 01:55:33.500
+system is good
+
+01:55:33.500 --> 01:55:35.500
+but my muscle memory
+
+01:55:35.500 --> 01:55:37.500
+is not good
+
+01:55:37.500 --> 01:55:39.500
+I am struggling
+
+01:55:39.500 --> 01:55:41.500
+with Windows
+
+01:55:47.500 --> 01:55:49.500
+some of the things
+
+01:55:49.500 --> 01:55:51.500
+will feel slow
+
+01:55:51.500 --> 01:55:53.500
+because we are building
+
+01:55:53.500 --> 01:55:55.500
+the application
+
+01:55:55.500 --> 01:55:57.500
+and we are learning about the concepts
+
+01:55:57.500 --> 01:55:59.500
+you will feel
+
+01:55:59.500 --> 01:56:01.500
+micro-slop
+
+01:56:01.500 --> 01:56:03.500
+that's why I left micro-slop
+
+01:56:05.500 --> 01:56:07.500
+I will take your questions guys
+
+01:56:07.500 --> 01:56:09.500
+we will discuss other things
+
+01:56:09.500 --> 01:56:11.500
+in the next session
+
+01:56:13.500 --> 01:56:15.500
+which notes
+
+01:56:15.500 --> 01:56:17.500
+these notes
+
+01:56:17.500 --> 01:56:19.500
+I will share them on your dashboard tomorrow morning
+
+01:56:19.500 --> 01:56:21.500
+as soon as you have the lecture
+
+01:56:21.500 --> 01:56:23.500
+these notes will come to you
+
+01:56:27.500 --> 01:56:29.500
+I am 10 minutes more
+
+01:56:29.500 --> 01:56:31.500
+I will take your questions
+
+01:56:31.500 --> 01:56:33.500
+5-10 minutes and then we will close the session
+
+01:56:35.500 --> 01:56:37.500
+which notes are you talking about
+
+01:56:37.500 --> 01:56:39.500
+I will scribble
+
+01:56:39.500 --> 01:56:41.500
+on the screen
+
+01:56:41.500 --> 01:56:43.500
+yes
+
+01:56:43.500 --> 01:56:45.500
+this is below your video
+
+01:56:45.500 --> 01:56:47.500
+in the description
+
+01:56:47.500 --> 01:56:49.500
+its link will be added
+
+01:56:49.500 --> 01:56:51.500
+great
+
+01:56:51.500 --> 01:56:53.500
+if it feels like this
+
+01:56:53.500 --> 01:56:55.500
+it's a very big compliment guys
+
+01:56:55.500 --> 01:56:57.500
+if you feel like a insider
+
+01:56:57.500 --> 01:56:59.500
+then you are very good
+
+01:56:59.500 --> 01:57:01.500
+I will take your questions
+
+01:57:01.500 --> 01:57:03.500
+I will answer them
+
+01:57:03.500 --> 01:57:05.500
+if you feel like a insider
+
+01:57:05.500 --> 01:57:07.500
+then
+
+01:57:09.500 --> 01:57:11.500
+everyone has hard work
+
+01:57:11.500 --> 01:57:13.500
+especially Nidhi sir
+
+01:57:13.500 --> 01:57:15.500
+he has planned everything
+
+01:57:15.500 --> 01:57:17.500
+planning is the most difficult thing
+
+01:57:17.500 --> 01:57:19.500
+he has planned all these things
+
+01:57:19.500 --> 01:57:21.500
+earlier this session was
+
+01:57:21.500 --> 01:57:23.500
+planned to be recorded
+
+01:57:23.500 --> 01:57:25.500
+but he said let's take it live
+
+01:57:27.500 --> 01:57:29.500
+if you have the money then thanks
+
+01:57:29.500 --> 01:57:31.500
+thanks
+
+01:57:33.500 --> 01:57:35.500
+open source model
+
+01:57:35.500 --> 01:57:37.500
+on our local server
+
+01:57:37.500 --> 01:57:39.500
+no, this is not a model based
+
+01:57:39.500 --> 01:57:41.500
+deployment
+
+01:57:41.500 --> 01:57:43.500
+as I told you this is application based
+
+01:57:43.500 --> 01:57:45.500
+and we will not use open source
+
+01:57:45.500 --> 01:57:47.500
+models here
+
+01:57:47.500 --> 01:57:49.500
+we will use a paid API key
+
+01:57:49.500 --> 01:57:51.500
+because again
+
+01:57:51.500 --> 01:57:53.500
+our focus here is
+
+01:57:53.500 --> 01:57:55.500
+LLMops
+
+01:57:55.500 --> 01:57:57.500
+pipeline, we have to learn this workflow
+
+01:57:57.500 --> 01:57:59.500
+and already we have many
+
+01:57:59.500 --> 01:58:01.500
+tools
+
+01:58:01.500 --> 01:58:03.500
+to learn
+
+01:58:03.500 --> 01:58:05.500
+so if we
+
+01:58:05.500 --> 01:58:07.500
+deploy an open source model
+
+01:58:07.500 --> 01:58:09.500
+then it will be a different
+
+01:58:09.500 --> 01:58:11.500
+problem
+
+01:58:11.500 --> 01:58:13.500
+I don't want that
+
+01:58:15.500 --> 01:58:17.500
+already we don't make things more complex
+
+01:58:17.500 --> 01:58:19.500
+we will work with the
+
+01:58:19.500 --> 01:58:21.500
+open AI models
+
+01:58:23.500 --> 01:58:25.500
+and trust me guys
+
+01:58:25.500 --> 01:58:27.500
+if you use small models
+
+01:58:27.500 --> 01:58:29.500
+then you can get off
+
+01:58:29.500 --> 01:58:31.500
+your use for 3-4 months
+
+01:58:33.500 --> 01:58:35.500
+so if you are spending 300-400
+
+01:58:35.500 --> 01:58:37.500
+for 4 months then I don't think that's
+
+01:58:37.500 --> 01:58:39.500
+a lot
+
+01:58:39.500 --> 01:58:41.500
+it's not that much
+
+01:58:41.500 --> 01:58:43.500
+you can easily take it up
+
+01:58:43.500 --> 01:58:45.500
+to 6-7 months also
+
+01:58:45.500 --> 01:58:47.500
+50 rupees a month
+
+01:58:47.500 --> 01:58:49.500
+guide me where I can learn these things
+
+01:58:49.500 --> 01:58:51.500
+which things?
+
+01:58:51.500 --> 01:58:53.500
+Aditya
+
+01:58:53.500 --> 01:58:55.500
+the whole
+
+01:58:55.500 --> 01:58:57.500
+Agno is complete
+
+01:58:57.500 --> 01:58:59.500
+yes, that's it
+
+01:58:59.500 --> 01:59:01.500
+use it properly
+
+01:59:01.500 --> 01:59:03.500
+if you leave it
+
+01:59:03.500 --> 01:59:05.500
+then it will be spent
+
+01:59:05.500 --> 01:59:07.500
+again in LLMops
+
+01:59:07.500 --> 01:59:09.500
+we will learn this too
+
+01:59:09.500 --> 01:59:11.500
+this is a good tool
+
+01:59:11.500 --> 01:59:13.500
+if you are using it
+
+01:59:13.500 --> 01:59:15.500
+then you can get off
+
+01:59:15.500 --> 01:59:17.500
+again in LLMops we will learn
+
+01:59:17.500 --> 01:59:19.500
+how to save costs
+
+01:59:23.500 --> 01:59:25.500
+yes it is
+
+01:59:25.500 --> 01:59:27.500
+conceptual overlaps are there
+
+01:59:27.500 --> 01:59:29.500
+we will read this on Thursday
+
+01:59:31.500 --> 01:59:33.500
+yes they will run in parallel
+
+01:59:33.500 --> 01:59:35.500
+we will take the neti sir
+
+01:59:37.500 --> 01:59:39.500
+there you will read everything
+
+01:59:39.500 --> 01:59:41.500
+in LLM eval
+
+01:59:41.500 --> 01:59:43.500
+here we will read application specific
+
+01:59:43.500 --> 01:59:45.500
+like
+
+01:59:45.500 --> 01:59:47.500
+rack application specific
+
+01:59:47.500 --> 01:59:49.500
+for our lectures
+
+01:59:49.500 --> 01:59:51.500
+and agentic application specific
+
+01:59:57.500 --> 01:59:59.500
+one more thing
+
+01:59:59.500 --> 02:00:01.500
+when I will be explaining
+
+02:00:01.500 --> 02:00:03.500
+topics
+
+02:00:03.500 --> 02:00:05.500
+I will write the code live
+
+02:00:05.500 --> 02:00:07.500
+whereas when we will build
+
+02:00:07.500 --> 02:00:09.500
+some major then I will write the code
+
+02:00:09.500 --> 02:00:11.500
+because debugging
+
+02:00:11.500 --> 02:00:13.500
+or typing takes a lot of time
+
+02:00:13.500 --> 02:00:15.500
+so we will not do that
+
+02:00:15.500 --> 02:00:17.500
+ok
+
+02:00:17.500 --> 02:00:19.500
+you will explain concepts
+
+02:00:19.500 --> 02:00:21.500
+I will show you the basic code live
+
+02:00:21.500 --> 02:00:23.500
+like if you are learning a tool
+
+02:00:23.500 --> 02:00:25.500
+then it will be live
+
+02:00:25.500 --> 02:00:27.500
+yes sir
+
+02:00:27.500 --> 02:00:29.500
+is telling
+
+02:00:29.500 --> 02:00:31.500
+you can do google console project
+
+02:00:31.500 --> 02:00:33.500
+sir has a lot of ideas
+
+02:00:33.500 --> 02:00:35.500
+sir is crazy about Gemini
+
+02:00:35.500 --> 02:00:37.500
+he uses it all day
+
+02:00:37.500 --> 02:00:39.500
+so if you have any doubt related to Gemini
+
+02:00:39.500 --> 02:00:41.500
+then ask sir
+
+02:00:49.500 --> 02:00:51.500
+in our team everyone has their
+
+02:00:51.500 --> 02:00:53.500
+favorite providers
+
+02:00:53.500 --> 02:00:55.500
+Ajay sir's Gemini, Niti sir's
+
+02:00:55.500 --> 02:00:57.500
+Open AI and mine is
+
+02:00:57.500 --> 02:00:59.500
+Anthropic
+
+02:01:03.500 --> 02:01:05.500
+so when we will cover
+
+02:01:05.500 --> 02:01:07.500
+AWS section
+
+02:01:07.500 --> 02:01:09.500
+then I will tell you
+
+02:01:09.500 --> 02:01:11.500
+here it is listed
+
+02:01:11.500 --> 02:01:13.500
+these components will be
+
+02:01:13.500 --> 02:01:15.500
+EC2, Code Deploy
+
+02:01:15.500 --> 02:01:17.500
+Load Balancers
+
+02:01:17.500 --> 02:01:19.500
+Auto Scaling Groups
+
+02:01:19.500 --> 02:01:21.500
+Secrets Manager
+
+02:01:21.500 --> 02:01:23.500
+rest of the things can be add-ons
+
+02:01:23.500 --> 02:01:25.500
+yes he is
+
+02:01:31.500 --> 02:01:33.500
+and hats off to him
+
+02:01:33.500 --> 02:01:35.500
+I get a lot of help
+
+02:01:37.500 --> 02:01:39.500
+any more questions guys
+
+02:01:39.500 --> 02:01:41.500
+will you get certification
+
+02:01:41.500 --> 02:01:43.500
+Niti sir told in orientation
+
+02:01:43.500 --> 02:01:45.500
+lecture that you will get certification
+
+02:01:55.500 --> 02:01:57.500
+on Azure 2 you can cover it
+
+02:01:57.500 --> 02:01:59.500
+from your end
+
+02:01:59.500 --> 02:02:01.500
+see concepts are same
+
+02:02:01.500 --> 02:02:03.500
+as I told you our LLM Ops
+
+02:02:03.500 --> 02:02:05.500
+journey will be about
+
+02:02:05.500 --> 02:02:07.500
+why we are doing
+
+02:02:07.500 --> 02:02:09.500
+a particular step
+
+02:02:09.500 --> 02:02:11.500
+now how to do it
+
+02:02:11.500 --> 02:02:13.500
+same in AWS and Azure
+
+02:02:13.500 --> 02:02:15.500
+some terminology will be different
+
+02:02:15.500 --> 02:02:17.500
+some components name will be different
+
+02:02:17.500 --> 02:02:19.500
+some method of doing it will be different
+
+02:02:19.500 --> 02:02:21.500
+so I would suggest you explore it
+
+02:02:29.500 --> 02:02:31.500
+like on AWS
+
+02:02:31.500 --> 02:02:33.500
+Elastic Load Balancer
+
+02:02:33.500 --> 02:02:35.500
+so maybe in Azure
+
+02:02:35.500 --> 02:02:37.500
+load balancer name will be different
+
+02:02:37.500 --> 02:02:39.500
+but load balancer will work
+
+02:02:39.500 --> 02:02:41.500
+so setting it up
+
+02:02:41.500 --> 02:02:43.500
+may be different
+
+02:02:43.500 --> 02:02:45.500
+that's the difference
+
+02:02:45.500 --> 02:02:47.500
+again focus on
+
+02:02:47.500 --> 02:02:49.500
+concepts
+
+02:02:49.500 --> 02:02:51.500
+don't focus on tools
+
+02:02:51.500 --> 02:02:53.500
+whatever you read, read tool agnostic
+
+02:02:53.500 --> 02:02:55.500
+read LLM Ops
+
+02:02:55.500 --> 02:02:57.500
+application
+
+02:02:57.500 --> 02:02:59.500
+development
+
+02:02:59.500 --> 02:03:01.500
+read tool agnostic
+
+02:03:01.500 --> 02:03:03.500
+keep going
+
+02:03:31.500 --> 02:03:33.500
+I think
+
+02:03:33.500 --> 02:03:35.500
+that's it, I am closing off the session
+
+02:03:35.500 --> 02:03:37.500
+now
+
+02:03:37.500 --> 02:03:39.500
+can you please turn off the recording
+
+02:03:39.500 --> 02:03:41.500
+I don't know
+
+02:03:41.500 --> 02:03:43.500
+will it save or not
+
+02:03:45.500 --> 02:03:47.500
+let me see if I can close it
+
+02:03:47.500 --> 02:03:49.500
+I will close it
+
