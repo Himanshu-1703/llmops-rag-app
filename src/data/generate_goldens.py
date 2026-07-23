@@ -40,9 +40,11 @@ evolution_config = EvolutionConfig(
 
 context_config = ContextConstructionConfig(
     critic_model="gpt-5.4-mini",
-    max_contexts_per_document=2,
+    max_contexts_per_document=1,
     context_quality_threshold=0.7,
-    max_retries=2
+    max_retries=2,
+    chunk_size=300,
+    chunk_overlap=30
 )
 
 # create the synthesizer
@@ -55,12 +57,12 @@ synthesizer = Synthesizer(
 # generate the goldens
 goldens = synthesizer.generate_goldens_from_docs(
     document_paths=get_docs_path(DOCS_PATH),
-    max_goldens_per_context=3,
+    max_goldens_per_context=1,
     context_construction_config=context_config)
 
 # save the goldens
 synthesizer.save_as(
     file_type="json",
     directory=GOLDENS_DIR.as_posix(),
-    file_name="golden_dataset"
+    file_name="golden_dataset_final"
 )

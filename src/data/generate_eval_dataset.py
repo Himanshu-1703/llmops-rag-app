@@ -11,7 +11,7 @@ load_dotenv()
 # create paths
 ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 
-GOLDENS_PATH = ROOT_DIR / "data" / "evaluation" / "goldens" / "golden_dataset.json"
+GOLDENS_PATH = ROOT_DIR / "data" / "evaluation" / "goldens" / "golden_dataset_final.json"
 EVALUATION_DATA_DIR = ROOT_DIR / "data" / "evaluation" / "eval_dataset"
 
 # create dir
@@ -37,6 +37,6 @@ for golden in golden_dataset.goldens:
 eval_dataset.save_as(
     file_type="json",
     directory=EVALUATION_DATA_DIR,
-    file_name="evaluation_dataset",
+    file_name="evaluation_dataset_final",
     include_test_cases=True
 )

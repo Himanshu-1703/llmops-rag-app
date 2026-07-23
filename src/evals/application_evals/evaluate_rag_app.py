@@ -24,9 +24,7 @@ recall = ContextualRecallMetric(model=model)
 precision = ContextualPrecisionMetric(model=model)
 contextual_relevancy = ContextualRelevancyMetric(model=model)
 answer_relevancy = AnswerRelevancyMetric(model=model)
-faithfulness = FaithfulnessMetric(truths_extraction_limit=5,
-                                  penalize_ambiguous_claims=True,
-                                  model=model)
+faithfulness = FaithfulnessMetric(model=model)
 
 # define the custom metrics
 answer_correctness = GEval(
@@ -59,7 +57,7 @@ simple_explanation = GEval(
 
 # define the dataset path
 ROOT_DIR = Path(__file__).resolve().parent.parent.parent.parent
-DATASET_PATH = ROOT_DIR / "data" / "evaluation" / "eval_dataset" / "evaluation_dataset.json"
+DATASET_PATH = ROOT_DIR / "data" / "evaluation" / "eval_dataset" / "evaluation_dataset_final.json"
 
 if DATASET_PATH.exists():
     # load the dataset
@@ -92,5 +90,4 @@ if DATASET_PATH.exists():
              display_config=DisplayConfig(results_folder=(ROOT_DIR / "reports" / "evaluation_results").as_posix(),
                                           file_type="md",
                                           file_output_dir=(ROOT_DIR / "reports" / "evaluation_report").as_posix()),
-             cache_config=CacheConfig(write_cache=True, use_cache=True)
     )

@@ -8,3 +8,4 @@ chromadb
 python-dotenv
 langgraph
 ipykernel
+langfuse

@@ -25,8 +25,8 @@ embedder = OpenAIEmbeddings(model="text-embedding-3-small",
                             dimensions=1024) # 1536
 
 
-chunk_size = 1024
-chunk_overlap = 0
+chunk_size = 300
+chunk_overlap = 30
 
 # load and update knowledge base
 def upsert_documents(chunk_size: int, chunk_overlap: int):
