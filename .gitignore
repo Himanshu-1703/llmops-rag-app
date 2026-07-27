@@ -222,3 +222,10 @@ __marimo__/
 
 # claude
 CLAUDE.md
+
+# mlflow
+mlflow.db
+mlartifacts/
+
+# deepeval
+.deepeval/

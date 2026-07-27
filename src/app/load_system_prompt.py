@@ -9,7 +9,7 @@ langfuse = get_client()
 system_prompt = langfuse.get_prompt(
     name="rag_app_system_prompt",
     type="text",
-    label="latest"
+    label="staging"
 )
 
 print(system_prompt.version)

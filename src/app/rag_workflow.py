@@ -9,6 +9,17 @@ from typing import TypedDict
 from langchain_core.output_parsers import StrOutputParser
 from pathlib import Path
 from dotenv import load_dotenv
+from langfuse import get_client
+
+# langfuse client
+langfuse = get_client()
+
+# load system prompt
+system_prompt = langfuse.get_prompt(
+    name="rag_app_system_prompt",
+    type="text",
+    label="staging"
+)
 
 
 # load the api keys
@@ -101,9 +112,7 @@ def retrieve(state: RAGState) -> dict:
 def augmentation(state: RAGState) -> dict:
 
     prompt = ChatPromptTemplate.from_messages([
-        ("system", """You are a helpful assistant. Answer the user query
-                      based on the given context only. If you do not know the answer
-                      say I don't know. Do not add any preamble to the response"""),
+        ("system", system_prompt.prompt),
         ("human", "context: {context}\n\nquery: {query}")
     ])
     

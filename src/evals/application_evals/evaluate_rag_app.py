@@ -10,7 +10,7 @@ from deepeval.evaluate import evaluate
 from deepeval.metrics.g_eval import Rubric
 from deepeval.test_case.llm_test_case import SingleTurnParams
 from deepeval.dataset.dataset import EvaluationDataset
-from deepeval.evaluate.configs import AsyncConfig, DisplayConfig, CacheConfig
+from deepeval.evaluate.configs import AsyncConfig, DisplayConfig
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -89,5 +89,5 @@ if DATASET_PATH.exists():
                                       max_concurrent=5),
              display_config=DisplayConfig(results_folder=(ROOT_DIR / "reports" / "evaluation_results").as_posix(),
                                           file_type="md",
-                                          file_output_dir=(ROOT_DIR / "reports" / "evaluation_report").as_posix()),
+                                          file_output_dir=(ROOT_DIR / "reports" / "evaluation_report").as_posix())
     )
