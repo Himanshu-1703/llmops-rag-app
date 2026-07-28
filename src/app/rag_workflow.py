@@ -11,6 +11,10 @@ from pathlib import Path
 from dotenv import load_dotenv
 from langfuse import get_client
 
+# load the api keys
+load_dotenv()
+
+
 # langfuse client
 langfuse = get_client()
 
@@ -21,9 +25,6 @@ system_prompt = langfuse.get_prompt(
     label="staging"
 )
 
-
-# load the api keys
-load_dotenv()
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 PROCESSED_TRANSCRIPTS_DIR = REPO_ROOT / "data" / "processed"

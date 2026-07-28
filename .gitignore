@@ -226,6 +226,3 @@ CLAUDE.md
 # mlflow
 mlflow.db
 mlartifacts/
-
-# deepeval
-.deepeval/
