@@ -3,6 +3,10 @@ from deepeval.synthesizer.config import EvolutionConfig, FiltrationConfig, Conte
 from deepeval.synthesizer.types import Evolution
 from dotenv import load_dotenv
 from pathlib import Path
+from config.parameter_config import params_config
+
+# load golden dataset params
+golden_params = params_config.golden_dataset
 
 # load the api keys
 load_dotenv()
@@ -21,35 +25,41 @@ def get_docs_path(directory_path: Path | str) -> list[str]:
         paths = directory_path.glob("*.txt")
     return [path.as_posix() for path in paths]
 
+
+# load the config parameters
+filtration_params = golden_params.filtration_config
+context_construction_params = golden_params.context_construction_config
+evolution_params = golden_params.evolution_config
+
 # create the configs
 filtration_config = FiltrationConfig(
-    synthetic_input_quality_threshold=0.6,
-    max_quality_retries=2,
-    critic_model="gpt-5-mini",
+    synthetic_input_quality_threshold=filtration_params.filtration_threshold,
+    max_quality_retries=filtration_params.max_quality_retries,
+    critic_model=filtration_params.filtration_critic_model,
 )
 
 evolution_config = EvolutionConfig(
-    num_evolutions=2,
+    num_evolutions=evolution_params.num_evolutions,
     evolutions={
-        Evolution.MULTICONTEXT: 0.1,
-        Evolution.CONCRETIZING: 0.3,
-        Evolution.CONSTRAINED: 0.4,
-        Evolution.COMPARATIVE: 0.2
+        Evolution.MULTICONTEXT: evolution_params.evolutions["multicontext"],
+        Evolution.CONCRETIZING: evolution_params.evolutions["concretizing"],
+        Evolution.CONSTRAINED: evolution_params.evolutions["constrained"],
+        Evolution.COMPARATIVE: evolution_params.evolutions["comparative"]
     }
 )
 
 context_config = ContextConstructionConfig(
-    critic_model="gpt-5.4-mini",
-    max_contexts_per_document=1,
-    context_quality_threshold=0.7,
-    max_retries=2,
-    chunk_size=300,
-    chunk_overlap=30
+    critic_model=context_construction_params.context_critic_model,
+    max_contexts_per_document=context_construction_params.max_contexts_per_document,
+    context_quality_threshold=context_construction_params.context_threshold,
+    max_retries=context_construction_params.max_context_retries,
+    chunk_size=context_construction_params.context_chunk_size,
+    chunk_overlap=context_construction_params.context_chunk_overlap
 )
 
 # create the synthesizer
 synthesizer = Synthesizer(
-    model="gpt-5.4-mini",
+    model=golden_params.dataset_model,
     filtration_config=filtration_config,
     evolution_config=evolution_config
 )
@@ -57,12 +67,12 @@ synthesizer = Synthesizer(
 # generate the goldens
 goldens = synthesizer.generate_goldens_from_docs(
     document_paths=get_docs_path(DOCS_PATH),
-    max_goldens_per_context=1,
+    max_goldens_per_context=golden_params.max_goldens_per_context,
     context_construction_config=context_config)
 
 # save the goldens
 synthesizer.save_as(
     file_type="json",
     directory=GOLDENS_DIR.as_posix(),
-    file_name="golden_dataset_final"
+    file_name=golden_params.golden_dataset_filename
 )

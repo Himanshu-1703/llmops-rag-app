@@ -4,7 +4,10 @@ from dotenv import load_dotenv
 from pathlib import Path
 from logging import getLogger, StreamHandler, Formatter, INFO
 from app.rag_workflow import graph
+from config.parameter_config import params_config
 
+# load evaluation dataset params
+evaluation_dataset_params = params_config.evaluation_dataset
 
 # load the api keys
 load_dotenv()
@@ -49,6 +52,6 @@ for count, golden in enumerate(golden_dataset.goldens, 1):
 eval_dataset.save_as(
     file_type="json",
     directory=EVALUATION_DATA_DIR,
-    file_name="evaluation_dataset_final",
+    file_name=evaluation_dataset_params.evaluation_dataset_filename,
     include_test_cases=True
 )

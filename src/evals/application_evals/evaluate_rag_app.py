@@ -13,11 +13,17 @@ from deepeval.dataset.dataset import EvaluationDataset
 from deepeval.evaluate.configs import AsyncConfig, DisplayConfig
 from pathlib import Path
 from dotenv import load_dotenv
+from config.parameter_config import params_config
+
+# load the evaluation params
+evalutaion_params = params_config.evaluation
+async_params = evalutaion_params.async_config
+display_params = evalutaion_params.display_config
 
 # load the api keys
 load_dotenv()
 
-model = "gpt-5.4-mini"
+model = evalutaion_params.judge_llm
 
 # define the metrics
 recall = ContextualRecallMetric(model=model)
@@ -85,9 +91,10 @@ if DATASET_PATH.exists():
                       contextual_relevancy,
                       answer_correctness,
                       simple_explanation],
-             async_config=AsyncConfig(throttle_value=3,
-                                      max_concurrent=5),
-             display_config=DisplayConfig(results_folder=(ROOT_DIR / "reports" / "evaluation_results").as_posix(),
+             async_config=AsyncConfig(throttle_value=async_params.throttle_value,
+                                      max_concurrent=async_params.max_concurrent),
+             display_config=DisplayConfig(results_folder=(ROOT_DIR / "reports" / display_params.results_dir).as_posix(),
                                           file_type="md",
-                                          file_output_dir=(ROOT_DIR / "reports" / "evaluation_report").as_posix())
+                                          file_output_dir=(ROOT_DIR / "reports" / display_params.report_dir).as_posix())
     )
+    

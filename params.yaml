@@ -1,0 +1,53 @@
+# application parameters
+rag_app:
+  prompt_label: latest
+  llm: gemini-3.5-flash
+  embedding_model: text-embedding-3-small
+  embedding_dimensions: 1024
+  chunk_size: 300
+  chunk_overlap: 30
+  tokenizer_encoding: o200k_base
+  collection_name: rag_demo
+  search_type: similarity
+  k: 3
+
+# golden dataset
+golden_dataset:
+  dataset_model: gpt-5.4-mini
+  max_goldens_per_context: 1
+  golden_dataset_filename: golden_dataset_final
+  filtration_config:
+    filtration_threshold: 0.6
+    max_quality_retries: 2
+    filtration_critic_model: gpt-5-mini
+  evolution_config:
+    num_evolutions: 2
+    evolutions:
+      multicontext: 0.1
+      concretizing: 0.3
+      constrained: 0.4
+      comparative: 0.2
+  context_construction_config:
+    context_critic_model: gpt-5.4-mini
+    max_contexts_per_document: 1
+    context_threshold: 0.7
+    max_context_retries: 2
+    context_chunk_size: 300
+    context_chunk_overlap: 30
+
+# evaluation dataset
+evaluation_dataset:
+  evaluation_dataset_filename: evaluation_dataset_final
+
+# evaluation
+evaluation:
+  judge_llm: gpt-5.4-mini
+  async_config:
+    throttle_value: 3
+    max_concurrent: 5
+  display_config:
+    results_dir: evaluation_results
+    report_dir: evaluation_report
+
+
+
