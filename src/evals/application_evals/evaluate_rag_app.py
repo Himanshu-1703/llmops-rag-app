@@ -16,14 +16,15 @@ from dotenv import load_dotenv
 from config.parameter_config import params_config
 
 # load the evaluation params
-evalutaion_params = params_config.evaluation
-async_params = evalutaion_params.async_config
-display_params = evalutaion_params.display_config
+evaluation_params = params_config.evaluation
+async_params = evaluation_params.async_config
+display_params = evaluation_params.display_config
+evaluation_dataset_params = params_config.evaluation_dataset
 
 # load the api keys
 load_dotenv()
 
-model = evalutaion_params.judge_llm
+model = evaluation_params.judge_llm
 
 # define the metrics
 recall = ContextualRecallMetric(model=model)
@@ -61,40 +62,45 @@ simple_explanation = GEval(
     model=model
 )
 
-# define the dataset path
-ROOT_DIR = Path(__file__).resolve().parent.parent.parent.parent
-DATASET_PATH = ROOT_DIR / "data" / "evaluation" / "eval_dataset" / "evaluation_dataset_final.json"
+def evaluate_app():
 
-if DATASET_PATH.exists():
-    # load the dataset
-    dataset = EvaluationDataset()
-    
-    # load the test cases
-    dataset.add_test_cases_from_json_file(
-        file_path=DATASET_PATH,
-        input_key_name="input",
-        actual_output_key_name="actual_output",
-        expected_output_key_name="expected_output",
-        retrieval_context_key_name="retrieval_context"
-    )
-    
-    # store the test cases in a list
-    test_cases = dataset.test_cases
-    
-    
-    # evaluate the dataset
-    evaluate(test_cases=test_cases,
-             metrics=[recall,
-                      precision,
-                      answer_relevancy,
-                      faithfulness,
-                      contextual_relevancy,
-                      answer_correctness,
-                      simple_explanation],
-             async_config=AsyncConfig(throttle_value=async_params.throttle_value,
-                                      max_concurrent=async_params.max_concurrent),
-             display_config=DisplayConfig(results_folder=(ROOT_DIR / "reports" / display_params.results_dir).as_posix(),
-                                          file_type="md",
-                                          file_output_dir=(ROOT_DIR / "reports" / display_params.report_dir).as_posix())
-    )
-    
+    # define the dataset path
+    ROOT_DIR = Path(__file__).resolve().parent.parent.parent.parent
+    DATASET_PATH = (ROOT_DIR / "data" / "evaluation" / "eval_dataset" / evaluation_dataset_params.evaluation_dataset_filename).with_suffix(".json")
+
+    if DATASET_PATH.exists():
+        # load the dataset
+        dataset = EvaluationDataset()
+        
+        # load the test cases
+        dataset.add_test_cases_from_json_file(
+            file_path=DATASET_PATH,
+            input_key_name="input",
+            actual_output_key_name="actual_output",
+            expected_output_key_name="expected_output",
+            retrieval_context_key_name="retrieval_context"
+        )
+        
+        # store the test cases in a list
+        test_cases = dataset.test_cases
+        
+        
+        # evaluate the dataset
+        evaluate(test_cases=test_cases,
+                metrics=[recall,
+                        precision,
+                        answer_relevancy,
+                        faithfulness,
+                        contextual_relevancy,
+                        answer_correctness,
+                        simple_explanation],
+                async_config=AsyncConfig(throttle_value=async_params.throttle_value,
+                                        max_concurrent=async_params.max_concurrent),
+                display_config=DisplayConfig(results_folder=(ROOT_DIR / "reports" / display_params.results_dir).as_posix(),
+                                            file_type="md",
+                                            file_output_dir=(ROOT_DIR / "reports" / display_params.report_dir).as_posix())
+        )
+
+
+if __name__ == "__main__":
+    evaluate_app()
