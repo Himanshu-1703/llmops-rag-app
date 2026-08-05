@@ -166,9 +166,9 @@ if __name__ == "__main__":
         
         # log the datasets
         eval_dataset_artifact = get_artifact_name(artifact_type="eval_dataset",
-                                            artifact_dir="eval_dataset")
+                                            save_artifact_dir="eval_dataset")
         golden_dataset_artifact = get_artifact_name(artifact_type="golden_dataset",
-                                                artifact_dir="golden_dataset")
+                                                save_artifact_dir="golden_dataset")
         mlflow.log_artifact(eval_dataset_artifact[0], eval_dataset_artifact[1])
         mlflow.log_artifact(golden_dataset_artifact[0], golden_dataset_artifact[1])
         logger.info("logged evaluation and golden datasets")
