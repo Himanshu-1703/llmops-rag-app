@@ -3,19 +3,10 @@ import json
 from pathlib import Path
 import dagshub
 
-# initialize dagshub and mlflow
-dagshub.init(repo_owner='himanshu1703', repo_name='llmops-rag-app', mlflow=True)
-    
-
-# set the tracking server
-mlflow.set_tracking_uri("https://dagshub.com/himanshu1703/llmops-rag-app.mlflow")
 
 # set paths for the json file
 ROOT_DIR = Path(__file__).parent
 JSON_FILE_PATH = ROOT_DIR / "historical_runs.json"
-
-# fetch the experiment id
-experiment_id = mlflow.get_experiment_by_name("rag-app").experiment_id
 
 
 def log_run_info(run_id: str, run_name: str):
@@ -49,3 +40,14 @@ def get_metrics_from_runs(tag_name: str, experiment_id: str):
         
     return all_metrics
 
+if __name__ == "__main__":
+    
+    # initialize dagshub and mlflow
+    dagshub.init(repo_owner='himanshu1703', repo_name='llmops-rag-app', mlflow=True)
+    
+
+    # set the tracking server
+    mlflow.set_tracking_uri("https://dagshub.com/himanshu1703/llmops-rag-app.mlflow")
+    
+    # fetch the experiment id
+    experiment_id = mlflow.get_experiment_by_name("rag-app").experiment_id

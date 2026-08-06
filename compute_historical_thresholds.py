@@ -14,12 +14,12 @@ def save_thresholds(json_path, stds):
         with open(json_path, "r") as file:
             thresholds = json.load(file)
             noise_thresholds = thresholds.get("noise_thresholds")
-            historical_thresholds = thresholds.get("historical_thresholds", None)
+            historical_thresholds = thresholds.get("historical_thresholds")
             
     # new thresholds
     new_thresholds = {}
-    new_thresholds["noise_thresholds"] = stds
-    new_thresholds["historical_thresholds"] = historical_thresholds
+    new_thresholds["noise_thresholds"] = noise_thresholds
+    new_thresholds["historical_thresholds"] = stds
     
     # save thresholds    
     with open(json_path, "w") as file:
@@ -27,7 +27,7 @@ def save_thresholds(json_path, stds):
         
 
 
-def calculate_noise_threshold(metrics: list[dict[str, float]]):
+def calculate_historical_threshold(metrics: list[dict[str, float]]):
     all_metrics = []
     
     for metric in metrics:
@@ -50,9 +50,10 @@ mlflow.set_tracking_uri("https://dagshub.com/himanshu1703/llmops-rag-app.mlflow"
 experiment_id = mlflow.get_experiment_by_name("rag-app").experiment_id
 
 # get the metrics across noise thresh runs
-all_metrics = get_metrics_from_runs(tag_name="noise_threshold",
+all_metrics = get_metrics_from_runs(tag_name="historical_threshold",
                       experiment_id=experiment_id)
 
-stds = calculate_noise_threshold(all_metrics)
+stds = calculate_historical_threshold(all_metrics)
 
+print(stds)
 save_thresholds(THRESH_PATH, stds)
