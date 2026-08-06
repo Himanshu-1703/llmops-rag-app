@@ -4,8 +4,8 @@ rag_app:
   llm: gpt-5-mini
   embedding_model: text-embedding-3-small
   embedding_dimensions: 1024
-  chunk_size: 300
-  chunk_overlap: 30
+  chunk_size: 240
+  chunk_overlap: 15
   tokenizer_encoding: o200k_base
   collection_name: rag_demo
   search_type: similarity

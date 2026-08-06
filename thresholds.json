@@ -1,0 +1,11 @@
+{
+    "noise_threshold": {
+        "Contextual Recall": 0.028867513459481315,
+        "Contextual Precision": 0.005773502691896262,
+        "Answer Relevancy": 0.060827625302982184,
+        "Faithfulness": 0.005773502691896263,
+        "Contextual Relevancy": 0.01527525231651948,
+        "answer correctness ": 0.017320508075688724,
+        "simple explanation ": 0.011547005383792525
+    }
+}
