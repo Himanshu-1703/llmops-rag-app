@@ -1,6 +1,6 @@
 import dagshub
 import mlflow
-from mlflow_utils import get_metrics_from_runs
+from utils.mlflow_utils import get_metrics_from_runs
 import numpy as np
 from pathlib import Path
 import json

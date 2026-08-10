@@ -38,7 +38,7 @@ answer_correctness = GEval(
     name="answer correctness",
     evaluation_params=[SingleTurnParams.EXPECTED_OUTPUT, SingleTurnParams.ACTUAL_OUTPUT],
     criteria="""Evaluate the LLM response based on correctness of answer. Compare
-    the 'expected_output' with the 'actual_output'. Penalize wrong facts strictly""",
+    the 'expected_output' with the 'actual_output'. Penalize wrong facts""",
     rubric=[Rubric(score_range=(0,5), expected_outcome="Answer has incorrect facts"),
             Rubric(score_range=(6,9), expected_outcome="Answer is mostly correct but has minor differences"),
             Rubric(score_range=(10,10), expected_outcome=r"100% correct")],

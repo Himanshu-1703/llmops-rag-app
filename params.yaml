@@ -2,14 +2,16 @@
 rag_app:
   prompt_label: staging
   llm: gpt-5-mini
-  embedding_model: text-embedding-3-small
-  embedding_dimensions: 1024
-  chunk_size: 240
+  embedding_model: text-embedding-3-large
+  embedding_dimensions: 3072
+  chunk_size: 300
   chunk_overlap: 15
   tokenizer_encoding: o200k_base
   collection_name: rag_demo
   search_type: similarity
   k: 3
+  contextual_compression: true 
+  compression_llm: gpt-5-mini
 
 # golden dataset
 golden_dataset:

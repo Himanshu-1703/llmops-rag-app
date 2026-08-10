@@ -11,7 +11,7 @@ import logging
 from logging import INFO
 import dagshub
 import json
-from mlflow_utils import log_run_info
+from utils.mlflow_utils import log_run_info
 
 # load the api keys
 load_dotenv()

@@ -11,6 +11,7 @@ dependencies = [
     "ipykernel>=7.3.0",
     "langchain>=1.3.10",
     "langchain-chroma>=1.1.0",
+    "langchain-classic>=1.0.8",
     "langchain-community>=0.4.2",
     "langchain-core>=1.4.8",
     "langchain-openai>=1.3.2",
@@ -26,4 +27,4 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/app", "src/data", "src/evals", "src/config"]
+packages = ["src/app", "src/data", "src/evals", "src/config", "utils"]

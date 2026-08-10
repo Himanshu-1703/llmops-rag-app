@@ -9,12 +9,12 @@
         "simple explanation ": 0.011547005383792525
     },
     "historical_thresholds": {
-        "Contextual Recall": 0.033911649915626375,
-        "Contextual Precision": 0.008944271909999166,
-        "Answer Relevancy": 0.019235384061671322,
-        "Faithfulness": 0.013038404810405309,
-        "Contextual Relevancy": 0.0661815684310972,
-        "answer correctness ": 0.016431676725154998,
-        "simple explanation ": 0.019493588689617945
+        "Contextual Recall": 0.026592157812837528,
+        "Contextual Precision": 0.024164614034338942,
+        "Answer Relevancy": 0.037201190457142236,
+        "Faithfulness": 0.035831949031954295,
+        "Contextual Relevancy": 0.07298483208369884,
+        "answer correctness ": 0.05153015760559195,
+        "simple explanation ": 0.017525491637693298
     }
 }

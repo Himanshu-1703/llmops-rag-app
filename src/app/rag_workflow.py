@@ -11,6 +11,9 @@ from pathlib import Path
 from dotenv import load_dotenv
 from langfuse import get_client
 from config.parameter_config import params_config
+from logging import getLogger, StreamHandler, Formatter, INFO
+from langchain_classic.retrievers.contextual_compression import ContextualCompressionRetriever
+from langchain_classic.retrievers.document_compressors import LLMChainExtractor
 
 # load the application parameters
 app_params = params_config.rag_app
@@ -28,6 +31,16 @@ system_prompt = langfuse.get_prompt(
     label=app_params.prompt_label
 )
 
+# create the logger
+logger = getLogger(name="Rag App")
+# add stream handler
+handler = StreamHandler()
+logger.addHandler(handler)
+logger.setLevel(INFO)
+# add formatter
+formatter = Formatter(fmt="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+handler.setFormatter(fmt=formatter)
+
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 PROCESSED_TRANSCRIPTS_DIR = REPO_ROOT / "data" / "processed"
@@ -43,6 +56,10 @@ embedder = OpenAIEmbeddings(model=app_params.embedding_model,
 chunk_size = app_params.chunk_size
 chunk_overlap = app_params.chunk_overlap
 
+logger.info(f"Chunk Size: {chunk_size}")
+logger.info(f"Chunk Overlap: {chunk_overlap}")
+logger.info(f"Embedding Dimensions: {app_params.embedding_dimensions}")
+
 # load and update knowledge base
 def upsert_documents(chunk_size: int, chunk_overlap: int):
     # load the docs from source
@@ -52,6 +69,7 @@ def upsert_documents(chunk_size: int, chunk_overlap: int):
     
     # load the docs
     docs = loader.load()
+    logger.info(f"Number of Transcripts Loaded: {len(docs)}")
 
     # chunk the text, sized in tokens (o200k_base matches the gpt-5 model family)
     # to mirror DeepEval's ContextConstructionConfig chunk sizing
@@ -61,6 +79,7 @@ def upsert_documents(chunk_size: int, chunk_overlap: int):
         chunk_overlap=chunk_overlap)
 
     chunks = chunker.split_documents(docs)
+    logger.info(f"Number of Chunks Created: {len(chunks)}")
 
 
     # vector store
@@ -69,8 +88,9 @@ def upsert_documents(chunk_size: int, chunk_overlap: int):
             persist_directory=VECTOR_STORE_DIR.as_posix())
 
     # add docs
-    vs.add_documents(chunks)
-
+    doc_ids = vs.add_documents(chunks)
+    logger.info(f"Number of Chunks added to Vector Database: {len(doc_ids)}")
+    
     return vs
 
 
@@ -89,9 +109,26 @@ if VECTOR_STORE_DIR.exists():
 else:
     vs = upsert_documents(chunk_size, chunk_overlap)
 
-# create the retriever
-retriever = vs.as_retriever(search_type=app_params.search_type,
-                            search_kwargs={"k":app_params.k})
+
+def get_retriever():
+    # create the retriever
+    retriever = vs.as_retriever(search_type=app_params.search_type,
+                                search_kwargs={"k":app_params.k})
+    
+
+    if app_params.contextual_compression:
+        # compressor
+        compression_llm = ChatOpenAI(model=app_params.compression_llm)
+        compressor = LLMChainExtractor.from_llm(compression_llm)
+        
+        # compression retriever
+        compression_retriever = ContextualCompressionRetriever(
+            base_compressor=compressor,
+            base_retriever=retriever
+        )
+        return compression_retriever
+    
+    return retriever
 
 
 class RAGState(TypedDict):
@@ -105,6 +142,7 @@ class RAGState(TypedDict):
 
 def retrieve(state: RAGState) -> dict:
     query = state["query"]
+    retriever = get_retriever()
     retrieved_docs = retriever.invoke(query)
     
     context = "\n\n".join([doc.page_content for doc in retrieved_docs])

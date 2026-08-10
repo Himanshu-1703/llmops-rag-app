@@ -13,6 +13,8 @@ class RagAppConfig(BaseModel):
     collection_name: str
     search_type: str
     k: int
+    contextual_compression: bool
+    compression_llm: str
     
     model_config = {"extra": "forbid"}
     
