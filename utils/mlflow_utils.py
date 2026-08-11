@@ -5,7 +5,7 @@ import dagshub
 
 
 # set paths for the json file
-ROOT_DIR = Path(__file__).parent
+ROOT_DIR = Path(__file__).parent.parent
 JSON_FILE_PATH = ROOT_DIR / "historical_runs.json"
 
 

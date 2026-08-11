@@ -4,7 +4,7 @@ rag_app:
   llm: gpt-5-mini
   embedding_model: text-embedding-3-large
   embedding_dimensions: 3072
-  chunk_size: 300
+  chunk_size: 270
   chunk_overlap: 15
   tokenizer_encoding: o200k_base
   collection_name: rag_demo
