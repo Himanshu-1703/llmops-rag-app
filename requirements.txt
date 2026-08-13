@@ -11,3 +11,4 @@ langgraph
 ipykernel
 langfuse
 dagshub
+guardrails-ai
