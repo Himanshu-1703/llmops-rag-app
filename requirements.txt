@@ -12,3 +12,4 @@ ipykernel
 langfuse
 dagshub
 guardrails-ai
+fastapi

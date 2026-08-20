@@ -94,11 +94,13 @@ def return_code_files():
     CODE_PATHS = ROOT_DIR / "src"
     
     app_code_path = CODE_PATHS / "app" /"rag_workflow.py"
+    clients_code_path = CODE_PATHS / "app" / "clients.py"
+    vector_store_code_path = CODE_PATHS / "app" / "vector_store.py"
     eval_data_path = CODE_PATHS / "data" / "generate_eval_dataset.py"
     evaluation_path = CODE_PATHS / "evals" / "application_evals" / "evaluate_rag_app.py"
     golden_dataset_path = CODE_PATHS / "data" / "generate_goldens.py"
-    
-    code_files = [app_code_path, eval_data_path, evaluation_path, golden_dataset_path]
+
+    code_files = [app_code_path, clients_code_path, vector_store_code_path, eval_data_path, evaluation_path, golden_dataset_path]
     
     return [file.as_posix() for file in code_files]
 
