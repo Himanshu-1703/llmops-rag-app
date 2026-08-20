@@ -1,12 +1,26 @@
 import asyncio
-from typing import Literal
+from typing import TypedDict, Literal
 
 from guardrails.errors import ValidationError
+from langchain_core.documents import Document
+from langchain_core.output_parsers import StrOutputParser
+from langchain_core.prompts import ChatPromptTemplate
+from langfuse import get_client
 from langgraph.graph import END, START, StateGraph
 
-from app.clients import logger
+from app.clients import app_params, llm, logger
 from app.guardrails import validate_input, validate_output, validate_retrieval
-from app.rag_workflow import RAGState, augmentation, generation, retrieve
+from app.vector_store import get_retriever
+
+# langfuse client
+langfuse = get_client()
+
+# load system prompt
+system_prompt = langfuse.get_prompt(
+    name="rag_app_system_prompt",
+    type="text",
+    label=app_params.prompt_label
+)
 
 CRITICAL_FALLBACK_MESSAGE = (
     "Something went wrong while processing your request and it could not be "
@@ -18,10 +32,48 @@ SOFT_FALLBACK_MESSAGE = (
 )
 
 
-class GuardrailedRAGState(RAGState):
+class GuardrailedRAGState(TypedDict):
+
+    query: str
+    retrieved_docs: list[Document]
+    context: str
+    prompt: ChatPromptTemplate
+    response: str
     guardrail_status: Literal["ok", "exception", "refrain"]
     guardrail_stage: Literal["input", "retrieval", "output"]
     guardrail_message: str
+
+
+def retrieve(state: GuardrailedRAGState) -> dict:
+    query = state["query"]
+    retriever = get_retriever()
+    retrieved_docs = retriever.invoke(query)
+
+    context = "\n\n".join([doc.page_content for doc in retrieved_docs])
+    return {"retrieved_docs": retrieved_docs,
+            "context": context}
+
+
+def augmentation(state: GuardrailedRAGState) -> dict:
+
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", system_prompt.prompt),
+        ("human", "context: {context}\n\nquery: {query}")
+    ])
+
+    return {"prompt": prompt}
+
+
+def generation(state: GuardrailedRAGState) -> dict:
+
+    query = state["query"]
+    context = state["context"]
+    prompt = state["prompt"]
+
+    rag_chain = prompt | llm | StrOutputParser()
+    response = rag_chain.invoke({"context": context, "query": query})
+
+    return {"response": response}
 
 
 def input_guardrail_node(state: GuardrailedRAGState) -> dict:
