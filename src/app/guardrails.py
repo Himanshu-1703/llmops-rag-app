@@ -1,4 +1,3 @@
-import numpy as np
 from pydantic import BaseModel, Field
 
 from guardrails import AsyncGuard
@@ -11,15 +10,13 @@ from guardrails.validators import (
     Validator,
 )
 from guardrails_ai.detect_jailbreak import DetectJailbreak
-from guardrails_ai.gibberish_text import GibberishText
 from guardrails_ai.guardrails_pii import GuardrailsPII
 from guardrails_ai.prompt_injection_detector import PromptInjectionDetector
 from guardrails_ai.reading_time import ReadingTime
 from guardrails_ai.redundant_sentences import RedundantSentences
 from guardrails_ai.relevancy_evaluator import RelevancyEvaluator
-from guardrails_ai.provenance_embeddings import ProvenanceEmbeddings
 
-from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 
 
@@ -100,7 +97,6 @@ VALID_TOPICS = [
 
 input_guard = AsyncGuard().use(
     DetectJailbreak(on_fail="exception"),
-    GibberishText(threshold=0.5, validation_method="sentence", on_fail="refrain"),
     GuardrailsPII(entities=PII_ENTITIES, on_fail="fix"),
     OnTopic(threshold=0.7, valid_topics=VALID_TOPICS, on_fail="exception"),
 )
@@ -113,8 +109,7 @@ async def validate_input(query: str) -> ValidationOutcome:
 # --- Layer 2: retrieval guardrails (retrieved context, before augmentation)
 
 retrieval_guard = AsyncGuard().use(
-    PromptInjectionDetector(llm_callable="gpt-5-mini", on_fail="exception"),
-    RedundantSentences(on_fail="refrain"),
+    PromptInjectionDetector(llm_callable="gpt-5-mini", on_fail="exception")
 )
 
 
@@ -124,29 +119,15 @@ async def validate_retrieval(context: str) -> ValidationOutcome:
 
 # --- Layer 3: output guardrails (generated response, before it's returned)
 
-def embed_func(texts):
-    embedding_model = OpenAIEmbeddings(model="text-embedding-3-small")
-
-    if isinstance(texts, str):
-        return np.array(embedding_model.embed_query(texts))
-
-    return np.array(embedding_model.embed_documents(texts))
-
-
 output_guard = AsyncGuard().use(
     ReadingTime(reading_time=3, on_fail="noop"),
     RelevancyEvaluator(llm_callable="gpt-5-mini", on_fail="refrain"),
-    ProvenanceEmbeddings(threshold=0.7, validation_method="sentence", on_fail="refrain"),
 )
 
 
-async def validate_output(response: str, *, sources: list[str], query: str) -> ValidationOutcome:
-    
+async def validate_output(response: str, *, query: str) -> ValidationOutcome:
+
     metadata = {
-        "sources": sources,
         "original_prompt": query,
-        "embed_function": embed_func,
-        "chunk_size": 2,
-        "chunk_overlap": 1,
     }
     return await output_guard.validate(response, metadata=metadata)

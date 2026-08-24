@@ -34,6 +34,11 @@ def save_sessions(sessions_meta: dict) -> None:
     SESSIONS_FILE.write_text(json.dumps(sessions_meta, indent=2), encoding="utf-8")
 
 
+def persist_chat(session_id: str) -> None:
+    st.session_state.sessions_meta[session_id]["messages"] = st.session_state.chats[session_id]
+    save_sessions(st.session_state.sessions_meta)
+
+
 def generate_session_name(first_message: str) -> str:
     try:
         response = _rename_llm.invoke(
@@ -70,6 +75,7 @@ def create_session() -> str:
         "name": "New Session",
         "created_at": datetime.now().isoformat(),
         "is_named": False,
+        "messages": [],
     }
     save_sessions(st.session_state.sessions_meta)
     st.session_state.chats[sid] = []
@@ -80,7 +86,10 @@ def create_session() -> str:
 if "sessions_meta" not in st.session_state:
     st.session_state.sessions_meta = load_sessions()
 if "chats" not in st.session_state:
-    st.session_state.chats = {}
+    st.session_state.chats = {
+        sid: meta.get("messages", [])
+        for sid, meta in st.session_state.sessions_meta.items()
+    }
 if "health" not in st.session_state:
     st.session_state.health = {
         "llm_health": None,
@@ -217,22 +226,22 @@ if prompt := st.chat_input("Ask your doubt…"):
     with st.chat_message("user"):
         st.markdown(prompt)
     st.session_state.chats[active_sid].append({"role": "user", "content": prompt})
+    persist_chat(active_sid)
 
     with st.chat_message("assistant"):
-        placeholder = st.empty()
-        response_text = ""
+        status = st.status("Generating response…", expanded=False)
         try:
-            for chunk in stream_chat(prompt):
-                response_text += chunk
-                placeholder.markdown(response_text + "▌")
-            placeholder.markdown(response_text)
+            response_text = st.write_stream(stream_chat(prompt))
+            status.update(label="Response generated", state="complete")
         except requests.exceptions.RequestException as e:
             response_text = f"Could not reach the backend: {e}"
-            placeholder.error(response_text)
+            st.error(response_text)
+            status.update(label="Failed to generate response", state="error")
 
     st.session_state.chats[active_sid].append(
         {"role": "assistant", "content": response_text}
     )
+    persist_chat(active_sid)
 
     if is_first_message:
         rename_session(active_sid, prompt)

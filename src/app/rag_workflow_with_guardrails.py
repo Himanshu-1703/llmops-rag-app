@@ -109,6 +109,20 @@ def input_guardrail_node(state: GuardrailedRAGState) -> dict:
 
 def retrieval_guardrail_node(state: GuardrailedRAGState) -> dict:
     context = state["context"]
+
+    # RedundantSentences (guardrails_ai hub validator) indexes into
+    # sentence_split(value)[0] unconditionally, which raises a raw
+    # IndexError -- not guardrails.errors.ValidationError -- on empty
+    # input. An empty context (retriever returned no docs) means there's
+    # nothing to validate anyway, so short-circuit to refrain.
+    if not context.strip():
+        logger.warning("[retrieval_guardrail] refrain: no documents retrieved")
+        return {
+            "guardrail_status": "refrain",
+            "guardrail_stage": "retrieval",
+            "guardrail_message": "No relevant documents were retrieved.",
+        }
+
     try:
         outcome = asyncio.run(validate_retrieval(context))
     except ValidationError as e:
@@ -137,9 +151,8 @@ def retrieval_guardrail_node(state: GuardrailedRAGState) -> dict:
 def output_guardrail_node(state: GuardrailedRAGState) -> dict:
     response = state["response"]
     query = state["query"]
-    sources = [doc.page_content for doc in state["retrieved_docs"]]
     try:
-        outcome = asyncio.run(validate_output(response, sources=sources, query=query))
+        outcome = asyncio.run(validate_output(response, query=query))
     except ValidationError as e:
         logger.error(f"[output_guardrail] exception: {e}")
         return {

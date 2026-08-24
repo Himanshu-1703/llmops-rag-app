@@ -3,9 +3,10 @@ import time
 from collections.abc import Iterator
 from pathlib import Path
 
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException, status
 from fastapi.responses import StreamingResponse
 
+from app.clients import logger
 from app.rag_workflow_with_guardrails import graph
 from app.vector_store import app_params, vs
 
@@ -26,8 +27,16 @@ def chat(request: ChatRequest) -> StreamingResponse:
     # itself (see app/rag_workflow_with_guardrails.py). On a guardrail
     # failure, result["response"] is a fallback message set by
     # error_fallback_node/soft_fallback_node -- this route does not need
-    # to branch on guardrail status.
-    result = graph.invoke({"query": request.query})
+    # to branch on guardrail status. An exception here means something
+    # outside the guardrail nodes broke (e.g. LLM/vector store call).
+    try:
+        result = graph.invoke({"query": request.query})
+    except Exception as e:
+        logger.error(f"[chat] graph invocation failed: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="Failed to process chat request.",
+        ) from e
     response_text = result["response"]
     return StreamingResponse(stream_response(response_text), media_type="text/plain")
 
@@ -38,7 +47,14 @@ def natural_sort_key(filename: str) -> list[int | str]:
 
 @router.get("/files", response_model=UploadedFilesResponse)
 def list_uploaded_files() -> UploadedFilesResponse:
-    records = vs.get(include=["metadatas"])
+    try:
+        records = vs.get(include=["metadatas"])
+    except Exception as e:
+        logger.error(f"[chat] failed to read vector store: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="Failed to retrieve uploaded files.",
+        ) from e
     filenames = sorted(
         {
             Path(meta["source"]).name
