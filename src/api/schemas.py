@@ -36,3 +36,9 @@ class DependencyHealthResponse(BaseModel):
 
 class ChatRequest(BaseModel):
     query: str
+
+
+class UploadedFilesResponse(BaseModel):
+    collection: str
+    unique_files: int
+    filenames: list[str]

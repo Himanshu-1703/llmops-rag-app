@@ -80,7 +80,7 @@ def upsert_documents(chunk_size: int, chunk_overlap: int) -> dict:
             skipped_files.append(file_path.name)
             continue
 
-        doc = Document(page_content=text, metadata={"source": str(file_path)})
+        doc = Document(page_content=text, metadata={"source": file_path.name})
         file_chunks = chunker.split_documents([doc])
 
         if not file_chunks:
