@@ -8,7 +8,7 @@ import json
 ROOT_DIR = Path(__file__).parent
 THRESH_PATH = ROOT_DIR / "thresholds.json"
 
-def save_thresholds(json_path, stds):
+def save_thresholds(json_path, stds, noise_thresholds = None):
     # read thresholds
     if json_path.exists():
         with open(json_path, "r") as file:

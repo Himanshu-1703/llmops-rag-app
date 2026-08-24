@@ -13,7 +13,6 @@ from guardrails_ai.detect_jailbreak import DetectJailbreak
 from guardrails_ai.guardrails_pii import GuardrailsPII
 from guardrails_ai.prompt_injection_detector import PromptInjectionDetector
 from guardrails_ai.reading_time import ReadingTime
-from guardrails_ai.redundant_sentences import RedundantSentences
 from guardrails_ai.relevancy_evaluator import RelevancyEvaluator
 
 from langchain_openai import ChatOpenAI
