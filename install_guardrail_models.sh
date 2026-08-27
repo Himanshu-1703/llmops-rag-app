@@ -7,4 +7,3 @@ uv run -m spacy download en_core_web_lg
 
 uv run -m guardrails_ai.detect_jailbreak.post_install
 uv run -m guardrails_ai.guardrails_pii.post_install
-uv run -m guardrails_ai.provenance_embeddings.post_install
