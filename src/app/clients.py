@@ -19,6 +19,10 @@ logger = getLogger(name="Rag App")
 handler = StreamHandler()
 logger.addHandler(handler)
 logger.setLevel(INFO)
+# don't hand records to the root logger too -- some deps (presidio) call
+# logging.basicConfig(), which attaches a root handler, so without this every
+# line is emitted twice: once by our handler, once by root's.
+logger.propagate = False
 formatter = Formatter(fmt="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 handler.setFormatter(fmt=formatter)
 

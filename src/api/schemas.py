@@ -38,6 +38,28 @@ class ChatRequest(BaseModel):
     query: str
 
 
+class SerializedDocument(BaseModel):
+    page_content: str
+    metadata: dict
+
+
+class DebugRAGStateResponse(BaseModel):
+    # Every field beyond `query` is optional: on guardrail fallback paths the
+    # graph short-circuits and never populates some keys (e.g. an input-refrain
+    # never runs retrieve/augmentation, so there are no docs/context/prompt).
+    query: str
+    retrieved_docs: list[SerializedDocument] = []
+    context: str | None = None
+    prompt: str | None = None  # str(ChatPromptTemplate) -- not JSON-native otherwise
+    response: str | None = None
+
+
+class DebugGuardrailedRAGStateResponse(DebugRAGStateResponse):
+    guardrail_status: str | None = None
+    guardrail_stage: str | None = None
+    guardrail_message: str | None = None
+
+
 class UploadedFilesResponse(BaseModel):
     collection: str
     unique_files: int
