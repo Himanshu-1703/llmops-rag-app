@@ -161,7 +161,8 @@ Within a single MLflow run this:
 2. builds the evaluation set by running every golden question through the RAG graph;
 3. scores it with the DeepEval suite (LLM-as-judge) and writes Markdown + JSON reports to `reports/`;
 4. logs metrics, datasets, the active system prompt, and source files as artifacts;
-5. appends the run to `historical_runs.json`.
+5. tags the run `stage=challenger` (clearing the tag off any earlier challenger first);
+6. appends the run to `historical_runs.json` (local history; no longer used by the gates).
 
 Regenerate the golden set from the corpus:
 
@@ -176,12 +177,23 @@ Metric thresholds in [`thresholds.json`](thresholds.json) capture two kinds of v
 - **noise** — run-to-run standard deviation for an unchanged configuration;
 - **historical** — standard deviation across accepted runs.
 
-The gates compare the latest run against the current champion (the MLflow run tagged `stage=staging`):
+The gates compare the challenger (the MLflow run tagged `stage=challenger`, set by the
+pipeline) against the current champion (the run tagged `stage=champion`):
 
 ```bash
-uv run pytest tests/test_regression.py    # fails on a drop beyond staging − 2·(historical + noise)
-uv run pytest tests/test_promotion.py     # fails unless ≥ 5/7 metrics ≥ staging and none regress beyond 2·noise
+uv run pytest tests/test_regression.py    # fails on a drop beyond champion − 2·(historical + noise)
+uv run pytest tests/test_promotion.py     # fails unless ≥ 5/7 metrics ≥ champion and none regress beyond 2·noise
 ```
+
+If both pass, promote the challenger; if either fails, reject it:
+
+```bash
+uv run python promote_challenger.py       # champion → archived, challenger → champion
+uv run python reject_challenger.py        # clears the challenger tag, champion untouched
+```
+
+The `stage` tag scheme has one invariant: exactly one `champion`, at most one `challenger`.
+Bootstrap it once by hand in the MLflow UI — tag the current best run `stage=champion`.
 
 Recompute thresholds after accumulating new runs:
 
@@ -200,7 +212,7 @@ The system prompt is stored in Langfuse and fetched at runtime by the label set 
 uv run pytest tests/
 ```
 
-`test_regression.py` and `test_promotion.py` require network access to the MLflow tracking server and a run tagged `stage=staging`. The `tests/demo_*.py` scripts are manual API exercises (a live server is required) and are excluded from collection by name.
+`test_regression.py` and `test_promotion.py` require network access to the MLflow tracking server, a run tagged `stage=champion`, and a run tagged `stage=challenger`. The `tests/demo_*.py` scripts are manual API exercises (a live server is required) and are excluded from collection by name.
 
 ## License
 

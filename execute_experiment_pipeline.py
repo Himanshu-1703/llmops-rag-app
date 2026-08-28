@@ -11,7 +11,7 @@ import logging
 from logging import INFO
 import dagshub
 import json
-from utils.mlflow_utils import log_run_info
+from utils.mlflow_utils import log_run_info, demote_stale_challengers
 
 # load the api keys
 load_dotenv()
@@ -125,7 +125,13 @@ if __name__ == "__main__":
     # add formatter
     formatter = logging.Formatter(fmt="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
     handler.setFormatter(fmt=formatter)
-    
+
+    # pre-flight: this run becomes the new challenger, so clear the stage tag
+    # off any leftover challenger from a prior (failed or superseded) cycle.
+    experiment_id = mlflow.get_experiment_by_name("rag-app").experiment_id
+    demoted = demote_stale_challengers(experiment_id)
+    logger.info(f"Pre-flight: demoted {demoted} stale challenger run(s)")
+
     with mlflow.start_run() as run:
     
         # get all the params
@@ -190,6 +196,10 @@ if __name__ == "__main__":
     
         # set tag for the run
         mlflow.set_tag("phase", "historical_threshold")
+
+        # mark this run as the candidate for the regression / promotion gates
+        mlflow.set_tag("stage", "challenger")
+        logger.info("Run tagged stage=challenger")
         
     # extract info from run
     run_id = run.info.run_id
