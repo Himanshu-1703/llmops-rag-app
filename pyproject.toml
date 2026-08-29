@@ -26,6 +26,7 @@ dependencies = [
     "langfuse>=4.14.1",
     "langgraph>=1.2.6",
     "mlflow>=3.14.0",
+    "pytest>=9.1.1",
     "python-dotenv>=1.2.2",
     "requests>=2.34.2",
     "streamlit>=1.62.0",

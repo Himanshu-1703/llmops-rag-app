@@ -1,0 +1,176 @@
+name: CI Pipeline
+
+# Full pipeline:
+#   experiment      -> rebuild vector store, run experiment pipeline
+#                      (creates a new MLflow run on DagsHub tagged stage=challenger)
+#   regression-test -> gate the challenger against the champion on thresholds.json
+#   promotion-test  -> majority-vote promotion gate (>= 5/7 metrics >= champion)
+#   promote         -> challenger -> champion, old champion -> archived
+#   both gates auto-reject (clear the stage=challenger tag) on failure.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - params.yaml
+  workflow_dispatch:
+
+# The later stages mutate shared MLflow `stage` tags on DagsHub, so never let
+# two pipeline runs overlap.
+concurrency:
+  group: ci-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  experiment:
+    name: Rebuild vector store & run experiment
+    runs-on: ubuntu-latest
+    # Eval loop + 7-metric LLM-as-judge over the golden set is long-running.
+    timeout-minutes: 60
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      # dagshub.init() reads this and wires up MLflow auth against DagsHub.
+      DAGSHUB_USER_TOKEN: ${{ secrets.DAGSHUB_USER_TOKEN }}
+      LANGFUSE_PUBLIC_KEY: ${{ secrets.LANGFUSE_PUBLIC_KEY }}
+      LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
+      LANGFUSE_BASE_URL: ${{ vars.LANGFUSE_BASE_URL }}
+      # No interactive prompt / phone-home from DeepEval in CI.
+      DEEPEVAL_TELEMETRY_OPT_OUT: "YES"
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7 # v7.0.0
+
+      - name: "Set up Python"
+        uses: actions/setup-python@v7 # v7.0.0
+        with:
+          python-version-file: ".python-version"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Rebuild vector store against current params.yaml
+        run: uv run ci_rebuild_vector_store.py
+
+      - name: Run experiment pipeline
+        run: uv run python execute_experiment_pipeline.py
+
+      - name: Show new challenger run
+        if: success()
+        run: |
+          echo "### New challenger run" >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          tail -n 6 historical_runs.json >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+  regression-test:
+    name: Regression gate
+    # Only runs if every step of `experiment` passed -- this is the
+    # "only after all earlier steps complete" gate for step 5.
+    needs: experiment
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      # The gate only reads metrics already logged to MLflow; no OpenAI /
+      # Langfuse / vector store needed. dagshub.init() needs just the token.
+      DAGSHUB_USER_TOKEN: ${{ secrets.DAGSHUB_USER_TOKEN }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7 # v7.0.0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7 # v7.0.0
+        with:
+          python-version-file: ".python-version"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Run regression gate
+        id: regression
+        run: uv run pytest tests/test_regression.py -v
+
+      - name: Reject challenger on regression failure
+        if: always() && steps.regression.outcome == 'failure'
+        run: uv run python reject_challenger.py
+
+  promotion-test:
+    name: Promotion gate
+    # Linear chain: this running means the regression gate passed, which in
+    # turn means the experiment job passed -- so reaching the promote stage
+    # requires BOTH gates green.
+    needs: regression-test
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      DAGSHUB_USER_TOKEN: ${{ secrets.DAGSHUB_USER_TOKEN }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7 # v7.0.0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7 # v7.0.0
+        with:
+          python-version-file: ".python-version"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Run promotion gate
+        id: promotion
+        run: uv run pytest tests/test_promotion.py -v
+
+      - name: Reject challenger on promotion failure
+        if: always() && steps.promotion.outcome == 'failure'
+        run: uv run python reject_challenger.py
+
+  promote:
+    name: Promote challenger to champion
+    # Reached only when both gates are green (linear chain). No auto-reject
+    # here: a failed tag-swap is an infra problem to retry, not grounds to
+    # discard a challenger that already passed both gates.
+    needs: promotion-test
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      DAGSHUB_USER_TOKEN: ${{ secrets.DAGSHUB_USER_TOKEN }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7 # v7.0.0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7 # v7.0.0
+        with:
+          python-version-file: ".python-version"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Promote challenger
+        run: |
+          echo '### Promotion result' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          uv run python promote_challenger.py | tee -a "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
