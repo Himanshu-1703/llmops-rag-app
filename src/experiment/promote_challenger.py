@@ -2,8 +2,8 @@
 
 Run this after both gate tests pass:
 
-    uv run python promote_challenger.py            # do the swap
-    uv run python promote_challenger.py --dry-run  # just show what would change
+    uv run python src/experiment/promote_challenger.py            # do the swap
+    uv run python src/experiment/promote_challenger.py --dry-run  # just show what would change
 
 The reigning champion is retagged `stage=archived`; the challenger is retagged
 `stage=champion`. Requires exactly one run tagged `stage=champion` and exactly one

@@ -2,8 +2,8 @@
 
 Run this when a gate test fails:
 
-    uv run python reject_challenger.py            # clear the challenger tag
-    uv run python reject_challenger.py --dry-run  # just show which run would be cleared
+    uv run python src/experiment/reject_challenger.py            # clear the challenger tag
+    uv run python src/experiment/reject_challenger.py --dry-run  # just show which run would be cleared
 
 The challenger's `stage` tag is deleted (the run and its metrics stay in MLflow,
 just unlabelled). The champion is left untouched.

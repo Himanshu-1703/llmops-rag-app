@@ -16,7 +16,7 @@ from utils.mlflow_utils import log_run_info, demote_stale_challengers
 # load the api keys
 load_dotenv()
 
-ROOT_DIR = Path(__file__).parent
+ROOT_DIR = Path(__file__).parent.parent.parent
 
 
 def flatten_params(params_dict: dict) -> dict:

@@ -1,7 +1,7 @@
 import mlflow
 from pathlib import Path
 
-ROOT_DIR = Path(__file__).resolve().parent
+ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 
 
 # set the tracking server

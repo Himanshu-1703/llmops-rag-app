@@ -57,10 +57,10 @@ jobs:
         run: uv sync --frozen
 
       - name: Rebuild vector store against current params.yaml
-        run: uv run ci_rebuild_vector_store.py
+        run: uv run src/experiment/ci_rebuild_vector_store.py
 
       - name: Run experiment pipeline
-        run: uv run python execute_experiment_pipeline.py
+        run: uv run python src/experiment/execute_experiment_pipeline.py
 
       - name: Show new challenger run
         if: success()
@@ -104,7 +104,7 @@ jobs:
 
       - name: Reject challenger on regression failure
         if: always() && steps.regression.outcome == 'failure'
-        run: uv run python reject_challenger.py
+        run: uv run python src/experiment/reject_challenger.py
 
   promotion-test:
     name: Promotion gate
@@ -139,7 +139,7 @@ jobs:
 
       - name: Reject challenger on promotion failure
         if: always() && steps.promotion.outcome == 'failure'
-        run: uv run python reject_challenger.py
+        run: uv run python src/experiment/reject_challenger.py
 
   promote:
     name: Promote challenger to champion
@@ -172,5 +172,5 @@ jobs:
         run: |
           echo '### Promotion result' >> "$GITHUB_STEP_SUMMARY"
           echo '```' >> "$GITHUB_STEP_SUMMARY"
-          uv run python promote_challenger.py | tee -a "$GITHUB_STEP_SUMMARY"
+          uv run python src/experiment/promote_challenger.py | tee -a "$GITHUB_STEP_SUMMARY"
           echo '```' >> "$GITHUB_STEP_SUMMARY"

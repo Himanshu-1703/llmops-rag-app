@@ -2,7 +2,7 @@
 
 Not wired into the local dev workflow -- the CI pipeline is the only caller:
 
-    uv run python ci_build_vector_store.py
+    uv run python src/experiment/ci_rebuild_vector_store.py
 
 The `saved-embeddings/` checked into git was embedded under a *previous*
 configuration (embedding model / dimensions / chunk sizing). A CI run triggered
@@ -25,7 +25,7 @@ from dotenv import load_dotenv
 # load the api keys (OPENAI_API_KEY -- needed to embed)
 load_dotenv()
 
-ROOT_DIR = Path(__file__).resolve().parent
+ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 VECTOR_STORE_DIR = ROOT_DIR / "saved-embeddings"
 
 logger = logging.getLogger(name="CI vector store builder")

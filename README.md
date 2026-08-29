@@ -56,8 +56,8 @@ Each guardrail node emits a status of `ok`, `exception`, or `refrain`. `exceptio
 | `src/data/` | Golden-set synthesis and evaluation-set generation |
 | `src/evals/` | DeepEval metric suite and standalone metric checks |
 | `utils/` | Transcript cleaning, MLflow helpers |
-| `execute_experiment_pipeline.py` | End-to-end evaluate + track pipeline |
-| `compute_*_thresholds.py` | Recompute noise / historical metric thresholds from run history |
+| `src/experiment/` | Experiment pipeline, vector-store rebuild, and challenger promote/reject scripts |
+| `utils/compute_*_thresholds.py` | Recompute noise / historical metric thresholds from run history |
 | `tests/` | `test_regression.py`, `test_promotion.py`, and manual API demo scripts |
 | `notebooks/` | Component prototypes (baseline RAG, per-layer guardrails) |
 | `reports/` | Timestamped evaluation reports and results |
@@ -152,7 +152,7 @@ uv run python tests/demo_transcript_sync.py   # uses ADMIN_API_KEY from .env
 ### Evaluation
 
 ```bash
-uv run python execute_experiment_pipeline.py
+uv run python src/experiment/execute_experiment_pipeline.py
 ```
 
 Within a single MLflow run this:
@@ -188,8 +188,8 @@ uv run pytest tests/test_promotion.py     # fails unless ≥ 5/7 metrics ≥ cha
 If both pass, promote the challenger; if either fails, reject it:
 
 ```bash
-uv run python promote_challenger.py       # champion → archived, challenger → champion
-uv run python reject_challenger.py        # clears the challenger tag, champion untouched
+uv run python src/experiment/promote_challenger.py   # champion → archived, challenger → champion
+uv run python src/experiment/reject_challenger.py    # clears the challenger tag, champion untouched
 ```
 
 The `stage` tag scheme has one invariant: exactly one `champion`, at most one `challenger`.
@@ -198,8 +198,8 @@ Bootstrap it once by hand in the MLflow UI — tag the current best run `stage=c
 Recompute thresholds after accumulating new runs:
 
 ```bash
-uv run python compute_noise_thresholds.py
-uv run python compute_historical_thresholds.py
+uv run python utils/compute_noise_thresholds.py
+uv run python utils/compute_historical_thresholds.py
 ```
 
 ### Prompt management
