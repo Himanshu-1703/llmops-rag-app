@@ -2,15 +2,12 @@
 
 Run this after both gate tests pass:
 
-    uv run python src/experiment/promote_challenger.py            # do the swap
-    uv run python src/experiment/promote_challenger.py --dry-run  # just show what would change
+    uv run python src/experiment/promote_challenger.py
 
 The reigning champion is retagged `stage=archived`; the challenger is retagged
 `stage=champion`. Requires exactly one run tagged `stage=champion` and exactly one
 tagged `stage=challenger` (bootstrap the champion by hand in the MLflow UI first).
 """
-import argparse
-
 import dagshub
 import mlflow
 
@@ -20,11 +17,6 @@ from utils.mlflow_utils import (
     get_run_by_stage,
     promote_challenger,
 )
-
-parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument("--dry-run", action="store_true",
-                    help="resolve and print the champion/challenger, make no tag changes")
-args = parser.parse_args()
 
 # initialize dagshub and mlflow
 dagshub.init(repo_owner='himanshu1703', repo_name='llmops-rag-app', mlflow=True)
@@ -40,9 +32,6 @@ challenger = get_run_by_stage(CHALLENGER, experiment_id)
 print(f"current champion : {champion.info.run_id}  ({champion.info.run_name})")
 print(f"challenger       : {challenger.info.run_id}  ({challenger.info.run_name})")
 
-if args.dry_run:
-    print("--dry-run: no tags changed")
-else:
-    old_id, new_id = promote_challenger(experiment_id)
-    print(f"archived  {old_id}")
-    print(f"promoted  {new_id} -> {CHAMPION}")
+old_id, new_id = promote_challenger(experiment_id)
+print(f"archived  {old_id}")
+print(f"promoted  {new_id} -> {CHAMPION}")
