@@ -1,4 +1,5 @@
 import asyncio
+from logging import getLogger, StreamHandler, Formatter, INFO
 from typing import TypedDict, Literal
 
 from guardrails.errors import ValidationError
@@ -8,9 +9,19 @@ from langchain_core.prompts import ChatPromptTemplate
 from langfuse import get_client
 from langgraph.graph import END, START, StateGraph
 
-from app.clients import app_params, llm, logger
+from app.clients import app_params, llm
 from app.guardrails import validate_input, validate_output, validate_retrieval
 from app.vector_store import get_retriever
+
+# dedicated logger for the guardrailed graph -- same handler/format setup as
+# app.clients, only the name differs so its records are attributable to this file
+logger = getLogger(name="rag app with guardrails")
+handler = StreamHandler()
+logger.addHandler(handler)
+logger.setLevel(INFO)
+logger.propagate = False
+formatter = Formatter(fmt="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+handler.setFormatter(fmt=formatter)
 
 # langfuse client
 langfuse = get_client()
