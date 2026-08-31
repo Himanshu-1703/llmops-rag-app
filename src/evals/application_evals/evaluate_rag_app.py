@@ -36,12 +36,32 @@ faithfulness = FaithfulnessMetric(model=model)
 # define the custom metrics
 answer_correctness = GEval(
     name="answer correctness",
-    evaluation_params=[SingleTurnParams.EXPECTED_OUTPUT, SingleTurnParams.ACTUAL_OUTPUT],
-    criteria="""Evaluate the LLM response based on correctness of answer. Compare
-    the 'expected_output' with the 'actual_output'. Penalize wrong facts""",
-    rubric=[Rubric(score_range=(0,5), expected_outcome="Answer has incorrect facts"),
-            Rubric(score_range=(6,9), expected_outcome="Answer is mostly correct but has minor differences"),
-            Rubric(score_range=(10,10), expected_outcome=r"100% correct")],
+    evaluation_params=[
+        SingleTurnParams.INPUT,
+        SingleTurnParams.EXPECTED_OUTPUT,
+        SingleTurnParams.ACTUAL_OUTPUT,
+    ],
+    evaluation_steps=[
+        "List every factual claim in 'Expected Output': definitions, names, numbers, "
+        "cause-and-effect statements, and each item in any enumeration.",
+        "For each claim, decide whether 'Actual Output' states the same fact, contradicts "
+        "it, or omits it. A wrong name, wrong number, or reversed cause and effect counts "
+        "as a contradiction.",
+        "Check whether 'Actual Output' adds claims that are not in 'Expected Output' and "
+        "not asked for by 'Input'; mark any that are factually wrong or misleading as "
+        "fabrications.",
+        "Do not penalise differences in wording, ordering, formatting, length, or extra "
+        "detail that is correct and relevant to 'Input'.",
+        "Weight each issue by how central it is to answering 'Input': a contradicted or "
+        "missing core fact matters more than a peripheral one.",
+        "Select the rubric band matching the most severe issue found.",
+    ],
+    rubric=[
+        Rubric(score_range=(0, 2), expected_outcome="A core fact needed to answer 'Input' is contradicted, or the main point of 'Expected Output' is wrong or absent."),
+        Rubric(score_range=(3, 5), expected_outcome="The main point is broadly right, but at least one supporting fact is contradicted or a misleading fabrication is present."),
+        Rubric(score_range=(6, 8), expected_outcome="All stated facts are correct and the main point matches; one or more secondary facts from 'Expected Output' are omitted or slightly imprecise."),
+        Rubric(score_range=(9, 10), expected_outcome="Every fact in 'Expected Output' is present and correct, with no contradictions and no fabrications; wording and extra correct detail may differ."),
+    ],
     model=model
 )
 
@@ -49,15 +69,27 @@ simple_explanation = GEval(
     name="simple explanation",
     evaluation_params=[SingleTurnParams.INPUT, SingleTurnParams.ACTUAL_OUTPUT],
     evaluation_steps=[
-        "Read the 'actual output' first and then the 'input'",
-        "Check whether the response is simple and easy to understand or not",
-        "Make sure the response has least number of technical jargons and is student friendly"
+        "Read 'Input' to see what was asked, then read 'Actual Output' as a student new to "
+        "the topic.",
+        "Find the technical terms and jargon in 'Actual Output'. For each, check whether it "
+        "is avoided, replaced with plain language, or explained in-line the first time it "
+        "is used.",
+        "Judge structural complexity: short sentences, concrete examples, analogies, and "
+        "lists make it more accessible; long nested sentences and dense abstraction make it "
+        "less accessible.",
+        "Decide whether a beginner could follow the explanation from start to finish "
+        "without outside knowledge.",
+        "Judge only readability and accessibility, not factual accuracy (that is scored "
+        "separately). The one exception: do not reward simplicity achieved by omitting "
+        "parts of what 'Input' asked for.",
+        "Select the rubric band matching how much effort a beginner needs to understand "
+        "'Actual Output'.",
     ],
     rubric=[
-        Rubric(score_range=(0,3), expected_outcome="Too Difficult"),
-        Rubric(score_range=(4,7), expected_outcome="Slightly difficult"),
-        Rubric(score_range=(8,9), expected_outcome="moderately simple"),
-        Rubric(score_range=(10,10), expected_outcome="very simple")
+        Rubric(score_range=(0, 2), expected_outcome="Dense with unexplained jargon or convoluted sentences; a beginner cannot follow it."),
+        Rubric(score_range=(3, 5), expected_outcome="Several unexplained technical terms or tangled sentences; a beginner understands only parts."),
+        Rubric(score_range=(6, 8), expected_outcome="Mostly plain language with only a few unexplained terms; a beginner can follow it with some effort."),
+        Rubric(score_range=(9, 10), expected_outcome="Plain language throughout, jargon avoided or explained, aided by examples or analogies; a beginner follows it easily."),
     ],
     model=model
 )
