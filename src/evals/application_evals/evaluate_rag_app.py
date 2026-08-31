@@ -43,31 +43,49 @@ answer_correctness = GEval(
         SingleTurnParams.RETRIEVAL_CONTEXT,
     ],
     evaluation_steps=[
-        "Identify the key facts in 'Expected Output' that answer 'Input': its main claim, "
-        "plus any names, numbers, or enumerated items it states.",
-        "For each key fact, check 'Actual Output': it conveys the fact, contradicts it "
-        "(opposite claim, wrong name or number, reversed cause and effect), or does not "
-        "mention it. A key fact that is merely not mentioned is an omission, not an error.",
-        "For claims in 'Actual Output' that go beyond 'Expected Output', check them against "
-        "'Retrieval Context'. Count such a claim against the response only if it "
-        "contradicts 'Retrieval Context' or 'Expected Output', or is clearly false. Extra "
-        "detail that is supported by 'Retrieval Context', or is plausible and "
-        "uncontradicted, is NOT an error and must not lower the score.",
-        "Do not penalise differences in wording, ordering, formatting, length, or the "
-        "presence of extra correct information.",
-        "Rank issues by severity: contradicting a key fact on a topic 'Input' directly "
-        "asks about is the most serious; failing to give a key fact that 'Input' asks for "
-        "(including replying 'unknown' or 'not covered' when 'Expected Output' gives a "
-        "definite answer) is next; omitting or slightly misstating secondary detail is "
-        "minor; extra grounded detail is not an issue.",
-        "Pick the rubric band for the most severe issue found; within that band, score "
-        "toward the top when the rest of the answer is accurate and complete.",
+        "Identify the PRIMARY thing 'Input' asks for (its central question), separately "
+        "from any secondary elaboration it invites.",
+        "Build the list of 'key facts': claims in 'Expected Output' that answer 'Input' AND "
+        "for which you can point to a specific supporting sentence in 'Retrieval Context'. "
+        "If you cannot locate a supporting sentence in 'Retrieval Context' for a claim in "
+        "'Expected Output', it is NOT a key fact: the system could not have known it, so "
+        "its absence from 'Actual Output' — including an explicit 'I don't know' or 'the "
+        "context does not say' about it — is never an omission or an error and must not "
+        "lower the score.",
+        "'Retrieval Context' outranks 'Expected Output' as the standard for the primary "
+        "answer. If 'Expected Output' frames the central cause / mechanism / answer in a "
+        "way that 'Retrieval Context' does not actually support, judge 'Actual Output' "
+        "against the retrieval-supported framing instead. An 'Actual Output' statement "
+        "that is faithful to 'Retrieval Context' but conflicts only with an unsupported "
+        "generalisation in 'Expected Output' is at most a minor secondary imprecision "
+        "(7-8 band), never a contradiction.",
+        "For each key fact, check whether 'Actual Output' conveys it, contradicts it "
+        "(opposite claim, wrong name or number, reversed cause and effect), or omits it.",
+        "Judge contradictions against BOTH 'Expected Output' and 'Retrieval Context'. If "
+        "'Actual Output' diverges from a nuance in 'Expected Output' but stays consistent "
+        "with 'Retrieval Context', that is NOT a contradiction and must not lower the "
+        "score.",
+        "Extra claims in 'Actual Output' that go beyond 'Expected Output' count against it "
+        "ONLY if they contradict 'Retrieval Context' or 'Expected Output', or are clearly "
+        "false. Extra detail that is grounded in 'Retrieval Context', OR merely plausible "
+        "and uncontradicted, is NOT an error: it must not lower the score and must not cap "
+        "it below the top band, no matter how much of it there is or how loosely grounded "
+        "it is.",
+        "Do not penalise differences in wording, ordering, formatting, length, or "
+        "structure (prose vs JSON vs bullets).",
+        "Rank issues by severity: contradicting a key fact is most serious; failing to "
+        "convey a key fact that answers the PRIMARY question is next; omitting or slightly "
+        "misstating a secondary retrieval-supported detail is minor and belongs in the "
+        "7-8 band, not lower; extra detail and anything not supported by 'Retrieval "
+        "Context' are not issues at all.",
+        "Pick the rubric band for the most severe real issue found; within that band, "
+        "score at the top when the rest of the answer is accurate.",
     ],
     rubric=[
-        Rubric(score_range=(0, 3), expected_outcome="The main claim is absent or contradicted, OR 'Actual Output' states something that contradicts a key fact of 'Expected Output' on a topic 'Input' directly asks about, OR several key facts are wrong."),
-        Rubric(score_range=(4, 6), expected_outcome="Everything 'Actual Output' states about the key points is correct, but it omits a key fact that 'Input' asks for (including answering 'unknown'/'not covered' when 'Expected Output' is definite), OR one secondary fact is imprecise, OR an added claim contradicts 'Retrieval Context'."),
-        Rubric(score_range=(7, 8), expected_outcome="Every key fact is conveyed correctly and nothing is contradicted; at most minor secondary detail is omitted or slightly imprecise. Extra detail supported by 'Retrieval Context' or plausible and uncontradicted is fine."),
-        Rubric(score_range=(9, 10), expected_outcome="Every key fact from 'Expected Output' is conveyed correctly with no contradictions and no false statements; wording, length, and extra grounded detail may differ freely."),
+        Rubric(score_range=(0, 3), expected_outcome="The main claim is absent or contradicted, OR 'Actual Output' contradicts a key fact (one you can point to in 'Retrieval Context') on a topic 'Input' directly asks about, OR several key facts are wrong."),
+        Rubric(score_range=(4, 6), expected_outcome="Every key fact 'Actual Output' addresses is correct, but it fails to convey a key fact that answers the PRIMARY question of 'Input' and that 'Retrieval Context' supports, OR an added claim directly contradicts 'Retrieval Context'."),
+        Rubric(score_range=(7, 8), expected_outcome="Every key fact answering the primary question is conveyed correctly and nothing contradicts 'Retrieval Context'; at most one secondary retrieval-supported detail is missing or slightly imprecise, OR one statement is faithful to 'Retrieval Context' but conflicts with an unsupported generalisation in 'Expected Output'."),
+        Rubric(score_range=(9, 10), expected_outcome="Every key fact that 'Input' primarily asks for and that 'Retrieval Context' supports is conveyed correctly, with no contradiction of 'Expected Output' or 'Retrieval Context' and no clearly false statement. Wording, length, format, and any amount of extra grounded or plausible-uncontradicted detail may differ freely. A claim in 'Expected Output' with no locatable support in 'Retrieval Context' is not required; its absence, or an explicit 'not covered' about it, does not lower the score. Loosely-grounded-but-uncontradicted additions also stay in this band."),
     ],
     model=model
 )
@@ -76,27 +94,39 @@ simple_explanation = GEval(
     name="simple explanation",
     evaluation_params=[SingleTurnParams.INPUT, SingleTurnParams.ACTUAL_OUTPUT],
     evaluation_steps=[
-        "Read 'Input' to see what was asked, then read 'Actual Output' as a student new to "
-        "the topic.",
-        "Find the technical terms and jargon in 'Actual Output'. For each, check whether it "
-        "is avoided, replaced with plain language, or explained in-line the first time it "
-        "is used.",
-        "Judge structural complexity: short sentences, concrete examples, analogies, and "
-        "lists make it more accessible; long nested sentences and dense abstraction make it "
-        "less accessible.",
-        "Decide whether a beginner could follow the explanation from start to finish "
-        "without outside knowledge.",
+        "Read 'Input' to see what was asked and which terms the asker already uses. Read "
+        "'Actual Output' as an LLMOps student: someone taking a course on building and "
+        "operating LLM applications, comfortable with everyday AI/software vocabulary but "
+        "new to fine detail.",
+        "Find the OPAQUE JARGON in 'Actual Output': terms an LLMOps student would still "
+        "not understand. The following do NOT count as opaque jargon and must not lower "
+        "the score: (a) any term already used in 'Input'; (b) ordinary English words and "
+        "descriptive phrases even if slightly domain-flavoured (e.g. 'content team', "
+        "'recorded courses', 'complementary', 'remediation', 'auto-fixing', 'cyber "
+        "partners'); (c) standard AI/RAG-pipeline vocabulary this audience already knows "
+        "(e.g. 'model', 'prompt', 'system prompt', 'probabilistic', 'deterministic', "
+        "'retrieval', 'retriever', 'RAG', 'embedding'/'embedder', 're-ranker', 'vector "
+        "store', 'chunking', 'NLU', 'token', 'latency', 'training data'); (d) proper "
+        "nouns / product names, which need no definition.",
+        "For each piece of opaque jargon, check whether it is avoided, replaced with plain "
+        "language, or made clear in-line or from surrounding context (an example, an "
+        "appositive, a parenthetical) the first time it is used. An acronym or term whose "
+        "meaning is clear from context counts as handled.",
+        "Judge structure: short sentences, headings, bullet lists, concrete examples, and "
+        "clear step-by-step breakdowns make it accessible; long nested sentences and "
+        "unbroken dense paragraphs make it less accessible. An analogy is a bonus, never a "
+        "requirement.",
         "Judge only readability and accessibility, not factual accuracy (that is scored "
         "separately). The one exception: do not reward simplicity achieved by omitting "
         "parts of what 'Input' asked for.",
-        "Select the rubric band matching how much effort a beginner needs to understand "
-        "'Actual Output'.",
+        "Decide how much effort an LLMOps student needs to follow 'Actual Output' from "
+        "start to finish, and pick the matching band.",
     ],
     rubric=[
-        Rubric(score_range=(0, 2), expected_outcome="Dense with unexplained jargon or convoluted sentences; a beginner cannot follow it."),
-        Rubric(score_range=(3, 5), expected_outcome="Several unexplained technical terms or tangled sentences; a beginner understands only parts."),
-        Rubric(score_range=(6, 8), expected_outcome="Mostly plain language with only a few unexplained terms; a beginner can follow it with some effort."),
-        Rubric(score_range=(9, 10), expected_outcome="Plain language throughout, jargon avoided or explained, aided by examples or analogies; a beginner follows it easily."),
+        Rubric(score_range=(0, 2), expected_outcome="Dense with unhandled opaque jargon or convoluted sentences; the student cannot follow it."),
+        Rubric(score_range=(3, 5), expected_outcome="Three or more pieces of opaque jargon are left unhandled, or the structure is tangled; the student follows only parts."),
+        Rubric(score_range=(6, 8), expected_outcome="At least one opaque term that is essential to the main point is left unhandled AND this genuinely impedes understanding, or the structure is dense and hard to scan; the student needs real extra effort."),
+        Rubric(score_range=(9, 10), expected_outcome="The answer is well organised (short sentences, headings/bullets, at least one concrete example or clear breakdown where it helps) and any unhandled terms are either non-opaque to this audience or inessential to the main point. An LLMOps student can follow it from start to finish. Reusing the Input's own terminology, ordinary domain-flavoured phrasing, standard AI/RAG vocabulary, and product names is expected and fine."),
     ],
     model=model
 )
