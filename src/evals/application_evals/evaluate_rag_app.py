@@ -35,32 +35,39 @@ faithfulness = FaithfulnessMetric(model=model)
 
 # define the custom metrics
 answer_correctness = GEval(
-    name="answer correctness",
+    name="answer correctness",  # unchanged — feeds MLflow / thresholds.json keys
     evaluation_params=[
         SingleTurnParams.INPUT,
         SingleTurnParams.EXPECTED_OUTPUT,
         SingleTurnParams.ACTUAL_OUTPUT,
+        SingleTurnParams.RETRIEVAL_CONTEXT,
     ],
     evaluation_steps=[
-        "List every factual claim in 'Expected Output': definitions, names, numbers, "
-        "cause-and-effect statements, and each item in any enumeration.",
-        "For each claim, decide whether 'Actual Output' states the same fact, contradicts "
-        "it, or omits it. A wrong name, wrong number, or reversed cause and effect counts "
-        "as a contradiction.",
-        "Check whether 'Actual Output' adds claims that are not in 'Expected Output' and "
-        "not asked for by 'Input'; mark any that are factually wrong or misleading as "
-        "fabrications.",
-        "Do not penalise differences in wording, ordering, formatting, length, or extra "
-        "detail that is correct and relevant to 'Input'.",
-        "Weight each issue by how central it is to answering 'Input': a contradicted or "
-        "missing core fact matters more than a peripheral one.",
-        "Select the rubric band matching the most severe issue found.",
+        "Identify the key facts in 'Expected Output' that answer 'Input': its main claim, "
+        "plus any names, numbers, or enumerated items it states.",
+        "For each key fact, check 'Actual Output': it conveys the fact, contradicts it "
+        "(opposite claim, wrong name or number, reversed cause and effect), or does not "
+        "mention it. A key fact that is merely not mentioned is an omission, not an error.",
+        "For claims in 'Actual Output' that go beyond 'Expected Output', check them against "
+        "'Retrieval Context'. Count such a claim against the response only if it "
+        "contradicts 'Retrieval Context' or 'Expected Output', or is clearly false. Extra "
+        "detail that is supported by 'Retrieval Context', or is plausible and "
+        "uncontradicted, is NOT an error and must not lower the score.",
+        "Do not penalise differences in wording, ordering, formatting, length, or the "
+        "presence of extra correct information.",
+        "Rank issues by severity: contradicting a key fact on a topic 'Input' directly "
+        "asks about is the most serious; failing to give a key fact that 'Input' asks for "
+        "(including replying 'unknown' or 'not covered' when 'Expected Output' gives a "
+        "definite answer) is next; omitting or slightly misstating secondary detail is "
+        "minor; extra grounded detail is not an issue.",
+        "Pick the rubric band for the most severe issue found; within that band, score "
+        "toward the top when the rest of the answer is accurate and complete.",
     ],
     rubric=[
-        Rubric(score_range=(0, 2), expected_outcome="A core fact needed to answer 'Input' is contradicted, or the main point of 'Expected Output' is wrong or absent."),
-        Rubric(score_range=(3, 5), expected_outcome="The main point is broadly right, but at least one supporting fact is contradicted or a misleading fabrication is present."),
-        Rubric(score_range=(6, 8), expected_outcome="All stated facts are correct and the main point matches; one or more secondary facts from 'Expected Output' are omitted or slightly imprecise."),
-        Rubric(score_range=(9, 10), expected_outcome="Every fact in 'Expected Output' is present and correct, with no contradictions and no fabrications; wording and extra correct detail may differ."),
+        Rubric(score_range=(0, 3), expected_outcome="The main claim is absent or contradicted, OR 'Actual Output' states something that contradicts a key fact of 'Expected Output' on a topic 'Input' directly asks about, OR several key facts are wrong."),
+        Rubric(score_range=(4, 6), expected_outcome="Everything 'Actual Output' states about the key points is correct, but it omits a key fact that 'Input' asks for (including answering 'unknown'/'not covered' when 'Expected Output' is definite), OR one secondary fact is imprecise, OR an added claim contradicts 'Retrieval Context'."),
+        Rubric(score_range=(7, 8), expected_outcome="Every key fact is conveyed correctly and nothing is contradicted; at most minor secondary detail is omitted or slightly imprecise. Extra detail supported by 'Retrieval Context' or plausible and uncontradicted is fine."),
+        Rubric(score_range=(9, 10), expected_outcome="Every key fact from 'Expected Output' is conveyed correctly with no contradictions and no false statements; wording, length, and extra grounded detail may differ freely."),
     ],
     model=model
 )
