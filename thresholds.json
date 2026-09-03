@@ -1,20 +1,12 @@
 {
     "noise_thresholds": {
-        "Contextual Recall": 0.028867513459481315,
-        "Contextual Precision": 0.005773502691896262,
-        "Answer Relevancy": 0.060827625302982184,
-        "Faithfulness": 0.005773502691896263,
-        "Contextual Relevancy": 0.01527525231651948,
-        "answer correctness ": 0.017320508075688724,
-        "simple explanation ": 0.011547005383792525
+        "Contextual Recall": 0.018257418583505526,
+        "Contextual Precision": 0.008432740427115688,
+        "Answer Relevancy": 0.02319003617456809,
+        "Faithfulness": 0.022010098692292205,
+        "Contextual Relevancy": 0.042635405214185296,
+        "answer correctness ": 0.0254950975679639,
+        "simple explanation ": 0.015670212364724198
     },
-    "historical_thresholds": {
-        "Contextual Recall": 0.024152294576982376,
-        "Contextual Precision": 0.021317702607092627,
-        "Answer Relevancy": 0.03665151201974255,
-        "Faithfulness": 0.03835506630304671,
-        "Contextual Relevancy": 0.0707499509226371,
-        "answer correctness ": 0.048177911028926046,
-        "simple explanation ": 0.018135294011647277
-    }
+    "historical_thresholds": null
 }

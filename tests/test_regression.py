@@ -12,11 +12,11 @@ threshold_values_path = ROOT_DIR / "thresholds.json"
 MULTIPLIER = 2
 
 
-def load_thresholds(thresholds_type: Literal["noise_thresholds", "historical_thresholds"], thresholds_path: Path | str) -> dict:
+def load_thresholds(thresholds_type: Literal["noise_thresholds"], thresholds_path: Path | str) -> dict:
     if isinstance(thresholds_path, str):
             thresholds_path= Path(thresholds_path)
-        
-    if thresholds_path.exists():    
+
+    if thresholds_path.exists():
         with open(thresholds_path, "r") as file:
             thresholds = json.load(file)[thresholds_type]
             return thresholds
@@ -32,9 +32,6 @@ mlflow.set_tracking_uri("https://dagshub.com/himanshu1703/llmops-rag-app.mlflow"
 experiment_id = mlflow.get_experiment_by_name("rag-app").experiment_id
 
 latest_metrics = get_run_by_stage(CHALLENGER, experiment_id).data.metrics
-
-historical_thresholds = load_thresholds(thresholds_type="historical_thresholds",
-                                        thresholds_path=threshold_values_path)
 
 noise_thresholds = load_thresholds(thresholds_type="noise_thresholds",
                                    thresholds_path=threshold_values_path)
@@ -57,11 +54,15 @@ def test_similar_metric_names():
                          argvalues=latest_metrics_names)
 def test_regression_on_metrics(metric: str):
 
-    historical_threshold = MULTIPLIER * historical_thresholds[metric]
+    if metric not in noise_thresholds:
+        pytest.fail(f"No noise threshold for metric {metric!r}; thresholds.json and the eval metrics are out of sync")
+
     noise_threshold = MULTIPLIER * noise_thresholds[metric]
-    stage_value = champion_metrics[metric]
+    champion_value = champion_metrics[metric]
     latest_value = latest_metrics[metric]
-    
-    lower_bound = stage_value - (historical_threshold + noise_threshold)
-    assert latest_value > lower_bound, f"Metric {metric} Regressed"
-    
+
+    lower_bound = champion_value - noise_threshold
+    assert latest_value >= lower_bound, (
+        f"Metric {metric!r} regressed: challenger={latest_value:.4f} < "
+        f"champion={champion_value:.4f} - {MULTIPLIER} * noise({noise_threshold:.4f}) = {lower_bound:.4f}"
+    )
