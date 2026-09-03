@@ -3,7 +3,6 @@ from langchain_core.documents import Document
 
 from app.clients import logger
 from app.rag_workflow import graph as plain_graph
-from app.rag_workflow_with_guardrails import graph as guardrailed_graph
 
 from api.schemas import (
     ChatRequest,
@@ -12,6 +11,16 @@ from api.schemas import (
     SerializedDocument,
 )
 from api.security import require_admin_key
+
+try:
+    # The `guardrails` dependency group (guardrails-ai, torch, transformers, ...)
+    # is optional -- docker/Dockerfile.api builds the API image with
+    # --no-default-groups and doesn't install it, so this module is absent in
+    # that deployment. Degrade the /rag_with_guardrails endpoint to a 503
+    # instead of crashing the whole app at import time.
+    from app.rag_workflow_with_guardrails import graph as guardrailed_graph
+except ModuleNotFoundError:
+    guardrailed_graph = None
 
 router = APIRouter(
     prefix="/internal/debug",
@@ -59,8 +68,14 @@ def debug_rag(request: ChatRequest) -> DebugRAGStateResponse:
 def debug_rag_with_guardrails(
     request: ChatRequest,
 ) -> DebugGuardrailedRAGStateResponse:
-    # Runs the guardrailed graph (the one the /chat endpoint serves) and returns
-    # its complete final state, including the guardrail status/stage/message.
+    # Runs the guardrailed graph and returns its complete final state,
+    # including the guardrail status/stage/message. Not wired into /chat --
+    # see docker/Dockerfile.api and app/rag_workflow_with_guardrails.py.
+    if guardrailed_graph is None:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail="Guardrails dependencies are not installed in this deployment.",
+        )
     try:
         state = guardrailed_graph.invoke({"query": request.query})
     except Exception as e:
