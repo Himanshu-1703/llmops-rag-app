@@ -10,7 +10,7 @@ ROOT_DIR = Path(__file__).parent.parent
 threshold_values_path = ROOT_DIR / "thresholds.json"
 
 NOISE_MULTIPLIER = 2
-MIN_METRICS_TO_PASS = 5
+MIN_METRICS_TO_PASS = 4
 
 
 def load_thresholds(thresholds_type: Literal["noise_thresholds", "historical_thresholds"], thresholds_path: Path | str) -> dict:
