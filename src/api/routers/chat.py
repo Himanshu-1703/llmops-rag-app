@@ -7,7 +7,7 @@ from fastapi import APIRouter, HTTPException, status
 from fastapi.responses import StreamingResponse
 
 from app.clients import logger
-from app.rag_workflow_with_guardrails import graph
+from app.rag_workflow import graph
 from app.vector_store import app_params, vs
 
 from api.schemas import ChatRequest, UploadedFilesResponse
@@ -23,12 +23,9 @@ def stream_response(text: str) -> Iterator[str]:
 
 @router.post("")
 def chat(request: ChatRequest) -> StreamingResponse:
-    # Input/retrieval/output guardrails run as nodes inside the graph
-    # itself (see app/rag_workflow_with_guardrails.py). On a guardrail
-    # failure, result["response"] is a fallback message set by
-    # error_fallback_node/soft_fallback_node -- this route does not need
-    # to branch on guardrail status. An exception here means something
-    # outside the guardrail nodes broke (e.g. LLM/vector store call).
+    # Serves the plain retrieve -> augmentation -> generation graph
+    # (app/rag_workflow.py). The guardrailed graph exists in the repo but is
+    # not wired into this deployment; see docker/Dockerfile.api.
     try:
         result = graph.invoke({"query": request.query})
     except Exception as e:

@@ -1,0 +1,53 @@
+# ---------- builder ----------
+FROM python:3.12-slim AS builder
+
+# uv (pinned to a rolling minor tag)
+COPY --from=ghcr.io/astral-sh/uv:0.12 /uv /bin/uv
+
+WORKDIR /app
+ENV UV_PROJECT_ENVIRONMENT=/app/.venv \
+    UV_LINK_MODE=copy \
+    UV_PYTHON_DOWNLOADS=never \
+    PYTHONPATH=/app/src:/app \
+    PATH=/app/.venv/bin:$PATH
+
+# Dependencies only. --no-install-project skips the hatchling wheel build, so we are
+# free to copy just the serving packages below instead of all of src/.
+# --no-default-groups drops the `guardrails` group (torch/transformers/presidio +
+# ~1 GB of models): this image serves the plain RAG graph. The cache mount keeps
+# the wheel download cache out of every image layer.
+COPY pyproject.toml uv.lock ./
+RUN --mount=type=cache,target=/root/.cache/uv \
+    uv sync --frozen --no-default-groups --no-install-project
+
+# Serving code only (no experiment / eval / test code).
+COPY src/api ./src/api
+COPY src/app ./src/app
+COPY src/config ./src/config
+COPY utils ./utils
+COPY params.yaml ./
+COPY data/raw ./data/raw
+COPY docker/ingest_transcripts.py ./docker/
+
+# No guardrail model download step: the guardrails group is not installed here and
+# the served graph (app/rag_workflow.py) has no guardrail nodes.
+
+# Build the Chroma vector store -> /app/saved-embeddings. OPENAI_API_KEY is mounted
+# only for this RUN (BuildKit secret) and is never written to a layer.
+RUN --mount=type=secret,id=openai_api_key \
+    OPENAI_API_KEY="$(cat /run/secrets/openai_api_key)" \
+    python docker/ingest_transcripts.py
+
+# ---------- runtime ----------
+FROM python:3.12-slim AS runtime
+
+WORKDIR /app
+
+# venv, serving code, params.yaml, data/raw, saved-embeddings.
+COPY --from=builder /app /app
+
+ENV PATH=/app/.venv/bin:$PATH \
+    PYTHONPATH=/app/src:/app
+
+EXPOSE 8000
+CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]

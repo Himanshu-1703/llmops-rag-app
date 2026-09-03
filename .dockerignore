@@ -1,0 +1,30 @@
+# Keep the build context small and secrets / stale artifacts out of the images.
+.git
+.github/
+.venv/
+.env
+**/__pycache__/
+*.pyc
+*.ipynb
+.ipynb_checkpoints/
+
+# Teaching scaffolding + experiment/eval/test machinery -- not part of the served app.
+notebooks/
+tests/
+reports/
+.deepeval/
+data/evaluation/
+src/experiment/
+src/evals/
+src/data/
+
+# Regenerated during the image build (from data/raw) -- don't ship the local copy.
+saved-embeddings/
+
+# Local run state / tracking history.
+mlflow.db
+mlartifacts/
+historical_runs.json
+thresholds.json
+sessions.json
+.DS_Store
