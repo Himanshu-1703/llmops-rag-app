@@ -1,4 +1,5 @@
 import json
+import os
 import uuid
 from datetime import datetime
 from pathlib import Path
@@ -18,7 +19,7 @@ st.set_page_config(
     layout="wide",
 )
 
-SESSIONS_FILE = Path("sessions.json")
+SESSIONS_FILE = Path(os.getenv("SESSIONS_FILE_PATH", "sessions.json"))
 _rename_llm = ChatOpenAI(model="gpt-5.4-nano", temperature=0)
 
 

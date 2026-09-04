@@ -24,6 +24,11 @@ services:
       # Not in .env, and must override any localhost value: inside the compose
       # network the API is reachable as the service name `api`.
       - API_BASE_URL=http://api:8000
+      # Chat/session history lives here instead of the container's writable
+      # layer, so it survives `docker compose down` + `up` recreation.
+      - SESSIONS_FILE_PATH=/app/data/sessions.json
+    volumes:
+      - frontend_sessions:/app/data
     depends_on:
       - api
 
@@ -33,3 +38,9 @@ services:
 secrets:
   openai_api_key:
     environment: OPENAI_API_KEY
+
+# Named volume for the frontend's chat/session history (sessions.json). The API
+# is stateless and saved-embeddings/ is baked into its image at build time, so
+# neither service needs a volume.
+volumes:
+  frontend_sessions:
