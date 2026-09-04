@@ -228,3 +228,9 @@ CLAUDE.md
 mlflow.db
 mlartifacts/
 python-imports-explained.md
+
+# Generated eval artifacts (store of record is MLflow / DagsHub).
+# Tracking these caused CI to log stale checked-out reports instead of the
+# runner-generated ones.
+reports/evaluation_report/
+reports/evaluation_results/
