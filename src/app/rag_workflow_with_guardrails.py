@@ -107,9 +107,9 @@ def input_guardrail_node(state: GuardrailedRAGState) -> dict:
             "guardrail_message": outcome.error or "Input failed validation.",
         }
 
-    # GuardrailsPII uses on_fail="fix" -- validated_output carries the
-    # PII-redacted query. Forward it so every downstream node retrieves
-    # and generates against the redacted text, not the raw original.
+    # LLMPII runs with on_fail="fix" -- when it redacts, validated_output
+    # carries the PII-redacted query. Forward it so every downstream node
+    # retrieves and generates against the redacted text, not the raw original.
     return {
         "query": outcome.validated_output or query,
         "guardrail_status": "ok",
@@ -121,11 +121,9 @@ def input_guardrail_node(state: GuardrailedRAGState) -> dict:
 def retrieval_guardrail_node(state: GuardrailedRAGState) -> dict:
     context = state["context"]
 
-    # RedundantSentences (guardrails_ai hub validator) indexes into
-    # sentence_split(value)[0] unconditionally, which raises a raw
-    # IndexError -- not guardrails.errors.ValidationError -- on empty
-    # input. An empty context (retriever returned no docs) means there's
-    # nothing to validate anyway, so short-circuit to refrain.
+    # An empty context (the retriever returned no docs) has nothing to
+    # validate -- and the prompt-injection check would just be a wasted LLM
+    # call -- so short-circuit straight to refrain.
     if not context.strip():
         logger.warning("[retrieval_guardrail] refrain: no documents retrieved")
         return {

@@ -13,12 +13,12 @@ ENV UV_PROJECT_ENVIRONMENT=/app/.venv \
 
 # Dependencies only. --no-install-project skips the hatchling wheel build, so we are
 # free to copy just the serving packages below instead of all of src/.
-# --no-default-groups drops the `guardrails` group (torch/transformers/presidio +
-# ~1 GB of models): this image serves the plain RAG graph. The cache mount keeps
-# the wheel download cache out of every image layer.
+# The `guardrails` group is installed (it's the default group): it is now pure-LLM
+# validators -- no torch, no local models -- and `/chat` serves the guardrailed
+# graph. The cache mount keeps the wheel download cache out of every image layer.
 COPY pyproject.toml uv.lock ./
 RUN --mount=type=cache,target=/root/.cache/uv \
-    uv sync --frozen --no-default-groups --no-install-project
+    uv sync --frozen --no-install-project
 
 # Serving code only (no experiment / eval / test code).
 COPY src/api ./src/api
@@ -29,8 +29,7 @@ COPY params.yaml ./
 COPY data/raw ./data/raw
 COPY docker/ingest_transcripts.py ./docker/
 
-# No guardrail model download step: the guardrails group is not installed here and
-# the served graph (app/rag_workflow.py) has no guardrail nodes.
+# No guardrail model download step: every validator is LLM-based (OpenAI API).
 
 # Build the Chroma vector store -> /app/saved-embeddings. OPENAI_API_KEY is mounted
 # only for this RUN (BuildKit secret) and is never written to a layer.

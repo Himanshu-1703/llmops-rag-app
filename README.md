@@ -69,7 +69,7 @@ Each guardrail node emits a status of `ok`, `exception`, or `refrain`. `exceptio
 | Orchestration | LangGraph, LangChain |
 | Vector store | Chroma (persistent) |
 | Models | OpenAI chat + embeddings (configurable in `params.yaml`) |
-| Guardrails | Guardrails AI + hub validators (jailbreak, PII, prompt-injection, relevancy, reading-time) |
+| Guardrails | Guardrails AI + custom LLM validators (jailbreak, PII, topic) + hub validators (prompt-injection, relevancy, reading-time) |
 | Prompt registry & tracing | Langfuse |
 | Evaluation | DeepEval (`Synthesizer`, RAG metrics, `GEval`) |
 | Experiment tracking | MLflow, DagsHub |
@@ -90,13 +90,7 @@ Each guardrail node emits a status of `ok`, `exception`, or `refrain`. `exceptio
 uv sync
 ```
 
-This resolves dependencies and installs the first-party packages (`api`, `app`, `config`, `data`, `evals`, `frontend`, `utils`) in editable mode.
-
-Download the models required by the guardrail validators (one-time):
-
-```bash
-bash install_guardrail_models.sh
-```
+This resolves dependencies and installs the first-party packages (`api`, `app`, `config`, `data`, `evals`, `frontend`, `utils`) in editable mode. The guardrail validators are all LLM-based — no model download step.
 
 ### Configuration
 
