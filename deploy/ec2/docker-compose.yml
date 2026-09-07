@@ -1,0 +1,41 @@
+# CampusX RAG app - EC2 deployment compose file.
+#
+# This is the copy that lives in S3 and is pulled onto the instance by
+# user-data.sh into /opt/campusx-rag/docker-compose.yml. It differs from the
+# repo-root docker-compose.yml in three ways:
+#   * no `build:` / `secrets:` blocks - images are pulled from ECR, not built
+#   * `image:` points at the ECR registry (edit ACCOUNT_ID / REGION below)
+#   * `restart: unless-stopped` so containers come back after a reboot
+#
+# Runtime config for both services comes from the .env file that user-data.sh
+# writes next to this file from the `api-keys` Secrets Manager secret.
+
+services:
+  api:
+    image: 891377050051.dkr.ecr.ap-south-1.amazonaws.com/campusx-rag-api:latest
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    restart: unless-stopped
+
+  frontend:
+    image: 891377050051.dkr.ecr.ap-south-1.amazonaws.com/campusx-rag-frontend:latest
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    environment:
+      # Inside the compose network the API is reachable as the service name.
+      - API_BASE_URL=http://api:8000
+      # Keep chat/session history off the container's writable layer so it
+      # survives `docker compose down` + `up` and image updates.
+      - SESSIONS_FILE_PATH=/app/data/sessions.json
+    volumes:
+      - frontend_sessions:/app/data
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  frontend_sessions:
