@@ -1,0 +1,40 @@
+# CodeDeploy revision for the CampusX RAG app (EC2, in-place deploy).
+#
+# The CD pipeline zips this file + docker-compose.yml + scripts/ and hands the
+# bundle to CodeDeploy, which runs the hooks below in this order:
+#   ApplicationStop -> BeforeInstall -> ApplicationStart -> ValidateService
+# The `files:` block drops docker-compose.yml onto the instance; the hook
+# scripts run as root and automate deploy/ec2/manual-steps.md.
+
+version: 0.0
+os: linux
+
+files:
+  - source: docker-compose.yml
+    destination: /opt/campusx-rag
+
+file_exists_behavior: OVERWRITE
+
+permissions:
+  - object: /opt/campusx-rag/docker-compose.yml
+    owner: ubuntu
+    group: ubuntu
+    mode: "644"
+
+hooks:
+  ApplicationStop:
+    - location: scripts/application_stop.sh
+      timeout: 120
+      runas: root
+  BeforeInstall:
+    - location: scripts/before_install.sh
+      timeout: 600
+      runas: root
+  ApplicationStart:
+    - location: scripts/application_start.sh
+      timeout: 300
+      runas: root
+  ValidateService:
+    - location: scripts/validate_service.sh
+      timeout: 600
+      runas: root

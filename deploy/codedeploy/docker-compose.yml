@@ -1,14 +1,15 @@
 # CampusX RAG app - EC2 deployment compose file.
 #
-# This is the copy that lives in S3 and is pulled onto the instance by
-# user-data.sh into /opt/campusx-rag/docker-compose.yml. It differs from the
-# repo-root docker-compose.yml in three ways:
+# Shipped inside the CodeDeploy revision bundle (see deploy/codedeploy/appspec.yml)
+# and copied to /opt/campusx-rag/docker-compose.yml on each instance during the
+# Install phase. It differs from the repo-root docker-compose.yml in three ways:
 #   * no `build:` / `secrets:` blocks - images are pulled from ECR, not built
 #   * `image:` points at the ECR registry (edit ACCOUNT_ID / REGION below)
 #   * `restart: unless-stopped` so containers come back after a reboot
 #
-# Runtime config for both services comes from the .env file that user-data.sh
-# writes next to this file from the `api-keys` Secrets Manager secret.
+# Runtime config for both services comes from the .env file that the
+# ApplicationStart hook (scripts/application_start.sh) writes next to this file
+# from the `api-keys` Secrets Manager secret.
 
 services:
   api:

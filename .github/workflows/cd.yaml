@@ -20,6 +20,11 @@ env:
   AWS_REGION: ap-south-1
   ECR_API_REPOSITORY: campusx-rag-api
   ECR_FRONTEND_REPOSITORY: campusx-rag-frontend
+  # CodeDeploy rollout (see deploy/codedeploy/ and codedeploy_steps.md). These
+  # names are contractual -- the console resources must match them exactly.
+  DEPLOY_BUCKET: campusx-rag-codedeploy
+  CODEDEPLOY_APP: campusx-rag
+  CODEDEPLOY_GROUP: campusx-rag-dg
 
 jobs:
   build-and-push:
@@ -34,7 +39,7 @@ jobs:
           ref: ${{ github.event.workflow_run.head_sha || github.sha }}
 
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@v6 # v6.2.4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -79,3 +84,58 @@ jobs:
           tags: |
             ${{ steps.login-ecr.outputs.registry }}/${{ env.ECR_FRONTEND_REPOSITORY }}:${{ steps.vars.outputs.sha }}
             ${{ steps.login-ecr.outputs.registry }}/${{ env.ECR_FRONTEND_REPOSITORY }}:latest
+
+  deploy:
+    name: Roll out to EC2 via CodeDeploy
+    needs: build-and-push
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      # Action versions web-verified against upstream releases on 2026-09-09:
+      # actions/checkout v7.0.1, aws-actions/configure-aws-credentials v6.2.4.
+      - name: Check out the promoted commit
+        uses: actions/checkout@v7 # v7.0.1
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v6 # v6.2.4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Assemble the CodeDeploy revision bundle
+        run: |
+          set -euo pipefail
+          mkdir -p bundle/scripts
+          cp deploy/codedeploy/appspec.yml bundle/
+          cp deploy/codedeploy/docker-compose.yml bundle/
+          cp deploy/codedeploy/scripts/*.sh bundle/scripts/
+          chmod +x bundle/scripts/*.sh
+
+      - name: Upload the revision to S3
+        id: rev
+        run: |
+          set -euo pipefail
+          SHA="${{ github.event.workflow_run.head_sha || github.sha }}"
+          KEY="campusx-rag/${SHA}.zip"
+          ( cd bundle && zip -qr ../revision.zip . )
+          aws s3 cp revision.zip "s3://${DEPLOY_BUCKET}/${KEY}"
+          echo "key=${KEY}" >> "$GITHUB_OUTPUT"
+
+      - name: Create the deployment
+        run: |
+          set -euo pipefail
+          # Fire and forget: this job goes green once CodeDeploy accepts the
+          # deployment. Track the rollout (and any rollback) in the console link.
+          DEPLOYMENT_ID=$(aws deploy create-deployment \
+            --application-name "$CODEDEPLOY_APP" \
+            --deployment-group-name "$CODEDEPLOY_GROUP" \
+            --deployment-config-name CodeDeployDefault.OneAtATime \
+            --s3-location "bucket=${DEPLOY_BUCKET},key=${{ steps.rev.outputs.key }},bundleType=zip" \
+            --file-exists-behavior OVERWRITE \
+            --description "CD ${{ github.event.workflow_run.head_sha || github.sha }}" \
+            --query deploymentId --output text)
+          echo "Deployment $DEPLOYMENT_ID"
+          echo "https://console.aws.amazon.com/codesuite/codedeploy/deployments/${DEPLOYMENT_ID}?region=${AWS_REGION}"
