@@ -1,11 +1,11 @@
 # application parameters
 rag_app:
-  prompt_label: staging
+  prompt_label: production
   llm: gpt-5-mini
   embedding_model: text-embedding-3-large
   embedding_dimensions: 3072
-  chunk_size: 300
-  chunk_overlap: 25
+  chunk_size: 270
+  chunk_overlap: 30
   tokenizer_encoding: o200k_base
   collection_name: rag_demo
   search_type: similarity

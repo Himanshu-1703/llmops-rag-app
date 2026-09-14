@@ -36,6 +36,7 @@ class DependencyHealthResponse(BaseModel):
 
 class ChatRequest(BaseModel):
     query: str
+    session_id: str | None = None
 
 
 class SerializedDocument(BaseModel):

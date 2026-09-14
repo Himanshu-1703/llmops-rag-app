@@ -71,6 +71,9 @@ def augmentation(state: GuardrailedRAGState) -> dict:
         ("system", system_prompt.prompt),
         ("human", "context: {context}\n\nquery: {query}")
     ])
+    # links the generation this prompt feeds to the Langfuse prompt version,
+    # powering the per-prompt-version metrics in the Langfuse UI
+    prompt.metadata = {"langfuse_prompt": system_prompt}
 
     return {"prompt": prompt}
 
@@ -89,100 +92,135 @@ def generation(state: GuardrailedRAGState) -> dict:
 
 def input_guardrail_node(state: GuardrailedRAGState) -> dict:
     query = state["query"]
-    try:
-        outcome = asyncio.run(validate_input(query))
-    except ValidationError as e:
-        logger.error(f"[input_guardrail] exception: {e}")
-        return {
-            "guardrail_status": "exception",
-            "guardrail_stage": "input",
-            "guardrail_message": str(e),
-        }
+    with langfuse.start_as_current_observation(
+        as_type="guardrail",
+        name="validate-input",
+        input=query,
+    ) as obs:
+        try:
+            outcome = asyncio.run(validate_input(query))
+        except ValidationError as e:
+            logger.error(f"[input_guardrail] exception: {e}")
+            result = {
+                "guardrail_status": "exception",
+                "guardrail_stage": "input",
+                "guardrail_message": str(e),
+            }
+            obs.update(output=result, level="ERROR", status_message=str(e))
+            return result
 
-    if not outcome.validation_passed:
-        logger.warning(f"[input_guardrail] refrain: {outcome.error}")
-        return {
-            "guardrail_status": "refrain",
-            "guardrail_stage": "input",
-            "guardrail_message": outcome.error or "Input failed validation.",
-        }
+        if not outcome.validation_passed:
+            logger.warning(f"[input_guardrail] refrain: {outcome.error}")
+            result = {
+                "guardrail_status": "refrain",
+                "guardrail_stage": "input",
+                "guardrail_message": outcome.error or "Input failed validation.",
+            }
+            obs.update(output=result, level="WARNING", status_message=result["guardrail_message"])
+            return result
 
-    # LLMPII runs with on_fail="fix" -- when it redacts, validated_output
-    # carries the PII-redacted query. Forward it so every downstream node
-    # retrieves and generates against the redacted text, not the raw original.
-    return {
-        "query": outcome.validated_output or query,
-        "guardrail_status": "ok",
-        "guardrail_stage": "input",
-        "guardrail_message": "",
-    }
+        # LLMPII runs with on_fail="fix" -- when it redacts, validated_output
+        # carries the PII-redacted query. Forward it so every downstream node
+        # retrieves and generates against the redacted text, not the raw original.
+        result = {
+            "query": outcome.validated_output or query,
+            "guardrail_status": "ok",
+            "guardrail_stage": "input",
+            "guardrail_message": "",
+        }
+        obs.update(output=result)
+        return result
 
 
 def retrieval_guardrail_node(state: GuardrailedRAGState) -> dict:
     context = state["context"]
 
-    # An empty context (the retriever returned no docs) has nothing to
-    # validate -- and the prompt-injection check would just be a wasted LLM
-    # call -- so short-circuit straight to refrain.
-    if not context.strip():
-        logger.warning("[retrieval_guardrail] refrain: no documents retrieved")
-        return {
-            "guardrail_status": "refrain",
-            "guardrail_stage": "retrieval",
-            "guardrail_message": "No relevant documents were retrieved.",
-        }
+    with langfuse.start_as_current_observation(
+        as_type="guardrail",
+        name="validate-retrieval",
+        input=context,
+    ) as obs:
+        # An empty context (the retriever returned no docs) has nothing to
+        # validate -- and the prompt-injection check would just be a wasted LLM
+        # call -- so short-circuit straight to refrain.
+        if not context.strip():
+            logger.warning("[retrieval_guardrail] refrain: no documents retrieved")
+            result = {
+                "guardrail_status": "refrain",
+                "guardrail_stage": "retrieval",
+                "guardrail_message": "No relevant documents were retrieved.",
+            }
+            obs.update(output=result, level="WARNING", status_message=result["guardrail_message"])
+            return result
 
-    try:
-        outcome = asyncio.run(validate_retrieval(context))
-    except ValidationError as e:
-        logger.error(f"[retrieval_guardrail] exception: {e}")
-        return {
-            "guardrail_status": "exception",
-            "guardrail_stage": "retrieval",
-            "guardrail_message": str(e),
-        }
+        try:
+            outcome = asyncio.run(validate_retrieval(context))
+        except ValidationError as e:
+            logger.error(f"[retrieval_guardrail] exception: {e}")
+            result = {
+                "guardrail_status": "exception",
+                "guardrail_stage": "retrieval",
+                "guardrail_message": str(e),
+            }
+            obs.update(output=result, level="ERROR", status_message=str(e))
+            return result
 
-    if not outcome.validation_passed:
-        logger.warning(f"[retrieval_guardrail] refrain: {outcome.error}")
-        return {
-            "guardrail_status": "refrain",
-            "guardrail_stage": "retrieval",
-            "guardrail_message": outcome.error or "Retrieved context failed validation.",
-        }
+        if not outcome.validation_passed:
+            logger.warning(f"[retrieval_guardrail] refrain: {outcome.error}")
+            result = {
+                "guardrail_status": "refrain",
+                "guardrail_stage": "retrieval",
+                "guardrail_message": outcome.error or "Retrieved context failed validation.",
+            }
+            obs.update(output=result, level="WARNING", status_message=result["guardrail_message"])
+            return result
 
-    return {
-        "guardrail_status": "ok",
-        "guardrail_stage": "retrieval",
-        "guardrail_message": "",
-    }
+        result = {
+            "guardrail_status": "ok",
+            "guardrail_stage": "retrieval",
+            "guardrail_message": "",
+        }
+        obs.update(output=result)
+        return result
 
 
 def output_guardrail_node(state: GuardrailedRAGState) -> dict:
     response = state["response"]
     query = state["query"]
-    try:
-        outcome = asyncio.run(validate_output(response, query=query))
-    except ValidationError as e:
-        logger.error(f"[output_guardrail] exception: {e}")
-        return {
-            "guardrail_status": "exception",
-            "guardrail_stage": "output",
-            "guardrail_message": str(e),
-        }
+    with langfuse.start_as_current_observation(
+        as_type="guardrail",
+        name="validate-output",
+        input={"response": response, "query": query},
+    ) as obs:
+        try:
+            outcome = asyncio.run(validate_output(response, query=query))
+        except ValidationError as e:
+            logger.error(f"[output_guardrail] exception: {e}")
+            result = {
+                "guardrail_status": "exception",
+                "guardrail_stage": "output",
+                "guardrail_message": str(e),
+            }
+            obs.update(output=result, level="ERROR", status_message=str(e))
+            return result
 
-    if not outcome.validation_passed:
-        logger.warning(f"[output_guardrail] refrain: {outcome.error}")
-        return {
-            "guardrail_status": "refrain",
-            "guardrail_stage": "output",
-            "guardrail_message": outcome.error or "Response failed validation.",
-        }
+        if not outcome.validation_passed:
+            logger.warning(f"[output_guardrail] refrain: {outcome.error}")
+            result = {
+                "guardrail_status": "refrain",
+                "guardrail_stage": "output",
+                "guardrail_message": outcome.error or "Response failed validation.",
+            }
+            obs.update(output=result, level="WARNING", status_message=result["guardrail_message"])
+            return result
 
-    return {
-        "guardrail_status": "ok",
-        "guardrail_stage": "output",
-        "guardrail_message": "",
-    }
+        result = {
+            "guardrail_status": "ok",
+            "guardrail_stage": "output",
+            "guardrail_message": "",
+        }
+        obs.update(output=result)
+        return result
 
 
 def guardrail_router(state: GuardrailedRAGState) -> str:

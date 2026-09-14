@@ -19,8 +19,9 @@ services:
     env_file:
       - .env
     environment:
-      - LANGFUSE_TRACING_ENABLED=false
-      - OTEL_SDK_DISABLED=true
+      # Keeps EC2 traces attributed to "production" in Langfuse dashboards,
+      # distinct from local dev traces -- see root docker-compose.yml.
+      - LANGFUSE_TRACING_ENVIRONMENT=production
     restart: unless-stopped
 
   frontend:

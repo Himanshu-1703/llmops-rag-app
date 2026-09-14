@@ -5,6 +5,8 @@ from pathlib import Path
 
 from fastapi import APIRouter, HTTPException, status
 from fastapi.responses import StreamingResponse
+from langfuse import get_client, propagate_attributes
+from langfuse.langchain import CallbackHandler
 
 from app.clients import logger
 from app.rag_workflow_with_guardrails import graph
@@ -13,6 +15,9 @@ from app.vector_store import app_params, vs
 from api.schemas import ChatRequest, UploadedFilesResponse
 
 router = APIRouter(prefix="/chat", tags=["chat"])
+
+langfuse = get_client()
+langfuse_handler = CallbackHandler()
 
 
 def stream_response(text: str) -> Iterator[str]:
@@ -27,15 +32,34 @@ def chat(request: ChatRequest) -> StreamingResponse:
     # input/retrieval/output guardrail nodes wrapped around retrieve ->
     # augmentation -> generation, with canned fallback messages on a trip.
     # The plain graph (app/rag_workflow.py) is kept for evaluation only.
-    try:
-        result = graph.invoke({"query": request.query})
-    except Exception as e:
-        logger.error(f"[chat] graph invocation failed: {e}")
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail="Failed to process chat request.",
-        ) from e
-    response_text = result["response"]
+    #
+    # Root span sets explicit input/output for Langfuse instead of letting
+    # the raw graph state become the trace I/O -- that state carries
+    # non-serializable objects (e.g. ChatPromptTemplate) and internal fields
+    # no one needs to see at the trace level.
+    with langfuse.start_as_current_observation(
+        as_type="span",
+        name="chat-response",
+        input=request.query,
+    ) as root_span:
+        with propagate_attributes(
+            session_id=request.session_id,
+            trace_name="chat-response",
+        ):
+            try:
+                result = graph.invoke(
+                    {"query": request.query},
+                    config={"callbacks": [langfuse_handler], "run_name": "rag-graph"},
+                )
+            except Exception as e:
+                logger.error(f"[chat] graph invocation failed: {e}")
+                root_span.update(level="ERROR", status_message=str(e))
+                raise HTTPException(
+                    status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                    detail="Failed to process chat request.",
+                ) from e
+        response_text = result["response"]
+        root_span.update(output=response_text)
     return StreamingResponse(stream_response(response_text), media_type="text/plain")
 
 

@@ -232,7 +232,7 @@ if prompt := st.chat_input("Ask your doubt…"):
     with st.chat_message("assistant"):
         status = st.status("Generating response…", expanded=False)
         try:
-            response_text = st.write_stream(stream_chat(prompt))
+            response_text = st.write_stream(stream_chat(prompt, active_sid))
             status.update(label="Response generated", state="complete")
         except requests.exceptions.RequestException as e:
             response_text = f"Could not reach the backend: {e}"
