@@ -234,3 +234,6 @@ python-imports-explained.md
 # runner-generated ones.
 reports/evaluation_report/
 reports/evaluation_results/
+
+# Runtime checkpoint for the online eval cron job (per-instance state).
+src/evals/online_evals/eval_checkpoint.json
