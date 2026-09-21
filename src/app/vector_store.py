@@ -1,6 +1,8 @@
 import hashlib
+from collections.abc import Sequence
 
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+from langchain_core.callbacks import Callbacks
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
@@ -33,6 +35,27 @@ vs = Chroma(collection_name=app_params.collection_name,
         persist_directory=VECTOR_STORE_DIR.as_posix())
 
 
+# The stock LLMChainExtractor.compress_documents() calls the compression LLM
+# once per retrieved chunk, one after another. batch() fans the same calls out
+# across a thread pool (context and callbacks propagate), so retrieval waits
+# for the slowest chunk instead of the sum of all of them.
+class ParallelLLMChainExtractor(LLMChainExtractor):
+
+    def compress_documents(
+        self,
+        documents: Sequence[Document],
+        query: str,
+        callbacks: Callbacks | None = None,
+    ) -> Sequence[Document]:
+        inputs = [self.get_input(query, doc) for doc in documents]
+        outputs = self.llm_chain.batch(inputs, config={"callbacks": callbacks})
+        return [
+            Document(page_content=output, metadata=doc.metadata)
+            for doc, output in zip(documents, outputs)
+            if output
+        ]
+
+
 def get_retriever():
     # create the retriever
     retriever = vs.as_retriever(search_type=app_params.search_type,
@@ -41,7 +64,7 @@ def get_retriever():
     if app_params.contextual_compression:
         # compressor
         compression_llm = ChatOpenAI(model=app_params.compression_llm)
-        compressor = LLMChainExtractor.from_llm(compression_llm)
+        compressor = ParallelLLMChainExtractor.from_llm(compression_llm)
 
         # compression retriever
         compression_retriever = ContextualCompressionRetriever(
