@@ -6,14 +6,17 @@ Deploys `src/evals/online_evals/run_online_eval.py` to a separate EC2 instance a
 
 ```
 /opt/campusx-rag/
-├── .env                      # created from Secrets Manager (chmod 600)
-├── venv/                     # Python virtualenv
-├── run_eval.sh               # wrapper called by cron (cd + flock + log)
+├── .env                               # created from Secrets Manager (chmod 600)
+├── .uv-cache/                         # uv package cache (safe to delete)
+├── bin/uv                             # uv, installs Python 3.12 and the libraries
+├── python/                            # Python 3.12, downloaded by uv
+├── venv/                              # Python 3.12 virtualenv
+├── run_eval.sh                        # wrapper called by cron (cd + flock + log)
 └── online-evals/
-    ├── run_online_eval.py    # pulled from S3
-    ├── requirements.txt      # pulled from S3
-    ├── eval_checkpoint.json  # created on first run; do not delete
-    └── cron.log              # script output
+    ├── run_online_eval.py             # pulled from S3
+    ├── requirements-online-evals.txt  # pulled from S3
+    ├── eval_checkpoint.json           # created on first run; do not delete
+    └── cron.log                       # script output
 ```
 
 ## Prerequisites
@@ -25,64 +28,126 @@ Deploys `src/evals/online_evals/run_online_eval.py` to a separate EC2 instance a
 - Secret `api-keys` (region `ap-south-1`) containing `OPENAI_API_KEY`, `LANGFUSE_SECRET_KEY`, `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_BASE_URL`.
 - S3 bucket `campusx-rag-online-evals`.
 
-## 1. Local machine (PowerShell): upload to S3
+## 1. Local machine: upload to S3
 
-The script calls `client.api.observations.get_many(...)`, which depends on the Langfuse SDK version, so pin the same versions used locally.
+The script calls `client.api.observations.get_many(...)`, which depends on the Langfuse SDK version, so pin the same versions used locally. Run these from the repo root.
 
-```powershell
-uv pip freeze | Select-String -Pattern '^(deepeval|langfuse|python-dotenv)==' | ForEach-Object Line | Set-Content requirements.txt
+```bash
+uv pip freeze | grep -E '^(deepeval|langfuse|python-dotenv)==' > requirements-online-evals.txt
 ```
 
-```powershell
-aws s3 cp requirements.txt s3://campusx-rag-online-evals/requirements.txt --region ap-south-1
+It should list three pinned (`==`) lines:
+
+```bash
+cat requirements-online-evals.txt
 ```
 
-```powershell
-aws s3 cp src/evals/online_evals/run_online_eval.py s3://campusx-rag-online-evals/run_online_eval.py --region ap-south-1
+```bash
+aws s3 cp requirements-online-evals.txt s3://campusx-rag-online-evals/ --region ap-south-1
+```
+
+```bash
+aws s3 cp src/evals/online_evals/run_online_eval.py s3://campusx-rag-online-evals/ --region ap-south-1
 ```
 
 ## 2. EC2 (Ubuntu): one-time setup
 
-Paste this whole block. It is safe to re-run.
+For a fresh instance. Log in as your normal user (e.g. `ubuntu`), paste one block at a time, and wait for it to finish before the next. Don't add `sudo` where it isn't shown: a folder or venv created by root can't be written to later, which is what causes `Permission denied` on the venv.
+
+Install packages (`NEEDRESTART_MODE=a` stops Ubuntu's "restart services?" dialog from swallowing what you paste next):
 
 ```bash
-set -e
-R=/opt/campusx-rag
-S3=s3://campusx-rag-online-evals
-REGION=ap-south-1
-
-# packages (+ AWS CLI v2 if missing)
 sudo apt-get update
-sudo apt-get install -y jq unzip cron python3-venv python3-pip
-command -v aws >/dev/null || { curl -s https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip -o /tmp/awscliv2.zip && unzip -q /tmp/awscliv2.zip -d /tmp && sudo /tmp/aws/install; }
+sudo NEEDRESTART_MODE=a apt-get install -y jq unzip cron
+```
 
-# folders (owned by you so the .env redirect works without sudo)
-sudo mkdir -p $R/online-evals
-sudo chown -R $USER:$USER $R
+Install the AWS CLI (skip if `aws --version` already works). The last line deletes the installer files, which take a few hundred MB of `/tmp`; leaving them there can fill `/tmp` and make later installs fail with `Disk quota exceeded`:
 
-# script + libraries
-aws s3 cp $S3/run_online_eval.py $R/online-evals/ --region $REGION
-aws s3 cp $S3/requirements.txt   $R/online-evals/ --region $REGION
-python3 -m venv $R/venv
-$R/venv/bin/pip install -q -r $R/online-evals/requirements.txt
+```bash
+curl -s https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip -o /tmp/awscliv2.zip
+unzip -q /tmp/awscliv2.zip -d /tmp
+sudo /tmp/aws/install
+rm -rf /tmp/aws /tmp/awscliv2.zip
+```
 
-# .env from Secrets Manager
-aws secretsmanager get-secret-value --secret-id api-keys --region $REGION \
+Check the instance's IAM role is attached (should print an ARN):
+
+```bash
+aws sts get-caller-identity
+```
+
+Create the folders, owned by you:
+
+```bash
+sudo mkdir -p /opt/campusx-rag/online-evals
+sudo chown -R "$(id -un):$(id -gn)" /opt/campusx-rag
+```
+
+The owner must be your login user (e.g. `ubuntu`), not `root`. If it says `root`, the venv step below fails with `Permission denied`:
+
+```bash
+ls -ld /opt/campusx-rag
+```
+
+Pull the script and requirements from S3:
+
+```bash
+aws s3 cp s3://campusx-rag-online-evals/run_online_eval.py /opt/campusx-rag/online-evals/ --region ap-south-1
+aws s3 cp s3://campusx-rag-online-evals/requirements-online-evals.txt /opt/campusx-rag/online-evals/ --region ap-south-1
+```
+
+Install [uv](https://docs.astral.sh/uv/) into `/opt/campusx-rag/bin`. Ubuntu's own Python is newer than the 3.12 you develop on, and uv installs 3.12 without a PPA. uv, Python and the package cache all stay under `/opt/campusx-rag`:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | env UV_UNMANAGED_INSTALL=/opt/campusx-rag/bin sh
+```
+
+Create the venv with Python 3.12. uv downloads it the first time; `--clear` replaces any earlier venv:
+
+```bash
+UV_PYTHON_INSTALL_DIR=/opt/campusx-rag/python /opt/campusx-rag/bin/uv venv --clear --python 3.12 /opt/campusx-rag/venv
+```
+
+Install the libraries. It ends with a list of `+ package==version` lines:
+
+```bash
+UV_CACHE_DIR=/opt/campusx-rag/.uv-cache /opt/campusx-rag/bin/uv pip install --python /opt/campusx-rag/venv/bin/python -r /opt/campusx-rag/online-evals/requirements-online-evals.txt
+```
+
+Check the versions. Expect `Python 3.12.x`, then the three pinned lines (`deepeval==4.0.7`, `langfuse==4.14.1`, `python-dotenv==1.2.2`). The venv has no `pip`; use `uv pip` for anything package-related:
+
+```bash
+/opt/campusx-rag/venv/bin/python --version
+```
+
+```bash
+/opt/campusx-rag/bin/uv pip freeze --python /opt/campusx-rag/venv/bin/python | grep -Ei '^(deepeval|langfuse|python-dotenv)=='
+```
+
+Write `.env` from Secrets Manager:
+
+```bash
+aws secretsmanager get-secret-value --secret-id api-keys --region ap-south-1 \
   --query SecretString --output text \
-  | jq -r 'to_entries[] | "\(.key)=\(.value)"' > $R/.env
-chmod 600 $R/.env
+  | jq -r 'to_entries[] | "\(.key)=\(.value)"' > /opt/campusx-rag/.env
+chmod 600 /opt/campusx-rag/.env
+```
 
-# wrapper: cd + no-overlap lock + log
-cat > $R/run_eval.sh <<'EOF'
+Create the wrapper script that cron calls:
+
+```bash
+cat > /opt/campusx-rag/run_eval.sh <<'EOF'
 #!/bin/bash
 cd /opt/campusx-rag/online-evals
 exec /usr/bin/flock -n /tmp/online_eval.lock /opt/campusx-rag/venv/bin/python run_online_eval.py >> cron.log 2>&1
 EOF
-chmod +x $R/run_eval.sh
+chmod +x /opt/campusx-rag/run_eval.sh
+```
 
-# cron every 15 min (won't duplicate on re-run)
-sudo systemctl enable --now cron
-( crontab -l 2>/dev/null | grep -v run_eval.sh; echo '*/15 * * * * /opt/campusx-rag/run_eval.sh' ) | crontab -
+Schedule it every 15 minutes. This replaces the crontab, which is fine on a fresh instance:
+
+```bash
+echo '*/15 * * * * /opt/campusx-rag/run_eval.sh' | crontab -
 ```
 
 What the wrapper and cron line do:
@@ -125,34 +190,16 @@ tail -F /opt/campusx-rag/online-evals/cron.log
 
 ## Troubleshooting
 
-`cron.log` doesn't exist: it is created when the first cron tick (or manual run) executes. Wait for the next quarter-hour, then check:
+`Permission denied` when creating the venv (`[Errno 13] Permission denied: '/opt/campusx-rag/venv'`): your login user doesn't own `/opt/campusx-rag`, usually because the `chown` never ran or something was created with `sudo`. Take ownership back:
 
 ```bash
-systemctl status cron --no-pager
+sudo chown -R "$(id -un):$(id -gn)" /opt/campusx-rag
 ```
+
+Then re-run the "Create the venv" and "Install the libraries" blocks from step 2 (`--clear` replaces a half-built venv).
+
+`Disk quota exceeded` (`OSError: [Errno 122]`, or `tar: … Cannot write`) while installing: installers unpack into `/tmp`, and on a fresh Ubuntu instance it ran out of room, most likely because the AWS CLI installer files were still in it. Delete them and check the free space:
 
 ```bash
-grep CRON /var/log/syslog | tail -20
+rm -rf /tmp/aws /tmp/awscliv2.zip && df -hT /tmp
 ```
-
-If `/var/log/syslog` is missing, use `journalctl -u cron --since "30 min ago" --no-pager`.
-
-```bash
-ls -l /usr/bin/flock
-```
-
-## Updating later
-
-Pull the new script from S3:
-
-```bash
-aws s3 cp s3://campusx-rag-online-evals/run_online_eval.py /opt/campusx-rag/online-evals/ --region ap-south-1
-```
-
-If a secret changed, re-run the `.env` command from step 2. Leave `eval_checkpoint.json` alone — it records where the last run stopped.
-
-## Notes
-
-- **Ingestion lag:** the checkpoint advances to each run's start time, so a trace Langfuse ingests late (with an earlier start time) can be skipped permanently. If you see gaps, subtract a few minutes of overlap from `since` in the script. Scores use `score_id = {trace_id}_{name}`, so re-scoring does not create duplicates.
-- **Long downtime:** after an outage, the next run covers the whole gap and may take a while; `flock` keeps overlapping ticks from piling up.
-- **Log growth:** `cron.log` is never rotated; add a logrotate entry if the instance will live long.
