@@ -1,0 +1,86 @@
+## Script for installing node exporter on EC2 instances
+
+#!/bin/bash
+set -e
+
+NODE_EXPORTER_VERSION="1.12.1"
+
+# dedicated system user — independent of whichever user CodeDeploy uses later
+id -u node_exporter &>/dev/null || useradd --no-create-home --shell /usr/sbin/nologin node_exporter
+
+cd /tmp
+wget -q https://github.com/prometheus/node_exporter/releases/download/v${NODE_EXPORTER_VERSION}/node_exporter-${NODE_EXPORTER_VERSION}.linux-amd64.tar.gz
+tar xzf node_exporter-${NODE_EXPORTER_VERSION}.linux-amd64.tar.gz
+mv node_exporter-${NODE_EXPORTER_VERSION}.linux-amd64/node_exporter /usr/local/bin/node_exporter
+chown node_exporter:node_exporter /usr/local/bin/node_exporter
+rm -rf node_exporter-${NODE_EXPORTER_VERSION}.linux-amd64*
+
+cat >/etc/systemd/system/node_exporter.service <<'EOF'
+[Unit]
+Description=Prometheus Node Exporter
+After=network.target
+
+[Service]
+User=node_exporter
+Group=node_exporter
+Type=simple
+ExecStart=/usr/local/bin/node_exporter
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+systemctl daemon-reload
+systemctl enable node_exporter
+systemctl start node_exporter
+
+------------------------------------------------------------------------------------------------------------------------
+## IAM policy for prometheus
+
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "ec2:DescribeInstances",
+      "Resource": "*"
+    }
+  ]
+}
+
+--------------------------------------------------------------------------------------------------------------------------
+## Install prometheus on another instance --> monitoring instance
+
+wget https://github.com/prometheus/prometheus/releases/download/v3.14.0/prometheus-3.14.0.linux-amd64.tar.gz
+tar xvf prometheus-3.14.0.linux-amd64.tar.gz
+cd prometheus-3.14.0.linux-amd64/
+./prometheus --config.file=prometheus.yml &
+
+--------------------------------------------------------------------------------------------------------------------------
+## Config for prometheus.yml
+
+  - job_name: 'campusx_rag_app_node_exporter'
+    ec2_sd_configs:
+      - region: ap-south-1
+        port: 9100
+        refresh_interval: 60s
+        filters:
+          - name: tag:application_name
+            values: ['campusx_rag_app']
+          - name: instance-state-name
+            values: ['running']
+    relabel_configs:
+      - source_labels: [__meta_ec2_tag_Name]
+        target_label: instance_name
+      - source_labels: [__meta_ec2_instance_id]
+        target_label: instance
+      - source_labels: [__meta_ec2_private_ip]
+        target_label: __address__
+        replacement: '${1}:9100'
+
+-------------------------------------------------------------------------------------------------------------------------------
+## Restart Service
+
+pkill prometheus
+./prometheus --config.file=prometheus.yml &
